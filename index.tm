@@ -5,6 +5,12 @@
 <\body>
   <doc-data|<doc-title|\<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>>>
 
+  <section*|\<#516C\>\<#5171\>\<#6587\>\<#6863\>>
+
+  <\itemize>
+    <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|https://gitee.com/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
+  </itemize>
+
   <section*|\<#58A8\>\<#5BA2\>\<#4E00\>\<#89C8\>>
 
   <\itemize>
@@ -31,6 +37,7 @@
   <\collection>
     <associate|auto-1|<tuple|?|1>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
 
