@@ -4,7 +4,7 @@
 
 <\body>
   <\hide-preamble>
-    <assign|myspace|https://gitee.com/XmacsLabs/planet/raw/main/\<#65E0\>\<#540D\>\<#6E38\>\<#4FA0\>/>
+    <assign|myspace|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#65E0\>\<#540D\>\<#6E38\>\<#4FA0\>/>
 
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
@@ -16,7 +16,7 @@
 
 <\initial>
   <\collection>
-    <associate|page-medium|paper>
+    <associate|page-medium|papyrus>
   </collection>
 </initial>
 
