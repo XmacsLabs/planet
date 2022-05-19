@@ -22,6 +22,8 @@
   <section*|\<#6587\>\<#7AE0\>\<#5217\>\<#8868\>>
 
   <\itemize>
+    <item><gitlink|2021\<#5E74\>\<#6D59\>\<#6C5F\>\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>\<#7B2C\>\<#4E03\>\<#9898\>\<#51FD\>\<#6570\>\<#66F2\>\<#7EBF\>\<#7ED8\>\<#5236\>>
+
     <item><gitlink|\<#5982\>\<#4F55\>\<#8F93\>\<#5165\>\<#5E0C\>\<#814A\>\<#5B57\>\<#6BCD\>>
 
     <item><gitlink|Bash\<#811A\>\<#672C\>\<#57FA\>\<#7840\>>
@@ -39,6 +41,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
     <associate|footnote-1|<tuple|1|?>>
     <associate|footnr-1|<tuple|1|?>>
   </collection>
