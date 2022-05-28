@@ -6,10 +6,13 @@
   <doc-data|<doc-title|All versions of the Mogan Editor>>
 
   <\itemize>
-    <item><hlink|Mogan Editor v1.0.3|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/mogan_v1.0.3.en.tm>
+    <item><hlink|Mogan Editor v1.0.4 with release
+    video|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.en.tm>
+
+    <item><hlink|Mogan Editor v1.0.3|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.3.en.tm>
 
     <item><hlink|Mogan Editor v1.0.2 with release
-    video|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/mogan_v1.0.2.en.tm>
+    video|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.2.en.tm>
   </itemize>
 </body>
 

@@ -8,42 +8,23 @@
   \<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#662F\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#65D7\>\<#4E0B\>\<#7ED3\>\<#6784\>\<#5316\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF0C\>\<#884D\>\<#751F\>\<#81EA\>GNU
   <TeXmacs>\<#3002\>
 
-  \<#5F53\>\<#524D\>\<#6700\>\<#65B0\>\<#7248\>\<#672C\>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#662F\><strong|\<#58A8\>\<#5E72\>V1.0.3><\footnote>
-    https://gitee.com/XmacsLabs/mogan/releases
-  </footnote>\<#FF1A\>
+  \<#5F53\>\<#524D\><hlink|\<#6700\>\<#65B0\>\<#7248\>\<#672C\>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>|https://gitee.com/XmacsLabs/mogan/releases>\<#662F\><strong|\<#58A8\>\<#5E72\>V1.0.4>\<#FF1A\>
 
   <\itemize>
-    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#6240\>\<#6709\>\<#7248\>\<#672C\>|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/mogan_index.zh.tm>
+    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#6240\>\<#6709\>\<#7248\>\<#672C\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
 
-    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|<samp|\<#5F53\>\<#524D\>>\<#7248\>\<#672C\>\<#7684\>\<#66F4\>\<#65B0\>\<#8BB0\>\<#5F55\>|tmfs://help/article/tm/doc/about/mogan.zh.tm>
+    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.4\<#7684\>\<#66F4\>\<#65B0\>\<#8BB0\>\<#5F55\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.zh.tm>
   </itemize>
 
   <section*|\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>>
 
-  <\with|par-columns|2>
-    <\itemize>
-      <item>Bilibili: \<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\><\footnote>
-        https://space.bilibili.com/28058658
-      </footnote>
+  <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|#ffa>|<table|<row|<cell|\<#5E10\>\<#53F7\>>|<cell|\<#5E73\>\<#53F0\>>|<cell|\<#5E10\>\<#53F7\>>|<cell|\<#5E73\>\<#53F0\>>>|<row|<cell|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|<cell|<hlink|Bilibili|https://space.bilibili.com/28058658>>|<cell|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|<cell|\<#540C\>\<#540D\>\<#5FAE\>\<#4FE1\>\<#516C\>\<#4F17\>\<#53F7\>>>|<row|<cell|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|<cell|<hlink|Zhihu|https://www.zhihu.com/people/xmacs>>|<cell|GNU
+  <TeXmacs>\<#4E2D\>\<#6587\>\<#793E\>\<#533A\>>|<cell|QQ\<#7FA4\>:
+  934456971>>|<row|<cell|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|<cell|<hlink|Gitee|https://gitee.com/XmacsLabs/>>|<cell|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>|<cell|\<#901A\>\<#8FC7\>\<#5FAE\>\<#4FE1\>\<#53F7\>XmacsLabs\<#8FDB\>\<#7FA4\>>>>>>>
+    \<#8054\>\<#7CFB\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#548C\>\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>
+  </big-table>
 
-      <item>Zhihu: \<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\><\footnote>
-        https://www.zhihu.com/people/xmacs
-      </footnote>
-
-      <item>\<#5FAE\>\<#4FE1\>\<#516C\>\<#4F17\>\<#53F7\>:
-      \<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>
-
-      <item>\<#5FAE\>\<#4FE1\>\<#53F7\>: XmacsLabs
-
-      <item>QQ\<#7FA4\>: 934456971
-    </itemize>
-  </with>
-
-  <with|font|TeX Gyre Pagella|font-base-size|20|<with|color|red|\<#9A6C\>\<#4E0A\>\<#89C2\>\<#770B\>>>Bilibili<\footnote>
-    https://www.bilibili.com/video/BV1PR4y1P7wi
-  </footnote>\<#6216\>\<#8005\>Zhihu<\footnote>
-    https://www.zhihu.com/zvideo/1508550458033098753
-  </footnote>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.2\<#7684\>\<#53D1\>\<#5E03\>\<#4F1A\>\<#89C6\>\<#9891\>\<#FF0C\>\<#4EE5\>\<#4E86\>\<#89E3\>\<#672C\>\<#6587\>\<#6863\>\<#540E\>\<#9762\>\<#7684\>\<#5185\>\<#5BB9\>\<#3002\>
+  <hrule>
 
   <section*|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
 
@@ -55,12 +36,6 @@
 
   \<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>\<#FF08\><math|\<Rightarrow\>>
   <with|font|AR PL UMing CN|font-base-size|20|<hlink|\<#70B9\>\<#6211\>\<#76F4\>\<#8FBE\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>>\<#FF09\>\<#662F\>\<#58A8\>\<#5BA2\>\<#7684\>\<#6587\>\<#7AE0\>\<#805A\>\<#5408\>\<#FF0C\>\<#4E13\>\<#6CE8\>\<#4E8E\>\<#79D1\>\<#5B66\>\<#6280\>\<#672F\>\<#9886\>\<#57DF\>\<#3002\>
-
-  \<#6587\>\<#7AE0\>\<#7CBE\>\<#9009\>\<#FF1A\>
-
-  <\itemize>
-    <item><hlink|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>\<#FF1A\>\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>/\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>.tm>
-  </itemize>
 
   <section*|\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>>
 
@@ -75,6 +50,8 @@
 
     <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
   </itemize>
+
+  \<#5728\>\<#4E2D\>\<#5B66\>\<#6559\>\<#80B2\>\<#5B9E\>\<#8DF5\>\<#4E2D\>\<#FF0C\>Gnuplot\<#53EF\>\<#7528\>\<#4E8E\>\<#51FD\>\<#6570\>\<#66F2\>\<#7EBF\>\<#7684\>\<#7ED8\>\<#5236\>\<#FF0C\>\<#6B27\>\<#51E0\>\<#91CC\>\<#5F97\>\<#53EF\>\<#7528\>\<#4E8E\>\<#5E73\>\<#9762\>\<#51E0\>\<#4F55\>\<#7684\>\<#7ED8\>\<#5236\>\<#FF0C\>Maxima\<#4F5C\>\<#4E3A\>\<#8BA1\>\<#7B97\>\<#673A\>\<#4EE3\>\<#6570\>\<#7CFB\>\<#7EDF\>\<#53EF\>\<#7528\>\<#4E8E\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>\<#3001\>\<#8868\>\<#8FBE\>\<#5F0F\>\<#81EA\>\<#52A8\>\<#5316\>\<#7B80\>\<#7B49\>\<#6559\>\<#5B66\>\<#9700\>\<#6C42\>\<#3002\>\<#8FD9\>\<#4E09\>\<#4E2A\>\<#8F6F\>\<#4EF6\>\<#5728\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#4E2D\>\<#90FD\>\<#6709\>\<#5BF9\>\<#5E94\>\<#7684\>\<#63D2\>\<#4EF6\>\<#3002\>
 
   <tmdoc-copyright|2020-2022|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
 
