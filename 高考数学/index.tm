@@ -13,6 +13,12 @@
 
   <section*|\<#8BD5\>\<#9898\>\<#5217\>\<#8868\>>
 
+  <subsection*|2022\<#5E74\>>
+
+  <\itemize>
+    <item><gitlink|2022\<#5E74\>\<#6D59\>\<#6C5F\>\<#7701\>\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>\<#8BD5\>\<#9898\>>
+  </itemize>
+
   <subsection*|2021\<#5E74\>>
 
   <\itemize>
@@ -48,6 +54,7 @@
   <\collection>
     <associate|auto-1|<tuple|?|1>>
     <associate|auto-2|<tuple|?|1>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
 
