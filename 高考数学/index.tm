@@ -16,6 +16,20 @@
   <subsection*|2022\<#5E74\>>
 
   <\itemize>
+    <item><gitlink|2022\<#5E74\>\<#5317\>\<#4EAC\>\<#5E02\>\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>\<#8BD5\>\<#9898\>>
+
+    <item><gitlink|2022\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#8003\>\<#7532\>\<#5377\>\<#6570\>\<#5B66\>\<#7406\>\<#79D1\>\<#8BD5\>\<#9898\>>
+
+    <item><gitlink|2022\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#8003\>\<#7532\>\<#5377\>\<#6570\>\<#5B66\>\<#6587\>\<#79D1\>\<#8BD5\>\<#9898\>>
+
+    <item><gitlink|2022\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#8003\>\<#4E59\>\<#5377\>\<#6570\>\<#5B66\>\<#7406\>\<#79D1\>\<#8BD5\>\<#9898\>>
+
+    <item><gitlink|2022\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#8003\>\<#4E59\>\<#5377\>\<#6570\>\<#5B66\>\<#6587\>\<#79D1\>\<#8BD5\>\<#9898\>>
+
+    <item><gitlink|2022\<#5E74\>\<#5168\>\<#56FD\>\<#65B0\>\<#9AD8\>\<#8003\>\<#4E00\>\<#5377\>\<#6570\>\<#5B66\>\<#8BD5\>\<#9898\>>
+
+    <item><gitlink|2022\<#5E74\>\<#5168\>\<#56FD\>\<#65B0\>\<#9AD8\>\<#8003\>\<#4E8C\>\<#5377\>\<#6570\>\<#5B66\>\<#8BD5\>\<#9898\>>
+
     <item><gitlink|2022\<#5E74\>\<#6D59\>\<#6C5F\>\<#7701\>\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>\<#8BD5\>\<#9898\>>
   </itemize>
 
@@ -65,9 +79,13 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|2021\<#5E74\>
+      <with|par-left|<quote|1tab>|2022\<#5E74\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|1tab>|2021\<#5E74\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3>>
     </associate>
   </collection>
 </auxiliary>
