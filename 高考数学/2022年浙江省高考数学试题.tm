@@ -165,7 +165,7 @@
       </cell>>>>
     </wide-tabular>
 
-    <item>\<#5DF2\>\<#77E5\><math|2<rsup|n>=5,log<rsub|4>3=b>\<#FF0C\>\<#5219\><math|4<rsup|n-3b>=>
+    <item>\<#5DF2\>\<#77E5\><math|2<rsup|a>=5,log<rsub|8>3=b>\<#FF0C\>\<#5219\><math|4<rsup|a-3b>=>
 
     <\wide-tabular>
       <tformat|<table|<row|<\cell>
