@@ -19,6 +19,8 @@
     <item><hlink|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>/index.tm>
 
     <item><hlink|\<#65E0\>\<#540D\>\<#6E38\>\<#4FA0\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#65E0\>\<#540D\>\<#6E38\>\<#4FA0\>/index.tm>
+
+    <item><hlink|zhcosin|http://git.tmml.wiki/XmacsLabs/planet/raw/main/zhcosin/index.tm>
   </itemize>
 
   <section*|\<#5982\>\<#4F55\>\<#52A0\>\<#5165\>>
