@@ -1,4 +1,4 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -28,6 +28,8 @@
   <section*|\<#6587\>\<#7AE0\>\<#5217\>\<#8868\>>
 
   <\itemize>
+    <item><gitlink|Git\<#65B0\>\<#7528\>\<#6237\>\<#5E38\>\<#7528\>\<#914D\>\<#7F6E\>>
+
     <item><gitlink|2021\<#5E74\>\<#6D59\>\<#6C5F\>\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>\<#7B2C\>\<#4E03\>\<#9898\>\<#51FD\>\<#6570\>\<#66F2\>\<#7EBF\>\<#7ED8\>\<#5236\>>
 
     <item><gitlink|\<#5982\>\<#4F55\>\<#8F93\>\<#5165\>\<#5E0C\>\<#814A\>\<#5B57\>\<#6BCD\>>
@@ -56,9 +58,13 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6587\>\<#7AE0\>\<#5217\>\<#8868\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#300A\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#300B\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6587\>\<#7AE0\>\<#5217\>\<#8868\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
