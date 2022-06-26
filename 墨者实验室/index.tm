@@ -1,4 +1,4 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -16,6 +16,12 @@
   <\itemize>
     <item><gitlink|\<#8D22\>\<#52A1\>\<#516C\>\<#5F00\>>
   </itemize>
+
+  <section*|\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+
+  <\itemize>
+    <item><gitlink|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+  </itemize>
 </body>
 
 <\initial>
@@ -27,6 +33,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|?|1>>
+    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
 
