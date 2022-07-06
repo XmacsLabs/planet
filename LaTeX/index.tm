@@ -1,4 +1,4 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -10,6 +10,14 @@
   </hide-preamble>
 
   <doc-data|<doc-title|<LaTeX>\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>>>
+
+  \<#7B26\>\<#53F7\>\<#5217\>\<#8868\>\<#4E2D\>\<#5217\>\<#51FA\>\<#6765\>\<#7684\>\<#5FEB\>\<#6377\>\<#952E\>\<#76F8\>\<#5173\>\<#7684\>\<#6E90\>\<#4EE3\>\<#7801\>\<#6587\>\<#4EF6\>\<#7F57\>\<#5217\>\<#5982\>\<#4E0B\>\<#FF0C\>\<#70B9\>\<#51FB\>\<#5373\>\<#53EF\>\<#67E5\>\<#770B\>\<#8FD9\>\<#4E9B\>\<#53EA\>\<#8BFB\>\<#6587\>\<#4EF6\>\<#FF1A\>
+
+  <\itemize>
+    <item><slink|$TEXMACS_PATH/progs/text/text-kbd.scm>
+
+    <item><slink|$TEXMACS_PATH/progs/math/math-kbd.scm>
+  </itemize>
 
   <section*|\<#7B26\>\<#53F7\>\<#5217\>\<#8868\>>
 
@@ -26,7 +34,7 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|1|../../../.Xmacs/texts/scratch/no_name_2.tm>>
+    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
   </collection>
 </references>
 

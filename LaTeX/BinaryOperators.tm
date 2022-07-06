@@ -1,4 +1,4 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|<tuple|beamer|chinese|doc>>
 
@@ -6,7 +6,26 @@
   <screens|<\shown>
     <tit|Binary Operators>
 
-    <\big-table*|<tabular|<tformat|<table|<row|<cell|<math|\<amalg\>>>|<cell|<markup|\\amalg>>|<cell|<math|\<cup\>>>|<cell|<markup|\\cup>>|<cell|<math|\<oplus\>>>|<cell|<markup|\\oplus>>|<cell|<math|\<times\>>>|<cell|<markup|\\times>>>|<row|<cell|>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|>|<cell|>|<cell|<key|@><key|+>>|<cell|>|<cell|>>|<row|<cell|<math|\<ast\>>>|<cell|<markup|\\ast>>|<cell|<math|\<dagger\>>>|<cell|<markup|\\dagger>>|<cell|<math|\<oslash\>>>|<cell|<markup|\\oslash>>|<cell|<math|\<triangleleft\>>>|<cell|<markup|\\triangleleft>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<bigcirc\>>>|<cell|<markup|\\bigcirc>>|<cell|<math|\<ddagger\>>>|<cell|<markup|\\ddagger>>|<cell|<math|\<otimes\>>>|<cell|<markup|\\otimes>>|<cell|<math|\<triangleright\>>>|<cell|<markup|\\triangleright>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<bigtriangledown\>>>|<cell|<markup|\\bigtriangledown>>|<cell|<math|\<diamond\>>>|<cell|<markup|\\diamond>>|<cell|<math|\<pm\>>>|<cell|<markup|\\pm>>|<cell|<math|\<trianglelefteq\>>>|<cell|<todo|\\unlhd*>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<bigtriangleup\>>>|<cell|<markup|\\bigtriangleup>>|<cell|<math|\<div\>>>|<cell|<markup|\\div>>|<cell|<math|\<vartriangleright\>>>|<cell|<todo|\\rhd*>>|<cell|<math|\<trianglerighteq\>>>|<cell|<todo|\\unrhd*>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<bullet\>>>|<cell|<markup|\\bullet>>|<cell|<math|\<vartriangleleft\>>>|<cell|<todo|\\lhd*>>|<cell|<math|\<setminus\>>>|<cell|<markup|\\setminus>>|<cell|<math|\<uplus\>>>|<cell|<markup|\\uplus>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<cap\>>>|<cell|<markup|\\cap>>|<cell|<math|\<mp\>>>|<cell|<markup|\\mp>>|<cell|<math|\<sqcap\>>>|<cell|<markup|\\sqcap>>|<cell|<math|\<vee\>>>|<cell|<markup|\\vee>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<cdot\>>>|<cell|<markup|\\cdot>>|<cell|<math|\<odot\>>>|<cell|<markup|\\odot>>|<cell|<math|\<sqcup\>>>|<cell|<markup|\\sqcup>>|<cell|<math|\<wedge\>>>|<cell|<markup|\\wedge>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<circ\>>>|<cell|<markup|\\circ>>|<cell|<math|\<ominus\>>>|<cell|<markup|\\ominus>>|<cell|<math|\<star\>>>|<cell|<markup|\\star>>|<cell|<math|\<wr\>>>|<cell|<markup|\\wr>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+    <\big-table*|<tabular|<tformat|<table|<row|<cell|<math|\<amalg\>>>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|<math|\<cup\>>>|<cell|<key|%
+    var>>|<cell|>|<cell|<math|\<oplus\>>>|<cell|<key|@><key|+>>|<cell|>|<cell|<math|\<times\>>>|<cell|<key|*
+    tab>>|<cell|>>|<row|<cell|>|<cell|<markup|\\amalg>>|<cell|>|<cell|>|<cell|<markup|\\cup>>|<cell|>|<cell|>|<cell|<markup|\\oplus>>|<cell|>|<cell|>|<cell|<markup|\\times>>|<cell|>>|<row|<cell|<math|\<ast\>>>|<cell|<key|*
+    var var>>|<cell|>|<cell|<math|\<dagger\>>>|<cell|>|<cell|>|<cell|<math|\<oslash\>>>|<cell|<compound|markup|><key|@
+    / var>>|<cell|>|<cell|<math|\<triangleleft\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\ast>>|<cell|>|<cell|>|<cell|<math|><markup|\\dagger>>|<cell|>|<cell|>|<cell|<markup|\\oslash>>|<cell|>|<cell|>|<cell|<markup|\\triangleleft>>|<cell|>>|<row|<cell|<math|\<bigcirc\>>>|<cell|>|<cell|>|<cell|<math|\<ddagger\>>>|<cell|>|<cell|>|<cell|<math|\<otimes\>>>|<cell|<key|@
+    *>>|<cell|>|<cell|<math|\<triangleright\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigcirc>>|<cell|>|<cell|>|<cell|<markup|\\ddagger>>|<cell|>|<cell|>|<cell|<markup|\\otimes>>|<cell|>|<cell|>|<cell|<markup|\\triangleright>>|<cell|>>|<row|<cell|<math|\<bigtriangledown\>>>|<cell|>|<cell|>|<cell|<math|\<diamond\>>>|<cell|>|<cell|>|<cell|<math|\<pm\>>>|<cell|<key|+
+    ->>|<cell|>|<cell|<math|\<trianglelefteq\>>>|<cell|<key|\<less\> \| var =
+    var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigtriangledown>>|<cell|>|<cell|>|<cell|<markup|\\diamond>>|<cell|>|<cell|>|<cell|<markup|\\pm>>|<cell|>|<cell|>|<cell|<todo|\\unlhd*>>|<cell|>>|<row|<cell|<math|\<bigtriangleup\>>>|<cell|>|<cell|>|<cell|<math|\<div\>>>|<cell|<key|/
+    var var>>|<cell|>|<cell|<math|\<vartriangleright\>>>|<cell|<key|\|
+    \<gtr\> var>>|<cell|>|<cell|<math|\<trianglerighteq\>>>|<cell|<key|\|
+    \<gtr\> var = var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigtriangleup>>|<cell|>|<cell|>|<cell|<markup|\\div>>|<cell|>|<cell|>|<cell|<todo|\\rhd*>>|<cell|>|<cell|>|<cell|<todo|\\unrhd*>>|<cell|>>|<row|<cell|<math|\<bullet\>>>|<cell|>|<cell|>|<cell|<math|\<vartriangleleft\>>>|<cell|<key|\<less\>
+    \| var>>|<cell|>|<cell|<math|\<setminus\>>>|<cell|>|<cell|>|<cell|<math|\<uplus\>>>|<cell|<key|%
+    var +>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bullet>>|<cell|>|<cell|>|<cell|<todo|\\lhd*>>|<cell|>|<cell|>|<cell|<markup|\\setminus>>|<cell|>|<cell|>|<cell|<markup|\\uplus>>|<cell|>>|<row|<cell|<math|\<cap\>>>|<cell|<key|&
+    var>>|<cell|>|<cell|<math|\<mp\>>>|<cell|<key|-
+    +>>|<cell|>|<cell|<math|\<sqcap\>>>|<cell|<key|& var
+    var>>|<cell|>|<cell|<math|\<vee\>>>|<cell|<key|%>>|<cell|>>|<row|<cell|>|<cell|<markup|\\cap>>|<cell|>|<cell|>|<cell|<markup|\\mp>>|<cell|>|<cell|>|<cell|<markup|\\sqcap>>|<cell|>|<cell|>|<cell|<markup|\\vee>>|<cell|>>|<row|<cell|<math|\<cdot\>>>|<cell|<key|*
+    var var var>>|<cell|>|<cell|<math|\<odot\>>>|<cell|<key|@
+    .><math|>>|<cell|>|<cell|<math|\<sqcup\>>>|<cell|<key|% var
+    var>>|<cell|>|<cell|<math|\<wedge\>>>|<cell|<key|&>>|<cell|>>|<row|<cell|>|<cell|<markup|\\cdot>>|<cell|>|<cell|>|<cell|<markup|\\odot>>|<cell|>|<cell|>|<cell|<markup|\\sqcup>>|<cell|>|<cell|>|<cell|<markup|\\wedge>>|<cell|>>|<row|<cell|<math|\<circ\>>>|<cell|<key|@>>|<cell|>|<cell|<math|\<ominus\>>>|<cell|<key|@
+    ->>|<cell|>|<cell|<math|\<star\>>>|<cell|<key|*><key|Shift+Tab>>|<cell|>|<cell|<math|\<wr\>>>|<cell|>|<cell|>>|<row|<cell|<markup|>>|<cell|<markup|\\circ>>|<cell|>|<cell|>|<cell|<markup|\\ominus>>|<cell|>|<cell|>|<cell|<markup|\\star>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>>>>>
       \<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>
     </big-table*>
   </shown>>
