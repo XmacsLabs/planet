@@ -1,4 +1,4 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -8,6 +8,8 @@
   <section*|\<#516C\>\<#5171\>\<#6587\>\<#6863\>>
 
   <\itemize>
+    <item><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>/index.tm>\<#FF1A\>\<#4ECE\>\<#5165\>\<#95E8\>\<#5230\>\<#7CBE\>\<#901A\>
+
     <item><hlink|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>/index.tm>
 
     <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
