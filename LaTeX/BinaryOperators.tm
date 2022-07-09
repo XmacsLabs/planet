@@ -1,12 +1,10 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|<tuple|beamer|chinese|doc>>
 
 <\body>
   <screens|<\shown>
     <tit|Binary Operators>
-
-    \;
 
     <\big-table*|<tabular|<tformat|<table|<row|<cell|<math|\<amalg\>>>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|<math|\<cup\>>>|<cell|<key|%
     var>>|<cell|>|<cell|<math|\<oplus\>>>|<cell|<key|@><key|+>>|<cell|>|<cell|<math|\<times\>>>|<cell|<key|*
@@ -17,14 +15,14 @@
     var var var>>|<cell|>|<cell|<math|\<otimes\>>>|<cell|<key|@
     *>>|<cell|>|<cell|<math|\<triangleright\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigcirc>>|<cell|>|<cell|>|<cell|<markup|\\ddagger>>|<cell|>|<cell|>|<cell|<markup|\\otimes>>|<cell|>|<cell|>|<cell|<markup|\\triangleright>>|<cell|>>|<row|<cell|<math|\<bigtriangledown\>>>|<cell|>|<cell|>|<cell|<math|\<diamond\>>>|<cell|>|<cell|>|<cell|<math|\<pm\>>>|<cell|<key|+
     ->>|<cell|>|<cell|<math|\<trianglelefteq\>>>|<cell|<key|\<less\> \| var =
-    var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigtriangledown>>|<cell|>|<cell|>|<cell|<markup|\\diamond>>|<cell|>|<cell|>|<cell|<markup|\\pm>>|<cell|>|<cell|>|<cell|<todo|\\unlhd*>>|<cell|>>|<row|<cell|<math|\<bigtriangleup\>>>|<cell|>|<cell|>|<cell|<math|\<div\>>>|<cell|<key|/
+    var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigtriangledown>>|<cell|>|<cell|>|<cell|<markup|\\diamond>>|<cell|>|<cell|>|<cell|<markup|\\pm>>|<cell|>|<cell|>|<cell|<todo|\\unlhd>>|<cell|>>|<row|<cell|<math|\<bigtriangleup\>>>|<cell|>|<cell|>|<cell|<math|\<div\>>>|<cell|<key|/
     var var>>|<cell|>|<cell|<math|\<vartriangleright\>>>|<cell|<key|\|
     \<gtr\> var>>|<cell|>|<cell|<math|\<trianglerighteq\>>>|<cell|<key|\|
-    \<gtr\> var = var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigtriangleup>>|<cell|>|<cell|>|<cell|<markup|\\div>>|<cell|>|<cell|>|<cell|<todo|\\rhd*>>|<cell|>|<cell|>|<cell|<todo|\\unrhd*>>|<cell|>>|<row|<cell|<math|\<bullet\>>>|<cell|<key|@
+    \<gtr\> var = var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigtriangleup>>|<cell|>|<cell|>|<cell|<markup|\\div>>|<cell|>|<cell|>|<cell|<todo|\\rhd>>|<cell|>|<cell|>|<cell|<todo|\\unrhd>>|<cell|>>|<row|<cell|<math|\<bullet\>>>|<cell|<key|@
     var var>>|<cell|>|<cell|<math|\<vartriangleleft\>>>|<cell|<key|\<less\>
     \| var>>|<cell|>|<cell|<math|\<setminus\>>>|<cell|<key|\\ var
     var>>|<cell|>|<cell|<math|\<uplus\>>>|<cell|<key|% var
-    +>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bullet>>|<cell|>|<cell|>|<cell|<todo|\\lhd*>>|<cell|>|<cell|>|<cell|<markup|\\setminus>>|<cell|>|<cell|>|<cell|<markup|\\uplus>>|<cell|>>|<row|<cell|<math|\<cap\>>>|<cell|<key|&
+    +>>|<cell|>>|<row|<cell|>|<cell|<markup|\\bullet>>|<cell|>|<cell|>|<cell|<todo|\\lhd>>|<cell|>|<cell|>|<cell|<markup|\\setminus>>|<cell|>|<cell|>|<cell|<markup|\\uplus>>|<cell|>>|<row|<cell|<math|\<cap\>>>|<cell|<key|&
     var>>|<cell|>|<cell|<math|\<mp\>>>|<cell|<key|-
     +>>|<cell|>|<cell|<math|\<sqcap\>>>|<cell|<key|& var
     var>>|<cell|>|<cell|<math|\<vee\>>>|<cell|<key|%>>|<cell|>>|<row|<cell|>|<cell|<markup|\\cap>>|<cell|>|<cell|>|<cell|<markup|\\mp>>|<cell|>|<cell|>|<cell|<markup|\\sqcap>>|<cell|>|<cell|>|<cell|<markup|\\vee>>|<cell|>>|<row|<cell|<math|\<cdot\>>>|<cell|<key|*
@@ -45,7 +43,7 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/BinaryOperators.tm>>
+    <associate|auto-1|<tuple|?|1>>
   </collection>
 </references>
 
