@@ -21,6 +21,8 @@
 
   <\itemize>
     <item><gitlink|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+
+    <item><gitlink|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
   </itemize>
 </body>
 
@@ -43,6 +45,10 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6587\>\<#6863\>\<#5217\>\<#8868\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
