@@ -25,6 +25,8 @@
     <item><gitlink|BinaryOperators>
 
     <item><gitlink|AMSBinaryOperators>
+
+    <item><gitlink|StixBinaryOperators>
   </itemize>
 </body>
 
