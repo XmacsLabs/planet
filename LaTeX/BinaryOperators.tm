@@ -4,7 +4,9 @@
 
 <\body>
   <screens|<\shown>
-    <tit|Binary Operators>
+    <tit|Table 50: Binary Operators>
+
+    \;
 
     <\big-table*|<tabular|<tformat|<table|<row|<cell|<math|\<amalg\>>>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|<math|\<cup\>>>|<cell|<key|%
     var>>|<cell|>|<cell|<math|\<oplus\>>>|<cell|<key|@><key|+>>|<cell|>|<cell|<math|\<times\>>>|<cell|<key|*
