@@ -15,7 +15,7 @@
     &>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\barwedge>>|<cell|>|<cell|>|<cell|<todo|\\intprodr>>|<cell|>|<cell|>|<cell|<todo|\\timesbar>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\bigslopedvee>>|<cell|>|<cell|>|<cell|<todo|\\invlazys>>|<cell|>|<cell|>|<cell|<todo|\\tminus>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|\<leftthreetimes\>>|<cell|<key|T
     tab tab tab tab>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\bigslopedwedge>>|<cell|>|<cell|>|<cell|<markup|\\leftthreetimes>>|<cell|>|<cell|>|<cell|<todo|\\tplus>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\btimes>>|<cell|>|<cell|>|<cell|<todo|\\lhd>>|<cell|>|<cell|>|<cell|<todo|\\tripleplus>>|<cell|>>|<row|<cell|\<cap\>>|<cell|<key|&
     tab>>|<cell|>|<cell|\<ltimes\>>|<cell|<key|\| tab
-    *>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\cap>>|<cell|>|<cell|>|<cell|<todo|\\ltimes>>|<cell|>|<cell|>|<cell|<todo|\\trslash>>|<cell|>>>>>>
+    *>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\cap>>|<cell|>|<cell|>|<cell|<markup|\\ltimes>>|<cell|>|<cell|>|<cell|<todo|\\trslash>>|<cell|>>|<row|<cell|\<Cap\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\Cap>>|<cell|>|<cell|>|<cell|<todo|\\midbarvee>>|<cell|>|<cell|>|<cell|<todo|\\twocaps>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\capbarcup>>|<cell|>|<cell|>|<cell|<todo|\\midbarwedge>>|<cell|>|<cell|>|<cell|<todo|\\twocups>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\capdot>>|<cell|>|<cell|>|<cell|<todo|\\minusdot>>|<cell|>|<cell|>|<cell|<todo|\\typecolon>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\capovercup>>|<cell|>|<cell|>|<cell|<todo|\\minusfdots>>|<cell|>|<cell|>|<cell|<todo|\\uminus>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\capwedge>>|<cell|>|<cell|>|<cell|<todo|\\minusrdots>>|<cell|>|<cell|>|<cell|<todo|\\unlhd>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|\<mp\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\closedvarcap>>|<cell|>|<cell|>|<cell|<markup|\\mp>>|<cell|>|<cell|>|<cell|<todo|\\unrhd>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\closedvarcup>>|<cell|>|<cell|>|<cell|<todo|\\nhVvert>>|<cell|>|<cell|>|<cell|<todo|\\upand>>|<cell|>>>>>>
       Stix\<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
     </big-table*>
 
@@ -34,7 +34,7 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-1|<tuple|?|2>>
   </collection>
 </references>
 
