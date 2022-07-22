@@ -15,6 +15,8 @@
     <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
 
     <item><hlink|LaTeX\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/index.tm>
+
+    <item><hlink|\<#56FD\>\<#9645\>\<#6570\>\<#5B66\>\<#5965\>\<#6797\>\<#5339\>\<#514B\>\<#7ADE\>\<#8D5B\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/index.tm>
   </itemize>
 
   <section*|\<#58A8\>\<#5BA2\>\<#4E00\>\<#89C8\>>
