@@ -1,6 +1,6 @@
 <TeXmacs|2.1.3>
 
-<style|<tuple|seminar|chinese|doc>>
+<style|<tuple|seminar|chinese|doc|number-europe>>
 
 <\body>
   <doc-data|<doc-title|第四次研讨会>>
@@ -9,6 +9,14 @@
 
   <section*|(15m) 用户反馈和新成员介绍>
 
+  本次研讨会有两位新用户。
+
+  <\itemize>
+    <item>打开一个指向文档的链接，如果该文档不存在，没有直接提示，直接返回了空白文档。
+  </itemize>
+
+  \;
+
   <section*|(30min) 固定话题：中文文档默认样式以及如何引用参考文献>
 
   <subsection|引用参考文献>
@@ -16,18 +24,38 @@
   <\itemize>
     <item>由熟悉如何引用参考文献的成员展示一下操作
 
+    <\itemize>
+      <item>两种方法
+    </itemize>
+
     <item>讨论其中需要改进的细节
+
+    <\itemize>
+      <item>参考文献的排序
+
+      <item>参考文献的默认样式
+
+      <item>参考文献的归并
+    </itemize>
   </itemize>
 
-  <subsection|调整<menu|Insert|Enuncation>的默认排版>
+  <subsection|调整 <menu|Insert|Enuncation> 的默认排版>
 
   <\itemize>
     <item><menu|Insert|Enunciation>下面的各种环境的默认排版是否合理？
 
     <item>Enunciation翻译为说明是否合理？
 
+    LaTeX里面的设置。
+
     <item>默认的编号是否合理？
+
+    \;
+
+    先把光标置于定理等环境中，然后使用扳手，使用欧洲的编号风格。
   </itemize>
+
+  <compound|markup|>
 
   <\theorem>
     这是一个定理。
@@ -114,33 +142,45 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|?|第三次研讨会.tm>>
-    <associate|auto-2|<tuple|?|?|第三次研讨会.tm>>
-    <associate|auto-3|<tuple|1|?|第三次研讨会.tm>>
-    <associate|auto-4|<tuple|2|?|第三次研讨会.tm>>
-    <associate|auto-5|<tuple|12|?|第三次研讨会.tm>>
-    <associate|auto-6|<tuple|1|?|第三次研讨会.tm>>
-    <associate|auto-7|<tuple|2|?|第三次研讨会.tm>>
-    <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|?|第三次研讨会.tm>>
-    <associate|auto-9|<tuple|12|?|第三次研讨会.tm>>
+    <associate|auto-1|<tuple|?|?>>
+    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-3|<tuple|1|?>>
+    <associate|auto-4|<tuple|2|?>>
+    <associate|auto-7|<tuple|2|?>>
+    <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-9|<tuple|1|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
+    <\associate|idx>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|Enuncation>>|<pageref|auto-7>>
+
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|说明>>|<pageref|auto-8>>
+    </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(15m)
       用户反馈和新成员介绍> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(30min)
-      固定话题：墨干V1.1.0发布计划>
+      固定话题：中文文档默认样式以及如何引用参考文献>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
+      <with|par-left|<quote|1tab>|1<space|2spc>引用参考文献
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3>>
+
+      <with|par-left|<quote|1tab>|2<space|2spc>调整
+      <with|font-family|<quote|ss>|插入><with|mode|<quote|math>|\<rightarrow\>><with|font-family|<quote|ss>|Enuncation><assign|auto-nr|5><write|idx|<tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|Enuncation>>|<pageref|auto-5>>>
+      的默认排版 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5>>
+
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|自由讨论>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3><vspace|0.5fn>
+      <no-break><pageref|auto-9><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
