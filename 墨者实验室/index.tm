@@ -11,7 +11,7 @@
 
   <doc-data|<doc-title|墨者实验室>>
 
-  Please use <hlink|Mogan v1.1.0 beta|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0-beta>
+  Please use <hlink|Mogan v1.1.0 beta2|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0-beta2>
   if you are viewing this document with messy code (They should be Chinese
   characters).
 
@@ -24,11 +24,13 @@
   <section*|会议记录>
 
   <\itemize>
-    <item><gitlink|第一次研讨会>
+    <item><gitlink|第四次研讨会>
+
+    <item><gitlink|第三次研讨会>
 
     <item><gitlink|第二次研讨会>
 
-    <item><gitlink|第三次研讨会>
+    <item><gitlink|第一次研讨会>
   </itemize>
 </body>
 
