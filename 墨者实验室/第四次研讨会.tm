@@ -13,9 +13,13 @@
 
   <\itemize>
     <item>打开一个指向文档的链接，如果该文档不存在，没有直接提示，直接返回了空白文档。
+
+    <item>转到-\<gtr\>后退 这个功能有问题
   </itemize>
 
   \;
+
+  翻译的时候为了保证所采用的翻译一致，可以使用<markup|translate>。比如我们可以用<inactive|<translate|insert|english|chinese>>来表示<translate|insert|english|chinese>，这样在insert的翻译发生变化的时候，在文档中的中文可以跟着变化。
 
   <section*|(30min) 固定话题：中文文档默认样式以及如何引用参考文献>
 
