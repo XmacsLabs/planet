@@ -1,9 +1,15 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.3>
 
 <style|<tuple|tmdoc|old-spacing|old-dots|old-lengths|british>>
 
 <\body>
   <tmdoc-title|Welcome to Mogan Editor>
+
+  <\warning*>
+    Please use <hlink|Mogan v1.1.0 beta5|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0-beta5>
+    if you are viewing this document with messy code (They should be Chinese
+    characters).
+  </warning*>
 
   Mogan Editor is a structure editor forked from GNU <TeXmacs>. It is a Xmacs
   Labs product.
@@ -25,15 +31,15 @@
 
   <\with|par-columns|2>
     <\itemize>
-      <item>Bilibili: \<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\><\footnote>
+      <item>Bilibili: 沈浪熊猫儿<\footnote>
         https://space.bilibili.com/28058658
       </footnote>
 
-      <item>Zhihu: \<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\><\footnote>
+      <item>Zhihu: 墨干编辑器<\footnote>
         https://www.zhihu.com/people/xmacs
       </footnote>
 
-      <item>Public Wechat Account: \<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>
+      <item>Public Wechat Account: 墨者实验室
 
       <item>Wechat Account: XmacsLabs
 
@@ -64,24 +70,24 @@
   is an aggregation of <TeXmacs> documents submitted by Xmacs Users. The
   topic of Xmacs Planet focuses on Science and Technology.
 
-  Selected <TeXmacs> documents\<#FF1A\>
+  Selected <TeXmacs> documents：
 
   <\itemize>
-    <item><hlink|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>\<#FF1A\>\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>/\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>.tm>
+    <item><hlink|沈浪熊猫儿：定制快捷键快速输入以1为分子的分式|http://git.tmml.wiki/XmacsLabs/planet/raw/main/沈浪熊猫儿/定制快捷键快速输入以1为分子的分式.tm>
   </itemize>
 
   <section*|TMML WIKI>
 
-  WIP, here is one of the demo entry <hlink|\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>|https://gitee.com/XmacsLabs/tmmlwiki/raw/main/\<#6570\>\<#5B66\>/\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>.tm>.
+  WIP, here is one of the demo entry <hlink|等差数列|https://gitee.com/XmacsLabs/tmmlwiki/raw/main/数学/等差数列.tm>.
 
   <section*|Education in High School>
 
   Here are demo documents for education purpose in high school:
 
   <\itemize>
-    <item><hlink|2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>.tm>
+    <item><hlink|2019年全国高中数学联合竞赛一试试题A卷|http://git.tmml.wiki/XmacsLabs/planet/raw/c029037c2f11ec60cfebee2afbd74ceeddc74a4b/doc/2019年全国高中数学联合竞赛一试试题A卷.tm>
 
-    <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
+    <item><hlink|高考数学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/高考数学/index.tm>
   </itemize>
 
   <tmdoc-copyright|2020\U2022|<name|Xmacs> Labs>

@@ -1,59 +1,64 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.3>
 
 <style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths>>
 
 <\body>
-  <tmdoc-title|\<#6B22\>\<#8FCE\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>
+  <tmdoc-title|欢迎使用墨干编辑器>
 
-  \<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#662F\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#65D7\>\<#4E0B\>\<#7ED3\>\<#6784\>\<#5316\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF0C\>\<#884D\>\<#751F\>\<#81EA\>GNU
-  <TeXmacs>\<#3002\>
+  <\warning*>
+    Please use <hlink|Mogan v1.1.0 beta5|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.0-beta5>
+    if you are viewing this document with messy code (They should be Chinese
+    characters).
+  </warning*>
 
-  \<#5F53\>\<#524D\><hlink|\<#6700\>\<#65B0\>\<#7248\>\<#672C\>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>|https://gitee.com/XmacsLabs/mogan/releases>\<#662F\><strong|\<#58A8\>\<#5E72\>V1.0.4>\<#FF1A\>
+  墨干编辑器是墨者实验室旗下结构化编辑器，衍生自GNU
+  <TeXmacs>。
+
+  当前<hlink|最新版本的墨干编辑器|https://gitee.com/XmacsLabs/mogan/releases>是<strong|墨干V1.0.4>：
 
   <\itemize>
-    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#6240\>\<#6709\>\<#7248\>\<#672C\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
+    <math|\<Longrightarrow\>> 查看<hlink|墨干编辑器所有版本|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
 
-    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.4\<#7684\>\<#66F4\>\<#65B0\>\<#8BB0\>\<#5F55\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.zh.tm>
+    <math|\<Longrightarrow\>> 查看<hlink|墨干编辑器V1.0.4的更新记录|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.zh.tm>
   </itemize>
 
-  <section*|\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>>
+  <section*|联系我们>
 
-  <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|#ffa>|<table|<row|<cell|\<#5E10\>\<#53F7\>>|<cell|\<#5E73\>\<#53F0\>>|<cell|\<#5E10\>\<#53F7\>>|<cell|\<#5E73\>\<#53F0\>>>|<row|<cell|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|<cell|<hlink|Bilibili|https://space.bilibili.com/28058658>>|<cell|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|<cell|\<#540C\>\<#540D\>\<#5FAE\>\<#4FE1\>\<#516C\>\<#4F17\>\<#53F7\>>>|<row|<cell|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|<cell|<hlink|Zhihu|https://www.zhihu.com/people/xmacs>>|<cell|GNU
-  <TeXmacs>\<#4E2D\>\<#6587\>\<#793E\>\<#533A\>>|<cell|QQ\<#7FA4\>:
-  934456971>>|<row|<cell|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|<cell|<hlink|Gitee|https://gitee.com/XmacsLabs/>>|<cell|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>|<cell|\<#901A\>\<#8FC7\>\<#5FAE\>\<#4FE1\>\<#53F7\>XmacsLabs\<#8FDB\>\<#7FA4\>>>>>>>
-    \<#8054\>\<#7CFB\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#548C\>\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>
+  <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|#ffa>|<table|<row|<cell|帐号>|<cell|平台>|<cell|帐号>|<cell|平台>>|<row|<cell|沈浪熊猫儿>|<cell|<hlink|Bilibili|https://space.bilibili.com/28058658>>|<cell|墨者实验室>|<cell|同名微信公众号>>|<row|<cell|墨干编辑器>|<cell|<hlink|Zhihu|https://www.zhihu.com/people/xmacs>>|<cell|GNU
+  <TeXmacs>中文社区>|<cell|QQ群: 934456971>>|<row|<cell|墨者实验室>|<cell|<hlink|Gitee|https://gitee.com/XmacsLabs/>>|<cell|墨客社区>|<cell|通过微信号XmacsLabs进群>>>>>>
+    联系墨者实验室和沈浪熊猫儿
   </big-table>
 
   <hrule>
 
-  <section*|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+  <section*|墨者实验室>
 
-  \<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#662F\>\<#975E\>\<#8425\>\<#5229\>\<#7684\>\<#FF0C\>\<#5173\>\<#6CE8\>\<#79D1\>\<#6280\>\<#53D1\>\<#5C55\>\<#7684\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#3002\>\<#6211\>\<#4EEC\>\<#4EE5\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#548C\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#4E3A\>\<#8F7D\>\<#4F53\>\<#FF0C\>\<#666E\>\<#53CA\>\<#79D1\>\<#6280\>\<#77E5\>\<#8BC6\>\<#3002\>
+  墨者实验室是非营利的，关注科技发展的实验室。我们以墨干编辑器和墨者百科为载体，普及科技知识。
 
-  \<#6240\>\<#6709\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7684\>\<#7528\>\<#6237\>\<#90FD\>\<#662F\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#7684\>\<#8D21\>\<#732E\>\<#8005\>\<#FF0C\>\<#79F0\>\<#4E4B\>\<#4E3A\><strong|\<#58A8\>\<#5BA2\>>\<#3002\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7684\>\<#5F00\>\<#53D1\>\<#8005\>\<#548C\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#7684\>\<#7F16\>\<#8F91\>\<#8005\>\<#FF0C\>\<#79F0\>\<#4E4B\>\<#4E3A\><strong|\<#58A8\>\<#8005\>>\<#3002\>
+  所有使用墨干编辑器的用户都是墨者实验室的贡献者，称之为<strong|墨客>。墨干编辑器的开发者和墨者百科的编辑者，称之为<strong|墨者>。
 
-  <section*|\<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>>
+  <section*|墨客星球>
 
-  \<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>\<#FF08\><math|\<Rightarrow\>>
-  <with|font|AR PL UMing CN|font-base-size|20|<hlink|\<#70B9\>\<#6211\>\<#76F4\>\<#8FBE\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>>\<#FF09\>\<#662F\>\<#58A8\>\<#5BA2\>\<#7684\>\<#6587\>\<#7AE0\>\<#805A\>\<#5408\>\<#FF0C\>\<#4E13\>\<#6CE8\>\<#4E8E\>\<#79D1\>\<#5B66\>\<#6280\>\<#672F\>\<#9886\>\<#57DF\>\<#3002\>
+  墨客星球（<math|\<Rightarrow\>> <with|font|AR PL UMing
+  CN|font-base-size|20|<hlink|点我直达|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>>）是墨客的文章聚合，专注于科学技术领域。
 
-  <section*|\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>>
+  <section*|墨者百科>
 
-  \<#6B63\>\<#5728\>\<#5EFA\>\<#8BBE\>\<#4E2D\>\<#FF0C\>\<#793A\>\<#4F8B\>\<#8BCD\>\<#6761\><hlink|\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>|https://gitee.com/XmacsLabs/tmmlwiki/raw/main/\<#6570\>\<#5B66\>/\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>.tm>\<#3002\>\<#611F\>\<#5174\>\<#8DA3\>\<#52A0\>\<#5165\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#7684\>\<#5EFA\>\<#8BBE\>\<#FF0C\>\<#8BF7\>\<#8054\>\<#7CFB\>\<#5FAE\>\<#4FE1\>\<#53F7\>XmacsLabs\<#5E76\>\<#5907\>\<#6CE8\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#3002\>
+  正在建设中，示例词条<hlink|等差数列|https://gitee.com/XmacsLabs/tmmlwiki/raw/main/数学/等差数列.tm>。感兴趣加入墨者百科的建设，请联系微信号XmacsLabs并备注墨者百科。
 
-  <section*|\<#4E2D\>\<#5B66\>\<#6559\>\<#80B2\>>
+  <section*|中学教育>
 
-  \<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#4F1A\>\<#6301\>\<#7EED\>\<#5173\>\<#6CE8\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#5728\>\<#4E2D\>\<#5B66\>\<#6559\>\<#80B2\>\<#4E2D\>\<#7684\>\<#5E94\>\<#7528\>\<#FF0C\>\<#4EE5\>\<#4E0B\>\<#662F\>\<#82E5\>\<#5E72\>\<#793A\>\<#4F8B\>\<#6587\>\<#6863\>\<#3002\>
+  墨者实验室会持续关注墨干编辑器在中学教育中的应用，以下是若干示例文档。
 
   <\itemize>
-    <item><hlink|2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>.tm>
+    <item><hlink|2019年全国高中数学联合竞赛一试试题A卷|http://git.tmml.wiki/XmacsLabs/planet/raw/c029037c2f11ec60cfebee2afbd74ceeddc74a4b/doc/2019年全国高中数学联合竞赛一试试题A卷.tm>
 
-    <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
+    <item><hlink|高考数学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/高考数学/index.tm>
   </itemize>
 
-  \<#5728\>\<#4E2D\>\<#5B66\>\<#6559\>\<#80B2\>\<#5B9E\>\<#8DF5\>\<#4E2D\>\<#FF0C\>Gnuplot\<#53EF\>\<#7528\>\<#4E8E\>\<#51FD\>\<#6570\>\<#66F2\>\<#7EBF\>\<#7684\>\<#7ED8\>\<#5236\>\<#FF0C\>\<#6B27\>\<#51E0\>\<#91CC\>\<#5F97\>\<#53EF\>\<#7528\>\<#4E8E\>\<#5E73\>\<#9762\>\<#51E0\>\<#4F55\>\<#7684\>\<#7ED8\>\<#5236\>\<#FF0C\>Maxima\<#4F5C\>\<#4E3A\>\<#8BA1\>\<#7B97\>\<#673A\>\<#4EE3\>\<#6570\>\<#7CFB\>\<#7EDF\>\<#53EF\>\<#7528\>\<#4E8E\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>\<#3001\>\<#8868\>\<#8FBE\>\<#5F0F\>\<#81EA\>\<#52A8\>\<#5316\>\<#7B80\>\<#7B49\>\<#6559\>\<#5B66\>\<#9700\>\<#6C42\>\<#3002\>\<#8FD9\>\<#4E09\>\<#4E2A\>\<#8F6F\>\<#4EF6\>\<#5728\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#4E2D\>\<#90FD\>\<#6709\>\<#5BF9\>\<#5E94\>\<#7684\>\<#63D2\>\<#4EF6\>\<#3002\>
+  在中学教育实践中，Gnuplot可用于函数曲线的绘制，欧几里得可用于平面几何的绘制，Maxima作为计算机代数系统可用于自动求导、表达式自动化简等教学需求。这三个软件在墨干编辑器中都有对应的插件。
 
-  <tmdoc-copyright|2020-2022|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+  <tmdoc-copyright|2020-2022|墨者实验室>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1
