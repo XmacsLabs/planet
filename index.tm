@@ -5,6 +5,12 @@
 <\body>
   <doc-data|<doc-title|墨客星球>>
 
+  <\warning*>
+    Please use <hlink|Mogan v1.1.0 rc1|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0-rc1>
+    if you are viewing this document with messy code (They should be Chinese
+    characters).
+  </warning*>
+
   <section*|公共文档>
 
   <\itemize>

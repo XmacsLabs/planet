@@ -11,10 +11,6 @@
 
   <doc-data|<doc-title|墨者实验室>>
 
-  Please use <hlink|Mogan v1.1.0 beta4|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0-beta4>
-  if you are viewing this document with messy code (They should be Chinese
-  characters).
-
   <section*|文档列表>
 
   <\itemize>
