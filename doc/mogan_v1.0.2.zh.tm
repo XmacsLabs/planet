@@ -1,25 +1,25 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.3>
 
 <style|<tuple|tmdoc|chinese>>
 
 <\body>
-  <tmdoc-title|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.2\<#7684\>\<#7248\>\<#672C\>\<#5386\>\<#53F2\>\<#8BB0\>\<#5F55\>>
+  <tmdoc-title|墨干编辑器V1.0.2的版本历史记录>
 
-  \<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.2\<#6700\>\<#91CD\>\<#8981\>\<#7684\>\<#53D8\>\<#66F4\>\<#662F\>\<#539F\>\<#6765\>\<#7684\><menu|Help|Mogan>\<#5E2E\>\<#52A9\>\<#6587\>\<#6863\>\<#4E3B\>\<#8981\>\<#88AB\>\<#62C6\>\<#5206\>\<#6210\>\<#4E86\>\<#4E24\>\<#4E2A\>\<#8FDC\>\<#7A0B\>\<#7684\><TeXmacs>\<#6587\>\<#6863\>\<#3002\>\<#56E0\>\<#4E3A\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.2\<#53D1\>\<#5E03\>\<#8005\>\<#662F\>\<#61D2\>\<#4EBA\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#4ED6\>\<#5E76\>\<#6CA1\>\<#6709\>\<#64B0\>\<#5199\>\<#5B8C\>\<#6574\>\<#7684\>\<#7248\>\<#672C\>\<#5386\>\<#53F2\>\<#8BB0\>\<#5F55\>\<#3002\>
+  墨干编辑器V1.0.2最重要的变更是原来的<menu|Help|Mogan>帮助文档主要被拆分成了两个远程的<TeXmacs>文档。因为墨干编辑器V1.0.2发布者是懒人，所以他并没有撰写完整的版本历史记录。
 
   <\itemize>
-    <item>\<#4E91\>\<#7AEF\>\<#6587\>\<#6863\>\<#FF1A\><hlink|<menu|Help|Mogan>|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/welcome.zh.tm>
+    <item>云端文档：<hlink|<menu|Help|Mogan>|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/welcome.zh.tm>
 
-    <item>\<#4E91\>\<#7AEF\>\<#6587\>\<#6863\>\<#FF1A\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.2\<#7684\>\<#7248\>\<#672C\>\<#5386\>\<#53F2\>\<#8BB0\>\<#5F55\>|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/mogan_v1.0.2.zh.tm>
+    <item>云端文档：<hlink|墨干编辑器V1.0.2的版本历史记录|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/mogan_v1.0.2.zh.tm>
   </itemize>
 
-  \<#4ECA\>\<#5929\>\<#662F\>2022\<#5E74\>\<#4E94\>\<#6708\>\<#56DB\>\<#65E5\>\<#FF0C\>\<#662F\>\<#4E2D\>\<#534E\>\<#4EBA\>\<#6C11\>\<#5171\>\<#548C\>\<#56FD\>\<#7684\>\<#4E94\>\<#56DB\>\<#9752\>\<#5E74\>\<#8282\>\<#3002\>
+  今天是2022年五月四日，是中华人民共和国的五四青年节。
 
-  \<#613F\>\<#529B\>\<#91CF\>\<#4E0E\>\<#4F60\>\<#540C\>\<#5728\>\<#3002\>
+  愿力量与你同在。
 
   <hrule>
 
-  2022\<#5E74\>\<#4E94\>\<#6708\>\<#5341\>\<#4E09\>\<#65E5\>\<#FF0C\>\<#7EC8\>\<#4E8E\>\<#4E0A\>\<#4F20\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.2\<#7684\>\<#53D1\>\<#5E03\>\<#4F1A\>\<#89C6\>\<#9891\>\<#FF1A\>
+  2022年五月十三日，终于上传墨干编辑器V1.0.2的发布会视频：
 
   <\itemize>
     <item><slink|https://www.bilibili.com/video/BV1PR4y1P7wi>
@@ -27,7 +27,7 @@
     <item><slink|https://www.zhihu.com/zvideo/1508550458033098753>
   </itemize>
 
-  <tmdoc-copyright|2022|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+  <tmdoc-copyright|2022|墨者实验室>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1
@@ -38,6 +38,3 @@
 
   \;
 </body>
-
-<initial|<\collection>
-</collection>>

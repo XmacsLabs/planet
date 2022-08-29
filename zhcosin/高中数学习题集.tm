@@ -1,119 +1,110 @@
-<TeXmacs|1.0.7.21>
+<TeXmacs|2.1.3>
 
-<style|<tuple|book|chinese>>
+<style|<tuple|book|chinese|old-spacing|old-dots|old-lengths>>
 
 <\body>
-  <doc-data|<doc-title|\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#95EE\>\<#9898\>\<#96C6\>\<#9526\>>|<doc-author|<author-data|<author-name|zhcosin>>>>
+  <doc-data|<doc-title|高中数学问题集锦>|<doc-author|<author-data|<author-name|zhcosin>>>>
 
   <abstract-data|<abstract|>>
 
-  \<#5199\>\<#4F5C\>\<#8FD9\>\<#4EFD\>\<#4E60\>\<#9898\>\<#96C6\>\<#7684\>\<#52A8\>\<#673A\>\<#662F\>\<#FF0C\>\<#53D7\>
-  \<#300A\>\<#5409\>\<#7C73\>\<#8BFA\>\<#7EF4\>\<#5947\>\<#6570\>\<#5B66\>\<#5206\>\<#6790\>\<#4E60\>\<#9898\>\<#96C6\>\<#300B\>
-  \<#7684\>\<#542F\>\<#53D1\>\<#FF0C\>\<#540C\>\<#65F6\>\<#5BF9\>\<#4E8E\>\<#4E2D\>\<#5B66\>\<#6570\>\<#5B66\>\<#7684\>\<#5E94\>\<#8BD5\>\<#6559\>\<#80B2\>\<#7684\>\<#4E0D\>\<#8BA4\>\<#540C\>\<#FF0C\>\<#800C\>\<#8BA1\>\<#5212\>\<#5199\>\<#4F5C\>\<#4E00\>\<#4EFD\>\<#5409\>\<#6C0F\>\<#4E60\>\<#9898\>\<#96C6\>\<#7684\>\<#4E2D\>\<#5B66\>\<#6570\>\<#5B66\>\<#7248\>\<#672C\>\<#3002\>
+  写作这份习题集的动机是，受
+  《吉米诺维奇数学分析习题集》
+  的启发，同时对于中学数学的应试教育的不认同，而计划写作一份吉氏习题集的中学数学版本。
 
-  \<#4E2D\>\<#56FD\>\<#7684\>\<#8003\>\<#8BD5\>\<#6559\>\<#80B2\>\<#FF0C\>\<#4EE5\>\<#9AD8\>\<#8003\>\<#6700\>\<#751A\>\<#FF0C\>\<#9AD8\>\<#4E2D\>\<#6574\>\<#6574\>\<#4E09\>\<#5E74\>\<#7684\>\<#6570\>\<#5B66\>\<#5B66\>\<#4E60\>\<#FF0C\>\<#5168\>\<#5954\>\<#7740\>\<#4E00\>\<#5F20\>150\<#5206\>\<#7684\>\<#8BD5\>\<#5377\>\<#FF0C\>\<#4EE5\>\<#5206\>\<#6570\>\<#8BBA\>\<#82F1\>\<#96C4\>\<#FF0C\>\<#5982\>\<#540C\>\<#5965\>\<#8FD0\>\<#4F1A\>\<#4E0A\>\<#7684\>\<#7ADE\>\<#6280\>\<#FF0C\>\<#6709\>\<#8FC7\>\<#4E4B\>\<#65E0\>\<#4E0D\>\<#53CA\>\<#3002\>\<#4F46\>\<#662F\>\<#8FD9\>\<#4E09\>\<#5E74\>\<#4E2D\>\<#FF0C\>\<#5B66\>\<#751F\>\<#7684\>\<#6570\>\<#5B66\>\<#7D20\>\<#517B\>\<#7A76\>\<#7ADF\>\<#63D0\>\<#9AD8\>\<#4E86\>\<#591A\>\<#5C11\>\<#FF0C\>\<#5374\>\<#96BE\>\<#8BF4\>\<#5F97\>\<#5F88\>\<#3002\>
+  中国的考试教育，以高考最甚，高中整整三年的数学学习，全奔着一张150分的试卷，以分数论英雄，如同奥运会上的竞技，有过之无不及。但是这三年中，学生的数学素养究竟提高了多少，却难说得很。
 
-  \<#6211\>\<#8981\>\<#8BF4\>\<#660E\>\<#4E00\>\<#4E2A\>\<#73B0\>\<#8C61\>\<#FF0C\>\<#5C31\>\<#662F\>\<#9AD8\>\<#8003\>\<#8BD5\>\<#9898\>\<#FF0C\>\<#6709\>\<#4E00\>\<#4E2A\>\<#7279\>\<#70B9\>\<#FF0C\>\<#5C31\>\<#662F\>\<#5B83\>\<#4F1A\>\<#6545\>\<#610F\>\<#907F\>\<#5F00\>\<#6709\>\<#56FA\>\<#5B9A\>\<#7ED3\>\<#8BBA\>\<#7684\>\<#4E1C\>\<#897F\>\<#FF0C\>\<#6BD4\>\<#5982\>\<#8BF4\>\<#FF0C\>\<#5B83\>\<#4F1A\>\<#6545\>\<#610F\>\<#907F\>\<#5F00\>\<#5706\>\<#9525\>\<#66F2\>\<#7EBF\>\<#7684\>\<#5207\>\<#7EBF\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#4F1A\>\<#6545\>\<#610F\>\<#907F\>\<#5F00\>\<#4E09\>\<#9762\>\<#89D2\>\<#7684\>\<#4F59\>\<#5F26\>\<#5B9A\>\<#7406\>\<#FF0C\>\<#4F1A\>\<#6545\>\<#610F\>\<#907F\>\<#5F00\>\<#7EBF\>\<#6027\>\<#9012\>\<#63A8\>\<#6570\>\<#5217\>\<#7684\>\<#901A\>\<#9879\>\<#FF0C\>\<#800C\>\<#504F\>\<#504F\>\<#662F\>\<#8FD9\>\<#4E9B\>\<#5185\>\<#5BB9\>\<#FF0C\>\<#662F\>\<#6700\>\<#80FD\>\<#591F\>\<#63D0\>\<#5347\>\<#5B66\>\<#751F\>\<#7684\>\<#6570\>\<#5B66\>\<#7D20\>\<#517B\>\<#7684\>\<#FF0C\>\<#4E5F\>\<#662F\>\<#6700\>\<#6709\>\<#5B66\>\<#4E60\>\<#4EF7\>\<#503C\>\<#7684\>\<#5185\>\<#5BB9\>\<#FF0C\>\<#4E3A\>\<#4EC0\>\<#4E48\>\<#9AD8\>\<#8003\>\<#8981\>\<#6545\>\<#610F\>\<#907F\>\<#5F00\>\<#5B83\>\<#4EEC\>\<#5462\>\<#FF0C\>\<#662F\>\<#56E0\>\<#4E3A\>\<#9AD8\>\<#8003\>\<#8981\>\<#9632\>\<#6B62\>\<#5B66\>\<#6821\>\<#7684\>\<#8BFE\>\<#5802\>\<#6210\>\<#4E3A\>\<#8BFE\>\<#5916\>\<#7ED3\>\<#8BBA\>\<#8BC6\>\<#8BB0\>\<#6BD4\>\<#8D5B\>\<#FF0C\>\<#5B83\>\<#7684\>\<#6307\>\<#6325\>\<#68D2\>\<#6548\>\<#5E94\>\<#592A\>\<#663E\>\<#8457\>\<#4E86\>\<#FF0C\>\<#4EE5\>\<#81F3\>\<#4E8E\>\<#4F60\>\<#60F3\>\<#5728\>\<#9AD8\>\<#8003\>\<#8BD5\>\<#5377\>\<#4E2D\>\<#8003\>\<#5BDF\>\<#4E00\>\<#4E2A\>\<#6559\>\<#6750\>\<#4E0A\>\<#7684\>\<#5B9A\>\<#7406\>\<#7684\>\<#8BC1\>\<#660E\>\<#90FD\>\<#6210\>\<#4E3A\>\<#4E0D\>\<#53EF\>\<#80FD\>\<#7684\>\<#4E8B\>\<#60C5\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#9AD8\>\<#8003\>\<#8BD5\>\<#5377\>\<#4F1A\>\<#7279\>\<#610F\>\<#907F\>\<#5F00\>\<#8FD9\>\<#4E9B\>\<#6709\>\<#56FA\>\<#5B9A\>\<#7ED3\>\<#8BBA\>\<#7684\>\<#5185\>\<#5BB9\>\<#FF0C\>\<#8FD9\>\<#6837\>\<#5BFC\>\<#81F4\>\<#7684\>\<#7ED3\>\<#679C\>\<#5C31\>\<#662F\>\<#9AD8\>\<#8003\>\<#8BD5\>\<#9898\>\<#4E0D\>\<#592A\>\<#5BB9\>\<#6613\>\<#5F15\>\<#8D77\>\<#5B66\>\<#751F\>\<#7684\>\<#5174\>\<#8DA3\>\<#FF0C\>\<#8FDB\>\<#800C\>\<#5BF9\>\<#6570\>\<#5B66\>\<#4E5F\>\<#6CA1\>\<#4EC0\>\<#4E48\>\<#5174\>\<#8DA3\>\<#FF0C\>\<#8FD9\>\<#4E0D\>\<#80FD\>\<#4E0D\>\<#8BF4\>\<#662F\>\<#4E00\>\<#4E2A\>\<#9057\>\<#61BE\>\<#3002\>
+  我要说明一个现象，就是高考试题，有一个特点，就是它会故意避开有固定结论的东西，比如说，它会故意避开圆锥曲线的切线方程，会故意避开三面角的余弦定理，会故意避开线性递推数列的通项，而偏偏是这些内容，是最能够提升学生的数学素养的，也是最有学习价值的内容，为什么高考要故意避开它们呢，是因为高考要防止学校的课堂成为课外结论识记比赛，它的指挥棒效应太显著了，以至于你想在高考试卷中考察一个教材上的定理的证明都成为不可能的事情，所以高考试卷会特意避开这些有固定结论的内容，这样导致的结果就是高考试题不太容易引起学生的兴趣，进而对数学也没什么兴趣，这不能不说是一个遗憾。
 
-  \<#4E0D\>\<#8FC7\>\<#6211\>\<#5E76\>\<#4E0D\>\<#662F\>\<#8BF4\>\<#9AD8\>\<#8003\>\<#8BE5\>\<#600E\>\<#4E48\>\<#600E\>\<#4E48\>\<#FF0C\>\<#9AD8\>\<#8003\>\<#6210\>\<#4E3A\>\<#73B0\>\<#5728\>\<#8FD9\>\<#6837\>\<#662F\>\<#6709\>\<#539F\>\<#56E0\>\<#7684\>\<#FF0C\>\<#6211\>\<#4E5F\>\<#65E0\>\<#529B\>\<#6539\>\<#53D8\>\<#FF0C\>\<#6211\>\<#53EA\>\<#662F\>\<#5E0C\>\<#671B\>\<#4E3A\>\<#5B66\>\<#751F\>\<#63D0\>\<#4F9B\>\<#5B66\>\<#4E60\>\<#4E0A\>\<#7684\>\<#4E00\>\<#79CD\>\<#8865\>\<#5145\>\<#FF0C\>\<#901A\>\<#8FC7\>\<#8FD9\>\<#4EFD\>\<#4E60\>\<#9898\>\<#96C6\>\<#FF0C\>\<#5F15\>\<#5BFC\>\<#5B66\>\<#751F\>\<#5B66\>\<#4E60\>\<#7814\>\<#7A76\>\<#4E00\>\<#4E9B\>\<#6709\>\<#8DA3\>\<#7684\>\<#77E5\>\<#8BC6\>\<#548C\>\<#5185\>\<#5BB9\>\<#FF0C\>\<#4FBF\>\<#662F\>\<#6211\>\<#7684\>\<#76EE\>\<#6807\>\<#3002\>
+  不过我并不是说高考该怎么怎么，高考成为现在这样是有原因的，我也无力改变，我只是希望为学生提供学习上的一种补充，通过这份习题集，引导学生学习研究一些有趣的知识和内容，便是我的目标。
 
-  \<#8FD9\>\<#4EFD\>\<#4E60\>\<#9898\>\<#96C6\>\<#5728\>
-  https://coding.net/u/zhcosin/p/math-notes-publish
-  \<#4E0A\>\<#4E0D\>\<#5B9A\>\<#671F\>\<#66F4\>\<#65B0\>.
+  这份习题集在 https://coding.net/u/zhcosin/p/math-notes-publish
+  上不定期更新.
 
   \;
 
   <\table-of-contents|toc>
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|\<#6458\>\<#8981\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|摘要>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-1><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|1<space|2spc>\<#9884\>\<#5907\>\<#77E5\>\<#8BC6\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|1<space|2spc>预备知识>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-2><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2<space|2spc>\<#51FD\>\<#6570\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2<space|2spc>函数>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-3><vspace|0.5fn>
 
-    2.1<space|2spc>\<#590D\>\<#5408\>\<#51FD\>\<#6570\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    2.1<space|2spc>复合函数 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-4>
 
-    2.2<space|2spc>\<#53CD\>\<#51FD\>\<#6570\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    2.2<space|2spc>反函数 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-5>
 
-    2.3<space|2spc>\<#5355\>\<#8C03\>\<#6027\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    2.3<space|2spc>单调性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-6>
 
-    2.4<space|2spc>\<#5BF9\>\<#79F0\>\<#6027\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    2.4<space|2spc>对称性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-7>
 
-    2.5<space|2spc>\<#5468\>\<#671F\>\<#6027\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    2.5<space|2spc>周期性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-8>
 
-    2.6<space|2spc>\<#51F8\>\<#6027\> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    2.6<space|2spc>凸性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-9>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|3<space|2spc>\<#6570\>\<#5217\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|3<space|2spc>数列>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-10><vspace|0.5fn>
 
-    3.1<space|2spc>\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    3.1<space|2spc>等差数列 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-11>
 
-    3.2<space|2spc>\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    3.2<space|2spc>等比数列 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-12>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|4<space|2spc>\<#5411\>\<#91CF\>\<#4E0E\>\<#590D\>\<#6570\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|4<space|2spc>向量与复数>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-13><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|5<space|2spc>\<#4E0D\>\<#7B49\>\<#5F0F\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|5<space|2spc>不等式>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-14><vspace|0.5fn>
 
-    5.1<space|2spc>\<#5747\>\<#503C\>\<#4E0D\>\<#7B49\>\<#5F0F\>
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    5.1<space|2spc>均值不等式 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-15>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|6<space|2spc>\<#89E3\>\<#6790\>\<#51E0\>\<#4F55\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|6<space|2spc>解析几何>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-16><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|7<space|2spc>\<#7ACB\>\<#4F53\>\<#51E0\>\<#4F55\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|7<space|2spc>立体几何>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-17><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|8<space|2spc>\<#6392\>\<#5217\>\<#3001\>\<#7EC4\>\<#5408\>\<#4E0E\>\<#4E8C\>\<#9879\>\<#5F0F\>\<#5B9A\>\<#7406\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|8<space|2spc>排列、组合与二项式定理>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-18><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|9<space|2spc>\<#6781\>\<#9650\>\<#4E0E\>\<#5BFC\>\<#6570\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|9<space|2spc>极限与导数>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-19><vspace|0.5fn>
   </table-of-contents>
 
-  <chapter|\<#9884\>\<#5907\>\<#77E5\>\<#8BC6\>>
+  <chapter|预备知识>
 
   \;
 
-  \<#6570\>\<#5B66\>\<#5F52\>\<#7EB3\>\<#6CD5\>.
+  数学归纳法.
 
-  \<#5BB9\>\<#65A5\>\<#539F\>\<#7406\>.\<#62BD\>\<#5C49\>\<#539F\>\<#7406\>.\<#6574\>\<#9664\>\<#7406\>\<#8BBA\>.
+  容斥原理.抽屉原理.整除理论.
 
-  \<#53CD\>\<#8BC1\>\<#6CD5\>.
+  反证法.
 
   \;
 
   <\problem>
-    \<#8BC1\>\<#660E\>\<#6B63\>\<#6574\>\<#6570\>\<#80FD\>\<#88AB\>3\<#6574\>\<#9664\>\<#7684\>\<#5224\>\<#5B9A\>\<#89C4\>\<#5219\>.
+    证明正整数能被3整除的判定规则.
   </problem>
 
   \;
@@ -121,7 +112,7 @@
   <\problem>
     \;
 
-    (1). \<#7528\>\<#6570\>\<#5B66\>\<#5F52\>\<#7EB3\>\<#6CD5\>\<#8BC1\>\<#660E\>\<#4EE5\>\<#4E0B\>\<#516C\>\<#5F0F\>:
+    (1). 用数学归纳法证明以下公式:
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|1+2+\<cdots\>+n>|<cell|=>|<cell|<frac|1|2>n<around*|(|n+1|)>>>|<row|<cell|1<rsup|2>+2<rsup|2>+\<cdots\>+n<rsup|2>>|<cell|=>|<cell|<frac|1|6>n<around*|(|n+1|)><around*|(|2n+1|)>>>|<row|<cell|1<rsup|3>+2<rsup|3>+\<cdots\>+n<rsup|3>>|<cell|=>|<cell|<frac|1|4>n<rsup|2><around*|(|n+1|)><rsup|2>>>>>
@@ -129,31 +120,31 @@
 
     \;
 
-    (2). \<#4E0A\>\<#8FF0\>\<#4E09\>\<#4E2A\>\<#516C\>\<#5F0F\>\<#53F3\>\<#8FB9\>\<#90FD\>\<#51FA\>\<#73B0\>\<#4E86\>\<#5206\>\<#5F0F\>\<#FF0C\>\<#8BF7\>\<#8BC1\>\<#660E\>\<#53F3\>\<#8FB9\>\<#4E0D\>\<#53EF\>\<#80FD\>\<#51FA\>\<#73B0\>\<#5C0F\>\<#6570\>\<#FF08\>\<#4E0D\>\<#5F97\>\<#4F7F\>\<#7528\>\<#8FD9\>\<#4E09\>\<#4E2A\>\<#516C\>\<#5F0F\>\<#7684\>\<#5DE6\>\<#8FB9\>).
+    (2). 上述三个公式右边都出现了分式，请证明右边不可能出现小数（不得使用这三个公式的左边).
   </problem>
 
   \;
 
   \;
 
-  <chapter|\<#51FD\>\<#6570\>>
+  <chapter|函数>
 
   \;
 
-  \<#51FD\>\<#6570\>\<#7684\>\<#6982\>\<#5FF5\>\<#FF0C\>\<#590D\>\<#5408\>\<#51FD\>\<#6570\>\<#FF0C\>\<#53CD\>\<#51FD\>\<#6570\>.
+  函数的概念，复合函数，反函数.
 
-  \<#6307\>\<#6570\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5BF9\>\<#6570\>\<#51FD\>\<#6570\>\<#FF0C\>\<#4E09\>\<#89D2\>\<#51FD\>\<#6570\>.
+  指数函数，对数函数，三角函数.
 
-  \<#51FD\>\<#6570\>\<#7684\>\<#6027\>\<#8D28\>.
+  函数的性质.
 
   \;
 
-  <section|\<#590D\>\<#5408\>\<#51FD\>\<#6570\>>
+  <section|复合函数>
 
   \;
 
   <\problem>
-    \<#53CC\>\<#66F2\>\<#51FD\>\<#6570\>\<#7684\>\<#5B9A\>\<#4E49\>\<#4E3A\>:
+    双曲函数的定义为:
 
     <\equation*>
       cosh x=<frac|<with|math-font-family|rm|e><rsup|x>+<with|math-font-family|rm|e><rsup|-x>|2>\<nocomma\>,<space|1spc>sinh
@@ -161,14 +152,13 @@
       x=<frac|sinh x|cosh x>
     </equation*>
 
-    \<#5206\>\<#522B\>\<#79F0\>\<#4E3A\>\<#53CC\>\<#66F2\>\<#4F59\>\<#5F26\>\<#51FD\>\<#6570\>\<#3001\>\<#53CC\>\<#66F2\>\<#6B63\>\<#5F26\>\<#51FD\>\<#6570\>\<#3001\>\<#53CC\>\<#66F2\>\<#6B63\>\<#5207\>\<#51FD\>\<#6570\>\<#FF1A\>
+    分别称为双曲余弦函数、双曲正弦函数、双曲正切函数：
 
-    (1). \<#8BA8\>\<#8BBA\>\<#5B83\>\<#4EEC\>\<#7684\>\<#5947\>\<#5076\>\<#6027\>.
+    (1). 讨论它们的奇偶性.
 
-    (2). \<#9A8C\>\<#8BC1\>\<#516C\>\<#5F0F\>:
-    <math|cosh<rsup|2>x-sinh<rsup|2>x=1>.
+    (2). 验证公式: <math|cosh<rsup|2>x-sinh<rsup|2>x=1>.
 
-    (3). \<#9A8C\>\<#8BC1\>\<#548C\>\<#5DEE\>\<#516C\>\<#5F0F\>
+    (3). 验证和差公式
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|cosh<around*|(|x\<pm\>y|)>>|<cell|=>|<cell|cosh
@@ -178,7 +168,7 @@
 
     \;
 
-    (4) \<#9A8C\>\<#8BC1\>\<#500D\>\<#534A\>\<#516C\>\<#5F0F\>
+    (4) 验证倍半公式
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|cosh <around*|(|2x|)>>|<cell|=>|<cell|2cosh
@@ -188,112 +178,103 @@
 
     \;
 
-    (5) \<#5C06\>\<#4E0A\>\<#8FF0\>\<#516C\>\<#5F0F\>\<#4E0E\>\<#4E09\>\<#89D2\>\<#51FD\>\<#6570\>\<#8FDB\>\<#884C\>\<#5BF9\>\<#6BD4\>.
+    (5) 将上述公式与三角函数进行对比.
   </problem>
 
-  <section|\<#53CD\>\<#51FD\>\<#6570\>>
+  <section|反函数>
 
   \;
 
-  <section|\<#5355\>\<#8C03\>\<#6027\>>
+  <section|单调性>
 
   <\problem>
-    <label|montonicity-of-combined-func>\<#51FD\>\<#6570\>
-    <math|f<around*|(|x|)>> \<#5728\>\<#533A\>\<#95F4\>
-    <math|<around*|[|a,b|]>> \<#4E0A\>\<#5E76\>\<#5177\>\<#5907\>\<#67D0\>\<#79CD\>\<#5355\>\<#8C03\>\<#6027\>\<#FF0C\>\<#76F8\>\<#5E94\>\<#7684\>\<#503C\>\<#57DF\>\<#4E3A\>
-    <math|<around*|[|r,s|]>>\<#FF0C\>\<#51FD\>\<#6570\>
-    <math|g<around*|(|u|)>> \<#5728\>\<#533A\>\<#95F4\>
-    <math|<around*|[|r,s|]>> \<#4E0A\>\<#4E5F\>\<#5177\>\<#5907\>\<#67D0\>\<#79CD\>\<#5355\>\<#8C03\>\<#6027\>\<#FF0C\>\<#8BD5\>\<#8BA8\>\<#8BBA\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#51FD\>\<#6570\>\<#5728\>\<#76F8\>\<#5E94\>\<#533A\>\<#95F4\>\<#4E0A\>\<#7684\>\<#5355\>\<#8C03\>\<#6027\>\<#4E0E\>\<#590D\>\<#5408\>\<#51FD\>\<#6570\>
-    <math|g<around*|(|f<around*|(|x|)>|)>> \<#5728\>\<#533A\>\<#95F4\>
-    <math|<around*|[|a,b|]>> \<#4E0A\>\<#7684\>\<#5355\>\<#8C03\>\<#6027\>\<#7684\>\<#5173\>\<#7CFB\>.
-  </problem>
-
-  \;
-
-  <\problem>
-    \<#8BBE\>\<#51FD\>\<#6570\> <math|f<around*|(|x|)>>
-    \<#5728\>\<#533A\>\<#95F4\> <math|<around*|[|a,b|]>>
-    \<#4E0A\>\<#5355\>\<#8C03\>\<#589E\>\<#52A0\>\<#FF0C\>\<#8BC1\>\<#660E\>:
-    \<#5B83\>\<#7684\>\<#53CD\>\<#51FD\>\<#6570\>
-    <math|f<rsup|-1><around*|(|x|)>> \<#5728\>\<#533A\>\<#95F4\>
-    <math|<around*|[|f<around*|(|a|)>,f<around*|(|b|)>|]>>
-    \<#4E0A\>\<#5355\>\<#8C03\>\<#589E\>\<#52A0\>.
+    <label|montonicity-of-combined-func>函数 <math|f<around*|(|x|)>>
+    在区间 <math|<around*|[|a,b|]>> 上并具备某种单调性，相应的值域为
+    <math|<around*|[|r,s|]>>，函数 <math|g<around*|(|u|)>> 在区间
+    <math|<around*|[|r,s|]>> 上也具备某种单调性，试讨论这两个函数在相应区间上的单调性与复合函数
+    <math|g<around*|(|f<around*|(|x|)>|)>> 在区间 <math|<around*|[|a,b|]>>
+    上的单调性的关系.
   </problem>
 
   \;
 
   <\problem>
-    \<#51FD\>\<#6570\>\<#7684\>\<#5355\>\<#8C03\>\<#6027\>\<#662F\>\<#5426\>\<#5FC5\>\<#987B\>\<#5728\>\<#533A\>\<#95F4\>\<#4E0A\>\<#8BA8\>\<#8BBA\>\<#FF0C\>\<#6709\>\<#6CA1\>\<#6709\>\<#53EF\>\<#80FD\>\<#5728\>\<#6570\>\<#96C6\>(\<#5982\>\<#6709\>\<#7406\>\<#6570\>\<#96C6\>)\<#4E0A\>\<#8BA8\>\<#8BBA\>\<#FF0C\>\<#8BD5\>\<#4E3E\>\<#4F8B\>\<#8BF4\>\<#660E\>\<#4E4B\>\<#FF1F\>
+    设函数 <math|f<around*|(|x|)>> 在区间 <math|<around*|[|a,b|]>>
+    上单调增加，证明: 它的反函数
+    <math|f<rsup|-1><around*|(|x|)>> 在区间
+    <math|<around*|[|f<around*|(|a|)>,f<around*|(|b|)>|]>> 上单调增加.
   </problem>
 
   \;
 
   <\problem>
-    <label|montonicity-of-sum-of-x-and-a-over-x>\<#8BBE\>\<#51FD\>\<#6570\>
+    函数的单调性是否必须在区间上讨论，有没有可能在数集(如有理数集)上讨论，试举例说明之？
+  </problem>
+
+  \;
+
+  <\problem>
+    <label|montonicity-of-sum-of-x-and-a-over-x>设函数
     <math|f<around*|(|x|)>=x+<frac|a|x>>.
 
-    (1). \<#8BC1\>\<#660E\>: \<#82E5\> <math|a\<gtr\>0>\<#FF0C\>\<#5219\>\<#51FD\>\<#6570\>\<#5728\>
-    <math|<around*|(|0,<sqrt|a>|)>> \<#4E0A\>\<#5355\>\<#8C03\>\<#51CF\>\<#5C11\>\<#FF0C\>\<#5728\>
+    (1). 证明: 若 <math|a\<gtr\>0>，则函数在
+    <math|<around*|(|0,<sqrt|a>|)>> 上单调减少，在
     <math|<around*|(|<sqrt|a>,+\<infty\>|)>>
-    \<#4E0A\>\<#5355\>\<#8C03\>\<#589E\>\<#52A0\>.(\<#4E0D\>\<#8981\>\<#4F7F\>\<#7528\>\<#5BFC\>\<#6570\>)
+    上单调增加.(不要使用导数)
 
-    (2). \<#8BC1\>\<#660E\>: \<#82E5\> <math|a\<less\>0>\<#FF0C\>\<#5219\>\<#51FD\>\<#6570\>\<#5728\>\<#533A\>\<#95F4\>
-    <math|<around*|(|-\<infty\>,0|)>> \<#548C\>
-    <math|<around*|(|0,+\<infty\>|)>> \<#4E0A\>\<#5355\>\<#8C03\>\<#589E\>\<#52A0\>.(\<#4E0D\>\<#8981\>\<#4F7F\>\<#7528\>\<#5BFC\>\<#6570\>)
+    (2). 证明: 若 <math|a\<less\>0>，则函数在区间
+    <math|<around*|(|-\<infty\>,0|)>> 和 <math|<around*|(|0,+\<infty\>|)>>
+    上单调增加.(不要使用导数)
   </problem>
 
   \;
 
   <\problem>
-    \<#8BA8\>\<#8BBA\>\<#53CC\>\<#66F2\>\<#4F59\>\<#5F26\>\<#51FD\>\<#6570\>\<#4E0E\>\<#53CC\>\<#66F2\>\<#6B63\>\<#5F26\>\<#51FD\>\<#6570\>\<#7684\>\<#5355\>\<#8C03\>\<#6027\>.(\<#63D0\>\<#793A\>\<#FF1A\>\<#5229\>\<#7528\>\<#9898\>\<#76EE\>
-    <reference|montonicity-of-combined-func>\<#4E0E\>\<#9898\>\<#76EE\><reference|montonicity-of-sum-of-x-and-a-over-x>\<#7684\>\<#7ED3\>\<#679C\>)
+    讨论双曲余弦函数与双曲正弦函数的单调性.(提示：利用题目
+    <reference|montonicity-of-combined-func>与题目<reference|montonicity-of-sum-of-x-and-a-over-x>的结果)
   </problem>
 
-  <section|\<#5BF9\>\<#79F0\>\<#6027\>>
+  <section|对称性>
 
   <\problem>
-    \<#8BC1\>\<#660E\>: \<#4EFB\>\<#4F55\>\<#4E00\>\<#4E2A\>\<#5B9A\>\<#4E49\>\<#57DF\>\<#5173\>\<#4E8E\>\<#539F\>\<#70B9\>\<#5BF9\>\<#79F0\>\<#7684\>\<#51FD\>\<#6570\>\<#FF0C\>\<#90FD\>\<#53EF\>\<#4EE5\>\<#88AB\>\<#8868\>\<#793A\>\<#6210\>\<#4E00\>\<#4E2A\>\<#5947\>\<#51FD\>\<#6570\>\<#4E0E\>\<#4E00\>\<#4E2A\>\<#5076\>\<#51FD\>\<#6570\>\<#4E4B\>\<#548C\>\<#7684\>\<#5F62\>\<#5F0F\>.
-  </problem>
-
-  \;
-
-  <\problem>
-    (1). \<#8BC1\>\<#660E\>\<#FF1A\>\<#51FD\>\<#6570\>
-    <math|f<around*|(|x|)>> \<#7684\>\<#56FE\>\<#8C61\>\<#5173\>\<#4E8E\>\<#76F4\>\<#7EBF\>
-    <math|x=a> \<#5BF9\>\<#79F0\>\<#7684\>\<#5145\>\<#5206\>\<#5FC5\>\<#8981\>\<#6761\>\<#4EF6\>\<#662F\>\<#7B49\>\<#5F0F\>
-    <math|f<around*|(|a+x|)>=f<around*|(|a-x|)>>
-    \<#5BF9\>\<#5B9A\>\<#4E49\>\<#57DF\>\<#4E0A\>\<#4EFB\>\<#610F\>\<#5B9E\>\<#6570\>
-    <math|x> \<#90FD\>\<#6210\>\<#7ACB\>.
-
-    (2). \<#8BC1\>\<#660E\>\<#FF1A\>(1) \<#4E2D\>\<#7684\>\<#7B49\>\<#5F0F\>\<#53EF\>\<#4EE5\>\<#6539\>\<#5199\>\<#4E3A\>
-    <math|f<around*|(|2a-x|)>=f<around*|(|x|)>>\<#FF0C\>\<#7ED3\>\<#8BBA\>\<#4ECD\>\<#7136\>\<#6210\>\<#7ACB\>.
+    证明: 任何一个定义域关于原点对称的函数，都可以被表示成一个奇函数与一个偶函数之和的形式.
   </problem>
 
   \;
 
   <\problem>
-    (1). \<#8BC1\>\<#660E\>\<#FF1A\>\<#51FD\>\<#6570\>
-    <math|f<around*|(|x|)>> \<#7684\>\<#56FE\>\<#8C61\>\<#5173\>\<#4E8E\>\<#70B9\>
-    <math|<around*|(|a,b|)>> \<#4E2D\>\<#5FC3\>\<#5BF9\>\<#79F0\>\<#7684\>\<#5145\>\<#5206\>\<#5FC5\>\<#8981\>\<#6761\>\<#4EF6\>\<#662F\>\<#7B49\>\<#5F0F\>
+    (1). 证明：函数 <math|f<around*|(|x|)>> 的图象关于直线
+    <math|x=a> 对称的充分必要条件是等式
+    <math|f<around*|(|a+x|)>=f<around*|(|a-x|)>> 对定义域上任意实数
+    <math|x> 都成立.
+
+    (2). 证明：(1) 中的等式可以改写为
+    <math|f<around*|(|2a-x|)>=f<around*|(|x|)>>，结论仍然成立.
+  </problem>
+
+  \;
+
+  <\problem>
+    (1). 证明：函数 <math|f<around*|(|x|)>> 的图象关于点
+    <math|<around*|(|a,b|)>> 中心对称的充分必要条件是等式
     <math|f<around*|(|a+x|)>+f<around*|(|a-x|)>=2b>
-    \<#5BF9\>\<#5B9A\>\<#4E49\>\<#57DF\>\<#4E0A\>\<#4EFB\>\<#610F\>\<#5B9E\>\<#6570\>
-    <math|x> \<#90FD\>\<#6210\>\<#7ACB\>.
+    对定义域上任意实数 <math|x> 都成立.
 
-    (2). \<#8BC1\>\<#660E\>\<#FF1A\>(1) \<#4E2D\>\<#7684\>\<#7B49\>\<#5F0F\>\<#53EF\>\<#4EE5\>\<#6539\>\<#5199\>\<#4E3A\>
-    <math|f<around*|(|2a-x|)>+f<around*|(|x|)>=2b>\<#FF0C\>\<#7ED3\>\<#8BBA\>\<#4ECD\>\<#7136\>\<#6210\>\<#7ACB\>.
+    (2). 证明：(1) 中的等式可以改写为
+    <math|f<around*|(|2a-x|)>+f<around*|(|x|)>=2b>，结论仍然成立.
   </problem>
 
-  <section|\<#5468\>\<#671F\>\<#6027\>>
+  <section|周期性>
 
   <\problem>
-    \<#5468\>\<#671F\>\<#51FD\>\<#6570\>\<#662F\>\<#5426\>\<#4E00\>\<#5B9A\>\<#5B58\>\<#5728\>\<#6700\>\<#5C0F\>\<#6B63\>\<#5468\>\<#671F\>\<#FF0C\>\<#82E5\>\<#4E0D\>\<#4E00\>\<#5B9A\>\<#FF0C\>\<#8BF7\>\<#4E3E\>\<#4F8B\>\<#8BF4\>\<#660E\>.
+    周期函数是否一定存在最小正周期，若不一定，请举例说明.
   </problem>
 
   \;
 
   <\problem>
-    \<#8BC1\>\<#660E\>\<#FF1A\>\<#82E5\>\<#51FD\>\<#6570\>\<#6EE1\>\<#8DB3\>\<#4E0B\>\<#8FF0\>\<#6761\>\<#4EF6\>\<#4E4B\>\<#4E00\>\<#FF0C\>\<#5219\>\<#5B83\>\<#662F\>\<#5468\>\<#671F\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5E76\>\<#4E14\>
-    <math|2T> \<#662F\>\<#5B83\>\<#7684\>\<#4E00\>\<#4E2A\>\<#5468\>\<#671F\>:
+    证明：若函数满足下述条件之一，则它是周期函数，并且
+    <math|2T> 是它的一个周期:
 
     <\enumerate-alpha>
       <item><math|f<around*|(|x+T|)>=-f<around*|(|x|)>>.
@@ -302,27 +283,23 @@
 
       <item><math|f<around*|(|x+T|)>=-<frac|1|f<around*|(|x|)>>>
 
-      <item>\<#51FD\>\<#6570\>\<#5173\>\<#4E8E\>\<#76F4\>\<#7EBF\> <math|x=a>
-      \<#8F74\>\<#5BF9\>\<#79F0\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#5173\>\<#4E8E\>\<#76F4\>\<#7EBF\>
-      <math|x=a+T> \<#4E5F\>\<#8F74\>\<#5BF9\>\<#79F0\>.
+      <item>函数关于直线 <math|x=a> 轴对称，并且关于直线
+      <math|x=a+T> 也轴对称.
     </enumerate-alpha>
   </problem>
 
-  <section|\<#51F8\>\<#6027\>>
+  <section|凸性>
 
   <\problem>
-    \<#82E5\>\<#51FD\>\<#6570\> <math|f<around*|(|x|)>>
-    \<#5728\>\<#67D0\>\<#533A\>\<#95F4\>\<#4E0A\>\<#6709\>\<#5B9A\>\<#4E49\>\<#FF0C\>\<#4E14\>\<#5BF9\>\<#4E8E\>\<#8BE5\>\<#533A\>\<#95F4\>\<#4E0A\>\<#4EFB\>\<#610F\>\<#4E24\>\<#4E2A\>\<#5B9E\>\<#6570\>
-    <math|x<rsub|1>> \<#4E0E\> <math|x<rsub|2>>\<#FF0C\>\<#90FD\>\<#6709\>
+    若函数 <math|f<around*|(|x|)>> 在某区间上有定义，且对于该区间上任意两个实数
+    <math|x<rsub|1>> 与 <math|x<rsub|2>>，都有
 
     <\equation*>
       f<around*|(|<frac|x<rsub|1>+x<rsub|2>|2>|)>\<geqslant\><frac|f<around*|(|x<rsub|1>|)>+f<around*|(|x<rsub|2>|)>|2>
     </equation*>
 
-    \<#6210\>\<#7ACB\>\<#FF0C\>\<#6C42\>\<#8BC1\>:
-    \<#5BF9\>\<#8BE5\>\<#533A\>\<#95F4\>\<#4E0A\>\<#4EFB\>\<#610F\> <math|n>
-    \<#4E2A\>\<#4E0D\>\<#540C\>\<#7684\>\<#5B9E\>\<#6570\>
-    <math|x<rsub|1>,x<rsub|2>,\<ldots\>,x<rsub|n>>\<#FF0C\>\<#6709\>\<#4E0B\>\<#8FF0\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#6210\>\<#7ACB\>:
+    成立，求证: 对该区间上任意 <math|n> 个不同的实数
+    <math|x<rsub|1>,x<rsub|2>,\<ldots\>,x<rsub|n>>，有下述不等式成立:
 
     <\equation*>
       f<around*|(|<frac|x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>|n>|)>\<geqslant\><frac|f<around*|(|x<rsub|1>|)>+f<around*|(|x<rsub|2>|)>+\<cdots\>+f<around*|(|x<rsub|n>|)>|n>
@@ -330,70 +307,65 @@
   </problem>
 
   <\problem>
-    \<#6C42\>\<#8BC1\>: \<#5706\>\<#7684\>\<#6240\>\<#6709\>\<#5185\>\<#63A5\>\<#4E09\>\<#89D2\>\<#5F62\>\<#4E2D\>\<#FF0C\>\<#4EE5\>\<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\>\<#7684\>\<#9762\>\<#79EF\>\<#6700\>\<#5927\>.
+    求证: 圆的所有内接三角形中，以正三角形的面积最大.
   </problem>
 
-  <chapter|\<#6570\>\<#5217\>>
+  <chapter|数列>
 
   \;
 
-  \<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>\<#FF0C\>\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>\<#FF0C\>\<#6570\>\<#5217\>\<#6C42\>\<#548C\>.
+  等差数列，等比数列，数列求和.
 
-  <section|\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>>
+  <section|等差数列>
 
   <\problem>
     \;
 
-    (1) \<#5229\>\<#7528\>\<#5012\>\<#5E8F\>\<#76F8\>\<#52A0\>\<#6CD5\>\<#8BC1\>\<#660E\>\<#516C\>\<#5F0F\>:
+    (1) 利用倒序相加法证明公式:
     <math|1+2+\<cdots\>+n=<frac|1|2>n<around*|(|n+1|)>>.
 
-    (2) \<#5229\>\<#7528\>(1)\<#7684\>\<#7ED3\>\<#679C\>\<#63A8\>\<#5BFC\>\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>\<#7684\>\<#524D\>
-    <math|n> \<#9879\>\<#548C\>\<#516C\>\<#5F0F\>\<#FF0C\>\<#518D\>\<#5229\>\<#7528\>\<#5012\>\<#5E8F\>\<#76F8\>\<#52A0\>\<#6CD5\>\<#63A8\>\<#5BFC\>\<#4E4B\>.
+    (2) 利用(1)的结果推导等差数列的前 <math|n>
+    项和公式，再利用倒序相加法推导之.
 
-    (3) \<#5229\>\<#7528\>\<#5012\>\<#5E8F\>\<#76F8\>\<#52A0\>\<#6CD5\>\<#6C42\>\<#548C\>
-    <math|S<rsub|n>=0C<rsub|n><rsup|0>+1C<rsub|n><rsup|1>+2C<rsub|n><rsup|2>+\<cdots\>+n
+    (3) 利用倒序相加法求和 <math|S<rsub|n>=0C<rsub|n><rsup|0>+1C<rsub|n><rsup|1>+2C<rsub|n><rsup|2>+\<cdots\>+n
     C<rsub|n><rsup|n>>.
 
-    (4) \<#6C42\>\<#548C\> <math|S<rsub|n>=0<rsup|2>C<rsub|n><rsup|0>+1<rsup|2>C<rsub|n><rsup|1>+2<rsup|2>C<rsub|n><rsup|2>+\<cdots\>+n<rsup|2>
+    (4) 求和 <math|S<rsub|n>=0<rsup|2>C<rsub|n><rsup|0>+1<rsup|2>C<rsub|n><rsup|1>+2<rsup|2>C<rsub|n><rsup|2>+\<cdots\>+n<rsup|2>
     C<rsub|n><rsup|n>>
 
-    (5) \<#8BBE\> <math|S<around*|(|n,m|)>=0<rsup|m>C<rsub|n><rsup|0>+><math|1<rsup|m>C<rsub|n><rsup|1>+2<rsup|m>C<rsub|n><rsup|2>+\<cdots\>+n<rsup|m>
-    C<rsub|n><rsup|n>>\<#FF0C\>\<#8BD5\>\<#5EFA\>\<#7ACB\>
-    <math|S<around*|(|n,m|)>> \<#5173\>\<#4E8E\> <math|m>
-    \<#7684\>\<#9012\>\<#63A8\>\<#5173\>\<#7CFB\>\<#5F0F\>.
+    (5) 设 <math|S<around*|(|n,m|)>=0<rsup|m>C<rsub|n><rsup|0>+><math|1<rsup|m>C<rsub|n><rsup|1>+2<rsup|m>C<rsub|n><rsup|2>+\<cdots\>+n<rsup|m>
+    C<rsub|n><rsup|n>>，试建立 <math|S<around*|(|n,m|)>> 关于 <math|m>
+    的递推关系式.
   </problem>
 
   <\problem>
     \;
 
-    (1). \<#5229\>\<#7528\>\<#516C\>\<#5F0F\>
-    <math|<around*|(|k+1|)><rsup|2>-k<rsup|2>=2k+1>
-    \<#63A8\>\<#5BFC\>\<#6C42\>\<#548C\>\<#516C\>\<#5F0F\>
-    <math|1+2+\<cdots\>+n=<frac|1|2>n<around*|(|n+1|)>>.
+    (1). 利用公式 <math|<around*|(|k+1|)><rsup|2>-k<rsup|2>=2k+1>
+    推导求和公式 <math|1+2+\<cdots\>+n=<frac|1|2>n<around*|(|n+1|)>>.
 
-    (2). \<#4F7F\>\<#7528\>\<#7C7B\>\<#4F3C\>\<#7684\>\<#65B9\>\<#6CD5\>\<#63A8\>\<#5BFC\>\<#6C42\>\<#548C\>\<#516C\>\<#5F0F\>:
+    (2). 使用类似的方法推导求和公式:
     <math|1<rsup|2>+2<rsup|2>+\<cdots\>+n<rsup|2>=<frac|1|6>n<around*|(|n+1|)><around*|(|2n+1|)>>.
 
-    (3). \<#4F7F\>\<#7528\>\<#7C7B\>\<#4F3C\>\<#7684\>\<#65B9\>\<#6CD5\>\<#63A8\>\<#5BFC\>\<#6C42\>\<#548C\>\<#516C\>\<#5F0F\>:
+    (3). 使用类似的方法推导求和公式:
     <math|1<rsup|3>+2<rsup|3>+\<cdots\>+n<rsup|3>=<frac|1|4>n<rsup|2><around*|(|n+1|)><rsup|2>>.
 
-    (4). \<#8BBE\> <math|S<around*|(|n,m|)>=1<rsup|m>+2<rsup|m>+\<cdots\>+n<rsup|m><around*|(|m
-    \<in\><with|math-font|Bbb*|N<rsup|+>>|)>>\<#FF0C\>\<#8BD5\>\<#5EFA\>\<#7ACB\>
-    <math|S<around*|(|n,m|)>> \<#5173\>\<#4E8E\> <math|m>
-    \<#7684\>\<#9012\>\<#63A8\>\<#5173\>\<#7CFB\>\<#5F0F\>\<#FF0C\>\<#5E76\>\<#8BC1\>\<#660E\>\<#5B83\>\<#662F\>\<#5173\>\<#4E8E\>
-    <math|n> \<#7684\> <math|m+1> \<#6B21\>\<#591A\>\<#9879\>\<#5F0F\>.
+    (4). 设 <math|S<around*|(|n,m|)>=1<rsup|m>+2<rsup|m>+\<cdots\>+n<rsup|m><around*|(|m
+    \<in\><with|math-font|Bbb*|N<rsup|+>>|)>>，试建立
+    <math|S<around*|(|n,m|)>> 关于 <math|m>
+    的递推关系式，并证明它是关于 <math|n> 的 <math|m+1>
+    次多项式.
   </problem>
 
-  <section|\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>>
+  <section|等比数列>
 
   <\problem>
     \;
 
-    (1). \<#5229\>\<#7528\>\<#9519\>\<#4F4D\>\<#76F8\>\<#51CF\>\<#6CD5\>\<#63A8\>\<#5BFC\>\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>\<#7684\>\<#524D\>
-    <math|n> \<#9879\>\<#548C\>\<#516C\>\<#5F0F\>.
+    (1). 利用错位相减法推导等比数列的前 <math|n> 项和公式.
 
-    (2). \<#5229\>\<#7528\>\<#6570\>\<#5B66\>\<#5F52\>\<#7EB3\>\<#6CD5\>\<#8BC1\>\<#660E\>\<#4EE5\>\<#4E0B\>\<#516C\>\<#5F0F\>\<#FF0C\>\<#5E76\>\<#5229\>\<#7528\>\<#5B83\>\<#63A8\>\<#5BFC\>\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>\<#7684\>\<#524D\>
-    <math|n> \<#9879\>\<#548C\>\<#516C\>\<#5F0F\>:
+    (2). 利用数学归纳法证明以下公式，并利用它推导等比数列的前
+    <math|n> 项和公式:
 
     <\equation*>
       a<rsup|n>-b<rsup|n>=<around*|(|a-b|)><around*|(|a<rsup|n-1>+a<rsup|n-2>b+\<cdots\>+a
@@ -402,37 +374,30 @@
 
     \ \ \ \ \ 
 
-    (3). \<#6C42\>\<#548C\> <math|S<rsub|n>=1<rsup|2>q+2<rsup|2>q<rsup|2>+\<cdots\>+n<rsup|2>q<rsup|n>>.
-    \<#5176\>\<#4E2D\><math|q\<neq\>1>. (\<#63D0\>\<#793A\>\<#FF1A\>\<#8FDE\>\<#7EED\>\<#4F7F\>\<#7528\>\<#4E24\>\<#6B21\>\<#9519\>\<#4F4D\>\<#76F8\>\<#51CF\>).
+    (3). 求和 <math|S<rsub|n>=1<rsup|2>q+2<rsup|2>q<rsup|2>+\<cdots\>+n<rsup|2>q<rsup|n>>.
+    其中<math|q\<neq\>1>. (提示：连续使用两次错位相减).
 
-    (4). \<#5173\>\<#4E8E\>\<#6C42\>\<#548C\>
-    <math|S<rsub|n>=1<rsup|m>q+2<rsup|m>q<rsup|2>+\<cdots\>+n<rsup|m>q<rsup|n>>
-    \<#4F60\>\<#6709\>\<#4EC0\>\<#4E48\>\<#60F3\>\<#6CD5\>\<#FF0C\>\<#80FD\>\<#5426\>\<#5EFA\>\<#7ACB\>\<#8D77\>\<#5B83\>\<#5173\>\<#4E8E\>
-    <math|m> \<#7684\>\<#9012\>\<#63A8\>\<#5173\>\<#7CFB\>?
-    \<#8FD9\>\<#91CC\> <math|m> \<#662F\>\<#6B63\>\<#6574\>\<#6570\>,<math|q\<neq\>1>.
+    (4). 关于求和 <math|S<rsub|n>=1<rsup|m>q+2<rsup|m>q<rsup|2>+\<cdots\>+n<rsup|m>q<rsup|n>>
+    你有什么想法，能否建立起它关于 <math|m> 的递推关系?
+    这里 <math|m> 是正整数,<math|q\<neq\>1>.
 
-    (5). \<#5173\>\<#4E8E\>\<#6C42\>\<#548C\>
-    <math|S<rsub|n>=f<around*|(|1|)>q+f<around*|(|2|)>q<rsup|2>+\<cdots\>+f<around*|(|n|)>q<rsup|n>>
-    \<#4F60\>\<#6709\>\<#4EC0\>\<#4E48\>\<#60F3\>\<#6CD5\>\<#FF0C\>\<#8FD9\>\<#91CC\>
-    <math|f<around*|(|x|)>> \<#662F\>\<#4E00\>\<#4E2A\>\<#591A\>\<#9879\>\<#5F0F\>.
+    (5). 关于求和 <math|S<rsub|n>=f<around*|(|1|)>q+f<around*|(|2|)>q<rsup|2>+\<cdots\>+f<around*|(|n|)>q<rsup|n>>
+    你有什么想法，这里 <math|f<around*|(|x|)>> 是一个多项式.
   </problem>
 
   \;
 
   <\problem>
-    \<#8BBE\>\<#6570\>\<#5217\> <math|<around*|{|a<rsub|n>|}><around*|(|n=1,2,\<ldots\>|)>>
-    \<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\> <math|n>
-    \<#90FD\>\<#6210\>\<#7ACB\> <math|a<rsub|n>\<gtr\>a<rsub|n+1>>.
+    设数列 <math|<around*|{|a<rsub|n>|}><around*|(|n=1,2,\<ldots\>|)>>
+    对任意正整数 <math|n> 都成立 <math|a<rsub|n>\<gtr\>a<rsub|n+1>>.
 
-    (1). \<#8BBE\> <math|A<rsub|n>=<frac|1|n><around*|(|a<rsub|1>+a<rsub|2>+\<cdots\>+a<rsub|n>|)>>\<#FF0C\>\<#6C42\>\<#8BC1\>:
-    \<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>
-    <math|n>\<#FF0C\>\<#6709\> <math|A<rsub|n>\<gtr\>A<rsub|n+1>>.
+    (1). 设 <math|A<rsub|n>=<frac|1|n><around*|(|a<rsub|1>+a<rsub|2>+\<cdots\>+a<rsub|n>|)>>，求证:
+    对任意正整数 <math|n>，有 <math|A<rsub|n>\<gtr\>A<rsub|n+1>>.
 
-    (2). \<#5982\>\<#679C\>\<#8FD9\>\<#4E2A\>\<#6570\>\<#5217\>\<#7684\>\<#6240\>\<#6709\>\<#9879\>\<#90FD\>\<#662F\>\<#6B63\>\<#5B9E\>\<#6570\>\<#FF0C\>\<#6C42\>\<#8BC1\>:\<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\><math|n>,\<#6709\>
-    <math|G<rsub|n>\<gtr\>G<rsub|n+1>> \<#548C\>
-    <math|H<rsub|n>\<gtr\>H<rsub|n+1>>\<#FF0C\>\<#5176\>\<#4E2D\>
-    <math|G<rsub|n>> \<#548C\> <math|H<rsub|n>>
-    \<#7684\>\<#5B9A\>\<#4E49\>\<#5982\>\<#4E0B\>:
+    (2). 如果这个数列的所有项都是正实数，求证:对任意正整数<math|n>,有
+    <math|G<rsub|n>\<gtr\>G<rsub|n+1>> 和
+    <math|H<rsub|n>\<gtr\>H<rsub|n+1>>，其中 <math|G<rsub|n>> 和
+    <math|H<rsub|n>> 的定义如下:
 
     <\equation*>
       G<rsub|n>=<sqrt|a<rsub|1>a<rsub|2>\<cdots\>a<rsub|n>|n>,<space|1spc>H<rsub|n>=<frac|n|<frac|1|a<rsub|1>>+<frac|1|a<rsub|2>>+\<cdots\>+<frac|1|a<rsub|n>>>
@@ -442,220 +407,195 @@
   \;
 
   <\problem>
-    (1). \<#8BC1\>\<#660E\>: <math|<frac|1|n+1>+<frac|1|n+2>+\<cdots\>+<frac|1|2n>\<gtr\><frac|1|2>.>
+    (1). 证明: <math|<frac|1|n+1>+<frac|1|n+2>+\<cdots\>+<frac|1|2n>\<gtr\><frac|1|2>.>
 
-    (2). \<#5229\>\<#7528\> (1) \<#7684\>\<#7ED3\>\<#8BBA\>\<#FF0C\>\<#8BC1\>\<#660E\>
-    <math|S<rsub|n>=1+<frac|1|2>+\<cdots\>+<frac|1|n>>
-    \<#80FD\>\<#591F\>\<#5927\>\<#4E8E\>\<#4EFB\>\<#610F\>\<#6B63\>\<#5B9E\>\<#6570\>
-    <math|M>\<#FF0C\>\<#53EA\>\<#8981\> <math|n> \<#8DB3\>\<#591F\>\<#5927\>.
+    (2). 利用 (1) 的结论，证明 <math|S<rsub|n>=1+<frac|1|2>+\<cdots\>+<frac|1|n>>
+    能够大于任意正实数 <math|M>，只要 <math|n> 足够大.
 
-    (3). \<#8BC1\>\<#660E\>: <math|<frac|1|2<rsup|m>+1>+<frac|1|2<rsup|m>+2>+\<cdots\>+<frac|1|2<rsup|m+1>>\<gtr\><frac|1|2>>.
+    (3). 证明: <math|<frac|1|2<rsup|m>+1>+<frac|1|2<rsup|m>+2>+\<cdots\>+<frac|1|2<rsup|m+1>>\<gtr\><frac|1|2>>.
 
-    (4). \<#5229\>\<#7528\> (3) \<#7684\>\<#7ED3\>\<#8BBA\>\<#FF0C\>\<#8BC1\>\<#660E\>
-    <math|S<rsub|n>=1+<frac|1|2>+\<cdots\>+<frac|1|n>>
-    \<#80FD\>\<#591F\>\<#5927\>\<#4E8E\>\<#4EFB\>\<#610F\>\<#6B63\>\<#5B9E\>\<#6570\>
-    <math|M>\<#FF0C\>\<#53EA\>\<#8981\> <math|n> \<#8DB3\>\<#591F\>\<#5927\>.
+    (4). 利用 (3) 的结论，证明 <math|S<rsub|n>=1+<frac|1|2>+\<cdots\>+<frac|1|n>>
+    能够大于任意正实数 <math|M>，只要 <math|n> 足够大.
   </problem>
 
   \;
 
   <\problem>
-    \<#8BBE\> <math|a<rsub|n>=<frac|1|n><around*|(|1+<frac|1|2>+\<cdots\>+<frac|1|n>|)>>\<#FF0C\>\<#8BC1\>\<#660E\>:
+    设 <math|a<rsub|n>=<frac|1|n><around*|(|1+<frac|1|2>+\<cdots\>+<frac|1|n>|)>>，证明:
     <math|a<rsub|n>\<gtr\>a<rsub|n+1>>.
   </problem>
 
-  <chapter|\<#5411\>\<#91CF\>\<#4E0E\>\<#590D\>\<#6570\>>
+  <chapter|向量与复数>
 
   \;
 
-  \<#548C\>\<#5DEE\>\<#8FD0\>\<#7B97\>\<#FF0C\>\<#5206\>\<#89E3\>\<#5B9A\>\<#7406\>\<#FF0C\>\<#5185\>\<#79EF\>
+  和差运算，分解定理，内积
 
-  \<#590D\>\<#6570\>\<#7684\>\<#56DB\>\<#5219\>\<#8FD0\>\<#7B97\>\<#FF0C\>\<#68E3\>\<#6A21\>\<#5F17\>\<#5B9A\>\<#7406\>
+  复数的四则运算，棣模弗定理
 
   <\problem>
-    (1) \<#8BBE\>\<#5E73\>\<#9762\>\<#5411\>\<#91CF\>
-    <math|\<b-a\>=<around*|(|x,y|)>>,\<#6CBF\>\<#5750\>\<#6807\>\<#8F74\>\<#65B9\>\<#5411\>\<#7684\>\<#5355\>\<#4F4D\>\<#5411\>\<#91CF\>\<#5206\>\<#522B\>\<#662F\>
-    <math|\<b-i\>> \<#548C\> <math|\<b-j\>>,\<#6C42\>\<#8BC1\>:
+    (1) 设平面向量 <math|\<b-a\>=<around*|(|x,y|)>>,沿坐标轴方向的单位向量分别是
+    <math|\<b-i\>> 和 <math|\<b-j\>>,求证:
     <math|\<b-a\>=<around*|(|\<b-a\>\<cdot\>\<b-i\>|)>\<b-i\>+<around*|(|\<b-a\>\<cdot\>\<b-j\>|)>\<b-j\>>.
   </problem>
 
-  <chapter|\<#4E0D\>\<#7B49\>\<#5F0F\>>
+  <chapter|不等式>
 
-  <section|\<#5747\>\<#503C\>\<#4E0D\>\<#7B49\>\<#5F0F\>>
+  <section|均值不等式>
 
   <\theorem>
-    \<#8BBE\> <math|a\<gtr\>0>, <math|b\<gtr\>0>\<#FF0C\>\<#8BB0\>
+    设 <math|a\<gtr\>0>, <math|b\<gtr\>0>，记
 
     <\equation*>
       H=<frac|2|<frac|1|a>+<frac|1|b>>,<space|1spc>G=<sqrt|a
       b>,<space|1spc>A=<frac|a+b|2>,<space|1spc>Q=<sqrt|<frac|a<rsup|2>+b<rsup|2>|2>>
     </equation*>
 
-    \<#5219\>\<#6709\> <math|H\<leqslant\>G\<leqslant\>A\<leqslant\>Q>
-    \<#6210\>\<#7ACB\>\<#FF0C\>\<#5E76\>\<#4E14\>\<#7B49\>\<#53F7\>\<#90FD\>\<#4EC5\>\<#5728\>
-    <math|a=b> \<#65F6\>\<#6210\>\<#7ACB\>.\<#79F0\> <math|H>
-    \<#662F\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6570\>\<#7684\>\<#8C03\>\<#548C\>\<#5E73\>\<#5747\>\<#6570\>\<#FF0C\><math|G>
-    \<#662F\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6570\>\<#7684\>\<#51E0\>\<#4F55\>\<#5E73\>\<#5747\>\<#6570\>\<#FF0C\><math|A>
-    \<#662F\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6570\>\<#7684\>\<#7B97\>\<#672F\>\<#5E73\>\<#5747\>\<#6570\>\<#FF0C\><math|Q>
-    \<#662F\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6570\>\<#7684\>\<#5E73\>\<#65B9\>\<#5E73\>\<#5747\>\<#6570\>.
+    则有 <math|H\<leqslant\>G\<leqslant\>A\<leqslant\>Q>
+    成立，并且等号都仅在 <math|a=b> 时成立.称 <math|H>
+    是这两个数的调和平均数，<math|G>
+    是这两个数的几何平均数，<math|A>
+    是这两个数的算术平均数，<math|Q>
+    是这两个数的平方平均数.
   </theorem>
 
   <\problem>
-    \<#8BBE\>\<#5B9E\>\<#6570\> <math|x\<neq\>0>\<#FF0C\>\<#6C42\>\<#8BC1\>:
-    <math|<around*|\||x+<frac|1|x>|\|>\<geqslant\>2>.
-    \<#4F60\>\<#80FD\>\<#60F3\>\<#5230\>\<#7684\>\<#6700\>\<#7B80\>\<#4FBF\>\<#7684\>\<#8BC1\>\<#660E\>\<#662F\>\<#4EC0\>\<#4E48\>?
+    设实数 <math|x\<neq\>0>，求证: <math|<around*|\||x+<frac|1|x>|\|>\<geqslant\>2>.
+    你能想到的最简便的证明是什么?
   </problem>
 
   <\problem>
     \;
 
-    (1). \<#4E24\>\<#4E2A\>\<#6570\>\<#7684\>\<#8C03\>\<#548C\>\<#3001\>\<#51E0\>\<#4F55\>\<#3001\>\<#7B97\>\<#672F\>\<#3001\>\<#5E73\>\<#65B9\>\<#5E73\>\<#5747\>\<#6570\>\<#90FD\>\<#5177\>\<#6709\>\<#5F62\>\<#5F0F\>
+    (1). 两个数的调和、几何、算术、平方平均数都具有形式
     <math|f<rsup|-1><around*|(|<frac|f<around*|(|a|)>+f<around*|(|b|)>|2>|)>>
-    \<#7684\>\<#5F62\>\<#5F0F\>\<#FF0C\>\<#8BF7\>\<#6307\>\<#51FA\>\<#6BCF\>\<#4E00\>\<#79CD\>\<#5E73\>\<#5747\>\<#6570\>\<#5BF9\>\<#5E94\>\<#7684\>\<#51FD\>\<#6570\>
+    的形式，请指出每一种平均数对应的函数
     <math|f<around*|(|x|)>>.
 
-    (2). \<#4E24\>\<#4E2A\>\<#6570\>\<#7684\>\<#4E0A\>\<#8FF0\>\<#56DB\>\<#79CD\>\<#5E73\>\<#5747\>\<#6570\>\<#65E2\>\<#7136\>\<#7531\>\<#51FD\>\<#6570\>
-    <math|f<around*|(|x|)>> \<#6240\>\<#51B3\>\<#5B9A\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5B83\>\<#4EEC\>\<#7684\>\<#5927\>\<#5C0F\>\<#5173\>\<#7CFB\>\<#81EA\>\<#7136\>\<#4E5F\>\<#5C31\>\<#7531\>\<#5BF9\>\<#5E94\>\<#51FD\>\<#6570\>\<#7684\>\<#6027\>\<#8D28\>\<#51B3\>\<#5B9A\>\<#FF0C\>\<#4ECE\>\<#51FD\>\<#6570\>\<#56FE\>\<#8C61\>\<#4E0A\>\<#770B\>\<#FF0C\>\<#8FD9\>\<#56DB\>\<#4E2A\>\<#5E73\>\<#5747\>\<#6570\>\<#7684\>\<#5927\>\<#5C0F\>\<#5173\>\<#7CFB\>\<#4F53\>\<#73B0\>\<#4E86\>\<#5BF9\>\<#5E94\>\<#7684\>\<#56DB\>\<#4E2A\>\<#51FD\>\<#6570\>\<#7684\>\<#4EC0\>\<#4E48\>\<#7279\>\<#6027\>?
+    (2). 两个数的上述四种平均数既然由函数
+    <math|f<around*|(|x|)>> 所决定，那么它们的大小关系自然也就由对应函数的性质决定，从函数图象上看，这四个平均数的大小关系体现了对应的四个函数的什么特性?
 
-    (3). \<#4F60\>\<#80FD\>\<#5426\>\<#5229\>\<#7528\>\<#5176\>\<#5B83\>\<#51FD\>\<#6570\>\<#6784\>\<#5EFA\>\<#51FA\>\<#51E0\>\<#79CD\>\<#5173\>\<#4E8E\>\<#4E24\>\<#4E2A\>\<#6570\>\<#7684\>\<#5E73\>\<#5747\>\<#6570\>\<#FF0C\>\<#5E76\>\<#5C06\>\<#5B83\>\<#4EEC\>\<#52A0\>\<#5165\>\<#5230\>\<#5747\>\<#503C\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#94FE\>\<#4E2D\>?
+    (3). 你能否利用其它函数构建出几种关于两个数的平均数，并将它们加入到均值不等式链中?
   </problem>
 
   <\problem>
-    \<#8BF7\>\<#8BC1\>\<#660E\>\<#FF1A\>\<#5728\>\<#5300\>\<#53D8\>\<#901F\>\<#76F4\>\<#7EBF\>\<#8FD0\>\<#52A8\>\<#4E2D\>\<#FF0C\>\<#5728\>\<#4E00\>\<#6BB5\>\<#65F6\>\<#95F4\>\<#5185\>\<#7684\>\<#4E2D\>\<#95F4\>\<#4F4D\>\<#79FB\>\<#5904\>\<#7684\>\<#77AC\>\<#65F6\>\<#901F\>\<#5EA6\>\<#FF0C\>\<#5927\>\<#4E8E\>\<#4E2D\>\<#95F4\>\<#65F6\>\<#523B\>\<#5904\>\<#7684\>\<#77AC\>\<#65F6\>\<#901F\>\<#5EA6\>.
+    请证明：在匀变速直线运动中，在一段时间内的中间位移处的瞬时速度，大于中间时刻处的瞬时速度.
   </problem>
 
   <\problem>
-    \<#8BC1\>\<#660E\>\<#67EF\>\<#897F\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF0C\>\<#5BF9\>\<#4E8E\>\<#4E24\>\<#7EC4\>\<#5B9E\>\<#6570\>
-    <math|a<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>> \<#548C\>
-    <math|b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>\<#FF0C\>\<#8BC1\>\<#660E\>
+    证明柯西不等式，对于两组实数
+    <math|a<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>> 和
+    <math|b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>，证明
 
     <\equation*>
       <around*|(|<big|sum><rsub|i=1><rsup|n>a<rsub|i>b<rsub|i>|)><rsup|2>\<leqslant\><around*|(|<big|sum><rsub|i=1><rsup|n>a<rsub|i><rsup|2>|)><around*|(|<big|sum><rsub|i=1><rsup|n>b<rsub|i><rsup|2>|)>
     </equation*>
 
-    \<#5E76\>\<#4E14\>\<#7B49\>\<#53F7\>\<#4EC5\>\<#5728\>\<#4E24\>\<#7EC4\>\<#5B9E\>\<#6570\>\<#5BF9\>\<#5E94\>\<#6210\>\<#6BD4\>\<#4F8B\>\<#65F6\>\<#53D6\>\<#5F97\>\<#FF0C\>\<#5373\>\<#5B58\>\<#5728\>\<#5B9E\>\<#6570\>
-    <math|\<lambda\>>\<#FF0C\>\<#4F7F\>\<#5F97\>
-    <math|a<rsub|i>=\<lambda\>b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>
-    \<#6210\>\<#7ACB\>.
+    并且等号仅在两组实数对应成比例时取得，即存在实数
+    <math|\<lambda\>>，使得 <math|a<rsub|i>=\<lambda\>b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>
+    成立.
   </problem>
 
   <\problem>
-    \<#8BC1\>\<#660E\>\<#95F5\>\<#53EF\>\<#592B\>\<#65AF\>\<#57FA\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#FF0C\>\<#5BF9\>\<#4E8E\>\<#4E24\>\<#7EC4\>\<#5B9E\>\<#6570\>
-    <math|a<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>> \<#548C\>
-    <math|b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>\<#FF0C\>\<#8BC1\>\<#660E\>
+    证明闵可夫斯基不等式，对于两组实数
+    <math|a<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>> 和
+    <math|b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>，证明
 
     <\equation*>
       <sqrt|<big|sum><rsub|i=1><rsup|n><around*|(|a<rsub|i>+b<rsub|i>|)><rsup|2>>\<leqslant\><sqrt|<big|sum><rsub|i=1><rsup|n>a<rsub|i><rsup|2>>+<sqrt|<big|sum><rsub|i=1><rsup|n>b<rsub|i><rsup|2>>
     </equation*>
 
-    \<#5E76\>\<#4E14\>\<#7B49\>\<#5F0F\>\<#4EC5\>\<#5728\>\<#4E24\>\<#7EC4\>\<#5B9E\>\<#6570\>\<#5BF9\>\<#5E94\>\<#6210\>\<#6B63\>\<#6BD4\>\<#4F8B\>\<#65F6\>\<#53D6\>\<#5F97\>\<#FF0C\>\<#5373\>\<#5B58\>\<#5728\>\<#6B63\>\<#7684\>\<#5B9E\>\<#6570\>
-    <math|\<lambda\>>\<#FF0C\>\<#4F7F\>\<#5F97\>
-    <math|a<rsub|i>=\<lambda\>b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>
-    \<#6210\>\<#7ACB\>.
+    并且等式仅在两组实数对应成正比例时取得，即存在正的实数
+    <math|\<lambda\>>，使得 <math|a<rsub|i>=\<lambda\>b<rsub|i><around*|(|i=1,2,\<ldots\>,n|)>>
+    成立.
   </problem>
 
   \;
 
   \;
 
-  <chapter|\<#89E3\>\<#6790\>\<#51E0\>\<#4F55\>>
+  <chapter|解析几何>
 
   \;
 
-  \<#66F2\>\<#7EBF\>\<#4E0E\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#76F4\>\<#7EBF\>\<#7684\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#5706\>\<#7684\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#53C2\>\<#6570\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#692D\>\<#5706\>\<#FF0C\>\<#53CC\>\<#66F2\>\<#7EBF\>\<#FF0C\>\<#629B\>\<#7269\>\<#7EBF\>.
+  曲线与方程，直线的方程，圆的方程，参数方程，椭圆，双曲线，抛物线.
 
   \;
 
   <\definition>
-    \<#5728\>\<#5E73\>\<#9762\>\<#76F4\>\<#89D2\>\<#5750\>\<#6807\>\<#7CFB\>\<#4E2D\>\<#FF0C\>\<#5750\>\<#6807\>\<#53D8\>\<#6362\>
+    在平面直角坐标系中，坐标变换
     <math|<around*|(|x,y|)>\<rightarrow\><around*|(|x+a,y+b|)>>
-    \<#79F0\>\<#4E3A\>\<#5E73\>\<#79FB\>\<#53D8\>\<#6362\>\<#FF0C\>\<#79F0\>\<#5411\>\<#91CF\>
-    <math|\<b-v\>=<around*|(|a,b|)>> \<#4E3A\>\<#5E73\>\<#79FB\>\<#5411\>\<#91CF\>\<#FF1B\>\<#5750\>\<#6807\>\<#53D8\>\<#6362\>
-    <math|<around*|(|x,y|)>\<rightarrow\><around*|(|\<lambda\>x,\<mu\>y|)>>
-    \<#4E3A\>\<#4F38\>\<#7F29\>\<#53D8\>\<#6362\>\<#FF0C\><math|\<lambda\>>
-    \<#548C\> <math|\<mu\>> \<#5206\>\<#522B\>\<#79F0\>\<#4E3A\>\<#6A2A\>\<#5750\>\<#6807\>\<#4F38\>\<#7F29\>\<#56E0\>\<#5B50\>\<#548C\>\<#7EB5\>\<#5750\>\<#6807\>\<#4F38\>\<#7F29\>\<#56E0\>\<#5B50\>.
+    称为平移变换，称向量 <math|\<b-v\>=<around*|(|a,b|)>>
+    为平移向量；坐标变换 <math|<around*|(|x,y|)>\<rightarrow\><around*|(|\<lambda\>x,\<mu\>y|)>>
+    为伸缩变换，<math|\<lambda\>> 和 <math|\<mu\>>
+    分别称为横坐标伸缩因子和纵坐标伸缩因子.
   </definition>
 
   \;
 
   <\problem>
-    (1). \<#8BBE\>\<#67D0\>\<#66F2\>\<#7EBF\>\<#5728\>\<#5E73\>\<#9762\>\<#76F4\>\<#89D2\>\<#5750\>\<#6807\>\<#4E0B\>\<#7684\>\<#65B9\>\<#7A0B\>\<#4E3A\>
-    <math|f<around*|(|x,y|)>=0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#FF1A\>\<#5C06\>\<#66F2\>\<#7EBF\>\<#6309\>\<#7167\>\<#5411\>\<#91CF\>
-    <math|\<b-v\>=<around*|(|a,b|)>> \<#8FDB\>\<#884C\>\<#5E73\>\<#79FB\>\<#540E\>\<#6240\>\<#5F97\>\<#65B0\>\<#66F2\>\<#7EBF\>\<#7684\>\<#65B9\>\<#7A0B\>\<#4E3A\>
+    (1). 设某曲线在平面直角坐标下的方程为
+    <math|f<around*|(|x,y|)>=0>，证明：将曲线按照向量
+    <math|\<b-v\>=<around*|(|a,b|)>> 进行平移后所得新曲线的方程为
     <math|f<around*|(|x-a,y-b|)>=0>.
 
-    (2). \<#51FD\>\<#6570\> <math|y=f<around*|(|x|)>>
-    \<#7684\>\<#56FE\>\<#8C61\>\<#6309\>\<#5411\>\<#91CF\>
-    <math|\<b-v\>=<around*|(|a,b|)>> \<#8FDB\>\<#884C\>\<#5E73\>\<#79FB\>\<#540E\>\<#7684\>\<#65B0\>\<#56FE\>\<#8C61\>\<#5BF9\>\<#5E94\>\<#7684\>\<#51FD\>\<#6570\>\<#8868\>\<#8FBE\>\<#5F0F\>\<#662F\>\<#4EC0\>\<#4E48\>?
+    (2). 函数 <math|y=f<around*|(|x|)>> 的图象按向量
+    <math|\<b-v\>=<around*|(|a,b|)>> 进行平移后的新图象对应的函数表达式是什么?
 
-    (3). \<#5982\>\<#4F55\>\<#7531\>\<#4E8C\>\<#6B21\>\<#51FD\>\<#6570\>
-    <math|y=x<rsup|2>> \<#7ECF\>\<#5E73\>\<#79FB\>\<#548C\>\<#4F38\>\<#7F29\>\<#540E\>\<#5F97\>\<#5230\>\<#4E8C\>\<#6B21\>\<#51FD\>\<#6570\>
-    <math|y=a x<rsup|2>+b x+c> ? \<#5E76\>\<#7814\>\<#7A76\>\<#5176\>\<#5BF9\>\<#79F0\>\<#8F74\>\<#548C\>\<#9876\>\<#70B9\>\<#662F\>\<#5982\>\<#4F55\>\<#8DDF\>\<#7740\>\<#53D8\>\<#6362\>\<#7684\>.
+    (3). 如何由二次函数 <math|y=x<rsup|2>>
+    经平移和伸缩后得到二次函数 <math|y=a x<rsup|2>+b x+c> ?
+    并研究其对称轴和顶点是如何跟着变换的.
   </problem>
 
   \;
 
   <\problem>
-    (1). \<#8BC1\>\<#660E\>\<#FF1A\>\<#6240\>\<#6709\>\<#7684\>\<#629B\>\<#7269\>\<#7EBF\>\<#90FD\>\<#662F\>\<#76F8\>\<#4F3C\>\<#7684\>.
+    (1). 证明：所有的抛物线都是相似的.
 
-    (2). \<#8BC1\>\<#660E\>: \<#79BB\>\<#5FC3\>\<#7387\>\<#76F8\>\<#540C\>\<#7684\>\<#692D\>\<#5706\>\<#662F\>\<#76F8\>\<#4F3C\>\<#7684\>\<#FF0C\>\<#79BB\>\<#5FC3\>\<#7387\>\<#76F8\>\<#540C\>\<#7684\>\<#53CC\>\<#66F2\>\<#7EBF\>\<#4E5F\>\<#90FD\>\<#662F\>\<#76F8\>\<#4F3C\>\<#7684\>.
+    (2). 证明: 离心率相同的椭圆是相似的，离心率相同的双曲线也都是相似的.
 
-    (3). \<#7EFC\>\<#5408\> (1) \<#4E0E\> (2)
-    \<#7684\>\<#7ED3\>\<#8BBA\>\<#FF0C\>\<#5706\>\<#9525\>\<#66F2\>\<#7EBF\>\<#7684\>\<#5F62\>\<#72B6\>\<#4E0E\>\<#79BB\>\<#5FC3\>\<#7387\>\<#4E4B\>\<#95F4\>\<#662F\>\<#4EC0\>\<#4E48\>\<#5173\>\<#7CFB\>?
+    (3). 综合 (1) 与 (2) 的结论，圆锥曲线的形状与离心率之间是什么关系?
   </problem>
 
   \;
 
   <\problem>
-    (1). \<#6C42\>\<#7531\>\<#5706\> <math|x<rsup|2>+y<rsup|2>=1>
-    \<#4F38\>\<#7F29\>\<#53D8\>\<#6362\>\<#4E3A\>\<#692D\>\<#5706\>
+    (1). 求由圆 <math|x<rsup|2>+y<rsup|2>=1> 伸缩变换为椭圆
     <math|<frac|x<rsup|2>|a<rsup|2>>+<frac|y<rsup|2>|b<rsup|2>>=1>
-    \<#7684\>\<#4F38\>\<#7F29\>\<#56E0\>\<#5B50\>.
+    的伸缩因子.
 
-    (2). \<#5E73\>\<#9762\>\<#4E0A\>\<#4EFB\>\<#610F\>\<#4E00\>\<#4E2A\>\<#4E09\>\<#89D2\>\<#5F62\>\<#FF0C\>\<#8BBE\>\<#5176\>\<#9762\>\<#79EF\>\<#4E3A\>
-    <math|S>\<#FF0C\>\<#5728\>\<#7ECF\>\<#8FC7\>\<#4F38\>\<#7F29\>\<#53D8\>\<#6362\>
-    <math|L<around*|(|\<lambda\>,\<mu\>|)>>
-    \<#4E4B\>\<#540E\>\<#FF0C\>\<#65B0\>\<#4E09\>\<#89D2\>\<#5F62\>\<#7684\>\<#9762\>\<#79EF\>\<#4E3A\>
-    <math|S<rprime|'>>\<#FF0C\>\<#8BC1\>\<#660E\>:
+    (2). 平面上任意一个三角形，设其面积为
+    <math|S>，在经过伸缩变换 <math|L<around*|(|\<lambda\>,\<mu\>|)>>
+    之后，新三角形的面积为 <math|S<rprime|'>>，证明:
     <math|S<rprime|'>=\<lambda\>\<mu\>S>.
-    (\<#5E76\>\<#601D\>\<#8003\>\<#FF1A\>\<#7A7A\>\<#95F4\>\<#4E2D\>\<#FF0C\>\<#4E00\>\<#4E2A\>\<#5E73\>\<#9762\>\<#4E0A\>\<#7684\>\<#56FE\>\<#5F62\>\<#6295\>\<#5F71\>\<#5230\>\<#53E6\>\<#4E00\>\<#4E2A\>\<#5E73\>\<#9762\>\<#4E0A\>\<#FF0C\>\<#9762\>\<#79EF\>\<#4E0E\>\<#6295\>\<#5F71\>\<#9762\>\<#79EF\>\<#4E4B\>\<#95F4\>\<#6709\>\<#4EC0\>\<#4E48\>\<#5173\>\<#7CFB\>?)
+    (并思考：空间中，一个平面上的图形投影到另一个平面上，面积与投影面积之间有什么关系?)
 
-    (3). \<#5229\>\<#7528\>\<#7956\>\<#77B0\>\<#539F\>\<#7406\>\<#FF0C\>\<#5C06\>
-    (2) \<#7684\>\<#7ED3\>\<#8BBA\>\<#63A8\>\<#5E7F\>\<#5230\>\<#5E73\>\<#9762\>\<#4E0A\>\<#4EFB\>\<#610F\>\<#5177\>\<#6709\>\<#9762\>\<#79EF\>\<#7684\>\<#56FE\>\<#5F62\>\<#4E0A\>.
+    (3). 利用祖瞰原理，将 (2) 的结论推广到平面上任意具有面积的图形上.
 
-    (4). \<#5229\>\<#7528\> (3) \<#7684\>\<#7ED3\>\<#8BBA\>\<#FF0C\>\<#8BC1\>\<#660E\>:
-    \<#957F\>\<#8F74\>\<#957F\>\<#4E3A\> <math|2a>\<#FF0C\>\<#77ED\>\<#8F74\>\<#957F\>\<#4E3A\>
-    <math|2b> \<#7684\>\<#692D\>\<#5706\>\<#FF0C\>\<#5176\>\<#9762\>\<#79EF\>\<#662F\>
-    <math|S=\<pi\>a b>.
+    (4). 利用 (3) 的结论，证明: 长轴长为 <math|2a>，短轴长为
+    <math|2b> 的椭圆，其面积是 <math|S=\<pi\>a b>.
   </problem>
 
   \;
 
   <\problem>
-    (1). \<#5982\>\<#679C\>\<#76F4\>\<#7EBF\> <math|l>
-    \<#4E0E\>\<#66F2\>\<#7EBF\> <math|C> \<#5728\>\<#67D0\>\<#70B9\> <math|P>
-    \<#5904\>\<#76F8\>\<#5207\>\<#FF0C\>\<#8BC1\>\<#660E\>:
-    \<#5728\>\<#7ECF\>\<#8FC7\>\<#4F38\>\<#7F29\>\<#53D8\>\<#6362\>
-    <math|L<around*|(|\<lambda\>,\<mu\>|)>>
-    \<#53D8\>\<#6362\>\<#4E4B\>\<#540E\>\<#7684\>\<#65B0\>\<#76F4\>\<#7EBF\>
-    <math|l<rprime|'>> \<#4E0E\>\<#65B0\>\<#66F2\>\<#7EBF\>
-    <math|C<rprime|'>> \<#4E5F\>\<#76F8\>\<#5207\>\<#4E8E\>
-    <math|P<rprime|'>> \<#70B9\>\<#FF0C\>\<#8FD9\>\<#91CC\>
-    <math|P<rprime|'>> \<#662F\>\<#70B9\> <math|P>
-    \<#5728\>\<#53D8\>\<#6362\>\<#4E0B\>\<#7684\>\<#50CF\>\<#70B9\>.
+    (1). 如果直线 <math|l> 与曲线 <math|C> 在某点 <math|P>
+    处相切，证明: 在经过伸缩变换
+    <math|L<around*|(|\<lambda\>,\<mu\>|)>> 变换之后的新直线
+    <math|l<rprime|'>> 与新曲线 <math|C<rprime|'>> 也相切于
+    <math|P<rprime|'>> 点，这里 <math|P<rprime|'>> 是点 <math|P>
+    在变换下的像点.
 
-    (2). \<#5229\>\<#7528\> (1) \<#7684\>\<#7ED3\>\<#8BBA\>\<#FF0C\>\<#63A8\>\<#5BFC\>\<#692D\>\<#5706\>\<#5728\>\<#5176\>\<#4E0A\>\<#4EFB\>\<#610F\>\<#4E00\>\<#70B9\>\<#5904\>\<#7684\>\<#5207\>\<#7EBF\>\<#65B9\>\<#7A0B\>.
+    (2). 利用 (1) 的结论，推导椭圆在其上任意一点处的切线方程.
   </problem>
 
   \;
 
   <\problem>
-    \<#FF08\>1\<#FF09\> \<#8BBE\>\<#70B9\> <math|P>
-    \<#5728\>\<#5E73\>\<#9762\>\<#76F4\>\<#89D2\>\<#5750\>\<#6807\>\<#4E0B\>\<#7684\>\<#5750\>\<#6807\>\<#662F\>
-    <math|<around*|(|x,y|)>>\<#FF0C\>\<#73B0\>\<#5C06\>\<#5750\>\<#6807\>\<#8F74\>\<#7ED5\>\<#539F\>\<#70B9\>\<#9006\>\<#65F6\>\<#9488\>\<#65CB\>\<#8F6C\>\<#4E00\>\<#4E2A\>\<#89D2\>\<#5EA6\>
-    <math|\<theta\>>\<#FF0C\>\<#6C42\>\<#8BC1\>\<#FF1A\>\<#70B9\> <math|P>
-    \<#5728\>\<#65B0\>\<#5750\>\<#6807\>\<#7CFB\>\<#4E0B\>\<#7684\>\<#5750\>\<#6807\>
-    <math|<around*|(|x<rprime|'>,y<rprime|'>|)>> \<#4E3A\>
+    （1） 设点 <math|P> 在平面直角坐标下的坐标是
+    <math|<around*|(|x,y|)>>，现将坐标轴绕原点逆时针旋转一个角度
+    <math|\<theta\>>，求证：点 <math|P> 在新坐标系下的坐标
+    <math|<around*|(|x<rprime|'>,y<rprime|'>|)>> 为
 
     <\equation*>
       <around*|{|<tabular|<tformat|<table|<row|<cell|x<rprime|'>=x
@@ -665,48 +605,39 @@
 
     \;
 
-    (2) \<#5229\>\<#7528\> (1) \<#7684\>\<#7ED3\>\<#8BBA\>\<#FF0C\>\<#63A8\>\<#5BFC\>\<#53CD\>\<#6BD4\>\<#4F8B\>\<#51FD\>\<#6570\>
+    (2) 利用 (1) 的结论，推导反比例函数
     <math|y=<frac|a|x><around*|(|a\<gtr\>0|)>>
-    \<#7684\>\<#56FE\>\<#8C61\>\<#5728\>\<#5C06\>\<#5750\>\<#6807\>\<#8F74\>\<#7ED5\>\<#539F\>\<#70B9\>\<#9006\>\<#65F6\>\<#9488\>\<#65CB\>\<#8F6C\>
-    <math|45<rsup|\<circ\>>> \<#540E\>\<#7684\>\<#65B0\>\<#65B9\>\<#7A0B\>\<#FF0C\>\<#5E76\>\<#8BF4\>\<#660E\>\<#5B83\>\<#662F\>\<#4E00\>\<#4E2A\>\<#53CC\>\<#66F2\>\<#7EBF\>.
+    的图象在将坐标轴绕原点逆时针旋转 <math|45<rsup|\<circ\>>>
+    后的新方程，并说明它是一个双曲线.
 
-    (3). \<#9009\>\<#62E9\>\<#6070\>\<#5F53\>\<#7684\>\<#65CB\>\<#8F6C\>\<#53D8\>\<#6362\>
-    <math|R<around*|(|\<theta\>|)>>\<#FF0C\>\<#8BC1\>\<#660E\>\<#51FD\>\<#6570\>
-    <math|y=x+<frac|a|x><around*|(|a\<neq\>0|)>>
-    \<#7684\>\<#56FE\>\<#8C61\>\<#662F\>\<#53CC\>\<#66F2\>\<#7EBF\>.
+    (3). 选择恰当的旋转变换 <math|R<around*|(|\<theta\>|)>>，证明函数
+    <math|y=x+<frac|a|x><around*|(|a\<neq\>0|)>> 的图象是双曲线.
   </problem>
 
   \;
 
   <\problem>
-    \<#8BBE\>\<#629B\>\<#7269\>\<#7EBF\> <math|C>: <math|y<rsup|2>=2p
-    x<around*|(|p\<gtr\>0|)>>\<#FF0C\>\<#8FC7\>\<#5B9A\>\<#70B9\>
-    <math|K<around*|(|2p\<nocomma\>,0|)>> \<#7684\>\<#76F4\>\<#7EBF\>
-    <math|l> \<#4E0E\>\<#629B\>\<#7269\>\<#7EBF\> <math|C> \<#4EA4\>\<#4E8E\>
-    <math|A>\<#3001\><math|B> \<#4E24\>\<#70B9\>. <math|O>
-    \<#4E3A\>\<#5750\>\<#6807\>\<#7CFB\>\<#539F\>\<#70B9\>.
-    \<#6C42\>\<#8BC1\>: <math|O A\<perp\>O B>.
+    设抛物线 <math|C>: <math|y<rsup|2>=2p
+    x<around*|(|p\<gtr\>0|)>>，过定点
+    <math|K<around*|(|2p\<nocomma\>,0|)>> 的直线 <math|l> 与抛物线
+    <math|C> 交于 <math|A>、<math|B> 两点. <math|O> 为坐标系原点.
+    求证: <math|O A\<perp\>O B>.
   </problem>
 
-  <chapter|\<#7ACB\>\<#4F53\>\<#51E0\>\<#4F55\>>
+  <chapter|立体几何>
 
   \;
 
-  \<#7A7A\>\<#95F4\>\<#5411\>\<#91CF\>,\<#76F4\>\<#7EBF\>\<#4E0E\>\<#5E73\>\<#9762\>\<#7684\>\<#516C\>\<#7406\>\<#FF0C\>\<#7EBF\>\<#7EBF\>\<#5173\>\<#7CFB\>\<#FF0C\>\<#5F02\>\<#9762\>\<#76F4\>\<#7EBF\>\<#FF0C\>\<#7EBF\>\<#9762\>\<#5173\>\<#7CFB\>\<#FF0C\>\<#9762\>\<#9762\>\<#5173\>\<#7CFB\>\<#FF0C\>\<#68F1\>\<#67F1\>\<#FF0C\>\<#68F1\>\<#9525\>\<#FF0C\>\<#56DB\>\<#9762\>\<#4F53\>.
+  空间向量,直线与平面的公理，线线关系，异面直线，线面关系，面面关系，棱柱，棱锥，四面体.
 
   <\problem>
-    \<#7531\>\<#7A7A\>\<#95F4\>\<#4E2D\>\<#4E00\>\<#70B9\> <math|O>
-    \<#5F15\>\<#51FA\>\<#4E09\>\<#6761\>\<#5C04\>\<#7EBF\> <math|O
-    A>\<#3001\><math|O B>\<#3001\><math|O C>
-    \<#6240\>\<#5F97\>\<#56FE\>\<#5F62\>\<#79F0\>\<#4E3A\>\<#4E09\>\<#9762\>\<#89D2\>\<#FF0C\>\<#4E09\>\<#6761\>\<#5C04\>\<#7EBF\>\<#79F0\>\<#4E3A\>\<#4E09\>\<#9762\>\<#89D2\>\<#7684\>\<#68F1\>\<#FF0C\>\<#663E\>\<#7136\>\<#4E09\>\<#9762\>\<#89D2\>\<#6709\>\<#4E09\>\<#4E2A\>\<#5C04\>\<#7EBF\>\<#5939\>\<#89D2\>\<#4E0E\>\<#4E09\>\<#4E2A\>\<#4E8C\>\<#9762\>\<#89D2\>\<#FF0C\>\<#4EE5\>\<#5C04\>\<#7EBF\>
-    <math|O A> \<#4E3A\>\<#68F1\>\<#7684\>\<#4E8C\>\<#9762\>\<#89D2\>\<#8BB0\>\<#4E3A\>
-    <math|\<alpha\>>\<#FF0C\>\<#4EE5\>\<#5C04\>\<#7EBF\> <math|O B>
-    \<#4E3A\>\<#68F1\>\<#7684\>\<#4E8C\>\<#9762\>\<#89D2\>\<#8BB0\>\<#4E3A\>
-    <math|\<beta\>>\<#FF0C\>\<#4EE5\>\<#5C04\>\<#7EBF\> <math|O C>
-    \<#4E3A\>\<#68F1\>\<#7684\>\<#4E8C\>\<#9762\>\<#89D2\>\<#8BB0\>\<#4E3A\>
-    <math|\<gamma\>>.
+    由空间中一点 <math|O> 引出三条射线 <math|O A>、<math|O
+    B>、<math|O C> 所得图形称为三面角，三条射线称为三面角的棱，显然三面角有三个射线夹角与三个二面角，以射线
+    <math|O A> 为棱的二面角记为 <math|\<alpha\>>，以射线 <math|O
+    B> 为棱的二面角记为 <math|\<beta\>>，以射线 <math|O C>
+    为棱的二面角记为 <math|\<gamma\>>.
 
-    (1) \<#8BC1\>\<#660E\>\<#4E09\>\<#89D2\>\<#9762\>\<#7684\>\<#7B2C\>\<#4E00\>\<#4F59\>\<#5F26\>\<#5B9A\>\<#7406\>:\ 
+    (1) 证明三角面的第一余弦定理:\ 
 
     <\eqnarray*>
       <tformat|<table|<row|<cell|cos\<angle\>A O
@@ -718,68 +649,60 @@
       B sin\<angle\> A O B cos\<beta\>>>>>
     </eqnarray*>
 
-    \<#5E76\>\<#8BF4\>\<#660E\>\<#4F59\>\<#5F26\>\<#7684\>\<#548C\>\<#5DEE\>\<#89D2\>\<#516C\>\<#5F0F\>\<#662F\>\<#8FD9\>\<#7EC4\>\<#516C\>\<#5F0F\>\<#7684\>\<#7279\>\<#6B8A\>\<#60C5\>\<#51B5\>.
+    并说明余弦的和差角公式是这组公式的特殊情况.
 
-    (2). \<#5728\>\<#4E8C\>\<#9762\>\<#89D2\> <math|A-O K-B>
-    \<#4E2D\>\<#FF0C\>\<#8BBE\> <math|\<angle\>A O
-    K=\<alpha\>>\<#FF0C\><math|\<angle\>B O
-    K=\<beta\>>\<#FF0C\><math|\<angle\>A O
-    B=\<gamma\>>\<#FF0C\>\<#4E8C\>\<#9762\>\<#89D2\>\<#7684\>\<#5927\>\<#5C0F\>\<#4E3A\>
-    <math|\<theta\>>\<#FF0C\>\<#8BC1\>\<#660E\>
+    (2). 在二面角 <math|A-O K-B> 中，设 <math|\<angle\>A O
+    K=\<alpha\>>，<math|\<angle\>B O K=\<beta\>>，<math|\<angle\>A O
+    B=\<gamma\>>，二面角的大小为 <math|\<theta\>>，证明
 
     <\equation*>
       cos\<gamma\>=cos\<alpha\> cos\<beta\>+sin\<alpha\> sin\<beta\>
       cos\<theta\>
     </equation*>
 
-    \<#5C24\>\<#5176\>\<#5728\> <math|\<theta\>=<frac|\<pi\>|2>>
-    \<#5373\>\<#76F4\>\<#4E8C\>\<#9762\>\<#89D2\>\<#7684\>\<#60C5\>\<#51B5\>\<#4E0B\>\<#FF0C\>\<#516C\>\<#5F0F\>\<#7B80\>\<#5316\>\<#4E3A\>
+    尤其在 <math|\<theta\>=<frac|\<pi\>|2>>
+    即直二面角的情况下，公式简化为
     <math|cos\<gamma\>=cos\<alpha\> cos\<beta\>>.
   </problem>
 
-  <chapter|\<#6392\>\<#5217\>\<#3001\>\<#7EC4\>\<#5408\>\<#4E0E\>\<#4E8C\>\<#9879\>\<#5F0F\>\<#5B9A\>\<#7406\>>
+  <chapter|排列、组合与二项式定理>
 
   \;
 
   <\problem>
     \;
 
-    (1). \<#6C42\>\<#65B9\>\<#7A0B\> <math|x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>=m
-    <around*|(|m\<geqslant\>n|)>> \<#7684\>\<#975E\>\<#8D1F\>\<#6574\>\<#6570\>\<#89E3\>\<#7684\>\<#4E2A\>\<#6570\>.
+    (1). 求方程 <math|x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>=m
+    <around*|(|m\<geqslant\>n|)>> 的非负整数解的个数.
 
-    (2). \<#6C42\>\<#65B9\>\<#7A0B\> <math|x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>=m
-    <around*|(|m\<geqslant\>n|)>> \<#7684\>\<#6B63\>\<#6574\>\<#6570\>\<#89E3\>\<#7684\>\<#4E2A\>\<#6570\>.
-    (\<#63D0\>\<#793A\>: \<#4EE4\> <math|y<rsub|i>=x<rsub|i>-1>
-    \<#5E76\>\<#5229\>\<#7528\> (1) \<#7684\>\<#7ED3\>\<#679C\>)
+    (2). 求方程 <math|x<rsub|1>+x<rsub|2>+\<cdots\>+x<rsub|n>=m
+    <around*|(|m\<geqslant\>n|)>> 的正整数解的个数. (提示: 令
+    <math|y<rsub|i>=x<rsub|i>-1> 并利用 (1) 的结果)
   </problem>
 
   \;
 
   <\problem>
-    \<#8BC1\>\<#660E\>: <math|<around*|(|1+<frac|1|n>|)><rsup|n>\<less\>3>.
+    证明: <math|<around*|(|1+<frac|1|n>|)><rsup|n>\<less\>3>.
   </problem>
 
-  <chapter|\<#6781\>\<#9650\>\<#4E0E\>\<#5BFC\>\<#6570\>>
+  <chapter|极限与导数>
 
   \;
 
   <\problem>
     <\enumerate-numeric>
-      <item>\<#8BC1\>\<#660E\>: \<#5BF9\>\<#4EFB\>\<#610F\>\<#5B9E\>\<#6570\>
-      <math|x>\<#FF0C\>\<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\>
-      <math|<with|math-font-family|rm|e><rsup|x>\<geqslant\>1+x>\<#FF0C\>\<#4E14\>\<#7B49\>\<#53F7\>\<#4EC5\>\<#5728\>
-      <math|x=0> \<#65F6\>\<#6210\>\<#7ACB\>.
+      <item>证明: 对任意实数 <math|x>，成立不等式
+      <math|<with|math-font-family|rm|e><rsup|x>\<geqslant\>1+x>，且等号仅在
+      <math|x=0> 时成立.
 
-      <item>\<#8BC1\>\<#660E\>: \<#5BF9\>\<#4EFB\>\<#610F\>
-      <math|x\<gtr\>-1>\<#FF0C\>\<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\>
-      <math|ln<around*|(|1+x|)>\<less\>x>\<#FF0C\>\<#4E14\>\<#7B49\>\<#53F7\>\<#4EC5\>\<#5728\>
-      <math|x=0> \<#65F6\>\<#6210\>\<#7ACB\>.\<#5E76\>\<#7531\>\<#6B64\>\<#63A8\>\<#51FA\>\<#4E0D\>\<#7B49\>\<#5F0F\>
-      <math|ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|n>>\<#FF0C\>\<#8FD9\>\<#91CC\>
-      <math|n> \<#662F\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>.
+      <item>证明: 对任意 <math|x\<gtr\>-1>，成立不等式
+      <math|ln<around*|(|1+x|)>\<less\>x>，且等号仅在 <math|x=0>
+      时成立.并由此推出不等式 <math|ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|n>>，这里
+      <math|n> 是任意正整数.
 
-      <item>\<#8BC1\>\<#660E\>: \<#5BF9\> <math|x\<gtr\>1>
-      \<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\> <math|ln
-      x\<less\><frac|1|2><around*|(|x-<frac|1|x>|)>>\<#FF0C\>\<#5E76\>\<#7531\>\<#6B64\>\<#63A8\>\<#51FA\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <item>证明: 对 <math|x\<gtr\>1> 成立不等式 <math|ln
+      x\<less\><frac|1|2><around*|(|x-<frac|1|x>|)>>，并由此推出不等式
       <math|ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|2><around*|(|<frac|1|n>+<frac|1|n+1>|)>>.
     </enumerate-numeric>
   </problem>
@@ -788,26 +711,23 @@
 
   <\problem>
     <\enumerate-numeric>
-      <item>\<#8BBE\>\<#5B9E\>\<#6570\> <math|x\<gtr\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <item>设实数 <math|x\<gtr\>0>，证明不等式
       <math|<frac|x|1+x>\<less\>ln<around*|(|1+x|)>\<less\>x>.
 
-      <item>\<#8BC1\>\<#660E\>: \<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>
-      <math|n> \<#6210\>\<#7ACB\>\<#4E0D\>\<#7B49\>\<#5F0F\>
-      <math|<frac|1|n+1>\<less\>ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|n>>\<#FF0C\>\<#5E76\>\<#7531\>\<#6B64\>\<#8BC1\>\<#660E\>\ 
+      <item>证明: 对任意正整数 <math|n> 成立不等式
+      <math|<frac|1|n+1>\<less\>ln<around*|(|1+<frac|1|n>|)>\<less\><frac|1|n>>，并由此证明\ 
 
       <\equation*>
         ln<around*|(|n+1|)>\<less\>1+<frac|1|2>+\<cdots\>+<frac|1|n>\<less\>1+ln
         n
       </equation*>
 
-      <item>\<#8BBE\> <math|b\<gtr\>a\<gtr\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#4E0D\>\<#7B49\>\<#5F0F\>
+      <item>设 <math|b\<gtr\>a\<gtr\>0>，证明不等式
       <math|a\<less\><frac|a-b|ln a-ln b>\<less\>b>.
-      \<#8BE5\>\<#5F0F\>\<#4E2D\>\<#95F4\>\<#7684\>\<#90E8\>\<#5206\>\<#79F0\>\<#4E3A\>
-      <math|a> \<#4E0E\> <math|b> \<#7684\>\<#5BF9\>\<#6570\>\<#5E73\>\<#5747\>\<#6570\>.
+      该式中间的部分称为 <math|a> 与 <math|b> 的对数平均数.
 
-      <item>\<#8BC1\>\<#660E\>\<#5BF9\>\<#6570\>\<#5747\>\<#503C\>\<#4E0D\>\<#7B49\>\<#5F0F\>:
-      \<#8BBE\> <math|a\<gtr\>0,b\<gtr\>0>\<#FF0C\>\<#4E14\>
-      <math|a\<neq\>b>\<#FF0C\>\<#6709\>
+      <item>证明对数均值不等式: 设 <math|a\<gtr\>0,b\<gtr\>0>，且
+      <math|a\<neq\>b>，有
 
       <\equation*>
         <sqrt|a b>\<less\><frac|a-b|ln a-ln b>\<less\><frac|a+b|2>
@@ -818,102 +738,87 @@
   \;
 
   <\problem>
-    \<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>
-    <math|n>\<#FF0C\>\<#5B9A\>\<#4E49\>\<#4E24\>\<#4E2A\>\<#591A\>\<#9879\>\<#5F0F\>\<#5982\>\<#4E0B\>
+    对任意正整数 <math|n>，定义两个多项式如下
 
     <\equation*>
       E<rsub|n><around*|(|x|)>=1+x+<frac|x<rsup|2>|2!>+\<cdots\>+<frac|x<rsup|n>|n!>\<nocomma\>,<space|1spc>L<rsub|n><around*|(|x|)>=x-<frac|x<rsup|2>|2>+<frac|x<rsup|3>|3>+\<cdots\>+<around*|(|-1|)><rsup|n-1><frac|x<rsup|n>|n>
     </equation*>
 
     <\enumerate-numeric>
-      <item>\<#8BBE\> <math|x\<neq\>0>\<#FF0C\>\<#8BC1\>\<#660E\>\<#FF1A\>\<#5BF9\>\<#4EFB\>\<#610F\>\<#6B63\>\<#6574\>\<#6570\>
-      <math|n>\<#FF0C\>\<#90FD\>\<#6709\>
-      <math|<with|math-font-family|rm|e><rsup|x>\<gtr\>E<rsub|n><around*|(|x|)>>.
+      <item>设 <math|x\<neq\>0>，证明：对任意正整数
+      <math|n>，都有 <math|<with|math-font-family|rm|e><rsup|x>\<gtr\>E<rsub|n><around*|(|x|)>>.
 
-      <item>\<#8BBE\> <math|x\<gtr\>0> \<#FF0C\>\<#8BC1\>\<#660E\>:
-      \<#5F53\>\<#6B63\>\<#6574\>\<#6570\> <math|n>
-      \<#662F\>\<#5947\>\<#6570\>\<#65F6\>\<#FF0C\>\<#6709\> <math|ln
-      <around*|(|1+x|)>\<less\>L<rsub|n><around*|(|x|)>>\<#FF0C\>\<#800C\>\<#5F53\>
-      <math|n> \<#662F\>\<#5076\>\<#6570\>\<#65F6\>\<#FF0C\>\<#6709\><math|ln<around*|(|1+x|)>\<gtr\>L<rsub|n><around*|(|x|)>>.
+      <item>设 <math|x\<gtr\>0> ，证明: 当正整数 <math|n>
+      是奇数时，有 <math|ln <around*|(|1+x|)>\<less\>L<rsub|n><around*|(|x|)>>，而当
+      <math|n> 是偶数时，有<math|ln<around*|(|1+x|)>\<gtr\>L<rsub|n><around*|(|x|)>>.
 
-      <item>\<#8BB0\>
+      <item>记
 
       <\equation*>
         S<rsub|n><around*|(|x|)>=x-<frac|x<rsup|3>|3!>+\<cdots\>+<around*|(|-1|)><rsup|n><frac|x<rsup|2n+1>|<around*|(|2n+1|)>!>,<space|1spc>C<rsub|n><around*|(|x|)>=1-<frac|x<rsup|2>|2!>+\<cdots\>+<around*|(|-1|)><rsup|n-1><frac|x<rsup|2n>|<around*|(|2n|)>!>
       </equation*>
 
-      \<#5219\>\<#5F53\> <math|x\<gtr\>0> \<#65F6\>\<#FF0C\>\<#82E5\>
-      <math|n> \<#4E3A\>\<#5076\>\<#6570\>\<#FF0C\>\<#5219\> <math|sin
-      x\<gtr\>S<rsub|n><around*|(|x|)>> \<#5E76\>\<#4E14\> <math|cos
-      x\<less\>C<rsub|n><around*|(|x|)>>\<#FF0C\>\<#53CD\>\<#4E4B\>\<#82E5\>
-      <math|n> \<#4E3A\>\<#5947\>\<#6570\>\<#FF0C\>\<#5219\> <math|sin
-      x\<less\>S<rsub|n><around*|(|x|)>> \<#5E76\>\<#4E14\> <math|cos
+      则当 <math|x\<gtr\>0> 时，若 <math|n> 为偶数，则 <math|sin
+      x\<gtr\>S<rsub|n><around*|(|x|)>> 并且 <math|cos
+      x\<less\>C<rsub|n><around*|(|x|)>>，反之若 <math|n> 为奇数，则
+      <math|sin x\<less\>S<rsub|n><around*|(|x|)>> 并且 <math|cos
       x\<gtr\>C<rsub|n><around*|(|x|)>>.
     </enumerate-numeric>
   </problem>
 
   \;
 
-  <\solution>
-    (1).\<#4EE4\><math|f<rsub|n><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|n><around*|(|x|)>>\<#FF0C\>\<#663E\>\<#7136\>
-    <math|f<rsub|n><around*|(|0|)>=0>\<#FF0C\>\<#5E76\>\<#4E14\>\<#5BB9\>\<#6613\>\<#9A8C\>\<#8BC1\>
-    <math|E<rsub|n+1><rprime|'><around*|(|x|)>=E<rsub|n><around*|(|x|)>>\<#FF0C\>\<#4F7F\>\<#7528\>\<#5F52\>\<#7EB3\>\<#6CD5\>\<#FF0C\>\<#5F53\>
-    <math|n=1> \<#65F6\>\<#FF0C\><math|f<rsub|1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-1>\<#FF0C\>\<#663E\>\<#7136\>\<#5F53\>
-    <math|x\<gtr\>0> \<#65F6\> <math|f<rsub|1><rprime|'><around*|(|x|)>\<gtr\>0>\<#FF0C\>\<#5373\>
-    <math|f<rsub|1><around*|(|x|)>> \<#5728\>
-    <math|<around*|[|0,+\<infty\>|)>> \<#4E0A\>\<#4E25\>\<#683C\>\<#589E\>\<#52A0\>\<#FF0C\>\<#800C\>\<#5728\>
-    <math|x\<less\>0> \<#65F6\> <math|f<rsub|1><rprime|'><around*|(|x|)>\<less\>0>\<#FF0C\><math|f<rsub|1><around*|(|x|)>>
-    \<#5728\> <math|<around*|(|-\<infty\>,0|]>>
-    \<#4E0A\>\<#4E25\>\<#683C\>\<#51CF\>\<#5C11\>\<#FF0C\>\<#6545\>\<#65E0\>\<#8BBA\>
-    <math|x> \<#7B26\>\<#53F7\>\<#5982\>\<#4F55\>\<#6052\>\<#6709\>
-    <math|f<rsub|1><around*|(|x|)>\<gtr\>f<around*|(|0|)>=0>\<#FF0C\>\<#6240\>\<#4EE5\>
-    <math|n=1> \<#65F6\>\<#7ED3\>\<#8BBA\>\<#6210\>\<#7ACB\>.
+  <\solution*>
+    (1).令<math|f<rsub|n><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|n><around*|(|x|)>>，显然
+    <math|f<rsub|n><around*|(|0|)>=0>，并且容易验证
+    <math|E<rsub|n+1><rprime|'><around*|(|x|)>=E<rsub|n><around*|(|x|)>>，使用归纳法，当
+    <math|n=1> 时，<math|f<rsub|1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-1>，显然当
+    <math|x\<gtr\>0> 时 <math|f<rsub|1><rprime|'><around*|(|x|)>\<gtr\>0>，即
+    <math|f<rsub|1><around*|(|x|)>> 在 <math|<around*|[|0,+\<infty\>|)>>
+    上严格增加，而在 <math|x\<less\>0> 时
+    <math|f<rsub|1><rprime|'><around*|(|x|)>\<less\>0>，<math|f<rsub|1><around*|(|x|)>>
+    在 <math|<around*|(|-\<infty\>,0|]>> 上严格减少，故无论
+    <math|x> 符号如何恒有 <math|f<rsub|1><around*|(|x|)>\<gtr\>f<around*|(|0|)>=0>，所以
+    <math|n=1> 时结论成立.
 
-    \<#5047\>\<#5B9A\>\<#7ED3\>\<#8BBA\>\<#5BF9\>\<#4E8E\>\<#6B63\>\<#6574\>\<#6570\>
-    <math|n> \<#4E5F\>\<#6210\>\<#7ACB\>\<#FF0C\>\<#90A3\>\<#4E48\>
-    <math|f<rsub|n+1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|n+1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|n><around*|(|x|)>>\<#FF0C\>\<#7531\>\<#5047\>\<#8BBE\>\<#53EF\>\<#77E5\>
-    <math|f<rsub|n+1><rprime|'><around*|(|x|)>\<gtr\>0>\<#FF0C\>\<#4E8E\>\<#662F\>\<#7ED3\>\<#8BBA\>\<#5BF9\>\<#4E8E\>
-    <math|n+1> \<#4E5F\>\<#6210\>\<#7ACB\>.
+    假定结论对于正整数 <math|n> 也成立，那么
+    <math|f<rsub|n+1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|n+1><rprime|'><around*|(|x|)>=<with|math-font-family|rm|e><rsup|x>-E<rsub|n><around*|(|x|)>>，由假设可知
+    <math|f<rsub|n+1><rprime|'><around*|(|x|)>\<gtr\>0>，于是结论对于
+    <math|n+1> 也成立.
 
-    (2). \<#540C\>\<#6837\>\<#4F5C\>\<#51FD\>\<#6570\>
-    <math|f<around*|(|x|)>=ln<around*|(|1+x|)>-L<rsub|n><around*|(|x|)>>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#9A8C\>\<#8BC1\>
-    <math|f<around*|(|0|)>=0> \<#4EE5\>\<#53CA\>
+    (2). 同样作函数 <math|f<around*|(|x|)>=ln<around*|(|1+x|)>-L<rsub|n><around*|(|x|)>>，可以验证
+    <math|f<around*|(|0|)>=0> 以及
 
     <\equation*>
       L<rsub|n><rprime|'><around*|(|x|)>=1-x+x<rsup|2>-\<cdots\>+<around*|(|-x|)><rsup|n-1>=<frac|1-<around*|(|-x|)><rsup|n>|1+x>
     </equation*>
 
-    \<#56E0\>\<#6B64\>
+    因此
 
     <\equation*>
       f<rsub|n><rprime|'><around*|(|x|)>=<frac|1|1+x>-<frac|1-<around*|(|-x|)><rsup|n>|1+x>=<frac|<around*|(|-x|)><rsup|n>|1+x>
     </equation*>
 
-    \<#7531\>\<#6B64\>\<#53EF\>\<#89C1\>\<#FF0C\>\<#82E5\> <math|n>
-    \<#4E3A\>\<#5076\>\<#6570\>\<#FF0C\>\<#5219\>\<#51FD\>\<#6570\>
-    <math|f<rsub|n><around*|(|x|)>> \<#5728\>
-    <math|<around*|[|0,+\<infty\>|)>> \<#4E0A\>\<#4E25\>\<#683C\>\<#589E\>\<#52A0\>\<#FF0C\>\<#53CD\>\<#4E4B\>\<#82E5\>
-    <math|n> \<#4E3A\>\<#5947\>\<#6570\>\<#FF0C\>\<#5219\>\<#662F\>\<#4E25\>\<#683C\>\<#51CF\>\<#5C11\>\<#7684\>\<#FF0C\>\<#518D\>\<#7ED3\>\<#5408\>
-    \ <math|f<rsub|n><around*|(|0|)>=0> \<#5373\>\<#5F97\>\<#7ED3\>\<#8BBA\>.
+    由此可见，若 <math|n> 为偶数，则函数
+    <math|f<rsub|n><around*|(|x|)>> 在 <math|<around*|[|0,+\<infty\>|)>>
+    上严格增加，反之若 <math|n> 为奇数，则是严格减少的，再结合
+    \ <math|f<rsub|n><around*|(|0|)>=0> 即得结论.
 
-    (3). \<#4ECD\>\<#7136\>\<#4F5C\>\<#51FD\>\<#6570\>
-    <math|f<rsub|n><around*|(|x|)>=sin x-S<rsub|n><around*|(|x|)>> \<#4E0E\>
-    <math|g<rsub|n><around*|(|x|)>=cos x-C<rsub|n><around*|(|x|)>>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#9A8C\>\<#8BC1\>
-    <math|f<rsub|n><around*|(|0|)>=g<rsub|n><around*|(|0|)>=0>
-    \<#4EE5\>\<#53CA\>
+    (3). 仍然作函数 <math|f<rsub|n><around*|(|x|)>=sin
+    x-S<rsub|n><around*|(|x|)>> 与 <math|g<rsub|n><around*|(|x|)>=cos
+    x-C<rsub|n><around*|(|x|)>>，可以验证
+    <math|f<rsub|n><around*|(|0|)>=g<rsub|n><around*|(|0|)>=0> 以及
 
     <\equation*>
       f<rprime|'><around*|(|x|)>=g<rsub|n><around*|(|x|)>\<nocomma\>,<space|1spc>g<rsub|n><rprime|'><around*|(|x|)>=-f<rsub|n-1><around*|(|x|)>
     </equation*>
 
-    \<#5BF9\>\<#4E8E\> <math|n=0,1> \<#7684\>\<#60C5\>\<#51B5\>\<#FF0C\>\<#4E0D\>\<#7B49\>\<#5F0F\>\<#7684\>\<#9A8C\>\<#8BC1\>\<#6B64\>\<#5904\>\<#7565\>\<#53BB\>\<#FF0C\>\<#5047\>\<#5982\>\<#5BF9\>\<#4E8E\>\<#6B63\>\<#6574\>\<#6570\>
-    <math|n> \<#7ED3\>\<#8BBA\>\<#6210\>\<#7ACB\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5BF9\>\<#4E8E\>
-    <math|n+1> \<#7684\>\<#60C5\>\<#51B5\>\<#FF0C\>\<#7531\>
+    对于 <math|n=0,1> 的情况，不等式的验证此处略去，假如对于正整数
+    <math|n> 结论成立，那么对于 <math|n+1> 的情况，由
     <math|g<rsub|n+1><rprime|'><around*|(|x|)>=-f<rsub|n><around*|(|x|)>>
-    \<#5373\>\<#77E5\>\<#4F59\>\<#5F26\>\<#7684\>\<#90E8\>\<#5206\>\<#6210\>\<#7ACB\>\<#FF0C\>\<#518D\>\<#7531\>
-    <math|f<rsub|n+1><rprime|'><around*|(|x|)>=g<rsub|n><around*|(|x|)>>
-    \<#77E5\>\<#6B63\>\<#5F26\>\<#7684\>\<#90E8\>\<#5206\>\<#6210\>\<#7ACB\>.\<#4E8E\>\<#662F\>\<#7ED3\>\<#8BBA\>\<#6210\>\<#7ACB\>.
-  </solution>
+    即知余弦的部分成立，再由 <math|f<rsub|n+1><rprime|'><around*|(|x|)>=g<rsub|n><around*|(|x|)>>
+    知正弦的部分成立.于是结论成立.
+  </solution*>
 
   \;
 
@@ -955,78 +860,70 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6458\>\<#8981\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|摘要>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#9884\>\<#5907\>\<#77E5\>\<#8BC6\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>预备知识>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#51FD\>\<#6570\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>函数>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
 
-      2.1<space|2spc>\<#590D\>\<#5408\>\<#51FD\>\<#6570\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      2.1<space|2spc>复合函数 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4>
 
-      2.2<space|2spc>\<#53CD\>\<#51FD\>\<#6570\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      2.2<space|2spc>反函数 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5>
 
-      2.3<space|2spc>\<#5355\>\<#8C03\>\<#6027\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      2.3<space|2spc>单调性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6>
 
-      2.4<space|2spc>\<#5BF9\>\<#79F0\>\<#6027\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      2.4<space|2spc>对称性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7>
 
-      2.5<space|2spc>\<#5468\>\<#671F\>\<#6027\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      2.5<space|2spc>周期性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-8>
 
-      2.6<space|2spc>\<#51F8\>\<#6027\> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      2.6<space|2spc>凸性 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#6570\>\<#5217\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>数列>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-10><vspace|0.5fn>
 
-      3.1<space|2spc>\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      3.1<space|2spc>等差数列 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-11>
 
-      3.2<space|2spc>\<#7B49\>\<#6BD4\>\<#6570\>\<#5217\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      3.2<space|2spc>等比数列 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-12>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#5411\>\<#91CF\>\<#4E0E\>\<#590D\>\<#6570\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>向量与复数>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-13><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>\<#4E0D\>\<#7B49\>\<#5F0F\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>不等式>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-14><vspace|0.5fn>
 
-      5.1<space|2spc>\<#5747\>\<#503C\>\<#4E0D\>\<#7B49\>\<#5F0F\>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      5.1<space|2spc>均值不等式 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|6<space|2spc>\<#89E3\>\<#6790\>\<#51E0\>\<#4F55\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|6<space|2spc>解析几何>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-16><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|7<space|2spc>\<#7ACB\>\<#4F53\>\<#51E0\>\<#4F55\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|7<space|2spc>立体几何>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|8<space|2spc>\<#6392\>\<#5217\>\<#3001\>\<#7EC4\>\<#5408\>\<#4E0E\>\<#4E8C\>\<#9879\>\<#5F0F\>\<#5B9A\>\<#7406\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|8<space|2spc>排列、组合与二项式定理>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|9<space|2spc>\<#6781\>\<#9650\>\<#4E0E\>\<#5BFC\>\<#6570\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|9<space|2spc>极限与导数>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-19><vspace|0.5fn>
     </associate>

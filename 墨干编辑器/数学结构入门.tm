@@ -1,4 +1,4 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese|doc>>
 
@@ -7,103 +7,102 @@
     <assign|term|<macro|x|<translate|<arg|x>|english|chinese><glossary-explain|<arg|x>|<translate|<arg|x>|english|chinese>>>>
   </hide-preamble>
 
-  <doc-data|<doc-title|\<#6570\>\<#5B66\>\<#7ED3\>\<#6784\>\<#5165\>\<#95E8\>>|<doc-author|<author-data|<author-name|\<#6C88\>\<#8FBE\>>>>>
+  <doc-data|<doc-title|数学结构入门>|<doc-author|<author-data|<author-name|沈达>>>>
 
-  <subsection|\<#4E0A\>\<#6807\>\<#548C\>\<#4E0B\>\<#6807\>>
+  <subsection|上标和下标>
 
   \;
 
-  <term|superscript>\<#548C\><term|subscript>\<#662F\>\<#6700\>\<#57FA\>\<#7840\>\<#7684\>\<#6570\>\<#5B66\>\<#7ED3\>\<#6784\>\<#3002\>\<#9664\>\<#4E86\>\<#4E0A\>\<#6807\>\<#548C\>\<#4E0B\>\<#6807\>\<#FF0C\>\<#8FD8\>\<#6709\><term|left
-  superscript>\<#3001\><term|left subscript>\<#3001\><term|script
-  above>\<#548C\><term|script below>\<#3002\>
+  <term|superscript>和<term|subscript>是最基础的数学结构。除了上标和下标，还有<term|left
+  superscript>、<term|left subscript>、<term|script above>和<term|script
+  below>。
 
   <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|pastel
-  green>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|4|4|2|2|cell-row-span|2>|<cwith|4|4|2|2|cell-col-span|1>|<cwith|1|-1|1|-1|cell-valign|c>|<table|<row|<cell|\<#4E0A\>\<#4E0B\>\<#6807\>>|<cell|\<#793A\>\<#4F8B\>>|<cell|\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>>>|<row|<cell|\<#4E0A\>\<#6807\>>|<cell|<math|360<rsup|\<circ\>>>>|<cell|<key|^>>>|<row|<cell|\<#4E0B\>\<#6807\>>|<cell|<math|A<rsub|i
-  j>>>|<cell|<key|_>>>|<row|<cell|\<#5DE6\>\<#4E0A\>\<#6807\>>|<cell|<math|<lsup|227><lsub|90>Th>>|<cell|>>|<row|<cell|\<#5DE6\>\<#4E0B\>\<#6807\>>|<cell|>|<cell|>>|<row|<cell|\<#6B63\>\<#4E0A\>\<#6807\>>|<cell|<math|<above|<text|\<#60A8\>>|<text|n\<#00ED\>n>><above|<text|\<#597D\>>|<text|h\<#01CE\>o>>>>|<cell|<menu|Insert|Script|Script
-  above>>>|<row|<cell|\<#6B63\>\<#4E0B\>\<#6807\>>|<cell|<math|<below|min|i>>>|<cell|<menu|Insert|Script|Script
+  green>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|4|4|2|2|cell-row-span|2>|<cwith|4|4|2|2|cell-col-span|1>|<cwith|1|-1|1|-1|cell-valign|c>|<table|<row|<cell|上下标>|<cell|示例>|<cell|输入方式>>|<row|<cell|上标>|<cell|<math|360<rsup|\<circ\>>>>|<cell|<key|^>>>|<row|<cell|下标>|<cell|<math|A<rsub|i
+  j>>>|<cell|<key|_>>>|<row|<cell|左上标>|<cell|<math|<lsup|227><lsub|90>Th>>|<cell|>>|<row|<cell|左下标>|<cell|>|<cell|>>|<row|<cell|正上标>|<cell|<math|<above|<text|您>|<text|nín>><above|<text|好>|<text|hǎo>>>>|<cell|<menu|Insert|Script|Script
+  above>>>|<row|<cell|正下标>|<cell|<math|<below|min|i>>>|<cell|<menu|Insert|Script|Script
   below>>>>>>>
-    \<#4E0A\>\<#4E0B\>\<#6807\>\<#7684\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>
+    上下标的输入方式
   </big-table>
 
-  <term|left subscript>\<#548C\><term|left
-  subscript>\<#7684\>\<#8F93\>\<#5165\>\<#FF0C\>\<#7A0D\>\<#7A0D\>\<#6709\>\<#4E00\>\<#4E9B\>\<#4E0D\>\<#4E00\>\<#6837\>\<#FF0C\>\<#6309\>\<#7167\>\<#4ECE\>\<#5DE6\>\<#5230\>\<#53F3\>\<#7684\>\<#987A\>\<#5E8F\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#5148\>\<#7528\><menu|Insert|Script|Left
-  Subscript>\<#8F93\>\<#5165\>\<#5DE6\>\<#4E0A\>\<#6807\>\<#FF0C\>\<#7136\>\<#540E\>\<#518D\>\<#628A\>\<#5149\>\<#6807\>\<#5F80\>\<#53F3\>\<#79FB\>\<#51FA\>\<#5DE6\>\<#4E0B\>\<#6807\>\<#7684\>\<#4F5C\>\<#7528\>\<#8303\>\<#56F4\>\<#FF0C\>\<#8F93\>\<#5165\>\<#5DE6\>\<#4E0B\>\<#6807\>\<#6240\>\<#4F9D\>\<#9644\>\<#7684\>\<#4E3B\>\<#4F53\>\<#FF0C\>\<#6700\>\<#540E\>\<#5C06\>\<#5149\>\<#6807\>\<#79FB\>\<#52A8\>\<#5230\><term|left
-  subscript>\<#7684\>\<#4F5C\>\<#7528\>\<#8303\>\<#56F4\>\<#5185\>\<#FF0C\>\<#4F7F\>\<#7528\><term|focus
-  dependent icons>\<#91CC\>\<#9762\>\<#7684\><icon|tm_insert_up.xpm>\<#6309\>\<#94AE\>\<#FF0C\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#8FDB\>\<#5165\><term|left
-  superscript>\<#7684\>\<#8F93\>\<#5165\>\<#7ED3\>\<#6784\>\<#3002\>
+  <term|left subscript>和<term|left subscript>的输入，稍稍有一些不一样，按照从左到右的顺序，我们可以先用<menu|Insert|Script|Left
+  Subscript>输入左上标，然后再把光标往右移出左下标的作用范围，输入左下标所依附的主体，最后将光标移动到<term|left
+  subscript>的作用范围内，使用<term|focus dependent
+  icons>里面的<icon|tm_insert_up.xpm>按钮，就可以进入<term|left
+  superscript>的输入结构。
 
-  <subsection|\<#5206\>\<#5F0F\>>
+  <subsection|分式>
 
   \;
 
-  \<#5206\>\<#5F0F\>\<#4E0D\>\<#4EC5\>\<#53EF\>\<#4EE5\>\<#5728\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#4F7F\>\<#7528\>\<#FF0C\>\<#5728\>\<#6587\>\<#672C\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#FF0C\>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#8F93\>\<#5165\>\<#3002\>\<#4F7F\>\<#7528\>\<#547D\>\<#4EE4\><markup|frac><\footnote>
-    \<#547D\>\<#4EE4\><markup|frac>\<#FF1A\>\<#662F\>\<#6307\>\<#4F7F\>\<#7528\><key|\\><key|f><key|r><key|a><key|c><key|return>\<#8FD9\>\<#6837\>\<#7684\>\<#6309\>\<#952E\>\<#5E8F\>\<#5217\>\<#6765\>\<#8F93\>\<#5165\>\<#5185\>\<#5BB9\>\<#FF0C\>\<#6309\>\<#4E0B\><key|\\>\<#4E4B\>\<#540E\>\<#8FDB\>\<#5165\>\<#8FDB\>\<#5165\><LaTeX>/<TeXmacs>\<#6DF7\>\<#5408\>\<#547D\>\<#4EE4\>\<#6A21\>\<#5F0F\>\<#FF0C\>\<#7136\>\<#540E\>\<#8F93\>\<#5165\>\<#547D\>\<#4EE4\>\<#FF0C\>\<#6700\>\<#540E\>\<#6309\>\<#4E0B\>\<#56DE\>\<#8F66\>\<#952E\>\<#3002\>\<#4E0B\>\<#6587\>\<#4E2D\>\<#63D0\>\<#5230\>\<#7684\>\<#5176\>\<#5B83\>\<#547D\>\<#4EE4\>\<#FF0C\>\<#4E5F\>\<#662F\>\<#7C7B\>\<#4F3C\>\<#7684\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>\<#3002\>
-  </footnote>\<#FF0C\>\<#5728\>\<#4EFB\>\<#4F55\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#90FD\>\<#53EF\>\<#4EE5\>\<#4F7F\>\<#7528\>\<#5206\>\<#5F0F\>\<#3002\>\<#4E0D\>\<#540C\>\<#7684\>\<#7CFB\>\<#7EDF\>\<#4E0B\>\<#FF0C\>\<#5728\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#4E2D\>\<#8F93\>\<#5165\>\<#5206\>\<#5F0F\>\<#7684\>\<#5FEB\>\<#6377\>\<#952E\><\footnote>
-    <key|escape escape>\<#8FD9\>\<#4E2A\>\<#5FEB\>\<#6377\>\<#952E\>\<#524D\>\<#7F00\>\<#662F\>\<#968F\>\<#7CFB\>\<#7EDF\>\<#53D8\>\<#5316\>\<#7684\>\<#FF0C\>\<#5728\>macOS\<#4E2D\>\<#662F\>Option\<#952E\>\<#3002\>\<#800C\><key*|escape
-    escape>\<#662F\>\<#4E0D\>\<#968F\>\<#7CFB\>\<#7EDF\>\<#53D8\>\<#5316\>\<#7684\>\<#FF0C\>\<#90FD\>\<#662F\>\<#6309\>\<#4E24\>\<#4E0B\>ESC\<#952E\>\<#3002\>
-  </footnote>\<#662F\>\<#4E0D\>\<#540C\>\<#7684\>\<#FF1A\>
+  分式不仅可以在数学模式下使用，在文本模式下，也可以输入。使用命令<markup|frac><\footnote>
+    命令<markup|frac>：是指使用<key|\\><key|f><key|r><key|a><key|c><key|return>这样的按键序列来输入内容，按下<key|\\>之后进入进入<LaTeX>/<TeXmacs>混合命令模式，然后输入命令，最后按下回车键。下文中提到的其它命令，也是类似的输入方式。
+  </footnote>，在任何模式下都可以使用分式。不同的系统下，在数学模式中输入分式的快捷键<\footnote>
+    <key|escape escape>这个快捷键前缀是随系统变化的，在macOS中是Option键。而<key*|escape
+    escape>是不随系统变化的，都是按两下ESC键。
+  </footnote>是不同的：
 
   <\big-table|<tabular|<tformat|<cwith|1|1|2|2|cell-valign|b>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|1|1|1|-1|cell-background|pastel
-  green>|<table|<row|<cell|\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>>|<cell|\<#9002\>\<#7528\>\<#573A\>\<#666F\>>|<cell|\<#7CFB\>\<#7EDF\>>>|<row|<cell|<markup|frac>>|<cell|\<#4EFB\>\<#610F\>\<#6A21\>\<#5F0F\>>|<cell|\<#901A\>\<#7528\>>>|<row|<cell|<menu|Insert|Fraction>>|<cell|\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>>|<cell|\<#901A\>\<#7528\>>>|<row|<cell|<key|escape
-  escape><key|f>>|<cell|\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>>|<cell|\<#968F\>\<#7CFB\>\<#7EDF\>\<#53D8\>\<#5316\>>>|<row|<cell|<key*|escape
-  escape><key|f>>|<cell|\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>>|<cell|\<#901A\>\<#7528\>>>>>>>
-    \<#5206\>\<#5F0F\>\<#7684\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>
+  green>|<table|<row|<cell|输入方式>|<cell|适用场景>|<cell|系统>>|<row|<cell|<markup|frac>>|<cell|任意模式>|<cell|通用>>|<row|<cell|<menu|Insert|Fraction>>|<cell|数学模式>|<cell|通用>>|<row|<cell|<key|escape
+  escape><key|f>>|<cell|数学模式>|<cell|随系统变化>>|<row|<cell|<key*|escape
+  escape><key|f>>|<cell|数学模式>|<cell|通用>>>>>>
+    分式的输入方式
   </big-table>
 
-  <subsection|\<#6839\>\<#5F0F\>>
+  <subsection|根式>
 
   \;
 
-  \<#6839\>\<#5F0F\>\<#548C\>\<#5206\>\<#5F0F\>\<#7C7B\>\<#4F3C\>\<#FF0C\>\<#5728\>\<#6240\>\<#6709\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#90FD\>\<#53EF\>\<#4EE5\>\<#4F7F\>\<#7528\>\<#FF0C\>\<#4E0D\>\<#8FC7\>\<#4E00\>\<#822C\>\<#6211\>\<#4EEC\>\<#53EA\>\<#5728\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#4F7F\>\<#7528\>\<#3002\>\<#5C31\>\<#5E73\>\<#65B9\>\<#6839\><glossary-explain|square
-  root|\<#5E73\>\<#65B9\>\<#6839\>>\<#800C\>\<#8A00\>\<#FF0C\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>\<#5982\>\<#4E0B\>\<#8868\>\<#6240\>\<#793A\>\<#FF1A\>
+  根式和分式类似，在所有模式下都可以使用，不过一般我们只在数学模式下使用。就平方根<glossary-explain|square
+  root|平方根>而言，输入方式如下表所示：
 
-  <\big-table|<tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|4|4|1|1|cell-valign|b>|<table|<row|<cell|\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>>|<cell|\<#9002\>\<#7528\>\<#573A\>\<#666F\>>|<cell|\<#7CFB\>\<#7EDF\>>>|<row|<cell|<markup|sqrt>>|<cell|\<#4EFB\>\<#610F\>\<#6A21\>\<#5F0F\>>|<cell|\<#901A\>\<#7528\>>>|<row|<cell|<menu|Insert|Square
-  root>>|<cell|\<#4EFB\>\<#610F\>\<#6A21\>\<#5F0F\>>|<cell|\<#901A\>\<#7528\>>>|<row|<cell|<key|escape
-  escape><key|s>>|<cell|\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>>|<cell|\<#968F\>\<#7CFB\>\<#7EDF\>\<#53D8\>\<#5316\>>>|<row|<cell|<key*|escape
-  escape><key|s>>|<cell|\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>>|<cell|\<#901A\>\<#7528\>>>>>>>
-    \<#5E73\>\<#65B9\>\<#6839\>\<#7684\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>
+  <\big-table|<tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|4|4|1|1|cell-valign|b>|<table|<row|<cell|输入方式>|<cell|适用场景>|<cell|系统>>|<row|<cell|<markup|sqrt>>|<cell|任意模式>|<cell|通用>>|<row|<cell|<menu|Insert|Square
+  root>>|<cell|任意模式>|<cell|通用>>|<row|<cell|<key|escape
+  escape><key|s>>|<cell|数学模式>|<cell|随系统变化>>|<row|<cell|<key*|escape
+  escape><key|s>>|<cell|数学模式>|<cell|通用>>>>>>
+    平方根的输入方式
   </big-table>
 
-  \<#5BF9\>\<#4E8E\>\<#9AD8\>\<#6B21\>\<#65B9\>\<#6839\><glossary-explain|multiple
-  root|\<#9AD8\>\<#6B21\>\<#65B9\>\<#6839\>>\<#FF0C\>\<#5728\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#4F7F\>\<#7528\>\<#83DC\>\<#5355\>\<#9879\><menu|Insert|Multiple
-  root>\<#63D2\>\<#5165\>\<#3002\>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#5728\>\<#8F93\>\<#5165\>\<#5E73\>\<#65B9\>\<#6839\>\<#7684\>\<#5F53\>\<#4E0B\><\footnote>
-    \<#5F53\>\<#4E0B\>\<#FF1A\>\<#6307\>\<#5728\>\<#8F93\>\<#5165\>\<#5E73\>\<#65B9\>\<#6839\>\<#4E4B\>\<#540E\>\<#FF0C\>\<#7ACB\>\<#5373\>\<#6309\>\<#4E0B\><key|tab>\<#3002\>\<#53E6\>\<#5916\>\<#FF0C\>\<#4F7F\>\<#7528\>\<#547D\>\<#4EE4\>\<#8F93\>\<#5165\>\<#4E4B\>\<#540E\>\<#FF0C\>\<#8BE5\>\<#65B9\>\<#5F0F\>\<#65E0\>\<#6548\>\<#3002\>
-  </footnote>\<#FF0C\>\<#4F7F\>\<#7528\><key|tab>\<#5C06\>\<#5E73\>\<#65B9\>\<#6839\>\<#5207\>\<#6362\>\<#5230\>\<#9AD8\>\<#6B21\>\<#65B9\>\<#6839\>\<#3002\>
+  对于高次方根<glossary-explain|multiple
+  root|高次方根>，在数学模式下，可以使用菜单项<menu|Insert|Multiple
+  root>插入。也可以在输入平方根的当下<\footnote>
+    当下：指在输入平方根之后，立即按下<key|tab>。另外，使用命令输入之后，该方式无效。
+  </footnote>，使用<key|tab>将平方根切换到高次方根。
 
-  \<#9664\>\<#4E86\>\<#7528\>\<#83DC\>\<#5355\>\<#3001\>\<#547D\>\<#4EE4\>\<#3001\>\<#5FEB\>\<#6377\>\<#952E\>\<#8F93\>\<#5165\>\<#6570\>\<#5B66\>\<#7ED3\>\<#6784\>\<#FF0C\>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#4F7F\>\<#7528\>\<#5DE5\>\<#5177\>\<#680F\>\<#3002\>\<#83DC\>\<#5355\>\<#4E4B\>\<#4E0B\>\<#FF0C\>\<#6709\>\<#4E09\>\<#4E2A\>\<#5DE5\>\<#5177\>\<#680F\>\<#FF1A\>
+  除了用菜单、命令、快捷键输入数学结构，也可以使用工具栏。菜单之下，有三个工具栏：
 
   <\itemize>
-    <item>\<#4E3B\>\<#8981\>\<#5DE5\>\<#5177\>\<#680F\>\<#FF1A\>\<#901A\>\<#7528\>\<#529F\>\<#80FD\>\<#FF0C\>\<#4E0D\>\<#968F\>\<#6A21\>\<#5F0F\>\<#548C\>\<#7126\>\<#70B9\>\<#7684\>\<#6539\>\<#53D8\>\<#800C\>\<#53D8\>\<#5316\>
+    <item>主要工具栏：通用功能，不随模式和焦点的改变而变化
 
-    <item>\<#6A21\>\<#5F0F\>\<#5DE5\>\<#5177\>\<#680F\>\<#FF1A\>\<#968F\>\<#7740\>\<#6A21\>\<#5F0F\>\<#7684\>\<#6539\>\<#53D8\>\<#800C\>\<#53D8\>\<#5316\>\<#FF0C\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#FF0C\>\<#6A21\>\<#5F0F\>\<#5DE5\>\<#5177\>\<#680F\>\<#6BD4\>\<#8F83\>\<#5E38\>\<#7528\>
+    <item>模式工具栏：随着模式的改变而变化，数学模式下，模式工具栏比较常用
 
-    <item>\<#7126\>\<#70B9\>\<#5DE5\>\<#5177\>\<#680F\>\<#FF1A\>\<#968F\>\<#7740\>\<#7126\>\<#70B9\>\<#7684\>\<#6539\>\<#53D8\>\<#800C\>\<#53D8\>\<#5316\>\<#FF0C\>\<#5BF9\>\<#5E94\>\<#4E8E\>\<#83DC\>\<#5355\>\<#680F\>\<#4E2D\>\<#7684\>\<#7126\>\<#70B9\>\<#83DC\>\<#5355\>
+    <item>焦点工具栏：随着焦点的改变而变化，对应于菜单栏中的焦点菜单
   </itemize>
 
   \;
 
-  \<#5728\>\<#8F93\>\<#5165\>\<#5E73\>\<#65B9\>\<#6839\>\<#4E4B\>\<#540E\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#4F7F\>\<#7528\><menu|Focus|Multiple
-  root>\<#5C06\>\<#5E73\>\<#65B9\>\<#6839\>\<#5207\>\<#6362\>\<#4E3A\>\<#9AD8\>\<#6B21\>\<#65B9\>\<#6839\>\<#3002\>\<#7126\>\<#70B9\>\<#83DC\>\<#5355\>\<#4E2D\>\<#7684\>\<#83DC\>\<#5355\>\<#9879\>\<#FF0C\>\<#90FD\>\<#53EF\>\<#4EE5\>\<#5728\>\<#7126\>\<#70B9\>\<#5DE5\>\<#5177\>\<#680F\>\<#4E2D\>\<#627E\>\<#5230\>\<#5BF9\>\<#5E94\>\<#7684\>\<#6309\>\<#94AE\>\<#3002\>
+  在输入平方根之后，我们可以使用<menu|Focus|Multiple
+  root>将平方根切换为高次方根。焦点菜单中的菜单项，都可以在焦点工具栏中找到对应的按钮。
 
-  <subsection|\<#77E9\>\<#9635\>><label|matrix>
+  <subsection|矩阵><label|matrix>
 
   \;
 
-  <TeXmacs>\<#7684\>\<#77E9\>\<#9635\><glossary-explain|matrix|\<#77E9\>\<#9635\>>\<#5728\>\<#5E95\>\<#5C42\>\<#5B9E\>\<#9645\>\<#4E0A\>\<#662F\>\<#8868\>\<#683C\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#5728\>\<#4F7F\>\<#7528\>\<#4E0A\>\<#548C\>\<#8868\>\<#683C\>\<#7684\>\<#64CD\>\<#4F5C\>\<#51E0\>\<#4E4E\>\<#76F8\>\<#540C\>\<#3002\>
+  <TeXmacs>的矩阵<glossary-explain|matrix|矩阵>在底层实际上是表格，所以在使用上和表格的操作几乎相同。
 
   <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|pastel
   green>|<cwith|1|1|3|3|cell-background|pastel
-  green>|<table|<row|<cell|amsmath>|<cell|\<#793A\>\<#4F8B\>>|<cell|\<#547D\>\<#4EE4\>>>|<row|<cell|matrix>|<cell|<with|math-display|true|<math|<matrix*|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>>>|<cell|<markup|matrix*>>>|<row|<cell|bmatrix>|<cell|<bmatrix|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>|<cell|<markup|bmatrix>>>|<row|<cell|vmatrix>|<cell|<det|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>|<cell|<compound|markup|>>>|<row|<cell|pmatrix>|<cell|<matrix|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>|<cell|<markup|matrix>>>|<row|<cell|Bmatrix>|<cell|<math|<around*|{|<matrix*|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>|}>>>|<cell|>>|<row|<cell|Vmatrix>|<cell|<math|<around*|\<\|\|\>|<matrix*|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>|\<\|\|\>>>>|<cell|>>>>>>
-    \<#77E9\>\<#9635\>\<#4E00\>\<#89C8\>
+  green>|<table|<row|<cell|amsmath>|<cell|示例>|<cell|命令>>|<row|<cell|matrix>|<cell|<with|math-display|true|<math|<matrix*|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>>>|<cell|<markup|matrix*>>>|<row|<cell|bmatrix>|<cell|<bmatrix|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>|<cell|<markup|bmatrix>>>|<row|<cell|vmatrix>|<cell|<det|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>|<cell|<compound|markup|>>>|<row|<cell|pmatrix>|<cell|<matrix|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>|<cell|<markup|matrix>>>|<row|<cell|Bmatrix>|<cell|<math|<around*|{|<matrix*|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>|}>>>|<cell|>>|<row|<cell|Vmatrix>|<cell|<math|<around*|\<\|\|\>|<matrix*|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>|\<\|\|\>>>>|<cell|>>>>>>
+    矩阵一览
   </big-table>
 
-  AMS-<LaTeX>\<#91CC\>\<#9762\>\<#63D0\>\<#4F9B\>\<#4E86\>\<#4E00\>\<#7CFB\>\<#5217\>\<#77E9\>\<#9635\>\<#73AF\>\<#5883\>\<#FF0C\>\<#90FD\>\<#53EF\>\<#4EE5\>\<#5728\><TeXmacs>\<#4E2D\>\<#8F7B\>\<#677E\>\<#8F93\>\<#5165\>\<#3002\>\<#5982\>\<#4E0A\>\<#8868\>\<#6240\>\<#793A\>\<#FF0C\>\<#5176\>\<#4E2D\>\<#7684\>matrix,
-  bmatrix, pmatrix\<#90FD\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\><TeXmacs>\<#547D\>\<#4EE4\>\<#8F93\>\<#5165\>\<#FF0C\>\<#800C\>vmatrix\<#5373\>\<#884C\>\<#5217\>\<#5F0F\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\>\<#83DC\>\<#5355\>\<#9879\><menu|Insert|Table|Determinant><\footnote>
-    \<#6CE8\>\<#610F\>\<#FF1A\>\<#83DC\>\<#5355\>\<#9879\>\<#884C\>\<#5217\>\<#5F0F\>\<#5F53\>\<#4E14\>\<#4EC5\>\<#5F53\>\<#5728\>\<#6570\>\<#5B66\>\<#73AF\>\<#5883\>\<#4E2D\>\<#624D\>\<#53EF\>\<#89C1\>\<#3002\>
-  </footnote>\<#8F93\>\<#5165\>\<#3002\>\<#5269\>\<#4E0B\>\<#7684\>Bmatrix\<#548C\>Vmatrix\<#FF0C\>\<#5219\>\<#53EF\>\<#4EE5\>\<#5148\>\<#8F93\>\<#5165\>\<#5916\>\<#56F4\>\<#7684\>\<#62EC\>\<#53F7\>\<#FF0C\>\<#518D\>\<#4F7F\>\<#7528\>\<#547D\>\<#4EE4\><markup|matrix*>\<#8F93\>\<#5165\>\<#3002\>
+  AMS-<LaTeX>里面提供了一系列矩阵环境，都可以在<TeXmacs>中轻松输入。如上表所示，其中的matrix,
+  bmatrix, pmatrix都可以通过<TeXmacs>命令输入，而vmatrix即行列式，可以通过菜单项<menu|Insert|Table|Determinant><\footnote>
+    注意：菜单项行列式当且仅当在数学环境中才可见。
+  </footnote>输入。剩下的Bmatrix和Vmatrix，则可以先输入外围的括号，再使用命令<markup|matrix*>输入。
 
-  \<#77E9\>\<#9635\>\<#73AF\>\<#5883\>\<#4E2D\>\<#5E38\>\<#7528\>\<#7684\>\<#7701\>\<#7565\>\<#53F7\>\<#6709\><markup|dots>,
-  <markup|vdots>, <markup|ddots>\<#FF1A\>
+  矩阵环境中常用的省略号有<markup|dots>, <markup|vdots>,
+  <markup|ddots>：
 
   <\equation*>
     A=<bmatrix|<tformat|<table|<row|<cell|a<rsub|1
@@ -113,18 +112,18 @@
 
   \;
 
-  \<#8FD9\>\<#4E09\>\<#79CD\>\<#7701\>\<#7565\>\<#53F7\>\<#FF0C\>\<#9664\>\<#4E86\>\<#76F4\>\<#63A5\>\<#7528\><LaTeX>\<#6A21\>\<#62DF\>\<#547D\>\<#4EE4\>\<#8F93\>\<#5165\>\<#FF0C\>\<#4E5F\>\<#53EF\>\<#4EE5\>\<#91C7\>\<#7528\><TeXmacs>\<#7279\>\<#6709\>\<#7684\>\<#5FEB\>\<#6377\>\<#952E\>\<#7CFB\>\<#7EDF\>\<#FF1A\>
+  这三种省略号，除了直接用<LaTeX>模拟命令输入，也可以采用<TeXmacs>特有的快捷键系统：
 
   <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|pastel
-  green>|<cwith|1|-1|1|1|cell-halign|c>|<table|<row|<cell|\<#7701\>\<#7565\>\<#53F7\>>|<cell|\<#6309\>\<#952E\>\<#5E8F\>\<#5217\>>>|<row|<cell|<math|\<ldots\>>>|<cell|<key|$><key|.><key|.>>>|<row|<cell|<math|\<vdots\>>>|<cell|<key|$><key|.><key|.><key|tab><key|tab><key|tab>>>|<row|<cell|<math|\<ddots\>>>|<cell|<key|$><key|.><key|.><key|tab><key|tab><key|tab><key|tab>>>>>>>
-    \<#7701\>\<#7565\>\<#53F7\>\<#7684\>\<#8F93\>\<#5165\>
+  green>|<cwith|1|-1|1|1|cell-halign|c>|<table|<row|<cell|省略号>|<cell|按键序列>>|<row|<cell|<math|\<ldots\>>>|<cell|<key|$><key|.><key|.>>>|<row|<cell|<math|\<vdots\>>>|<cell|<key|$><key|.><key|.><key|tab><key|tab><key|tab>>>|<row|<cell|<math|\<ddots\>>>|<cell|<key|$><key|.><key|.><key|tab><key|tab><key|tab><key|tab>>>>>>>
+    省略号的输入
   </big-table>
 
-  \<#5F53\>\<#6211\>\<#4EEC\>\<#628A\>\<#5149\>\<#6807\>\<#653E\>\<#5728\>\<#7701\>\<#7565\>\<#53F7\>\<#4E4B\>\<#540E\>\<#FF0C\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#5728\>\<#5E95\>\<#90E8\>\<#72B6\>\<#6001\>\<#680F\>\<#770B\>\<#5230\>\<#5149\>\<#6807\>\<#6240\>\<#5728\>\<#4F4D\>\<#7F6E\>\<#7701\>\<#7565\>\<#53F7\>\<#7684\>\<#540D\>\<#5B57\>\<#3002\>
+  当我们把光标放在省略号之后，就可以在底部状态栏看到光标所在位置省略号的名字。
 
-  \<#8FD8\>\<#6709\>\<#53E6\>\<#5916\>\<#4E24\>\<#4E2A\>\<#573A\>\<#666F\>\<#FF0C\>\<#5176\>\<#672C\>\<#8D28\>\<#662F\>\<#77E9\>\<#9635\>\<#7684\>\<#7279\>\<#6B8A\>\<#5F62\>\<#5F0F\>\<#3002\>
+  还有另外两个场景，其本质是矩阵的特殊形式。
 
-  \<#5176\>\<#4E00\>\<#662F\>\<#5206\>\<#6BB5\>\<#51FD\>\<#6570\>\<#FF0C\>\<#5728\><TeXmacs>\<#4E2D\>\<#8FD9\>\<#79CD\>\<#6570\>\<#5B66\>\<#7ED3\>\<#6784\>\<#53EB\>\<#505A\><dfn|\<#9009\>\<#62E9\>><glossary-explain|choice|\<#9009\>\<#62E9\>>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\><menu|Insert|Table|Choice>\<#8F93\>\<#5165\>\<#FF1A\>
+  其一是分段函数，在<TeXmacs>中这种数学结构叫做<dfn|选择><glossary-explain|choice|选择>，可以通过<menu|Insert|Table|Choice>输入：
 
   <\equation*>
     <choice|<tformat|<table|<row|<cell|y=-<frac|1|2>x+3>|<cell|,x\<in\><around*|(|-\<infty\>,0|)>>>|<row|<cell|y=<frac|1|2>x<rsup|2>>|<cell|,x\<in\><around*|[|0,+\<infty\>|)>>>>>>
@@ -132,7 +131,7 @@
 
   \;
 
-  \<#5176\>\<#4E8C\>\<#662F\>\<#6C42\>\<#548C\>\<#516C\>\<#5F0F\>\<#4E0B\>\<#9762\>\<#7684\><dfn|\<#5806\>\<#53E0\>><glossary-explain|stack|\<#5806\>\<#53E0\>>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\><menu|Insert|Table|Stack>\<#8F93\>\<#5165\>\<#FF1A\>
+  其二是求和公式下面的<dfn|堆叠><glossary-explain|stack|堆叠>，可以通过<menu|Insert|Table|Stack>输入：
 
   <\equation*>
     <big|sum><rsub|<stack|<tformat|<table|<row|<cell|0\<less\>i\<less\>n>>|<row|<cell|0\<less\>j\<less\>m>>>>>>x<rsub|i
@@ -141,9 +140,6 @@
 
   \;
 </body>
-
-<initial|<\collection>
-</collection>>
 
 <\references>
   <\collection>
@@ -198,95 +194,95 @@
 <\auxiliary>
   <\collection>
     <\associate|gly>
-      <tuple|normal|superscript|\<#4E0A\>\<#6807\>|<pageref|auto-2>>
+      <tuple|normal|superscript|上标|<pageref|auto-2>>
 
-      <tuple|normal|subscript|\<#4E0B\>\<#6807\>|<pageref|auto-3>>
+      <tuple|normal|subscript|下标|<pageref|auto-3>>
 
-      <tuple|normal|left superscript|\<#5DE6\>\<#4E0A\>\<#6807\>|<pageref|auto-4>>
+      <tuple|normal|left superscript|左上标|<pageref|auto-4>>
 
-      <tuple|normal|left subscript|\<#5DE6\>\<#4E0B\>\<#6807\>|<pageref|auto-5>>
+      <tuple|normal|left subscript|左下标|<pageref|auto-5>>
 
-      <tuple|normal|script above|\<#9876\>\<#6807\>|<pageref|auto-6>>
+      <tuple|normal|script above|顶标|<pageref|auto-6>>
 
-      <tuple|normal|script below|\<#5E95\>\<#6807\>|<pageref|auto-7>>
+      <tuple|normal|script below|底标|<pageref|auto-7>>
 
-      <tuple|normal|left subscript|\<#5DE6\>\<#4E0B\>\<#6807\>|<pageref|auto-11>>
+      <tuple|normal|left subscript|左下标|<pageref|auto-11>>
 
-      <tuple|normal|left subscript|\<#5DE6\>\<#4E0B\>\<#6807\>|<pageref|auto-12>>
+      <tuple|normal|left subscript|左下标|<pageref|auto-12>>
 
-      <tuple|normal|left subscript|\<#5DE6\>\<#4E0B\>\<#6807\>|<pageref|auto-14>>
+      <tuple|normal|left subscript|左下标|<pageref|auto-14>>
 
-      <tuple|normal|focus dependent icons|\<#7126\>\<#70B9\>\<#5DE5\>\<#5177\>\<#680F\>|<pageref|auto-15>>
+      <tuple|normal|focus dependent icons|焦点工具栏|<pageref|auto-15>>
 
-      <tuple|normal|left superscript|\<#5DE6\>\<#4E0A\>\<#6807\>|<pageref|auto-16>>
+      <tuple|normal|left superscript|左上标|<pageref|auto-16>>
 
-      <tuple|normal|square root|\<#5E73\>\<#65B9\>\<#6839\>|<pageref|auto-21>>
+      <tuple|normal|square root|平方根|<pageref|auto-21>>
 
-      <tuple|normal|multiple root|\<#9AD8\>\<#6B21\>\<#65B9\>\<#6839\>|<pageref|auto-24>>
+      <tuple|normal|multiple root|高次方根|<pageref|auto-24>>
 
-      <tuple|normal|matrix|\<#77E9\>\<#9635\>|<pageref|auto-28>>
+      <tuple|normal|matrix|矩阵|<pageref|auto-28>>
 
-      <tuple|normal|choice|\<#9009\>\<#62E9\>|<pageref|auto-32>>
+      <tuple|normal|choice|选择|<pageref|auto-32>>
 
-      <tuple|normal|stack|\<#5806\>\<#53E0\>|<pageref|auto-34>>
+      <tuple|normal|stack|堆叠|<pageref|auto-34>>
     </associate>
     <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#4E0A\>\<#4E0B\>\<#6807\>>|<with|font-family|<quote|ss>|\<#9876\>\<#6807\>>>|<pageref|auto-9>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|上下标>|<with|font-family|<quote|ss>|顶标>>|<pageref|auto-9>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#4E0A\>\<#4E0B\>\<#6807\>>|<with|font-family|<quote|ss>|\<#5E95\>\<#6807\>>>|<pageref|auto-10>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|上下标>|<with|font-family|<quote|ss>|底标>>|<pageref|auto-10>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#4E0A\>\<#4E0B\>\<#6807\>>|<with|font-family|<quote|ss>|Left
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|上下标>|<with|font-family|<quote|ss>|Left
       Subscript>>|<pageref|auto-13>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#5206\>\<#5F0F\>>>|<pageref|auto-19>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|分式>>|<pageref|auto-19>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#5E73\>\<#65B9\>\<#6839\>>>|<pageref|auto-23>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|平方根>>|<pageref|auto-23>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#9AD8\>\<#6B21\>\<#65B9\>\<#6839\>>>|<pageref|auto-25>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|高次方根>>|<pageref|auto-25>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#7126\>\<#70B9\>>|<with|font-family|<quote|ss>|\<#9AD8\>\<#6B21\>\<#65B9\>\<#6839\>>>|<pageref|auto-26>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|焦点>|<with|font-family|<quote|ss>|高次方根>>|<pageref|auto-26>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#8868\>\<#683C\>>|<with|font-family|<quote|ss>|\<#884C\>\<#5217\>\<#5F0F\>>>|<pageref|auto-30>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|表格>|<with|font-family|<quote|ss>|行列式>>|<pageref|auto-30>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#8868\>\<#683C\>>|<with|font-family|<quote|ss>|\<#9009\>\<#62E9\>>>|<pageref|auto-33>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|表格>|<with|font-family|<quote|ss>|选择>>|<pageref|auto-33>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#8868\>\<#683C\>>|<with|font-family|<quote|ss>|\<#5806\>\<#53E0\>>>|<pageref|auto-35>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|表格>|<with|font-family|<quote|ss>|堆叠>>|<pageref|auto-35>>
     </associate>
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
-        \<#4E0A\>\<#4E0B\>\<#6807\>\<#7684\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>
+        上下标的输入方式
       </surround>|<pageref|auto-8>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
-        \<#5206\>\<#5F0F\>\<#7684\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>
+        分式的输入方式
       </surround>|<pageref|auto-18>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|3>|>
-        \<#5E73\>\<#65B9\>\<#6839\>\<#7684\>\<#8F93\>\<#5165\>\<#65B9\>\<#5F0F\>
+        平方根的输入方式
       </surround>|<pageref|auto-22>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|4>|>
-        \<#77E9\>\<#9635\>\<#4E00\>\<#89C8\>
+        矩阵一览
       </surround>|<pageref|auto-29>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
-        \<#7701\>\<#7565\>\<#53F7\>\<#7684\>\<#8F93\>\<#5165\>
+        省略号的输入
       </surround>|<pageref|auto-31>>
     </associate>
     <\associate|toc>
-      <with|par-left|<quote|1tab>|1<space|2spc>\<#4E0A\>\<#6807\>\<#548C\>\<#4E0B\>\<#6807\>
+      <with|par-left|<quote|1tab>|1<space|2spc>上标和下标
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1>>
 
-      <with|par-left|<quote|1tab>|2<space|2spc>\<#5206\>\<#5F0F\>
+      <with|par-left|<quote|1tab>|2<space|2spc>分式
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17>>
 
-      <with|par-left|<quote|1tab>|3<space|2spc>\<#6839\>\<#5F0F\>
+      <with|par-left|<quote|1tab>|3<space|2spc>根式
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-20>>
 
-      <with|par-left|<quote|1tab>|4<space|2spc>\<#77E9\>\<#9635\>
+      <with|par-left|<quote|1tab>|4<space|2spc>矩阵
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-27>>
     </associate>

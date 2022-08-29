@@ -1,4 +1,4 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese|doc>>
 
@@ -9,13 +9,12 @@
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
 
-  <doc-data|<doc-title|\<#56FD\>\<#9645\>\<#6570\>\<#5B66\>\<#5965\>\<#6797\>\<#5339\>\<#514B\>\<#7ADE\>\<#8D5B\>>>
+  <doc-data|<doc-title|国际数学奥林匹克竞赛>>
 
-  \<#4E0B\>\<#9762\>\<#662F\>\<#8BD5\>\<#5377\>\<#5217\>\<#8868\>\<#FF0C\>\<#8BD5\>\<#5377\>\<#540E\>\<#9762\>\<#7684\>\<#62EC\>\<#53F7\>\<#4E2D\>\<#662F\>\<#8BE5\>\<#8BD5\>\<#5377\>\<#7684\><TeXmacs>\<#7248\>\<#672C\>\<#5F55\>\<#5165\>\<#8005\>\<#3002\>
+  下面是试卷列表，试卷后面的括号中是该试卷的<TeXmacs>版本录入者。
 
   <\itemize>
-    <item><gitlink|2022\<#5E74\>\<#7B2C\>63\<#5C4A\>IMO\<#8BD5\>\<#9898\>>
-    \<#FF08\>\<#5F20\>\<#5FD7\>\<#96C4\>\<#FF09\>
+    <item><gitlink|2022年第63届IMO试题> （张志雄）
   </itemize>
 </body>
 

@@ -1,36 +1,36 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|seminar|chinese|doc>>
 
 <\body>
-  <doc-data|<doc-title|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>
+  <doc-data|<doc-title|第二次研讨会>>
 
-  \<#672C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>\<#8BB0\>\<#5F55\>\<#4EBA\>\<#FF1A\>\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>
+  本次研讨会记录人：沈浪熊猫儿
 
-  <section*|(15m) \<#7528\>\<#6237\>\<#53CD\>\<#9988\>\<#548C\>\<#65B0\>\<#6210\>\<#5458\>\<#4ECB\>\<#7ECD\>>
+  <section*|(15m) 用户反馈和新成员介绍>
 
   <\enumerate>
-    <item>Diff\<#529F\>\<#80FD\>\<#5728\>macOS\<#4E0A\>\<#9762\>\<#6709\>\<#8868\>\<#683C\>\<#65F6\>\<#4E0D\>\<#53EF\>\<#7528\>
+    <item>Diff功能在macOS上面有表格时不可用
 
-    <item>macOS\<#4E0A\>\<#9762\>\<#65E0\>\<#6CD5\>\<#70B9\>\<#51FB\>\<#94FE\>\<#63A5\>\<#67E5\>\<#770B\>\<#6E90\>\<#4EE3\>\<#7801\>
+    <item>macOS上面无法点击链接查看源代码
   </enumerate>
 
-  <section*|(30min) \<#56FA\>\<#5B9A\>\<#8BDD\>\<#9898\>\<#FF1A\>LaTeX\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>>
+  <section*|(30min) 固定话题：LaTeX符号大全>
 
   <\itemize>
-    <item>\<#4F7F\>\<#7528\><markup|markup>\<#8FD9\>\<#4E2A\>\<#547D\>\<#4EE4\>\<#9700\>\<#8981\>\<#589E\>\<#52A0\>doc\<#8FD9\>\<#4E2A\>\<#6837\>\<#5F0F\>\<#5305\>
+    <item>使用<markup|markup>这个命令需要增加doc这个样式包
 
-    <item>\<#5148\>\<#5728\>\<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>\<#4E2D\>\<#589E\>\<#52A0\>\<#8FD9\>\<#4E9B\><LaTeX>\<#7B26\>\<#53F7\>\<#8868\>\<#FF0C\>\<#518D\>\<#5B9E\>\<#73B0\>
+    <item>先在墨客星球中增加这些<LaTeX>符号表，再实现
 
-    <item>\<#5728\><TeXmacs>\<#4E0D\>\<#5B58\>\<#5728\>\<#7684\>\<#7B26\>\<#53F7\>\<#FF0C\>\<#4F7F\>\<#7528\><markup|todo>\<#8FD9\>\<#4E2A\>\<#5185\>\<#5BB9\>\<#6807\>\<#8BB0\>\<#FF08\>\<#6BD4\>\<#5982\><todo|\\lhd>\<#FF09\>\<#6765\>\<#8868\>\<#793A\>
+    <item>在<TeXmacs>不存在的符号，使用<markup|todo>这个内容标记（比如<todo|\\lhd>）来表示
   </itemize>
 
-  <section*|\<#81EA\>\<#7531\>\<#8BA8\>\<#8BBA\>>
+  <section*|自由讨论>
 
   <\itemize>
-    <item>\<#5982\>\<#4F55\>\<#8D21\>\<#732E\>\<#FF1A\>\<#7528\>\<#6237\>\<#6587\>\<#6863\>\<#4E2D\>\<#8FD8\>\<#6709\>\<#5F88\>\<#591A\>\<#6587\>\<#6863\>\<#6CA1\>\<#6709\>\<#7FFB\>\<#8BD1\>
+    <item>如何贡献：用户文档中还有很多文档没有翻译
 
-    <item>tm\<#6587\>\<#4EF6\>\<#683C\>\<#5F0F\>\<#652F\>\<#6301\>utf8\<#7684\>\<#4EE3\>\<#7801\>\<#5B9E\>\<#73B0\>
+    <item>tm文件格式支持utf8的代码实现
   </itemize>
 </body>
 
@@ -52,16 +52,15 @@
   <\collection>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(15m)
-      \<#7528\>\<#6237\>\<#53CD\>\<#9988\>\<#548C\>\<#65B0\>\<#6210\>\<#5458\>\<#4ECB\>\<#7ECD\>>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      用户反馈和新成员介绍> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(30min)
-      \<#56FA\>\<#5B9A\>\<#8BDD\>\<#9898\>\<#FF1A\>\<#8D22\>\<#52A1\>\<#516C\>\<#5F00\>\<#548C\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7684\>\<#7535\>\<#5B50\>\<#8868\>\<#683C\>\<#529F\>\<#80FD\>>
+      固定话题：财务公开和墨干编辑器的电子表格功能>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#81EA\>\<#7531\>\<#8BA8\>\<#8BBA\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|自由讨论>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
     </associate>
