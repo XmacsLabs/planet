@@ -15,16 +15,13 @@
   Labs product.
 
   The latest version of Mogan Editor is <strong|Mogan Editor
-  v1.0.3><\footnote>
+  v1.1.0><\footnote>
     https://gitee.com/XmacsLabs/mogan/releases
   </footnote>:
 
   <\itemize>
     <math|\<Longrightarrow\>> <hlink|All versions of the Mogan
     Editor|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/mogan_index.en.tm>
-
-    <math|\<Longrightarrow\>> <hlink|ChangeLog of the current
-    version|tmfs://help/article/tm/doc/about/mogan.en.tm>
   </itemize>
 
   <section*|Contact us>

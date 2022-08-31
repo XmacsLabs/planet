@@ -30,6 +30,13 @@
 
     <item><gitlink|第一次研讨会>
   </itemize>
+
+  <section*|联系我们>
+
+  <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|#ffa>|<table|<row|<cell|帐号>|<cell|平台>>|<row|<cell|沈浪熊猫儿>|<cell|<hlink|Bilibili|https://space.bilibili.com/28058658>>>|<row|<cell|墨干编辑器>|<cell|<hlink|Zhihu|https://www.zhihu.com/people/xmacs>>>|<row|<cell|墨者实验室>|<cell|<hlink|Gitee|https://gitee.com/XmacsLabs/>>>|<row|<cell|墨者实验室>|<cell|同名微信公众号>>|<row|<cell|GNU
+  <TeXmacs>中文社区>|<cell|QQ群: 934456971>>|<row|<cell|墨客社区>|<cell|通过微信号XmacsLabs进群>>>>>>
+    联系我们
+  </big-table>
 </body>
 
 <\initial>
@@ -42,6 +49,8 @@
   <\collection>
     <associate|auto-1|<tuple|?|1>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-4|<tuple|1|?>>
   </collection>
 </references>
 
