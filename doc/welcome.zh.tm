@@ -12,7 +12,16 @@
   </warning*>
 
   墨干是<hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/index.tm>旗下结构化编辑器，衍生自GNU
-  <TeXmacs>。
+  <TeXmacs>，有如下不同：
+
+  <\description>
+    <item*|合理的配置调优>比如在墨干中默认的快捷键风格是Emacs风格，这样在不同平台快捷键是一致的。如果你想切换回<key|Ctrl><key|c>或者<key|Command><key|c>这种随系统不同变化的快捷键风格，可以在<menu|Edit|Preferences|General|Look
+    and feel>中改回来。
+
+    <item*|激进的技术选型>比如墨干将GUI框架从Qt
+    4.8.x切换到了Qt 5.15.x，将脚本执行引擎从Guile
+    1.8.x切换到了S7 Scheme，在享受新技术带来的优势的同时，也会有不少不稳定的因素。
+  </description>
 
   当前<hlink|最新版本的墨干编辑器|https://gitee.com/XmacsLabs/mogan/releases>是<strong|墨干V1.1.0>：
 
