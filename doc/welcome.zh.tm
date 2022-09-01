@@ -38,7 +38,7 @@
 
     <item*|墨客星球>简称星球，通过<hlink|<menu|Help|Planet>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>可以直接访问。
 
-    <item*|视频资源><hlink|视频集锦|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨干编辑器/视频集锦.tm>是星球中的文档，收录了大量的教学视频。
+    <item*|视频资源><hlink|视频集锦|http://git.tmml.wiki/XmacsLabs/planet/raw/main/视频集锦/index.tm>是星球中的文档，收录了大量的教学视频。
   </description>
 
   <section*|中学教育>

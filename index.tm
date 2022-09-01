@@ -16,6 +16,9 @@
   <\itemize>
     <item><hlink|墨干编辑器|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨干编辑器/index.tm>：从入门到精通
 
+    <item><hlink|视频集锦|http://git.tmml.wiki/XmacsLabs/planet/raw/main/视频集锦/index.tm>：强烈推荐新用户观看
+    <hlink|B站：A Quick Tour of <TeXmacs>|https://www.bilibili.com/video/BV1bo4y1D7wN>
+
     <item><hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/index.tm>
 
     <item><hlink|高考数学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/高考数学/index.tm>

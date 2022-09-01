@@ -14,8 +14,6 @@
   <section*|文章列表>
 
   <\itemize>
-    <item><gitlink|视频集锦>
-
     <item><gitlink|数学结构入门>
   </itemize>
 </body>
