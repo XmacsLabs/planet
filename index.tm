@@ -28,6 +28,12 @@
     <item><hlink|国际数学奥林匹克竞赛|http://git.tmml.wiki/XmacsLabs/planet/raw/main/IMO/index.tm>
   </itemize>
 
+  <section*|大学课件>
+
+  <\itemize>
+    <item><hlink|北京师范大学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/北京师范大学/index.tm>
+  </itemize>
+
   <section*|墨客一览>
 
   <\itemize>
@@ -56,6 +62,8 @@
     <associate|auto-1|<tuple|?|1>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-5|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
 
