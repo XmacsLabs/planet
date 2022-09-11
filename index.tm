@@ -31,7 +31,7 @@
   <section*|大学课件>
 
   <\itemize>
-    <item><hlink|北京师范大学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/北京师范大学/index.tm>
+    <item><hlink|北京师范大学-香港浸会大学联合国际学院|http://git.tmml.wiki/XmacsLabs/planet/raw/main/北京师范大学-香港浸会大学联合国际学院/index.tm>
   </itemize>
 
   <section*|墨客一览>
@@ -63,7 +63,6 @@
     <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
-    <associate|auto-5|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
 
@@ -74,13 +73,17 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|墨客一览>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|大学课件>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|如何加入>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|墨客一览>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|如何加入>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
