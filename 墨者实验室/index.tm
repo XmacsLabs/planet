@@ -20,7 +20,7 @@
   <section*|会议记录>
 
   <\itemize>
-    <item><gitlink|第七次研讨会>（将于2022/09/17晚上八点开始）
+    <item><gitlink|第七次研讨会>（将于2022/09/18晚上八点开始）
 
     <item><gitlink|第六次研讨会>
 
