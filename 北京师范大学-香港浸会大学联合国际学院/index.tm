@@ -9,7 +9,8 @@
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
 
-  <doc-data|<doc-title|北京师范大学>>
+  <doc-data|<doc-title|北京师范大学-香港浸会大学联合国际学院
+  (UIC)>>
 
   <section*|课件列表>
 
@@ -17,6 +18,8 @@
 
   <\itemize>
     <item><gitlink|微积分/Chapter_1>
+
+    <item><gitlink|微积分/Chapter_2>
   </itemize>
 
   <subsection*|2022年秋季：常微分方程>
@@ -29,13 +32,14 @@
 <\initial>
   <\collection>
     <associate|page-medium|papyrus>
+    <associate|preamble|false>
   </collection>
 </initial>
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|1>>
-    <associate|auto-2|<tuple|?|1>>
+    <associate|auto-1|<tuple|?|?>>
+    <associate|auto-2|<tuple|?|?>>
     <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
@@ -51,7 +55,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
 
-      <with|par-left|<quote|1tab>|2022年秋季：偏微分方程
+      <with|par-left|<quote|1tab>|2022年秋季：常微分方程
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
     </associate>
