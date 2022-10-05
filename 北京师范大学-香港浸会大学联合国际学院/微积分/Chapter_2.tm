@@ -16,17 +16,15 @@
 
     \;
 
-    <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0.28001gw|0.499999gh>>|gr-geometry|<tuple|geometry|1par|0.6par>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-fill-color|red|gr-color|blue|<graphics||<spline|<point|-2.95384|0.5>|<point|-0.7|-0.7>|<point|2.0|1.7>>|<math-at|y=f<around*|(|x|)>|<point|2.2|1.7>>|<with|color|red|fill-color|red|<point|-0.4|-0.602261>>|<with|color|red|<text-at|secant
+    <with|gr-mode|<tuple|group-edit|edit-props>|gr-frame|<tuple|scale|1cm|<tuple|0.28001gw|0.499999gh>>|gr-geometry|<tuple|geometry|1par|0.6par>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-fill-color|red|gr-color|blue|<graphics||<spline|<point|-2.95384|0.5>|<point|-0.7|-0.7>|<point|2.0|1.7>>|<math-at|y=f<around*|(|x|)>|<point|2.2|1.7>>|<with|color|red|fill-color|red|<point|-0.4|-0.602261>>|<with|color|red|<text-at|secant
     line|<point|1.9|0.4>>>|<with|color|red|<math-at|<around*|(|a,f<around*|(|a|)>|)>|<point|-1.53969986357435|-0.260668072264252>>>|<with|color|red|<math-at|<around*|(|b,f<around*|(|b|)>|)>|<point|0.23470999214519|1.11374178345529>>>|<with|color|blue|fill-color|red|<line|<point|-0.4|-0.602261>|<point|1.6|0.3>>>|<with|color|red|fill-color|red|<line|<point|-0.4|-0.602261>|<point|1.47921610728005|1.0>>>|<with|color|red|<math-at|y=<frac|f<around*|(|b|)>-f<around*|(|a|)>|b-a>*<around*|(|x-a|)>+f<around*|(|a|)>|<point|2.0|-0.3>>>|<with|color|blue|fill-color|red|<\document-at>
       \;
     </document-at|<point|3.2|-2.5>>>|<with|color|blue|<\document-at>
-      <\with|color|<pattern|/Applications/TeXmacs.app/Contents/Resources/share/TeXmacs/misc/patterns/vintage/wood-xdark.png||>>
-        In fact,
+      In fact,
 
-        <\equation*>
-          m=lim<rsub|b\<rightarrow\>a> <frac|f<around*|(|b|)>-f<around*|(|a|)>|b-a>
-        </equation*>
-      </with>
+      <\equation*>
+        m=lim<rsub|b\<rightarrow\>a> <frac|f<around*|(|b|)>-f<around*|(|a|)>|b-a>
+      </equation*>
     </document-at|<point|3.7|-1.3>>>|<with|color|blue|<\document-at>
       tangent line:
 
@@ -35,7 +33,9 @@
       </equation*>
 
       \ for some slope m
-    </document-at|<point|0.3|-1.0>>>>>
+    </document-at|<point|0.3|-1.0>>>|<\with|fill-color|red|color|blue>
+      \;
+    </with>>>
 
     <subsection|The velocity problem (how to find instantaneous velocity)>
 
