@@ -24,9 +24,7 @@
   <section*|重要变更>
 
   <\itemize>
-    <item>文档：改善对非CJK非ASCII的Unicode字符的支持
-
-    <item>文档：修复包含一个路径中含有中文的<TeXmacs>文档失败的问题代码
+    <item>文档：修复包含路径中含有中文的<TeXmacs>文档失败的问题
 
     <item>文档：修复<menu|Help|Search|Recent
     documents...>中相关文档路径包含中文不能跳转的问题
@@ -34,11 +32,6 @@
     <item>排版：改善PDF图片渲染的清晰度
 
     <item>排版：修复标签里面中文显示为Cork编码的问题，比如<label|我是一个中文标签>
-
-    <item>字体：移除bluesky和旧的ams字体，采用texlive
-    2022中的amsfonts字体
-
-    \;
 
     <item><LaTeX>：新增了<markup|Bmatrix>这个命令，用于输入
     <math|<Bmatrix|<tformat|<table|<row|<cell|1>|<cell|2>>|<row|<cell|3>|<cell|4>>>>>>\ 
@@ -53,7 +46,8 @@
 
     <item>版本：修复粒度为粗糙时，两个文档对比导致<TeXmacs>崩溃的问题
 
-    <item>界面：主要工具栏和模式工具栏采用KDE Breeze图标
+    <item><strong|界面：主要工具栏和模式工具栏采用KDE
+    Breeze图标>
 
     <item>代码：修复JavaScript代码高亮失效的问题
   </itemize>
