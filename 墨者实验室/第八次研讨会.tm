@@ -153,98 +153,6 @@
   </itemize>
 
   <section*|自由讨论（不录屏）>
-
-  \;
-
-  商业计划：
-
-  <\itemize>
-    <item>计算器
-
-    <item>云文档（版本控制）
-  </itemize>
-
-  <\session|sage|default>
-    <\output>
-      SageMath version 9.2, Release Date: 2020-10-24
-
-      Python 3.7.7 (default, Apr 10 2020, 07:59:19)\ 
-
-      [GCC 9.3.0]
-
-      SageMath plugin for TeXmacs.
-
-      Please see the documentation in Help -\<gtr\> Plugins -\<gtr\> Sage
-    </output>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
-
-  <\session|octave|default>
-    <\output>
-      GNU Octave (6.2.0) Session in GNU TeXmacs
-
-      Welcome to star and fork it at https://github.com/texmacs/octave
-    </output>
-
-    <\unfolded-io-math>
-      \<gtr\>\<gtr\>\ 
-    <|unfolded-io-math>
-      <frac|1|2>+1
-    <|unfolded-io-math>
-      <with|mode|math|1.5000>
-    </unfolded-io-math>
-
-    <\unfolded-io-math>
-      \<gtr\>\<gtr\>\ 
-    <|unfolded-io-math>
-      <big|int>x d x
-    <|unfolded-io-math>
-      \;
-
-      <\errput>
-        parse error:
-
-        \;
-
-        \ \ syntax error
-
-        \;
-
-        \<gtr\>\<gtr\>\<gtr\> int(x d x);
-
-        \ \ \ \ \ \ \ \ \ \ ^
-      </errput>
-    </unfolded-io-math>
-
-    <\input-math>
-      \<gtr\>\<gtr\>\ 
-    <|input-math>
-      \;
-    </input-math>
-  </session>
-
-  <\session|python|default>
-    <\unfolded-io>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|unfolded-io>
-      1 + 2
-    <|unfolded-io>
-      3
-
-      <timing|113 msec>
-    </unfolded-io>
-
-    <\input>
-      \<gtr\>\<gtr\>\<gtr\>\ 
-    <|input>
-      \;
-    </input>
-  </session>
 </body>
 
 <\initial>
@@ -256,8 +164,8 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
-    <associate|auto-10|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
-    <associate|auto-11|<tuple|<with|mode|<quote|math>|\<bullet\>>|3>>
+    <associate|auto-10|<tuple|<with|mode|<quote|math>|\<bullet\>>|3>>
+    <associate|auto-11|<tuple|<with|mode|<quote|math>|\<bullet\>>|4>>
     <associate|auto-2|<tuple|1|1>>
     <associate|auto-3|<tuple|2|1>>
     <associate|auto-4|<tuple|3|1>>
