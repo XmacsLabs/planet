@@ -15,6 +15,22 @@
 
   <section*|(15m) 用户反馈和新成员介绍>
 
+  <\itemize>
+    <item>帮助-\<gtr\>文档 搜索的crash
+
+    <item>绘图工具：画圆、画矩形
+
+    <item>Draw Over之后怎么退出
+
+    <item>Draw Over如何更改图片性质
+
+    <item>会议录制开启
+
+    <item>中文和英文之间加入空格，比如<space|0.2spc>.
+
+    <item>中文和英文的切换：启动数学模式自动切换输入法
+  </itemize>
+
   <section*|(30min) 固定话题：如何编辑墨者百科>
 
   <section*|自由讨论>
