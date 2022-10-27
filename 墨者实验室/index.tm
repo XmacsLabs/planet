@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -20,6 +20,8 @@
   <section*|会议记录>
 
   <\itemize>
+    <item><gitlink|第九次研讨会>（2022/10/30晚上八点）
+
     <item><gitlink|第八次研讨会>（2022/10/16晚上八点）
 
     <item><gitlink|第七次研讨会>（2022/09/18晚上八点）
