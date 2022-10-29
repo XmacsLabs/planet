@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese|doc>>
 
@@ -19,7 +19,7 @@
 
   <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|pastel
   green>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|4|4|2|2|cell-row-span|2>|<cwith|4|4|2|2|cell-col-span|1>|<cwith|1|-1|1|-1|cell-valign|c>|<table|<row|<cell|上下标>|<cell|示例>|<cell|输入方式>>|<row|<cell|上标>|<cell|<math|360<rsup|\<circ\>>>>|<cell|<key|^>>>|<row|<cell|下标>|<cell|<math|A<rsub|i
-  j>>>|<cell|<key|_>>>|<row|<cell|左上标>|<cell|<math|<lsup|227><lsub|90>Th>>|<cell|>>|<row|<cell|左下标>|<cell|>|<cell|>>|<row|<cell|正上标>|<cell|<math|<above|<text|您>|<text|nín>><above|<text|好>|<text|hǎo>>>>|<cell|<menu|Insert|Script|Script
+  j>>>|<cell|<key|_>>>|<row|<cell|左上标>|<cell|<math|<lsup|227><lsub|90>Th>>|<cell|>>|<row|<cell|左下标>|<cell|>|<cell|>>|<row|<cell|正上标>|<cell|<math|<above|<text|您>|<text|nín>><above|<text|好>|<text|h\<#001CE\>o>>>>|<cell|<menu|Insert|Script|Script
   above>>>|<row|<cell|正下标>|<cell|<math|<below|min|i>>>|<cell|<menu|Insert|Script|Script
   below>>>>>>>
     上下标的输入方式
@@ -28,7 +28,7 @@
   <term|left subscript>和<term|left subscript>的输入，稍稍有一些不一样，按照从左到右的顺序，我们可以先用<menu|Insert|Script|Left
   Subscript>输入左上标，然后再把光标往右移出左下标的作用范围，输入左下标所依附的主体，最后将光标移动到<term|left
   subscript>的作用范围内，使用<term|focus dependent
-  icons>里面的<icon|tm_insert_up.xpm>按钮，就可以进入<term|left
+  icons>里面的<icon|tm_insert_up.svg>按钮，就可以进入<term|left
   superscript>的输入结构。
 
   <subsection|分式>
@@ -141,53 +141,55 @@
   \;
 </body>
 
+<initial|<\collection>
+</collection>>
+
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-10|<tuple|1|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-11|<tuple|left subscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-12|<tuple|left subscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-13|<tuple|left subscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-14|<tuple|left subscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-15|<tuple|focus dependent
-    icons|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-16|<tuple|left superscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-17|<tuple|2|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-18|<tuple|2|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-19|<tuple|2|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-2|<tuple|superscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-20|<tuple|3|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-21|<tuple|square root|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-22|<tuple|3|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-23|<tuple|3|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-24|<tuple|multiple root|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-25|<tuple|multiple root|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-26|<tuple|<with|mode|<quote|math>|\<bullet\>>|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-27|<tuple|4|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-28|<tuple|matrix|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-29|<tuple|4|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-3|<tuple|subscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-30|<tuple|4|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-31|<tuple|5|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-32|<tuple|choice|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-33|<tuple|choice|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-34|<tuple|stack|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-35|<tuple|stack|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-4|<tuple|left superscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-5|<tuple|left subscript|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-6|<tuple|script above|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-7|<tuple|script below|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-8|<tuple|1|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|auto-9|<tuple|1|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnote-1|<tuple|1|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnote-2|<tuple|2|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnote-3|<tuple|3|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnote-4|<tuple|4|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnr-1|<tuple|1|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnr-2|<tuple|2|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnr-3|<tuple|3|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|footnr-4|<tuple|4|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
-    <associate|matrix|<tuple|4|?|../../../../.Xmacs/texts/scratch/no_name_2.tm>>
+    <associate|auto-1|<tuple|1|?>>
+    <associate|auto-10|<tuple|1|?>>
+    <associate|auto-11|<tuple|left subscript|?>>
+    <associate|auto-12|<tuple|left subscript|?>>
+    <associate|auto-13|<tuple|left subscript|?>>
+    <associate|auto-14|<tuple|left subscript|?>>
+    <associate|auto-15|<tuple|focus dependent icons|?>>
+    <associate|auto-16|<tuple|left superscript|?>>
+    <associate|auto-17|<tuple|2|?>>
+    <associate|auto-18|<tuple|2|?>>
+    <associate|auto-19|<tuple|2|?>>
+    <associate|auto-2|<tuple|superscript|?>>
+    <associate|auto-20|<tuple|3|?>>
+    <associate|auto-21|<tuple|square root|?>>
+    <associate|auto-22|<tuple|3|?>>
+    <associate|auto-23|<tuple|3|?>>
+    <associate|auto-24|<tuple|multiple root|?>>
+    <associate|auto-25|<tuple|multiple root|?>>
+    <associate|auto-26|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-27|<tuple|4|?>>
+    <associate|auto-28|<tuple|matrix|?>>
+    <associate|auto-29|<tuple|4|?>>
+    <associate|auto-3|<tuple|subscript|?>>
+    <associate|auto-30|<tuple|4|?>>
+    <associate|auto-31|<tuple|5|?>>
+    <associate|auto-32|<tuple|choice|?>>
+    <associate|auto-33|<tuple|choice|?>>
+    <associate|auto-34|<tuple|stack|?>>
+    <associate|auto-35|<tuple|stack|?>>
+    <associate|auto-4|<tuple|left superscript|?>>
+    <associate|auto-5|<tuple|left subscript|?>>
+    <associate|auto-6|<tuple|script above|?>>
+    <associate|auto-7|<tuple|script below|?>>
+    <associate|auto-8|<tuple|1|?>>
+    <associate|auto-9|<tuple|1|?>>
+    <associate|footnote-1|<tuple|1|?>>
+    <associate|footnote-2|<tuple|2|?>>
+    <associate|footnote-3|<tuple|3|?>>
+    <associate|footnote-4|<tuple|4|?>>
+    <associate|footnr-1|<tuple|1|?>>
+    <associate|footnr-2|<tuple|2|?>>
+    <associate|footnr-3|<tuple|3|?>>
+    <associate|footnr-4|<tuple|4|?>>
+    <associate|matrix|<tuple|4|?>>
   </collection>
 </references>
 
