@@ -15,7 +15,11 @@
 
   <section*|(15m) 用户反馈和新成员介绍（屏幕录制）>
 
-  \;
+  <subsection|jingkaimori>
+
+  <\itemize>
+    <item><hlink|引用机制及改进思路|http://git.tmml.wiki/XmacsLabs/planet/raw/6e9b58e593e694a5b708e4b3a2f342ae6c7c09a7/jingkaimori/%E5%BC%95%E7%94%A8%E6%9C%BA%E5%88%B6%E5%8F%8A%E6%94%B9%E8%BF%9B%E5%BB%BA%E8%AE%AE.tm>
+  </itemize>
 
   <section*|(30min) 固定话题：墨干V1.1.1（屏幕录制）>
 
@@ -36,67 +40,29 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|第八次研讨会.tm>>
-    <associate|auto-10|<tuple|<with|mode|<quote|math>|\<bullet\>>|3|第八次研讨会.tm>>
-    <associate|auto-11|<tuple|<with|mode|<quote|math>|\<bullet\>>|3|第八次研讨会.tm>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|第八次研讨会.tm>>
-    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|第八次研讨会.tm>>
-    <associate|auto-4|<tuple|3|1|第八次研讨会.tm>>
-    <associate|auto-5|<tuple|4|2|第八次研讨会.tm>>
-    <associate|auto-6|<tuple|<with|mode|<quote|math>|\<bullet\>>|2|第八次研讨会.tm>>
-    <associate|auto-7|<tuple|<with|mode|<quote|math>|\<bullet\>>|2|第八次研讨会.tm>>
-    <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|2|第八次研讨会.tm>>
-    <associate|auto-9|<tuple|<with|mode|<quote|math>|\<bullet\>>|2|第八次研讨会.tm>>
+    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-2|<tuple|1|1>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
-    <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|查看>|<with|font-family|<quote|ss>|高分屏设置>>|<pageref|auto-9>>
-    </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(15m)
       用户反馈和新成员介绍（屏幕录制）>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|1<space|2spc>张老师的反馈
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-2>>
-
-      <with|par-left|<quote|1tab>|2<space|2spc>张老师的反馈
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3>>
-
-      <with|par-left|<quote|1tab>|3<space|2spc>王老师的反馈
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-4>>
-
-      <with|par-left|<quote|1tab>|4<space|2spc>小程序用户反馈
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-5>>
-
-      <with|par-left|<quote|1tab>|5<space|2spc>114514
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-6>>
-
-      <with|par-left|<quote|1tab>|6<space|2spc>bbold
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-7>>
-
-      <with|par-left|<quote|1tab>|7<space|2spc>UI: Windows平台
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-8>>
-
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(30min)
-      固定话题：墨干V1.1.x/V1.2.x规划（屏幕录制）>
+      固定话题：墨干V1.1.1（屏幕录制）>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-10><vspace|0.5fn>
+      <no-break><pageref|auto-2><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|自由讨论（不录屏）>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-11><vspace|0.5fn>
+      <no-break><pageref|auto-3><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
