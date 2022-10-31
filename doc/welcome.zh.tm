@@ -30,12 +30,12 @@
   </description>
 
   \<#5F53\>\<#524D\><hlink|\<#6700\>\<#65B0\>\<#7248\>\<#672C\>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>|https://gitee.com/XmacsLabs/mogan/releases>\<#662F\>
-  <strong|\<#58A8\>\<#5E72\><space|0.2spc>v1.1.0>\<#FF1A\>
+  <strong|\<#58A8\>\<#5E72\><space|0.2spc>v1.1.1>\<#FF1A\>
 
   <\itemize>
     <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#6240\>\<#6709\>\<#7248\>\<#672C\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
 
-    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\><space|0.2spc>v1.1.0\<#7684\>\<#66F4\>\<#65B0\>\<#8BB0\>\<#5F55\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.0.zh.tm>
+    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\><space|0.2spc>v1.1.1\<#7684\>\<#66F4\>\<#65B0\>\<#8BB0\>\<#5F55\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.1.zh.tm>
   </itemize>
 
   <section*|\<#5B66\>\<#4E60\>\<#58A8\>\<#5E72\>>

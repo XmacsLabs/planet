@@ -11,10 +11,10 @@
     characters).
   </warning*>>
 
-  <name|Mogan Editor> is a structure editor delivered by <name|<hlink|Xmacs
+  <name|Mogan> is a structure editor delivered by <name|<hlink|Xmacs
   Labs|https://github.com/XmacsLabs>>, which is a fork of <hlink|GNU
   <TeXmacs>|https://www.texmacs.org>. Its latest version is
-  <name|<strong|Mogan Editor v1.1.0>>.
+  <name|<strong|Mogan v1.1.1>>.
 
   GNU <TeXmacs> is a structured editor developed since the late 1990s by
   <hlink|<person|Joris van der Hoeven>|http://www.texmacs.org/joris/main/joris.html>,
@@ -25,10 +25,10 @@
   university researchers.
 
   <hlink|<person|Darcy Shen>|https://github.com/darcy-shen> released
-  <name|Mogan Editor> v1.0.0 on January 30, 2022, and created <name|Xmacs
-  Labs>, a non-profit organization that aims to popularize GNU <TeXmacs> and
-  make it available to more people to enjoy the excellent software developed
-  by <person|Joris van der Hoeven>.
+  <name|Mogan> v1.0.0 on January 30, 2022, and created <name|Xmacs Labs>, a
+  non-profit organization that aims to popularize GNU <TeXmacs> and make it
+  available to more people to enjoy the excellent software developed by
+  <person|Joris van der Hoeven>.
 
   <section*|What is GNU <TeXmacs>>
 
@@ -80,7 +80,7 @@
 
   <section*|Goal>
 
-  <strong|We create Mogan Editor for everyone to learn and create science and
+  <strong|We create <name|Mogan> for everyone to learn and create science and
   technology.>
 
   <section*|Contact us>
@@ -158,7 +158,7 @@
   <section*|The Name "Mogan">
 
   <\quote-env>
-    Mogan is named after <hlink|<name|Mount
+    <name|Mogan> is named after <hlink|<name|Mount
     Mogan>|https://en.wikipedia.org/wiki/Mount_Mogan>, a famous attraction in
     my hometown. <with|font|FandolSong|\<#58A8\>\<#5E72\>>(<name|Mogan>)
     literally means "dried ink". The word is derived from
