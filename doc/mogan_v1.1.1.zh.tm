@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|tmdoc|chinese>>
 
@@ -24,6 +24,10 @@
   <section*|重要变更>
 
   <\itemize>
+    <item>文档：TM格式默认兼容GNU <TeXmacs>
+    2.1.2。（可以启用<menu|Edit|Preferences|Others|Use UTF8 for CJK in
+    TM format>，这样TM格式用文本编辑器打开可以直接看到中文，但是<TeXmacs>官方版本打开会乱码。）
+
     <item>文档：修复包含路径中含有中文的<TeXmacs>文档失败的问题
 
     <item>文档：修复<menu|Help|Search|Recent

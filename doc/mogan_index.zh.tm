@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -6,6 +6,8 @@
   <doc-data|<doc-title|墨干编辑器所有版本>>
 
   <\itemize>
+    <item><hlink|墨干编辑器V1.1.1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.1.zh.tm>（发布会：<hlink|Bilibili|https://www.bilibili.com/video/BV1MV4y137Qs/>）
+
     <item><hlink|墨干编辑器V1.1.0|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.0.zh.tm>（发布会：<hlink|Bilibili|https://www.bilibili.com/video/BV1re4y1Z7fP>）
 
     <item><hlink|墨干编辑器V1.0.4|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.zh.tm>（发布会：<hlink|Bilibili|https://www.bilibili.com/video/BV1jY4y1L7eX>）
