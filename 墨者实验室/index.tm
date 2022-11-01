@@ -41,13 +41,19 @@
 
   <section*|\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>>
 
+  <\strong>
+    \<#8877\>\<#5FC3\>\<#6B22\>\<#8FCE\>\<#5927\>\<#5BB6\>\<#901A\>\<#8FC7\>\<#4EE5\>\<#4E0B\>\<#65B9\>\<#5F0F\>\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>\<#FF0C\>\<#4EA4\>\<#6D41\>\<#7ECF\>\<#9A8C\>\<#3001\>\<#63D0\>\<#4F9B\>\<#5EFA\>\<#8BAE\>\<#6216\>\<#62A5\>\<#544A\>\<#95EE\>\<#9898\>\<#3002\>
+
+    \<#4E5F\>\<#70ED\>\<#60C5\>\<#6B22\>\<#8FCE\>\<#611F\>\<#5174\>\<#8DA3\>\<#7684\>\<#5F00\>\<#53D1\>\<#8005\>\<#548C\>\<#5FD7\>\<#613F\>\<#8D21\>\<#732E\>\<#8005\>\<#52A0\>\<#5165\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#3002\>
+  </strong>
+
   <\padded-center>
-    <tabular|<tformat|<cwith|1|1|1|-1|cell-background|#ffa>|<table|<row|<cell|\<#5E10\>\<#53F7\>>|<cell|\<#5E73\>\<#53F0\>>|<cell|\<#5907\>\<#6CE8\>>>|<row|<cell|<hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|https://space.bilibili.com/28058658>>|<cell|<name|Bilibili>>|<cell|>>|<row|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|https://gitee.com/XmacsLabs/>>|<cell|<name|Gitee>>|<cell|>>|<row|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>|<cell|<name|GitHub>>|<cell|>>|<row|<cell|<hlink|GNU
-    <TeXmacs>|https://www.douban.com/group/texmacs/>>|<cell|\<#8C46\>\<#74E3\>\<#5C0F\>\<#7EC4\>>|<cell|>>|<row|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|https://www.zhihu.com/people/xmacs>>|<cell|\<#77E5\>\<#4E4E\>>|<cell|>>|<row|<cell|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
-    (<name|xmacs2020>)>|<cell|\<#5FAE\>\<#4FE1\>\<#516C\>\<#4F17\>\<#53F7\>>|<cell|>>|<row|<cell|<with|font|FandolSong|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>>|<cell|\<#5FAE\>\<#4FE1\>\<#7FA4\>>|<cell|\<#901A\>\<#8FC7\>\<#5FAE\>\<#4FE1\>\<#53F7\>
-    <name|XmacsLabs> \<#5165\>\<#7FA4\>>>|<row|<cell|<with|font|FandolSong|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>>|<cell|\<#5FAE\>\<#4FE1\>\<#7FA4\>>|<cell|\<#901A\>\<#8FC7\>\<#5FAE\>\<#4FE1\>\<#53F7\>
-    <name|XmacsLabs> \<#5165\>\<#7FA4\>>>|<row|<cell|GNU <TeXmacs>
-    \<#4E2D\>\<#6587\>\<#793E\>\<#533A\> (934456971)>|<cell|QQ\<#7FA4\>>|<cell|>>>>>
+    <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|\<#8C46\>\<#74E3\>\<#5C0F\>\<#7EC4\>>|<cell|<hlink|GNU
+    <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|\<#77E5\>\<#4E4E\>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|\<#5FAE\>\<#4FE1\>\<#516C\>\<#4F17\>\<#53F7\>>|<cell|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+    (<name|xmacs2020>)>>|<row|<cell|\<#5FAE\>\<#4FE1\>\<#7FA4\>>|<cell|<with|font|FandolSong|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>
+    (\<#901A\>\<#8FC7\>\<#5FAE\>\<#4FE1\>\<#53F7\> <name|XmacsLabs>
+    \<#5165\>\<#7FA4\>)>>|<row|<cell|QQ\<#7FA4\>>|<cell|GNU <TeXmacs>
+    \<#4E2D\>\<#6587\>\<#793E\>\<#533A\> (934456971)>>>>>
   </padded-center>
 </body>
 
@@ -62,17 +68,11 @@
     <associate|auto-1|<tuple|?|1>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
     <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
-    <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
-    <\associate|table>
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
-        \<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>
-      </surround>|<pageref|auto-4>>
-    </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6587\>\<#6863\>\<#5217\>\<#8868\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
