@@ -6,8 +6,16 @@
   <tmdoc-title|欢迎使用墨干编辑器>
 
   <with|color|dark red|<\warning*>
-    如果你在查看这个文件时，中文乱码，请使用
-    <hlink|<name|墨干编辑器<space|0.2spc>V1.1.1>|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.1>（它们应该是中文字符）。
+    \;
+
+    <\itemize-dot>
+      <item>如果你在查看这个文件时，中文乱码，请使用
+      <hlink|<name|墨干编辑器<space|0.2spc>V1.1.1>|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.1>（它们应该是中文字符）。
+
+      <item>由于加载字体等等内容，头几次启动后程序可能运行缓慢或卡顿，通常之后会正常。
+    </itemize-dot>
+
+    我们请求您的理解和耐心，非常感谢。
   </warning*>>
 
   <name|墨干编辑器>是<hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/index.tm>旗下结构化编辑器，衍生自
