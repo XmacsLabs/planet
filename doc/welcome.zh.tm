@@ -3,38 +3,46 @@
 <style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths|compact-list>>
 
 <\body>
-  <tmdoc-title|欢迎使用墨干>
+  <tmdoc-title|欢迎使用墨干编辑器>
 
   <with|color|dark red|<\warning*>
-    如果你在查看这个文件时，中文乱码，请使用
-    <hlink|<name|墨干<space|0.2spc>V1.1.1>|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.1>（它们应该是中文字符）。
+    \;
+
+    <\itemize-dot>
+      <item>如果你在查看这个文件时，中文乱码，请使用
+      <hlink|<name|墨干编辑器<space|0.2spc>V1.1.1>|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.1>（它们应该是中文字符）。
+
+      <item>由于加载字体等等内容，头几次启动后程序可能运行缓慢或卡顿，通常之后会正常。
+    </itemize-dot>
+
+    我们请求您的理解和耐心，非常感谢。
   </warning*>>
 
-  <name|墨干>是<hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/index.tm>旗下结构化编辑器，衍生自
+  <name|墨干编辑器>是<hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/index.tm>旗下结构化编辑器，衍生自
   GNU <TeXmacs>，有如下不同：
 
   <\description>
-    <item*|合理的配置调优>比如在墨干中默认的快捷键风格是
+    <item*|合理的配置调优>比如在墨干编辑器中默认的快捷键风格是
     <name|Emacs> 风格，这样在不同平台快捷键是一致的。如果你想切换回
     <key|Ctrl-c> 或者 <key|Command-c> 这种随系统不同变化的快捷键风格，可以在
     <menu|Edit|Preferences|General|Look and feel> 中改回来。
 
-    <item*|激进的技术选型>比如墨干将 <name|GUI> 框架从
-    <name|Qt 4.8.x> 切换到了 <name|Qt 5.15.x>，将脚本执行引擎从
-    <name|Guile> 1.8.x 切换到了 <name|S7
-    Scheme>，在享受新技术带来的优势的同时，也会有不少不稳定的因素。
+    <item*|激进的技术选型>比如墨干编辑器将 <name|GUI>
+    框架从 <name|Qt 4.8.x> 切换到了 <name|Qt
+    5.15.x>，将脚本执行引擎从 <name|Guile> 1.8.x 切换到了
+    <name|S7 Scheme>，在享受新技术带来的优势的同时，也会有不少不稳定的因素。
   </description>
 
   当前<hlink|最新版本的墨干编辑器|https://gitee.com/XmacsLabs/mogan/releases>是
-  <strong|墨干<space|0.2spc>V1.1.1>：
+  <strong|墨干编辑器<space|0.2spc>V1.1.1>：
 
   <\itemize>
-    <math|\<Longrightarrow\>> 查看<hlink|墨干所有版本|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
+    <math|\<Longrightarrow\>> 查看<hlink|墨干编辑器所有版本|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
 
-    <math|\<Longrightarrow\>> 查看<hlink|墨干<space|0.2spc>V1.1.1的更新记录|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.1.zh.tm>
+    <math|\<Longrightarrow\>> 查看<hlink|墨干编辑器<space|0.2spc>V1.1.1的更新记录|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.1.zh.tm>
   </itemize>
 
-  <section*|学习墨干>
+  <section*|学习墨干编辑器>
 
   <\description>
     <item*|<TeXmacs>的官方文档>在帮助菜单下可以直接浏览。需要注意的一点是，如果界面语言是中文，那么已经完成翻译的帮助文档也是中文文档；如果界面语言是英文，那么帮助文档是英文的。
@@ -49,56 +57,35 @@
 
   <section*|联系我们>
 
-  <strong|衷心欢迎大家通过以下方式联系我们，交流经验、提供建议或报告问题。也热情欢迎感兴趣的开发者和志愿贡献者加入墨者实验室。>
+  <\strong>
+    衷心欢迎大家通过以下方式联系我们，交流经验、提供建议或报告问题。
 
-  <\with|par-columns|2>
-    <\itemize>
-      <\with|par-columns|1>
-        <item><name|Bilibili>: <hlink|<with|font|FandolSong|沈浪熊猫儿>|https://space.bilibili.com/28058658>
+    也热情欢迎感兴趣的开发者和志愿贡献者加入墨者实验室。
+  </strong>
 
-        <item><name|Gitee>: <hlink|<with|font|FandolSong|墨者实验室>|https://gitee.com/XmacsLabs/>
+  <\padded-center>
+    <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|沈浪熊猫儿>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|墨者实验室>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|豆瓣小组>|<cell|<hlink|GNU
+    <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|知乎>|<cell|<hlink|<with|font|FandolSong|墨干编辑器>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|微信公众号>|<cell|<with|font|FandolSong|墨者实验室>
+    (<name|xmacs2020>)>>|<row|<cell|微信群>|<cell|<with|font|FandolSong|墨客社区>
+    (通过微信号 <name|XmacsLabs> 入群)>>|<row|<cell|QQ群>|<cell|GNU
+    <TeXmacs> 中文社区 (934456971)>>>>>
+  </padded-center>
 
-        <item><name|GitHub>: <hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>
-
-        <item>豆瓣小组: <hlink|GNU <TeXmacs>|https://www.douban.com/group/texmacs/>
-
-        <item>知乎: <hlink|<with|font|FandolSong|墨干编辑器>|https://www.zhihu.com/people/xmacs>
-
-        <item>微信公众号: <with|font|FandolSong|墨者实验室>
-        (<name|xmacs2020>)
-
-        <item>微信群: <with|font|FandolSong|墨客社区>（通过微信号
-        <name|XmacsLabs> 入群)
-
-        <item><name|QQ>群: GNU <TeXmacs><space|0.6spc><with|font|FandolSong|中文社区>
-        (934456971)
-      </with>
-    </itemize>
-  </with>
-
-  使用墨干时遇到问题也欢迎咨询 <TeXmacs>
+  使用墨干编辑器时遇到问题也欢迎咨询 <TeXmacs>
   社区，特别是官方论坛。
 
-  <\itemize>
-    <item>官方论坛: <hlink|The GNU <TeXmacs>
-    forum|http://forum.texmacs.cn>
-
-    <item><name|YouTube>: <hlink|<TeXmacs>
-    Videos|https://www.youtube.com/channel/UCLaZZkOj3GPYFu9pVsEbthg>
-
-    <item><name|GitHub>: <hlink|GNU <TeXmacs>|https://github.com/texmacs>
-
-    <item><name|Twitter>: <hlink|GNU <TeXmacs>|https://twitter.com/gnu_texmacs>
-
-    <item><name|Gitter>: <hlink|texmacs/Lobby|https://gitter.im/texmacs/Lobby>\ 
-
-    <item>邮件列表: <hlink|Mailing lists for
-    <TeXmacs>|https://www.texmacs.org/tmweb/home/ml.en.html>
-  </itemize>
+  <\padded-center>
+    <tabular|<tformat|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<table|<row|<cell|官方论坛>|<cell|<hlink|The
+    GNU <TeXmacs> forum|http://forum.texmacs.cn>>>|<row|<cell|<name|YouTube>>|<cell|<hlink|<TeXmacs>
+    Videos|https://www.youtube.com/channel/UCLaZZkOj3GPYFu9pVsEbthg>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|GNU
+    <TeXmacs>|https://github.com/texmacs>>>|<row|<cell|<name|Twitter>>|<cell|<hlink|GNU
+    <TeXmacs>|https://twitter.com/gnu_texmacs>>>|<row|<cell|<name|Gitter>>|<cell|<hlink|texmacs/Lobby|https://gitter.im/texmacs/Lobby>>>|<row|<cell|邮件列表>|<cell|<hlink|Mailing
+    lists for <TeXmacs>|https://www.texmacs.org/tmweb/home/ml.en.html>>>>>>
+  </padded-center>
 
   <section*|中学教育>
 
-  墨者实验室会持续关注墨干在中学教育中的应用，以下是若干示例文档。
+  墨者实验室会持续关注墨干编辑器在中学教育中的应用，以下是若干示例文档。
 
   <\itemize-arrow>
     <item><hlink|2019年全国高中数学联合竞赛一试试题A卷|http://git.tmml.wiki/XmacsLabs/planet/raw/c029037c2f11ec60cfebee2afbd74ceeddc74a4b/doc/2019年全国高中数学联合竞赛一试试题A卷.tm>
@@ -108,7 +95,7 @@
 
   在中学教育实践中，<name|Gnuplot>
   可用于函数曲线的绘制，欧几里得可用于平面几何的绘制，<name|Maxima>
-  作为计算机代数系统可用于自动求导、表达式自动化简等教学需求。这三个软件在墨干中都有对应的插件。
+  作为计算机代数系统可用于自动求导、表达式自动化简等教学需求。这三个软件在墨干编辑器中都有对应的插件。
 
   <section*|墨者百科>
 
