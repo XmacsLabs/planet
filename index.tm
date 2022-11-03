@@ -31,7 +31,7 @@
   <section*|大学课件>
 
   <\itemize>
-    <item><hlink|北京师范大学-香港浸会大学联合国际学院|http://git.tmml.wiki/XmacsLabs/planet/raw/main/北京师范大学-香港浸会大学联合国际学院/index.tm>
+    <item><hlink|北京师范大学-香港浸会大学联合国际学院|http://git.tmml.wiki/XmacsLabs/planet/raw/main/UIC/index.tm>
   </itemize>
 
   <section*|墨客一览>

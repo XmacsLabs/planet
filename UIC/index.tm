@@ -4,7 +4,7 @@
 
 <\body>
   <\hide-preamble>
-    <assign|myspace|http://git.tmml.wiki/XmacsLabs/planet/raw/main/北京师范大学-香港浸会大学联合国际学院/>
+    <assign|myspace|http://git.tmml.wiki/XmacsLabs/planet/raw/main/UIC/>
 
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
