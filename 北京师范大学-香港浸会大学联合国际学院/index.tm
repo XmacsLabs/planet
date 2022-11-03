@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -20,12 +20,16 @@
     <item><gitlink|微积分/Chapter_1>
 
     <item><gitlink|微积分/Chapter_2>
+
+    <item><gitlink|微积分/Chapter_3>
   </itemize>
 
   <subsection*|2022年秋季：常微分方程>
 
   <\itemize>
     <item><gitlink|常微分方程/Chapter_1>
+
+    <item><gitlink|常微分方程/Chapter_2>
   </itemize>
 </body>
 
