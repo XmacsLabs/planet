@@ -1,31 +1,39 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths|compact-list>>
+<style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths|compact-list|smart-ref|preview-ref>>
 
 <\body>
   <tmdoc-title|欢迎使用墨干编辑器>
 
-  <with|color|dark red|<\warning*>
-    \;
+  <with|color|dark red|<with|font|Songti SC|font-base-size|9|<\render-remark|提醒>
+    与 GNU <TeXmacs> 一样，全英文编辑写作在
+    <name|墨干编辑器> 中已经相对完善，但中文编辑写作离完善还有很长的路，我们请求用户的理解、耐心和帮助，非常感谢！
+
+    如果您使用中遇到问题，欢迎通过下文“联系我们”里的方式联系我们，谢谢；这种情况下，如果您愿意到墨干编辑器的
+    <hlink|<name|GitHub<with|font-shape|italic|>>|https://github.com/XmacsLabs/mogan/issues>
+    或 <hlink|<name|Gitee><with|font-shape|italic|>|https://gitee.com/XmacsLabs/mogan/issues>
+    撰写工单并具体描述问题，或上传可复现问题的文档，我们会无限感激。
+
+    在开始使用前，请新用户注意下面两个问题：
 
     <\itemize-dot>
       <item>如果你在查看这个文件时，中文乱码，请使用
-      <hlink|<name|墨干编辑器<space|0.2spc>V1.1.1>|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.1>（它们应该是中文字符）。
+      <hlink|<name|墨干编辑器<space|0.2spc>V1.1.1>|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.1>
+      或更新版本，中文字符即可正确显示。
 
       <item>由于加载字体等等内容，头几次启动后程序可能运行缓慢或卡顿，通常之后会正常。
     </itemize-dot>
-
-    我们请求您的理解和耐心，非常感谢。
-  </warning*>>
+  </render-remark>>>
 
   <name|墨干编辑器>是<hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/index.tm>旗下结构化编辑器，衍生自
   GNU <TeXmacs>，有如下不同：
 
   <\description>
     <item*|合理的配置调优>比如在墨干编辑器中默认的快捷键风格是
-    <name|Emacs> 风格，这样在不同平台快捷键是一致的。如果你想切换回
-    <key|Ctrl-c> 或者 <key|Command-c> 这种随系统不同变化的快捷键风格，可以在
-    <menu|Edit|Preferences|General|Look and feel> 中改回来。
+    <name|Emacs> 风格，这样在不同平台快捷键是一致的。<with|color|dark
+    red|如果你想切换回 <key|Ctrl-c> 或者 <key|Command-c>
+    这种随系统不同变化的快捷键风格，可以在
+    <menu|Edit|Preferences|General|Look and feel> 中改回来。>
 
     <item*|激进的技术选型>比如墨干编辑器将 <name|GUI>
     框架从 <name|Qt 4.8.x> 切换到了 <name|Qt
@@ -45,7 +53,7 @@
   <section*|学习墨干编辑器>
 
   <\description>
-    <item*|<TeXmacs>的官方文档>在帮助菜单下可以直接浏览。需要注意的一点是，如果界面语言是中文，那么已经完成翻译的帮助文档也是中文文档；如果界面语言是英文，那么帮助文档是英文的。
+    <item*|<TeXmacs> 的官方文档>在帮助菜单下可以直接浏览。需要注意的一点是，如果界面语言是中文，那么已经完成翻译的帮助文档也是中文文档；如果界面语言是英文，那么帮助文档是英文的。
 
     <item*|墨客星球>简称星球，通过
     <hlink|<menu|Help|Planet>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>
@@ -55,7 +63,7 @@
     是星球中的文档，收录了大量的教学视频。
   </description>
 
-  <section*|联系我们>
+  <section*|联系我们><label|sec:contact us>
 
   <\strong>
     衷心欢迎大家通过以下方式联系我们，交流经验、提供建议或报告问题。
