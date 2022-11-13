@@ -15,10 +15,74 @@
 
   <section*|(15m) 用户反馈和新成员介绍（屏幕录制）>
 
+  <section|杨勇>
+
+  <\itemize>
+    <item>半年，Ubuntu
+
+    <item>LaTeX export: eqnarray -\<gtr\> align
+
+    <item>字体
+
+    <item>英文文档中输入中文：不会自动换行
+
+    <\itemize>
+      <item>提示新用户
+
+      <item>最终修复这个问题
+    </itemize>
+  </itemize>
+
+  \;
+
+  \;
+
+  <\session|scheme|default>
+    <\unfolded-io|Scheme] >
+      (xmacs-version)
+    <|unfolded-io>
+      "1.1.1"
+    </unfolded-io>
+
+    <\input|Scheme] >
+      \;
+    </input>
+  </session>
+
+  <TeXmacs-version>
+
   <section*|(30min) 固定话题：三个话题>
 
   <\itemize>
     <item>Yufeng Shen介绍墨干的WASM版
+
+    <\itemize>
+      <item><slink|Yufeng-shen.github.io>
+
+      <item>mogan.app
+
+      <item>相关问题都提交到Github Issues
+
+      <item>glink
+
+      <item>生成可分享的链接
+
+      <\itemize>
+        <item>公开: mogan.app/wasm
+
+        <\itemize>
+          <item>github/<text-dots>
+        </itemize>
+
+        <item>私有
+
+        <\itemize>
+          <item>github/<text-dots>
+        </itemize>
+      </itemize>
+
+      <item>WASM自动提交
+    </itemize>
 
     <item>王老师介绍一下动画制作
 
@@ -54,9 +118,10 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
-    <associate|auto-3|<tuple|<with|mode|<quote|math>|<rigid|->>|1>>
+    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
+    <associate|auto-2|<tuple|1|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
+    <associate|auto-4|<tuple|<with|mode|<quote|math>|<rigid|->>|?|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
   </collection>
 </references>
 
