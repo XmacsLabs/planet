@@ -5,8 +5,21 @@
 <\body>
   <tmdoc-title|\<#89C6\>\<#9891\>\<#96C6\>\<#9526\>>
 
-  \<#63A8\>\<#8350\>\<#65B0\>\<#7528\>\<#6237\>\<#5148\>\<#89C2\>\<#770B\>\<#FF1A\><hlink|A
-  Quick Tour of <TeXmacs>|https://www.bilibili.com/video/BV1bo4y1D7wN>
+  \<#65B0\>\<#7528\>\<#6237\>\<#8BF7\>\<#89C2\>\<#770B\>\<#89C6\>\<#9891\>\ 
+
+  <\padded-center>
+    <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
+  </padded-center>
+
+  \<#4E00\>\<#89C8\>\<#8BF8\>\<#591A\>\<#7279\>\<#8272\>\<#529F\>\<#80FD\>\<#3002\>\<#4E4B\>\<#540E\>\<#63A8\>\<#8350\>\<#89C2\>\<#770B\>\<#64AD\>\<#653E\>\<#5217\>\<#8868\>\ 
+
+  <\padded-center>
+    <hlink|GNU TeXmacs for scientists|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>\<#FF08\>\<#82F1\>\<#8BED\>\<#FF09\>
+  </padded-center>
+
+  \<#4F5C\>\<#4E3A\>\<#5165\>\<#95E8\>\<#6559\>\<#7A0B\>\<#FF08\>\<#65E0\>\<#6CD5\>\<#6D4F\>\<#89C8\><space|0.4spc><name|YouTube><space|0.4spc>\<#7684\>\<#7528\>\<#6237\>\<#53EF\>\<#4EE5\>\<#89C2\>\<#770B\><space|0.4spc><name|Bilibili><space|0.4spc>\<#5907\>\<#4EFD\><space|0.4spc><hlink|<TeXmacs>
+  \<#5165\>\<#95E8\>|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1&spm_id_from=333.999.0.0><space|0.4spc>\<#6216\>\<#77E5\>\<#4E4E\>\<#5907\>\<#4EFD\><space|0.4spc><hlink|<TeXmacs>
+  \<#5165\>\<#95E8\>|https://www.zhihu.com/collection/844048143>\<#FF09\>\<#3002\>
 
   <section*|\<#4E2D\>\<#6587\>\<#89E3\>\<#8BF4\>>
 

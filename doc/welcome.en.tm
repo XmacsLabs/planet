@@ -7,8 +7,8 @@
 
   <with|color|dark red|<\warning*>
     Please use <hlink|<name|Mogan Editor>
-    v1.1.0|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0> if you are
-    viewing this document with messy code (They should be Chinese
+    v1.1.0|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0> or later
+    if you are viewing this document with messy code (They should be Chinese
     characters).
   </warning*>>
 
@@ -18,15 +18,15 @@
   <name|<strong|Mogan Editor v1.1.1>>.
 
   GNU <TeXmacs> is a structured editor developed since the late 1990s by
-  Joris <hlink|<person|van der Hoeven>|http://www.texmacs.org/joris/main/joris.html>,
+  <hlink|<person|Joris van der Hoeven>|http://www.texmacs.org/joris/main/joris.html>,
   a mathematician at CNRS in France. It is designed to write high-quality
   technical documents using an intuitive and easy-to-use graphical interface,
   and able to achieve the same level of results as <LaTeX>. Its main users
   are currently primary and secondary school teachers (mostly in France) and
   university researchers.
 
-  Darcy <hlink|<person|Shen>|https://github.com/darcy-shen> released
-  <name|Mogan Editor> v1.0.0 on January 30, 2022, and created <name|Xmacs
+  <hlink|<person|Darcy Shen>|https://github.com/darcy-shen> released
+  <name|Mogan Editor v1.0.0> on January 30, 2022, and created <name|Xmacs
   Labs>, a non-profit organization that aims to popularize GNU <TeXmacs> and
   make it available to more people to enjoy the excellent software developed
   by Joris <person|van der Hoeven>.
@@ -95,14 +95,13 @@
   </strong>
 
   <\padded-center>
-    <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|<name|Douban>
-    Group>|<cell|<hlink|GNU <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|<name|Zhihu>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|<name|WeChat>
-    Official Account>|<cell|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+    <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|沈浪熊猫儿>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|墨者实验室>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|<name|Douban>
+    Group>|<cell|<hlink|GNU <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|<name|Zhihu>>|<cell|<hlink|<with|font|FandolSong|墨干编辑器>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|<name|WeChat>
+    Official Account>|<cell|<with|font|FandolSong|墨者实验室>
     (<name|xmacs2020>)>>|<row|<cell|<name|WeChat>
-    Group>|<cell|<with|font|FandolSong|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>
-    (Join via <name|WeChat> account <name|XmacsLabs>)>>|<row|<cell|<name|QQ>
-    Group>|<cell|GNU <TeXmacs> \<#4E2D\>\<#6587\>\<#793E\>\<#533A\>
-    (934456971)>>>>>
+    Group>|<cell|<with|font|FandolSong|墨客社区> (Join via <name|WeChat>
+    account <name|XmacsLabs>)>>|<row|<cell|<name|QQ> Group>|<cell|GNU
+    <TeXmacs> 中文社区 (934456971)>>>>>
   </padded-center>
 
   You are also welcome to consult the TeXmacs community, especially the
@@ -124,14 +123,14 @@
   is an aggregation of <TeXmacs> documents submitted by <name|Mogan Editor>
   users. The topic of <name|Xmacs Planet> focuses on Science and Technology.
 
-  Selected <TeXmacs> documents\<#FF1A\>
+  Selected <TeXmacs> documents：
 
   <\itemize>
-    <item><hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>\<#FF1A\>\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>/\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>.tm>
+    <item><hlink|<with|font|FandolSong|沈浪熊猫儿：定制快捷键快速输入以1为分子的分式>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/沈浪熊猫儿/定制快捷键快速输入以1为分子的分式.tm>
 
-    <item><hlink|<with|font|FandolSong|2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>>|http://git.tmml.wiki/XmacsLabs/planet/raw/c029037c2f11ec60cfebee2afbd74ceeddc74a4b/doc/2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>.tm>
+    <item><hlink|<with|font|FandolSong|2019年全国高中数学联合竞赛一试试题A卷>|http://git.tmml.wiki/XmacsLabs/planet/raw/c029037c2f11ec60cfebee2afbd74ceeddc74a4b/doc/2019年全国高中数学联合竞赛一试试题A卷.tm>
 
-    <item><hlink|<with|font|FandolSong|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
+    <item><hlink|<with|font|FandolSong|高考数学>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/高考数学/index.tm>
   </itemize>
 
   <section*|The Name "Mogan">
@@ -139,10 +138,10 @@
   <\quote-env>
     <name|Mogan> is named after <hlink|<name|Mount
     Mogan>|https://en.wikipedia.org/wiki/Mount_Mogan>, a famous attraction in
-    my hometown. <with|font|FandolSong|\<#58A8\>\<#5E72\>>(<name|Mogan>)
-    literally means "dried ink". The word is derived from
-    <name|\<#83AB\>\<#5E72\>>(<name|Mogan>) which is a combination of
-    <hlink|\<#83AB\>(Mo) and \<#5E72\>(Gan)|https://en.wikipedia.org/wiki/Gan_Jiang_and_Mo_Ye>.
+    my hometown. <with|font|FandolSong|墨干>(<name|Mogan>) literally means
+    "dried ink". The word is derived from <name|莫干>(<name|Mogan>) which
+    is a combination of <hlink|莫(Mo) and
+    干(Gan)|https://en.wikipedia.org/wiki/Gan_Jiang_and_Mo_Ye>.
 
     \V Darcy
   </quote-env>
