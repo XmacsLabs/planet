@@ -1,9 +1,9 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
-<style|<tuple|generic|british>>
+<style|<tuple|tmdoc|british>>
 
 <\body>
-  <doc-data|<doc-title|All versions of the Mogan Editor>>
+  <tmdoc-title|All versions of the Mogan Editor>
 
   <\itemize>
     <item>Mogan Editor v1.1.0
