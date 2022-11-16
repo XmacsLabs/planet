@@ -6,10 +6,8 @@
   <tmdoc-title|Welcome to Mogan Editor>
 
   <with|color|dark red|<\warning*>
-    Please use <hlink|<name|Mogan Editor>
-    v1.1.0|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.0> or later
-    if you are viewing this document with messy code (They should be Chinese
-    characters).
+    Please use <name|Mogan Editor> v1.1.0 or later if you are viewing this
+    document with messy code (They should be Chinese characters).
   </warning*>>
 
   <name|Mogan Editor> is a structure editor delivered by <name|<hlink|Xmacs

@@ -6,7 +6,7 @@
   <tmdoc-title|欢迎使用墨干编辑器>
 
   <with|color|dark red|<with|font|Songti SC|<with|font-base-size|8|<\render-remark|提醒>
-    与<space|0.4spc>GNU <TeXmacs><space|0.4spc>一样，全英文编辑写作在<space|0.4spc><name|墨干编辑器><space|0.4spc>中已经相对完善，但中文编辑写作离完善还有很长的路，我们请求用户的理解、耐心和帮助，非常感谢！
+    与<space|0.4spc>GNU <TeXmacs><space|0.4spc>一样，西文排版在<space|0.4spc><name|墨干编辑器><space|0.4spc>中已经相对完善，但中文排版离完善还有很长的路，我们请求用户的理解、耐心和帮助，非常感谢！
 
     如果您使用中遇到问题，欢迎通过下文“联系我们”里的方式联系我们，谢谢；这种情况下，如果您愿意到墨干编辑器的<space|0.4spc><hlink|<name|GitHub<with|font-shape|italic|>>|https://github.com/XmacsLabs/mogan/issues><space|0.4spc>或<space|0.4spc><hlink|<name|Gitee><with|font-shape|italic|>|https://gitee.com/XmacsLabs/mogan/issues><space|0.4spc>撰写工单并具体描述问题，或上传可复现问题的文档，我们会无限感激。
 
