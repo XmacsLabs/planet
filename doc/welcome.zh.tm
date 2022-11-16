@@ -45,17 +45,18 @@
 
   <\padded-center>
     <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
+    (<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>/<hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
   </padded-center>
 
-  一览诸多特色功能。之后推荐观看播放列表\ 
+  了解诸多特色功能。之后推荐观看播放列表\ 
 
   <\padded-center>
-    <hlink|GNU TeXmacs for scientists|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>（英语）
+    <hlink|GNU TeXmacs for scientists<space|0.4spc>(<name|YouTube>)|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi><space|0.6spc>/<space|0.4spc><hlink|<TeXmacs>
+    入门<space|0.4spc>(<name|Bilibili>)|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1><space|0.4spc>/<space|0.4spc><hlink|<TeXmacs>
+    入门<space|0.4spc>(知乎)|https://www.zhihu.com/collection/844048143>
   </padded-center>
 
-  作为入门教程（无法浏览<space|0.4spc><name|YouTube><space|0.4spc>的用户可以观看<space|0.4spc><name|Bilibili><space|0.4spc>备份<space|0.4spc><hlink|<TeXmacs>
-  入门|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1&spm_id_from=333.999.0.0><space|0.4spc>或知乎备份<space|0.4spc><hlink|<TeXmacs>
-  入门|https://www.zhihu.com/collection/844048143>）。
+  作为入门教程。
 
   进一步学习可以参考以下资源：
 
