@@ -11,13 +11,14 @@
     var>>|<cell|>|<cell|<math|\<omicron\>>>|<cell|<key*|o
     var>>|<cell|>|<cell|<math|\<upsilon\>>>|<cell|<key*|u
     var>>>|<row|<cell|>|<cell|<markup|\\alpha>>|<cell|>|<cell|>|<cell|<markup|theta>>|<cell|>|<cell|>|<cell|<markup|omicron>>|<cell|>|<cell|>|<cell|<markup|upsilon>>>|<row|<cell|<math|\<beta\>>>|<cell|<key*|b
-    var>>|<cell|>|<cell|<math|\<vartheta\>>>|<cell|<key|j
-    3*Tab>>|<cell|>|<cell|<math|\<pi\>>>|<cell|<key*|p
+    var>>|<cell|>|<cell|<math|\<vartheta\>>>|<cell|<key|j var var
+    var>>|<cell|>|<cell|<math|\<pi\>>>|<cell|<key*|p
     var>>|<cell|>|<cell|<math|\<phi\>>>|<cell|<key*|v
     var>>>|<row|<cell|>|<cell|<markup|\\beta>>|<cell|>|<cell|>|<cell|<markup|vartheta>>|<cell|>|<cell|>|<cell|<markup|pi>>|<cell|>|<cell|>|<cell|<markup|phi>>>|<row|<cell|<math|\<gamma\>>>|<cell|<key*|g
     var>>|<cell|>|<cell|<math|\<iota\>>>|<cell|<key*|i
-    var>>|<cell|>|<cell|<math|\<varpi\>>>|<cell|<key|p><key|3*Tab>>|<cell|>|<cell|<math|\<varphi\>>>|<cell|<key*|v
-    var var>>>|<row|<cell|>|<cell|<markup|\\gamma>>|<cell|>|<cell|>|<cell|<markup|iota>>|<cell|>|<cell|>|<cell|<markup|varpi>>|<cell|>|<cell|>|<cell|<markup|varphi>>>|<row|<cell|<math|\<delta\>>>|<cell|<key*|d
+    var>>|<cell|>|<cell|<math|\<varpi\>>>|<cell|<key|p var var
+    var>>|<cell|>|<cell|<math|\<varphi\>>>|<cell|<key*|v var
+    var>>>|<row|<cell|>|<cell|<markup|\\gamma>>|<cell|>|<cell|>|<cell|<markup|iota>>|<cell|>|<cell|>|<cell|<markup|varpi>>|<cell|>|<cell|>|<cell|<markup|varphi>>>|<row|<cell|<math|\<delta\>>>|<cell|<key*|d
     var>>|<cell|>|<cell|<math|\<kappa\>>>|<cell|<key*|k
     var>>|<cell|>|<cell|<math|\<rho\>>>|<cell|<key*|r
     var>>|<cell|>|<cell|<math|\<chi\>>>|<cell|<key*|q
@@ -26,7 +27,7 @@
     var>>|<cell|>|<cell|<math|\<varrho\>>>|<cell|<key*|r var
     var>>|<cell|>|<cell|<math|\<psi\>>>|<cell|<key*|y
     var>>>|<row|<cell|>|<cell|<markup|\\varepsilon>>|<cell|>|<cell|>|<cell|<markup|lambda>>|<cell|>|<cell|>|<cell|<markup|varrho>>|<cell|>|<cell|>|<cell|<markup|psi>>>|<row|<cell|<math|\<varepsilon\>>>|<cell|<key|e
-    3*Tab>>|<cell|>|<cell|<math|\<mu\>>>|<cell|<key*|m
+    var var var>>|<cell|>|<cell|<math|\<mu\>>>|<cell|<key*|m
     var>>|<cell|>|<cell|<math|\<sigma\>>>|<cell|<key*|s
     var>>|<cell|>|<cell|<math|\<omega\>>>|<cell|<key*|w
     var>>>|<row|<cell|>|<cell|<markup|\\epsilon>>|<cell|>|<cell|>|<cell|<markup|mu>>|<cell|>|<cell|>|<cell|<markup|sigma>>|<cell|>|<cell|>|<cell|<markup|omega>>>|<row|<cell|<math|\<zeta\>>>|<cell|<key*|z
@@ -36,17 +37,17 @@
     var>>|<cell|>|<cell|<math|\<xi\>>>|<cell|<key*|x
     var>>|<cell|>|<cell|<math|\<tau\>>>|<cell|<key*|t
     var>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\eta>>|<cell|>|<cell|>|<cell|<markup|xi>>|<cell|>|<cell|>|<cell|<markup|tau>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<Gamma\>>>|<cell|<key|g
-    Tab>>|<cell|>|<cell|<math|\<Lambda\>>>|<cell|<key|l
-    Tab>>|<cell|>|<cell|<math|\<Sigma\>>>|<cell|<key|s
-    Tab>>|<cell|>|<cell|<math|\<Psi\>>>|<cell|<key|y
-    Tab>>>|<row|<cell|>|<cell|<markup|\\Gamma>>|<cell|>|<cell|>|<cell|<markup|\\Lambda>>|<cell|>|<cell|>|<cell|<markup|\\Sigma>>|<cell|>|<cell|>|<cell|<markup|\\Psi>>>|<row|<cell|<math|\<Delta\>>>|<cell|<key|d
-    Tab>>|<cell|>|<cell|<math|\<Xi\>>>|<cell|<key|x
-    Tab>>|<cell|>|<cell|<math|\<Upsilon\>>>|<cell|<key|u
-    Tab>>|<cell|>|<cell|<math|\<Omega\>>>|<cell|<key|w
-    Tab>>>|<row|<cell|>|<cell|<markup|\\Delta>>|<cell|>|<cell|>|<cell|<markup|\\Xi>>|<cell|>|<cell|>|<cell|<markup|\\Upsilon>>|<cell|>|<cell|>|<cell|<markup|\\Omega>>>|<row|<cell|<math|\<Theta\>>>|<cell|<key|j
-    Tab>>|<cell|>|<cell|<math|\<Pi\>>>|<cell|<key|p
-    Tab>>|<cell|>|<cell|<math|\<Phi\>>>|<cell|<key|f
-    Tab>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\Theta>>|<cell|>|<cell|>|<cell|<markup|\\Pi>>|<cell|>|<cell|>|<cell|<markup|\\Phi>>|<cell|>|<cell|>|<cell|>>>>>
+    var>>|<cell|>|<cell|<math|\<Lambda\>>>|<cell|<key|l
+    var>>|<cell|>|<cell|<math|\<Sigma\>>>|<cell|<key|s
+    var>>|<cell|>|<cell|<math|\<Psi\>>>|<cell|<key|y
+    var>>>|<row|<cell|>|<cell|<markup|\\Gamma>>|<cell|>|<cell|>|<cell|<markup|\\Lambda>>|<cell|>|<cell|>|<cell|<markup|\\Sigma>>|<cell|>|<cell|>|<cell|<markup|\\Psi>>>|<row|<cell|<math|\<Delta\>>>|<cell|<key|d
+    var>>|<cell|>|<cell|<math|\<Xi\>>>|<cell|<key|x
+    var>>|<cell|>|<cell|<math|\<Upsilon\>>>|<cell|<key|u
+    var>>|<cell|>|<cell|<math|\<Omega\>>>|<cell|<key|w
+    var>>>|<row|<cell|>|<cell|<markup|\\Delta>>|<cell|>|<cell|>|<cell|<markup|\\Xi>>|<cell|>|<cell|>|<cell|<markup|\\Upsilon>>|<cell|>|<cell|>|<cell|<markup|\\Omega>>>|<row|<cell|<math|\<Theta\>>>|<cell|<key|j
+    var>>|<cell|>|<cell|<math|\<Pi\>>>|<cell|<key|p
+    var>>|<cell|>|<cell|<math|\<Phi\>>>|<cell|<key|f
+    var>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\Theta>>|<cell|>|<cell|>|<cell|<markup|\\Pi>>|<cell|>|<cell|>|<cell|<markup|\\Phi>>|<cell|>|<cell|>|<cell|>>>>>
   <|big-table>
     Greek Letters
   </big-table>
@@ -74,7 +75,7 @@
   var var var>>|<cell|>|<cell|<math|\<odot\>>>|<cell|<key|@
   .><math|>>|<cell|>|<cell|<math|\<sqcup\>>>|<cell|<key|% var
   var>>|<cell|>|<cell|<math|\<wedge\>>>|<cell|<key|&>>|<cell|>>|<row|<cell|>|<cell|<markup|\\cdot>>|<cell|>|<cell|>|<cell|<markup|\\odot>>|<cell|>|<cell|>|<cell|<markup|\\sqcup>>|<cell|>|<cell|>|<cell|<markup|\\wedge>>|<cell|>>|<row|<cell|<math|\<circ\>>>|<cell|<key|@>>|<cell|>|<cell|<math|\<ominus\>>>|<cell|<key|@
-  ->>|<cell|>|<cell|<math|\<star\>>>|<cell|<key|*><key|Shift+Tab>>|<cell|>|<cell|<math|\<wr\>>>|<cell|>|<cell|>>|<row|<cell|<markup|>>|<cell|<markup|\\circ>>|<cell|>|<cell|>|<cell|<markup|\\ominus>>|<cell|>|<cell|>|<cell|<markup|\\star>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>>>>>
+  ->>|<cell|>|<cell|<math|\<star\>>>|<cell|<key|*><key|S-var>>|<cell|>|<cell|<math|\<wr\>>>|<cell|>|<cell|>>|<row|<cell|<markup|>>|<cell|<markup|\\circ>>|<cell|>|<cell|>|<cell|<markup|\\ominus>>|<cell|>|<cell|>|<cell|<markup|\\star>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>>>>>
     Binary Operation Symbols
   </big-table>
 </body>
@@ -89,7 +90,6 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-2|<tuple|2|1>>
-    <associate|auto-3|<tuple|2|?>>
   </collection>
 </references>
 
