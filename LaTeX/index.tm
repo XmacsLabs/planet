@@ -1,15 +1,15 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|generic|chinese|doc>>
+<style|<tuple|tmdoc|chinese|doc>>
 
 <\body>
+  <tmdoc-title|<LaTeX>符号大全>
+
   <\hide-preamble>
     <assign|myspace|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/>
 
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
-
-  <doc-data|<doc-title|<LaTeX>符号大全>>
 
   <section*|<LaTeX>数学符号一览>
 
@@ -66,29 +66,3 @@
     <associate|page-medium|paper>
   </collection>
 </initial>
-
-<\references>
-  <\collection>
-    <associate|auto-1|<tuple|?|1>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
-    <associate|auto-3|<tuple|1|?>>
-    <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
-    <associate|auto-5|<tuple|1|?>>
-    <associate|auto-6|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
-    <associate|footnote-1|<tuple|1|1>>
-    <associate|footnr-1|<tuple|1|1>>
-  </collection>
-</references>
-
-<\auxiliary>
-  <\collection>
-    <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|帮助>|<with|font-family|<quote|ss>|墨干编辑器>>|<pageref|auto-1>>
-    </associate>
-    <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|符号列表>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-2><vspace|0.5fn>
-    </associate>
-  </collection>
-</auxiliary>
