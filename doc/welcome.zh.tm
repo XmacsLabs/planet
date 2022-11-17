@@ -1,59 +1,117 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
-<style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths>>
+<style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths|compact-list|smart-ref|preview-ref>>
 
 <\body>
-  <tmdoc-title|\<#6B22\>\<#8FCE\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>
+  <tmdoc-title|欢迎使用墨干编辑器>
 
-  \<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#662F\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#65D7\>\<#4E0B\>\<#7ED3\>\<#6784\>\<#5316\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF0C\>\<#884D\>\<#751F\>\<#81EA\>GNU
-  <TeXmacs>\<#3002\>
+  <with|color|dark red|<with|font|Songti SC|<with|font-base-size|8|<\render-remark|提醒>
+    与<space|0.4spc>GNU <TeXmacs><space|0.4spc>一样，西文排版在<space|0.4spc><name|墨干编辑器><space|0.4spc>中已经相对完善，但中文排版离完善还有很长的路，我们请求用户的理解、耐心和帮助，非常感谢！
 
-  \<#5F53\>\<#524D\><hlink|\<#6700\>\<#65B0\>\<#7248\>\<#672C\>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>|https://gitee.com/XmacsLabs/mogan/releases>\<#662F\><strong|\<#58A8\>\<#5E72\>V1.0.4>\<#FF1A\>
+    如果您使用中遇到问题，欢迎通过下文“联系我们”里的方式联系我们，谢谢；这种情况下，如果您愿意到墨干编辑器的<space|0.4spc><hlink|<name|GitHub<with|font-shape|italic|>>|https://github.com/XmacsLabs/mogan/issues><space|0.4spc>或<space|0.4spc><hlink|<name|Gitee><with|font-shape|italic|>|https://gitee.com/XmacsLabs/mogan/issues><space|0.4spc>撰写工单并具体描述问题，或上传可复现问题的文档，我们会无限感激。
 
-  <\itemize>
-    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#6240\>\<#6709\>\<#7248\>\<#672C\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
+    在开始使用前，请新用户注意下面两个问题：
 
-    <math|\<Longrightarrow\>> \<#67E5\>\<#770B\><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.4\<#7684\>\<#66F4\>\<#65B0\>\<#8BB0\>\<#5F55\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.zh.tm>
-  </itemize>
+    <\itemize-dot>
+      <item>如果你在查看这个文件时，中文乱码，请使用<space|0.4spc><hlink|<name|墨干编辑器<space|0.2spc>v1.1.1>|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.1><space|0.4spc>或更新版本，中文字符即可正确显示。
 
-  <section*|\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>>
+      <item>由于加载字体等等内容，头几次启动后程序可能运行缓慢或卡顿，通常之后会正常。
+    </itemize-dot>
+  </render-remark>>>>
 
-  <\big-table|<tabular|<tformat|<cwith|1|1|1|-1|cell-background|#ffa>|<table|<row|<cell|\<#5E10\>\<#53F7\>>|<cell|\<#5E73\>\<#53F0\>>|<cell|\<#5E10\>\<#53F7\>>|<cell|\<#5E73\>\<#53F0\>>>|<row|<cell|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|<cell|<hlink|Bilibili|https://space.bilibili.com/28058658>>|<cell|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|<cell|\<#540C\>\<#540D\>\<#5FAE\>\<#4FE1\>\<#516C\>\<#4F17\>\<#53F7\>>>|<row|<cell|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|<cell|<hlink|Zhihu|https://www.zhihu.com/people/xmacs>>|<cell|GNU
-  <TeXmacs>\<#4E2D\>\<#6587\>\<#793E\>\<#533A\>>|<cell|QQ\<#7FA4\>:
-  934456971>>|<row|<cell|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|<cell|<hlink|Gitee|https://gitee.com/XmacsLabs/>>|<cell|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>|<cell|\<#901A\>\<#8FC7\>\<#5FAE\>\<#4FE1\>\<#53F7\>XmacsLabs\<#8FDB\>\<#7FA4\>>>>>>>
-    \<#8054\>\<#7CFB\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#548C\>\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>
-  </big-table>
+  <name|墨干编辑器>是<hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/index.tm>旗下结构化编辑器，衍生自<space|0.4spc>GNU
+  <TeXmacs>，有如下不同：
 
-  <hrule>
+  <\description>
+    <item*|合理的配置调优>比如在墨干编辑器中默认的快捷键风格是<space|0.4spc><name|Emacs><space|0.4spc>风格，这样在不同平台快捷键是一致的。<with|color|dark
+    red|如果你想切换回<space|0.4spc><key|Ctrl-c><space|0.4spc>或者<space|0.4spc><key|Command-c><space|0.4spc>这种随系统不同变化的快捷键风格，可以在<space|0.4spc><menu|Edit|Preferences|General|Look
+    and feel><space|0.4spc>中改回来。>
 
-  <section*|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+    <item*|激进的技术选型>比如墨干编辑器将<space|0.4spc><name|GUI><space|0.4spc>框架从<space|0.4spc><name|Qt<space|0.4spc>4.8.x><space|0.4spc>切换到了<space|0.4spc><name|Qt<space|0.4spc>5.15.x>，将脚本执行引擎从<space|0.4spc><name|Guile><space|0.4spc>1.8.x<space|0.4spc>切换到了<space|0.4spc><name|S7
+    Scheme>，在享受新技术带来的优势的同时，也会有不少不稳定的因素。
+  </description>
 
-  \<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#662F\>\<#975E\>\<#8425\>\<#5229\>\<#7684\>\<#FF0C\>\<#5173\>\<#6CE8\>\<#79D1\>\<#6280\>\<#53D1\>\<#5C55\>\<#7684\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#3002\>\<#6211\>\<#4EEC\>\<#4EE5\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#548C\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#4E3A\>\<#8F7D\>\<#4F53\>\<#FF0C\>\<#666E\>\<#53CA\>\<#79D1\>\<#6280\>\<#77E5\>\<#8BC6\>\<#3002\>
-
-  \<#6240\>\<#6709\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7684\>\<#7528\>\<#6237\>\<#90FD\>\<#662F\>\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#7684\>\<#8D21\>\<#732E\>\<#8005\>\<#FF0C\>\<#79F0\>\<#4E4B\>\<#4E3A\><strong|\<#58A8\>\<#5BA2\>>\<#3002\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7684\>\<#5F00\>\<#53D1\>\<#8005\>\<#548C\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#7684\>\<#7F16\>\<#8F91\>\<#8005\>\<#FF0C\>\<#79F0\>\<#4E4B\>\<#4E3A\><strong|\<#58A8\>\<#8005\>>\<#3002\>
-
-  <section*|\<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>>
-
-  \<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>\<#FF08\><math|\<Rightarrow\>>
-  <with|font|AR PL UMing CN|font-base-size|20|<hlink|\<#70B9\>\<#6211\>\<#76F4\>\<#8FBE\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>>\<#FF09\>\<#662F\>\<#58A8\>\<#5BA2\>\<#7684\>\<#6587\>\<#7AE0\>\<#805A\>\<#5408\>\<#FF0C\>\<#4E13\>\<#6CE8\>\<#4E8E\>\<#79D1\>\<#5B66\>\<#6280\>\<#672F\>\<#9886\>\<#57DF\>\<#3002\>
-
-  <section*|\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>>
-
-  \<#6B63\>\<#5728\>\<#5EFA\>\<#8BBE\>\<#4E2D\>\<#FF0C\>\<#793A\>\<#4F8B\>\<#8BCD\>\<#6761\><hlink|\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>|https://gitee.com/XmacsLabs/tmmlwiki/raw/main/\<#6570\>\<#5B66\>/\<#7B49\>\<#5DEE\>\<#6570\>\<#5217\>.tm>\<#3002\>\<#611F\>\<#5174\>\<#8DA3\>\<#52A0\>\<#5165\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#7684\>\<#5EFA\>\<#8BBE\>\<#FF0C\>\<#8BF7\>\<#8054\>\<#7CFB\>\<#5FAE\>\<#4FE1\>\<#53F7\>XmacsLabs\<#5E76\>\<#5907\>\<#6CE8\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#3002\>
-
-  <section*|\<#4E2D\>\<#5B66\>\<#6559\>\<#80B2\>>
-
-  \<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#4F1A\>\<#6301\>\<#7EED\>\<#5173\>\<#6CE8\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#5728\>\<#4E2D\>\<#5B66\>\<#6559\>\<#80B2\>\<#4E2D\>\<#7684\>\<#5E94\>\<#7528\>\<#FF0C\>\<#4EE5\>\<#4E0B\>\<#662F\>\<#82E5\>\<#5E72\>\<#793A\>\<#4F8B\>\<#6587\>\<#6863\>\<#3002\>
+  当前<hlink|最新版本的墨干编辑器|https://gitee.com/XmacsLabs/mogan/releases>是<space|0.4spc><strong|墨干编辑器<space|0.2spc>v1.1.1>：
 
   <\itemize>
-    <item><hlink|2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>|https://gitee.com/XmacsLabs/mogan/raw/main/TeXmacs/doc/about/xmacs/2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>.tm>
+    <math|\<Longrightarrow\>>查看<hlink|墨干编辑器所有版本|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_index.zh.tm>
 
-    <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
+    <math|\<Longrightarrow\>>查看<hlink|墨干编辑器<space|0.2spc>V1.1.1的更新记录|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.1.zh.tm>
   </itemize>
 
-  \<#5728\>\<#4E2D\>\<#5B66\>\<#6559\>\<#80B2\>\<#5B9E\>\<#8DF5\>\<#4E2D\>\<#FF0C\>Gnuplot\<#53EF\>\<#7528\>\<#4E8E\>\<#51FD\>\<#6570\>\<#66F2\>\<#7EBF\>\<#7684\>\<#7ED8\>\<#5236\>\<#FF0C\>\<#6B27\>\<#51E0\>\<#91CC\>\<#5F97\>\<#53EF\>\<#7528\>\<#4E8E\>\<#5E73\>\<#9762\>\<#51E0\>\<#4F55\>\<#7684\>\<#7ED8\>\<#5236\>\<#FF0C\>Maxima\<#4F5C\>\<#4E3A\>\<#8BA1\>\<#7B97\>\<#673A\>\<#4EE3\>\<#6570\>\<#7CFB\>\<#7EDF\>\<#53EF\>\<#7528\>\<#4E8E\>\<#81EA\>\<#52A8\>\<#6C42\>\<#5BFC\>\<#3001\>\<#8868\>\<#8FBE\>\<#5F0F\>\<#81EA\>\<#52A8\>\<#5316\>\<#7B80\>\<#7B49\>\<#6559\>\<#5B66\>\<#9700\>\<#6C42\>\<#3002\>\<#8FD9\>\<#4E09\>\<#4E2A\>\<#8F6F\>\<#4EF6\>\<#5728\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#4E2D\>\<#90FD\>\<#6709\>\<#5BF9\>\<#5E94\>\<#7684\>\<#63D2\>\<#4EF6\>\<#3002\>
+  <section*|如何入门>
 
-  <tmdoc-copyright|2020-2022|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+  新用户请观看视频
+
+  <\padded-center>
+    <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
+    (<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>/<hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
+  </padded-center>
+
+  了解诸多特色功能。之后推荐观看播放列表\ 
+
+  <\padded-center>
+    <hlink|GNU TeXmacs for scientists<space|0.4spc>(<name|YouTube>)|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi><space|0.6spc>/<space|0.4spc><hlink|<TeXmacs>
+    入门<space|0.4spc>(<name|Bilibili>)|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1><space|0.4spc>/<space|0.4spc><hlink|<TeXmacs>
+    入门<space|0.4spc>(知乎)|https://www.zhihu.com/collection/844048143>
+  </padded-center>
+
+  作为入门教程。
+
+  进一步学习可以参考以下资源：
+
+  <\description>
+    <item*|GNU <TeXmacs><space|0.4spc>的官方文档>在帮助菜单下可以直接浏览。需要注意的一点是，如果界面语言是中文，那么已经完成翻译的帮助文档也是中文文档；如果界面语言是英文，那么帮助文档是英文的。
+
+    <item*|墨客星球>简称星球，通过<space|0.4spc><hlink|<menu|Help|Planet>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm><space|0.4spc>可以直接访问。
+
+    <item*|视频资源><hlink|视频集锦|http://git.tmml.wiki/XmacsLabs/planet/raw/main/视频集锦/index.tm><space|0.4spc>是星球中的文档，收录了大量的教学视频。
+  </description>
+
+  <section*|联系我们><label|sec:contact us>
+
+  <with|color|orange|<\strong>
+    衷心欢迎大家通过以下方式联系我们，交流经验、提供建议或报告问题。
+
+    也热情欢迎感兴趣的开发者和志愿贡献者加入墨者实验室。
+  </strong>>
+
+  <\padded-center>
+    <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|沈浪熊猫儿>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|墨者实验室>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|豆瓣小组>|<cell|<hlink|GNU
+    <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|知乎>|<cell|<hlink|<with|font|FandolSong|墨干编辑器>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|微信公众号>|<cell|<with|font|FandolSong|墨者实验室>
+    (<name|xmacs2020>)>>|<row|<cell|微信群>|<cell|<with|font|FandolSong|墨客社区>
+    (通过微信号<space|0.4spc><name|XmacsLabs><space|0.4spc>入群)>>|<row|<cell|QQ群>|<cell|GNU
+    <TeXmacs><space|0.4spc>中文社区 (934456971)>>>>>
+  </padded-center>
+
+  使用墨干编辑器时遇到问题也欢迎咨询<space|0.4spc><TeXmacs><space|0.4spc>社区，特别是官方论坛。
+
+  <\padded-center>
+    <tabular|<tformat|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<table|<row|<cell|官方论坛>|<cell|<hlink|The
+    GNU <TeXmacs> forum|http://forum.texmacs.cn>>>|<row|<cell|<name|YouTube>>|<cell|<hlink|<TeXmacs>
+    Videos|https://www.youtube.com/channel/UCLaZZkOj3GPYFu9pVsEbthg>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|GNU
+    <TeXmacs>|https://github.com/texmacs>>>|<row|<cell|<name|Twitter>>|<cell|<hlink|GNU
+    <TeXmacs>|https://twitter.com/gnu_texmacs>>>|<row|<cell|<name|Gitter>>|<cell|<hlink|texmacs/Lobby|https://gitter.im/texmacs/Lobby>>>|<row|<cell|邮件列表>|<cell|<hlink|Mailing
+    lists for <TeXmacs>|https://www.texmacs.org/tmweb/home/ml.en.html>>>>>>
+  </padded-center>
+
+  <section*|中学教育>
+
+  墨者实验室会持续关注墨干编辑器在中学教育中的应用，以下是若干示例文档。
+
+  <\itemize-arrow>
+    <item><hlink|2019年全国高中数学联合竞赛一试试题A卷|http://git.tmml.wiki/XmacsLabs/planet/raw/c029037c2f11ec60cfebee2afbd74ceeddc74a4b/doc/2019年全国高中数学联合竞赛一试试题A卷.tm>
+
+    <item><hlink|高考数学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/高考数学/index.tm>
+  </itemize-arrow>
+
+  在中学教育实践中，<name|Gnuplot><space|0.4spc>可用于函数曲线的绘制，欧几里得可用于平面几何的绘制，<name|Maxima><space|0.4spc>作为计算机代数系统可用于自动求导、表达式自动化简等教学需求。这三个软件在墨干编辑器中都有对应的插件。
+
+  <section*|墨者百科>
+
+  正在建设中，示例词条<space|0.4spc><hlink|自然数|https://gitee.com/XmacsLabs/tmmlwiki/raw/main/数学/自然数.tm>。感兴趣加入墨者百科的建设，请联系微信号<space|0.4spc><name|XmacsLabs><space|0.4spc>并备注墨者百科。
+
+  <tmdoc-copyright|2020-2022|墨者实验室>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

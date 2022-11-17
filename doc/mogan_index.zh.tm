@@ -1,17 +1,20 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#6240\>\<#6709\>\<#7248\>\<#672C\>>>
+  <doc-data|<doc-title|墨干编辑器所有版本>>
 
   <\itemize>
-    <item><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.4\<#FF08\>\<#53D1\>\<#5E03\>\<#4F1A\>\<#89C6\>\<#9891\>\<#FF09\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.zh.tm>
+    <item><hlink|墨干编辑器V1.1.1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.1.zh.tm>（发布会：<hlink|Bilibili|https://www.bilibili.com/video/BV1MV4y137Qs/>）
 
-    <item><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.3|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.3.zh.tm>
+    <item><hlink|墨干编辑器V1.1.0|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.1.0.zh.tm>（发布会：<hlink|Bilibili|https://www.bilibili.com/video/BV1re4y1Z7fP>）
 
-    <item><hlink|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.2
-    (\<#53D1\>\<#5E03\>\<#4F1A\>\<#89C6\>\<#9891\>)|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.2.zh.tm>
+    <item><hlink|墨干编辑器V1.0.4|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.4.zh.tm>（发布会：<hlink|Bilibili|https://www.bilibili.com/video/BV1jY4y1L7eX>）
+
+    <item><hlink|墨干编辑器V1.0.3|http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.3.zh.tm>
+
+    <item><hlink|墨干编辑器V1.0.2 |http://git.tmml.wiki/XmacsLabs/planet/raw/main/doc/mogan_v1.0.2.zh.tm>（发布会：<hlink|Bilibili|https://www.bilibili.com/video/BV1PR4y1P7wi>）
   </itemize>
 </body>
 

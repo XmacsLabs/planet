@@ -9,9 +9,19 @@
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
 
-  <doc-data|<doc-title|<LaTeX>\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>>>
+  <doc-data|<doc-title|<LaTeX>符号大全>>
 
-  <LaTeX>\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>\<#662F\><LaTeX>\<#9879\>\<#76EE\>\<#4E2D\>\<#7684\>\<#4E00\>\<#4EFD\>\<#7F57\>\<#5217\>\<#4E86\>\<#7EDD\>\<#5927\>\<#90E8\>\<#5206\><LaTeX>\<#7B26\>\<#53F7\>\<#7684\>\<#6587\>\<#6863\>\<#FF0C\>\<#5176\>\<#4E3B\>\<#9875\>\<#548C\>\<#6700\>\<#65B0\>\<#7248\>\<#672C\>PDF\<#4E3A\>\<#FF1A\>
+  <section*|<LaTeX>数学符号一览>
+
+  下面这份文件中罗列了<LaTeX>的数学符号以及这些数学符号在<TeXmacs>中的对应快捷键
+
+  <\itemize>
+    <item><gitlink|MathSymbols>
+  </itemize>
+
+  <section*|<LaTeX>符号大全>
+
+  <LaTeX>符号大全是<LaTeX>项目中的一份罗列了绝大部分<LaTeX>符号的文档，其主页和最新版本PDF为：
 
   <\itemize>
     <item><slink|https://www.ctan.org/pkg/comprehensive>
@@ -25,12 +35,12 @@
     </itemize>
   </itemize>
 
-  GNU <TeXmacs>\<#53EA\>\<#652F\>\<#6301\><LaTeX>\<#7B26\>\<#53F7\>\<#4E2D\>\<#7684\>\<#4E00\>\<#90E8\>\<#5206\>\<#3002\>\<#6211\>\<#4EEC\>\<#5728\>\<#4E0B\>\<#9762\>\<#7684\>\<#7B26\>\<#53F7\>\<#5217\>\<#8868\>\<#4E2D\>\<#6309\>\<#7167\><LaTeX>\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>\<#7684\>\<#6587\>\<#6863\>\<#4E2D\>\<#8868\>\<#683C\>\<#FF0C\>\<#4F9D\>\<#6B21\>\<#6574\>\<#7406\>\<#5982\>\<#4F55\>\<#5728\>GNU
-  <TeXmacs>\<#4E2D\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#8FD9\>\<#4E9B\>\<#7B26\>\<#53F7\>\<#3002\>
+  GNU <TeXmacs>只支持<LaTeX>符号中的一部分。我们在下面的符号列表中按照<LaTeX>符号大全的文档中表格，依次整理如何在GNU
+  <TeXmacs>中快速输入这些符号。
 
-  \<#7B26\>\<#53F7\>\<#5217\>\<#8868\>\<#4E2D\>\<#5217\>\<#51FA\>\<#6765\>\<#7684\>\<#5FEB\>\<#6377\>\<#952E\>\<#76F8\>\<#5173\>\<#7684\>\<#6E90\>\<#4EE3\>\<#7801\>\<#6587\>\<#4EF6\>\<#7F57\>\<#5217\>\<#5982\>\<#4E0B\>\<#FF0C\>\<#70B9\>\<#51FB\>\<#5373\>\<#53EF\>\<#67E5\>\<#770B\>\<#8FD9\>\<#4E9B\>\<#53EA\>\<#8BFB\>\<#6587\>\<#4EF6\><\footnote>
-    \<#5982\>\<#679C\>\<#4F60\>\<#70B9\>\<#51FB\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6587\>\<#4EF6\>\<#FF0C\>\<#65E0\>\<#6CD5\>\<#5728\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#4E2D\>\<#76F4\>\<#63A5\>\<#6D4F\>\<#89C8\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#6587\>\<#4EF6\>\<#FF0C\>\<#8BF4\>\<#660E\>\<#4F60\>\<#6240\>\<#4F7F\>\<#7528\>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7248\>\<#672C\>\<#5C0F\>\<#4E8E\>v1.0.4\<#FF0C\>\<#8BF7\>\<#66F4\>\<#65B0\>\<#5230\>\<#6700\>\<#65B0\>\<#7248\>\<#672C\>\<#7684\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#3002\>\<#70B9\>\<#51FB\><menu|Help|Mogan>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#627E\>\<#5230\>\<#6700\>\<#65B0\>\<#7248\>\<#672C\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7684\>\<#4E0B\>\<#8F7D\>\<#94FE\>\<#63A5\>\<#3002\>\<#5F53\>\<#6211\>\<#5199\>\<#4E0B\>\<#8FD9\>\<#6761\>\<#811A\>\<#6CE8\>\<#7684\>\<#65F6\>\<#5019\>\<#FF08\>2022/07/12\<#FF09\>\<#FF0C\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>V1.0.4\<#5C31\>\<#662F\>\<#6700\>\<#65B0\>\<#7248\>\<#FF0C\>\<#8FD9\>\<#4E2A\>\<#95EE\>\<#9898\>\<#8FD8\>\<#6CA1\>\<#6709\>\<#88AB\>\<#89E3\>\<#51B3\>\<#3002\>
-  </footnote>\<#FF1A\>
+  符号列表中列出来的快捷键相关的源代码文件罗列如下，点击即可查看这些只读文件<\footnote>
+    如果你点击这两个文件，无法在墨干编辑器中直接浏览这两个文件，说明你所使用的墨干编辑器版本小于v1.0.4，请更新到最新版本的墨干编辑器。点击<menu|Help|Mogan>，可以找到最新版本墨干编辑器的下载链接。当我写下这条脚注的时候（2022/07/12），墨干编辑器V1.0.4就是最新版，这个问题还没有被解决。
+  </footnote>：
 
   <\itemize>
     <item><slink|$TEXMACS_PATH/progs/text/text-kbd.scm>
@@ -38,7 +48,9 @@
     <item><slink|$TEXMACS_PATH/progs/math/math-kbd.scm>
   </itemize>
 
-  <section*|\<#7B26\>\<#53F7\>\<#5217\>\<#8868\>>
+  \;
+
+  <subsection*|符号列表>
 
   <\itemize>
     <item><gitlink|BinaryOperators>
@@ -57,8 +69,12 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-3|<tuple|1|?>>
+    <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-5|<tuple|1|?>>
+    <associate|auto-6|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
     <associate|footnote-1|<tuple|1|1>>
     <associate|footnr-1|<tuple|1|1>>
   </collection>
@@ -66,10 +82,13 @@
 
 <\auxiliary>
   <\collection>
+    <\associate|idx>
+      <tuple|<tuple|<with|font-family|<quote|ss>|帮助>|<with|font-family|<quote|ss>|墨干编辑器>>|<pageref|auto-1>>
+    </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#7B26\>\<#53F7\>\<#5217\>\<#8868\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|符号列表>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.5fn>
+      <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>

@@ -1,25 +1,25 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese>>
 
 <\body>
-  <doc-data|<doc-title|Git\<#65B0\>\<#7528\>\<#6237\>\<#5E38\>\<#7528\>\<#914D\>\<#7F6E\>>|<doc-author|<author-data|<author-name|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>>>>
+  <doc-data|<doc-title|Git新用户常用配置>|<doc-author|<author-data|<author-name|沈浪熊猫儿>>>>
 
   <\table-of-contents|toc>
-    <with|par-left|1tab|\<#914D\>\<#7F6E\>\<#5E38\>\<#7528\>\<#522B\>\<#540D\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#51CF\>\<#5C11\>\<#624B\>\<#6307\>\<#7684\>\<#78E8\>\<#635F\>
+    <with|par-left|1tab|配置常用别名，可以减少手指的磨损
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-1>>
 
-    <with|par-left|1tab|\<#5982\>\<#4F55\>\<#6B63\>\<#5E38\>\<#663E\>\<#793A\>\<#4E2D\>\<#6587\>
+    <with|par-left|1tab|如何正常显示中文
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-2>>
 
-    <with|par-left|1tab|\<#914D\>\<#7F6E\>\<#7528\>\<#6237\>\<#540D\>\<#548C\>\<#90AE\>\<#7BB1\>
+    <with|par-left|1tab|配置用户名和邮箱
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-3>>
   </table-of-contents>
 
-  \<#672C\>\<#6587\>\<#5728\>macOS 12.2.1\<#4E2D\>\<#64B0\>\<#5199\>\<#3002\>
+  本文在macOS 12.2.1中撰写。
 
   <\session|shell|default>
     <\unfolded-io|Shell] >
@@ -33,7 +33,7 @@
     </input>
   </session>
 
-  <subsection*|\<#914D\>\<#7F6E\>\<#5E38\>\<#7528\>\<#522B\>\<#540D\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#51CF\>\<#5C11\>\<#624B\>\<#6307\>\<#7684\>\<#78E8\>\<#635F\>>
+  <subsection*|配置常用别名，可以减少手指的磨损>
 
   <\session|shell|default>
     <\input|Shell] >
@@ -57,14 +57,13 @@
     </input>
   </session>
 
-  <subsection*|\<#5982\>\<#4F55\>\<#6B63\>\<#5E38\>\<#663E\>\<#793A\>\<#4E2D\>\<#6587\>>
+  <subsection*|如何正常显示中文>
 
-  \<#9ED8\>\<#8BA4\>\<#60C5\>\<#51B5\>\<#4E0B\>\<#FF0C\><shell|git
-  status>\<#65E0\>\<#6CD5\>\<#663E\>\<#793A\>\<#4E2D\>\<#6587\>\<#FF08\>\<#4EE5\>\<#6B63\>\<#5728\>\<#64B0\>\<#5199\>\<#4E2D\>\<#7684\>\<#672C\>\<#6587\>\<#4E3A\>\<#4F8B\>\<#FF09\>\<#FF1A\>
+  默认情况下，<shell|git status>无法显示中文（以正在撰写中的本文为例）：
 
   <\session|shell|default>
     <\unfolded-io|Shell] >
-      cd ~/planet && git status # \<#4EC5\>\<#7528\>\<#4E8E\>\<#5C55\>\<#793A\>\<#6548\>\<#679C\>\<#FF0C\>\<#4E0D\>\<#5F71\>\<#54CD\>Git\<#914D\>\<#7F6E\>
+      cd ~/planet && git status # 仅用于展示效果，不影响Git配置
     <|unfolded-io>
       On branch da/git_intro
 
@@ -86,7 +85,7 @@
     </input>
   </session>
 
-  \<#901A\>\<#8FC7\>\<#914D\>\<#7F6E\>\<#53EF\>\<#4EE5\>\<#89E3\>\<#51B3\>\<#8FD9\>\<#4E2A\>\<#95EE\>\<#9898\>\<#FF1A\>
+  通过配置可以解决这个问题：
 
   <\session|shell|default>
     <\input|Shell] >
@@ -94,7 +93,7 @@
     </input>
 
     <\unfolded-io|Shell] >
-      cd ~/planet && git status # \<#4EC5\>\<#7528\>\<#4E8E\>\<#5C55\>\<#793A\>\<#6548\>\<#679C\>\<#FF0C\>\<#4E0D\>\<#5F71\>\<#54CD\>Git\<#914D\>\<#7F6E\>
+      cd ~/planet && git status # 仅用于展示效果，不影响Git配置
     <|unfolded-io>
       On branch da/git_intro
 
@@ -103,7 +102,7 @@
       \ \ (use "git add \<less\>file\<gtr\>..." to include in what will be
       committed)
 
-      \ \ \ \ \ \ \ \ \<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>/Git\<#5165\>\<#95E8\>.tm
+      \ \ \ \ \ \ \ \ 沈浪熊猫儿/Git入门.tm
 
       \;
 
@@ -116,15 +115,15 @@
     </input>
   </session>
 
-  <subsection*|\<#914D\>\<#7F6E\>\<#7528\>\<#6237\>\<#540D\>\<#548C\>\<#90AE\>\<#7BB1\>>
+  <subsection*|配置用户名和邮箱>
 
   <\warning*>
-    \<#8BF7\>\<#4F7F\>\<#7528\>\<#4F60\>\<#81EA\>\<#5DF1\>\<#7684\>\<#7528\>\<#6237\>\<#540D\>\<#548C\>\<#90AE\>\<#7BB1\>
+    请使用你自己的用户名和邮箱
   </warning*>
 
   <\session|shell|default>
     <\input|Shell] >
-      git config --global user.name "\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>"
+      git config --global user.name "沈浪熊猫儿"
     </input>
 
     <\input|Shell] >
@@ -148,7 +147,7 @@
 
       [user]
 
-      \ \ \ \ \ \ \ \ name = \<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>
+      \ \ \ \ \ \ \ \ name = 沈浪熊猫儿
 
       \ \ \ \ \ \ \ \ email = shenda@ustc.edu
     </unfolded-io>
@@ -176,15 +175,15 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <with|par-left|<quote|1tab>|\<#914D\>\<#7F6E\>\<#5E38\>\<#7528\>\<#522B\>\<#540D\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#51CF\>\<#5C11\>\<#624B\>\<#6307\>\<#7684\>\<#78E8\>\<#635F\>
+      <with|par-left|<quote|1tab>|配置常用别名，可以减少手指的磨损
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1>>
 
-      <with|par-left|<quote|1tab>|\<#5982\>\<#4F55\>\<#6B63\>\<#5E38\>\<#663E\>\<#793A\>\<#4E2D\>\<#6587\>
+      <with|par-left|<quote|1tab>|如何正常显示中文
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
 
-      <with|par-left|<quote|1tab>|\<#914D\>\<#7F6E\>\<#7528\>\<#6237\>\<#540D\>\<#548C\>\<#90AE\>\<#7BB1\>
+      <with|par-left|<quote|1tab>|配置用户名和邮箱
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
     </associate>

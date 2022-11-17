@@ -1,4 +1,4 @@
-<TeXmacs|2.1.2>
+<TeXmacs|2.1.3>
 
 <style|<tuple|beamer|chinese|doc>>
 
@@ -30,7 +30,7 @@
     .><math|>>|<cell|>|<cell|<math|\<sqcup\>>>|<cell|<key|% var
     var>>|<cell|>|<cell|<math|\<wedge\>>>|<cell|<key|&>>|<cell|>>|<row|<cell|>|<cell|<markup|\\cdot>>|<cell|>|<cell|>|<cell|<markup|\\odot>>|<cell|>|<cell|>|<cell|<markup|\\sqcup>>|<cell|>|<cell|>|<cell|<markup|\\wedge>>|<cell|>>|<row|<cell|<math|\<circ\>>>|<cell|<key|@>>|<cell|>|<cell|<math|\<ominus\>>>|<cell|<key|@
     ->>|<cell|>|<cell|<math|\<star\>>>|<cell|<key|*><key|Shift+Tab>>|<cell|>|<cell|<math|\<wr\>>>|<cell|>|<cell|>>|<row|<cell|<markup|>>|<cell|<markup|\\circ>>|<cell|>|<cell|>|<cell|<markup|\\ominus>>|<cell|>|<cell|>|<cell|<markup|\\star>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>>>>>
-      \<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
+      二元操作符（注意：以下快捷键仅适用于数学模式）
     </big-table*>
   </shown>>
 </body>
@@ -51,7 +51,7 @@
   <\collection>
     <\associate|table>
       <\tuple|normal>
-        \<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
+        二元操作符（注意：以下快捷键仅适用于数学模式）
       </tuple|<pageref|auto-1>>
     </associate>
   </collection>

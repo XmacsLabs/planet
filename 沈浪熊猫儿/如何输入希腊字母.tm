@@ -1,9 +1,9 @@
-<TeXmacs|2.1.1>
+<TeXmacs|2.1.3>
 
 <style|<tuple|generic|chinese|doc>>
 
 <\body>
-  <doc-data|<doc-title|\<#5982\>\<#4F55\>\<#8F93\>\<#5165\>\<#5E0C\>\<#814A\>\<#5B57\>\<#6BCD\>>>
+  <doc-data|<doc-title|如何输入希腊字母>>
 
   <\big-table|<tabular|<tformat|<cwith|1|1|1|1|cell-rborder|0ln>|<cwith|1|1|1|-1|cell-tborder|1ln>|<cwith|1|1|1|-1|cell-bborder|0ln>|<cwith|5|5|1|-1|cell-tborder|0ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|15|15|1|-1|cell-tborder|0ln>|<cwith|14|14|1|-1|cell-bborder|0ln>|<cwith|15|15|1|-1|cell-bborder|1ln>|<cwith|15|15|1|1|cell-lborder|0ln>|<cwith|15|15|8|8|cell-rborder|0ln>|<table|<row|<cell|<math|\<alpha\>>>|<cell|<math|\<beta\>>>|<cell|<math|\<gamma\>>>|<cell|<math|\<delta\>>>|<cell|<math|\<varepsilon\>>>|<cell|<math|\<epsilon\>>>|<cell|<math|\<zeta\>>>|<cell|<math|\<eta\>>>>|<row|<cell|<markup|alpha>>|<cell|<markup|beta>>|<cell|<markup|gamma>>|<cell|<markup|delta>>|<cell|<markup|varepsilon>>|<cell|<markup|epsilon>>|<cell|<markup|zeta>>|<cell|<markup|eta>>>|<row|<cell|<key*|a
   var>>|<cell|<key*|b var>>|<cell|<key*|g var>>|<cell|<key*|d
@@ -17,7 +17,7 @@
   var>>|<cell|<key*|t var>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<upsilon\>>>|<cell|<math|\<phi\>>>|<cell|<math|\<varphi\>>>|<cell|<math|\<chi\>>>|<cell|<math|\<psi\>>>|<cell|<math|\<omega\>>>|<cell|>|<cell|>>|<row|<cell|<markup|upsilon>>|<cell|<markup|phi>>|<cell|<markup|varphi>>|<cell|<markup|chi>>|<cell|<markup|psi>>|<cell|<markup|omega>>|<cell|>|<cell|>>|<row|<cell|<key*|u
   var>>|<cell|<key*|v var>>|<cell|<key*|v var var>>|<cell|<key*|q
   var>>|<cell|<key*|y var>>|<cell|<key*|w var>>|<cell|>|<cell|>>>>>>
-    \<#5C0F\>\<#5199\>\<#5E0C\>\<#814A\>\<#5B57\>\<#6BCD\>\<#4E00\>\<#89C8\>
+    小写希腊字母一览
   </big-table>
 
   <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<Alpha\>>>|<cell|<math|\<Beta\>>>|<cell|<math|\<Gamma\>>>|<cell|<math|\<Delta\>>>|<cell|\<Epsilon\>>|<cell|\<Zeta\>>|<cell|\<Eta\>>>|<row|<cell|<markup|Alpha>>|<cell|<markup|Beta>>|<cell|<markup|Gamma>>|<cell|<markup|Delta>>|<cell|<markup|Epsilon>>|<cell|<markup|Zeta>>|<cell|<markup|Eta>>>|<row|<cell|<key*|A
@@ -26,12 +26,9 @@
   tab>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|\<Psi\>>|<cell|\<Chi\>>|<cell|\<Omega\>>|<cell|\<Backepsilon\>>|<cell|\<Backsigma\>>|<cell|\<Mho\>>|<cell|>>|<row|<cell|<markup|Psi>>|<cell|<markup|Chi>>|<cell|<markup|Omega>>|<cell|<markup|Backepsilon>>|<cell|<markup|Backsigma>>|<cell|<markup|Mho>>|<cell|>>|<row|<cell|<key|Y
   tab>>|<cell|<key|Q tab>>|<cell|<key|W tab>>|<cell|<key|E><key|4*Tab>>|<cell|<key|S><key|2*Tab>>|<cell|<key|W
   2*Tab>>|<cell|>>>>>>
-    \<#5927\>\<#5199\>\<#5E0C\>\<#814A\>\<#5B57\>\<#6BCD\>\<#4E00\>\<#89C8\>
+    大写希腊字母一览
   </big-table>
 </body>
-
-<initial|<\collection>
-</collection>>
 
 <\references>
   <\collection>
@@ -44,11 +41,11 @@
   <\collection>
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
-        \<#5C0F\>\<#5199\>\<#5E0C\>\<#814A\>\<#5B57\>\<#6BCD\>\<#4E00\>\<#89C8\>
+        小写希腊字母一览
       </surround>|<pageref|auto-1>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
-        \<#5927\>\<#5199\>\<#5E0C\>\<#814A\>\<#5B57\>\<#6BCD\>\<#4E00\>\<#89C8\>
+        大写希腊字母一览
       </surround>|<pageref|auto-2>>
     </associate>
   </collection>
