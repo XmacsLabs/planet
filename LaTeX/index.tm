@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese|doc>>
 
@@ -10,6 +10,16 @@
   </hide-preamble>
 
   <doc-data|<doc-title|<LaTeX>符号大全>>
+
+  <section*|<LaTeX>数学符号一览>
+
+  下面这份文件中罗列了<LaTeX>的数学符号以及这些数学符号在<TeXmacs>中的对应快捷键
+
+  <\itemize>
+    <item><gitlink|MathSymbols>
+  </itemize>
+
+  <section*|<LaTeX>符号大全>
 
   <LaTeX>符号大全是<LaTeX>项目中的一份罗列了绝大部分<LaTeX>符号的文档，其主页和最新版本PDF为：
 
@@ -38,7 +48,9 @@
     <item><slink|$TEXMACS_PATH/progs/math/math-kbd.scm>
   </itemize>
 
-  <section*|符号列表>
+  \;
+
+  <subsection*|符号列表>
 
   <\itemize>
     <item><gitlink|BinaryOperators>
@@ -57,8 +69,12 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-3|<tuple|1|?>>
+    <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-5|<tuple|1|?>>
+    <associate|auto-6|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
     <associate|footnote-1|<tuple|1|1>>
     <associate|footnr-1|<tuple|1|1>>
   </collection>
@@ -66,10 +82,13 @@
 
 <\auxiliary>
   <\collection>
+    <\associate|idx>
+      <tuple|<tuple|<with|font-family|<quote|ss>|帮助>|<with|font-family|<quote|ss>|墨干编辑器>>|<pageref|auto-1>>
+    </associate>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|符号列表>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.5fn>
+      <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
