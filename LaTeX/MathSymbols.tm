@@ -137,7 +137,37 @@
     Punctuation Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+  <\big-table|<tabular|<tformat|<cwith|1|1|1|1|cell-halign|c>|<cwith|3|3|5|5|cell-valign|b>|<cwith|15|15|2|2|cell-valign|b>|<cwith|7|7|2|2|cell-valign|b>|<table|<row|<cell|<math|\<leftarrow\>>>|<cell|<key|\<less\>
+  ->>|<cell|>|<cell|<math|\<longleftarrow\>>>|<cell|<key|\<less\> -
+  ->>|<cell|>|<cell|<math|\<uparrow\>>>|<cell|<key|\<less\> -
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftarrow>>|<cell|>|<cell|>|<cell|<markup|\\longleftarrow>>|<cell|>|<cell|>|<cell|<markup|\\uparrow>>|<cell|>>|<row|<cell|<math|\<Leftarrow\>>>|<cell|<key|\<less\>
+  = var var var>>|<cell|>|<cell|<math|\<Longleftarrow\>>>|<cell|<key|\<less\>
+  = =>>|<cell|>|<cell|<math|\<Uparrow\>>>|<cell|<key|= \<gtr\> var
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Leftarrow>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Longleftarrow>>>|<cell|>|<cell|>|<cell|<markup|\\Uparrow>>|<cell|>>|<row|<cell|<math|\<rightarrow\>>>|<cell|<key|-
+  \<gtr\>>>|<cell|>|<cell|<math|\<longrightarrow\>>>|<cell|<key|- -
+  \<gtr\>>>|<cell|>|<cell|<math|\<downarrow\>>>|<cell|<key|- \<gtr\>
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightarrow>>|<cell|>|<cell|>|<cell|<markup|\\longrightarrow>>|<cell|>|<cell|>|<cell|<markup|\\downarrow>>|<cell|>>|<row|<cell|<math|\<Rightarrow\>>>|<cell|<key|=
+  \<gtr\>>>|<cell|>|<cell|<math|\<Longrightarrow\>>>|<cell|<key|= =
+  \<gtr\>>>|<cell|>|<cell|<math|\<Downarrow\>>>|<cell|<key|= \<gtr\>
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Rightarrow>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Longrightarrow>>>|<cell|>|<cell|>|<cell|<markup|\\Downarrow>>|<cell|>>|<row|<cell|<math|\<leftrightarrow\>>>|<cell|<key|\<less\>
+  - \<gtr\>>>|<cell|>|<cell|<math|\<longleftrightarrow\>>>|<cell|<key|\<less\>
+  - - \<gtr\>>>|<cell|>|<cell|<math|\<updownarrow\>>>|<cell|<key|\<less\> -
+  \<gtr\> var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftrightarrow>>|<cell|>|<cell|>|<cell|<markup|\\longleftrightarrow>>|<cell|>|<cell|>|<cell|<markup|\\updownarrow>>|<cell|>>|<row|<cell|<math|\<Leftrightarrow\>>>|<cell|<key|\<less\>
+  = \<gtr\>>>|<cell|>|<cell|<math|\<Longleftrightarrow\>>>|<cell|<key|\<less\>
+  = = \<gtr\>>>|<cell|>|<cell|<math|\<Updownarrow\>>>|<cell|<key|\<less\> =
+  \<gtr\> var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Leftrightarrow>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Longleftrightarrow>>>|<cell|>|<cell|>|<cell|<markup|\\Updownarrow>>|<cell|>>|<row|<cell|<math|\<mapsto\>>>|<cell|<key|\|
+  - \<gtr\>>>|<cell|>|<cell|<math|\<longmapsto\>>>|<cell|<key|\| - -
+  \<gtr\>>>|<cell|>|<cell|<math|\<nearrow\>>>|<cell|<key|- \<gtr\> var var
+  var var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\mapsto>>|<cell|>|<cell|>|<cell|<markup|\\longmapsto>>|<cell|>|<cell|>|<cell|<markup|\\nearrow>>|<cell|>>|<row|<cell|<math|\<hookleftarrow\>>>|<cell|<key|\<less\>
+  - \| var>>|<cell|>|<cell|<math|\<hookrightarrow\>>>|<cell|<key|\| - \<gtr\>
+  var>>|<cell|>|<cell|<math|\<searrow\>>>|<cell|<key|- \<gtr\> var var
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\hookleftarrow>>|<cell|>|<cell|>|<cell|<markup|\\hookrightarrow>>|<cell|>|<cell|>|<cell|<markup|\\searrow>>|<cell|>>|<row|<cell|<math|\<leftharpoonup\>>>|<cell|<key|/
+  - var>>|<cell|>|<cell|<math|\<rightharpoonup\>>>|<cell|<key|- / var
+  var>>|<cell|>|<cell|<math|\<swarrow\>>>|<cell|<key|\<less\> - var var var
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftharpoonup>>|<cell|>|<cell|>|<cell|<markup|\\rightharpoonup>>|<cell|>|<cell|>|<cell|<markup|\\swarrow>>|<cell|>>|<row|<cell|<math|\<leftharpoondown\>>>|<cell|<key|/
+  - var var>>|<cell|>|<cell|<math|\<rightharpoondown\>>>|<cell|<key|- /
+  var>>|<cell|>|<cell|<math|\<nwarrow\>>>|<cell|<key|\<less\> - var var
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftharpoondown>>|<cell|>|<cell|>|<cell|<markup|\\rightharpoondown>>|<cell|>|<cell|>|<cell|<markup|\\nwarrow>>|<cell|>>|<row|<cell|<math|\<rightleftharpoons\>>>|<cell|>|<cell|>|<cell|<math|\<rightsquigarrow\>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftharpoons>>|<cell|>|<cell|>|<cell|<todo|<markup|\\leadsto*>>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
     Arrow Symbols
   </big-table>
 </body>
@@ -155,7 +185,7 @@
     <associate|auto-3|<tuple|2|2>>
     <associate|auto-4|<tuple|3|2>>
     <associate|auto-5|<tuple|4|2>>
-    <associate|auto-6|<tuple|5|?>>
+    <associate|auto-6|<tuple|5|2>>
   </collection>
 </references>
 
@@ -164,23 +194,27 @@
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
         Greek Letters
-      </surround>|<pageref|auto-1>>
+      </surround>|<pageref|auto-2>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
         Binary Operation Symbols
-      </surround>|<pageref|auto-2>>
+      </surround>|<pageref|auto-3>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|3>|>
         Relation Symbols
-      </surround>|<pageref|auto-3>>
+      </surround>|<pageref|auto-4>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|4>|>
         Punctuation Symbols
-      </surround>|<pageref|auto-4>>
+      </surround>|<pageref|auto-5>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
         Arrow Symbols
-      </surround>|<pageref|auto-5>>
+      </surround>|<pageref|auto-6>>
+    </associate>
+    <\associate|toc>
+      <with|par-left|<quote|4tab>|Note <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.15fn>>
     </associate>
   </collection>
 </auxiliary>
