@@ -167,7 +167,9 @@
   var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftharpoonup>>|<cell|>|<cell|>|<cell|<markup|\\rightharpoonup>>|<cell|>|<cell|>|<cell|<markup|\\swarrow>>|<cell|>>|<row|<cell|<math|\<leftharpoondown\>>>|<cell|<key|/
   - var var>>|<cell|>|<cell|<math|\<rightharpoondown\>>>|<cell|<key|- /
   var>>|<cell|>|<cell|<math|\<nwarrow\>>>|<cell|<key|\<less\> - var var
-  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftharpoondown>>|<cell|>|<cell|>|<cell|<markup|\\rightharpoondown>>|<cell|>|<cell|>|<cell|<markup|\\nwarrow>>|<cell|>>|<row|<cell|<math|\<rightleftharpoons\>>>|<cell|>|<cell|>|<cell|<math|\<rightsquigarrow\>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftharpoons>>|<cell|>|<cell|>|<cell|<todo|<markup|\\leadsto*>>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftharpoondown>>|<cell|>|<cell|>|<cell|<markup|\\rightharpoondown>>|<cell|>|<cell|>|<cell|<markup|\\nwarrow>>|<cell|>>|<row|<cell|<math|\<rightleftharpoons\>>>|<cell|<key|-
+  \<gtr\> \<less\> - var>>|<cell|>|<cell|<math|\<rightsquigarrow\>>>|<cell|<key|~
+  \<gtr\>>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftharpoons>>|<cell|>|<cell|>|<cell|<todo|<markup|\\leadsto>*>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
     Arrow Symbols
   </big-table>
 </body>
@@ -185,7 +187,7 @@
     <associate|auto-3|<tuple|2|2>>
     <associate|auto-4|<tuple|3|2>>
     <associate|auto-5|<tuple|4|2>>
-    <associate|auto-6|<tuple|5|2>>
+    <associate|auto-6|<tuple|5|3>>
   </collection>
 </references>
 
