@@ -1,9 +1,9 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
-<style|<tuple|generic|chinese>>
+<style|<tuple|tmdoc|chinese>>
 
 <\body>
-  <doc-data|<doc-title|墨客星球>>
+  <tmdoc-title|墨客星球>
 
   <\warning*>
     Please use <hlink|Mogan v1.1.0|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.0>
@@ -23,7 +23,7 @@
 
     <item><hlink|高考数学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/高考数学/index.tm>
 
-    <item><hlink|LaTeX符号大全|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/index.tm>
+    <item><hlink|<LaTeX><space|0.4spc>符号大全|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/index.tm>
 
     <item><hlink|国际数学奥林匹克竞赛|http://git.tmml.wiki/XmacsLabs/planet/raw/main/IMO/index.tm>
   </itemize>
@@ -56,34 +56,3 @@
     <associate|page-medium|papyrus>
   </collection>
 </initial>
-
-<\references>
-  <\collection>
-    <associate|auto-1|<tuple|?|1>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
-    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
-    <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
-  </collection>
-</references>
-
-<\auxiliary>
-  <\collection>
-    <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|公共文档>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.5fn>
-
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|大学课件>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-2><vspace|0.5fn>
-
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|墨客一览>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3><vspace|0.5fn>
-
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|如何加入>
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-4><vspace|0.5fn>
-    </associate>
-  </collection>
-</auxiliary>

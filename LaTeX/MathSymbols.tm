@@ -1,27 +1,29 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|generic|doc>>
+<style|<tuple|generic|doc|compact-list>>
 
 <\body>
   <doc-data|<doc-title|Math Symbols List>|>
 
-  <paragraph|Note>
+  <\note*>
+    \;
 
-  <\itemize-dot>
-    <item>The <TeXmacs>-style keyboard shorthands work only in the
-    mathematical mode.\ 
+    <\itemize-dot>
+      <item>The <TeXmacs>-style keyboard shorthands work only in the math
+      mode.\ 
 
-    <item>Macros with red markup are not yet supported in GNU
-    <TeXmacs>/<name|Mogan Editor>.
+      <item>Macros with red markup are not yet supported in GNU
+      <TeXmacs>/<name|Mogan Editor>.
 
-    <item>Although some unusual symbols are not supported by shorthands in
-    GNU <TeXmacs>/<name|Mogan Editor>, but they can be entered using menu,
-    e.g. <math|\<smile\>> and <math|\<frown\>>.
+      <item>Although some unusual symbols are not supported by shorthands in
+      GNU <TeXmacs>/<name|Mogan Editor>, but they can be entered using menu,
+      e.g. <math|\<smile\>> and <math|\<frown\>>.
 
-    <item>Macros with a * are not predefined in <LaTeX>
-    2<math|\<varepsilon\>>. They need one of the packages <markup|latexsym>,
-    <markup|amsfonts> or <markup|amssymb>.\ 
-  </itemize-dot>
+      <item>Macros with a * are not predefined in <LaTeX>
+      2<math|\<varepsilon\>>. They need one of the packages
+      <markup|latexsym>, <markup|amsfonts> or <markup|amssymb>.\ 
+    </itemize-dot>
+  </note*>
 
   <\big-table>
     <tabular*|<tformat|<table|<row|<cell|<math|\<alpha\>>>|<cell|<key*|a
@@ -193,7 +195,27 @@
     Large Delimiters
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<wide|a|^>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<acute\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<bar\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<dot\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<breve\>>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\hat>>|<cell|>|<cell|>|<cell|<markup|\\acute>>|<cell|>|<cell|>|<cell|<markup|\\bar>>|<cell|>|<cell|>|<cell|<markup|\\dot>>|<cell|>|<cell|>|<cell|<markup|\\breve>>|<cell|>>|<row|<cell|<math|<wide|a|\<check\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<grave\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<vect\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<ddot\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|~>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\check>>|<cell|>|<cell|>|<cell|<markup|\\grave>>|<cell|>|<cell|>|<cell|<todo|<markup|\\vec>>>|<cell|>|<cell|>|<cell|<markup|\\ddot>>|<cell|>|<cell|>|<cell|<markup|\\tilde>>|<cell|>>>>>>
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<wide|a|^>>>|<cell|<key|escape
+  escape ^>>|<cell|>|<cell|<math|<wide|a|\<acute\>>>>|<cell|<math|<rsup|>><key|escape
+  escape '>>|<cell|>|<cell|<math|<wide|a|\<bar\>>>>|<cell|<key|escape escape
+  B>>|<cell|>|<cell|<math|<wide|a|\<dot\>>>>|<cell|<key|escape escape
+  .>>|<cell|>|<cell|<math|<wide|a|\<breve\>>>>|<cell|<key|escape escape
+  U>>|<cell|>>|<row|<cell|>|<cell|<key*|escape escape
+  ^>>|<cell|>|<cell|>|<cell|<math|<rsup|>><key*|escape escape
+  '>>|<cell|>|<cell|>|<cell|<key*|escape escape
+  B>>|<cell|>|<cell|>|<cell|<key*|escape escape
+  .>>|<cell|>|<cell|>|<cell|<key*|escape escape
+  U>>|<cell|>>|<row|<cell|>|<cell|<markup|\\hat>>|<cell|>|<cell|>|<cell|<markup|\\acute>>|<cell|>|<cell|>|<cell|<markup|\\bar>>|<cell|>|<cell|>|<cell|<markup|\\dot>>|<cell|>|<cell|>|<cell|<markup|\\breve>>|<cell|>>|<row|<cell|<math|<wide|a|\<check\>>>>|<cell|<key|escape
+  escape C>>|<cell|>|<cell|<math|<wide|a|\<grave\>>>>|<cell|<key|escape
+  escape `>>|<cell|>|<cell|<math|<wide|a|\<vect\>>>>|<cell|<key|escape escape
+  V>>|<cell|>|<cell|<math|<wide|a|\<ddot\>>>>|<cell|<key|escape escape
+  ">>|<cell|>|<cell|<math|<wide|a|~>>>|<cell|<key|escape escape
+  ~>>|<cell|>>|<row|<cell|>|<cell|<key*|escape escape
+  C>>|<cell|>|<cell|>|<cell|<key*|escape escape
+  `>>|<cell|>|<cell|>|<cell|<key*|escape escape
+  V>>|<cell|>|<cell|>|<cell|<key*|escape escape
+  ">>|<cell|>|<cell|>|<cell|<key*|escape escape
+  ~>>|<cell|>>|<row|<cell|>|<cell|<markup|\\check>>|<cell|>|<cell|>|<cell|<markup|\\grave>>|<cell|>|<cell|>|<cell|<todo|<markup|\\vec>>>|<cell|>|<cell|>|<cell|<markup|\\ddot>>|<cell|>|<cell|>|<cell|<markup|\\tilde>>|<cell|>>>>>>
     Math Mode accents
   </big-table>
 
@@ -215,19 +237,18 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|9|3>>
-    <associate|auto-11|<tuple|10|3>>
-    <associate|auto-12|<tuple|11|3>>
-    <associate|auto-13|<tuple|12|?>>
-    <associate|auto-14|<tuple|13|?>>
-    <associate|auto-2|<tuple|1|1>>
-    <associate|auto-3|<tuple|2|2>>
-    <associate|auto-4|<tuple|3|2>>
-    <associate|auto-5|<tuple|4|2>>
-    <associate|auto-6|<tuple|5|3>>
-    <associate|auto-7|<tuple|6|3>>
-    <associate|auto-8|<tuple|7|3>>
-    <associate|auto-9|<tuple|8|3>>
+    <associate|auto-10|<tuple|10|3>>
+    <associate|auto-11|<tuple|11|3>>
+    <associate|auto-12|<tuple|12|4>>
+    <associate|auto-13|<tuple|13|4>>
+    <associate|auto-2|<tuple|2|2>>
+    <associate|auto-3|<tuple|3|2>>
+    <associate|auto-4|<tuple|4|2>>
+    <associate|auto-5|<tuple|5|3>>
+    <associate|auto-6|<tuple|6|3>>
+    <associate|auto-7|<tuple|7|3>>
+    <associate|auto-8|<tuple|8|3>>
+    <associate|auto-9|<tuple|9|3>>
   </collection>
 </references>
 
@@ -236,51 +257,55 @@
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
         Greek Letters
-      </surround>|<pageref|auto-2>>
+      </surround>|<pageref|auto-1>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
         Binary Operation Symbols
-      </surround>|<pageref|auto-3>>
+      </surround>|<pageref|auto-2>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|3>|>
         Relation Symbols
-      </surround>|<pageref|auto-4>>
+      </surround>|<pageref|auto-3>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|4>|>
         Punctuation Symbols
-      </surround>|<pageref|auto-5>>
+      </surround>|<pageref|auto-4>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
         Arrow Symbols
-      </surround>|<pageref|auto-6>>
+      </surround>|<pageref|auto-5>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|6>|>
         \;
-      </surround>|<pageref|auto-7>>
+      </surround>|<pageref|auto-6>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
         \;
-      </surround>|<pageref|auto-8>>
+      </surround>|<pageref|auto-7>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|8>|>
         \;
-      </surround>|<pageref|auto-9>>
+      </surround>|<pageref|auto-8>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
         \;
-      </surround>|<pageref|auto-10>>
+      </surround>|<pageref|auto-9>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
         Large Delimiters
-      </surround>|<pageref|auto-11>>
+      </surround>|<pageref|auto-10>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
         Math Mode accents
+      </surround>|<pageref|auto-11>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|12>|>
+        \;
       </surround>|<pageref|auto-12>>
-    </associate>
-    <\associate|toc>
-      <with|par-left|<quote|4tab>|Note <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.15fn>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|13>|>
+        AMS Delimiters
+      </surround>|<pageref|auto-13>>
     </associate>
   </collection>
 </auxiliary>
