@@ -172,6 +172,38 @@
   \<gtr\>>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftharpoons>>|<cell|>|<cell|>|<cell|<todo|<markup|\\leadsto>*>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
     Arrow Symbols
   </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<cwith|4|4|6|6|cell-halign|c>|<table|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|<around*|\|||\<nobracket\>>>>|<cell|>|<cell|>|<cell|<math|<around*|\|||\|>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\arrowvert>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Arrowvert>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+    Large Delimiters
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<wide|a|^>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<acute\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<bar\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<dot\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<breve\>>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\hat>>|<cell|>|<cell|>|<cell|<markup|\\acute>>|<cell|>|<cell|>|<cell|<markup|\\bar>>|<cell|>|<cell|>|<cell|<markup|\\dot>>|<cell|>|<cell|>|<cell|<markup|\\breve>>|<cell|>>|<row|<cell|<math|<wide|a|\<check\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<grave\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<vect\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|\<ddot\>>>>|<cell|>|<cell|>|<cell|<math|<wide|a|~>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\check>>|<cell|>|<cell|>|<cell|<markup|\\grave>>|<cell|>|<cell|>|<cell|<todo|<markup|\\vec>>>|<cell|>|<cell|>|<cell|<markup|\\ddot>>|<cell|>|<cell|>|<cell|<markup|\\tilde>>|<cell|>>>>>>
+    Math Mode accents
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<ulcorner\>>>|<cell|>|<cell|>|<cell|<math|\<urcorner\>>>|<cell|>|<cell|>|<cell|<math|\<llcorner\>>>|<cell|>|<cell|>|<cell|<math|\<lrcorner\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\ulcorner>>|<cell|>|<cell|>|<cell|<markup|\\urcorner>>|<cell|>|<cell|>|<cell|<markup|\\llcorner>>|<cell|>|<cell|>|<cell|<markup|\\lrcorner>>|<cell|>>>>>>
+    AMS Delimiters
+  </big-table>
 </body>
 
 <\initial>
@@ -183,11 +215,19 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
+    <associate|auto-10|<tuple|9|3>>
+    <associate|auto-11|<tuple|10|3>>
+    <associate|auto-12|<tuple|11|3>>
+    <associate|auto-13|<tuple|12|?>>
+    <associate|auto-14|<tuple|13|?>>
     <associate|auto-2|<tuple|1|1>>
     <associate|auto-3|<tuple|2|2>>
     <associate|auto-4|<tuple|3|2>>
     <associate|auto-5|<tuple|4|2>>
     <associate|auto-6|<tuple|5|3>>
+    <associate|auto-7|<tuple|6|3>>
+    <associate|auto-8|<tuple|7|3>>
+    <associate|auto-9|<tuple|8|3>>
   </collection>
 </references>
 
@@ -213,6 +253,30 @@
       <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
         Arrow Symbols
       </surround>|<pageref|auto-6>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|6>|>
+        \;
+      </surround>|<pageref|auto-7>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
+        \;
+      </surround>|<pageref|auto-8>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|8>|>
+        \;
+      </surround>|<pageref|auto-9>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
+        \;
+      </surround>|<pageref|auto-10>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
+        Large Delimiters
+      </surround>|<pageref|auto-11>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
+        Math Mode accents
+      </surround>|<pageref|auto-12>>
     </associate>
     <\associate|toc>
       <with|par-left|<quote|4tab>|Note <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
