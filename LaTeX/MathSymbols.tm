@@ -9,6 +9,26 @@
   macros for common mathematical symbols following the document
   <hlink|maths-symbols|https://www.ctan.org/pkg/maths-symbols>.>>
 
+  <\question*>
+    How to insert <markup|\\alpha> quickly?
+  </question*>
+
+  <\answer>
+    Evaluate the following scheme snippet to create the shortcut
+
+    <\session|scheme|default>
+      <\input>
+        Scheme]\ 
+      <|input>
+        (kbd-map ("m /" (begin (insert `(markup "\\\\"))
+
+        \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (go-to-previous)))))
+      </input>
+    </session>
+
+    And then just type <key|m / a l p h a>.
+  </answer>
+
   <\note*>
     \;
 
@@ -32,6 +52,12 @@
       <markup|latexsym>, <markup|amsfonts> or <markup|amssymb>.\ 
     </itemize-dot>
   </note*>
+
+  \;
+
+  <compound|markup|>
+
+  <compound|markup|>
 
   <\big-table>
     <tabular*|<tformat|<table|<row|<cell|<math|\<alpha\>>>|<cell|<key*|a
@@ -295,15 +321,14 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-10|<tuple|10|4>>
-    <associate|auto-11|<tuple|11|4>>
-    <associate|auto-12|<tuple|12|4>>
-    <associate|auto-13|<tuple|13|4>>
-    <associate|auto-14|<tuple|13|?>>
+    <associate|auto-11|<tuple|11|5>>
+    <associate|auto-12|<tuple|12|5>>
+    <associate|auto-13|<tuple|13|5>>
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|3|2>>
     <associate|auto-4|<tuple|4|3>>
     <associate|auto-5|<tuple|5|3>>
-    <associate|auto-6|<tuple|6|3>>
+    <associate|auto-6|<tuple|6|4>>
     <associate|auto-7|<tuple|7|4>>
     <associate|auto-8|<tuple|8|4>>
     <associate|auto-9|<tuple|9|4>>
