@@ -175,8 +175,25 @@
     Arrow Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
-    \;
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
+  .>>|<cell|>|<cell|<math|\<cdots\>>>|<cell|<key|. .
+  var>>|<cell|>|<cell|<math|\<vdots\>>>|<cell|<key|. . var var var
+  >>|<cell|>|<cell|<math|\<ddots\>>>|<cell|<key|. . Shift+Tab
+  Shift+Tab>>>|<row|<cell|>|<cell|<markup|\\ldots>>|<cell|>|<cell|>|<cell|<markup|\\cdots>>|<cell|>|<cell|>|<cell|<markup|\\vdots>>|<cell|>|<cell|>|<cell|<markup|\\ddots>>>|<row|<cell|<math|\<aleph\>>>|<cell|>|<cell|>|<cell|<math|<lprime|'>>>|<cell|>|<cell|>|<cell|<math|\<forall\>>>|<cell|<key|A
+  var var>>|<cell|>|<cell|<math|\<infty\>>>|<cell|<key|@
+  @>>>|<row|<cell|>|<cell|<markup|\\aleph>>|<cell|>|<cell|>|<cell|<todo|<markup|\\prime>>>|<cell|>|<cell|>|<cell|<markup|\\forall>>|<cell|>|<cell|>|<cell|<markup|\\infty>>>|<row|<cell|<math|\<hbar\>>>|<cell|>|<cell|>|<cell|<math|\<emptyset\>>>|<cell|<math|>>|<cell|>|<cell|<math|\<exists\>>>|<cell|<key|E
+  var var>>|<cell|>|<cell|<math|\<box\>>>|<cell|<key|@
+  var>>>|<row|<cell|>|<cell|<markup|\\hbar>>|<cell|>|<cell|>|<cell|<markup|\\emptyset>>|<cell|>|<cell|>|<cell|<markup|\\exists>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Box>*>>>|<row|<cell|<math|\<imath\>>>|<cell|>|<cell|>|<cell|<math|\<nabla\>>>|<cell|>|<cell|>|<cell|<math|\<neg\>>>|<cell|<key|!
+  var>>|<cell|>|<cell|<math|>>|<cell|>>|<row|<cell|>|<cell|<markup|\\imath>>|<cell|>|<cell|>|<cell|<markup|\\nabla>>|<cell|>|<cell|>|<cell|<markup|\\neg>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Diamond>*>>>|<row|<cell|<math|\<jmath\>>>|<cell|>|<cell|>|<cell|<math|>>|<cell|>|<cell|>|<cell|<math|\<flat\>>>|<cell|<key|b
+  var var>>|<cell|>|<cell|<math|\<triangle\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\jmath>>|<cell|>|<cell|>|<cell|<todo|<markup|\\surd>>>|<cell|>|<cell|>|<cell|<markup|\\flat>>|<cell|>|<cell|>|<cell|<markup|\\triangle>>>|<row|<cell|<math|\<ell\>>>|<cell|>|<cell|>|<cell|<math|\<top\>>>|<cell|<key|T
+  var var>>|<cell|>|<cell|<math|\<natural\>>>|<cell|<key|# var
+  var>>|<cell|>|<cell|<math|\<clubsuit\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\ell>>|<cell|>|<cell|>|<cell|<markup|\\top>>|<cell|>|<cell|>|<cell|<markup|\\natural>>|<cell|>|<cell|>|<cell|<markup|\\clubsuit>>>|<row|<cell|<math|\<wp\>>>|<cell|>|<cell|>|<cell|<math|\<bot\>>>|<cell|<key|T
+  var var var >>|<cell|>|<cell|<math|\<sharp\>>>|<cell|<key|#
+  var>>|<cell|>|<cell|<math|\<diamondsuit\>>>|<cell|<key|\<less\> \<gtr\>
+  var>>>|<row|<cell|>|<cell|<markup|\\wp>>|<cell|>|<cell|>|<cell|<markup|\\bot>>|<cell|>|<cell|>|<cell|<markup|\\sharp>>|<cell|>|<cell|>|<cell|<markup|\\diamondsuit>>>|<row|<cell|<math|\<Re\>>>|<cell|>|<cell|>|<cell|<math|\<\|\|\>>>|<cell|>|<cell|>|<cell|<math|\<backslash\>>>|<cell|>|<cell|>|<cell|<math|\<heartsuit\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Re>>|<cell|>|<cell|>|<cell|<markup|\\\|>>|<cell|>|<cell|>|<cell|<markup|\\backslash>>|<cell|>|<cell|>|<cell|<markup|\\heartsuit>>>|<row|<cell|<math|\<Im\>>>|<cell|>|<cell|>|<cell|<math|\<angle\>>>|<cell|>|<cell|>|<cell|<math|\<partial\>>>|<cell|<key|d
+  var var var>>|<cell|>|<cell|<math|\<spadesuit\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Im>>|<cell|>|<cell|>|<cell|<markup|\\angle>>|<cell|>|<cell|>|<cell|<markup|\\partial>>|<cell|>|<cell|>|<cell|<markup|\\spadesuit>>>|<row|<cell|<math|\<Mho\>>>|<cell|<key|W
+  var var>>|<cell|>|<cell|<math|.>>|<cell|<key|.>>|<cell|>|<cell|<math|<around*|\|||\<nobracket\>>>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\mho>*>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+    Miscellaneous Symbols
   </big-table>
 
   <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<big|sum>>>|<cell|>|<cell|>|<cell|<math|<big|cap>>>|<cell|>|<cell|>|<cell|<math|<big|odot>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\sum>>|<cell|>|<cell|>|<cell|<markup|\\bigcap>>|<cell|>|<cell|>|<cell|<markup|\\bigodot>>|<cell|>>|<row|<cell|<math|<big|prod>>>|<cell|>|<cell|>|<cell|<math|<big|cup>>>|<cell|>|<cell|>|<cell|<math|<big|otimes>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\prod>>|<cell|>|<cell|>|<cell|<markup|\\bigcup>>|<cell|>|<cell|>|<cell|<math|<markup|\\bigotimes>>>|<cell|>>|<row|<cell|<math|<big|amalg>>>|<cell|>|<cell|>|<cell|<math|<big|sqcup>>>|<cell|>|<cell|>|<cell|<math|<big|oplus>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\coprod>>|<cell|>|<cell|>|<cell|<markup|\\bigsqcup>>|<cell|>|<cell|>|<cell|<markup|\\bigoplus>>|<cell|>>|<row|<cell|<math|<big|int>>>|<cell|>|<cell|>|<cell|<math|<big|vee>>>|<cell|>|<cell|>|<cell|<math|<big|pluscup>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\int>>|<cell|>|<cell|>|<cell|<markup|\\bigvee>>|<cell|>|<cell|>|<cell|<todo|<markup|\\biguplus>>>|<cell|>>|<row|<cell|<math|<big|oint>>>|<cell|>|<cell|>|<cell|<math|<big|wedge>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\oint>>|<cell|>|<cell|>|<cell|<markup|\\bigwedge>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
