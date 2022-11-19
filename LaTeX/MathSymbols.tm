@@ -17,7 +17,8 @@
 
       <item>Although some unusual symbols are not supported by shorthands in
       GNU <TeXmacs>/<name|Mogan Editor>, but they can be entered using menu,
-      e.g. <math|\<smile\>> and <math|\<frown\>>.
+      e.g. <math|\<smile\>> and <math|\<frown\>>. The background color of
+      these symbols are set green.\ 
 
       <item>Macros with a * are not predefined in <LaTeX>
       2<math|\<varepsilon\>>. They need one of the packages
@@ -56,7 +57,7 @@
     var>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\zeta>>|<cell|>|<cell|>|<cell|<markup|\\nu>>|<cell|>|<cell|>|<cell|<markup|\\varsigma>>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<eta\>>>|<cell|<key*|h
     var>>|<cell|>|<cell|<math|\<xi\>>>|<cell|<key*|x
     var>>|<cell|>|<cell|<math|\<tau\>>>|<cell|<key*|t
-    var>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\eta>>|<cell|>|<cell|>|<cell|<markup|\\xi>>|<cell|>|<cell|>|<cell|<markup|\\tau>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<Gamma\>>>|<cell|<key|G
+    var>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\eta>>|<cell|>|<cell|>|<cell|<markup|\\xi>>|<cell|>|<cell|>|<cell|<markup|\\tau>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<Gamma\>>>|<cell|<key|G
     var>>|<cell|>|<cell|<math|\<Lambda\>>>|<cell|<key|L
     var>>|<cell|>|<cell|<math|\<Sigma\>>>|<cell|<key|S
     var>>|<cell|>|<cell|<math|\<Psi\>>>|<cell|<key|Y
@@ -72,12 +73,12 @@
     Greek Letters
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<amalg\>>>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|<math|\<cup\>>>|<cell|<key|%
+  <\big-table|<tabular|<tformat|<cwith|7|7|5|5|cell-background|#afa>|<table|<row|<cell|<math|\<amalg\>>>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|<math|\<cup\>>>|<cell|<key|%
   var>>|<cell|>|<cell|<math|\<oplus\>>>|<cell|<key|@><key|+>>|<cell|>|<cell|<math|\<times\>>>|<cell|<key|*
   tab>>|<cell|>>|<row|<cell|>|<cell|<markup|\\amalg>>|<cell|>|<cell|>|<cell|<markup|\\cup>>|<cell|>|<cell|>|<cell|<markup|\\oplus>>|<cell|>|<cell|>|<cell|<markup|\\times>>|<cell|>>|<row|<cell|<math|\<ast\>>>|<cell|<key|*
   var var>>|<cell|>|<cell|<math|\<dagger\>>>|<cell|<key|+ var
   var>>|<cell|>|<cell|<math|\<oslash\>>>|<cell|<compound|markup|><key|@ /
-  var>>|<cell|>|<cell|<math|\<triangleleft\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\ast>>|<cell|>|<cell|>|<cell|<math|><markup|\\dagger>>|<cell|>|<cell|>|<cell|<markup|\\oslash>>|<cell|>|<cell|>|<cell|<markup|\\triangleleft>>|<cell|>>|<row|<cell|<math|\<bigcirc\>>>|<cell|>|<cell|>|<cell|<math|\<ddagger\>>>|<cell|<key|+
+  var>>|<cell|>|<cell|<math|\<triangleleft\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\ast>>|<cell|>|<cell|>|<cell|<math|><markup|\\dagger>>|<cell|>|<cell|>|<cell|<markup|\\oslash>>|<cell|>|<cell|>|<cell|<markup|\\triangleleft>>|<cell|>>|<row|<cell|<math|\<bigcirc\>>>|<cell|<math|>>|<cell|>|<cell|<math|\<ddagger\>>>|<cell|<key|+
   var var var>>|<cell|>|<cell|<math|\<otimes\>>>|<cell|<key|@
   *>>|<cell|>|<cell|<math|\<triangleright\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\bigcirc>>|<cell|>|<cell|>|<cell|<markup|\\ddagger>>|<cell|>|<cell|>|<cell|<markup|\\otimes>>|<cell|>|<cell|>|<cell|<markup|\\triangleright>>|<cell|>>|<row|<cell|<math|\<bigtriangledown\>>>|<cell|>|<cell|>|<cell|<math|\<diamond\>>>|<cell|>|<cell|>|<cell|<math|\<pm\>>>|<cell|<key|+
   ->>|<cell|>|<cell|<math|\<trianglelefteq\>>>|<cell|<key|\<less\> \| var =
@@ -95,13 +96,13 @@
   var var var>>|<cell|>|<cell|<math|\<odot\>>>|<cell|<key|@
   .><math|>>|<cell|>|<cell|<math|\<sqcup\>>>|<cell|<key|% var
   var>>|<cell|>|<cell|<math|\<wedge\>>>|<cell|<key|&>>|<cell|>>|<row|<cell|>|<cell|<markup|\\cdot>>|<cell|>|<cell|>|<cell|<markup|\\odot>>|<cell|>|<cell|>|<cell|<markup|\\sqcup>>|<cell|>|<cell|>|<cell|<markup|\\wedge>>|<cell|>>|<row|<cell|<math|\<circ\>>>|<cell|<key|@>>|<cell|>|<cell|<math|\<ominus\>>>|<cell|<key|@
-  ->>|<cell|>|<cell|<math|\<star\>>>|<cell|<key|*><key|S-var>>|<cell|>|<cell|<math|\<wr\>>>|<cell|>|<cell|>>|<row|<cell|<markup|>>|<cell|<markup|\\circ>>|<cell|>|<cell|>|<cell|<markup|\\ominus>>|<cell|>|<cell|>|<cell|<markup|\\star>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>>>>>
+  ->>|<cell|>|<cell|<math|\<star\>>>|<cell|<key|*><key|S-var>>|<cell|>|<cell|<math|\<wr\>>>|<cell|<math|>>|<cell|>>|<row|<cell|<markup|>>|<cell|<markup|\\circ>>|<cell|>|<cell|>|<cell|<markup|\\ominus>>|<cell|>|<cell|>|<cell|<markup|\\star>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>>>>>
     Binary Operation Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<leqslant\>>>|<cell|<key|\<less\>
-  =>>|<cell|>|<cell|<math|\<geqslant\>>>|<cell|<key|\<gtr\> =
-  >>|<cell|>|<cell|<math|\<equiv\>>>|<cell|<key|= var
+  <\big-table|<tabular|<tformat|<cwith|13|13|11|11|cell-background|#afa>|<cwith|15|15|11|11|cell-background|#afa>|<table|<row|<cell|<math|\<leq\>>>|<cell|<key|\<less\>
+  = var>>|<cell|>|<cell|<math|\<geq\>>>|<cell|<key|\<gtr\> =
+  var>>|<cell|>|<cell|<math|\<equiv\>>>|<cell|<key|= var
   var>>|<cell|>|<cell|<math|\<models\>>>|<cell|<key|\| var
   =>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leq>>|<cell|>|<cell|>|<cell|<markup|\\geq>>|<cell|>|<cell|>|<cell|<markup|\\equiv>>|<cell|>|<cell|>|<cell|<markup|\\models>>|<cell|>>|<row|<cell|<math|\<prec\>>>|<cell|<key|\<less\>
   var var var>>|<cell|>|<cell|<math|\<succ\>>>|<cell|<key|\<gtr\> var var
@@ -126,7 +127,7 @@
   />>|<cell|>|<cell|<math|\<smile\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\sqsubset>*>>|<cell|>|<cell|>|<cell|<todo|<markup|\\sqsupset>*>>|<cell|>|<cell|>|<cell|<markup|\\neq>>|<cell|>|<cell|>|<cell|<markup|\\smile>>|<cell|>>|<row|<cell|<math|\<sqsubseteq\>>>|<cell|<key|\<less\>
   var var var var =>>|<cell|>|<cell|<math|\<sqsupseteq\>>>|<cell|<key|\<gtr\>
   var var var var =>>|<cell|>|<cell|<math|\<doteq\>>>|<cell|<key|.
-  =>>|<cell|>|<cell|<math|\<frown\>>>|<cell|<math|>>|<cell|>>|<row|<cell|>|<cell|<markup|\\sqsubseteq>>|<cell|>|<cell|>|<cell|<markup|\\sqsupseteq>>|<cell|>|<cell|>|<cell|<todo|<markup|\\doteq>>>|<cell|>|<cell|>|<cell|<markup|\\frown>>|<cell|>>|<row|<cell|<math|\<in\>>>|<cell|<key|\<less\>
+  =>>|<cell|>|<cell|<math|\<frown\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\sqsubseteq>>|<cell|>|<cell|>|<cell|<markup|\\sqsupseteq>>|<cell|>|<cell|>|<cell|<todo|<markup|\\doteq>>>|<cell|>|<cell|>|<cell|<markup|\\frown>>|<cell|>>|<row|<cell|<math|\<in\>>>|<cell|<key|\<less\>
   var>>|<cell|>|<cell|<math|\<ni\>>>|<cell|<key|\<gtr\>
   var>>|<cell|>|<cell|<math|\<propto\>>>|<cell|<key|@ @ var
   var>>|<cell|>|<cell|<math|=>>|<cell|<key|=>>|<cell|>>|<row|<cell|>|<cell|<markup|\\in>>|<cell|>|<cell|>|<cell|<markup|\\ni>>|<cell|>|<cell|>|<cell|<markup|\\propto>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|<math|\<vdash\>>>|<cell|<key|\|
@@ -135,7 +136,7 @@
     Relation Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|,>>|<cell|<key|,>>|<cell|>|<cell|<math|;>>|<cell|<key|;>>|<cell|>|<cell|<math|:>>|<cell|>|<cell|>|<cell|<math|.>>|<cell|>|<cell|>|<cell|<math|.>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<todo|<markup|\\colon>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\ldotp>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\cdotp>><compound|markup|>>>>>>>
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|,>>|<cell|<key|,>>|<cell|>|<cell|<math|;>>|<cell|<key|;>>|<cell|>|<cell|<math|:>>|<cell|<key|:>>|<cell|>|<cell|<math|.>>|<cell|>|<cell|>|<cell|<math|.>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<todo|<markup|\\colon>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\ldotp>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\cdotp>><compound|markup|>>>>>>>
     Punctuation Symbols
   </big-table>
 
@@ -175,28 +176,59 @@
     Arrow Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
+  <\big-table|<tabular|<tformat|<cwith|18|18|5|5|cell-background|#afa>|<cwith|5|5|5|5|cell-background|#afa>|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
   .>>|<cell|>|<cell|<math|\<cdots\>>>|<cell|<key|. .
   var>>|<cell|>|<cell|<math|\<vdots\>>>|<cell|<key|. . var var var
   >>|<cell|>|<cell|<math|\<ddots\>>>|<cell|<key|. . Shift+Tab
-  Shift+Tab>>>|<row|<cell|>|<cell|<markup|\\ldots>>|<cell|>|<cell|>|<cell|<markup|\\cdots>>|<cell|>|<cell|>|<cell|<markup|\\vdots>>|<cell|>|<cell|>|<cell|<markup|\\ddots>>>|<row|<cell|<math|\<aleph\>>>|<cell|>|<cell|>|<cell|<math|<lprime|'>>>|<cell|>|<cell|>|<cell|<math|\<forall\>>>|<cell|<key|A
+  Shift+Tab>>>|<row|<cell|>|<cell|<markup|\\ldots>>|<cell|>|<cell|>|<cell|<markup|\\cdots>>|<cell|>|<cell|>|<cell|<markup|\\vdots>>|<cell|>|<cell|>|<cell|<markup|\\ddots>>>|<row|<cell|<math|\<aleph\>>>|<cell|<key|A
+  var var var>>|<cell|>|<cell|<math|<lprime|'>>>|<cell|<key|'>>|<cell|>|<cell|<math|\<forall\>>>|<cell|<key|A
   var var>>|<cell|>|<cell|<math|\<infty\>>>|<cell|<key|@
-  @>>>|<row|<cell|>|<cell|<markup|\\aleph>>|<cell|>|<cell|>|<cell|<todo|<markup|\\prime>>>|<cell|>|<cell|>|<cell|<markup|\\forall>>|<cell|>|<cell|>|<cell|<markup|\\infty>>>|<row|<cell|<math|\<hbar\>>>|<cell|>|<cell|>|<cell|<math|\<emptyset\>>>|<cell|<math|>>|<cell|>|<cell|<math|\<exists\>>>|<cell|<key|E
+  @>>>|<row|<cell|>|<cell|<markup|\\aleph>>|<cell|>|<cell|>|<cell|<todo|<markup|\\prime>>>|<cell|>|<cell|>|<cell|<markup|\\forall>>|<cell|>|<cell|>|<cell|<markup|\\infty>>>|<row|<cell|<math|\<hbar\>>>|<cell|<key|h
+  var var>>|<cell|>|<cell|<math|\<emptyset\>>>|<cell|>|<cell|>|<cell|<math|\<exists\>>>|<cell|<key|E
   var var>>|<cell|>|<cell|<math|\<box\>>>|<cell|<key|@
-  var>>>|<row|<cell|>|<cell|<markup|\\hbar>>|<cell|>|<cell|>|<cell|<markup|\\emptyset>>|<cell|>|<cell|>|<cell|<markup|\\exists>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Box>*>>>|<row|<cell|<math|\<imath\>>>|<cell|>|<cell|>|<cell|<math|\<nabla\>>>|<cell|>|<cell|>|<cell|<math|\<neg\>>>|<cell|<key|!
-  var>>|<cell|>|<cell|<math|>>|<cell|>>|<row|<cell|>|<cell|<markup|\\imath>>|<cell|>|<cell|>|<cell|<markup|\\nabla>>|<cell|>|<cell|>|<cell|<markup|\\neg>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Diamond>*>>>|<row|<cell|<math|\<jmath\>>>|<cell|>|<cell|>|<cell|<math|>>|<cell|>|<cell|>|<cell|<math|\<flat\>>>|<cell|<key|b
-  var var>>|<cell|>|<cell|<math|\<triangle\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\jmath>>|<cell|>|<cell|>|<cell|<todo|<markup|\\surd>>>|<cell|>|<cell|>|<cell|<markup|\\flat>>|<cell|>|<cell|>|<cell|<markup|\\triangle>>>|<row|<cell|<math|\<ell\>>>|<cell|>|<cell|>|<cell|<math|\<top\>>>|<cell|<key|T
-  var var>>|<cell|>|<cell|<math|\<natural\>>>|<cell|<key|# var
-  var>>|<cell|>|<cell|<math|\<clubsuit\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\ell>>|<cell|>|<cell|>|<cell|<markup|\\top>>|<cell|>|<cell|>|<cell|<markup|\\natural>>|<cell|>|<cell|>|<cell|<markup|\\clubsuit>>>|<row|<cell|<math|\<wp\>>>|<cell|>|<cell|>|<cell|<math|\<bot\>>>|<cell|<key|T
-  var var var >>|<cell|>|<cell|<math|\<sharp\>>>|<cell|<key|#
+  var>>>|<row|<cell|>|<cell|<markup|\\hbar>>|<cell|>|<cell|>|<cell|<markup|\\emptyset>>|<cell|>|<cell|>|<cell|<markup|\\exists>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Box>*>>>|<row|<cell|<math|\<imath\>>>|<cell|<key|i
+  var var var>>|<cell|>|<cell|<math|\<nabla\>>>|<cell|<key|V var
+  var>>|<cell|>|<cell|<math|\<neg\>>>|<cell|<key|!
+  var>>|<cell|>|<cell|<math|>⬦>|<cell|>>|<row|<cell|>|<cell|<markup|\\imath>>|<cell|>|<cell|>|<cell|<markup|\\nabla>>|<cell|>|<cell|>|<cell|<markup|\\neg>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Diamond>*>>>|<row|<cell|<math|\<jmath\>>>|<cell|<key|j
+  var var>>|<cell|>|<cell|<math|<sqrt|>>>|<cell|<key|escape escape
+  s>>|<cell|>|<cell|<math|\<flat\>>>|<cell|<key|b var
+  var>>|<cell|>|<cell|<math|\<triangle\>>>|<cell|<math|>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<key*|escape
+  escape s>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\jmath>>|<cell|>|<cell|>|<cell|<todo|<markup|\\surd>>>|<cell|>|<cell|>|<cell|<markup|\\flat>>|<cell|>|<cell|>|<cell|<markup|\\triangle>>>|<row|<cell|<math|\<ell\>>>|<cell|<key|l
+  var var var>>|<cell|>|<cell|<math|\<top\>>>|<cell|<key|T var
+  var>>|<cell|>|<cell|<math|\<natural\>>>|<cell|<key|# var
+  var>>|<cell|>|<cell|<math|\<clubsuit\>>>|<cell|<key|\<less\> \<gtr\> var
+  var var var>>>|<row|<cell|>|<cell|<markup|\\ell>>|<cell|>|<cell|>|<cell|<markup|\\top>>|<cell|>|<cell|>|<cell|<markup|\\natural>>|<cell|>|<cell|>|<cell|<markup|\\clubsuit>>>|<row|<cell|<math|\<wp\>>>|<cell|<key|P
+  var var>>|<cell|>|<cell|<math|\<bot\>>>|<cell|<key|T var var var
+  >>|<cell|>|<cell|<math|\<sharp\>>>|<cell|<key|#
   var>>|<cell|>|<cell|<math|\<diamondsuit\>>>|<cell|<key|\<less\> \<gtr\>
-  var>>>|<row|<cell|>|<cell|<markup|\\wp>>|<cell|>|<cell|>|<cell|<markup|\\bot>>|<cell|>|<cell|>|<cell|<markup|\\sharp>>|<cell|>|<cell|>|<cell|<markup|\\diamondsuit>>>|<row|<cell|<math|\<Re\>>>|<cell|>|<cell|>|<cell|<math|\<\|\|\>>>|<cell|>|<cell|>|<cell|<math|\<backslash\>>>|<cell|>|<cell|>|<cell|<math|\<heartsuit\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Re>>|<cell|>|<cell|>|<cell|<markup|\\\|>>|<cell|>|<cell|>|<cell|<markup|\\backslash>>|<cell|>|<cell|>|<cell|<markup|\\heartsuit>>>|<row|<cell|<math|\<Im\>>>|<cell|>|<cell|>|<cell|<math|\<angle\>>>|<cell|>|<cell|>|<cell|<math|\<partial\>>>|<cell|<key|d
-  var var var>>|<cell|>|<cell|<math|\<spadesuit\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Im>>|<cell|>|<cell|>|<cell|<markup|\\angle>>|<cell|>|<cell|>|<cell|<markup|\\partial>>|<cell|>|<cell|>|<cell|<markup|\\spadesuit>>>|<row|<cell|<math|\<Mho\>>>|<cell|<key|W
-  var var>>|<cell|>|<cell|<math|.>>|<cell|<key|.>>|<cell|>|<cell|<math|<around*|\|||\<nobracket\>>>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\mho>*>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+  var>>>|<row|<cell|>|<cell|<markup|\\wp>>|<cell|>|<cell|>|<cell|<markup|\\bot>>|<cell|>|<cell|>|<cell|<markup|\\sharp>>|<cell|>|<cell|>|<cell|<markup|\\diamondsuit>>>|<row|<cell|<math|\<Re\>>>|<cell|<key|R
+  var var>>|<cell|>|<cell|<math|\<\|\|\>>>|<cell|<key|\| \|
+  var>>|<cell|>|<cell|<math|\<backslash\>>>|<cell|<key|\\
+  var>>|<cell|>|<cell|<math|\<heartsuit\>>>|<cell|<key|\<less\> \<gtr\> var
+  var>>>|<row|<cell|>|<cell|<markup|\\Re>>|<cell|>|<cell|>|<cell|<markup|\\\|>>|<cell|>|<cell|>|<cell|<markup|\\backslash>>|<cell|>|<cell|>|<cell|<markup|\\heartsuit>>>|<row|<cell|<math|\<Im\>>>|<cell|<key|I
+  var var>>|<cell|>|<cell|<math|\<angle\>>>|<cell|>|<cell|>|<cell|<math|\<partial\>>>|<cell|<key|d
+  var var var>>|<cell|>|<cell|<math|\<spadesuit\>>>|<cell|<key|\<less\>
+  \<gtr\> var var var>>>|<row|<cell|>|<cell|<markup|\\Im>>|<cell|>|<cell|>|<cell|<markup|\\angle>>|<cell|>|<cell|>|<cell|<markup|\\partial>>|<cell|>|<cell|>|<cell|<markup|\\spadesuit>>>|<row|<cell|<math|\<Mho\>>>|<cell|<key|W
+  var var>>|<cell|>|<cell|<math|.>>|<cell|<key|.>>|<cell|>|<cell|<math|<around*|\|||\<nobracket\>>>>|<cell|<key|\|
+  var var>>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\mho>*>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
     Miscellaneous Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<big|sum>>>|<cell|>|<cell|>|<cell|<math|<big|cap>>>|<cell|>|<cell|>|<cell|<math|<big|odot>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\sum>>|<cell|>|<cell|>|<cell|<markup|\\bigcap>>|<cell|>|<cell|>|<cell|<markup|\\bigodot>>|<cell|>>|<row|<cell|<math|<big|prod>>>|<cell|>|<cell|>|<cell|<math|<big|cup>>>|<cell|>|<cell|>|<cell|<math|<big|otimes>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\prod>>|<cell|>|<cell|>|<cell|<markup|\\bigcup>>|<cell|>|<cell|>|<cell|<math|<markup|\\bigotimes>>>|<cell|>>|<row|<cell|<math|<big|amalg>>>|<cell|>|<cell|>|<cell|<math|<big|sqcup>>>|<cell|>|<cell|>|<cell|<math|<big|oplus>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\coprod>>|<cell|>|<cell|>|<cell|<markup|\\bigsqcup>>|<cell|>|<cell|>|<cell|<markup|\\bigoplus>>|<cell|>>|<row|<cell|<math|<big|int>>>|<cell|>|<cell|>|<cell|<math|<big|vee>>>|<cell|>|<cell|>|<cell|<math|<big|pluscup>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\int>>|<cell|>|<cell|>|<cell|<markup|\\bigvee>>|<cell|>|<cell|>|<cell|<todo|<markup|\\biguplus>>>|<cell|>>|<row|<cell|<math|<big|oint>>>|<cell|>|<cell|>|<cell|<math|<big|wedge>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\oint>>|<cell|>|<cell|>|<cell|<markup|\\bigwedge>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<big|sum>>>|<cell|<key|S-F5
+  S>>|<cell|>|<cell|<math|<big|cap>>>|<cell|<key|S-F5
+  N>>|<cell|>|<cell|<math|<big|odot>>>|<cell|<key|S-F5 @
+  .>>|<cell|>>|<row|<cell|>|<cell|<markup|\\sum>>|<cell|>|<cell|>|<cell|<markup|\\bigcap>>|<cell|>|<cell|>|<cell|<markup|\\bigodot>>|<cell|>>|<row|<cell|<math|<big|prod>>>|<cell|<key|S-F5
+  P>>|<cell|>|<cell|<math|<big|cup>>>|<cell|<key|S-F5
+  U>>|<cell|>|<cell|<math|<big|otimes>>>|<cell|<key|S-F5 @
+  *>>|<cell|>>|<row|<cell|>|<cell|<markup|\\prod>>|<cell|>|<cell|>|<cell|<markup|\\bigcup>>|<cell|>|<cell|>|<cell|<math|<markup|\\bigotimes>>>|<cell|>>|<row|<cell|<math|<big|amalg>>>|<cell|<key|S-F5
+  A>>|<cell|>|<cell|<math|<big|sqcup>>>|<cell|<key|S-F5 U
+  var>>|<cell|>|<cell|<math|<big|oplus>>>|<cell|<key|S-F5 @
+  +>>|<cell|>>|<row|<cell|>|<cell|<markup|\\coprod>>|<cell|>|<cell|>|<cell|<markup|\\bigsqcup>>|<cell|>|<cell|>|<cell|<markup|\\bigoplus>>|<cell|>>|<row|<cell|<math|<big|int>>>|<cell|<key|S-F5
+  I>>|<cell|>|<cell|<math|<big|vee>>>|<cell|<key|S-F5
+  V>>|<cell|>|<cell|<math|<big|pluscup>>>|<cell|<math|><key|S-F5 U
+  +>>|<cell|>>|<row|<cell|>|<cell|<markup|\\int>>|<cell|>|<cell|>|<cell|<markup|\\bigvee>>|<cell|>|<cell|>|<cell|<todo|<markup|\\biguplus>>>|<cell|>>|<row|<cell|<math|<big|oint>>>|<cell|<key|S-F5
+  O>>|<cell|>|<cell|<math|<big|wedge>>>|<cell|<key|S-F5
+  W>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\oint>>|<cell|>|<cell|>|<cell|<markup|\\bigwedge>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
     Variable-sized Symbols
   </big-table>
 
@@ -254,18 +286,18 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|10|3>>
-    <associate|auto-11|<tuple|11|3>>
+    <associate|auto-10|<tuple|10|4>>
+    <associate|auto-11|<tuple|11|4>>
     <associate|auto-12|<tuple|12|4>>
     <associate|auto-13|<tuple|13|4>>
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|3|2>>
-    <associate|auto-4|<tuple|4|2>>
+    <associate|auto-4|<tuple|4|3>>
     <associate|auto-5|<tuple|5|3>>
     <associate|auto-6|<tuple|6|3>>
-    <associate|auto-7|<tuple|7|3>>
-    <associate|auto-8|<tuple|8|3>>
-    <associate|auto-9|<tuple|9|3>>
+    <associate|auto-7|<tuple|7|4>>
+    <associate|auto-8|<tuple|8|4>>
+    <associate|auto-9|<tuple|9|4>>
   </collection>
 </references>
 
@@ -293,11 +325,11 @@
       </surround>|<pageref|auto-5>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|6>|>
-        \;
+        Miscellaneous Symbols
       </surround>|<pageref|auto-6>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
-        \;
+        Variable-sized Symbols
       </surround>|<pageref|auto-7>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|8>|>
