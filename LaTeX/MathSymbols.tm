@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|doc|compact-list>>
 
@@ -34,10 +34,9 @@
 
     <\itemize-dot>
       <item>The <TeXmacs>-style keyboard shorthands work only in the math
-      mode. Macros work also in text mode, but according to the font
+      mode. Macros work also in the text mode, but according to the font
       settings, the symbols may be shown differently from those in math mode,
-      since the fonts of the document and the math font can be set
-      separately.
+      since the document font and the math font can be set up separately.
 
       <item>Macros with <todo|red markups> are <em|<with|color|dark red|not>>
       yet supported in GNU <TeXmacs>/<name|Mogan Editor>.
@@ -270,21 +269,21 @@
   </big-table>
 
   <\big-table|<tformat|<table|<row|<cell|<math|<around*|(||\<nobracket\>>>>|<key|(>|<cell|>|<cell|<math|<around*|\<nobracket\>||)>>>|<cell|<key|)>>|<cell|>|<cell|<math|\<uparrow\>>>|<cell|<key|\<less\>
-  - Tab>>|<cell|>|<cell|<math|\<Uparrow\>>>|<cell|<key|= \<gtr\> Tab
-  Tab>>>|<row|<cell|>|<cell|<markup|(>>|<cell|>|<cell|>|<cell|<markup|)>>|<cell|>|<cell|>|<cell|<markup|\\uparrow><compound|markup|><compound|markup|><compound|markup|><compound|markup|><compound|markup|>>|<cell|>|<cell|>|<cell|<markup|\\Uparrow>>>|<row|<math|<tformat|<table|<row|<cell|<around*|[||\<nobracket\>>>>>>>|<cell|<key|]>>|<cell|>|<cell|<math|<around*|\<nobracket\>||]>>>|<cell|<key|]>>|<cell|>|<cell|<math|\<downarrow\>>>|<cell|<key|-
-  \<gtr\> Tab>>|<cell|>|<cell|<math|\<Downarrow\>>>|<cell|<key|= \<gtr\>
-  Tab>>>|<row|<cell|>|<cell|<markup|[>>|<cell|>|<cell|>|<cell|<markup|]>>|<cell|>|<cell|>|<cell|<markup|\\downarrow>>|<cell|>|<cell|>|<cell|<markup|\\Downarrow>>>|<row|<cell|<math|<around*|{||\<nobracket\>>>>|<cell|<key|{>>|<cell|>|<cell|<math|<around*|\<nobracket\>||}>>>|<cell|<key|}>>|<cell|>|<cell|<math|\<updownarrow\>>>|<cell|<key|\<less\>
-  - \<gtr\> Tab>>|<cell|>|<cell|<math|\<Updownarrow\>>>|<cell|<key|\<less\> =
-  \<gtr\> Tab>>>|<row|<cell|>|<cell|<markup|{>>|<cell|>|<cell|>|<cell|<markup|}>>|<cell|>|<cell|>|<cell|<markup|\\updownarrow>>|<cell|>|<cell|>|<cell|<markup|\\Updownarrow>>>|<row|<cell|<math|\<lfloor\>>>|<cell|<key|\|
+  - var>>|<cell|>|<cell|<math|\<Uparrow\>>>|<cell|<key|= \<gtr\> var
+  var>>>|<row|<cell|>|<cell|<markup|(>>|<cell|>|<cell|>|<cell|<markup|)>>|<cell|>|<cell|>|<cell|<markup|\\uparrow><compound|markup|><compound|markup|><compound|markup|><compound|markup|><compound|markup|>>|<cell|>|<cell|>|<cell|<markup|\\Uparrow>>>|<row|<math|<tformat|<table|<row|<cell|<around*|[||\<nobracket\>>>>>>>|<cell|<key|]>>|<cell|>|<cell|<math|<around*|\<nobracket\>||]>>>|<cell|<key|]>>|<cell|>|<cell|<math|\<downarrow\>>>|<cell|<key|-
+  \<gtr\> var>>|<cell|>|<cell|<math|\<Downarrow\>>>|<cell|<key|= \<gtr\>
+  var>>>|<row|<cell|>|<cell|<markup|[>>|<cell|>|<cell|>|<cell|<markup|]>>|<cell|>|<cell|>|<cell|<markup|\\downarrow>>|<cell|>|<cell|>|<cell|<markup|\\Downarrow>>>|<row|<cell|<math|<around*|{||\<nobracket\>>>>|<cell|<key|{>>|<cell|>|<cell|<math|<around*|\<nobracket\>||}>>>|<cell|<key|}>>|<cell|>|<cell|<math|\<updownarrow\>>>|<cell|<key|\<less\>
+  - \<gtr\> var>>|<cell|>|<cell|<math|\<Updownarrow\>>>|<cell|<key|\<less\> =
+  \<gtr\> var>>>|<row|<cell|>|<cell|<markup|{>>|<cell|>|<cell|>|<cell|<markup|}>>|<cell|>|<cell|>|<cell|<markup|\\updownarrow>>|<cell|>|<cell|>|<cell|<markup|\\Updownarrow>>>|<row|<cell|<math|\<lfloor\>>>|<cell|<key|\|
   .>>|<cell|>|<cell|<math|\<rfloor\>>>|<cell|<key|.
   \|>>|<cell|>|<cell|<math|<around*|\<lceil\>||\<nobracket\>>>>|<cell|<key|\|
   ‘>>|<cell|>|<math|\<rceil\>>|<cell|<key|‘
   \|>>>|<row|<cell|>|<cell|<markup|\\lfloor>>|<cell|>|<cell|>|<cell|<markup|\\rfloor>>|<cell|>|<cell|>|<cell|<markup|\\lceil>>|<cell|>|<cell|>|<cell|<markup|\\rceil>>>|<row|<cell|<math|<around*|\<langle\>||\<nobracket\>>>>|<cell|<key|\<less\>
-  Shift+Tab>>|<cell|>|<cell|<math|\<rangle\>>>|<cell|<key|\<gtr\>
-  Shift+Tab>>|<cell|>|<cell|<math|/>>|<cell|<key|/>>|<cell|>|<cell|<math|\\>>|<cell|<key|\\
-  Tab>>>|<row|<cell|>|<cell|<markup|\\langle>>|<cell|>|<cell|>|<cell|<markup|\\rangle>>|<cell|>|<cell|>|<cell|<markup|/>>|<cell|>|<cell|>|<cell|<markup|\\backslash>>>|<row|<cell|<math|\|>>|<cell|<key|\|
-  Tab>>|<cell|>|<cell|<math|\<\|\|\>>>|<cell|<key|\| \|
-  Tab>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<markup|\\\|>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>><tabular|<tformat|<table|<row|<cell|>>>>>>
+  S-var>>|<cell|>|<cell|<math|\<rangle\>>>|<cell|<key|\<gtr\>
+  S-var>>|<cell|>|<cell|<math|/>>|<cell|<key|/>>|<cell|>|<cell|<math|\\>>|<cell|<key|\\
+  var>>>|<row|<cell|>|<cell|<markup|\\langle>>|<cell|>|<cell|>|<cell|<markup|\\rangle>>|<cell|>|<cell|>|<cell|<markup|/>>|<cell|>|<cell|>|<cell|<markup|\\backslash>>>|<row|<cell|<math|\|>>|<cell|<key|\|
+  var>>|<cell|>|<cell|<math|\<\|\|\>>>|<cell|<key|\| \|
+  var>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<markup|\\\|>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>><tabular|<tformat|<table|<row|<cell|>>>>>>
     Delimiters
   </big-table>
 
@@ -316,15 +315,15 @@
     Math Mode accents
   </big-table>
 
-  <\big-table|<tabular|<tformat|<cwith|1|-1|1|-1|cell-valign|c>|<table|<row|<cell|<math|<wide|abc|~>>>|<cell|<key|Alt+~>>|<cell|>|<cell|<math|<wide|abc|^>>>|<cell|<key|Alt+^>>|<cell|>|<cell|<math|<wide|abc|\<wide-varleftarrow\>>>>|<cell|<key|Alt+O
-  \<less\>>>|<cell|>|<cell|<math|<wide|abc|\<wide-varrightarrow\>>>>|<cell|<key|Alt+O
-  \<gtr\>>>>|<row|<cell|>|<cell|<markup|\\widetilde>>|<cell|>|<cell|>|<cell|<markup|\\widehat>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overleftarrow>><compound|markup|>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overrightarrow>>>>|<row|<cell|<math|<wide|abc|\<wide-bar\>>>>|<cell|<key|Alt+O
-  ->>|<cell|>|<cell|<math|<underline|abc>>>|<cell|<key|Alt+U
-  ->>|<cell|>|<cell|<math|<wide|abc|\<wide-overbrace\>>>>|<cell|<key|Alt+O
-  {>>|<cell|>|<cell|<math|<wide*|abc|\<wide-underbrace\>>>>|<cell|<key|Alt+U
-  }>>>|<row|<cell|>|<cell|<markup|\\overline>>|<cell|>|<cell|>|<cell|<markup|\\underline>>|<cell|>|<cell|>|<cell|<markup|\\overbrace>>|<cell|>|<cell|>|<cell|<markup|\\underbrace>>>|<row|<cell|<math|<sqrt|abc>>>|<cell|<key|Alt+S>>|<cell|>|<cell|<math|<sqrt|abc|n>>>|<cell|<key|Alt+S
-  Tab>>|<cell|>|<cell|<math|f<rprime|'>>>|<cell|<key|f
-  '>>|<cell|>|<cell|<math|<frac|abc|xyz>>>|<cell|<key|Alt+F>>>|<row|<cell|>|<cell|<markup|\\sqrt>>|<cell|>|<cell|>||<cell|>|<cell|>|<cell|<markup|f'>>|<cell|>|<cell|>|<cell|<markup|\\frac>>>>>><tabular|<tformat|<table|<row|<cell|>>>>>>
+  <\big-table|<tabular|<tformat|<cwith|1|-1|1|-1|cell-valign|c>|<cwith|3|4|1|5|cell-valign|c>|<cwith|7|8|1|5|cell-valign|c>|<cwith|11|12|1|5|cell-valign|c>|<table|<row|<cell|<math|<wide|abc|~>>>|<cell|<key|C-~>>|<cell|>|<cell|<math|<wide|abc|^>>>|<cell|<key|C-^>>|<cell|>>|<row|<cell|>|<cell|<markup|\\widetilde>>|<cell|>|<cell|>|<cell|<markup|\\widehat>>|<cell|>>|<row|<cell|<math|<wide|abc|\<wide-varleftarrow\>>>>|<cell|<key|C-o
+  \<less\>>>|<cell|>|<cell|<math|<wide|abc|\<wide-varrightarrow\>>>>|<cell|<key|C-o
+  \<gtr\>>>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\overleftarrow>><compound|markup|>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overrightarrow>>>|<cell|>>|<row|<cell|<math|<wide|abc|\<wide-bar\>>>>|<cell|<key|C-o
+  ->>|<cell|>|<cell|<math|<underline|abc>>>|<cell|<key|C-u
+  ->>|<cell|>>|<row|<cell|>|<cell|<markup|\\overline>>|<cell|>|<cell|>|<cell|<markup|\\underline>>|<cell|>>|<row|<cell|<math|<wide|abc|\<wide-overbrace\>>>>|<cell|<key|C-o
+  {>>|<cell|>|<cell|<math|<wide*|abc|\<wide-underbrace\>>>>|<cell|<key|C-u
+  }>>|<cell|>>|<row|<cell|>|<cell|<markup|\\overbrace>>|<cell|>|<cell|>|<cell|<markup|\\underbrace>>|<cell|>>|<row|<cell|<math|<sqrt|abc>>>|<cell|<key|C-s>>|<cell|>|<cell|<math|<sqrt|abc|n>>>|<cell|<key|C-s
+  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\sqrt>>|<cell|>|<cell|>||<cell|>>|<row|<cell|<math|f<rprime|'>>>|<cell|<key|f
+  '>>|<cell|>|<cell|<math|<frac|abc|xyz>>>|<cell|<key|C-f>>|<cell|>>|<row|<cell|>|<cell|<markup|f'>>|<cell|>|<cell|>|<cell|<markup|\\frac>>|<cell|>>>>>>
     Some other constructions
   </big-table>
 
@@ -344,14 +343,14 @@
   <\collection>
     <associate|auto-1|<tuple|1|1>>
     <associate|auto-10|<tuple|10|4>>
-    <associate|auto-11|<tuple|11|5>>
+    <associate|auto-11|<tuple|11|4>>
     <associate|auto-12|<tuple|12|5>>
     <associate|auto-13|<tuple|13|5>>
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|3|2>>
     <associate|auto-4|<tuple|4|3>>
     <associate|auto-5|<tuple|5|3>>
-    <associate|auto-6|<tuple|6|4>>
+    <associate|auto-6|<tuple|6|3>>
     <associate|auto-7|<tuple|7|4>>
     <associate|auto-8|<tuple|8|4>>
     <associate|auto-9|<tuple|9|4>>
@@ -394,7 +393,7 @@
       </surround>|<pageref|auto-8>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
-        \;
+        Delimiters
       </surround>|<pageref|auto-9>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
@@ -406,7 +405,7 @@
       </surround>|<pageref|auto-11>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|12>|>
-        \;
+        Some other constructions
       </surround>|<pageref|auto-12>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|13>|>
