@@ -17,12 +17,16 @@
     Evaluate the following scheme snippet to create the shortcut
 
     <\session|scheme|default>
-      <\input>
-        Scheme]\ 
-      <|input>
+      <\unfolded-io|Scheme] >
         (kbd-map ("m /" (begin (insert `(markup "\\\\"))
 
         \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (go-to-previous)))))
+      <|unfolded-io>
+        ("m /")
+      </unfolded-io>
+
+      <\input|Scheme] >
+        \;
       </input>
     </session>
 
@@ -343,6 +347,74 @@
   - var var var var>>|<cell|>|<cell|<math|\<twoheadleftarrow\>>>|<cell|>|<cell|>|<cell|<math|\<leftarrowtail\>>>|<cell|>|<cell|>|<cell|<math|\<looparrowleft\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Lleftarrow>>|<cell|>|<cell|>|<cell|<markup|\\twoheadleftarrow>>|<cell|>|<cell|>|<cell|<markup|\\leftarrowtail>>|<cell|>|<cell|>|<cell|<markup|\\looparrowleft>>>|<row|<cell|<math|\<leftrightharpoons\>>>|<cell|>|<cell|>|<cell|<math|\<curvearrowleft\>>>|<cell|>|<cell|>|<cell|\<circlearrowleft\>>|<cell|>|<cell|>|<cell|<math|\<Lsh\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftrightharpoons>>|<cell|>|<cell|>|<cell|<markup|\\curvearrowleft>>|<cell|>|<cell|>|<cell|<markup|\\circlearrowleft>>|<cell|>|<cell|>|<cell|<markup|\\Lsh>>>|<row|<cell|<math|\<upuparrows\>>>|<cell|>|<cell|>|<cell|<math|\<upharpoonleft\>>>|<cell|>|<cell|>|<cell|<math|\<downharpoonleft\>>>|<cell|>|<cell|>|<cell|<math|\<multimap\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\upuparrows>>|<cell|>|<cell|>|<cell|<markup|\\upharpoonleft>>|<cell|>|<cell|>|<cell|<markup|\\downharpoonleft>>|<cell|>|<cell|>|<cell|<markup|\\multimap>>>|<row|<cell|<math|\<leftrightsquigarrow\>>>|<cell|>|<cell|>|<cell|<math|\<rightrightarrows\>>>|<cell|>|<cell|>|<cell|<math|\<rightleftarrows\>>>|<cell|>|<cell|>|<cell|<math|\<rightrightarrows\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftrightsquigarrow>>|<cell|>|<cell|>|<cell|<markup|\\rightrightarrows>>|<cell|>|<cell|>|<cell|<markup|\\rightleftarrows>>|<cell|>|<cell|>|<cell|<markup|\\rightrightarrows>>>|<row|<cell|<math|\<rightleftarrows\>>>|<cell|>|<cell|>|<cell|<math|\<twoheadrightarrow\>>>|<cell|>|<cell|>|<cell|<math|\<rightarrowtail\>>>|<cell|>|<cell|>|<cell|<math|\<looparrowright\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftarrows>>|<cell|>|<cell|>|<cell|<markup|\\twoheadrightarrow>>|<cell|>|<cell|>|<cell|<markup|\\rightarrowtail>>|<cell|>|<cell|>|<cell|<markup|\\looparrowright>>>|<row|<cell|<math|\<rightleftharpoons\>>>|<cell|>|<cell|>|<cell|<math|\<curvearrowright\>>>|<cell|>|<cell|>|<cell|<math|\<circlearrowright\>>>|<cell|>|<cell|>|<cell|<math|\<Rsh\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftharpoons>>|<cell|>|<cell|>|<cell|<markup|\\curvearrowright>>|<cell|>|<cell|>|<cell|<markup|\\circlearrowright>>|<cell|>|<cell|>|<cell|<markup|\\Rsh>>>|<row|<cell|<math|\<downdownarrows\>>>|<cell|>|<cell|>|<cell|<math|\<upharpoonright\>>>|<cell|>|<cell|>|<cell|<math|\<downharpoonright\>>>|<cell|>|<cell|>|<cell|<math|\<rightsquigarrow\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\downdownarrows>>|<cell|>|<cell|>|<cell|<markup|\\upharpoonright>>|<cell|>|<cell|>|<cell|<markup|\\downharpoonright>>|<cell|>|<cell|>|<cell|<markup|\\rightsquigarrow>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
     AMS Arrows
   </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    \;
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<big|box>>>|<cell|>|<cell|>|<cell|<math|<big|curlyvee>>>|<cell|>|<cell|>|<cell|<math|<big|curlywedge>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\bigbox>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\bigcurlyvee>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\bigcurlywedge>>>|<cell|>>|<row|<cell|<math|<big|interleave>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<math|<big|parallel>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\biginterleave>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\bignplus>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\bigparallel>>>|<cell|>>|<row|<cell|<math|<big|sqcap>>>|<cell|>|<cell|>|<cell|<math|<big|triangledown>>>|<cell|>|<cell|>|<cell|<math|<big|triangleup>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\bigsqcap>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\bigtriangledown>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\bigtriangleup>>>|<cell|>>>>>>
+    <verbatim|stmaryrd> Large Binary Operators
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<math|\<subsetplus\>>>|<cell|<key|\<less\>
+  var var +>>|<cell|>|<cell|<math|\<subsetpluseq\>>>|<cell|<key|\<less\> var
+  var + =>>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\inplus>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\niplus>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\subsetplus>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\subsetpluseq>>>|<cell|>>|<row|<cell|<math|\<supsetplus\>>>|<cell|<key|\<gtr\>
+  var var +>>|<cell|>|<cell|<math|\<supsetpluseq\>>>|<cell|<key|\<gtr\> var
+  var + =>>|<cell|>|<cell|<math|\<trianglelefteqslant\>>>|<cell|<key|\<less\>
+  \| var =>>|<cell|>|<cell|<math|\<trianglerighteqslant\>>>|<cell|<key|\|
+  \<gtr\> var =>>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\supsetplus>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\supsetpluseq>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\trianglelefteqslant>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\trianglerighteqslant>>>|<cell|>>>>>>
+    <verbatim|stmaryrd> Binary Relations
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<ntrianglelefteqslant\>>>|<cell|<key|\<less\>
+  \| var = />>|<cell|>|<cell|<math|\<ntrianglerighteqslant\>>>|<cell|<key|\|
+  \<gtr\> var = />>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\ntrianglelefteqslant>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\ntrianglerighteqslant>>>|<cell|>>>>>>
+    <verbatim|stmaryrd> Negated Binary Relations
+  </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+    Math Alphabets
+  </big-table>
 </body>
 
 <\initial>
@@ -355,22 +427,48 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
+    <associate|auto-10|<tuple|8|4>>
+    <associate|auto-11|<tuple|9|4>>
+    <associate|auto-12|<tuple|10|4>>
+    <associate|auto-13|<tuple|11|4>>
+    <associate|auto-14|<tuple|12|5>>
+    <associate|auto-15|<tuple|13|5>>
+    <associate|auto-16|<tuple|14|5>>
+    <associate|auto-17|<tuple|15|?>>
+    <associate|auto-18|<tuple|16|?>>
+    <associate|auto-19|<tuple|17|?>>
     <associate|auto-2|<tuple|2|2>>
+    <associate|auto-20|<tuple|18|?>>
+    <associate|auto-21|<tuple|19|?>>
+    <associate|auto-22|<tuple|20|?>>
+    <associate|auto-23|<tuple|21|?>>
+    <associate|auto-24|<tuple|22|?>>
+    <associate|auto-25|<tuple|23|?>>
+    <associate|auto-26|<tuple|24|?>>
+    <associate|auto-27|<tuple|25|?>>
+    <associate|auto-28|<tuple|26|?>>
+    <associate|auto-29|<tuple|27|?>>
     <associate|auto-3|<tuple|3|2>>
+    <associate|auto-30|<tuple|28|?>>
+    <associate|auto-31|<tuple|29|?>>
     <associate|auto-4|<tuple|4|3>>
     <associate|auto-5|<tuple|5|3>>
     <associate|auto-6|<tuple|6|3>>
     <associate|auto-7|<tuple|7|4>>
     <associate|auto-8|<tuple|8|4>>
     <associate|auto-9|<tuple|8|4>>
-    <associate|footnote-1|<tuple|1|?>>
-    <associate|footnote-2|<tuple|2|?>>
-    <associate|footnr-2|<tuple|2|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
+    <\associate|idx>
+      <tuple|<tuple|<with|font-family|<quote|ss>|Edit>|<with|font-family|<quote|ss>|Preferences>|<with|font-family|<quote|ss>|Keyboard>|<with|font-family|<quote|ss>|Automatic
+      brackets>>|<pageref|auto-9>>
+
+      <tuple|<tuple|<with|font-family|<quote|ss>|Automatic
+      brackets>>|<pageref|auto-10>>
+    </associate>
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
         Greek Letters
@@ -406,23 +504,27 @@
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
         Delimiters
-      </surround>|<pageref|auto-9>>
+      </surround>|<pageref|auto-11>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
         Large Delimiters
-      </surround>|<pageref|auto-10>>
+      </surround>|<pageref|auto-12>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
         Math Mode accents
-      </surround>|<pageref|auto-11>>
+      </surround>|<pageref|auto-13>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|12>|>
         Some other constructions
-      </surround>|<pageref|auto-12>>
+      </surround>|<pageref|auto-14>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|13>|>
         AMS Delimiters
-      </surround>|<pageref|auto-13>>
+      </surround>|<pageref|auto-15>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|14>|>
+        AMS Arrows
+      </surround>|<pageref|auto-16>>
     </associate>
   </collection>
 </auxiliary>
