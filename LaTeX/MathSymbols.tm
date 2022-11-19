@@ -9,30 +9,6 @@
   macros for common mathematical symbols following the document
   <hlink|maths-symbols|https://www.ctan.org/pkg/maths-symbols>.>>
 
-  <\question*>
-    How to insert <markup|\\markup-name> quickly?
-  </question*>
-
-  <\answer>
-    Evaluate the following scheme snippet to create the shortcut
-
-    <\session|scheme|default>
-      <\unfolded-io|Scheme] >
-        (kbd-map ("m /" (begin (insert `(markup "\\\\"))
-
-        \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (go-to-previous)))))
-      <|unfolded-io>
-        ("m /")
-      </unfolded-io>
-
-      <\input|Scheme] >
-        \;
-      </input>
-    </session>
-
-    And then just type <key|m /> and then type the markup-name.
-  </answer>
-
   <\note*>
     \;
 
@@ -56,11 +32,7 @@
     </itemize-dot>
   </note*>
 
-  \;
-
-  <compound|markup|>
-
-  <compound|markup|>
+  <section*|Math Symbols>
 
   <\big-table>
     <tabular*|<tformat|<table|<row|<cell|<math|\<alpha\>>>|<cell|<key*|a
@@ -272,11 +244,13 @@
     \;
   </big-table>
 
-  <menu|Edit|Preferences|Keyboard|Automatic brackets> is enabled in math mode
-  by default. That's why when you type <key|(> in math mode and get
-  <math|<around*|(||)>>. You can go right and then delete back to delete
-  <math|<around*|\<nobracket\>||)>> or disable <menu|Automatic brackets> and
-  then type <key|(>.
+  <\note*>
+    <menu|Edit|Preferences|Keyboard|Automatic brackets> is enabled in math
+    mode by default. That's why when you type <key|(> in math mode and get
+    <math|<around*|(||)>>. You can go right and then delete back to delete
+    <math|<around*|\<nobracket\>||)>> or disable <menu|Automatic brackets>
+    and then type <key|(>.
+  </note*>
 
   <\big-table|<tformat|<table|<row|<cell|<math|<around*|(||\<nobracket\>>>>|<key|(>|<cell|>|<cell|<math|<around*|\<nobracket\>||)>>>|<cell|<key|)>>|<cell|>|<cell|<math|\<uparrow\>>>|<cell|<key|\<less\>
   - var>>|<cell|>|<cell|<math|\<Uparrow\>>>|<cell|<key|= \<gtr\> var
@@ -420,42 +394,44 @@
 <\initial>
   <\collection>
     <associate|marked-color|#afa>
-    <associate|page-medium|paper>
+    <associate|page-medium|papyrus>
   </collection>
 </initial>
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-10|<tuple|8|4>>
-    <associate|auto-11|<tuple|9|4>>
-    <associate|auto-12|<tuple|10|4>>
-    <associate|auto-13|<tuple|11|4>>
-    <associate|auto-14|<tuple|12|5>>
-    <associate|auto-15|<tuple|13|5>>
-    <associate|auto-16|<tuple|14|5>>
-    <associate|auto-17|<tuple|15|?>>
-    <associate|auto-18|<tuple|16|?>>
-    <associate|auto-19|<tuple|17|?>>
-    <associate|auto-2|<tuple|2|2>>
-    <associate|auto-20|<tuple|18|?>>
-    <associate|auto-21|<tuple|19|?>>
-    <associate|auto-22|<tuple|20|?>>
-    <associate|auto-23|<tuple|21|?>>
-    <associate|auto-24|<tuple|22|?>>
-    <associate|auto-25|<tuple|23|?>>
-    <associate|auto-26|<tuple|24|?>>
-    <associate|auto-27|<tuple|25|?>>
-    <associate|auto-28|<tuple|26|?>>
-    <associate|auto-29|<tuple|27|?>>
-    <associate|auto-3|<tuple|3|2>>
-    <associate|auto-30|<tuple|28|?>>
-    <associate|auto-31|<tuple|29|?>>
-    <associate|auto-4|<tuple|4|3>>
-    <associate|auto-5|<tuple|5|3>>
-    <associate|auto-6|<tuple|6|3>>
-    <associate|auto-7|<tuple|7|4>>
-    <associate|auto-8|<tuple|8|4>>
+    <associate|auto-11|<tuple|8|4>>
+    <associate|auto-12|<tuple|9|5>>
+    <associate|auto-13|<tuple|10|5>>
+    <associate|auto-14|<tuple|11|5>>
+    <associate|auto-15|<tuple|12|5>>
+    <associate|auto-16|<tuple|13|5>>
+    <associate|auto-17|<tuple|14|6>>
+    <associate|auto-18|<tuple|15|6>>
+    <associate|auto-19|<tuple|16|6>>
+    <associate|auto-2|<tuple|1|1>>
+    <associate|auto-20|<tuple|17|6>>
+    <associate|auto-21|<tuple|18|6>>
+    <associate|auto-22|<tuple|19|6>>
+    <associate|auto-23|<tuple|20|6>>
+    <associate|auto-24|<tuple|21|6>>
+    <associate|auto-25|<tuple|22|6>>
+    <associate|auto-26|<tuple|23|7>>
+    <associate|auto-27|<tuple|24|7>>
+    <associate|auto-28|<tuple|25|7>>
+    <associate|auto-29|<tuple|26|7>>
+    <associate|auto-3|<tuple|2|2>>
+    <associate|auto-30|<tuple|27|7>>
+    <associate|auto-31|<tuple|28|7>>
+    <associate|auto-32|<tuple|29|7>>
+    <associate|auto-33|<tuple|29|7>>
+    <associate|auto-4|<tuple|3|3>>
+    <associate|auto-5|<tuple|4|3>>
+    <associate|auto-6|<tuple|5|3>>
+    <associate|auto-7|<tuple|6|4>>
+    <associate|auto-8|<tuple|7|4>>
     <associate|auto-9|<tuple|8|4>>
   </collection>
 </references>
@@ -464,67 +440,139 @@
   <\collection>
     <\associate|idx>
       <tuple|<tuple|<with|font-family|<quote|ss>|Edit>|<with|font-family|<quote|ss>|Preferences>|<with|font-family|<quote|ss>|Keyboard>|<with|font-family|<quote|ss>|Automatic
-      brackets>>|<pageref|auto-9>>
+      brackets>>|<pageref|auto-10>>
 
       <tuple|<tuple|<with|font-family|<quote|ss>|Automatic
-      brackets>>|<pageref|auto-10>>
+      brackets>>|<pageref|auto-11>>
     </associate>
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
         Greek Letters
-      </surround>|<pageref|auto-1>>
+      </surround>|<pageref|auto-2>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
         Binary Operation Symbols
-      </surround>|<pageref|auto-2>>
+      </surround>|<pageref|auto-3>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|3>|>
         Relation Symbols
-      </surround>|<pageref|auto-3>>
+      </surround>|<pageref|auto-4>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|4>|>
         Punctuation Symbols
-      </surround>|<pageref|auto-4>>
+      </surround>|<pageref|auto-5>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
         Arrow Symbols
-      </surround>|<pageref|auto-5>>
+      </surround>|<pageref|auto-6>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|6>|>
         Miscellaneous Symbols
-      </surround>|<pageref|auto-6>>
+      </surround>|<pageref|auto-7>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
         Variable-sized Symbols
-      </surround>|<pageref|auto-7>>
+      </surround>|<pageref|auto-8>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|8>|>
         \;
-      </surround>|<pageref|auto-8>>
+      </surround>|<pageref|auto-9>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
         Delimiters
-      </surround>|<pageref|auto-11>>
+      </surround>|<pageref|auto-12>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
         Large Delimiters
-      </surround>|<pageref|auto-12>>
+      </surround>|<pageref|auto-13>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
         Math Mode accents
-      </surround>|<pageref|auto-13>>
+      </surround>|<pageref|auto-14>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|12>|>
         Some other constructions
-      </surround>|<pageref|auto-14>>
+      </surround>|<pageref|auto-15>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|13>|>
         AMS Delimiters
-      </surround>|<pageref|auto-15>>
+      </surround>|<pageref|auto-16>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|14>|>
         AMS Arrows
-      </surround>|<pageref|auto-16>>
+      </surround>|<pageref|auto-17>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|15>|>
+        \;
+      </surround>|<pageref|auto-18>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|16>|>
+        \;
+      </surround>|<pageref|auto-19>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|17>|>
+        \;
+      </surround>|<pageref|auto-20>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|18>|>
+        \;
+      </surround>|<pageref|auto-21>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|19>|>
+        \;
+      </surround>|<pageref|auto-22>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|20>|>
+        \;
+      </surround>|<pageref|auto-23>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|21>|>
+        \;
+      </surround>|<pageref|auto-24>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|22>|>
+        \;
+      </surround>|<pageref|auto-25>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|23>|>
+        \;
+      </surround>|<pageref|auto-26>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|24>|>
+        \;
+      </surround>|<pageref|auto-27>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|25>|>
+        \;
+      </surround>|<pageref|auto-28>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|26>|>
+        <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
+        Large Binary Operators
+      </surround>|<pageref|auto-29>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|27>|>
+        <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
+        Binary Relations
+      </surround>|<pageref|auto-30>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|28>|>
+        <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
+        Negated Binary Relations
+      </surround>|<pageref|auto-31>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|29>|>
+        Math Alphabets
+      </surround>|<pageref|auto-32>>
+    </associate>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Math
+      Symbols> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Tips
+      for Contributors> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-33><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>

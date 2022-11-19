@@ -48,6 +48,32 @@
     <item><slink|$TEXMACS_PATH/progs/math/math-kbd.scm>
   </itemize>
 
+  <section*|贡献者须知>
+
+  <\question*>
+    如何快速输入<markup|\\markup-name>？
+  </question*>
+
+  <\answer>
+    执行下面的Scheme代码片段以创建快捷键
+
+    <\session|scheme|default>
+      <\unfolded-io|Scheme] >
+        (kbd-map ("m /" (begin (insert `(markup "\\\\"))
+
+        \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (go-to-previous)))))
+      <|unfolded-io>
+        ("m /")
+      </unfolded-io>
+
+      <\input|Scheme] >
+        \;
+      </input>
+    </session>
+
+    然后只要输入<key|m />就可以继续输入剩下的部分<markup|markup-name>。
+  </answer>
+
   \;
 
   <subsection*|符号列表>
