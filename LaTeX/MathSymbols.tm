@@ -179,8 +179,8 @@
     \;
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
-    \;
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|<big|sum>>>|<cell|>|<cell|>|<cell|<math|<big|cap>>>|<cell|>|<cell|>|<cell|<math|<big|odot>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\sum>>|<cell|>|<cell|>|<cell|<markup|\\bigcap>>|<cell|>|<cell|>|<cell|<markup|\\bigodot>>|<cell|>>|<row|<cell|<math|<big|prod>>>|<cell|>|<cell|>|<cell|<math|<big|cup>>>|<cell|>|<cell|>|<cell|<math|<big|otimes>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\prod>>|<cell|>|<cell|>|<cell|<markup|\\bigcup>>|<cell|>|<cell|>|<cell|<math|<markup|\\bigotimes>>>|<cell|>>|<row|<cell|<math|<big|amalg>>>|<cell|>|<cell|>|<cell|<math|<big|sqcup>>>|<cell|>|<cell|>|<cell|<math|<big|oplus>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\coprod>>|<cell|>|<cell|>|<cell|<markup|\\bigsqcup>>|<cell|>|<cell|>|<cell|<markup|\\bigoplus>>|<cell|>>|<row|<cell|<math|<big|int>>>|<cell|>|<cell|>|<cell|<math|<big|vee>>>|<cell|>|<cell|>|<cell|<math|<big|pluscup>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\int>>|<cell|>|<cell|>|<cell|<markup|\\bigvee>>|<cell|>|<cell|>|<cell|<todo|<markup|\\biguplus>>>|<cell|>>|<row|<cell|<math|<big|oint>>>|<cell|>|<cell|>|<cell|<math|<big|wedge>>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\oint>>|<cell|>|<cell|>|<cell|<markup|\\bigwedge>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+    Variable-sized Symbols
   </big-table>
 
   <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
