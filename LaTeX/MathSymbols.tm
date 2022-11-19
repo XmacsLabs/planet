@@ -135,7 +135,7 @@
     Relation Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>>>
+  <\big-table|<tabular|<tformat|<table|<row|<cell|<math|,>>|<cell|<key|,>>|<cell|>|<cell|<math|;>>|<cell|<key|;>>|<cell|>|<cell|<math|:>>|<cell|>|<cell|>|<cell|<math|.>>|<cell|>|<cell|>|<cell|<math|.>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<todo|<markup|\\colon>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\ldotp>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\cdotp>><compound|markup|>>>>>>>
     Punctuation Symbols
   </big-table>
 
