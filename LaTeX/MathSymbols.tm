@@ -199,23 +199,23 @@
   escape ^>>|<cell|>|<cell|<math|<wide|a|\<acute\>>>>|<cell|<math|<rsup|>><key|escape
   escape '>>|<cell|>|<cell|<math|<wide|a|\<bar\>>>>|<cell|<key|escape escape
   B>>|<cell|>|<cell|<math|<wide|a|\<dot\>>>>|<cell|<key|escape escape
-  .>>|<cell|>|<cell|<math|<wide|a|\<breve\>>>>|<cell|<key|escape escape
-  U>>|<cell|>>|<row|<cell|>|<cell|<key*|escape escape
+  .>>|<cell|>>|<row|<cell|>|<cell|<key*|escape escape
   ^>>|<cell|>|<cell|>|<cell|<math|<rsup|>><key*|escape escape
   '>>|<cell|>|<cell|>|<cell|<key*|escape escape
   B>>|<cell|>|<cell|>|<cell|<key*|escape escape
-  .>>|<cell|>|<cell|>|<cell|<key*|escape escape
-  U>>|<cell|>>|<row|<cell|>|<cell|<markup|\\hat>>|<cell|>|<cell|>|<cell|<markup|\\acute>>|<cell|>|<cell|>|<cell|<markup|\\bar>>|<cell|>|<cell|>|<cell|<markup|\\dot>>|<cell|>|<cell|>|<cell|<markup|\\breve>>|<cell|>>|<row|<cell|<math|<wide|a|\<check\>>>>|<cell|<key|escape
+  .>>|<cell|>>|<row|<cell|>|<cell|<markup|\\hat>>|<cell|>|<cell|>|<cell|<markup|\\acute>>|<cell|>|<cell|>|<cell|<markup|\\bar>>|<cell|>|<cell|>|<cell|<markup|\\dot>>|<cell|>>|<row|<cell|<math|<wide|a|\<check\>>>>|<cell|<key|escape
   escape C>>|<cell|>|<cell|<math|<wide|a|\<grave\>>>>|<cell|<key|escape
   escape `>>|<cell|>|<cell|<math|<wide|a|\<vect\>>>>|<cell|<key|escape escape
   V>>|<cell|>|<cell|<math|<wide|a|\<ddot\>>>>|<cell|<key|escape escape
-  ">>|<cell|>|<cell|<math|<wide|a|~>>>|<cell|<key|escape escape
-  ~>>|<cell|>>|<row|<cell|>|<cell|<key*|escape escape
+  ">>|<cell|>>|<row|<cell|>|<cell|<key*|escape escape
   C>>|<cell|>|<cell|>|<cell|<key*|escape escape
   `>>|<cell|>|<cell|>|<cell|<key*|escape escape
   V>>|<cell|>|<cell|>|<cell|<key*|escape escape
-  ">>|<cell|>|<cell|>|<cell|<key*|escape escape
-  ~>>|<cell|>>|<row|<cell|>|<cell|<markup|\\check>>|<cell|>|<cell|>|<cell|<markup|\\grave>>|<cell|>|<cell|>|<cell|<todo|<markup|\\vec>>>|<cell|>|<cell|>|<cell|<markup|\\ddot>>|<cell|>|<cell|>|<cell|<markup|\\tilde>>|<cell|>>>>>>
+  ">>|<cell|>>|<row|<cell|>|<cell|<markup|\\check>>|<cell|>|<cell|>|<cell|<markup|\\grave>>|<cell|>|<cell|>|<cell|<todo|<markup|\\vec>>>|<cell|>|<cell|>|<cell|<markup|\\ddot>>|<cell|>>|<row|<cell|<math|<wide|a|\<breve\>>>>|<cell|<key|escape
+  escape U>>|<cell|>|<cell|<math|<wide|a|~>>>|<cell|<key|escape escape
+  ~>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<key*|escape
+  escape U>>|<cell|>|<cell|>|<cell|<key*|escape escape
+  ~>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\breve>>|<cell|>|<cell|>|<cell|<markup|\\tilde>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
     Math Mode accents
   </big-table>
 
