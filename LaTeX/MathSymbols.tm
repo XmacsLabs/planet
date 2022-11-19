@@ -299,15 +299,15 @@
     Math Mode accents
   </big-table>
 
-  <\big-table|<tabular|<tformat|<cwith|1|-1|1|-1|cell-valign|c>|<cwith|3|4|1|5|cell-valign|c>|<cwith|7|8|1|5|cell-valign|c>|<cwith|11|12|1|5|cell-valign|c>|<table|<row|<cell|<math|<wide|abc|~>>>|<cell|<key|C-~>>|<cell|>|<cell|<math|<wide|abc|^>>>|<cell|<key|C-^>>|<cell|>>|<row|<cell|>|<cell|<markup|\\widetilde>>|<cell|>|<cell|>|<cell|<markup|\\widehat>>|<cell|>>|<row|<cell|<math|<wide|abc|\<wide-varleftarrow\>>>>|<cell|<key|C-o
-  \<less\>>>|<cell|>|<cell|<math|<wide|abc|\<wide-varrightarrow\>>>>|<cell|<key|C-o
-  \<gtr\>>>|<cell|>>|<row|<cell|>|<cell|<todo|<markup|\\overleftarrow>><compound|markup|>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overrightarrow>>>|<cell|>>|<row|<cell|<math|<wide|abc|\<wide-bar\>>>>|<cell|<key|C-o
-  ->>|<cell|>|<cell|<math|<underline|abc>>>|<cell|<key|C-u
-  ->>|<cell|>>|<row|<cell|>|<cell|<markup|\\overline>>|<cell|>|<cell|>|<cell|<markup|\\underline>>|<cell|>>|<row|<cell|<math|<wide|abc|\<wide-overbrace\>>>>|<cell|<key|C-o
-  {>>|<cell|>|<cell|<math|<wide*|abc|\<wide-underbrace\>>>>|<cell|<key|C-u
-  }>>|<cell|>>|<row|<cell|>|<cell|<markup|\\overbrace>>|<cell|>|<cell|>|<cell|<markup|\\underbrace>>|<cell|>>|<row|<cell|<math|<sqrt|abc>>>|<cell|<key|C-s>>|<cell|>|<cell|<math|<sqrt|abc|n>>>|<cell|<key|C-s
-  var>>|<cell|>>|<row|<cell|>|<cell|<markup|\\sqrt>>|<cell|>|<cell|>||<cell|>>|<row|<cell|<math|f<rprime|'>>>|<cell|<key|f
-  '>>|<cell|>|<cell|<math|<frac|abc|xyz>>>|<cell|<key|C-f>>|<cell|>>|<row|<cell|>|<cell|<markup|f'>>|<cell|>|<cell|>|<cell|<markup|\\frac>>|<cell|>>>>>>
+  <\big-table|<tabular|<tformat|<cwith|1|-1|1|-1|cell-valign|c>|<table|<row|<cell|<math|<wide|abc|~>>>|<cell|<key|A-~>>|<cell|>|<cell|<math|<wide|abc|^>>>|<cell|<key|A-^>>|<cell|>|<cell|<math|<wide|abc|\<wide-varleftarrow\>>>>|<cell|<key|A-o
+  \<less\>>>|<cell|>|<cell|<math|<wide|abc|\<wide-varrightarrow\>>>>|<cell|<key|A-o
+  \<gtr\>>>>|<row|<cell|>|<cell|<markup|\\widetilde>>|<cell|>|<cell|>|<cell|<markup|\\widehat>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overleftarrow>><compound|markup|>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overrightarrow>>>>|<row|<cell|<math|<wide|abc|\<wide-bar\>>>>|<cell|<key|A-o
+  ->>|<cell|>|<cell|<math|<underline|abc>>>|<cell|<key|A-u
+  ->>|<cell|>|<cell|<math|<wide|abc|\<wide-overbrace\>>>>|<cell|<key|A-o
+  {>>|<cell|>|<cell|<math|<wide*|abc|\<wide-underbrace\>>>>|<cell|<key|A-u
+  }>>>|<row|<cell|>|<cell|<markup|\\overline>>|<cell|>|<cell|>|<cell|<markup|\\underline>>|<cell|>|<cell|>|<cell|<markup|\\overbrace>>|<cell|>|<cell|>|<cell|<markup|\\underbrace>>>|<row|<cell|<math|<sqrt|abc>>>|<cell|<key|A-s>>|<cell|>|<cell|<math|<sqrt|abc|n>>>|<cell|<key|A-s
+  var>>|<cell|>|<cell|<math|f<rprime|'>>>|<cell|<key|f
+  '>>|<cell|>|<cell|<math|<frac|abc|xyz>>>|<cell|<key|A-F>>>|<row|<cell|>|<cell|<markup|\\sqrt>>|<cell|>|<cell|>||<cell|>|<cell|>|<cell|<markup|f'>>|<cell|>|<cell|>|<cell|<markup|\\frac>>>>>><tabular|<tformat|<table|<row|<cell|>>>>>>
     Some other constructions
   </big-table>
 
@@ -426,7 +426,7 @@
     <associate|auto-30|<tuple|27|7>>
     <associate|auto-31|<tuple|28|7>>
     <associate|auto-32|<tuple|29|7>>
-    <associate|auto-33|<tuple|29|7>>
+    <associate|auto-33|<tuple|30|?>>
     <associate|auto-4|<tuple|3|3>>
     <associate|auto-5|<tuple|4|3>>
     <associate|auto-6|<tuple|5|3>>
@@ -569,10 +569,6 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Math
       Symbols> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
-
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Tips
-      for Contributors> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-33><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
