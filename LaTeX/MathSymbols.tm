@@ -5,20 +5,27 @@
 <\body>
   <doc-data|<doc-title|Math Symbols List>|>
 
+  <abstract-data|<abstract|This list contains the keyboard shorthands and
+  macros for common mathematical symbols following the document
+  <hlink|maths-symbols|https://www.ctan.org/pkg/maths-symbols>.>>
+
   <\note*>
     \;
 
     <\itemize-dot>
       <item>The <TeXmacs>-style keyboard shorthands work only in the math
-      mode.\ 
+      mode. Macros work also in text mode, but according to the font
+      settings, the symbols may be shown differently from those in math mode,
+      since the fonts of the document and the math font can be set
+      separately.
 
-      <item>Macros with red markup are not yet supported in GNU
-      <TeXmacs>/<name|Mogan Editor>.
+      <item>Macros with <todo|red markups> are <em|<with|color|dark red|not>>
+      yet supported in GNU <TeXmacs>/<name|Mogan Editor>.
 
       <item>Although some unusual symbols are not supported by shorthands in
       GNU <TeXmacs>/<name|Mogan Editor>, but they can be entered using menu,
       e.g. <math|\<smile\>> and <math|\<frown\>>. The background color of
-      these symbols are set green.\ 
+      these symbols are set <marked|green>.\ 
 
       <item>Macros with a * are not predefined in <LaTeX>
       2<math|\<varepsilon\>>. They need one of the packages
@@ -73,7 +80,7 @@
     Greek Letters
   </big-table>
 
-  <\big-table|<tabular|<tformat|<cwith|7|7|5|5|cell-background|#afa>|<table|<row|<cell|<math|\<amalg\>>>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|<math|\<cup\>>>|<cell|<key|%
+  <\big-table|<tabular|<tformat|<cwith|7|7|4|5|cell-background|#afa>|<table|<row|<cell|<math|\<amalg\>>>|<cell|<key|%><key|var><key|var><key|var>>|<cell|>|<cell|<math|\<cup\>>>|<cell|<key|%
   var>>|<cell|>|<cell|<math|\<oplus\>>>|<cell|<key|@><key|+>>|<cell|>|<cell|<math|\<times\>>>|<cell|<key|*
   tab>>|<cell|>>|<row|<cell|>|<cell|<markup|\\amalg>>|<cell|>|<cell|>|<cell|<markup|\\cup>>|<cell|>|<cell|>|<cell|<markup|\\oplus>>|<cell|>|<cell|>|<cell|<markup|\\times>>|<cell|>>|<row|<cell|<math|\<ast\>>>|<cell|<key|*
   var var>>|<cell|>|<cell|<math|\<dagger\>>>|<cell|<key|+ var
@@ -100,7 +107,7 @@
     Binary Operation Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<cwith|13|13|11|11|cell-background|#afa>|<cwith|15|15|11|11|cell-background|#afa>|<table|<row|<cell|<math|\<leq\>>>|<cell|<key|\<less\>
+  <\big-table|<tabular|<tformat|<cwith|13|13|10|11|cell-background|#afa>|<cwith|15|15|10|11|cell-background|#afa>|<table|<row|<cell|<math|\<leq\>>>|<cell|<key|\<less\>
   = var>>|<cell|>|<cell|<math|\<geq\>>>|<cell|<key|\<gtr\> =
   var>>|<cell|>|<cell|<math|\<equiv\>>>|<cell|<key|= var
   var>>|<cell|>|<cell|<math|\<models\>>>|<cell|<key|\| var
@@ -176,7 +183,7 @@
     Arrow Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<cwith|18|18|5|5|cell-background|#afa>|<cwith|5|5|5|5|cell-background|#afa>|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
+  <\big-table|<tabular|<tformat|<cwith|5|5|4|5|cell-background|#afa>|<cwith|18|18|4|5|cell-background|#afa>|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
   .>>|<cell|>|<cell|<math|\<cdots\>>>|<cell|<key|. .
   var>>|<cell|>|<cell|<math|\<vdots\>>>|<cell|<key|. . var var var
   >>|<cell|>|<cell|<math|\<ddots\>>>|<cell|<key|. . Shift+Tab
@@ -279,6 +286,7 @@
 
 <\initial>
   <\collection>
+    <associate|marked-color|#afa>
     <associate|page-medium|paper>
   </collection>
 </initial>
@@ -290,6 +298,7 @@
     <associate|auto-11|<tuple|11|4>>
     <associate|auto-12|<tuple|12|4>>
     <associate|auto-13|<tuple|13|4>>
+    <associate|auto-14|<tuple|13|?>>
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|3|2>>
     <associate|auto-4|<tuple|4|3>>
