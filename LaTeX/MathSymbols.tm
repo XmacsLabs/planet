@@ -10,7 +10,7 @@
   <hlink|maths-symbols|https://www.ctan.org/pkg/maths-symbols>.>>
 
   <\question*>
-    How to insert <markup|\\alpha> quickly?
+    How to insert <markup|\\markup-name> quickly?
   </question*>
 
   <\answer>
@@ -26,7 +26,7 @@
       </input>
     </session>
 
-    And then just type <key|m / a l p h a>.
+    And then just type <key|m /> and then type the markup-name.
   </answer>
 
   <\note*>
@@ -268,6 +268,12 @@
     \;
   </big-table>
 
+  <menu|Edit|Preferences|Keyboard|Automatic brackets> is enabled in math mode
+  by default. That's why when you type <key|(> in math mode and get
+  <math|<around*|(||)>>. You can go right and then delete back to delete
+  <math|<around*|\<nobracket\>||)>> or disable <menu|Automatic brackets> and
+  then type <key|(>.
+
   <\big-table|<tformat|<table|<row|<cell|<math|<around*|(||\<nobracket\>>>>|<key|(>|<cell|>|<cell|<math|<around*|\<nobracket\>||)>>>|<cell|<key|)>>|<cell|>|<cell|<math|\<uparrow\>>>|<cell|<key|\<less\>
   - var>>|<cell|>|<cell|<math|\<Uparrow\>>>|<cell|<key|= \<gtr\> var
   var>>>|<row|<cell|>|<cell|<markup|(>>|<cell|>|<cell|>|<cell|<markup|)>>|<cell|>|<cell|>|<cell|<markup|\\uparrow><compound|markup|><compound|markup|><compound|markup|><compound|markup|><compound|markup|>>|<cell|>|<cell|>|<cell|<markup|\\Uparrow>>>|<row|<math|<tformat|<table|<row|<cell|<around*|[||\<nobracket\>>>>>>>|<cell|<key|]>>|<cell|>|<cell|<math|<around*|\<nobracket\>||]>>>|<cell|<key|]>>|<cell|>|<cell|<math|\<downarrow\>>>|<cell|<key|-
@@ -330,6 +336,13 @@
   <\big-table|<tabular|<tformat|<table|<row|<cell|<math|\<ulcorner\>>>|<cell|>|<cell|>|<cell|<math|\<urcorner\>>>|<cell|>|<cell|>|<cell|<math|\<llcorner\>>>|<cell|>|<cell|>|<cell|<math|\<lrcorner\>>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\ulcorner>>|<cell|>|<cell|>|<cell|<markup|\\urcorner>>|<cell|>|<cell|>|<cell|<markup|\\llcorner>>|<cell|>|<cell|>|<cell|<markup|\\lrcorner>>|<cell|>>>>>>
     AMS Delimiters
   </big-table>
+
+  <\big-table|<tabular|<tformat|<table|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<math|\<leftleftarrows\>>>|<cell|<key|\<less\>
+  - \<less\> ->>|<cell|>|<cell|<math|\<leftrightarrows\>>>|<cell|<key|\<less\>
+  - - \<gtr\> var var>>>|<row|<cell|>|<cell|<todo|<markup|\\dashrightarrow>>>|<cell|>|<cell|>|<cell|<todo|<markup|\\dashleftarrow>>>|<cell|>|<cell|>|<cell|<markup|\\leftleftarrows>>|<cell|>|<cell|>|<cell|<markup|\\leftrightarrows>>>|<row|<cell|<math|\<Lleftarrow\>>>|<cell|<key|\<less\>
+  - var var var var>>|<cell|>|<cell|<math|\<twoheadleftarrow\>>>|<cell|>|<cell|>|<cell|<math|\<leftarrowtail\>>>|<cell|>|<cell|>|<cell|<math|\<looparrowleft\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\Lleftarrow>>|<cell|>|<cell|>|<cell|<markup|\\twoheadleftarrow>>|<cell|>|<cell|>|<cell|<markup|\\leftarrowtail>>|<cell|>|<cell|>|<cell|<markup|\\looparrowleft>>>|<row|<cell|<math|\<leftrightharpoons\>>>|<cell|>|<cell|>|<cell|<math|\<curvearrowleft\>>>|<cell|>|<cell|>|<cell|\<circlearrowleft\>>|<cell|>|<cell|>|<cell|<math|\<Lsh\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftrightharpoons>>|<cell|>|<cell|>|<cell|<markup|\\curvearrowleft>>|<cell|>|<cell|>|<cell|<markup|\\circlearrowleft>>|<cell|>|<cell|>|<cell|<markup|\\Lsh>>>|<row|<cell|<math|\<upuparrows\>>>|<cell|>|<cell|>|<cell|<math|\<upharpoonleft\>>>|<cell|>|<cell|>|<cell|<math|\<downharpoonleft\>>>|<cell|>|<cell|>|<cell|<math|\<multimap\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\upuparrows>>|<cell|>|<cell|>|<cell|<markup|\\upharpoonleft>>|<cell|>|<cell|>|<cell|<markup|\\downharpoonleft>>|<cell|>|<cell|>|<cell|<markup|\\multimap>>>|<row|<cell|<math|\<leftrightsquigarrow\>>>|<cell|>|<cell|>|<cell|<math|\<rightrightarrows\>>>|<cell|>|<cell|>|<cell|<math|\<rightleftarrows\>>>|<cell|>|<cell|>|<cell|<math|\<rightrightarrows\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\leftrightsquigarrow>>|<cell|>|<cell|>|<cell|<markup|\\rightrightarrows>>|<cell|>|<cell|>|<cell|<markup|\\rightleftarrows>>|<cell|>|<cell|>|<cell|<markup|\\rightrightarrows>>>|<row|<cell|<math|\<rightleftarrows\>>>|<cell|>|<cell|>|<cell|<math|\<twoheadrightarrow\>>>|<cell|>|<cell|>|<cell|<math|\<rightarrowtail\>>>|<cell|>|<cell|>|<cell|<math|\<looparrowright\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftarrows>>|<cell|>|<cell|>|<cell|<markup|\\twoheadrightarrow>>|<cell|>|<cell|>|<cell|<markup|\\rightarrowtail>>|<cell|>|<cell|>|<cell|<markup|\\looparrowright>>>|<row|<cell|<math|\<rightleftharpoons\>>>|<cell|>|<cell|>|<cell|<math|\<curvearrowright\>>>|<cell|>|<cell|>|<cell|<math|\<circlearrowright\>>>|<cell|>|<cell|>|<cell|<math|\<Rsh\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\rightleftharpoons>>|<cell|>|<cell|>|<cell|<markup|\\curvearrowright>>|<cell|>|<cell|>|<cell|<markup|\\circlearrowright>>|<cell|>|<cell|>|<cell|<markup|\\Rsh>>>|<row|<cell|<math|\<downdownarrows\>>>|<cell|>|<cell|>|<cell|<math|\<upharpoonright\>>>|<cell|>|<cell|>|<cell|<math|\<downharpoonright\>>>|<cell|>|<cell|>|<cell|<math|\<rightsquigarrow\>>>|<cell|>>|<row|<cell|>|<cell|<markup|\\downdownarrows>>|<cell|>|<cell|>|<cell|<markup|\\upharpoonright>>|<cell|>|<cell|>|<cell|<markup|\\downharpoonright>>|<cell|>|<cell|>|<cell|<markup|\\rightsquigarrow>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
+    AMS Arrows
+  </big-table>
 </body>
 
 <\initial>
@@ -342,10 +355,6 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|1>>
-    <associate|auto-10|<tuple|10|4>>
-    <associate|auto-11|<tuple|11|4>>
-    <associate|auto-12|<tuple|12|5>>
-    <associate|auto-13|<tuple|13|5>>
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|3|2>>
     <associate|auto-4|<tuple|4|3>>
@@ -353,7 +362,10 @@
     <associate|auto-6|<tuple|6|3>>
     <associate|auto-7|<tuple|7|4>>
     <associate|auto-8|<tuple|8|4>>
-    <associate|auto-9|<tuple|9|4>>
+    <associate|auto-9|<tuple|8|4>>
+    <associate|footnote-1|<tuple|1|?>>
+    <associate|footnote-2|<tuple|2|?>>
+    <associate|footnr-2|<tuple|2|?>>
   </collection>
 </references>
 
