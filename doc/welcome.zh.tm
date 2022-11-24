@@ -87,10 +87,11 @@
   使用墨干编辑器时遇到问题也欢迎咨询<space|0.4spc><TeXmacs><space|0.4spc>社区，特别是官方论坛。
 
   <\padded-center>
-    <tabular|<tformat|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<table|<row|<cell|官方论坛>|<cell|<hlink|The
+    <tabular|<tformat|<cwith|2|2|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|6|6|1|-1|cell-background|#f0f0f0>|<cwith|7|7|1|-1|cell-background|>|<cwith|4|4|1|2|cell-halign|c>|<cwith|4|4|1|2|cell-halign|c>|<cwith|4|4|1|-1|cell-background|#f0f0f0>|<cwith|5|5|1|-1|cell-background|>|<table|<row|<cell|官方论坛>|<cell|<hlink|The
     GNU <TeXmacs> forum|http://forum.texmacs.cn>>>|<row|<cell|<name|YouTube>>|<cell|<hlink|<TeXmacs>
     Videos|https://www.youtube.com/channel/UCLaZZkOj3GPYFu9pVsEbthg>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|GNU
-    <TeXmacs>|https://github.com/texmacs>>>|<row|<cell|<name|Twitter>>|<cell|<hlink|GNU
+    <TeXmacs>|https://github.com/texmacs>>>|<row|<cell|<name|Mastodon>>|<cell|<hlink|GNU
+    <TeXmacs>|https://mathstodon.xyz/@gnu_texmacs>>>|<row|<cell|<name|Twitter>>|<cell|<hlink|GNU
     <TeXmacs>|https://twitter.com/gnu_texmacs>>>|<row|<cell|<name|Gitter>>|<cell|<hlink|texmacs/Lobby|https://gitter.im/texmacs/Lobby>>>|<row|<cell|邮件列表>|<cell|<hlink|Mailing
     lists for <TeXmacs>|https://www.texmacs.org/tmweb/home/ml.en.html>>>>>>
   </padded-center>
