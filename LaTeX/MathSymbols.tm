@@ -283,7 +283,7 @@
     Arrow Symbols
   </big-table>
 
-  <\big-table|<tabular|<tformat|<cwith|5|5|4|5|cell-background|#afa>|<cwith|18|18|4|5|cell-background|#afa>|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
+  <\big-table|<tabular|<tformat|<cwith|5|5|4|5|cell-background|#afa>|<cwith|17|17|4|5|cell-background|#afa>|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
   .>>|<cell|>|<cell|<math|\<cdots\>>>|<cell|<key|. .
   var>>|<cell|>|<cell|<math|\<vdots\>>>|<cell|<key|. . var var var
   >>|<cell|>|<cell|<math|\<ddots\>>>|<cell|<key|. . Shift+Tab
@@ -297,10 +297,9 @@
   var var var>>|<cell|>|<cell|<math|\<nabla\>>>|<cell|<key|V var
   var>>|<cell|>|<cell|<math|\<neg\>>>|<cell|<key|!
   var>>|<cell|>|<cell|<math|>⬦>|<cell|>>|<row|<cell|>|<cell|<markup|\\imath>>|<cell|>|<cell|>|<cell|<markup|\\nabla>>|<cell|>|<cell|>|<cell|<markup|\\neg>>|<cell|>|<cell|>|<cell|<todo|<markup|\\Diamond>*>>>|<row|<cell|<math|\<jmath\>>>|<cell|<key|j
-  var var>>|<cell|>|<cell|<math|<sqrt|>>>|<cell|<key|escape escape
+  var var>>|<cell|>|<cell|<math|<sqrt|>>>|<cell|<key|math
   s>>|<cell|>|<cell|<math|\<flat\>>>|<cell|<key|b var
-  var>>|<cell|>|<cell|<math|\<triangle\>>>|<cell|<math|>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|<key*|escape
-  escape s>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\jmath>>|<cell|>|<cell|>|<cell|<todo|<markup|\\surd>>>|<cell|>|<cell|>|<cell|<markup|\\flat>>|<cell|>|<cell|>|<cell|<markup|\\triangle>>>|<row|<cell|<math|\<ell\>>>|<cell|<key|l
+  var>>|<cell|>|<cell|<math|\<triangle\>>>|<cell|<math|>>>|<row|<cell|>|<cell|<markup|\\jmath>>|<cell|>|<cell|>|<cell|<todo|<markup|\\surd>>>|<cell|>|<cell|>|<cell|<markup|\\flat>>|<cell|>|<cell|>|<cell|<markup|\\triangle>>>|<row|<cell|<math|\<ell\>>>|<cell|<key|l
   var var var>>|<cell|>|<cell|<math|\<top\>>>|<cell|<key|T var
   var>>|<cell|>|<cell|<math|\<natural\>>>|<cell|<key|# var
   var>>|<cell|>|<cell|<math|\<clubsuit\>>>|<cell|<key|\<less\> \<gtr\> var
@@ -394,8 +393,8 @@
   \<less\>>>|<cell|>|<cell|<math|<wide|abc|\<wide-varrightarrow\>>>>|<cell|<key|math
   \<gtr\>>>>|<row|<cell|>|<cell|<markup|\\widetilde>>|<cell|>|<cell|>|<cell|<markup|\\widehat>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overleftarrow>><compound|markup|>>|<cell|>|<cell|>|<cell|<todo|<markup|\\overrightarrow>>>>|<row|<cell|<math|<wide|abc|\<wide-bar\>>>>|<cell|<key|math
   o ->>|<cell|>|<cell|<math|<underline|abc>>>|<cell|<key|math:under
-  ->>|<cell|>|<cell|<math|<wide|abc|\<wide-overbrace\>>>>|<cell|<inactive|<key|math
-  o {>>>|<cell|>|<cell|<math|<wide*|abc|\<wide-underbrace\>>>>|<cell|<key|math:under
+  ->>|<cell|>|<cell|<math|<wide|abc|\<wide-overbrace\>>>>|<cell|<key|math o
+  {>>|<cell|>|<cell|<math|<wide*|abc|\<wide-underbrace\>>>>|<cell|<key|math:under
   }>>>|<row|<cell|>|<cell|<markup|\\overline>>|<cell|>|<cell|>|<cell|<markup|\\underline>>|<cell|>|<cell|>|<cell|<markup|\\overbrace>>|<cell|>|<cell|>|<cell|<markup|\\underbrace>>>|<row|<cell|<math|<sqrt|abc>>>|<cell|<key|math
   s>>|<cell|>|<cell|<math|<sqrt|abc|n>>>|<cell|<key|math s
   var>>|<cell|>|<cell|<math|f<rprime|'>>>|<cell|<key|f
@@ -588,135 +587,165 @@
   <\collection>
     <\associate|idx>
       <tuple|<tuple|<with|font-family|<quote|ss>|Edit>|<with|font-family|<quote|ss>|Preferences>|<with|font-family|<quote|ss>|Keyboard>|<with|font-family|<quote|ss>|Automatic
-      brackets>>|<pageref|auto-10>>
+      brackets>>|<pageref|auto-16>>
 
       <tuple|<tuple|<with|font-family|<quote|ss>|Automatic
-      brackets>>|<pageref|auto-11>>
+      brackets>>|<pageref|auto-17>>
     </associate>
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
-        Greek Letters
-      </surround>|<pageref|auto-2>>
+        Actual modifier keys on common platforms.
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
-        Binary Operation Symbols
+        <tformat|<tformat|<cwith|1|1|1|1|cell-hyphen|t>|<cwith|1|1|1|1|cell-width|10cm>|<cwith|1|1|1|1|cell-hmode|min>|<table|<row|<\cell>
+          <with|mode|<quote|math>|\<dag\>> Some modifier key combinations are
+          preempted by the operating system. The behavior may be different
+          for the right and left modifier key.
+        </cell>>>>>
       </surround>|<pageref|auto-3>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|3>|>
-        Relation Symbols
-      </surround>|<pageref|auto-4>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|4>|>
-        Punctuation Symbols
-      </surround>|<pageref|auto-5>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
-        Arrow Symbols
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|2>|>
+        Special keys.
       </surround>|<pageref|auto-6>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|6>|>
-        Miscellaneous Symbols
-      </surround>|<pageref|auto-7>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
-        Variable-sized Symbols
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|3>|>
+        Greek Letters
       </surround>|<pageref|auto-8>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|8>|>
-        \;
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|4>|>
+        Binary Operation Symbols
       </surround>|<pageref|auto-9>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
-        Delimiters
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|5>|>
+        Relation Symbols
+      </surround>|<pageref|auto-10>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|6>|>
+        Punctuation Symbols
+      </surround>|<pageref|auto-11>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|7>|>
+        Arrow Symbols
       </surround>|<pageref|auto-12>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
-        Large Delimiters
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|8>|>
+        Miscellaneous Symbols
       </surround>|<pageref|auto-13>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
-        Math Mode accents
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|9>|>
+        Variable-sized Symbols
       </surround>|<pageref|auto-14>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|12>|>
-        Some other constructions
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|10>|>
+        \;
       </surround>|<pageref|auto-15>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|13>|>
-        AMS Delimiters
-      </surround>|<pageref|auto-16>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|14>|>
-        AMS Arrows
-      </surround>|<pageref|auto-17>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|15>|>
-        \;
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|11>|>
+        Delimiters
       </surround>|<pageref|auto-18>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|16>|>
-        \;
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|12>|>
+        Large Delimiters
       </surround>|<pageref|auto-19>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|13>|>
+        Math Mode accents
+      </surround>|<pageref|auto-20>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|14>|>
+        Some other constructions
+      </surround>|<pageref|auto-21>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|15>|>
+        AMS Delimiters
+      </surround>|<pageref|auto-22>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|16>|>
+        AMS Arrows
+      </surround>|<pageref|auto-23>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|17>|>
         \;
-      </surround>|<pageref|auto-20>>
+      </surround>|<pageref|auto-24>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|18>|>
         \;
-      </surround>|<pageref|auto-21>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|19>|>
-        AMS Binary Operators
-      </surround>|<pageref|auto-22>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|20>|>
-        \;
-      </surround>|<pageref|auto-23>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|21>|>
-        \;
-      </surround>|<pageref|auto-24>>
-
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|22>|>
-        \;
       </surround>|<pageref|auto-25>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|23>|>
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|19>|>
         \;
       </surround>|<pageref|auto-26>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|24>|>
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|20>|>
         \;
       </surround>|<pageref|auto-27>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|25>|>
-        \;
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|21>|>
+        AMS Binary Operators
       </surround>|<pageref|auto-28>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|26>|>
-        <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
-        Large Binary Operators
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|22>|>
+        \;
       </surround>|<pageref|auto-29>>
 
-      <tuple|normal|<\surround|<hidden-binding|<tuple>|27>|>
-        <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
-        Binary Relations
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|23>|>
+        \;
       </surround>|<pageref|auto-30>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|24>|>
+        \;
+      </surround>|<pageref|auto-31>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|25>|>
+        \;
+      </surround>|<pageref|auto-32>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|26>|>
+        \;
+      </surround>|<pageref|auto-33>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|27>|>
+        \;
+      </surround>|<pageref|auto-34>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|28>|>
         <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
-        Negated Binary Relations
-      </surround>|<pageref|auto-31>>
+        Large Binary Operators
+      </surround>|<pageref|auto-35>>
 
       <tuple|normal|<\surround|<hidden-binding|<tuple>|29>|>
+        <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
+        Binary Relations
+      </surround>|<pageref|auto-36>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|30>|>
+        <with|font-family|<quote|tt>|language|<quote|verbatim>|stmaryrd>
+        Negated Binary Relations
+      </surround>|<pageref|auto-37>>
+
+      <tuple|normal|<\surround|<hidden-binding|<tuple>|31>|>
         Math Alphabets
-      </surround>|<pageref|auto-32>>
+      </surround>|<pageref|auto-38>>
     </associate>
     <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Conventions>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <with|par-left|<quote|4tab>|Keyboard modifiers
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|Keyboard shortcuts
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.15fn>>
+
+      <with|par-left|<quote|4tab>|Special keys
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5><vspace|0.15fn>>
+
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Math
       Symbols> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.5fn>
+      <no-break><pageref|auto-7><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
