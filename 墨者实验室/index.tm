@@ -20,6 +20,8 @@
   <section*|会议记录>
 
   <\itemize>
+    <item><gitlink|第十一次研讨会>（2022/11/27晚上八点，LCPU\<times\>USTCLUG联合沙龙）
+
     <item><gitlink|第十次研讨会>（2022/11/13晚上八点）
 
     <item><gitlink|第九次研讨会>（<hlink|B站回放|https://www.bilibili.com/video/BV1oR4y1Q7ad/>）
