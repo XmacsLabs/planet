@@ -295,8 +295,8 @@
   <\big-table|<tabular|<tformat|<cwith|5|5|4|5|cell-background|#afa>|<cwith|17|17|4|5|cell-background|#afa>|<cwith|6|6|11|11|cell-background|#aff>|<cwith|18|18|5|5|cell-background|>|<cwith|6|6|5|5|cell-background|>|<cwith|10|10|11|11|cell-background|>|<table|<row|<cell|<math|\<ldots\>>>|<cell|<key|.
   .>>|<cell|>|<cell|<math|\<cdots\>>>|<cell|<key|. .
   var>>|<cell|>|<cell|<math|\<vdots\>>>|<cell|<key|. . var var var
-  >>|<cell|>|<cell|<math|\<ddots\>>>|<cell|<key|. . Shift+Tab
-  Shift+Tab>>>|<row|<cell|>|<cell|<markup|\\ldots>>|<cell|>|<cell|>|<cell|<markup|\\cdots>>|<cell|>|<cell|>|<cell|<markup|\\vdots>>|<cell|>|<cell|>|<cell|<markup|\\ddots>>>|<row|<cell|<math|\<aleph\>>>|<cell|<key|A
+  >>|<cell|>|<cell|<math|\<ddots\>>>|<cell|<key|. . var var var
+  var>>>|<row|<cell|>|<cell|<markup|\\ldots>>|<cell|>|<cell|>|<cell|<markup|\\cdots>>|<cell|>|<cell|>|<cell|<markup|\\vdots>>|<cell|>|<cell|>|<cell|<markup|\\ddots>>>|<row|<cell|<math|\<aleph\>>>|<cell|<key|A
   var var var>>|<cell|>|<cell|<math|<lprime|'>>>|<cell|<key|'>>|<cell|>|<cell|<math|\<forall\>>>|<cell|<key|A
   var var>>|<cell|>|<cell|<math|\<infty\>>>|<cell|<key|@
   @>>>|<row|<cell|>|<cell|<markup|\\aleph>>|<cell|>|<cell|>|<cell|<todo|<markup|\\prime>>>|<cell|>|<cell|>|<cell|<markup|\\forall>>|<cell|>|<cell|>|<cell|<markup|\\infty>>>|<row|<cell|<math|\<hbar\>>>|<cell|<key|h
@@ -583,7 +583,6 @@
     <associate|auto-36|<tuple|29|?>>
     <associate|auto-37|<tuple|30|?>>
     <associate|auto-38|<tuple|31|?>>
-    <associate|auto-39|<tuple|32|?>>
     <associate|auto-4|<tuple|1|3>>
     <associate|auto-5|<tuple|1|3>>
     <associate|auto-6|<tuple|2|3>>
