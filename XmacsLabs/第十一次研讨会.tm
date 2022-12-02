@@ -7,7 +7,11 @@
 
   \;
 
-  \;
+  本次技术沙龙的幻灯片源文件已经上传至墨客星球。
+
+  请将<slink|https://gitee.com/XmacsLabs/planet>下载到本地，在XmacsLabs查看，<shell|lcpu_index.tm>是入口。
+
+  <hrule>
 
   本次沙龙由北京大学学生Linux俱乐部和中国科学技术大学
   Linux 用户协会联合举办。我们的老朋友 FDUCSLG
@@ -52,7 +56,22 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|?|第十次研讨会.tm>>
-    <associate|auto-2|<tuple|2|?|第十次研讨会.tm>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|2|1>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>Xmake
+      (<with|font-family|<quote|tt>|language|<quote|verbatim>|19:00-20:00>)>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>墨干编辑器(<with|font-family|<quote|tt>|language|<quote|verbatim>|20:00-21:30>)>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>
