@@ -20,9 +20,11 @@
   <section*|\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
 
   <\itemize>
-    <item><gitlink|\<#7B2C\>\<#5341\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\>2022/11/27\<#665A\>\<#4E0A\>\<#516B\>\<#70B9\>\<#FF0C\>LCPU\<times\>USTCLUG\<#8054\>\<#5408\>\<#6C99\>\<#9F99\>\<#FF09\>
+    <item><gitlink|\<#7B2C\>\<#5341\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\>2022/12/11\<#665A\>\<#4E0A\>\<#516B\>\<#70B9\>\<#FF09\>
 
-    <item><gitlink|\<#7B2C\>\<#5341\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\>2022/11/13\<#665A\>\<#4E0A\>\<#516B\>\<#70B9\>\<#FF09\>
+    <item><gitlink|\<#7B2C\>\<#5341\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1RR4y1k74X/>\<#FF0C\>LCPU\<times\>USTCLUG\<#8054\>\<#5408\>\<#6C99\>\<#9F99\>\<#FF09\>
+
+    <item><gitlink|\<#7B2C\>\<#5341\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1Ft4y1N76j/>\<#FF09\>
 
     <item><gitlink|\<#7B2C\>\<#4E5D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1oR4y1Q7ad/>\<#FF09\>
 
