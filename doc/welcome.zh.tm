@@ -49,15 +49,17 @@
 
   <\padded-center>
     <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
-    (<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>/<hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
+    (<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>,
+    <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
   </padded-center>
 
   \<#4E86\>\<#89E3\>\<#8BF8\>\<#591A\>\<#7279\>\<#8272\>\<#529F\>\<#80FD\>\<#3002\>\<#4E4B\>\<#540E\>\<#63A8\>\<#8350\>\<#89C2\>\<#770B\>\<#64AD\>\<#653E\>\<#5217\>\<#8868\>\ 
 
   <\padded-center>
-    <hlink|GNU TeXmacs for scientists<space|0.4spc>(<name|YouTube>)|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi><space|0.6spc>/<space|0.4spc><hlink|<TeXmacs>
-    \<#5165\>\<#95E8\><space|0.4spc>(<name|Bilibili>)|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1><space|0.4spc>/<space|0.4spc><hlink|<TeXmacs>
-    \<#5165\>\<#95E8\><space|0.4spc>(\<#77E5\>\<#4E4E\>)|https://www.zhihu.com/collection/844048143>
+    GNU TeXmacs for scientists<space|0.6spc>(<hlink|<name|YouTube>|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>,
+    <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1h4411w7xy/>)<space|0.6spc>/<space|0.4spc><TeXmacs>
+    \<#5165\>\<#95E8\><space|0.6spc>(<hlink|<name|Bilibili>|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1>,
+    <hlink|\<#77E5\>\<#4E4E\>|https://www.zhihu.com/collection/844048143>)
   </padded-center>
 
   \<#4F5C\>\<#4E3A\>\<#5165\>\<#95E8\>\<#6559\>\<#7A0B\>\<#3002\>
