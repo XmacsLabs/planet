@@ -1,6 +1,6 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths|compact-list|smart-ref|preview-ref>>
+<style|<tuple|tmdoc|chinese|old-spacing|old-dots|old-lengths|smart-ref|preview-ref>>
 
 <\body>
   <tmdoc-title|\<#6B22\>\<#8FCE\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>
@@ -19,9 +19,9 @@
     </itemize-dot>
   </render-remark>>>>
 
-  <\quote-env>
+  <\padded-center>
     <with|font|Songti SC|font-base-size|14|<strong|\<#8BA9\>\<#6211\>\<#4EEC\>\<#4EAB\>\<#53D7\>\<#63A2\>\<#7D22\>\<#79D1\>\<#5B66\>\<#4E0E\>\<#6280\>\<#672F\>\<#7684\>\<#4E50\>\<#8DA3\>\<#FF01\>>>
-  </quote-env>
+  </padded-center>
 
   <name|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>\<#662F\><hlink|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>/index.tm>\<#65D7\>\<#4E0B\>\<#7ED3\>\<#6784\>\<#5316\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF0C\>\<#884D\>\<#751F\>\<#81EA\><space|0.4spc>GNU
   <TeXmacs>\<#FF0C\>\<#6709\>\<#5982\>\<#4E0B\>\<#4E0D\>\<#540C\>\<#FF1A\>
@@ -45,7 +45,7 @@
 
   <section*|\<#5982\>\<#4F55\>\<#5165\>\<#95E8\>>
 
-  \<#65B0\>\<#7528\>\<#6237\>\<#8BF7\>\<#89C2\>\<#770B\>\<#89C6\>\<#9891\>
+  \<#7279\>\<#8272\>\<#529F\>\<#80FD\>\<#4E00\>\<#89C8\>
 
   <\padded-center>
     <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
@@ -53,7 +53,7 @@
     <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
   </padded-center>
 
-  \<#4E86\>\<#89E3\>\<#8BF8\>\<#591A\>\<#7279\>\<#8272\>\<#529F\>\<#80FD\>\<#3002\>\<#4E4B\>\<#540E\>\<#63A8\>\<#8350\>\<#89C2\>\<#770B\>\<#64AD\>\<#653E\>\<#5217\>\<#8868\>\ 
+  \<#6781\>\<#7B80\>\<#5165\>\<#95E8\>\<#6559\>\<#7A0B\>
 
   <\padded-center>
     GNU TeXmacs for scientists<space|0.6spc>(<hlink|<name|YouTube>|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>,
@@ -62,9 +62,7 @@
     <hlink|\<#77E5\>\<#4E4E\>|https://www.zhihu.com/collection/844048143>)
   </padded-center>
 
-  \<#4F5C\>\<#4E3A\>\<#5165\>\<#95E8\>\<#6559\>\<#7A0B\>\<#3002\>
-
-  \<#8FDB\>\<#4E00\>\<#6B65\>\<#5B66\>\<#4E60\>\<#53EF\>\<#4EE5\>\<#53C2\>\<#8003\>\<#4EE5\>\<#4E0B\>\<#8D44\>\<#6E90\>\<#FF1A\>
+  \<#8FDB\>\<#9636\>\<#5B66\>\<#4E60\>\<#8D44\>\<#6E90\>\<#FF1A\>
 
   <\description>
     <item*|GNU <TeXmacs><space|0.4spc>\<#7684\>\<#5B98\>\<#65B9\>\<#6587\>\<#6863\>>\<#5728\>\<#5E2E\>\<#52A9\>\<#83DC\>\<#5355\>\<#4E0B\>\<#53EF\>\<#4EE5\>\<#76F4\>\<#63A5\>\<#6D4F\>\<#89C8\>\<#3002\>\<#9700\>\<#8981\>\<#6CE8\>\<#610F\>\<#7684\>\<#4E00\>\<#70B9\>\<#662F\>\<#FF0C\>\<#5982\>\<#679C\>\<#754C\>\<#9762\>\<#8BED\>\<#8A00\>\<#662F\>\<#4E2D\>\<#6587\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5DF2\>\<#7ECF\>\<#5B8C\>\<#6210\>\<#7FFB\>\<#8BD1\>\<#7684\>\<#5E2E\>\<#52A9\>\<#6587\>\<#6863\>\<#4E5F\>\<#662F\>\<#4E2D\>\<#6587\>\<#6587\>\<#6863\>\<#FF1B\>\<#5982\>\<#679C\>\<#754C\>\<#9762\>\<#8BED\>\<#8A00\>\<#662F\>\<#82F1\>\<#6587\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5E2E\>\<#52A9\>\<#6587\>\<#6863\>\<#662F\>\<#82F1\>\<#6587\>\<#7684\>\<#3002\>
