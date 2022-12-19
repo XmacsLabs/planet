@@ -1,16 +1,36 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|tmdoc|old-spacing|old-dots|old-lengths|british|compact-list>>
+<style|<tuple|tmdoc|old-spacing|old-dots|old-lengths|british>>
 
 <\body>
   <tmdoc-title|Welcome to Mogan Editor>
 
-  <with|color|dark red|<\warning*>
-    Please use <hlink|<name|Mogan Editor>
-    v1.1.1|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.1> or later
-    if you are viewing this document with messy code (They should be Chinese
-    characters).
-  </warning*>>
+  <with|color|dark red|<with|font|TeX Gyre
+  Pagella|font-base-size|8|<\render-remark|Reminder>
+    As with GNU TeXmacs, Western typography has been relatively well
+    developed in <name|Mogan Editor>, but Chinese typography is still a long
+    way off.
+
+    If you encounter problems in using the editor, please feel free to
+    contact us through the ways listed in the section "Contact Us" below,
+    thank you; in this case, we would be grateful if you would write a work
+    order and describe the problem in <hlink|<name|GitHub<with|font-shape|italic|>>|https://github.com/XmacsLabs/mogan/issues>
+    or <hlink|<name|Gitee><with|font-shape|italic|>|https://gitee.com/XmacsLabs/mogan/issues>,
+    or upload a document that can reproduce the problem.
+
+    Before you start using it, new users should be aware of the following two
+    issues.
+
+    <\itemize-dot>
+      <item>If you are viewing this file and the Chinese is garbled, please
+      use <hlink|<name|Mogan Editor> v1.1.1|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.1>
+      or newer for the Chinese characters to display correctly.
+
+      <item>Due to loading fonts and other contents, the program may run
+      slowly or lag after the first few starts, usually it will be normal
+      afterwards.
+    </itemize-dot>
+  </render-remark>>>
 
   <with|font|TeX Gyre Pagella|font-base-size|14|<\quote-env>
     <strong|Let us enjoy exploring science and technology!>
@@ -19,7 +39,22 @@
   <name|Mogan Editor> is a structure editor delivered by <name|<hlink|Xmacs
   Labs|https://github.com/XmacsLabs>>, which is a fork of <hlink|GNU
   <TeXmacs>|https://www.texmacs.org>. Its latest version is
-  <name|<strong|Mogan Editor v1.1.1>>.
+  <name|<strong|Mogan Editor v1.1.1>>. It has the following differences from
+  GUN <TeXmacs>:
+
+  <\description>
+    <item*|Reasonable configuration tuning> For example, the default shortcut
+    style in the editor is Emacs style, so that the shortcut keys are
+    consistent across platforms. <with|color|dark red|If you want to switch
+    back to the <key|Ctrl-c> or <key|Cmd-c> shortcut style which varies with
+    the system, you can change it back in <menu|Edit|Preferences|General|Look
+    and feel>.>
+
+    <item*|Radical technical options>For example, Mogan switched the GUI
+    framework from Qt 4.8.x to Qt 5.15.x, and switched the script execution
+    engine from Guile 1.8.x to S7 Scheme, which can be quite unstable while
+    enjoying the advantages of new technology.
+  </description>
 
   GNU <TeXmacs> is a structured editor developed since the late 1990s by
   <hlink|<person|Joris van der Hoeven>|http://www.texmacs.org/joris/main/joris.html>,
