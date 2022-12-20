@@ -23,7 +23,7 @@
     <with|font|Songti SC|font-base-size|14|<strong|\<#8BA9\>\<#6211\>\<#4EEC\>\<#4EAB\>\<#53D7\>\<#63A2\>\<#7D22\>\<#79D1\>\<#5B66\>\<#4E0E\>\<#6280\>\<#672F\>\<#7684\>\<#4E50\>\<#8DA3\>\<#FF01\>>>
   </padded-center>
 
-  <name|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>\<#662F\><hlink|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>/index.tm>\<#65D7\>\<#4E0B\>\<#7ED3\>\<#6784\>\<#5316\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF0C\>\<#884D\>\<#751F\>\<#81EA\><space|0.4spc>GNU
+  <name|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>\<#662F\><hlink|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/XmacsLabs/index.tm>\<#65D7\>\<#4E0B\>\<#7ED3\>\<#6784\>\<#5316\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF0C\>\<#884D\>\<#751F\>\<#81EA\><space|0.4spc>GNU
   <TeXmacs>\<#FF0C\>\<#6709\>\<#5982\>\<#4E0B\>\<#4E0D\>\<#540C\>\<#FF1A\>
 
   <\description>
