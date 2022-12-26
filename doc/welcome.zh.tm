@@ -45,24 +45,38 @@
 
   <section*|\<#5982\>\<#4F55\>\<#5165\>\<#95E8\>>
 
-  \<#7279\>\<#8272\>\<#529F\>\<#80FD\>\<#4E00\>\<#89C8\>
+  <\itemize-dot>
+    <item>\<#7279\>\<#8272\>\<#529F\>\<#80FD\>\<#4E00\>\<#89C8\>\<#FF1B\>
 
-  <\padded-center>
-    <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
-    (<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>,
-    <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
-  </padded-center>
+    <\padded-center>
+      <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
+      (<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>,
+      <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
+    </padded-center>
 
-  \<#6781\>\<#7B80\>\<#5165\>\<#95E8\>\<#6559\>\<#7A0B\>
+    <item>\<#5165\>\<#95E8\>\<#89C6\>\<#9891\>\<#6559\>\<#7A0B\>\<#FF1A\>
 
-  <\padded-center>
-    GNU TeXmacs for scientists<space|0.6spc>(<hlink|<name|YouTube>|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>,
-    <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1h4411w7xy/>)<space|0.6spc>/<space|0.4spc><TeXmacs>
-    \<#5165\>\<#95E8\><space|0.6spc>(<hlink|<name|Bilibili>|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1>,
-    <hlink|\<#77E5\>\<#4E4E\>|https://www.zhihu.com/collection/844048143>)
-  </padded-center>
+    <\padded-center>
+      GNU TeXmacs for scientists<space|0.6spc>(<hlink|<name|YouTube>|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>,
+      <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1h4411w7xy/>)<space|0.6spc>/<space|0.4spc><TeXmacs>
+      \<#5165\>\<#95E8\><space|0.6spc>(<hlink|<name|Bilibili>|https://www.bilibili.com/medialist/play/617908?from=space&business=space_series&business_id=2765862&desc=1>,
+      <hlink|\<#77E5\>\<#4E4E\>|https://www.zhihu.com/collection/844048143>)
+    </padded-center>
 
-  \<#8FDB\>\<#9636\>\<#5B66\>\<#4E60\>\<#8D44\>\<#6E90\>\<#FF1A\>
+    <item>\<#4F7F\>\<#7528\>\<#6307\>\<#5357\>\<#FF1A\>
+
+    <\padded-center>
+      <hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX Gyre
+      Pagella|The Jolly Writer>>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
+    </padded-center>
+
+    \<#662F\>\<#76EE\>\<#524D\>\<#552F\>\<#4E00\>\<#7684\>\<#7CFB\>\<#7EDF\>\<#4E14\>\<#8BE6\>\<#7EC6\>\<#7684\>
+    <TeXmacs> \<#5B98\>\<#65B9\>\<#6559\>\<#6750\>\<#3002\>\<#8BF7\>
+    <hlink|\<#70B9\>\<#51FB\>\<#6B64\>\<#5904\>|https://www.scypress.com/book_download.html>
+    \<#514D\>\<#8D39\>\<#4E0B\>\<#8F7D\>\<#6216\>\<#6350\>\<#8D60\>\<#3002\>
+  </itemize-dot>
+
+  \<#5176\>\<#4ED6\>\<#8D44\>\<#6599\>\<#FF1A\>
 
   <\description>
     <item*|GNU <TeXmacs><space|0.4spc>\<#7684\>\<#5B98\>\<#65B9\>\<#6587\>\<#6863\>>\<#5728\>\<#5E2E\>\<#52A9\>\<#83DC\>\<#5355\>\<#4E0B\>\<#53EF\>\<#4EE5\>\<#76F4\>\<#63A5\>\<#6D4F\>\<#89C8\>\<#3002\>\<#9700\>\<#8981\>\<#6CE8\>\<#610F\>\<#7684\>\<#4E00\>\<#70B9\>\<#662F\>\<#FF0C\>\<#5982\>\<#679C\>\<#754C\>\<#9762\>\<#8BED\>\<#8A00\>\<#662F\>\<#4E2D\>\<#6587\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5DF2\>\<#7ECF\>\<#5B8C\>\<#6210\>\<#7FFB\>\<#8BD1\>\<#7684\>\<#5E2E\>\<#52A9\>\<#6587\>\<#6863\>\<#4E5F\>\<#662F\>\<#4E2D\>\<#6587\>\<#6587\>\<#6863\>\<#FF1B\>\<#5982\>\<#679C\>\<#754C\>\<#9762\>\<#8BED\>\<#8A00\>\<#662F\>\<#82F1\>\<#6587\>\<#FF0C\>\<#90A3\>\<#4E48\>\<#5E2E\>\<#52A9\>\<#6587\>\<#6863\>\<#662F\>\<#82F1\>\<#6587\>\<#7684\>\<#3002\>
@@ -92,8 +106,8 @@
   \<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#65F6\>\<#9047\>\<#5230\>\<#95EE\>\<#9898\>\<#4E5F\>\<#6B22\>\<#8FCE\>\<#54A8\>\<#8BE2\><space|0.4spc><TeXmacs><space|0.4spc>\<#793E\>\<#533A\>\<#FF0C\>\<#7279\>\<#522B\>\<#662F\>\<#5B98\>\<#65B9\>\<#8BBA\>\<#575B\>\<#3002\>
 
   <\padded-center>
-    <tabular|<tformat|<cwith|3|3|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|7|7|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|>|<cwith|5|5|1|2|cell-halign|c>|<cwith|5|5|1|2|cell-halign|c>|<cwith|5|5|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|>|<cwith|1|1|1|2|cell-halign|c>|<cwith|1|1|1|2|cell-background|pastel
-    grey>|<table|<row|<cell|GNU <TeXmacs><space|0.6spc>\<#5B98\>\<#7F51\>>|<cell|<hlink|texmacs.org|http://www.texmacs.org/>>>|<row|<cell|\<#5B98\>\<#65B9\>\<#8BBA\>\<#575B\>>|<cell|<hlink|The
+    <tabular|<tformat|<cwith|3|3|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|7|7|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|>|<cwith|5|5|1|2|cell-halign|c>|<cwith|5|5|1|2|cell-halign|c>|<cwith|5|5|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|>|<cwith|1|1|1|2|cell-halign|c>|<cwith|1|1|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|GNU
+    <TeXmacs><space|0.6spc>\<#5B98\>\<#7F51\>>|<cell|<hlink|texmacs.org|http://www.texmacs.org/>>>|<row|<cell|\<#5B98\>\<#65B9\>\<#8BBA\>\<#575B\>>|<cell|<hlink|The
     GNU <TeXmacs> forum|http://forum.texmacs.cn>>>|<row|<cell|<name|YouTube>>|<cell|<hlink|<TeXmacs>
     Videos|https://www.youtube.com/channel/UCLaZZkOj3GPYFu9pVsEbthg>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|GNU
     <TeXmacs>|https://github.com/texmacs>>>|<row|<cell|<name|Mastodon>>|<cell|<hlink|GNU
@@ -128,5 +142,8 @@
   Documentation License".>
 </body>
 
-<initial|<\collection>
-</collection>>
+<\initial>
+  <\collection>
+    <associate|padding-below|0fn>
+  </collection>
+</initial>

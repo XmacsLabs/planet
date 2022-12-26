@@ -117,7 +117,34 @@
   Based on GNU <TeXmacs>, <name|Mogan Editor> has more bugs fixed,
   performance-optimized, and the interface beautified.
 
-  <section*|Contact us>
+  <section*|Getting Started>
+
+  <\itemize-dot>
+    <item>Features at a glance:
+
+    <\padded-center>
+      <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
+    </padded-center>
+
+    <item>Video tutorials:
+
+    <\padded-center>
+      <hlink|GNU TeXmacs for scientists|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>
+    </padded-center>
+
+    <item>User's Guide:
+
+    <\padded-center>
+      <hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX Gyre
+      Pagella|The Jolly Writer>>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
+    </padded-center>
+
+    is the only systematic and detailed official TeXmacs textbook available.
+    Please download for free or make a donation at
+    <hlink|here|https://www.scypress.com/book_download.html>.
+  </itemize-dot>
+
+  <section*|Contact Us>
 
   <with|color|orange|<\strong>
     You are sincerely welcome to contact us via the following ways to share
@@ -144,9 +171,8 @@
   official forum, if you encounter problems while using <name|Mogan Editor>.
 
   <\padded-center>
-    <tabular|<tformat|<cwith|3|3|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|8|8|1|-1|cell-row-span|1>|<cwith|8|8|1|-1|cell-col-span|2>|<cwith|7|7|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|1|cell-background|>|<cwith|5|5|1|2|cell-halign|c>|<cwith|5|5|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|>|<cwith|1|1|1|-1|cell-background|pastel
-    grey>|<table|<row|<cell|Official Website of GNU
-    <TeXmacs>>|<cell|<hlink|texmacs.org|http://www.texmacs.org/>>>|<row|<cell|Official
+    <tabular|<tformat|<cwith|3|3|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|-1|cell-background|#f0f0f0>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|8|8|1|-1|cell-row-span|1>|<cwith|8|8|1|-1|cell-col-span|2>|<cwith|7|7|1|-1|cell-background|#f0f0f0>|<cwith|8|8|1|1|cell-background|>|<cwith|5|5|1|2|cell-halign|c>|<cwith|5|5|1|-1|cell-background|#f0f0f0>|<cwith|6|6|1|-1|cell-background|>|<cwith|1|1|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|Official
+    Website of GNU <TeXmacs>>|<cell|<hlink|texmacs.org|http://www.texmacs.org/>>>|<row|<cell|Official
     Forum>|<cell|<hlink|The GNU <TeXmacs>
     forum|http://forum.texmacs.cn>>>|<row|<cell|<name|YouTube>>|<cell|<hlink|<TeXmacs>
     Videos|https://www.youtube.com/channel/UCLaZZkOj3GPYFu9pVsEbthg>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|GNU
