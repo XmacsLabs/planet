@@ -56,8 +56,6 @@
     enjoying the advantages of new technology.
   </description>
 
-  \;
-
   <section*|What are GNU <TeXmacs> & <name|Mogan Editor>>
 
   GNU <TeXmacs> is a structured editor developed since the late 1990s by
