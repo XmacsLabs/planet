@@ -56,6 +56,10 @@
     enjoying the advantages of new technology.
   </description>
 
+  \;
+
+  <section*|What are GNU <TeXmacs> & <name|Mogan Editor>>
+
   GNU <TeXmacs> is a structured editor developed since the late 1990s by
   <hlink|<person|Joris van der Hoeven>|http://www.texmacs.org/joris/main/joris.html>,
   a mathematician at CNRS in France. It is designed to write high-quality
@@ -65,18 +69,15 @@
   university researchers.
 
   <hlink|<person|Darcy Shen>|https://github.com/darcy-shen> released
-  <name|Mogan Editor v1.0.0> on January 30, 2022, and created <name|Xmacs
+  <name|Mogan Editor v1.0.0> on January 30th, 2022, and created <name|Xmacs
   Labs>, a non-profit organization that aims to popularize GNU <TeXmacs> and
   make it available to more people to enjoy the excellent software developed
   by Joris <person|van der Hoeven>.
 
-  <section*|What is GNU <TeXmacs>>
-
-  Highly recommended to watch the following official demo of GNU <TeXmacs>
-  2.1
+  <paragraph|Features at a glance>
 
   <with|font-base-size|14|<\padded-center>
-    <hlink|<with|font|TeX Gyre Pagella|font-base-size|14|A quick tour of
+    <hlink|<with|font|TeX Gyre Pagella|font-base-size|20|A quick tour of
     <TeXmacs>>|https://youtu.be/H46ON2FB30U>
   </padded-center>>
 
@@ -119,30 +120,23 @@
 
   <section*|Getting Started>
 
-  <\itemize-dot>
-    <item>Features at a glance:
+  <paragraph|Video tutorials>
 
-    <\padded-center>
-      <hlink|A quick tour of <TeXmacs>|https://youtu.be/H46ON2FB30U>
-    </padded-center>
+  <\padded-center>
+    <with|font|TeX Gyre Pagella|font-base-size|20|<hlink|GNU <TeXmacs> for
+    scientists|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>>
+  </padded-center>
 
-    <item>Video tutorials:
+  <paragraph|User's Guide>
 
-    <\padded-center>
-      <hlink|GNU TeXmacs for scientists|https://youtube.com/playlist?list=PLjlnuLy3KEpYmUQvFIFSFgeYQjVYO2gxi>
-    </padded-center>
+  <\padded-center>
+    <hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX Gyre
+    Pagella|The Jolly Writer>>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
+  </padded-center>
 
-    <item>User's Guide:
-
-    <\padded-center>
-      <hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX Gyre
-      Pagella|The Jolly Writer>>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
-    </padded-center>
-
-    is the only systematic and detailed official TeXmacs textbook available.
-    Please download for free or make a donation at
-    <hlink|here|https://www.scypress.com/book_download.html>.
-  </itemize-dot>
+  is the only systematic and detailed official TeXmacs textbook available.
+  Please download for free or make a donation at
+  <hlink|here|https://www.scypress.com/book_download.html>.
 
   <section*|Contact Us>
 
