@@ -37,10 +37,9 @@
   </quote-env>>
 
   <name|Mogan Editor> is a structure editor delivered by <name|<hlink|Xmacs
-  Labs|https://github.com/XmacsLabs>>, which is a fork of <hlink|GNU
-  <TeXmacs>|https://www.texmacs.org>. Its latest version is
-  <name|<strong|Mogan Editor v1.1.1>>. It has the following differences from
-  GUN <TeXmacs>:
+  Labs|https://github.com/XmacsLabs>>. We are dedicated to make Mogan Editor
+  the most user-friendly distribution of GNU <TeXmacs>. It has the following
+  main differences from GUN <TeXmacs>:
 
   <\description>
     <item*|Reasonable configuration tuning> For example, the default shortcut
@@ -180,7 +179,7 @@
   is an aggregation of <TeXmacs> documents submitted by <name|Mogan Editor>
   users. The topic of <name|Xmacs Planet> focuses on Science and Technology.
 
-  Selected <TeXmacs> documents\<#FF1A\>
+  <paragraph|Selected <TeXmacs> documents>
 
   <\itemize>
     <item><hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>\<#FF1A\>\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>/\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>.tm>
@@ -202,6 +201,11 @@
 
     \V Darcy
   </quote-env>
+
+  <section*|Contributing as User or Developer>
+
+  Please review the <hlink|Contribution guide|https://mogan.app/guide/CONTRIBUTING.html>
+  for information on how to get started contributing to <name|Mogan Editor>.
 
   <tmdoc-copyright|2020\U2022|<name|Xmacs> Labs>
 
