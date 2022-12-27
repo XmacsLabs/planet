@@ -60,8 +60,9 @@
 
   <\padded-center>
     <with|font|Songti SC|font-base-size|20|<hlink|A quick tour of
-    <TeXmacs>|https://youtu.be/H46ON2FB30U>
-    >(<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>,
+    <TeXmacs>|https://youtu.be/H46ON2FB30U>><space|0.6spc>
+
+    (<hlink|<name|YouTube>|https://youtu.be/H46ON2FB30U>,
     <hlink|<name|Bilibili>|https://www.bilibili.com/video/BV1bo4y1D7wN>)
   </padded-center>
 
