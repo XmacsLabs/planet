@@ -115,7 +115,7 @@
 
   <\padded-center>
     <hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX Gyre
-    Pagella|The Jolly Writer>>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
+    Pagella|The Jolly Writer>>>>|https://www.scypress.com/book_info.html>
   </padded-center>
 
   \<#662F\>\<#76EE\>\<#524D\>\<#552F\>\<#4E00\>\<#7684\>\<#7CFB\>\<#7EDF\>\<#4E14\>\<#8BE6\>\<#7EC6\>\<#7684\>

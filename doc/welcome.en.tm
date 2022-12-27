@@ -131,7 +131,7 @@
 
   <\padded-center>
     <hlink|<cite*|<strong|<with|font-base-size|20|The Jolly
-    Writer>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
+    Writer>>>|https://www.scypress.com/book_info.html>
   </padded-center>
 
   is the only systematic and detailed official <TeXmacs> textbook available.
