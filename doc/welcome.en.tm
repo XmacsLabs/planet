@@ -95,7 +95,7 @@
 
     <item>Documents can be saved in <TeXmacs>, <name|Xml> or <name|Scheme>
     format and printed as <name|Pdf> or <name|Postscript> files. Converters
-    exist for <TeX>/<LaTeX> and <name|Html>/<name|MathML>. Notice that
+    exist for <TeX>/<LaTeX> and <name|Html>/<name|Mathml>. Notice that
     <TeXmacs> is <em|not> based on <TeX>/<LaTeX>.
 
     <item>Its rendering engine uses <strong|high-quality typesetting
