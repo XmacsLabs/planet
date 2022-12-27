@@ -38,40 +38,43 @@
 
   <name|Mogan Editor> is a structure editor delivered by <name|<hlink|Xmacs
   Labs|https://github.com/XmacsLabs>>. We are dedicated to make Mogan Editor
-  the most user-friendly distribution of GNU <TeXmacs>. It has the following
-  main differences from GUN <TeXmacs>:
+  the most user-friendly distribution of GNU <TeXmacs>. <name|Mogan Editor>
+  has the following main differences from GUN <TeXmacs>:
 
   <\description>
     <item*|Reasonable configuration tuning> For example, the default shortcut
-    style in the editor is Emacs style, so that the shortcut keys are
-    consistent across platforms. <with|color|dark red|If you want to switch
-    back to the <key|Ctrl-c> or <key|Cmd-c> shortcut style which varies with
-    the system, you can change it back in <menu|Edit|Preferences|General|Look
-    and feel>.>
+    style in <name|Mogan Editor> is Emacs style, so that the shortcut keys
+    are consistent across platforms. <with|color|dark red|If you want to
+    switch back to the <key|Ctrl-c> or <key|Cmd-c> shortcut style which
+    varies with the system, you can change it back in
+    <menu|Edit|Preferences|General|Look and feel>.>
 
-    <item*|Radical technical options>For example, Mogan switched the GUI
-    framework from Qt 4.8.x to Qt 5.15.x, and switched the script execution
-    engine from Guile 1.8.x to S7 Scheme, which can be quite unstable while
-    enjoying the advantages of new technology.
+    <item*|Radical technical options>For example, <name|Mogan Editor>
+    switched the GUI framework from <name|Qt> 4.8.x to <name|Qt> 5.15.x, and
+    switched the script execution engine from <name|Guile> 1.8.x to <name|S7
+    Scheme>, which can be quite unstable while enjoying the advantages of new
+    technology.
   </description>
 
   <section*|What are GNU <TeXmacs> & <name|Mogan Editor>>
 
   GNU <TeXmacs> is a structured editor developed since the late 1990s by
   <hlink|<person|Joris van der Hoeven>|http://www.texmacs.org/joris/main/joris.html>,
-  a mathematician at CNRS in France. It is designed to write high-quality
-  technical documents using an intuitive and easy-to-use graphical interface,
-  and able to achieve the same level of results as <LaTeX>. Its main users
-  are currently primary and secondary school teachers (mostly in France) and
-  university researchers.
+  a mathematician at <abbr|CNRS> in France. It is designed to write
+  high-quality technical documents using an intuitive and easy-to-use
+  graphical interface, and able to achieve the same level of results as
+  <LaTeX>. Its main users are currently primary and secondary school teachers
+  and university researchers.
 
   <hlink|<person|Darcy Shen>|https://github.com/darcy-shen> released
-  <name|Mogan Editor v1.0.0> on January 30th, 2022, and created <name|Xmacs
-  Labs>, a non-profit organization that aims to popularize GNU <TeXmacs> and
-  make it available to more people to enjoy the excellent software developed
-  by Joris <person|van der Hoeven>.
+  <name|Mogan Editor v1.0.0> on January 30th, 2022, base on
+  <hlink|<person|Massimiliano Gubinelli>|http://texmacs.org/tmweb/contribute/team-massimiliano.en.html>'s
+  <hlink|<name|S7 Scheme> port|https://lists.gnu.org/archive/html/texmacs-dev/2021-01/msg00009.html>
+  and created <name|Xmacs Labs>, a non-profit organization that aims to
+  popularize GNU <TeXmacs> and make it available to more people to enjoy the
+  excellent software developed by Joris <person|van der Hoeven>.
 
-  <paragraph|Features at a glance>
+  <paragraph|Features at a Glance>
 
   <with|font-base-size|14|<\padded-center>
     <hlink|<with|font|TeX Gyre Pagella|font-base-size|20|A quick tour of
@@ -92,7 +95,7 @@
 
     <item>Documents can be saved in <TeXmacs>, <name|Xml> or <name|Scheme>
     format and printed as <name|Pdf> or <name|Postscript> files. Converters
-    exist for <TeX>/<LaTeX> and <name|Html>/<name|Mathml>. Notice that
+    exist for <TeX>/<LaTeX> and <name|Html>/<name|MathML>. Notice that
     <TeXmacs> is <em|not> based on <TeX>/<LaTeX>.
 
     <item>Its rendering engine uses <strong|high-quality typesetting
@@ -107,17 +110,17 @@
   </itemize-minus>
 
   <name|Mogan Editor> inherits all the above features from GNU <TeXmacs> (see
-  <hlink|the homepage of GNU <TeXmacs>|https://www.texmacs.org>), so it can
-  also be used as a efficient study tool for students, teachers, and
-  researchers in science and technology, and suitable to create high-quality
-  assignment documents, report slides, and <LaTeX>-level papers.\ 
+  <hlink|the homepage of GNU <TeXmacs>|https://www.texmacs.org>). As a
+  efficient study tool for students, teachers, and researchers in science and
+  technology, it is suitable to create high-quality assignment documents,
+  report slides, and <LaTeX>-quality papers.\ 
 
   Based on GNU <TeXmacs>, <name|Mogan Editor> has more bugs fixed,
   performance-optimized, and the interface beautified.
 
   <section*|Getting Started>
 
-  <paragraph|Video tutorials>
+  <paragraph|Video Tutorials>
 
   <\padded-center>
     <with|font|TeX Gyre Pagella|font-base-size|20|<hlink|GNU <TeXmacs> for
@@ -127,23 +130,21 @@
   <paragraph|User's Guide>
 
   <\padded-center>
-    <hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX Gyre
-    Pagella|The Jolly Writer>>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
+    <hlink|<cite*|<strong|<with|font-base-size|20|The Jolly
+    Writer>>>|https://www.scypress.com/The-Jolly-Writer.pdf>
   </padded-center>
 
-  is the only systematic and detailed official TeXmacs textbook available.
-  Please download for free or make a donation at
-  <hlink|here|https://www.scypress.com/book_download.html>.
+  is the only systematic and detailed official <TeXmacs> textbook available.
+  Please <hlink|click here|https://www.scypress.com/book_download.html>
+  download for free or make a donation.
 
   <section*|Contact Us>
 
   <with|color|orange|<\strong>
     You are sincerely welcome to contact us via the following ways to share
     your experience, provide suggestions or report issues on <name|Mogan
-    Editor>.\ 
-
-    Interested developers and volunteer contributors are also warmly welcome
-    to join <name|Xmacs Labs>.
+    Editor>. Interested developers and volunteer contributors are also warmly
+    welcome to join <name|Xmacs Labs>.
   </strong>>
 
   <\padded-center>
@@ -177,17 +178,8 @@
 
   <hlink|<name|Xmacs Planet>|<math|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>>
   is an aggregation of <TeXmacs> documents submitted by <name|Mogan Editor>
-  users. The topic of <name|Xmacs Planet> focuses on Science and Technology.
-
-  <paragraph|Selected <TeXmacs> documents>
-
-  <\itemize>
-    <item><hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>\<#FF1A\>\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>/\<#5B9A\>\<#5236\>\<#5FEB\>\<#6377\>\<#952E\>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>.tm>
-
-    <item><hlink|<with|font|FandolSong|2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>>|http://git.tmml.wiki/XmacsLabs/planet/raw/c029037c2f11ec60cfebee2afbd74ceeddc74a4b/doc/2019\<#5E74\>\<#5168\>\<#56FD\>\<#9AD8\>\<#4E2D\>\<#6570\>\<#5B66\>\<#8054\>\<#5408\>\<#7ADE\>\<#8D5B\>\<#4E00\>\<#8BD5\>\<#8BD5\>\<#9898\>A\<#5377\>.tm>
-
-    <item><hlink|<with|font|FandolSong|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
-  </itemize>
+  users, and it can be accessed through <hlink|<menu|Help|Planet>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/index.tm>.
+  The topic of <name|Xmacs Planet> focuses on Science and Technology.
 
   <section*|The Name "Mogan">
 
@@ -199,7 +191,7 @@
     <name|\<#83AB\>\<#5E72\>>(<name|Mogan>) which is a combination of
     <hlink|\<#83AB\>(Mo) and \<#5E72\>(Gan)|https://en.wikipedia.org/wiki/Gan_Jiang_and_Mo_Ye>.
 
-    \V Darcy
+    \V <hlink|<person|Darcy Shen>|https://github.com/darcy-shen>
   </quote-env>
 
   <section*|Contributing as User or Developer>
