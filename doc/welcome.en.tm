@@ -7,7 +7,7 @@
 
   <with|color|dark red|<with|font|TeX Gyre
   Pagella|font-base-size|8|<\render-remark|Reminder>
-    As with GNU TeXmacs, Western typography has been relatively well
+    As with GNU <TeXmacs>, Western typography has been relatively well
     developed in <name|Mogan Editor>, but Chinese typography is still a long
     way off.
 
@@ -32,9 +32,11 @@
     </itemize-dot>
   </render-remark>>>
 
-  <with|font|TeX Gyre Pagella|font-base-size|14|<\quote-env>
-    <strong|Let us enjoy exploring science and technology!>
-  </quote-env>>
+  <\with|font|TeX Gyre Pagella|font-base-size|20>
+    <\padded-center>
+      Let us enjoy exploring science and technology!
+    </padded-center>
+  </with>
 
   <name|Mogan Editor> is a structure editor delivered by <name|<hlink|Xmacs
   Labs|https://github.com/XmacsLabs>>. We are dedicated to make Mogan Editor
@@ -56,7 +58,7 @@
     technology.
   </description>
 
-  <section*|What are GNU <TeXmacs> & <name|Mogan Editor>>
+  <section*|What are GNU <TeXmacs> and <name|Mogan Editor>>
 
   GNU <TeXmacs> is a structured editor developed since the late 1990s by
   <hlink|<person|Joris van der Hoeven>|http://www.texmacs.org/joris/main/joris.html>,
@@ -130,12 +132,12 @@
   <paragraph|User's Guide>
 
   <\padded-center>
-    <hlink|<cite*|<strong|<with|font-base-size|20|The Jolly
-    Writer>>>|https://www.scypress.com/book_info.html>
+    <with|color|#4c0001|<hlink|<cite*|<strong|<with|font-base-size|20|The
+    Jolly Writer>>>|https://www.scypress.com/book_info.html>>
   </padded-center>
 
   is the only systematic and detailed official <TeXmacs> textbook available.
-  Please <hlink|click here|https://www.scypress.com/book_download.html>
+  Please <hlink|click here|https://www.scypress.com/book_download.html> to
   download for free or make a donation.
 
   <section*|Contact Us>

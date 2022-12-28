@@ -20,7 +20,7 @@
   </render-remark>>>>
 
   <\padded-center>
-    <with|font|Songti SC|font-base-size|14|<strong|\<#8BA9\>\<#6211\>\<#4EEC\>\<#4EAB\>\<#53D7\>\<#63A2\>\<#7D22\>\<#79D1\>\<#5B66\>\<#4E0E\>\<#6280\>\<#672F\>\<#7684\>\<#4E50\>\<#8DA3\>\<#FF01\>>>
+    <with|font|Songti SC|font-base-size|20|\<#8BA9\>\<#6211\>\<#4EEC\>\<#4EAB\>\<#53D7\>\<#63A2\>\<#7D22\>\<#79D1\>\<#5B66\>\<#4E0E\>\<#6280\>\<#672F\>\<#7684\>\<#4E50\>\<#8DA3\>\<#FF01\>>
   </padded-center>
 
   <name|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>\<#662F\>
@@ -115,8 +115,8 @@
   <paragraph|\<#4F7F\>\<#7528\>\<#6307\>\<#5357\>>
 
   <\padded-center>
-    <hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX Gyre
-    Pagella|The Jolly Writer>>>>|https://www.scypress.com/book_info.html>
+    <with|color|#4c0001|<hlink|<cite*|<strong|<with|font-base-size|20|<with|font|TeX
+    Gyre Pagella|The Jolly Writer>>>>|https://www.scypress.com/book_info.html>>
   </padded-center>
 
   \<#662F\>\<#76EE\>\<#524D\>\<#552F\>\<#4E00\>\<#7684\>\<#7CFB\>\<#7EDF\>\<#4E14\>\<#8BE6\>\<#7EC6\>\<#7684\>
