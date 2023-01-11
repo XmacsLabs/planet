@@ -13,8 +13,8 @@
 
     If you encounter problems in using the editor, please feel free to
     contact us through the ways listed in the section "Contact Us" below,
-    thank you; in this case, we would be grateful if you would write a work
-    order and describe the problem in <hlink|<name|GitHub<with|font-shape|italic|>>|https://github.com/XmacsLabs/mogan/issues>
+    thank you; in this case, we would be grateful if you would write an issue
+    and describe the problem in <hlink|<name|GitHub<with|font-shape|italic|>>|https://github.com/XmacsLabs/mogan/issues>
     or <hlink|<name|Gitee><with|font-shape|italic|>|https://gitee.com/XmacsLabs/mogan/issues>,
     or upload a document that can reproduce the problem.
 
