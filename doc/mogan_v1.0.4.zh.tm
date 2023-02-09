@@ -13,7 +13,7 @@
 
   ① 墨干编辑器优先服务教育，尤其是中学教育，基于<TeXmacs>，从软件本身角度上讲，墨干编辑器会尽力降低<TeXmacs>的使用门槛。
 
-  ② 墨干编辑器是墨者实验室旗下结构化编辑器，将会和墨者实验室旗下墨客星球深度集成。墨客星球致力于解决网络上<TeXmacs>文档匮乏的现状，是科技和教育领域的内容平台。
+  ② 墨干编辑器是墨客实验室旗下结构化编辑器，将会和墨者实验室旗下墨客星球深度集成。墨客星球致力于解决网络上<TeXmacs>文档匮乏的现状，是科技和教育领域的内容平台。
 
   ③ 墨干编辑器V1.0.4基于GNU <TeXmacs>
   2.1.1定制，采用高性能的S7 Scheme脚本引擎，并且已经升级到了Qt
@@ -54,7 +54,7 @@
     <item><strong|易用性>：调整了一些<TeXmacs>的默认配置，比如默认使用Emacs快捷键，具体请看发布会视频
   </itemize>
 
-  <tmdoc-copyright|2022|墨者实验室>
+  <tmdoc-copyright|2022|墨客实验室>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

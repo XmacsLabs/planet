@@ -19,7 +19,7 @@
     <item><hlink|视频集锦|http://git.tmml.wiki/XmacsLabs/planet/raw/main/视频集锦/index.tm>：强烈推荐新用户观看
     <hlink|B站：A Quick Tour of <TeXmacs>|https://www.bilibili.com/video/BV1bo4y1D7wN>
 
-    <item><hlink|墨者实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/XmacsLabs/index.tm>
+    <item><hlink|墨客实验室|http://git.tmml.wiki/XmacsLabs/planet/raw/main/XmacsLabs/index.tm>
 
     <item><hlink|高考数学|http://git.tmml.wiki/XmacsLabs/planet/raw/main/高考数学/index.tm>
 

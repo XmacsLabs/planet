@@ -27,7 +27,7 @@
     <item><slink|https://www.zhihu.com/zvideo/1508550458033098753>
   </itemize>
 
-  <tmdoc-copyright|2022|墨者实验室>
+  <tmdoc-copyright|2022|墨客实验室>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

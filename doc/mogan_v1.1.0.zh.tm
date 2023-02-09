@@ -15,7 +15,7 @@
   <TeXmacs>，从软件本身角度上讲，墨干会尽力降低GNU
   <TeXmacs>的使用门槛。
 
-  ② 墨干是<name|墨者实验室>旗下结构化编辑器，将会和<name|墨者实验室>旗下<name|墨客星球>深度集成。<name|墨客星球>致力于解决网络上GNU
+  ② 墨干是<name|墨客实验室>旗下结构化编辑器，将会和<name|墨者实验室>旗下<name|墨客星球>深度集成。<name|墨客星球>致力于解决网络上GNU
   <TeXmacs>文档匮乏的现状，是科技和教育领域的内容平台。
 
   ③ 墨干V1.1.0基于GNU <TeXmacs> 2.1.2定制，采用高性能的S7
@@ -42,7 +42,7 @@
     <item>样式：为中文文档做了大量样式调整，尽可能避免使用斜体
   </itemize>
 
-  <tmdoc-copyright|2022|墨者实验室>
+  <tmdoc-copyright|2022|墨客实验室>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

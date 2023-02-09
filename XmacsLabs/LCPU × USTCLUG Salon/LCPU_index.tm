@@ -38,7 +38,7 @@
     <\slide>
       <\title-slide|<huge|墨干编辑器的核心概念与架构>>
         <\with|par-mode|right>
-          墨者实验室
+          墨客实验室
 
           LCPU x USTCLUG联合沙龙
 
@@ -51,7 +51,7 @@
 
     <\slide>
       <\section-slide>
-        墨者实验室
+        墨客实验室
       </section-slide>
     </slide>
 
@@ -60,7 +60,7 @@
 
       \;
 
-      墨干编辑器是墨者实验室<label|XmacsLabs>旗下的结构化编辑器，是GNU
+      墨干编辑器是墨客实验室<label|XmacsLabs>旗下的结构化编辑器，是GNU
       <TeXmacs>的发行版之一。
 
       \;
@@ -87,17 +87,17 @@
     </slide>
 
     <\slide>
-      <tit|墨者实验室>
+      <tit|墨客实验室>
 
       <subsection*|目标>
 
-      墨者实验室是一个非盈利组织，我们的目标是：
+      墨客实验室是一个非盈利组织，我们的目标是：
 
       <marked|<strong|享受探索科学与技术的乐趣>>。
 
       <subsection*|研讨会（两周一次）>
 
-      点击<strong|<menu|Help|Planet>>，然后进入墨者实验室目录，即可了解如何参与<strong|研讨会>
+      点击<strong|<menu|Help|Planet>>，然后进入墨客实验室目录，即可了解如何参与<strong|研讨会>
 
       <subsection*|项目>
 

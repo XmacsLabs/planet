@@ -118,10 +118,10 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
-    <associate|auto-2|<tuple|1|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
-    <associate|auto-3|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
-    <associate|auto-4|<tuple|<with|mode|<quote|math>|<rigid|->>|?|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨者实验室/第十次研讨会.tm>>
+    <associate|auto-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨客实验室/第十次研讨会.tm>>
+    <associate|auto-2|<tuple|1|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨客实验室/第十次研讨会.tm>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨客实验室/第十次研讨会.tm>>
+    <associate|auto-4|<tuple|<with|mode|<quote|math>|<rigid|->>|?|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨客实验室/第十次研讨会.tm>>
   </collection>
 </references>
 
