@@ -7,14 +7,17 @@
 
   <\warning*>
     Please use <hlink|Mogan v1.1.0|https://gitee.com/XmacsLabs/mogan/releases/tag/v1.1.0>
-    if you are viewing this document with messy code (They should be Chinese
-    characters).
+    or later if you are viewing this document with messy code (They should be
+    Chinese characters).
   </warning*>
 
   <section*|公共文档>
 
   <\itemize>
     <item><hlink|墨干编辑器|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨干编辑器/index.tm>：从入门到精通
+
+    <item><hlink|模板中心|http://git.tmml.wiki/XmacsLabs/planet/raw/main/templates/index.zh.tm>:
+    精心准备的、可以<strong|复制粘贴>或者<strong|另存为>的文档片段或者完整模板
 
     <item><hlink|视频集锦|http://git.tmml.wiki/XmacsLabs/planet/raw/main/视频集锦/index.tm>：强烈推荐新用户观看
     <hlink|B站：A Quick Tour of <TeXmacs>|https://www.bilibili.com/video/BV1bo4y1D7wN>
