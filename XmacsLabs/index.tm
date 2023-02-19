@@ -37,9 +37,9 @@
 
   <\wide-tabular>
     <tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|1|-1|1|-1|cell-valign|c>|<cwith|4|4|1|1|cell-background|pastel
-    red>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|7|7|7|7|cell-bborder|0ln>|<cwith|1|-1|7|7|cell-lborder|0ln>|<cwith|1|-1|6|6|cell-rborder|0ln>|<cwith|1|-1|7|7|cell-rborder|1ln>|<cwith|1|-1|8|8|cell-lborder|1ln>|<cwith|6|6|1|1|cell-background|pastel
-    green>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|4|4|8|8|cell-background|pastel
-    green>|<cwith|6|6|8|8|cell-background|pastel green>|<table|<row|<\cell>
+    red>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|7|7|7|7|cell-bborder|0ln>|<cwith|1|-1|7|7|cell-lborder|0ln>|<cwith|1|-1|6|6|cell-rborder|0ln>|<cwith|1|-1|7|7|cell-rborder|1ln>|<cwith|1|-1|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|4|4|8|8|cell-background|pastel
+    green>|<cwith|6|6|8|8|cell-background|pastel
+    green>|<cwith|6|6|1|1|cell-background|pastel red>|<table|<row|<\cell>
       2023年二月
     </cell>|<\cell>
       \;
@@ -277,6 +277,8 @@
   <label|sec:2023><section*|2023年会议记录>
 
   <\itemize>
+    <item>Yufeng: <gitlink|X202302>\ 
+
     <item>Da: <gitlink|X202301>（没有录制，主要讨论如何开展研讨会这个话题）
   </itemize>
 
@@ -315,6 +317,7 @@
   <\collection>
     <associate|info-flag|detailed>
     <associate|page-medium|papyrus>
+    <associate|preamble|false>
   </collection>
 </initial>
 
@@ -324,7 +327,7 @@
     <associate|第三次研讨会|<tuple|?|?>>
     <associate|第二次研讨会|<tuple|?|?>>
     <associate|第四次研讨会|<tuple|?|?>>
-    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-1|<tuple|?|?>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>
     <associate|auto-3|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>
     <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
