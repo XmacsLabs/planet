@@ -15,7 +15,7 @@
 
   <\description>
     <item*|标签<compound|markup|>>使用<markup|label>可以在日历中标记具体的事件，并勾选菜单项<menu|Document|Informative
-    flags|Detailed>，就可以得到如下<label|第一次研讨会>的效果。<markup|label>可以通过菜单项<menu|Insert|Link|Label>得到。
+    flags|Detailed>，就可以得到如下<label|第N次研讨会>的效果。<markup|label>可以通过菜单项<menu|Insert|Link|Label>得到。
 
     <item*|气泡>选中二月二十八日的数字28，然后通过<menu|Insert|Note|Balloon>，输入该气泡的内容。当鼠标悬浮到28这个数字上时，气泡中内容就可以显示。使用气泡时，由于不明显，我们可以通过更改单元格背景色的方式突出2023/02/28这一天。
   </description>
@@ -239,6 +239,7 @@
     <associate|第三次研讨会|<tuple|气泡|?>>
     <associate|第二次研讨会|<tuple|气泡|?>>
     <associate|第四次研讨会|<tuple|气泡|?>>
+    <associate|第N次研讨会|<tuple|标签<with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
     <associate|auto-1|<tuple|?|?>>
     <associate|auto-2|<tuple|?|?>>
     <associate|auto-3|<tuple|标签<with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
@@ -247,3 +248,28 @@
     <associate|auto-6|<tuple|气泡|?>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|idx>
+      <tuple|<tuple|<with|font-family|<quote|ss>|文档>|<with|font-family|<quote|ss>|非正式标记>|<with|font-family|<quote|ss>|详细>>|<pageref|auto-3>>
+
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|链接>|<with|font-family|<quote|ss>|标签>>|<pageref|auto-4>>
+
+      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|注记>|<with|font-family|<quote|ss>|气泡>>|<pageref|auto-5>>
+    </associate>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|版权>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|说明>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|模板内容>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-6><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>
