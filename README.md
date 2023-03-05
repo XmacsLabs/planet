@@ -13,6 +13,7 @@
 ### 墨客实验室
 + 财务公开
 + 两周一次的研讨会内容速记
+  + [2023年第二次研讨会视频回放](https://www.bilibili.com/video/BV1Ce4y1c7xb/)
   + [第八次研讨会视频回放](https://www.bilibili.com/video/BV1Pe411V7to)
 
 ### 高考数学
