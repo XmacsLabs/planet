@@ -28,3 +28,6 @@
 
 ### 国际数学奥林匹克竞赛
 
+## 如何提交一个合并请求
+https://gitee.com/XmacsLabs/planet/issues/I6JNE2
+
