@@ -28,6 +28,5 @@
 
 ### 国际数学奥林匹克竞赛
 
-## 如何提交一个合并请求
-https://gitee.com/XmacsLabs/planet/issues/I6JNE2
+## 如何提交一个合并请求([文档教学](https://gitee.com/XmacsLabs/planet/issues/I6JNE2)/[视频教学](https://www.bilibili.com/video/BV17v4y1V7fD))
 
