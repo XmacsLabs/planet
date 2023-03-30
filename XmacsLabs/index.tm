@@ -9,38 +9,45 @@
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
 
-  <doc-data|<doc-title|\<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>>
+  <doc-data|<doc-title|墨客实验室>>
 
   <\table-of-contents|toc>
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|\<#65E5\>\<#5386\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|日历>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-1><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|联系我们>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-2><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|\<#516C\>\<#5171\>\<#6587\>\<#6863\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|公共文档>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-3><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2023\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2023年会议记录>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-4><vspace|0.5fn>
 
-    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2022\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|2022年会议记录>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-5><vspace|0.5fn>
   </table-of-contents>
 
-  <section*|\<#65E5\>\<#5386\>>
+  <section*|日历>
+
+  <tabular|<tformat|<cwith|1|8|1|14|cell-halign|c>|<cwith|1|8|1|14|cell-valign|c>|<cwith|1|8|7|7|cell-lborder|0ln>|<cwith|1|8|6|6|cell-rborder|0ln>|<cwith|1|8|7|7|cell-rborder|1ln>|<cwith|1|8|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|2|2|1|7|cell-halign|c>|<cwith|2|2|1|7|cell-valign|c>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|2|2|7|7|cell-lborder|0ln>|<cwith|2|2|6|6|cell-rborder|0ln>|<cwith|2|2|7|7|cell-rborder|1ln>|<cwith|2|2|8|14|cell-halign|c>|<cwith|2|2|8|14|cell-valign|c>|<cwith|2|2|14|14|cell-tborder|0ln>|<cwith|1|1|8|14|cell-bborder|0ln>|<cwith|2|2|14|14|cell-bborder|0ln>|<cwith|3|3|14|14|cell-tborder|0ln>|<cwith|2|2|14|14|cell-lborder|0ln>|<cwith|2|2|13|13|cell-rborder|0ln>|<cwith|2|2|14|14|cell-rborder|0ln>|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|4|4|1|1|cell-background|pastel
+  green>|<cwith|6|6|1|1|cell-background|pastel
+  green>|<cwith|8|8|1|1|cell-background|pastel
+  cyan>|<cwith|5|5|8|8|cell-background|pastel
+  green>|<cwith|7|7|8|8|cell-background|pastel
+  green>|<table|<row|<cell|2023年四月>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|2023年五月>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|周日>|<cell|周一>|<cell|周二>|<cell|周三>|<cell|周四>|<cell|周五>|<cell|周六>|<cell|周日>|<cell|周一>|<cell|周二>|<cell|周三>|<cell|周四>|<cell|周五>|<cell|周六>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|1>|<cell|>|<cell|1>|<cell|2>|<cell|3>|<cell|4>|<cell|5>|<cell|6>>|<row|<cell|2<label|第五次研讨会>>|<cell|3>|<cell|4>|<cell|5>|<cell|6>|<cell|7>|<cell|8>|<cell|7>|<cell|8>|<cell|9>|<cell|10>|<cell|11>|<cell|12>|<cell|13>>|<row|<cell|9>|<cell|10>|<cell|11>|<cell|12>|<cell|13>|<cell|14>|<cell|15>|<cell|14<label|第七次研讨会>>|<cell|15>|<cell|16>|<cell|17>|<cell|18>|<cell|19>|<cell|20>>|<row|<cell|16<label|第六次研讨会>>|<cell|17>|<cell|18>|<cell|19>|<cell|20>|<cell|21>|<cell|22>|<cell|21>|<cell|22>|<cell|23>|<cell|24>|<cell|25>|<cell|26>|<cell|27>>|<row|<cell|23>|<cell|24>|<cell|25>|<cell|26>|<cell|27>|<cell|28>|<cell|29>|<cell|28<label|第八次研讨会>>|<cell|29>|<cell|30>|<cell|31>|<cell|>|<cell|>|<cell|>>|<row|<cell|30>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>
 
   <\wide-tabular>
     <tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|1|-1|1|-1|cell-valign|c>|<cwith|4|4|1|1|cell-background|pastel
-    red>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|7|7|7|7|cell-bborder|0ln>|<cwith|1|-1|7|7|cell-lborder|0ln>|<cwith|1|-1|6|6|cell-rborder|0ln>|<cwith|1|-1|7|7|cell-rborder|1ln>|<cwith|1|-1|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|4|4|8|8|cell-background|pastel
-    green>|<cwith|6|6|8|8|cell-background|pastel
-    green>|<cwith|6|6|1|1|cell-background|pastel red>|<table|<row|<\cell>
-      2023\<#5E74\>\<#4E8C\>\<#6708\>
+    red>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|7|7|7|7|cell-bborder|0ln>|<cwith|1|-1|7|7|cell-lborder|0ln>|<cwith|1|-1|6|6|cell-rborder|0ln>|<cwith|1|-1|7|7|cell-rborder|1ln>|<cwith|1|-1|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|6|6|8|8|cell-background|pastel
+    green>|<cwith|6|6|1|1|cell-background|pastel
+    red>|<cwith|4|4|8|8|cell-background|pastel red>|<table|<row|<\cell>
+      2023年二月
     </cell>|<\cell>
       \;
     </cell>|<\cell>
@@ -54,7 +61,7 @@
     </cell>|<\cell>
       \;
     </cell>|<\cell>
-      2023\<#5E74\>\<#4E09\>\<#6708\>
+      2023年三月
     </cell>|<\cell>
       \;
     </cell>|<\cell>
@@ -68,33 +75,33 @@
     </cell>|<\cell>
       \;
     </cell>>|<row|<\cell>
-      \<#5468\>\<#65E5\>
+      周日
     </cell>|<\cell>
-      \<#5468\>\<#4E00\>
+      周一
     </cell>|<\cell>
-      \<#5468\>\<#4E8C\>
+      周二
     </cell>|<\cell>
-      \<#5468\>\<#4E09\>
+      周三
     </cell>|<\cell>
-      \<#5468\>\<#56DB\>
+      周四
     </cell>|<\cell>
-      \<#5468\>\<#4E94\>
+      周五
     </cell>|<\cell>
-      \<#5468\>\<#516D\>
+      周六
     </cell>|<\cell>
-      \<#5468\>\<#65E5\>
+      周日
     </cell>|<\cell>
-      \<#5468\>\<#4E00\>
+      周一
     </cell>|<\cell>
-      \<#5468\>\<#4E8C\>
+      周二
     </cell>|<\cell>
-      \<#5468\>\<#4E09\>
+      周三
     </cell>|<\cell>
-      \<#5468\>\<#56DB\>
+      周四
     </cell>|<\cell>
-      \<#5468\>\<#4E94\>
+      周五
     </cell>|<\cell>
-      \<#5468\>\<#516D\>
+      周六
     </cell>>|<row|<\cell>
       \;
     </cell>|<\cell>
@@ -124,7 +131,7 @@
     </cell>|<\cell>
       4
     </cell>>|<row|<\cell>
-      5<label|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+      5<label|第一次研讨会>
     </cell>|<\cell>
       6
     </cell>|<\cell>
@@ -138,7 +145,7 @@
     </cell>|<\cell>
       11
     </cell>|<\cell>
-      5<label|\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+      5<label|第三次研讨会>
     </cell>|<\cell>
       6
     </cell>|<\cell>
@@ -180,7 +187,7 @@
     </cell>|<\cell>
       18
     </cell>>|<row|<\cell>
-      19<label|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+      19<label|第二次研讨会>
     </cell>|<\cell>
       20
     </cell>|<\cell>
@@ -194,7 +201,7 @@
     </cell>|<\cell>
       25
     </cell>|<\cell>
-      19<label|\<#7B2C\>\<#56DB\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+      19<label|第四次研讨会（跳过）>
     </cell>|<\cell>
       20
     </cell>|<\cell>
@@ -238,79 +245,82 @@
     </cell>>>>
   </wide-tabular>
 
+  \;
+
+  \;
+
   <\itemize>
-    <item>\<#7814\>\<#8BA8\>\<#4F1A\>
+    <item>研讨会
 
     <\itemize>
-      <item>\<#65F6\>\<#95F4\>\<#FF1A\>\<#6BCF\>\<#4E24\>\<#5468\>\<#5468\>\<#65E5\>\<#665A\>\<#4E0A\>20:30\<#FF5E\>21:30\<#FF08\>\<#5982\>\<#9047\>\<#6CD5\>\<#5B9A\>\<#8282\>\<#5047\>\<#65E5\>\<#FF0C\>\<#76F4\>\<#63A5\>\<#8DF3\>\<#8FC7\>\<#FF09\>
+      <item>时间：每两周周日晚上20:30～21:30（如遇法定节假日，直接跳过）
 
-      <item>\<#5730\>\<#70B9\>\<#FF1A\><slink|https://meeting.tencent.com/p/9323633600>
+      <item>地点：<slink|https://meeting.tencent.com/p/9323633600>
 
-      <item>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>\<#FF1A\>\<#5728\>\<#672C\>\<#6587\>\<#6863\><hlink|2023\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>|#sec:2023>\<#4E2D\>\<#67E5\>\<#770B\>
+      <item>会议记录：在本文档<hlink|2023年会议记录|#sec:2023>中查看
     </itemize>
   </itemize>
 
-  <section*|\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>>
+  <section*|联系我们>
 
   <\strong>
-    \<#8877\>\<#5FC3\>\<#6B22\>\<#8FCE\>\<#5927\>\<#5BB6\>\<#901A\>\<#8FC7\>\<#4EE5\>\<#4E0B\>\<#65B9\>\<#5F0F\>\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>\<#FF0C\>\<#4EA4\>\<#6D41\>\<#7ECF\>\<#9A8C\>\<#3001\>\<#63D0\>\<#4F9B\>\<#5EFA\>\<#8BAE\>\<#6216\>\<#62A5\>\<#544A\>\<#95EE\>\<#9898\>\<#3002\>
+    衷心欢迎大家通过以下方式联系我们，交流经验、提供建议或报告问题。
 
-    \<#4E5F\>\<#70ED\>\<#60C5\>\<#6B22\>\<#8FCE\>\<#611F\>\<#5174\>\<#8DA3\>\<#7684\>\<#5F00\>\<#53D1\>\<#8005\>\<#548C\>\<#5FD7\>\<#613F\>\<#8D21\>\<#732E\>\<#8005\>\<#52A0\>\<#5165\>\<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#3002\>
+    也热情欢迎感兴趣的开发者和志愿贡献者加入墨客实验室。
   </strong>
 
   <\padded-center>
-    <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|3|3|1|-1|cell-background|#f0f0f0>|<cwith|5|5|1|-1|cell-background|#f0f0f0>|<cwith|7|7|1|-1|cell-background|#f0f0f0>|<cwith|9|9|1|-1|cell-background|#f0f0f0>|<cwith|1|1|1|2|cell-halign|c>|<cwith|1|1|1|2|cell-halign|c>|<cwith|1|1|1|2|cell-background|#f0f0f0>|<table|<row|<cell|\<#58A8\>\<#5E72\>\<#5B98\>\<#7F51\>>|<cell|<hlink|mogan.app|https://mogan.app>>>|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|\<#8C46\>\<#74E3\>\<#5C0F\>\<#7EC4\>>|<cell|<hlink|GNU
-    <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|\<#77E5\>\<#4E4E\>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|\<#5FAE\>\<#4FE1\>\<#516C\>\<#4F17\>\<#53F7\>>|<cell|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
-    (<name|xmacs2020>)>>|<row|<cell|\<#5FAE\>\<#4FE1\>\<#7FA4\>>|<cell|<with|font|FandolSong|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>
-    (\<#901A\>\<#8FC7\>\<#5FAE\>\<#4FE1\>\<#53F7\> <name|XmacsLabs>
-    \<#5165\>\<#7FA4\>)>>|<row|<cell|QQ\<#7FA4\>>|<cell|GNU <TeXmacs>
-    \<#4E2D\>\<#6587\>\<#793E\>\<#533A\> (934456971)>>>>>
+    <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|3|3|1|-1|cell-background|#f0f0f0>|<cwith|5|5|1|-1|cell-background|#f0f0f0>|<cwith|7|7|1|-1|cell-background|#f0f0f0>|<cwith|9|9|1|-1|cell-background|#f0f0f0>|<cwith|1|1|1|2|cell-halign|c>|<cwith|1|1|1|2|cell-halign|c>|<cwith|1|1|1|2|cell-background|#f0f0f0>|<table|<row|<cell|墨干官网>|<cell|<hlink|mogan.app|https://mogan.app>>>|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|沈浪熊猫儿>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|墨者实验室>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|豆瓣小组>|<cell|<hlink|GNU
+    <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|知乎>|<cell|<hlink|<with|font|FandolSong|墨干编辑器>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|微信公众号>|<cell|<with|font|FandolSong|墨者实验室>
+    (<name|xmacs2020>)>>|<row|<cell|微信群>|<cell|<with|font|FandolSong|墨客社区>
+    (通过微信号 <name|XmacsLabs> 入群)>>|<row|<cell|QQ群>|<cell|GNU
+    <TeXmacs> 中文社区 (934456971)>>>>>
   </padded-center>
 
   \;
 
-  <section*|\<#516C\>\<#5171\>\<#6587\>\<#6863\>>
+  <section*|公共文档>
 
   <\itemize>
-    <item><gitlink|\<#8D22\>\<#52A1\>\<#516C\>\<#5F00\>>
+    <item><gitlink|财务公开>
   </itemize>
 
-  <label|sec:2023><section*|2023\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+  <label|sec:2023><section*|2023年会议记录>
 
   <\itemize>
     <item>BadVortex: <gitlink|X202303>
 
     <item>Yufeng: <gitlink|X202302>
 
-    <item>Da: <gitlink|X202301>\<#FF08\>\<#6CA1\>\<#6709\>\<#5F55\>\<#5236\>\<#FF0C\>\<#4E3B\>\<#8981\>\<#8BA8\>\<#8BBA\>\<#5982\>\<#4F55\>\<#5F00\>\<#5C55\>\<#7814\>\<#8BA8\>\<#4F1A\>\<#8FD9\>\<#4E2A\>\<#8BDD\>\<#9898\>\<#FF09\>
+    <item>Da: <gitlink|X202301>（没有录制，主要讨论如何开展研讨会这个话题）
   </itemize>
 
-  <section*|2022\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+  <section*|2022年会议记录>
 
   <\itemize>
-    <item><gitlink|\<#7B2C\>\<#5341\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\>2022/12/11\<#665A\>\<#4E0A\>\<#516B\>\<#70B9\>\<#FF09\>
+    <item><gitlink|第十二次研讨会>（2022/12/11晚上八点）
 
-    <item><gitlink|\<#7B2C\>\<#5341\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1RR4y1k74X/>\<#FF0C\>LCPU\<times\>USTCLUG\<#8054\>\<#5408\>\<#6C99\>\<#9F99\>\<#FF09\>
+    <item><gitlink|第十一次研讨会>（<hlink|B站回放|https://www.bilibili.com/video/BV1RR4y1k74X/>，LCPU\<times\>USTCLUG联合沙龙）
 
-    <item><gitlink|\<#7B2C\>\<#5341\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1Ft4y1N76j/>\<#FF09\>
+    <item><gitlink|第十次研讨会>（<hlink|B站回放|https://www.bilibili.com/video/BV1Ft4y1N76j/>）
 
-    <item><gitlink|\<#7B2C\>\<#4E5D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1oR4y1Q7ad/>\<#FF09\>
+    <item><gitlink|第九次研讨会>（<hlink|B站回放|https://www.bilibili.com/video/BV1oR4y1Q7ad/>）
 
-    <item><gitlink|\<#7B2C\>\<#516B\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1Pe411V7to>\<#FF09\>
+    <item><gitlink|第八次研讨会>（<hlink|B站回放|https://www.bilibili.com/video/BV1Pe411V7to>）
 
-    <item><gitlink|\<#7B2C\>\<#4E03\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#FF08\>2022/09/18\<#665A\>\<#4E0A\>\<#516B\>\<#70B9\>\<#FF09\>
+    <item><gitlink|第七次研讨会>（2022/09/18晚上八点）
 
-    <item><gitlink|\<#7B2C\>\<#516D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+    <item><gitlink|第六次研讨会>
 
-    <item><gitlink|\<#7B2C\>\<#4E94\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+    <item><gitlink|第五次研讨会>
 
-    <item><gitlink|\<#7B2C\>\<#56DB\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+    <item><gitlink|第四次研讨会>
 
-    <item><gitlink|\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+    <item><gitlink|第三次研讨会>
 
-    <item><gitlink|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+    <item><gitlink|第二次研讨会>
 
-    <item><gitlink|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
+    <item><gitlink|第一次研讨会>
   </itemize>
 
   \;
@@ -326,10 +336,15 @@
 
 <\references>
   <\collection>
-    <associate|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
-    <associate|\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
-    <associate|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
-    <associate|\<#7B2C\>\<#56DB\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
+    <associate|第一次研讨会|<tuple|?|?>>
+    <associate|第七次研讨会|<tuple|?|?>>
+    <associate|第三次研讨会|<tuple|?|?>>
+    <associate|第二次研讨会|<tuple|?|?>>
+    <associate|第五次研讨会|<tuple|?|?>>
+    <associate|第八次研讨会|<tuple|?|?>>
+    <associate|第六次研讨会|<tuple|?|?>>
+    <associate|第四次研讨会|<tuple|?|?>>
+    <associate|第四次研讨会（跳过）|<tuple|?|?>>
     <associate|auto-1|<tuple|?|?>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>
     <associate|auto-3|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>
@@ -342,23 +357,23 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#65E5\>\<#5386\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|日历>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#8054\>\<#7CFB\>\<#6211\>\<#4EEC\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|联系我们>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#516C\>\<#5171\>\<#6587\>\<#6863\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|公共文档>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2023\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2023年会议记录>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2022\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2022年会议记录>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5><vspace|0.5fn>
     </associate>
