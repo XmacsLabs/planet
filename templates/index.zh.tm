@@ -12,14 +12,26 @@
   <doc-data|<doc-title|模板中心>>
 
   <\wide-tabular>
-    <tformat|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|1|1|3|3|cell-rborder|0ln>|<twith|table-halign|l>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|1|1|2|2|cell-tborder|0ln>|<cwith|1|1|2|2|cell-bborder|1ln>|<cwith|2|2|2|2|cell-tborder|1ln>|<cwith|1|1|2|2|cell-lborder|0ln>|<cwith|1|1|1|1|cell-rborder|0ln>|<cwith|1|1|2|2|cell-rborder|0ln>|<cwith|1|1|3|3|cell-lborder|0ln>|<table|<row|<\cell>
+    <tformat|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|1|1|4|4|cell-rborder|0ln>|<twith|table-halign|l>|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|1|1|3|3|cell-tborder|0ln>|<cwith|1|1|3|3|cell-bborder|1ln>|<cwith|2|2|3|3|cell-tborder|1ln>|<cwith|1|1|3|3|cell-lborder|0ln>|<cwith|1|1|1|1|cell-rborder|0ln>|<cwith|1|1|3|3|cell-rborder|0ln>|<cwith|1|1|4|4|cell-lborder|0ln>|<table|<row|<\cell>
       名称
+    </cell>|<\cell>
+      用途
     </cell>|<\cell>
       作者
     </cell>|<\cell>
       版权
     </cell>>|<row|<\cell>
       <gitlink|日历>
+    </cell>|<\cell>
+      1月到12月的日历，以表格形式呈现
+    </cell>|<\cell>
+      沈浪熊猫儿
+    </cell>|<\cell>
+      \;
+    </cell>>|<row|<\cell>
+      <gitlink|feature>
+    </cell>|<\cell>
+      用于提交添加新特性的代码合并请求
     </cell>|<\cell>
       沈浪熊猫儿
     </cell>|<\cell>
@@ -39,6 +51,16 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|?|../../../.Xmacs/texts/scratch/no_name_3.tm>>
+    <associate|auto-1|<tuple|?|?>>
   </collection>
 </references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|关于版权>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+    </associate>
+  </collection>
+</auxiliary>
