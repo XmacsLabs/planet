@@ -325,7 +325,11 @@
     <item><gitlink|第一次研讨会>
   </itemize>
 
-  \;
+  <subsection*|投票>
+
+  <\itemize>
+    <item><gitlink|墨客社区永和申请加入墨客实验室>
+  </itemize>
 </body>
 
 <\initial>
@@ -351,6 +355,7 @@
     <associate|auto-3|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>
     <associate|auto-4|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
     <associate|auto-5|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-6|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
     <associate|sec:2023|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
   </collection>
 </references>
