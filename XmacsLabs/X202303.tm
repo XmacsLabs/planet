@@ -91,7 +91,7 @@
     <item>We can see which changes have been staged using the <verbatim|git
     status> command.
 
-    <item>Use the <verbatim|git status> command:
+    <item>Use the <verbatim|git add> command:
 
     <\verbatim-code>
       git add XmacsLabs/X202303.tm
@@ -104,7 +104,7 @@
     <item>Add your own username using the <verbatim|git config> command:
 
     <\verbatim-code>
-      git config --global user.name "墨客实验室机器人"
+      git config --global user.name "\<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#673A\>\<#5668\>\<#4EBA\>"
     </verbatim-code>
 
     <item>Add your own E-mail using the <verbatim|git config> command:
@@ -126,7 +126,7 @@
   You can make a commit using the <verbatim|git commit -m> command:
 
   <\verbatim-code>
-    git commit -m "2023年第三次研讨会"
+    git commit -m "2023\<#5E74\>\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>"
   </verbatim-code>
 
   <subsection|Git push>
@@ -156,7 +156,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|1|2>>
-    <associate|auto-10|<tuple|3|4>>
+    <associate|auto-10|<tuple|3|5>>
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|2.1|2>>
     <associate|auto-4|<tuple|2.2|2>>
@@ -164,7 +164,7 @@
     <associate|auto-6|<tuple|2.4|3>>
     <associate|auto-7|<tuple|2.5|4>>
     <associate|auto-8|<tuple|2.6|4>>
-    <associate|auto-9|<tuple|2.7|4>>
+    <associate|auto-9|<tuple|2.7|5>>
   </collection>
 </references>
 
