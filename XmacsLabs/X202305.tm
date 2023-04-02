@@ -35,69 +35,95 @@
   <subsection|Projects of SoC>
 
   <\itemize>
-    <item>学生想做什么（社区讨论）
+    <item>\<#5B66\>\<#751F\>\<#60F3\>\<#505A\>\<#4EC0\>\<#4E48\>\<#FF08\>\<#793E\>\<#533A\>\<#8BA8\>\<#8BBA\>\<#FF09\>
 
     <\itemize>
-      <item>排版引擎支持图文混排
+      <item>\<#6392\>\<#7248\>\<#5F15\>\<#64CE\>\<#652F\>\<#6301\>\<#56FE\>\<#6587\>\<#6DF7\>\<#6392\>
 
       <\itemize>
-        <item>Scala重新实现
+        <item>Scala\<#91CD\>\<#65B0\>\<#5B9E\>\<#73B0\>
 
-        <item>表格很多问题
+        <item>\<#8868\>\<#683C\>\<#5F88\>\<#591A\>\<#95EE\>\<#9898\>
 
-        <item><LaTeX>里面有这个功能
+        <item><LaTeX>\<#91CC\>\<#9762\>\<#6709\>\<#8FD9\>\<#4E2A\>\<#529F\>\<#80FD\>
       </itemize>
 
-      <item>Scala重新实现排版引擎
+      <item>Scala\<#91CD\>\<#65B0\>\<#5B9E\>\<#73B0\>\<#6392\>\<#7248\>\<#5F15\>\<#64CE\>
 
-      <tree|TM|<tree|Tree|<tree|Box|PDF>|HTML>>
+      <\padded-center>
+        <tree|TM|<tree|Tree|<tree|Box|PDF>|HTML>>
+      </padded-center>
 
       <\itemize>
-        <item>不涉及Scheme引擎的部分（Kawa/Clojure)
+        <item>\<#4E0D\>\<#6D89\>\<#53CA\>Scheme\<#5F15\>\<#64CE\>\<#7684\>\<#90E8\>\<#5206\>\<#FF08\>Kawa/Clojure)
 
-        <item>TM -\<gtr\> Tree
+        <item>TM <math|\<rightarrow\>> Tree
       </itemize>
 
       <\itemize>
-        <item>TM -\<gtr\> Tree -\<gtr\> Box -\<gtr\> PDF（Hard）
+        <item>TM <math|\<rightarrow\>> Tree <math|\<rightarrow\>> Box
+        <math|\<rightarrow\>> PDF\<#FF08\>Hard\<#FF09\>
 
-        <item>TM -\<gtr\> PS
+        <item>TM <math|\<rightarrow\>> PS
 
-        <item>(TM -\<gtr\> Render)
+        <item>(TM <math|\<rightarrow\>> Render)
 
-        <item>TM -\<gtr\> Tree -\<gtr\> HTML（Easy）
+        <item>TM <math|\<rightarrow\>> Tree <math|\<rightarrow\>>
+        HTML\<#FF08\>Easy\<#FF09\>
 
-        <item>TM -\<gtr\> DOCX
+        <item>TM <math|\<rightarrow\>> DOCX
 
-        <item>TM -\<gtr\> EPUB
+        <item>TM <math|\<rightarrow\>> EPUB
 
-        <item>TM -\<gtr\> PPT
+        <item>TM <math|\<rightarrow\>> PPT
       </itemize>
     </itemize>
 
-    <item>社区需要什么
+    <item>\<#793E\>\<#533A\>\<#9700\>\<#8981\>\<#4EC0\>\<#4E48\>
 
     <\itemize>
-      <item><hlink|改善墨干的绘图工具|<hlink|Issues \<centerdot\>
-      墨客实验室/墨干编辑器 - Gitee.com|https://gitee.com/XmacsLabs/mogan/issues?label_ids=179083549&label_text=%E7%BB%98%E5%9B%BE>>
-
-      <item>教育相关模版（有一些模版目前无法直接制作，需要代码提供支持）
+      <item><hlink|\<#6539\>\<#5584\>\<#58A8\>\<#5E72\>\<#7684\>\<#7ED8\>\<#56FE\>\<#5DE5\>\<#5177\>|<hlink|Issues
+      \<centerdot\> \<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>/\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>
+      - Gitee.com|https://gitee.com/XmacsLabs/mogan/issues?label_ids=179083549&label_text=%E7%BB%98%E5%9B%BE>>
 
       <\itemize>
-        <item>本硕博论文模版
+        <item><unfolded-comment|+1CqepKxV1PAekZFg|+1CqepKxV1PAekZFh|comment|Yiqi
+        Xu|1680451467||\<#6539\>\<#8FDB\>\<#4EA4\>\<#6362\>\<#56FE\>\<#7ED8\>\<#5236\>\<#529F\>\<#80FD\>>
 
-        <item>幻灯片模版
-
-        <item>适用于线上授课的模版
+        <item><unfolded-comment|+1CqepKxV1PAekZFk|+1CqepKxV1PAekZFl|comment|Yiqi
+        Xu|1680451587||\<#4F18\>\<#5316\>\<#57FA\>\<#7840\>\<#7684\>\<#56FE\>\<#5F62\>\<#7684\>\<#8F93\>\<#5165\>,
+        \<#5982\>\<#692D\>\<#5706\>\<#7B49\>>
       </itemize>
 
-      <item>更好用快捷键编辑器（不需要Scheme）
+      <item>\<#6559\>\<#80B2\>\<#76F8\>\<#5173\>\<#6A21\>\<#7248\>\<#FF08\>\<#6709\>\<#4E00\>\<#4E9B\>\<#6A21\>\<#7248\>\<#76EE\>\<#524D\>\<#65E0\>\<#6CD5\>\<#76F4\>\<#63A5\>\<#5236\>\<#4F5C\>\<#FF0C\>\<#9700\>\<#8981\>\<#4EE3\>\<#7801\>\<#63D0\>\<#4F9B\>\<#652F\>\<#6301\>\<#FF09\>
+
+      <\itemize>
+        <item>\<#672C\>\<#7855\>\<#535A\>\<#8BBA\>\<#6587\>\<#6A21\>\<#7248\>
+
+        <item>\<#5E7B\>\<#706F\>\<#7247\>\<#6A21\>\<#7248\>
+
+        <item>\<#9002\>\<#7528\>\<#4E8E\>\<#7EBF\>\<#4E0A\>\<#6388\>\<#8BFE\>\<#7684\>\<#6A21\>\<#7248\>
+      </itemize>
+
+      <item>\<#66F4\>\<#597D\>\<#7528\>\<#5FEB\>\<#6377\>\<#952E\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF08\>\<#4E0D\>\<#9700\>\<#8981\>Scheme\<#FF09\>
+
+      <item><unfolded-comment|+1CqepKxV1PAekZFm|+1CqepKxV1PAekZFn|comment|Yiqi
+      Xu|1680451728||\<#4F18\>\<#5316\>\<#5B57\>\<#4F53\>\<#76F8\>\<#5173\>\<#529F\>\<#80FD\>>
+
+      <\itemize>
+        <item><unfolded-comment|+1CqepKxV1PAekZFo|+1CqepKxV1PAekZFp|comment|Yiqi
+        Xu|1680451782||\<#63D0\>\<#4F9B\>\<#5B8C\>\<#6574\>\<#7684\><name|OpenType>\<#5B57\>\<#4F53\>\<#652F\>\<#6301\>
+        >
+
+        <item><unfolded-comment|+1CqepKxV1PAekZFq|+1CqepKxV1PAekZFr|comment|Yiqi
+        Xu|1680451923||\<#4F18\>\<#5316\><name|Unicode>\<#652F\>\<#6301\>>
+      </itemize>
     </itemize>
   </itemize>
 
   <subsection|XmacsLabs member>
 
-  门槛
+  \<#95E8\>\<#69DB\>
 
   <\itemize>
     <item>Who creates pull requests
@@ -105,7 +131,7 @@
     <item>Law/Language
   </itemize>
 
-  权利
+  \<#6743\>\<#5229\>
 
   <\itemize>
     <item>Vote
@@ -122,35 +148,36 @@
   </question>
 
   <\itemize>
-    <item>(Join the video meeting) 自己申请
+    <item>(Join the video meeting) \<#81EA\>\<#5DF1\>\<#7533\>\<#8BF7\>
 
     <item>Vote to add new member
   </itemize>
 
   <\itemize>
-    <item>实验室成员可以是匿名的
+    <item>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#6210\>\<#5458\>\<#53EF\>\<#4EE5\>\<#662F\>\<#533F\>\<#540D\>\<#7684\>
 
-    <item>不用每次都参加视频会议
+    <item>\<#4E0D\>\<#7528\>\<#6BCF\>\<#6B21\>\<#90FD\>\<#53C2\>\<#52A0\>\<#89C6\>\<#9891\>\<#4F1A\>\<#8BAE\>
   </itemize>
 
   <\question>
     How to vote?
   </question>
 
-  10个正式成员（每个成员都会提交pull request）
+  10\<#4E2A\>\<#6B63\>\<#5F0F\>\<#6210\>\<#5458\>\<#FF08\>\<#6BCF\>\<#4E2A\>\<#6210\>\<#5458\>\<#90FD\>\<#4F1A\>\<#63D0\>\<#4EA4\>pull
+  request\<#FF09\>
 
-  异步协作
+  \<#5F02\>\<#6B65\>\<#534F\>\<#4F5C\>
 
   \;
 
   <\itemize>
-    <item>依据事项不同，投票的机制不同
+    <item>\<#4F9D\>\<#636E\>\<#4E8B\>\<#9879\>\<#4E0D\>\<#540C\>\<#FF0C\>\<#6295\>\<#7968\>\<#7684\>\<#673A\>\<#5236\>\<#4E0D\>\<#540C\>
 
-    <unfolded-comment|+1ZmOHbA21AVvmY03|+1ZmOHbA21AVvmY04|comment|jk|1680440233||新成员加入适当放宽>
+    <unfolded-comment|+1ZmOHbA21AVvmY03|+1ZmOHbA21AVvmY04|comment|jk|1680440233||\<#65B0\>\<#6210\>\<#5458\>\<#52A0\>\<#5165\>\<#9002\>\<#5F53\>\<#653E\>\<#5BBD\>>
 
-    <item>是否和开源社区理事会有点像？
+    <item>\<#662F\>\<#5426\>\<#548C\>\<#5F00\>\<#6E90\>\<#793E\>\<#533A\>\<#7406\>\<#4E8B\>\<#4F1A\>\<#6709\>\<#70B9\>\<#50CF\>\<#FF1F\>
 
-    探索阶段
+    \<#63A2\>\<#7D22\>\<#9636\>\<#6BB5\>
 
     <item>XmacsLabs
 
@@ -203,7 +230,7 @@
     <associate|auto-2|<tuple|2|2>>
     <associate|auto-3|<tuple|2.1|2>>
     <associate|auto-4|<tuple|2.2|2>>
-    <associate|auto-5|<tuple|2.3|4>>
+    <associate|auto-5|<tuple|2.3|3>>
   </collection>
 </references>
 
