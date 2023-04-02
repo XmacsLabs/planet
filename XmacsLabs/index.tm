@@ -288,9 +288,11 @@
   <label|sec:2023><section*|2023年会议记录>
 
   <\itemize>
-    <item>BadVortex: <gitlink|X202303>
+    <item>Da: <gitlink|X202305>（2023/04/02 20:30:00）
 
-    <item>Yufeng: <gitlink|X202302>
+    <item>BadVortex: <gitlink|X202303>（<hlink|B站回放|https://www.bilibili.com/video/BV17v4y1V7fD/>）
+
+    <item>Yufeng: <gitlink|X202302>（<hlink|B站回放|https://www.bilibili.com/video/BV1Ce4y1c7xb/>）
 
     <item>Da: <gitlink|X202301>（没有录制，主要讨论如何开展研讨会这个话题）
   </itemize>
@@ -343,7 +345,6 @@
     <associate|第五次研讨会|<tuple|?|?>>
     <associate|第八次研讨会|<tuple|?|?>>
     <associate|第六次研讨会|<tuple|?|?>>
-    <associate|第四次研讨会|<tuple|?|?>>
     <associate|第四次研讨会（跳过）|<tuple|?|?>>
     <associate|auto-1|<tuple|?|?>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>

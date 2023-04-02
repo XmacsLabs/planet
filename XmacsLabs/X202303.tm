@@ -13,118 +13,135 @@
 
   <subsection|Some simple preparations>
 
-  1) You already have a Gitee account.
+  <\enumerate>
+    <item>You already have a Gitee account.
 
-  2) Open <strong|the terminal> and run the following command:
+    <item>Open <strong|the terminal> and run the following command:
 
-  <\verbatim-code>
-    git --version
-  </verbatim-code>
+    <\shell-code>
+      git --version
+    </shell-code>
+  </enumerate>
 
   <subsection|Generate and add SSH public key>
 
-  1) We need to generate SSH key by run the following command:
+  <\enumerate>
+    <item>We need to generate SSH key by run the following command:
 
-  <\verbatim-code>
-    ssh-keygen -t ed25519 -C "xxxxx@xxxxx.com" \ 
+    <\shell-code>
+      ssh-keygen -t ed25519 -C "xxxxx@xxxxx.com" \ 
 
-    # Generating public/private ed25519 key pair...
-  </verbatim-code>
+      # Generating public/private ed25519 key pair...
+    </shell-code>
 
-  * The xxxxx@xxxxx.com here is just the name of the generated SSH key, and
-  does not restrict or require it to be specifically named as a certain
-  mailbox.
+    * The xxxxx@xxxxx.com here is just the name of the generated SSH key, and
+    does not restrict or require it to be specifically named as a certain
+    mailbox.
 
-  * Just press Enter three times, and the ssh key will be generated, and
-  <strong|no password required>.
+    * Just press Enter three times, and the ssh key will be generated, and
+    <strong|no password required>.
 
-  \;
+    <item>We can print SSH public key using the <verbatim|cat> command:
 
-  2) We can print SSH public key using the <verbatim|cat> command:
+    <\shell-code>
+      cat ~/.ssh/id_ed25519.pub
+    </shell-code>
 
-  <\verbatim-code>
-    cat ~/.ssh/id_ed25519.pub
-  </verbatim-code>
+    <item>Copy the SSH public key to your clipboard.
 
-  3) Copy the SSH public key to your clipboard.
+    <item>In the upper-right corner of any page of Gitee, click your profile
+    photo, then click<nbsp><strong|Settings>. In the side bar, click
+    <strong|SSH public key>.
 
-  4) In the upper-right corner of any page of Gitee, click your profile
-  photo, then click<nbsp><strong|Settings>. In the side bar, click
-  <strong|SSH public key>.
-
-  5) Paste your public key into the Key field. Click <strong|Add SSH key>.
+    <item>Paste your public key into the Key field. Click <strong|Add SSH
+    key>.
+  </enumerate>
 
   <subsection|Git clone>
 
-  * I already have the developer permission of the warehouse
-  "XmacsLabs/planet".
+  <\enumerate>
+    <item>Go to the <strong|Code> page of "XmacsLabs/planet", click the
+    <strong|Clone/Download> button, switch to SSH, and copy it.
 
-  1) Go to the <strong|Code> page of "XmacsLabs/planet", click the
-  <strong|Clone/Download> button, switch to SSH, and copy it.
+    <item>Return to your home directory in The Terminal using the
+    <verbatim|cd> command.
 
-  2) Return to your home directory in The Terminal using the <verbatim|cd>
-  command.
+    <item>We need to clone the warehouse by run the following command:
 
-  3) We need to clone the warehouse by run the following command:
+    <\verbatim-code>
+      git clone git@gitee.com:XmacsLabs/planet.git
+    </verbatim-code>
 
-  <\verbatim-code>
-    git clone git@gitee.com:XmacsLabs/planet.git
-  </verbatim-code>
-
-  (If prompted, enter YES.)
+    (If prompted, enter YES.)
+  </enumerate>
 
   <subsection|Git add>
 
-  1) Open the planet folder by file manager, and paste the files to be added
-  here.
+  <\itemize>
+    <item>Open the planet folder by file manager, and paste the files to be
+    added here.
 
-  2) Enter the directory in The Terminal using the <verbatim|cd> command:
+    <item>Enter the directory in The Terminal using the <verbatim|cd>
+    command:
 
-  <\verbatim-code>
-    cd planet
-  </verbatim-code>
+    <\verbatim-code>
+      cd planet
+    </verbatim-code>
 
-  3) We can see which changes have been staged using the <verbatim|git
-  status> command.
+    <item>We can see which changes have been staged using the <verbatim|git
+    status> command.
 
-  4) Use the <verbatim|git status> command:
+    <item>Use the <verbatim|git status> command:
 
-  <\verbatim-code>
-    git add XmacsLabs/X202303.tm
-  </verbatim-code>
+    <\verbatim-code>
+      git add XmacsLabs/X202303.tm
+    </verbatim-code>
+  </itemize>
 
   <subsection|Git config>
 
-  1) Add your own username using the <verbatim|git config> command:
+  <\enumerate>
+    <item>Add your own username using the <verbatim|git config> command:
 
-  <\verbatim-code>
-    git config --global user.name "\<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#673A\>\<#5668\>\<#4EBA\>"
-  </verbatim-code>
+    <\verbatim-code>
+      git config --global user.name "墨客实验室机器人"
+    </verbatim-code>
 
-  2) Add your own E-mail using the <verbatim|git config> command:
+    <item>Add your own E-mail using the <verbatim|git config> command:
 
-  <\verbatim-code>
-    git config --global user.email ``bot@xmacs.net"
-  </verbatim-code>
+    <\verbatim-code>
+      git config --global user.email "bot@xmacs.net"
+    </verbatim-code>
 
-  3) You can view which changes have been done using the <verbatim|cat>
-  command:
+    <item>You can view which changes have been done using the <verbatim|cat>
+    command:
 
-  <\verbatim-code>
-    cat ~/.gitconfig
-  </verbatim-code>
+    <\verbatim-code>
+      cat ~/.gitconfig
+    </verbatim-code>
+  </enumerate>
 
   <subsection|Git commit>
 
-  1) You can make a commit using the <verbatim|git commit -m> command:
+  You can make a commit using the <verbatim|git commit -m> command:
 
   <\verbatim-code>
-    git commit -m "2023\<#5E74\>\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>"
+    git commit -m "2023年第三次研讨会"
   </verbatim-code>
 
   <subsection|Git push>
 
-  1) You can make a push using the <verbatim|git push origin main> command.
+  <\note*>
+    I already have the developer permission of the repository
+    "XmacsLabs/planet". That's why I can push the code to the main branch and
+    generate a pull request on Gitee. If you do not have the developer
+    permission of the repository, you have to learn how to fork a
+    Gitee/Github project and then create the pull request via the
+    Gitee/Github web.
+  </note*>
+
+  You can make a push using the <verbatim|git push origin main> command. The
+  pull request will be generated automatically.
 
   <section|Topic: to purchase a Loongson laptop>
 </body>
