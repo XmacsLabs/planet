@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese>>
 
@@ -15,6 +15,8 @@
 
   <\itemize>
     <item><gitlink|数学结构入门>
+
+    <item><gitlink|TeXmacs图形编程>
   </itemize>
 </body>
 
