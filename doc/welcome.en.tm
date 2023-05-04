@@ -23,7 +23,7 @@
 
     <\itemize-dot>
       <item>If you are viewing this file and the Chinese is garbled, please
-      use <hlink|<name|Mogan Editor> v1.1.1|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.1>
+      use <hlink|<name|Mogan Editor> v1.1.2|https://github.com/XmacsLabs/mogan/releases/tag/v1.1.2>
       or newer for the Chinese characters to display correctly.
 
       <item>Due to loading fonts and other contents, the program may run
@@ -151,14 +151,13 @@
 
   <\padded-center>
     <tabular|<tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|3|3|1|-1|cell-background|#f0f0f0>|<cwith|5|5|1|-1|cell-background|#f0f0f0>|<cwith|7|7|1|-1|cell-background|#f0f0f0>|<cwith|9|9|1|-1|cell-background|#f0f0f0>|<cwith|1|1|1|-1|cell-background|#f0f0f0>|<table|<row|<cell|Official
-    Website of Mogan>|<cell|<hlink|mogan.app|https://mogan.app>>>|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|<name|Douban>
-    Group>|<cell|<hlink|GNU <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|<name|Zhihu>>|<cell|<hlink|<with|font|FandolSong|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|<name|WeChat>
-    Official Account>|<cell|<with|font|FandolSong|\<#58A8\>\<#8005\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+    Website of Mogan>|<cell|<hlink|mogan.app|https://mogan.app>>>|<row|<cell|<name|Bilibili>>|<cell|<hlink|<with|font|FandolSong|沈浪熊猫儿>|https://space.bilibili.com/28058658>>>|<row|<cell|<name|Gitee>>|<cell|<hlink|<with|font|FandolSong|墨者实验室>|https://gitee.com/XmacsLabs/>>>|<row|<cell|<name|GitHub>>|<cell|<hlink|<name|XmacsLabs>|https://github.com/XmacsLabs>>>|<row|<cell|<name|Douban>
+    Group>|<cell|<hlink|GNU <TeXmacs>|https://www.douban.com/group/texmacs/>>>|<row|<cell|<name|Zhihu>>|<cell|<hlink|<with|font|FandolSong|墨干编辑器>|https://www.zhihu.com/people/xmacs>>>|<row|<cell|<name|WeChat>
+    Official Account>|<cell|<with|font|FandolSong|墨者实验室>
     (<name|xmacs2020>)>>|<row|<cell|<name|WeChat>
-    Group>|<cell|<with|font|FandolSong|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>>
-    (Join via <name|WeChat> account <name|XmacsLabs>)>>|<row|<cell|<name|QQ>
-    Group>|<cell|GNU <TeXmacs> \<#4E2D\>\<#6587\>\<#793E\>\<#533A\>
-    (934456971)>>>>>
+    Group>|<cell|<with|font|FandolSong|墨客社区> (Join via <name|WeChat>
+    account <name|XmacsLabs>)>>|<row|<cell|<name|QQ> Group>|<cell|GNU
+    <TeXmacs> 中文社区 (934456971)>>>>>
   </padded-center>
 
   You are also welcome to consult the TeXmacs community, especially the
@@ -188,10 +187,10 @@
   <\quote-env>
     <name|Mogan> is named after <hlink|<name|Mount
     Mogan>|https://en.wikipedia.org/wiki/Mount_Mogan>, a famous attraction in
-    my hometown. <with|font|FandolSong|\<#58A8\>\<#5E72\>>(<name|Mogan>)
-    literally means "dried ink". The word is derived from
-    <name|\<#83AB\>\<#5E72\>>(<name|Mogan>) which is a combination of
-    <hlink|\<#83AB\>(Mo) and \<#5E72\>(Gan)|https://en.wikipedia.org/wiki/Gan_Jiang_and_Mo_Ye>.
+    my hometown. <with|font|FandolSong|墨干>(<name|Mogan>) literally means
+    "dried ink". The word is derived from <name|莫干>(<name|Mogan>) which
+    is a combination of <hlink|莫(Mo) and
+    干(Gan)|https://en.wikipedia.org/wiki/Gan_Jiang_and_Mo_Ye>.
 
     \V <hlink|<person|Darcy Shen>|https://github.com/darcy-shen>
   </quote-env>
