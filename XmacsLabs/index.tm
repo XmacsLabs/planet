@@ -35,18 +35,24 @@
 
   <section*|\<#65E5\>\<#5386\>>
 
-  <tabular|<tformat|<cwith|1|8|1|14|cell-halign|c>|<cwith|1|8|1|14|cell-valign|c>|<cwith|1|8|7|7|cell-lborder|0ln>|<cwith|1|8|6|6|cell-rborder|0ln>|<cwith|1|8|7|7|cell-rborder|1ln>|<cwith|1|8|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|2|2|1|7|cell-halign|c>|<cwith|2|2|1|7|cell-valign|c>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|2|2|7|7|cell-lborder|0ln>|<cwith|2|2|6|6|cell-rborder|0ln>|<cwith|2|2|7|7|cell-rborder|1ln>|<cwith|2|2|8|14|cell-halign|c>|<cwith|2|2|8|14|cell-valign|c>|<cwith|2|2|14|14|cell-tborder|0ln>|<cwith|1|1|8|14|cell-bborder|0ln>|<cwith|2|2|14|14|cell-bborder|0ln>|<cwith|3|3|14|14|cell-tborder|0ln>|<cwith|2|2|14|14|cell-lborder|0ln>|<cwith|2|2|13|13|cell-rborder|0ln>|<cwith|2|2|14|14|cell-rborder|0ln>|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|4|4|1|1|cell-background|pastel
-  green>|<cwith|6|6|1|1|cell-background|pastel
-  green>|<cwith|8|8|1|1|cell-background|pastel
-  cyan>|<cwith|5|5|8|8|cell-background|pastel
+  <tabular|<tformat|<cwith|1|9|1|14|cell-halign|c>|<cwith|1|9|1|14|cell-valign|c>|<cwith|1|9|7|7|cell-lborder|0ln>|<cwith|1|9|6|6|cell-rborder|0ln>|<cwith|1|9|7|7|cell-rborder|1ln>|<cwith|1|9|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|2|2|1|7|cell-halign|c>|<cwith|2|2|1|7|cell-valign|c>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|2|2|7|7|cell-lborder|0ln>|<cwith|2|2|6|6|cell-rborder|0ln>|<cwith|2|2|7|7|cell-rborder|1ln>|<cwith|2|2|8|14|cell-halign|c>|<cwith|2|2|8|14|cell-valign|c>|<cwith|2|2|14|14|cell-tborder|0ln>|<cwith|1|1|8|14|cell-bborder|0ln>|<cwith|2|2|14|14|cell-bborder|0ln>|<cwith|2|2|14|14|cell-lborder|0ln>|<cwith|2|2|13|13|cell-rborder|0ln>|<cwith|2|2|14|14|cell-rborder|0ln>|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|5|5|1|1|cell-background|pastel
+  green>|<cwith|7|7|1|1|cell-background|pastel
+  green>|<cwith|5|5|8|8|cell-background|pastel
   green>|<cwith|7|7|8|8|cell-background|pastel
-  green>|<table|<row|<cell|2023\<#5E74\>\<#56DB\>\<#6708\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|2023\<#5E74\>\<#4E94\>\<#6708\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|\<#5468\>\<#65E5\>>|<cell|\<#5468\>\<#4E00\>>|<cell|\<#5468\>\<#4E8C\>>|<cell|\<#5468\>\<#4E09\>>|<cell|\<#5468\>\<#56DB\>>|<cell|\<#5468\>\<#4E94\>>|<cell|\<#5468\>\<#516D\>>|<cell|\<#5468\>\<#65E5\>>|<cell|\<#5468\>\<#4E00\>>|<cell|\<#5468\>\<#4E8C\>>|<cell|\<#5468\>\<#4E09\>>|<cell|\<#5468\>\<#56DB\>>|<cell|\<#5468\>\<#4E94\>>|<cell|\<#5468\>\<#516D\>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|1>|<cell|>|<cell|1>|<cell|2>|<cell|3>|<cell|4>|<cell|5>|<cell|6>>|<row|<cell|2<label|\<#7B2C\>\<#4E94\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|3>|<cell|4>|<cell|5>|<cell|6>|<cell|7>|<cell|8>|<cell|7>|<cell|8>|<cell|9>|<cell|10>|<cell|11>|<cell|12>|<cell|13>>|<row|<cell|9>|<cell|10>|<cell|11>|<cell|12>|<cell|13>|<cell|14>|<cell|15>|<cell|14<label|\<#7B2C\>\<#4E03\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|15>|<cell|16>|<cell|17>|<cell|18>|<cell|19>|<cell|20>>|<row|<cell|16<label|\<#7B2C\>\<#516D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|17>|<cell|18>|<cell|19>|<cell|20>|<cell|21>|<cell|22>|<cell|21>|<cell|22>|<cell|23>|<cell|24>|<cell|25>|<cell|26>|<cell|27>>|<row|<cell|23>|<cell|24>|<cell|25>|<cell|26>|<cell|27>|<cell|28>|<cell|29>|<cell|28<label|\<#7B2C\>\<#516B\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|29>|<cell|30>|<cell|31>|<cell|>|<cell|>|<cell|>>|<row|<cell|30>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>
+  green>|<table|<row|<cell|2023\<#5E74\>\<#516D\>\<#6708\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|2023\<#5E74\>\<#4E03\>\<#6708\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|\<#5468\>\<#65E5\>>|<cell|\<#5468\>\<#4E00\>>|<cell|\<#5468\>\<#4E8C\>>|<cell|\<#5468\>\<#4E09\>>|<cell|\<#5468\>\<#56DB\>>|<cell|\<#5468\>\<#4E94\>>|<cell|\<#5468\>\<#516D\>>|<cell|\<#5468\>\<#65E5\>>|<cell|\<#5468\>\<#4E00\>>|<cell|\<#5468\>\<#4E8C\>>|<cell|\<#5468\>\<#4E09\>>|<cell|\<#5468\>\<#56DB\>>|<cell|\<#5468\>\<#4E94\>>|<cell|\<#5468\>\<#516D\>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|1>|<cell|2>|<cell|3>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|1>>|<row|<cell|4>|<cell|5>|<cell|6>|<cell|7>|<cell|8>|<cell|9>|<cell|10>|<cell|2>|<cell|3>|<cell|4>|<cell|5>|<cell|6>|<cell|7>|<cell|8>>|<row|<cell|11<label|\<#7B2C\>\<#4E5D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|12>|<cell|13>|<cell|14>|<cell|15>|<cell|16>|<cell|17>|<cell|9>|<cell|10>|<cell|11>|<cell|12>|<cell|13>|<cell|14>|<cell|15>>|<row|<cell|18>|<cell|19>|<cell|20>|<cell|21>|<cell|22>|<cell|23>|<cell|24>|<cell|16>|<cell|17>|<cell|18>|<cell|19>|<cell|20>|<cell|21>|<cell|22>>|<row|<cell|25<label|\<#7B2C\>\<#5341\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|26>|<cell|27>|<cell|28>|<cell|29>|<cell|30>|<cell|>|<cell|23>|<cell|24>|<cell|25>|<cell|26>|<cell|27>|<cell|28>|<cell|29>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|30>|<cell|31>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>
+
+  <tabular|<tformat|<cwith|1|8|1|14|cell-halign|c>|<cwith|1|8|1|14|cell-valign|c>|<cwith|1|8|7|7|cell-lborder|0ln>|<cwith|1|8|6|6|cell-rborder|0ln>|<cwith|1|8|7|7|cell-rborder|1ln>|<cwith|1|8|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|2|2|1|7|cell-halign|c>|<cwith|2|2|1|7|cell-valign|c>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|2|2|7|7|cell-lborder|0ln>|<cwith|2|2|6|6|cell-rborder|0ln>|<cwith|2|2|7|7|cell-rborder|1ln>|<cwith|2|2|8|14|cell-halign|c>|<cwith|2|2|8|14|cell-valign|c>|<cwith|2|2|14|14|cell-tborder|0ln>|<cwith|1|1|8|14|cell-bborder|0ln>|<cwith|2|2|14|14|cell-bborder|0ln>|<cwith|3|3|14|14|cell-tborder|0ln>|<cwith|2|2|14|14|cell-lborder|0ln>|<cwith|2|2|13|13|cell-rborder|0ln>|<cwith|2|2|14|14|cell-rborder|0ln>|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|8|8|1|1|cell-background|pastel
+  cyan>|<cwith|6|6|1|1|cell-background|pastel
+  red>|<cwith|4|4|1|1|cell-background|pastel
+  red>|<cwith|5|5|8|8|cell-background|pastel
+  red>|<cwith|7|7|8|8|cell-background|pastel
+  red>|<table|<row|<cell|2023\<#5E74\>\<#56DB\>\<#6708\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|2023\<#5E74\>\<#4E94\>\<#6708\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|\<#5468\>\<#65E5\>>|<cell|\<#5468\>\<#4E00\>>|<cell|\<#5468\>\<#4E8C\>>|<cell|\<#5468\>\<#4E09\>>|<cell|\<#5468\>\<#56DB\>>|<cell|\<#5468\>\<#4E94\>>|<cell|\<#5468\>\<#516D\>>|<cell|\<#5468\>\<#65E5\>>|<cell|\<#5468\>\<#4E00\>>|<cell|\<#5468\>\<#4E8C\>>|<cell|\<#5468\>\<#4E09\>>|<cell|\<#5468\>\<#56DB\>>|<cell|\<#5468\>\<#4E94\>>|<cell|\<#5468\>\<#516D\>>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|1>|<cell|>|<cell|1>|<cell|2>|<cell|3>|<cell|4>|<cell|5>|<cell|6>>|<row|<cell|2<label|\<#7B2C\>\<#4E94\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|3>|<cell|4>|<cell|5>|<cell|6>|<cell|7>|<cell|8>|<cell|7>|<cell|8>|<cell|9>|<cell|10>|<cell|11>|<cell|12>|<cell|13>>|<row|<cell|9>|<cell|10>|<cell|11>|<cell|12>|<cell|13>|<cell|14>|<cell|15>|<cell|14<label|\<#7B2C\>\<#4E03\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|15>|<cell|16>|<cell|17>|<cell|18>|<cell|19>|<cell|20>>|<row|<cell|16<label|\<#7B2C\>\<#516D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|17>|<cell|18>|<cell|19>|<cell|20>|<cell|21>|<cell|22>|<cell|21>|<cell|22>|<cell|23>|<cell|24>|<cell|25>|<cell|26>|<cell|27>>|<row|<cell|23>|<cell|24>|<cell|25>|<cell|26>|<cell|27>|<cell|28>|<cell|29>|<cell|28<label|\<#7B2C\>\<#516B\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>|<cell|29>|<cell|30>|<cell|31>|<cell|>|<cell|>|<cell|>>|<row|<cell|30>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>>>>
 
   <\wide-tabular>
     <tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|1|-1|1|-1|cell-valign|c>|<cwith|4|4|1|1|cell-background|pastel
-    red>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|7|7|7|7|cell-bborder|0ln>|<cwith|1|-1|7|7|cell-lborder|0ln>|<cwith|1|-1|6|6|cell-rborder|0ln>|<cwith|1|-1|7|7|cell-rborder|1ln>|<cwith|1|-1|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|6|6|8|8|cell-background|pastel
-    green>|<cwith|6|6|1|1|cell-background|pastel
-    red>|<cwith|4|4|8|8|cell-background|pastel red>|<table|<row|<\cell>
+    red>|<cwith|2|2|7|7|cell-tborder|0ln>|<cwith|7|7|7|7|cell-bborder|0ln>|<cwith|1|-1|7|7|cell-lborder|0ln>|<cwith|1|-1|6|6|cell-rborder|0ln>|<cwith|1|-1|7|7|cell-rborder|1ln>|<cwith|1|-1|8|8|cell-lborder|1ln>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|6|6|1|1|cell-background|pastel
+    red>|<cwith|4|4|8|8|cell-background|pastel
+    red>|<cwith|6|6|8|8|cell-background|pastel cyan>|<table|<row|<\cell>
       2023\<#5E74\>\<#4E8C\>\<#6708\>
     </cell>|<\cell>
       \;
@@ -289,6 +295,8 @@
   <label|sec:2023><section*|2023\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
 
   <\itemize>
+    <item>Da: <gitlink|X202309>
+
     <item>jingkaimori: <gitlink|X202307>
 
     <item>jadelight: <gitlink|X202306>\<#FF08\><hlink|B\<#7AD9\>\<#56DE\>\<#653E\>|https://www.bilibili.com/video/BV1Sc411p7cp/>\<#FF09\>
@@ -350,10 +358,12 @@
     <associate|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
     <associate|\<#7B2C\>\<#4E03\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
     <associate|\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
+    <associate|\<#7B2C\>\<#4E5D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
     <associate|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
     <associate|\<#7B2C\>\<#4E94\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
     <associate|\<#7B2C\>\<#516B\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
     <associate|\<#7B2C\>\<#516D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
+    <associate|\<#7B2C\>\<#5341\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|?|?>>
     <associate|\<#7B2C\>\<#56DB\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>\<#FF08\>\<#8DF3\>\<#8FC7\>\<#FF09\>|<tuple|?|?>>
     <associate|auto-1|<tuple|?|?>>
     <associate|auto-2|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>
