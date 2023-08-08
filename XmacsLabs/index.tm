@@ -295,6 +295,10 @@
   <label|sec:2023><section*|2023\<#5E74\>\<#4F1A\>\<#8BAE\>\<#8BB0\>\<#5F55\>>
 
   <\itemize>
+    <item>Da: <gitlink|X202311>
+
+    <item>Jia: <gitlink|X202310>
+
     <item>Da: <gitlink|X202309>
 
     <item>jingkaimori: <gitlink|X202307>
@@ -342,6 +346,8 @@
 
   <\itemize>
     <item><gitlink|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>\<#6C38\>\<#548C\>\<#7533\>\<#8BF7\>\<#52A0\>\<#5165\>\<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
+
+    <item><gitlink|\<#58A8\>\<#5BA2\>\<#793E\>\<#533A\>\<#5F20\>\<#4F73\>\<#7533\>\<#8BF7\>\<#52A0\>\<#5165\>\<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>>
   </itemize>
 </body>
 
