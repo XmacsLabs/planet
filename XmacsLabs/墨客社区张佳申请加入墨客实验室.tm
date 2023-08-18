@@ -28,6 +28,8 @@
 
   <unfolded-comment|+15lxN5Kr4HDlNzV|+15lxN5Kr4HDlNzW|comment|Jade|1691326750||\<#8D5E\>\<#540C\>\<#FF01\>>
 
+  <unfolded-comment|+1a2ZNpSM1vsD6LLX|+1a2ZNpSM1vsD6LLY|comment|\<#6C38\>\<#548C\>|1692346679||\<#652F\>\<#6301\>\<#FF01\>>
+
   \;
 
   \;
@@ -41,8 +43,8 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/XmacsLabs/墨客社区永和申请加入墨客实验室.tm>>
-    <associate|auto-2|<tuple|2|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/XmacsLabs/墨客社区永和申请加入墨客实验室.tm>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|2|1>>
   </collection>
 </references>
 
@@ -53,7 +55,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#6295\>\<#7968\>\<#FF08\>2023/04/02~2023/05/02\<#FF09\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#6295\>\<#7968\>\<#FF08\>2023/08/06~2023/09/06\<#FF09\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
