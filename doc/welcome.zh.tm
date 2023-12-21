@@ -5,6 +5,11 @@
 <\body>
   <tmdoc-title|\<#6B22\>\<#8FCE\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>>
 
+  <with|framed-color|pastel magenta|ornament-border|0ln|ornament-color|pastel
+  yellow|<\ornamented>
+    \<#60A8\>\<#6B63\>\<#5728\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>v1.1.x\<#FF0C\>\<#5F53\>\<#524D\>\<#6700\>\<#65B0\>\<#7A33\>\<#5B9A\>\<#7248\>\<#662F\><strong|v<include|http://git.tmml.wiki/XmacsLabs/planet/raw/branch/main/latest_version.tm>>\<#FF0C\>\<#53EF\>\<#8BBF\>\<#95EE\><slink|https://mogan.app>\<#4E0B\>\<#8F7D\>\<#6700\>\<#65B0\>\<#7A33\>\<#5B9A\>\<#7248\>\<#3002\>
+  </ornamented>>
+
   <with|color|dark red|<with|font|Songti SC|<with|font-base-size|8|<\render-remark|\<#63D0\>\<#9192\>>
     \<#4E0E\><space|0.4spc>GNU <TeXmacs><space|0.4spc>\<#4E00\>\<#6837\>\<#FF0C\>\<#897F\>\<#6587\>\<#6392\>\<#7248\>\<#5728\><space|0.4spc><name|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>><space|0.4spc>\<#4E2D\>\<#5DF2\>\<#7ECF\>\<#76F8\>\<#5BF9\>\<#5B8C\>\<#5584\>\<#FF0C\>\<#4F46\>\<#4E2D\>\<#6587\>\<#6392\>\<#7248\>\<#79BB\>\<#5B8C\>\<#5584\>\<#8FD8\>\<#6709\>\<#5F88\>\<#957F\>\<#7684\>\<#8DEF\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#8BF7\>\<#6C42\>\<#7528\>\<#6237\>\<#7684\>\<#7406\>\<#89E3\>\<#3001\>\<#8010\>\<#5FC3\>\<#548C\>\<#5E2E\>\<#52A9\>\<#FF0C\>\<#975E\>\<#5E38\>\<#611F\>\<#8C22\>\<#FF01\>
 
