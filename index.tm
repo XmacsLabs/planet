@@ -11,6 +11,12 @@
     Chinese characters).
   </warning*>
 
+  <section*|\<#516C\>\<#5F00\>\<#8BFE\>>
+
+  <\itemize>
+    <item><hlink|\<#96F6\>\<#57FA\>\<#7840\>SICP|SICP/index.tm>
+  </itemize>
+
   <section*|\<#516C\>\<#5171\>\<#6587\>\<#6863\>>
 
   <\itemize>
@@ -30,12 +36,6 @@
     <item><hlink|<LaTeX><space|0.4spc>\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/index.tm>
 
     <item><hlink|\<#56FD\>\<#9645\>\<#6570\>\<#5B66\>\<#5965\>\<#6797\>\<#5339\>\<#514B\>\<#7ADE\>\<#8D5B\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/IMO/index.tm>
-  </itemize>
-
-  <section*|\<#516C\>\<#5F00\>\<#8BFE\>>
-
-  <\itemize>
-    <item><hlink|\<#96F6\>\<#57FA\>\<#7840\>SICP|SICP/index.tm>
   </itemize>
 
   <section*|\<#5927\>\<#5B66\>\<#8BFE\>\<#4EF6\>>
