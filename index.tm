@@ -35,7 +35,7 @@
   <section*|\<#516C\>\<#5F00\>\<#8BFE\>>
 
   <\itemize>
-    <item>\<#96F6\>\<#57FA\>\<#7840\>SICP
+    <item><hlink|\<#96F6\>\<#57FA\>\<#7840\>SICP|SICP/index.tm>
   </itemize>
 
   <section*|\<#5927\>\<#5B66\>\<#8BFE\>\<#4EF6\>>
