@@ -6,8 +6,16 @@
   <doc-data|<doc-title|\<#96F6\>\<#57FA\>\<#7840\>SICP>>
 
   <\itemize>
-    <item>SICP\<#5B98\>\<#7F51\>\<#FF1A\><hlink|Structure and Interpretation
-    of Computer Programs|https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html>
+    <item>SICP\<#8BFE\>\<#672C\>
+
+    SICP\<#5B98\>\<#7F51\>\<#FF1A\><hlink|Structure and Interpretation of
+    Computer Programs|https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html>
+
+    \<#4EA4\>\<#4E92\>\<#5F0F\>SICP\<#FF1A\><slink|https://gitee.com/XmacsLabs/interactive-sicp>
+
+    <item>\<#7B2C\>2\<#8BFE\>\<#FF1A\>\<#7F16\>\<#7A0B\>\<#7684\>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>\<#FF08\>\<#4E60\>\<#9898\>\<#8BFE\>\<#FF09\>
+
+    \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#4E60\>\<#9898\>\<#8BFE\>\<#4EF6\>02|https://gitee.com/XmacsLabs/interactive-sicp/exercise02.tm>
 
     <item>\<#7B2C\>1\<#8BFE\>\<#FF1A\>\<#7F16\>\<#7A0B\>\<#7684\>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>
 
