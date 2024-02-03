@@ -356,7 +356,7 @@
     \;
   </hidden>|<\hidden>
     <tit|\<#5E94\>\<#7528\>\<#4E00\>\<#4E2A\>\<#51FD\>\<#6570\>\<#7684\>\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\><glossary-explain|substitution
-    model|\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\>>\<#2014\>\<#2014\>\<#6B63\>\<#5E38\>\<#5E8F\>\<#6C42\>\<#503C\>>
+    model|\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\>>\<#2014\>\<#2014\>\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>>
 
     \;
 
@@ -388,7 +388,8 @@
       <item>\<#5C06\>\<#51FD\>\<#6570\>f\<#5E94\>\<#7528\>\<#5230\>\<#53C2\>\<#6570\>5\<#4E0A\>\<#9762\>\<#FF08\>\<#6CE8\>\<#610F\>\<#53C2\>\<#6570\>\<#3001\>\<#5F62\>\<#5F0F\>\<#53C2\>\<#6570\>\<#3001\>\<#64CD\>\<#4F5C\>\<#6570\>\<#8FD9\>\<#4E09\>\<#4E2A\>\<#6982\>\<#5FF5\>\<#7684\>\<#533A\>\<#522B\>\<#FF09\>
     </itemize>
 
-    <paragraph|\<#6B63\>\<#5E38\>\<#5E8F\>\<#6C42\>\<#503C\>>
+    <paragraph|\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>><glossary-explain|applicative
+    order evaluation|\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>>
 
     <\folded-std>
       <scm|(\<#6C42\>\<#5E73\>\<#65B9\>\<#548C\> <with|color|red|(+ a 1)>
@@ -419,9 +420,10 @@
       </folded-std>
     </folded-std>
   </hidden>|<\hidden>
-    <tit|\<#5E94\>\<#7528\>\<#4E00\>\<#4E2A\>\<#51FD\>\<#6570\>\<#7684\>\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\>\<#2014\>\<#2014\>\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>>
+    <tit|\<#5E94\>\<#7528\>\<#4E00\>\<#4E2A\>\<#51FD\>\<#6570\>\<#7684\>\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\>\<#2014\>\<#2014\>\<#6B63\>\<#5219\>\<#5E8F\>\<#6C42\>\<#503C\>>
 
-    <paragraph|\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>>
+    <paragraph|\<#6B63\>\<#5219\>\<#5E8F\>\<#6C42\>\<#503C\>><glossary-explain|normal
+    order evaluation|\<#6B63\>\<#5219\>\<#5E8F\>\<#6C42\>\<#503C\>>
 
     <\folded-std>
       (\<#6C42\>\<#5E73\>\<#65B9\>\<#548C\> (+ <with|color|red|a> 1) (*
@@ -449,7 +451,7 @@
     </folded-std>
 
     <\question>
-      \<#5DF2\>\<#7ECF\>\<#6709\>\<#4E86\>\<#6B63\>\<#5E38\>\<#5E8F\>\<#6C42\>\<#503C\>\<#FF0C\>\<#4E3A\>\<#4EC0\>\<#4E48\>\<#8FD8\>\<#9700\>\<#8981\>\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>\<#FF1F\>
+      \<#5DF2\>\<#7ECF\>\<#6709\>\<#4E86\>\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>\<#FF0C\>\<#4E3A\>\<#4EC0\>\<#4E48\>\<#8FD8\>\<#9700\>\<#8981\>\<#6B63\>\<#5219\>\<#5E8F\>\<#6C42\>\<#503C\>\<#FF1F\>
     </question>
 
     <\question>
@@ -504,21 +506,25 @@
     \;
 
     <\the-glossary|gly>
-      <glossary-2|primitive|\<#539F\>\<#8BED\>|<pageref|auto-2>>
+      <glossary-2|primitive|\<#539F\>\<#8BED\>|<pageref|auto-1>>
 
-      <glossary-2|expression|\<#8868\>\<#8FBE\>\<#5F0F\>|<pageref|auto-3>>
+      <glossary-2|expression|\<#8868\>\<#8FBE\>\<#5F0F\>|<pageref|auto-2>>
 
-      <glossary-2|procedure|\<#51FD\>\<#6570\>|<pageref|auto-4>>
+      <glossary-2|procedure|\<#51FD\>\<#6570\>|<pageref|auto-3>>
 
-      <glossary-2|combination|\<#7EC4\>\<#5408\>|<pageref|auto-5>>
+      <glossary-2|combination|\<#7EC4\>\<#5408\>|<pageref|auto-4>>
 
-      <glossary-2|abstraction|\<#62BD\>\<#8C61\>|<pageref|auto-6>>
+      <glossary-2|abstraction|\<#62BD\>\<#8C61\>|<pageref|auto-5>>
 
-      <glossary-2|combinations|\<#7EC4\>\<#5408\>\<#5F0F\>|<pageref|auto-8>>
+      <glossary-2|combinations|\<#7EC4\>\<#5408\>\<#5F0F\>|<pageref|auto-6>>
 
-      <glossary-2|compound procedure|\<#590D\>\<#5408\>\<#51FD\>\<#6570\>|<pageref|auto-11>>
+      <glossary-2|compound procedure|\<#590D\>\<#5408\>\<#51FD\>\<#6570\>|<pageref|auto-9>>
 
-      <glossary-2|substitution model|\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\>|<pageref|auto-12>>
+      <glossary-2|substitution model|\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\>|<pageref|auto-10>>
+
+      <glossary-2|applicative order evaluation|\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>|<pageref|auto-12>>
+
+      <glossary-2|normal order evaluation|\<#6B63\>\<#5219\>\<#5E8F\>\<#6C42\>\<#503C\>|<pageref|auto-14>>
     </the-glossary>
   </hidden>>
 </body>
@@ -538,8 +544,10 @@
     <associate|auto-1|<tuple|primitive|?>>
     <associate|auto-10|<tuple|substitution model|?>>
     <associate|auto-11|<tuple|1|?>>
-    <associate|auto-12|<tuple|2|?>>
+    <associate|auto-12|<tuple|applicative order evaluation|?>>
     <associate|auto-13|<tuple|2|?>>
+    <associate|auto-14|<tuple|normal order evaluation|?>>
+    <associate|auto-15|<tuple|2|?>>
     <associate|auto-2|<tuple|expression|?>>
     <associate|auto-3|<tuple|procedure|?>>
     <associate|auto-4|<tuple|combination|?>>
@@ -574,19 +582,23 @@
       <tuple|normal|compound procedure|\<#590D\>\<#5408\>\<#51FD\>\<#6570\>|<pageref|auto-9>>
 
       <tuple|normal|substitution model|\<#4EE3\>\<#6362\>\<#6A21\>\<#578B\>|<pageref|auto-10>>
+
+      <tuple|normal|applicative order evaluation|\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>|<pageref|auto-12>>
+
+      <tuple|normal|normal order evaluation|\<#6B63\>\<#5219\>\<#5E8F\>\<#6C42\>\<#503C\>|<pageref|auto-14>>
     </associate>
     <\associate|toc>
-      <with|par-left|<quote|3tab>|\<#6B63\>\<#5E38\>\<#5E8F\>\<#6C42\>\<#503C\>
+      <with|par-left|<quote|3tab>|\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-11>>
 
-      <with|par-left|<quote|3tab>|\<#5E94\>\<#7528\>\<#5E8F\>\<#6C42\>\<#503C\>
+      <with|par-left|<quote|3tab>|\<#6B63\>\<#5219\>\<#5E8F\>\<#6C42\>\<#503C\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-12>>
+      <no-break><pageref|auto-13>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#672F\>\<#8BED\>\<#8868\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-13><vspace|0.5fn>
+      <no-break><pageref|auto-15><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
