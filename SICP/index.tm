@@ -1,6 +1,6 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|generic|chinese>>
+<style|<tuple|generic|chinese|doc>>
 
 <\body>
   <doc-data|<doc-title|\<#96F6\>\<#57FA\>\<#7840\>SICP>>
@@ -13,13 +13,28 @@
 
     \<#4EA4\>\<#4E92\>\<#5F0F\>SICP\<#FF1A\><slink|https://gitee.com/XmacsLabs/interactive-sicp>
 
+    \<#5982\>\<#4F55\>\<#4E0A\>\<#4EA4\>\<#4F5C\>\<#4E1A\>\<#FF1A\>
+
+    <\itemize>
+      <item><menu|File|Export|Pdf with embedded
+      document>\<#7136\>\<#540E\>\<#5C06\>PDF\<#4F5C\>\<#4E3A\>\<#9644\>\<#4EF6\>
+
+      <item>\<#90AE\>\<#4EF6\>\<#6807\>\<#9898\>\<#FF1A\>\<#96F6\>\<#57FA\>\<#7840\>SICP-\<#7B2C\>x\<#8BFE\>-who
+
+      <item>\<#76EE\>\<#6807\>\<#90AE\>\<#7BB1\>\<#FF1A\>shenda AT ustc.edu
+    </itemize>
+
+    <item>\<#7B2C\>3\<#8BFE\>\<#FF1A\>\<#7528\>\<#51FD\>\<#6570\>\<#505A\>\<#62BD\>\<#8C61\>
+
+    \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#4EA4\>\<#4E92\>\<#5F0F\>\<#8BB2\>\<#4E49\>03|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/course03.tm>
+
     <item>\<#7B2C\>2\<#8BFE\>\<#FF1A\>\<#7F16\>\<#7A0B\>\<#7684\>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>\<#FF08\>\<#4E60\>\<#9898\>\<#8BFE\>\<#FF09\>
 
     \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#4E60\>\<#9898\>\<#8BFE\>\<#4EF6\>02|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/exercise02.tm>
 
     <item>\<#7B2C\>1\<#8BFE\>\<#FF1A\>\<#7F16\>\<#7A0B\>\<#7684\>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>
 
-    \<#8BB2\>\<#4E49\>\<#FF1A\><hlink|\<#4EA4\>\<#4E92\>\<#5F0F\>\<#8BB2\>\<#4E49\>|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/course01.tm>
+    \<#8BB2\>\<#4E49\>\<#FF1A\><hlink|\<#4EA4\>\<#4E92\>\<#5F0F\>\<#8BB2\>\<#4E49\>01|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/course01.tm>
 
     \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#5E7B\>\<#706F\>\<#7247\>|slide01.tm>
 
@@ -63,3 +78,17 @@
 
 <initial|<\collection>
 </collection>>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|<with|mode|<quote|math>|<rigid|\<circ\>>>|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|idx>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#6587\>\<#4EF6\>>|<with|font-family|<quote|ss>|\<#5BFC\>\<#51FA\>>|<with|font-family|<quote|ss>|\<#53EF\>\<#7F16\>\<#8F91\>PDF>>|<pageref|auto-1>>
+    </associate>
+  </collection>
+</auxiliary>
