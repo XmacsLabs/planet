@@ -4,7 +4,7 @@
 
 <\body>
   <screens|<\shown>
-    <doc-data|<doc-title|Ordinary Differential
+    \ <doc-data|<doc-title|Ordinary Differential
     Equations>|<doc-author|<author-data|<author-name|Yuliang Wang>>>>
 
     <chapter*|Chapter 2: First Order Differential Equations>

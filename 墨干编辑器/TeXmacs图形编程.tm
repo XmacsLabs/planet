@@ -5,72 +5,73 @@
 <\body>
   \;
 
-  <doc-data|<doc-title|<TeXmacs>图形编程>|<doc-author|<author-data|<author-name|沈浪熊猫儿>|<author-email|shenda@ustc.edu>>>|<doc-date|<date>>>
+  <doc-data|<doc-title|<TeXmacs>\<#56FE\>\<#5F62\>\<#7F16\>\<#7A0B\>>|<doc-author|<author-data|<author-name|\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>>|<author-email|shenda@ustc.edu>>>|<doc-date|<date>>>
 
-  <section|简介>
+  <section|\<#7B80\>\<#4ECB\>>
 
-  因为<TeXmacs>的介绍资料不多，所以打算边学边写，写一系列用<name|Scheme>作图的小文章。早先我在自己的博客上写过两篇：使用Scheme在<TeXmacs>中生成图片<\footnote>
+  \<#56E0\>\<#4E3A\><TeXmacs>\<#7684\>\<#4ECB\>\<#7ECD\>\<#8D44\>\<#6599\>\<#4E0D\>\<#591A\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#6253\>\<#7B97\>\<#8FB9\>\<#5B66\>\<#8FB9\>\<#5199\>\<#FF0C\>\<#5199\>\<#4E00\>\<#7CFB\>\<#5217\>\<#7528\><name|Scheme>\<#4F5C\>\<#56FE\>\<#7684\>\<#5C0F\>\<#6587\>\<#7AE0\>\<#3002\>\<#65E9\>\<#5148\>\<#6211\>\<#5728\>\<#81EA\>\<#5DF1\>\<#7684\>\<#535A\>\<#5BA2\>\<#4E0A\>\<#5199\>\<#8FC7\>\<#4E24\>\<#7BC7\>\<#FF1A\>\<#4F7F\>\<#7528\>Scheme\<#5728\><TeXmacs>\<#4E2D\>\<#751F\>\<#6210\>\<#56FE\>\<#7247\><\footnote>
     <href|http://sadhen.com/blog/2014/11/04/texmacs-graphics.html>
-  </footnote>和使用Scheme在<TeXmacs>中画内核代码结构体关系图<\footnote>
+  </footnote>\<#548C\>\<#4F7F\>\<#7528\>Scheme\<#5728\><TeXmacs>\<#4E2D\>\<#753B\>\<#5185\>\<#6838\>\<#4EE3\>\<#7801\>\<#7ED3\>\<#6784\>\<#4F53\>\<#5173\>\<#7CFB\>\<#56FE\><\footnote>
     <href|http://sadhen.com/blog/2014/11/09/texmacs-graphics-struct.html>
-  </footnote>，对其图形系统的文档树有一个大概的了解。这次打算系统性地介绍作图方法并构建用<name|Scheme>编程作图的配置文件。
+  </footnote>\<#FF0C\>\<#5BF9\>\<#5176\>\<#56FE\>\<#5F62\>\<#7CFB\>\<#7EDF\>\<#7684\>\<#6587\>\<#6863\>\<#6811\>\<#6709\>\<#4E00\>\<#4E2A\>\<#5927\>\<#6982\>\<#7684\>\<#4E86\>\<#89E3\>\<#3002\>\<#8FD9\>\<#6B21\>\<#6253\>\<#7B97\>\<#7CFB\>\<#7EDF\>\<#6027\>\<#5730\>\<#4ECB\>\<#7ECD\>\<#4F5C\>\<#56FE\>\<#65B9\>\<#6CD5\>\<#5E76\>\<#6784\>\<#5EFA\>\<#7528\><name|Scheme>\<#7F16\>\<#7A0B\>\<#4F5C\>\<#56FE\>\<#7684\>\<#914D\>\<#7F6E\>\<#6587\>\<#4EF6\>\<#3002\>
 
-  本文对读者的基本要求就是熟悉<TeXmacs>的基本使用和<name|Scheme>语言的基础。<TeXmacs>相关的操作和内部原理，我尽量会使用自己的语言阐述清楚，或者给出<TeXmacs>官方文档的具体位置。另外，本文原始文档托管在Github<\footnote>
+  \<#672C\>\<#6587\>\<#5BF9\>\<#8BFB\>\<#8005\>\<#7684\>\<#57FA\>\<#672C\>\<#8981\>\<#6C42\>\<#5C31\>\<#662F\>\<#719F\>\<#6089\><TeXmacs>\<#7684\>\<#57FA\>\<#672C\>\<#4F7F\>\<#7528\>\<#548C\><name|Scheme>\<#8BED\>\<#8A00\>\<#7684\>\<#57FA\>\<#7840\>\<#3002\><TeXmacs>\<#76F8\>\<#5173\>\<#7684\>\<#64CD\>\<#4F5C\>\<#548C\>\<#5185\>\<#90E8\>\<#539F\>\<#7406\>\<#FF0C\>\<#6211\>\<#5C3D\>\<#91CF\>\<#4F1A\>\<#4F7F\>\<#7528\>\<#81EA\>\<#5DF1\>\<#7684\>\<#8BED\>\<#8A00\>\<#9610\>\<#8FF0\>\<#6E05\>\<#695A\>\<#FF0C\>\<#6216\>\<#8005\>\<#7ED9\>\<#51FA\><TeXmacs>\<#5B98\>\<#65B9\>\<#6587\>\<#6863\>\<#7684\>\<#5177\>\<#4F53\>\<#4F4D\>\<#7F6E\>\<#3002\>\<#53E6\>\<#5916\>\<#FF0C\>\<#672C\>\<#6587\>\<#539F\>\<#59CB\>\<#6587\>\<#6863\>\<#6258\>\<#7BA1\>\<#5728\>Github<\footnote>
     <href|https://github.com/sadhen/articles-and-notes-by-TeXmacs>
-  </footnote>上，所使用的<TeXmacs>版本为<TeXmacs-version>。
+  </footnote>\<#4E0A\>\<#FF0C\>\<#6240\>\<#4F7F\>\<#7528\>\<#7684\><TeXmacs>\<#7248\>\<#672C\>\<#4E3A\><TeXmacs-version>\<#3002\>
 
   <with|ornament-color|#efefef|<\ornamented>
     <\remark>
-      由于文中使用了大量交互式<name|Scheme>进程，在原始文档中才能够对其求值并作图，所以请使用<TeXmacs>阅读原始文档。
+      \<#7531\>\<#4E8E\>\<#6587\>\<#4E2D\>\<#4F7F\>\<#7528\>\<#4E86\>\<#5927\>\<#91CF\>\<#4EA4\>\<#4E92\>\<#5F0F\><name|Scheme>\<#8FDB\>\<#7A0B\>\<#FF0C\>\<#5728\>\<#539F\>\<#59CB\>\<#6587\>\<#6863\>\<#4E2D\>\<#624D\>\<#80FD\>\<#591F\>\<#5BF9\>\<#5176\>\<#6C42\>\<#503C\>\<#5E76\>\<#4F5C\>\<#56FE\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#8BF7\>\<#4F7F\>\<#7528\><TeXmacs>\<#9605\>\<#8BFB\>\<#539F\>\<#59CB\>\<#6587\>\<#6863\>\<#3002\>
     </remark>
   </ornamented>>
 
-  本文的交互式代码的执行假定读者是一次性从上到下读完全文，当然这是不现实的，所以附录的小贴士建议优先阅读，以方便你第二次阅读本文中末节时快速进入状态。
+  \<#672C\>\<#6587\>\<#7684\>\<#4EA4\>\<#4E92\>\<#5F0F\>\<#4EE3\>\<#7801\>\<#7684\>\<#6267\>\<#884C\>\<#5047\>\<#5B9A\>\<#8BFB\>\<#8005\>\<#662F\>\<#4E00\>\<#6B21\>\<#6027\>\<#4ECE\>\<#4E0A\>\<#5230\>\<#4E0B\>\<#8BFB\>\<#5B8C\>\<#5168\>\<#6587\>\<#FF0C\>\<#5F53\>\<#7136\>\<#8FD9\>\<#662F\>\<#4E0D\>\<#73B0\>\<#5B9E\>\<#7684\>\<#FF0C\>\<#6240\>\<#4EE5\>\<#9644\>\<#5F55\>\<#7684\>\<#5C0F\>\<#8D34\>\<#58EB\>\<#5EFA\>\<#8BAE\>\<#4F18\>\<#5148\>\<#9605\>\<#8BFB\>\<#FF0C\>\<#4EE5\>\<#65B9\>\<#4FBF\>\<#4F60\>\<#7B2C\>\<#4E8C\>\<#6B21\>\<#9605\>\<#8BFB\>\<#672C\>\<#6587\>\<#4E2D\>\<#672B\>\<#8282\>\<#65F6\>\<#5FEB\>\<#901F\>\<#8FDB\>\<#5165\>\<#72B6\>\<#6001\>\<#3002\>
 
-  <section|基本原理>
+  <section|\<#57FA\>\<#672C\>\<#539F\>\<#7406\>>
 
-  首先，假设我们已经了解到：一篇<TeXmacs>文档实际上就是一长串<name|Scheme>代码，通过渲染引擎的加工，这些代码得以展现在我们笔记本的屏幕上。这些代码我们称之为<TeXmacs>
-  <name|Scheme>。为了区分，我们将在<name|Guile>中运行的代码称为<name|Guile>
-  <name|Scheme>。
+  \<#9996\>\<#5148\>\<#FF0C\>\<#5047\>\<#8BBE\>\<#6211\>\<#4EEC\>\<#5DF2\>\<#7ECF\>\<#4E86\>\<#89E3\>\<#5230\>\<#FF1A\>\<#4E00\>\<#7BC7\><TeXmacs>\<#6587\>\<#6863\>\<#5B9E\>\<#9645\>\<#4E0A\>\<#5C31\>\<#662F\>\<#4E00\>\<#957F\>\<#4E32\><name|Scheme>\<#4EE3\>\<#7801\>\<#FF0C\>\<#901A\>\<#8FC7\>\<#6E32\>\<#67D3\>\<#5F15\>\<#64CE\>\<#7684\>\<#52A0\>\<#5DE5\>\<#FF0C\>\<#8FD9\>\<#4E9B\>\<#4EE3\>\<#7801\>\<#5F97\>\<#4EE5\>\<#5C55\>\<#73B0\>\<#5728\>\<#6211\>\<#4EEC\>\<#7B14\>\<#8BB0\>\<#672C\>\<#7684\>\<#5C4F\>\<#5E55\>\<#4E0A\>\<#3002\>\<#8FD9\>\<#4E9B\>\<#4EE3\>\<#7801\>\<#6211\>\<#4EEC\>\<#79F0\>\<#4E4B\>\<#4E3A\><TeXmacs>
+  <name|Scheme>\<#3002\>\<#4E3A\>\<#4E86\>\<#533A\>\<#5206\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5C06\>\<#5728\><name|Guile>\<#4E2D\>\<#8FD0\>\<#884C\>\<#7684\>\<#4EE3\>\<#7801\>\<#79F0\>\<#4E3A\><name|Guile>
+  <name|Scheme>\<#3002\>
 
-  通过<menu|insert|session|Scheme>，我们得到一个<name|Scheme>
-  <name|REPL>。我们定义第一个函数
+  \<#901A\>\<#8FC7\><menu|insert|session|Scheme>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5F97\>\<#5230\>\<#4E00\>\<#4E2A\><name|Scheme>
+  <name|REPL>\<#3002\>\<#6211\>\<#4EEC\>\<#5B9A\>\<#4E49\>\<#7B2C\>\<#4E00\>\<#4E2A\>\<#51FD\>\<#6570\>
 
   <\session|scheme|default>
     <\input|Scheme] >
       (define (plot l) (stree-\<gtr\>tree l))
-      ;按下回车，定义这个函数
+      ;\<#6309\>\<#4E0B\>\<#56DE\>\<#8F66\>\<#FF0C\>\<#5B9A\>\<#4E49\>\<#8FD9\>\<#4E2A\>\<#51FD\>\<#6570\>
     </input>
   </session>
 
-  一串<name|Scheme>代码对应的结构是一棵树，这里的<scm|stree-\<gtr\>tree>就是将<name|Guile>
-  <scheme>树转变成<TeXmacs> <scheme>树，以便在文档中显示。比如，我们知道<frac|1|2>的内部表示实际上就是<scm|(frac
-  1 2)>。于是，在<name|REPL>中，我们就可以通过
+  \<#4E00\>\<#4E32\><name|Scheme>\<#4EE3\>\<#7801\>\<#5BF9\>\<#5E94\>\<#7684\>\<#7ED3\>\<#6784\>\<#662F\>\<#4E00\>\<#68F5\>\<#6811\>\<#FF0C\>\<#8FD9\>\<#91CC\>\<#7684\><scm|stree-\<gtr\>tree>\<#5C31\>\<#662F\>\<#5C06\><name|Guile>
+  <scheme>\<#6811\>\<#8F6C\>\<#53D8\>\<#6210\><TeXmacs>
+  <scheme>\<#6811\>\<#FF0C\>\<#4EE5\>\<#4FBF\>\<#5728\>\<#6587\>\<#6863\>\<#4E2D\>\<#663E\>\<#793A\>\<#3002\>\<#6BD4\>\<#5982\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#77E5\>\<#9053\><frac|1|2>\<#7684\>\<#5185\>\<#90E8\>\<#8868\>\<#793A\>\<#5B9E\>\<#9645\>\<#4E0A\>\<#5C31\>\<#662F\><scm|(frac
+  1 2)>\<#3002\>\<#4E8E\>\<#662F\>\<#FF0C\>\<#5728\><name|REPL>\<#4E2D\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\>
 
   <\session|scheme|default>
     <\folded-io|Scheme] >
-      (plot `(frac 1 2)) ;光标放在这行上，按下回车就能得到1/2
+      (plot `(frac 1 2)) ;\<#5149\>\<#6807\>\<#653E\>\<#5728\>\<#8FD9\>\<#884C\>\<#4E0A\>\<#FF0C\>\<#6309\>\<#4E0B\>\<#56DE\>\<#8F66\>\<#5C31\>\<#80FD\>\<#5F97\>\<#5230\>1/2
     <|folded-io>
       \;
     </folded-io>
   </session>
 
-  <subsection|原语>
+  <subsection|\<#539F\>\<#8BED\>>
 
-  上面介绍的原语<verbatim|frac>实际上用于数学模式，下面我们介绍图形模式下的原语。先全部列出来：
+  \<#4E0A\>\<#9762\>\<#4ECB\>\<#7ECD\>\<#7684\>\<#539F\>\<#8BED\><verbatim|frac>\<#5B9E\>\<#9645\>\<#4E0A\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF0C\>\<#4E0B\>\<#9762\>\<#6211\>\<#4EEC\>\<#4ECB\>\<#7ECD\>\<#56FE\>\<#5F62\>\<#6A21\>\<#5F0F\>\<#4E0B\>\<#7684\>\<#539F\>\<#8BED\>\<#3002\>\<#5148\>\<#5168\>\<#90E8\>\<#5217\>\<#51FA\>\<#6765\>\<#FF1A\>
 
   <\big-table|<tabular|<tformat|<table|<row|<cell|>>>>><block*|<tformat|<cwith|1|-1|1|-1|cell-hyphen|c>|<table|<row|<\cell>
-    原语
+    \<#539F\>\<#8BED\>
   </cell>|<\cell>
-    示例
+    \<#793A\>\<#4F8B\>
   </cell>|<\cell>
-    功能
+    \<#529F\>\<#80FD\>
   </cell>>|<row|<\cell>
     <markup|point>
   </cell>|<\cell>
     <verbatim|<code*|(point \P0\Q \P0\Q)>>
   </cell>|<\cell>
-    坐标(0,0)处的一个点
+    \<#5750\>\<#6807\>(0,0)\<#5904\>\<#7684\>\<#4E00\>\<#4E2A\>\<#70B9\>
   </cell>>|<row|<\cell>
     <markup|line>
   </cell>|<\cell>
@@ -82,7 +83,7 @@
   </cell>|<\cell>
     (0,0)<math|\<rightarrow\>>(0,1)<math|\<rightarrow\>>(1,1)
 
-    的一条折线
+    \<#7684\>\<#4E00\>\<#6761\>\<#6298\>\<#7EBF\>
   </cell>>|<row|<\cell>
     <markup|cline>
   </cell>|<\cell>
@@ -94,7 +95,7 @@
   </cell>|<\cell>
     <math|(0,0)\<rightarrow\>(0,1)\<rightarrow\>(1,1)\<rightarrow\>(0,0)>
 
-    的一条闭合折线
+    \<#7684\>\<#4E00\>\<#6761\>\<#95ED\>\<#5408\>\<#6298\>\<#7EBF\>
   </cell>>|<row|<\cell>
     <markup|spline>
   </cell>|<\cell>
@@ -106,7 +107,7 @@
   </cell>|<\cell>
     <math|(0,0)\<rightarrow\>(0,1)\<rightarrow\>(1,1)>
 
-    的一条样条曲线
+    \<#7684\>\<#4E00\>\<#6761\>\<#6837\>\<#6761\>\<#66F2\>\<#7EBF\>
   </cell>>|<row|<\cell>
     <markup|cspline>
   </cell>|<\cell>
@@ -118,7 +119,7 @@
   </cell>|<\cell>
     <math|(0,0)\<rightarrow\>(0,1)\<rightarrow\>(1,1)\<rightarrow\>(0,0)>
 
-    的一条闭合样条曲线
+    \<#7684\>\<#4E00\>\<#6761\>\<#95ED\>\<#5408\>\<#6837\>\<#6761\>\<#66F2\>\<#7EBF\>
   </cell>>|<row|<\cell>
     <markup|arc>
   </cell>|<\cell>
@@ -128,7 +129,7 @@
       (point \P1\Q \P1\Q))
     </code*>
   </cell>|<\cell>
-    过这三点的一条弧
+    \<#8FC7\>\<#8FD9\>\<#4E09\>\<#70B9\>\<#7684\>\<#4E00\>\<#6761\>\<#5F27\>
   </cell>>|<row|<\cell>
     <markup|carc>
   </cell>|<\cell>
@@ -138,7 +139,7 @@
       (point \P1\Q \P1\Q))
     </code*>
   </cell>|<\cell>
-    过这三点的一个圆
+    \<#8FC7\>\<#8FD9\>\<#4E09\>\<#70B9\>\<#7684\>\<#4E00\>\<#4E2A\>\<#5706\>
   </cell>>|<row|<\cell>
     <markup|text-at>
   </cell>|<\cell>
@@ -148,30 +149,30 @@
       (point \P0\Q \P0\Q))
     </code*>
   </cell>|<\cell>
-    这个原语的重要之处在于提
+    \<#8FD9\>\<#4E2A\>\<#539F\>\<#8BED\>\<#7684\>\<#91CD\>\<#8981\>\<#4E4B\>\<#5904\>\<#5728\>\<#4E8E\>\<#63D0\>
 
-    供了一种在图片上放置
+    \<#4F9B\>\<#4E86\>\<#4E00\>\<#79CD\>\<#5728\>\<#56FE\>\<#7247\>\<#4E0A\>\<#653E\>\<#7F6E\>
 
-    图片的方法，放在其上
+    \<#56FE\>\<#7247\>\<#7684\>\<#65B9\>\<#6CD5\>\<#FF0C\>\<#653E\>\<#5728\>\<#5176\>\<#4E0A\>
 
-    的图片所处的位置是点
+    \<#7684\>\<#56FE\>\<#7247\>\<#6240\>\<#5904\>\<#7684\>\<#4F4D\>\<#7F6E\>\<#662F\>\<#70B9\>
 
-    (0,0)的右边，其竖直方向
+    (0,0)\<#7684\>\<#53F3\>\<#8FB9\>\<#FF0C\>\<#5176\>\<#7AD6\>\<#76F4\>\<#65B9\>\<#5411\>
 
-    上的对称轴正好过点(0,0)
+    \<#4E0A\>\<#7684\>\<#5BF9\>\<#79F0\>\<#8F74\>\<#6B63\>\<#597D\>\<#8FC7\>\<#70B9\>(0,0)
   </cell>>>>>>
     \;
   </big-table>
 
-  接着，我们在这些原语<\footnote>
-    这些原语的代码实现可以在<verbatim|src/Graphics/Types/>下找到
-  </footnote>的基础上构建作图所需的基本元素。首先是点，线段，矩形和圆：
+  \<#63A5\>\<#7740\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5728\>\<#8FD9\>\<#4E9B\>\<#539F\>\<#8BED\><\footnote>
+    \<#8FD9\>\<#4E9B\>\<#539F\>\<#8BED\>\<#7684\>\<#4EE3\>\<#7801\>\<#5B9E\>\<#73B0\>\<#53EF\>\<#4EE5\>\<#5728\><verbatim|src/Graphics/Types/>\<#4E0B\>\<#627E\>\<#5230\>
+  </footnote>\<#7684\>\<#57FA\>\<#7840\>\<#4E0A\>\<#6784\>\<#5EFA\>\<#4F5C\>\<#56FE\>\<#6240\>\<#9700\>\<#7684\>\<#57FA\>\<#672C\>\<#5143\>\<#7D20\>\<#3002\>\<#9996\>\<#5148\>\<#662F\>\<#70B9\>\<#FF0C\>\<#7EBF\>\<#6BB5\>\<#FF0C\>\<#77E9\>\<#5F62\>\<#548C\>\<#5706\>\<#FF1A\>
 
   <\session|scheme|default>
     <\input|Scheme] >
       (define (point x y)
 
-      \ \ ; number-\<gtr\>string的作用是将树变成文档中表示数据的字符串
+      \ \ ; number-\<gtr\>string\<#7684\>\<#4F5C\>\<#7528\>\<#662F\>\<#5C06\>\<#6811\>\<#53D8\>\<#6210\>\<#6587\>\<#6863\>\<#4E2D\>\<#8868\>\<#793A\>\<#6570\>\<#636E\>\<#7684\>\<#5B57\>\<#7B26\>\<#4E32\>
 
       \ \ `(point ,(number-\<gtr\>string x) ,(number-\<gtr\>string y)))
     </input>
@@ -224,7 +225,7 @@
     </input>
   </session>
 
-  用<verbatim|plot>绘制点、矩形和圆：
+  \<#7528\><verbatim|plot>\<#7ED8\>\<#5236\>\<#70B9\>\<#3001\>\<#77E9\>\<#5F62\>\<#548C\>\<#5706\>\<#FF1A\>
 
   <\session|scheme|default>
     <\unfolded-io|Scheme] >
@@ -246,9 +247,9 @@
     </unfolded-io>
   </session>
 
-  <subsection|操纵样式属性>
+  <subsection|\<#64CD\>\<#7EB5\>\<#6837\>\<#5F0F\>\<#5C5E\>\<#6027\>>
 
-  使用<markup|with>原语可以给<TeXmacs>对象附上各种属性。比如
+  \<#4F7F\>\<#7528\><markup|with>\<#539F\>\<#8BED\>\<#53EF\>\<#4EE5\>\<#7ED9\><TeXmacs>\<#5BF9\>\<#8C61\>\<#9644\>\<#4E0A\>\<#5404\>\<#79CD\>\<#5C5E\>\<#6027\>\<#3002\>\<#6BD4\>\<#5982\>
 
   <\session|scheme|default>
     <\unfolded-io|Scheme] >
@@ -259,7 +260,7 @@
 
     <\unfolded-io|Scheme] >
       (plot `(with arrow-begin "\<less\>gtr\<gtr\>" dash-style "11100"
-      ，(line (point 0 1) (point 0 0) (point 1 1))))
+      \<#FF0C\>(line (point 0 1) (point 0 0) (point 1 1))))
     <|unfolded-io>
       <text|<with|arrow-begin|\<gtr\>|dash-style|11100|<line|<point|0|1>|<point|0|0>|<point|1|1>>>>
     </unfolded-io>
@@ -271,54 +272,54 @@
     </unfolded-io>
   </session>
 
-  根据源码<\footnote>
+  \<#6839\>\<#636E\>\<#6E90\>\<#7801\><\footnote>
     <verbatim|TeXmacs/progs/graphics/graphics-drd.scm>
-  </footnote>中的定义，可以总结出：
+  </footnote>\<#4E2D\>\<#7684\>\<#5B9A\>\<#4E49\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#603B\>\<#7ED3\>\<#51FA\>\<#FF1A\>
 
   <big-table|<block*|<tformat|<cwith|1|-1|1|-1|cell-hyphen|c>|<cwith|2|2|2|2|cell-row-span|2>|<cwith|2|2|2|2|cell-col-span|1>|<cwith|8|8|2|2|cell-row-span|2>|<cwith|8|8|2|2|cell-col-span|1>|<cwith|1|-1|1|-1|cell-vcorrect|b>|<table|<row|<\cell>
-    属性
+    \<#5C5E\>\<#6027\>
   </cell>|<\cell>
-    值
+    \<#503C\>
   </cell>|<\cell>
-    作用
+    \<#4F5C\>\<#7528\>
   </cell>>|<row|<\cell>
     color
   </cell>|<\cell>
     \;
 
-    颜色，如<verbatim|"red">，<verbatim|"#eeeee">
+    \<#989C\>\<#8272\>\<#FF0C\>\<#5982\><verbatim|"red">\<#FF0C\><verbatim|"#eeeee">
   </cell>|<\cell>
-    对象本身的颜色
+    \<#5BF9\>\<#8C61\>\<#672C\>\<#8EAB\>\<#7684\>\<#989C\>\<#8272\>
   </cell>>|<row|<\cell>
     fill-color
   </cell>|<\cell>
     \;
   </cell>|<\cell>
-    填充色
+    \<#586B\>\<#5145\>\<#8272\>
   </cell>>|<row|<\cell>
     magnify
   </cell>|<\cell>
-    浮点数，如<verbatim|"1.1">
+    \<#6D6E\>\<#70B9\>\<#6570\>\<#FF0C\>\<#5982\><verbatim|"1.1">
   </cell>|<\cell>
-    放大或缩小的倍率
+    \<#653E\>\<#5927\>\<#6216\>\<#7F29\>\<#5C0F\>\<#7684\>\<#500D\>\<#7387\>
   </cell>>|<row|<\cell>
     opacity
   </cell>|<\cell>
-    百分比，如<verbatim|"100%">
+    \<#767E\>\<#5206\>\<#6BD4\>\<#FF0C\>\<#5982\><verbatim|"100%">
   </cell>|<\cell>
-    透明度
+    \<#900F\>\<#660E\>\<#5EA6\>
   </cell>>|<row|<\cell>
     point-style
   </cell>|<\cell>
     <verbatim|default,round,square,diamond,triangle,star>
   </cell>|<\cell>
-    点的样式
+    \<#70B9\>\<#7684\>\<#6837\>\<#5F0F\>
   </cell>>|<row|<\cell>
     dash-style
   </cell>|<\cell>
     <verbatim|"10","11100","1111010">
   </cell>|<\cell>
-    线的样式
+    \<#7EBF\>\<#7684\>\<#6837\>\<#5F0F\>
   </cell>>|<row|<\cell>
     arrow-begin
   </cell>|<\cell>
@@ -328,19 +329,19 @@
 
     \;
   </cell>|<\cell>
-    开始处的箭头
+    \<#5F00\>\<#59CB\>\<#5904\>\<#7684\>\<#7BAD\>\<#5934\>
   </cell>>|<row|<\cell>
     arrow-end
   </cell>|<\cell>
     \;
   </cell>|<\cell>
-    结束处的箭头
-  </cell>>>>>|部分对象属性>
+    \<#7ED3\>\<#675F\>\<#5904\>\<#7684\>\<#7BAD\>\<#5934\>
+  </cell>>>>>|\<#90E8\>\<#5206\>\<#5BF9\>\<#8C61\>\<#5C5E\>\<#6027\>>
 
-  光看表格中的总结不免失之直观，推荐阅读<menu|help|manual|内置作图工具>这章中样式属性详述这一节。
+  \<#5149\>\<#770B\>\<#8868\>\<#683C\>\<#4E2D\>\<#7684\>\<#603B\>\<#7ED3\>\<#4E0D\>\<#514D\>\<#5931\>\<#4E4B\>\<#76F4\>\<#89C2\>\<#FF0C\>\<#63A8\>\<#8350\>\<#9605\>\<#8BFB\><menu|help|manual|\<#5185\>\<#7F6E\>\<#4F5C\>\<#56FE\>\<#5DE5\>\<#5177\>>\<#8FD9\>\<#7AE0\>\<#4E2D\>\<#6837\>\<#5F0F\>\<#5C5E\>\<#6027\>\<#8BE6\>\<#8FF0\>\<#8FD9\>\<#4E00\>\<#8282\>\<#3002\>
 
-  下面，定义一些函数，方便我们操纵上一节中点、圆和矩形的样式。首先是颜色，我们定义<verbatim|fill>来设置背景色，定义<verbatim|colorize>来设置前景色。粗糙的想法是在图形对象前增加<markup|with>标签以及相应的属性，<em|但是如果我们对同一个对象增加了许多次<markup|with>标签会怎样呢？>
-  这个问题可以用函数<verbatim|merge-with>解决，另外我们定义<verbatim|decorate>来设置任意属性：
+  \<#4E0B\>\<#9762\>\<#FF0C\>\<#5B9A\>\<#4E49\>\<#4E00\>\<#4E9B\>\<#51FD\>\<#6570\>\<#FF0C\>\<#65B9\>\<#4FBF\>\<#6211\>\<#4EEC\>\<#64CD\>\<#7EB5\>\<#4E0A\>\<#4E00\>\<#8282\>\<#4E2D\>\<#70B9\>\<#3001\>\<#5706\>\<#548C\>\<#77E9\>\<#5F62\>\<#7684\>\<#6837\>\<#5F0F\>\<#3002\>\<#9996\>\<#5148\>\<#662F\>\<#989C\>\<#8272\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5B9A\>\<#4E49\><verbatim|fill>\<#6765\>\<#8BBE\>\<#7F6E\>\<#80CC\>\<#666F\>\<#8272\>\<#FF0C\>\<#5B9A\>\<#4E49\><verbatim|colorize>\<#6765\>\<#8BBE\>\<#7F6E\>\<#524D\>\<#666F\>\<#8272\>\<#3002\>\<#7C97\>\<#7CD9\>\<#7684\>\<#60F3\>\<#6CD5\>\<#662F\>\<#5728\>\<#56FE\>\<#5F62\>\<#5BF9\>\<#8C61\>\<#524D\>\<#589E\>\<#52A0\><markup|with>\<#6807\>\<#7B7E\>\<#4EE5\>\<#53CA\>\<#76F8\>\<#5E94\>\<#7684\>\<#5C5E\>\<#6027\>\<#FF0C\><em|\<#4F46\>\<#662F\>\<#5982\>\<#679C\>\<#6211\>\<#4EEC\>\<#5BF9\>\<#540C\>\<#4E00\>\<#4E2A\>\<#5BF9\>\<#8C61\>\<#589E\>\<#52A0\>\<#4E86\>\<#8BB8\>\<#591A\>\<#6B21\><markup|with>\<#6807\>\<#7B7E\>\<#4F1A\>\<#600E\>\<#6837\>\<#5462\>\<#FF1F\>>
+  \<#8FD9\>\<#4E2A\>\<#95EE\>\<#9898\>\<#53EF\>\<#4EE5\>\<#7528\>\<#51FD\>\<#6570\><verbatim|merge-with>\<#89E3\>\<#51B3\>\<#FF0C\>\<#53E6\>\<#5916\>\<#6211\>\<#4EEC\>\<#5B9A\>\<#4E49\><verbatim|decorate>\<#6765\>\<#8BBE\>\<#7F6E\>\<#4EFB\>\<#610F\>\<#5C5E\>\<#6027\>\<#FF1A\>
 
   <\session|scheme|default>
     <\input|Scheme] >
@@ -459,17 +460,17 @@
     </unfolded-io>
   </session>
 
-  <subsection|摆弄画布>
+  <subsection|\<#6446\>\<#5F04\>\<#753B\>\<#5E03\>>
 
-  前文所作之图，我们都只是将图形对象生成出来<TeXmacs>文档树放在<scheme>进程的输出上，我们观察到坐标的原点就在文档横截线的中点上。用光标选中这个图案，可以看到左边的一大截空白。在上一节作出的箭头图案前输入了单词left后，你可以清晰地看到这些空白。
+  \<#524D\>\<#6587\>\<#6240\>\<#4F5C\>\<#4E4B\>\<#56FE\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#90FD\>\<#53EA\>\<#662F\>\<#5C06\>\<#56FE\>\<#5F62\>\<#5BF9\>\<#8C61\>\<#751F\>\<#6210\>\<#51FA\>\<#6765\><TeXmacs>\<#6587\>\<#6863\>\<#6811\>\<#653E\>\<#5728\><scheme>\<#8FDB\>\<#7A0B\>\<#7684\>\<#8F93\>\<#51FA\>\<#4E0A\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#89C2\>\<#5BDF\>\<#5230\>\<#5750\>\<#6807\>\<#7684\>\<#539F\>\<#70B9\>\<#5C31\>\<#5728\>\<#6587\>\<#6863\>\<#6A2A\>\<#622A\>\<#7EBF\>\<#7684\>\<#4E2D\>\<#70B9\>\<#4E0A\>\<#3002\>\<#7528\>\<#5149\>\<#6807\>\<#9009\>\<#4E2D\>\<#8FD9\>\<#4E2A\>\<#56FE\>\<#6848\>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#770B\>\<#5230\>\<#5DE6\>\<#8FB9\>\<#7684\>\<#4E00\>\<#5927\>\<#622A\>\<#7A7A\>\<#767D\>\<#3002\>\<#5728\>\<#4E0A\>\<#4E00\>\<#8282\>\<#4F5C\>\<#51FA\>\<#7684\>\<#7BAD\>\<#5934\>\<#56FE\>\<#6848\>\<#524D\>\<#8F93\>\<#5165\>\<#4E86\>\<#5355\>\<#8BCD\>left\<#540E\>\<#FF0C\>\<#4F60\>\<#53EF\>\<#4EE5\>\<#6E05\>\<#6670\>\<#5730\>\<#770B\>\<#5230\>\<#8FD9\>\<#4E9B\>\<#7A7A\>\<#767D\>\<#3002\>
 
   left<with|arrow-end|\|\<gtr\>|<line|<point|-2|0>|<point|0|0>|<point|1|1>>>
 
-  由此可以知道，在没有画布的情况下，<TeXmacs>会分配一个动态大小的画布，以适应图形的尺寸。
+  \<#7531\>\<#6B64\>\<#53EF\>\<#4EE5\>\<#77E5\>\<#9053\>\<#FF0C\>\<#5728\>\<#6CA1\>\<#6709\>\<#753B\>\<#5E03\>\<#7684\>\<#60C5\>\<#51B5\>\<#4E0B\>\<#FF0C\><TeXmacs>\<#4F1A\>\<#5206\>\<#914D\>\<#4E00\>\<#4E2A\>\<#52A8\>\<#6001\>\<#5927\>\<#5C0F\>\<#7684\>\<#753B\>\<#5E03\>\<#FF0C\>\<#4EE5\>\<#9002\>\<#5E94\>\<#56FE\>\<#5F62\>\<#7684\>\<#5C3A\>\<#5BF8\>\<#3002\>
 
-  前文中的图像都只是单个图形对象在默认画布上的显示。引入画布之后，我们就可以将多个图形对象叠加在同一个画布上。通过逆向工程<\footnote>
-    方法请参考附录中的小贴士
-  </footnote>，可以举出这个例子：
+  \<#524D\>\<#6587\>\<#4E2D\>\<#7684\>\<#56FE\>\<#50CF\>\<#90FD\>\<#53EA\>\<#662F\>\<#5355\>\<#4E2A\>\<#56FE\>\<#5F62\>\<#5BF9\>\<#8C61\>\<#5728\>\<#9ED8\>\<#8BA4\>\<#753B\>\<#5E03\>\<#4E0A\>\<#7684\>\<#663E\>\<#793A\>\<#3002\>\<#5F15\>\<#5165\>\<#753B\>\<#5E03\>\<#4E4B\>\<#540E\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#5C06\>\<#591A\>\<#4E2A\>\<#56FE\>\<#5F62\>\<#5BF9\>\<#8C61\>\<#53E0\>\<#52A0\>\<#5728\>\<#540C\>\<#4E00\>\<#4E2A\>\<#753B\>\<#5E03\>\<#4E0A\>\<#3002\>\<#901A\>\<#8FC7\>\<#9006\>\<#5411\>\<#5DE5\>\<#7A0B\><\footnote>
+    \<#65B9\>\<#6CD5\>\<#8BF7\>\<#53C2\>\<#8003\>\<#9644\>\<#5F55\>\<#4E2D\>\<#7684\>\<#5C0F\>\<#8D34\>\<#58EB\>
+  </footnote>\<#FF0C\>\<#53EF\>\<#4EE5\>\<#4E3E\>\<#51FA\>\<#8FD9\>\<#4E2A\>\<#4F8B\>\<#5B50\>\<#FF1A\>
 
   <\session|scheme|default>
     <\input|Scheme] >
@@ -506,11 +507,11 @@
     </unfolded-io>
   </session>
 
-  现在我们就能够用函数<verbatim|graphics>，将多个图形对象叠加在同一个画布上，而且，图形对象的顺序决定了渲染的顺序，后者会覆盖前者。如上图所示，虚线表示原来蓝色矩形的右边界，现在被红色矩形覆盖了。
+  \<#73B0\>\<#5728\>\<#6211\>\<#4EEC\>\<#5C31\>\<#80FD\>\<#591F\>\<#7528\>\<#51FD\>\<#6570\><verbatim|graphics>\<#FF0C\>\<#5C06\>\<#591A\>\<#4E2A\>\<#56FE\>\<#5F62\>\<#5BF9\>\<#8C61\>\<#53E0\>\<#52A0\>\<#5728\>\<#540C\>\<#4E00\>\<#4E2A\>\<#753B\>\<#5E03\>\<#4E0A\>\<#FF0C\>\<#800C\>\<#4E14\>\<#FF0C\>\<#56FE\>\<#5F62\>\<#5BF9\>\<#8C61\>\<#7684\>\<#987A\>\<#5E8F\>\<#51B3\>\<#5B9A\>\<#4E86\>\<#6E32\>\<#67D3\>\<#7684\>\<#987A\>\<#5E8F\>\<#FF0C\>\<#540E\>\<#8005\>\<#4F1A\>\<#8986\>\<#76D6\>\<#524D\>\<#8005\>\<#3002\>\<#5982\>\<#4E0A\>\<#56FE\>\<#6240\>\<#793A\>\<#FF0C\>\<#865A\>\<#7EBF\>\<#8868\>\<#793A\>\<#539F\>\<#6765\>\<#84DD\>\<#8272\>\<#77E9\>\<#5F62\>\<#7684\>\<#53F3\>\<#8FB9\>\<#754C\>\<#FF0C\>\<#73B0\>\<#5728\>\<#88AB\>\<#7EA2\>\<#8272\>\<#77E9\>\<#5F62\>\<#8986\>\<#76D6\>\<#4E86\>\<#3002\>
 
-  而<verbatim|geometry>函数可以控制画布的大小。注意，前文中都没有讨论长度单位这一因素。但实际上前文中所有的坐标的单位都是<verbatim|cm>。所以在指定画布的宽度和高度的时候，我们需要加上<verbatim|cm>这个单位，因为这里的默认单位不是<verbatim|cm>。
+  \<#800C\><verbatim|geometry>\<#51FD\>\<#6570\>\<#53EF\>\<#4EE5\>\<#63A7\>\<#5236\>\<#753B\>\<#5E03\>\<#7684\>\<#5927\>\<#5C0F\>\<#3002\>\<#6CE8\>\<#610F\>\<#FF0C\>\<#524D\>\<#6587\>\<#4E2D\>\<#90FD\>\<#6CA1\>\<#6709\>\<#8BA8\>\<#8BBA\>\<#957F\>\<#5EA6\>\<#5355\>\<#4F4D\>\<#8FD9\>\<#4E00\>\<#56E0\>\<#7D20\>\<#3002\>\<#4F46\>\<#5B9E\>\<#9645\>\<#4E0A\>\<#524D\>\<#6587\>\<#4E2D\>\<#6240\>\<#6709\>\<#7684\>\<#5750\>\<#6807\>\<#7684\>\<#5355\>\<#4F4D\>\<#90FD\>\<#662F\><verbatim|cm>\<#3002\>\<#6240\>\<#4EE5\>\<#5728\>\<#6307\>\<#5B9A\>\<#753B\>\<#5E03\>\<#7684\>\<#5BBD\>\<#5EA6\>\<#548C\>\<#9AD8\>\<#5EA6\>\<#7684\>\<#65F6\>\<#5019\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#9700\>\<#8981\>\<#52A0\>\<#4E0A\><verbatim|cm>\<#8FD9\>\<#4E2A\>\<#5355\>\<#4F4D\>\<#FF0C\>\<#56E0\>\<#4E3A\>\<#8FD9\>\<#91CC\>\<#7684\>\<#9ED8\>\<#8BA4\>\<#5355\>\<#4F4D\>\<#4E0D\>\<#662F\><verbatim|cm>\<#3002\>
 
-  另外，我们还可以剪裁画布，尽可能减少画布周围的空白。
+  \<#53E6\>\<#5916\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#8FD8\>\<#53EF\>\<#4EE5\>\<#526A\>\<#88C1\>\<#753B\>\<#5E03\>\<#FF0C\>\<#5C3D\>\<#53EF\>\<#80FD\>\<#51CF\>\<#5C11\>\<#753B\>\<#5E03\>\<#5468\>\<#56F4\>\<#7684\>\<#7A7A\>\<#767D\>\<#3002\>
 
   <\session|scheme|default>
     <\input|Scheme] >
@@ -535,27 +536,27 @@
     </unfolded-io>
   </session>
 
-  选中最近的这两个一样的图像，你就可以看到区别。
+  \<#9009\>\<#4E2D\>\<#6700\>\<#8FD1\>\<#7684\>\<#8FD9\>\<#4E24\>\<#4E2A\>\<#4E00\>\<#6837\>\<#7684\>\<#56FE\>\<#50CF\>\<#FF0C\>\<#4F60\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#770B\>\<#5230\>\<#533A\>\<#522B\>\<#3002\>
 
-  <section|画廊>
+  <section|\<#753B\>\<#5ECA\>>
 
-  这一章主要利用前文定义好的函数，绘制各种各样有趣的图案。
+  \<#8FD9\>\<#4E00\>\<#7AE0\>\<#4E3B\>\<#8981\>\<#5229\>\<#7528\>\<#524D\>\<#6587\>\<#5B9A\>\<#4E49\>\<#597D\>\<#7684\>\<#51FD\>\<#6570\>\<#FF0C\>\<#7ED8\>\<#5236\>\<#5404\>\<#79CD\>\<#5404\>\<#6837\>\<#6709\>\<#8DA3\>\<#7684\>\<#56FE\>\<#6848\>\<#3002\>
 
-  <subsection|金刚石图案>
+  <subsection|\<#91D1\>\<#521A\>\<#77F3\>\<#56FE\>\<#6848\>>
 
-  将半径为R的圆周n等分，然后用直线将各个等分点两两相连。
+  \<#5C06\>\<#534A\>\<#5F84\>\<#4E3A\>R\<#7684\>\<#5706\>\<#5468\>n\<#7B49\>\<#5206\>\<#FF0C\>\<#7136\>\<#540E\>\<#7528\>\<#76F4\>\<#7EBF\>\<#5C06\>\<#5404\>\<#4E2A\>\<#7B49\>\<#5206\>\<#70B9\>\<#4E24\>\<#4E24\>\<#76F8\>\<#8FDE\>\<#3002\>
 
-  <subsection|圆环图案>
+  <subsection|\<#5706\>\<#73AF\>\<#56FE\>\<#6848\>>
 
-  将半径为<math|R<rsub|1>>的圆周n等分，然后以每个等分点为圆心，以<math|R<rsub|2>>为半径画n个圆。
+  \<#5C06\>\<#534A\>\<#5F84\>\<#4E3A\><math|R<rsub|1>>\<#7684\>\<#5706\>\<#5468\>n\<#7B49\>\<#5206\>\<#FF0C\>\<#7136\>\<#540E\>\<#4EE5\>\<#6BCF\>\<#4E2A\>\<#7B49\>\<#5206\>\<#70B9\>\<#4E3A\>\<#5706\>\<#5FC3\>\<#FF0C\>\<#4EE5\><math|R<rsub|2>>\<#4E3A\>\<#534A\>\<#5F84\>\<#753B\>n\<#4E2A\>\<#5706\>\<#3002\>
 
-  <subsection|肾形图案>
+  <subsection|\<#80BE\>\<#5F62\>\<#56FE\>\<#6848\>>
 
-  <subsection|心脏形图案>
+  <subsection|\<#5FC3\>\<#810F\>\<#5F62\>\<#56FE\>\<#6848\>>
 
-  <subsection|分形图案>
+  <subsection|\<#5206\>\<#5F62\>\<#56FE\>\<#6848\>>
 
-  <subsubsection|树>
+  <subsubsection|\<#6811\>>
 
   <subsubsection|Koch snowflake<\footnote>
     <href|https://en.wikipedia.org/wiki/Koch_snowflake>
@@ -571,19 +572,19 @@
     <href|https://en.wikipedia.org/wiki/Mandelbrot_set>
   </footnote>>
 
-  <section|附录>
+  <section|\<#9644\>\<#5F55\>>
 
-  <subsection|小贴士>
+  <subsection|\<#5C0F\>\<#8D34\>\<#58EB\>>
 
-  <subsubsection|对本文所有的<scheme>表达式求值>
+  <subsubsection|\<#5BF9\>\<#672C\>\<#6587\>\<#6240\>\<#6709\>\<#7684\><scheme>\<#8868\>\<#8FBE\>\<#5F0F\>\<#6C42\>\<#503C\>>
 
-  当你刚刚用编辑器打开本文时，如果你跳到中间的某节去执行代码，很有可能会出错，因为当前的代码很有可能依赖上前文中已经出现过的函数和变量。而将前文中所有的代码都执行一遍这个操作实际上非常繁琐。启用<menu|工具|开发菜单>，将光标置于本文的某个<scheme>进程中，然后<menu|Developer|Export
-  Sessions...>就可以导出所有的代码到单个文件<verbatim|code.scm>中。然后<menu|转到|无标题文件>，开启一个<scheme>进程并输入<scm|(load
-  "/path/to/code.scm")>，回车之后，文中所有的代码就都被加载了。
+  \<#5F53\>\<#4F60\>\<#521A\>\<#521A\>\<#7528\>\<#7F16\>\<#8F91\>\<#5668\>\<#6253\>\<#5F00\>\<#672C\>\<#6587\>\<#65F6\>\<#FF0C\>\<#5982\>\<#679C\>\<#4F60\>\<#8DF3\>\<#5230\>\<#4E2D\>\<#95F4\>\<#7684\>\<#67D0\>\<#8282\>\<#53BB\>\<#6267\>\<#884C\>\<#4EE3\>\<#7801\>\<#FF0C\>\<#5F88\>\<#6709\>\<#53EF\>\<#80FD\>\<#4F1A\>\<#51FA\>\<#9519\>\<#FF0C\>\<#56E0\>\<#4E3A\>\<#5F53\>\<#524D\>\<#7684\>\<#4EE3\>\<#7801\>\<#5F88\>\<#6709\>\<#53EF\>\<#80FD\>\<#4F9D\>\<#8D56\>\<#4E0A\>\<#524D\>\<#6587\>\<#4E2D\>\<#5DF2\>\<#7ECF\>\<#51FA\>\<#73B0\>\<#8FC7\>\<#7684\>\<#51FD\>\<#6570\>\<#548C\>\<#53D8\>\<#91CF\>\<#3002\>\<#800C\>\<#5C06\>\<#524D\>\<#6587\>\<#4E2D\>\<#6240\>\<#6709\>\<#7684\>\<#4EE3\>\<#7801\>\<#90FD\>\<#6267\>\<#884C\>\<#4E00\>\<#904D\>\<#8FD9\>\<#4E2A\>\<#64CD\>\<#4F5C\>\<#5B9E\>\<#9645\>\<#4E0A\>\<#975E\>\<#5E38\>\<#7E41\>\<#7410\>\<#3002\>\<#542F\>\<#7528\><menu|\<#5DE5\>\<#5177\>|\<#5F00\>\<#53D1\>\<#83DC\>\<#5355\>>\<#FF0C\>\<#5C06\>\<#5149\>\<#6807\>\<#7F6E\>\<#4E8E\>\<#672C\>\<#6587\>\<#7684\>\<#67D0\>\<#4E2A\><scheme>\<#8FDB\>\<#7A0B\>\<#4E2D\>\<#FF0C\>\<#7136\>\<#540E\><menu|Developer|Export
+  Sessions...>\<#5C31\>\<#53EF\>\<#4EE5\>\<#5BFC\>\<#51FA\>\<#6240\>\<#6709\>\<#7684\>\<#4EE3\>\<#7801\>\<#5230\>\<#5355\>\<#4E2A\>\<#6587\>\<#4EF6\><verbatim|code.scm>\<#4E2D\>\<#3002\>\<#7136\>\<#540E\><menu|\<#8F6C\>\<#5230\>|\<#65E0\>\<#6807\>\<#9898\>\<#6587\>\<#4EF6\>>\<#FF0C\>\<#5F00\>\<#542F\>\<#4E00\>\<#4E2A\><scheme>\<#8FDB\>\<#7A0B\>\<#5E76\>\<#8F93\>\<#5165\><scm|(load
+  "/path/to/code.scm")>\<#FF0C\>\<#56DE\>\<#8F66\>\<#4E4B\>\<#540E\>\<#FF0C\>\<#6587\>\<#4E2D\>\<#6240\>\<#6709\>\<#7684\>\<#4EE3\>\<#7801\>\<#5C31\>\<#90FD\>\<#88AB\>\<#52A0\>\<#8F7D\>\<#4E86\>\<#3002\>
 
-  <subsubsection|逆向工程>
+  <subsubsection|\<#9006\>\<#5411\>\<#5DE5\>\<#7A0B\>>
 
-  <subsection|参考资料>
+  <subsection|\<#53C2\>\<#8003\>\<#8D44\>\<#6599\>>
 
   <\itemize>
     <item>A TeXmacs graphics tutorial<\footnote>
@@ -677,75 +678,76 @@
 <\auxiliary>
   <\collection>
     <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|会话>|<with|font-family|<quote|ss>|Scheme>>|<pageref|auto-3>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#4F1A\>\<#8BDD\>>|<with|font-family|<quote|ss>|Scheme>>|<pageref|auto-3>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|帮助>|<with|font-family|<quote|ss>|用户手册>|<with|font-family|<quote|ss>|内置作图工具>>|<pageref|auto-8>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#5E2E\>\<#52A9\>>|<with|font-family|<quote|ss>|\<#7528\>\<#6237\>\<#624B\>\<#518C\>>|<with|font-family|<quote|ss>|\<#5185\>\<#7F6E\>\<#4F5C\>\<#56FE\>\<#5DE5\>\<#5177\>>>|<pageref|auto-8>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|工具>|<with|font-family|<quote|ss>|开发菜单>>|<pageref|auto-23>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#5DE5\>\<#5177\>>|<with|font-family|<quote|ss>|\<#5F00\>\<#53D1\>\<#83DC\>\<#5355\>>>|<pageref|auto-23>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|开发者>|<with|font-family|<quote|ss>|Export
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#5F00\>\<#53D1\>\<#8005\>>|<with|font-family|<quote|ss>|Export
       Sessions...>>|<pageref|auto-24>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|转到>|<with|font-family|<quote|ss>|无标题文件>>|<pageref|auto-25>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#8F6C\>\<#5230\>>|<with|font-family|<quote|ss>|\<#65E0\>\<#6807\>\<#9898\>\<#6587\>\<#4EF6\>>>|<pageref|auto-25>>
     </associate>
     <\associate|table>
       <tuple|normal|<\surround|<hidden-binding|<tuple>|1>|>
         \;
       </surround>|<pageref|auto-5>>
 
-      <tuple|normal|<surround|<hidden-binding|<tuple>|2>||部分对象属性>|<pageref|auto-7>>
+      <tuple|normal|<surround|<hidden-binding|<tuple>|2>||\<#90E8\>\<#5206\>\<#5BF9\>\<#8C61\>\<#5C5E\>\<#6027\>>|<pageref|auto-7>>
     </associate>
     <\associate|toc>
-      1<space|2spc>简介 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      1<space|2spc>\<#7B80\>\<#4ECB\> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1>
 
-      2<space|2spc>基本原理 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      2<space|2spc>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>
 
-      <with|par-left|<quote|1tab>|2.1<space|2spc>原语
+      <with|par-left|<quote|1tab>|2.1<space|2spc>\<#539F\>\<#8BED\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4>>
 
-      <with|par-left|<quote|1tab>|2.2<space|2spc>操纵样式属性
+      <with|par-left|<quote|1tab>|2.2<space|2spc>\<#64CD\>\<#7EB5\>\<#6837\>\<#5F0F\>\<#5C5E\>\<#6027\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6>>
 
-      <with|par-left|<quote|1tab>|2.3<space|2spc>摆弄画布
+      <with|par-left|<quote|1tab>|2.3<space|2spc>\<#6446\>\<#5F04\>\<#753B\>\<#5E03\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9>>
 
-      3<space|2spc>画廊 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      3<space|2spc>\<#753B\>\<#5ECA\> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-10>
 
-      <with|par-left|<quote|1tab>|3.1<space|2spc>金刚石图案
+      <with|par-left|<quote|1tab>|3.1<space|2spc>\<#91D1\>\<#521A\>\<#77F3\>\<#56FE\>\<#6848\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-11>>
 
-      <with|par-left|<quote|1tab>|3.2<space|2spc>圆环图案
+      <with|par-left|<quote|1tab>|3.2<space|2spc>\<#5706\>\<#73AF\>\<#56FE\>\<#6848\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-12>>
 
-      <with|par-left|<quote|1tab>|3.3<space|2spc>肾形图案
+      <with|par-left|<quote|1tab>|3.3<space|2spc>\<#80BE\>\<#5F62\>\<#56FE\>\<#6848\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-13>>
 
-      <with|par-left|<quote|1tab>|3.4<space|2spc>心脏形图案
+      <with|par-left|<quote|1tab>|3.4<space|2spc>\<#5FC3\>\<#810F\>\<#5F62\>\<#56FE\>\<#6848\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-14>>
 
-      <with|par-left|<quote|1tab>|3.5<space|2spc>分形图案
+      <with|par-left|<quote|1tab>|3.5<space|2spc>\<#5206\>\<#5F62\>\<#56FE\>\<#6848\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15>>
 
-      <with|par-left|<quote|2tab>|3.5.1<space|2spc>树
+      <with|par-left|<quote|2tab>|3.5.1<space|2spc>\<#6811\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-16>>
 
       <with|par-left|<quote|2tab>|3.5.2<space|2spc>Koch
       snowflake<assign|footnote-nr|7><hidden-binding|<tuple>|7><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%-52A10B5C8--528F31208>|<link|hyperlink|<id|%-52A10B5C8--528F31208>|<url|#footnr-7>>|7>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%356995400-359625C80>|<link|hyperlink|<id|%356995400-359625C80>|<url|#footnr-7>>|7>.
         |<hidden-binding|<tuple|footnote-7>|7><specific|texmacs|<htab|0fn|first>>>
-          <locus|<id|%-52A10B5C8--528F31298>|<link|hyperlink|<id|%-52A10B5C8--528F31298>|<url|https://en.wikipedia.org/wiki/Koch_snowflake>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Koch_snowflake>>
+          <locus|<id|%356995400-359625D40>|<link|hyperlink|<id|%356995400-359625D40>|<url|https://en.wikipedia.org/wiki/Koch_snowflake>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Koch_snowflake>>
         </surround>>>
       </float><space|0spc><rsup|<with|font-shape|<quote|right>|<reference|footnote-7>>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
@@ -753,15 +755,15 @@
 
       <with|par-left|<quote|2tab>|3.5.3<space|2spc>Sierpinski
       carpet<assign|footnote-nr|10><hidden-binding|<tuple>|10><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%-52A10B5C8--528F31360>|<link|hyperlink|<id|%-52A10B5C8--528F31360>|<url|#footnr-10>>|10>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%356995400-359625E20>|<link|hyperlink|<id|%356995400-359625E20>|<url|#footnr-10>>|10>.
         |<hidden-binding|<tuple|footnote-10>|10><specific|texmacs|<htab|0fn|first>>>
-          <locus|<id|%-52A10B5C8--528F313F0>|<link|hyperlink|<id|%-52A10B5C8--528F313F0>|<url|https://en.wikipedia.org/wiki/Sierpinski_carpet>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Sierpinski_carpet>>
+          <locus|<id|%356995400-359625BE0>|<link|hyperlink|<id|%356995400-359625BE0>|<url|https://en.wikipedia.org/wiki/Sierpinski_carpet>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Sierpinski_carpet>>
         </surround>>>
       </float><space|0spc><rsup|<with|font-shape|<quote|right>|<reference|footnote-10>>>
       and triangle<assign|footnote-nr|11><hidden-binding|<tuple>|11><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%-52A10B5C8--528F60A28>|<link|hyperlink|<id|%-52A10B5C8--528F60A28>|<url|#footnr-11>>|11>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%356995400-359625880>|<link|hyperlink|<id|%356995400-359625880>|<url|#footnr-11>>|11>.
         |<hidden-binding|<tuple|footnote-11>|11><specific|texmacs|<htab|0fn|first>>>
-          <locus|<id|%-52A10B5C8--528F319F8>|<link|hyperlink|<id|%-52A10B5C8--528F319F8>|<url|https://en.wikipedia.org/wiki/Sierpinski_triangle>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Sierpinski_triangle>>
+          <locus|<id|%356995400-359625100>|<link|hyperlink|<id|%356995400-359625100>|<url|https://en.wikipedia.org/wiki/Sierpinski_triangle>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Sierpinski_triangle>>
         </surround>>>
       </float><space|0spc><rsup|<with|font-shape|<quote|right>|<reference|footnote-11>>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
@@ -769,30 +771,30 @@
 
       <with|par-left|<quote|2tab>|3.5.4<space|2spc>Mandelbrot
       set<assign|footnote-nr|16><hidden-binding|<tuple>|16><\float|footnote|>
-        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%-52A10B5C8--528F4F6E8>|<link|hyperlink|<id|%-52A10B5C8--528F4F6E8>|<url|#footnr-16>>|16>.
+        <with|font-size|<quote|0.771>|<with|par-mode|<quote|justify>|par-left|<quote|0cm>|par-right|<quote|0cm>|font-shape|<quote|right>|dummy|<quote|1.0fn>|dummy|<quote|7.5fn>|<\surround|<locus|<id|%356995400-359625260>|<link|hyperlink|<id|%356995400-359625260>|<url|#footnr-16>>|16>.
         |<hidden-binding|<tuple|footnote-16>|16><specific|texmacs|<htab|0fn|first>>>
-          <locus|<id|%-52A10B5C8--528F4F7A0>|<link|hyperlink|<id|%-52A10B5C8--528F4F7A0>|<url|https://en.wikipedia.org/wiki/Mandelbrot_set>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Mandelbrot_set>>
+          <locus|<id|%356995400-359625D80>|<link|hyperlink|<id|%356995400-359625D80>|<url|https://en.wikipedia.org/wiki/Mandelbrot_set>>|<with|font-family|<quote|tt>|language|<quote|verbatim>|https://en.wikipedia.org/wiki/Mandelbrot_set>>
         </surround>>>
       </float><space|0spc><rsup|<with|font-shape|<quote|right>|<reference|footnote-16>>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-19>>
 
-      4<space|2spc>附录 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      4<space|2spc>\<#9644\>\<#5F55\> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-20>
 
-      <with|par-left|<quote|1tab>|4.1<space|2spc>小贴士
+      <with|par-left|<quote|1tab>|4.1<space|2spc>\<#5C0F\>\<#8D34\>\<#58EB\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-21>>
 
-      <with|par-left|<quote|2tab>|4.1.1<space|2spc>对本文所有的<with|font-shape|<quote|small-caps>|Scheme>表达式求值
+      <with|par-left|<quote|2tab>|4.1.1<space|2spc>\<#5BF9\>\<#672C\>\<#6587\>\<#6240\>\<#6709\>\<#7684\><with|font-shape|<quote|small-caps>|Scheme>\<#8868\>\<#8FBE\>\<#5F0F\>\<#6C42\>\<#503C\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-22>>
 
-      <with|par-left|<quote|2tab>|4.1.2<space|2spc>逆向工程
+      <with|par-left|<quote|2tab>|4.1.2<space|2spc>\<#9006\>\<#5411\>\<#5DE5\>\<#7A0B\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-26>>
 
-      <with|par-left|<quote|1tab>|4.2<space|2spc>参考资料
+      <with|par-left|<quote|1tab>|4.2<space|2spc>\<#53C2\>\<#8003\>\<#8D44\>\<#6599\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-27>>
     </associate>

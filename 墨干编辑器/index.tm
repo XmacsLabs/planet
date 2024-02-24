@@ -4,19 +4,19 @@
 
 <\body>
   <\hide-preamble>
-    <assign|myspace|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨干编辑器/>
+    <assign|myspace|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>/>
 
     <assign|gitlink|<macro|name|<hlink|<arg|name>|<merge|<value|myspace>|<arg|name>|.tm>>>>
   </hide-preamble>
 
-  <doc-data|<doc-title|墨干编辑器：从入门到精通>>
+  <doc-data|<doc-title|\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#FF1A\>\<#4ECE\>\<#5165\>\<#95E8\>\<#5230\>\<#7CBE\>\<#901A\>>>
 
-  <section*|文章列表>
+  <section*|\<#6587\>\<#7AE0\>\<#5217\>\<#8868\>>
 
   <\itemize>
-    <item><gitlink|数学结构入门>
+    <item><gitlink|\<#6570\>\<#5B66\>\<#7ED3\>\<#6784\>\<#5165\>\<#95E8\>>
 
-    <item><gitlink|TeXmacs图形编程>
+    <item><gitlink|TeXmacs\<#56FE\>\<#5F62\>\<#7F16\>\<#7A0B\>>
   </itemize>
 </body>
 
@@ -35,7 +35,7 @@
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|文章列表>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6587\>\<#7AE0\>\<#5217\>\<#8868\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
     </associate>

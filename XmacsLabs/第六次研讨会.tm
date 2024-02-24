@@ -1,49 +1,51 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|seminar|chinese|doc>>
 
 <\body>
-  <doc-data|<doc-title|第五次研讨会>>
+  <doc-data|<doc-title|\<#7B2C\>\<#516D\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>>
 
-  本次研讨会记录人：沈浪熊猫儿
+  \<#672C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>\<#8BB0\>\<#5F55\>\<#4EBA\>\<#FF1A\>\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>
 
-  <section*|(15m) 用户反馈和新成员介绍>
+  <section*|(15m) \<#7528\>\<#6237\>\<#53CD\>\<#9988\>\<#548C\>\<#65B0\>\<#6210\>\<#5458\>\<#4ECB\>\<#7ECD\>>
 
   <\itemize>
-    <item>如何批注
+    <item>\<#5982\>\<#4F55\>\<#6279\>\<#6CE8\>
 
-    <item>marginal note如何使用
+    <item>marginal note\<#5982\>\<#4F55\>\<#4F7F\>\<#7528\>
 
-    <item>绘图功能和ink here的功能
+    <item>\<#7ED8\>\<#56FE\>\<#529F\>\<#80FD\>\<#548C\>ink
+    here\<#7684\>\<#529F\>\<#80FD\>
 
-    <item>快捷键
+    <item>\<#5FEB\>\<#6377\>\<#952E\>
 
-    <item>输入法自动切换
+    <item>\<#8F93\>\<#5165\>\<#6CD5\>\<#81EA\>\<#52A8\>\<#5207\>\<#6362\>
   </itemize>
 
-  <section*|(30min) 固定话题：宣传>
+  <section*|(30min) \<#56FA\>\<#5B9A\>\<#8BDD\>\<#9898\>\<#FF1A\>\<#5BA3\>\<#4F20\>>
 
   <\itemize>
-    <item>微信文章：介绍用墨干写论文，投稿
+    <item>\<#5FAE\>\<#4FE1\>\<#6587\>\<#7AE0\>\<#FF1A\>\<#4ECB\>\<#7ECD\>\<#7528\>\<#58A8\>\<#5E72\>\<#5199\>\<#8BBA\>\<#6587\>\<#FF0C\>\<#6295\>\<#7A3F\>
 
-    <item>学术论文，引用墨干/GNU <TeXmacs>官方网站
+    <item>\<#5B66\>\<#672F\>\<#8BBA\>\<#6587\>\<#FF0C\>\<#5F15\>\<#7528\>\<#58A8\>\<#5E72\>/GNU
+    <TeXmacs>\<#5B98\>\<#65B9\>\<#7F51\>\<#7AD9\>
 
-    <item>9/5上午十点（带上Joris的视频）
+    <item>9/5\<#4E0A\>\<#5348\>\<#5341\>\<#70B9\>\<#FF08\>\<#5E26\>\<#4E0A\>Joris\<#7684\>\<#89C6\>\<#9891\>\<#FF09\>
 
-    <item>小木虫网站的宣传
+    <item>\<#5C0F\>\<#6728\>\<#866B\>\<#7F51\>\<#7AD9\>\<#7684\>\<#5BA3\>\<#4F20\>
 
-    <item>B站视频制作
+    <item>B\<#7AD9\>\<#89C6\>\<#9891\>\<#5236\>\<#4F5C\>
 
     \;
 
-    <item>如何合作编辑
+    <item>\<#5982\>\<#4F55\>\<#5408\>\<#4F5C\>\<#7F16\>\<#8F91\>
 
-    <item>墨干：理工科大学新生，一站式学习科研工具
+    <item>\<#58A8\>\<#5E72\>\<#FF1A\>\<#7406\>\<#5DE5\>\<#79D1\>\<#5927\>\<#5B66\>\<#65B0\>\<#751F\>\<#FF0C\>\<#4E00\>\<#7AD9\>\<#5F0F\>\<#5B66\>\<#4E60\>\<#79D1\>\<#7814\>\<#5DE5\>\<#5177\>
   </itemize>
 
-  <section*|自由讨论>
+  <section*|\<#81EA\>\<#7531\>\<#8BA8\>\<#8BBA\>>
 
-  做墨者百科有一些可以参考的既有实现，比如
+  \<#505A\>\<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#6709\>\<#4E00\>\<#4E9B\>\<#53EF\>\<#4EE5\>\<#53C2\>\<#8003\>\<#7684\>\<#65E2\>\<#6709\>\<#5B9E\>\<#73B0\>\<#FF0C\>\<#6BD4\>\<#5982\>
 
   <\itemize>
     <item><slink|https://kerodon.net/>
@@ -62,9 +64,9 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨客实验室/第五次研讨会.tm>>
-    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨客实验室/第五次研讨会.tm>>
-    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|1|http://git.tmml.wiki/XmacsLabs/planet/raw/main/墨客实验室/第五次研讨会.tm>>
+    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-2|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-3|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
   </collection>
 </references>
 
@@ -72,14 +74,16 @@
   <\collection>
     <\associate|toc>
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(15m)
-      用户反馈和新成员介绍> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      \<#7528\>\<#6237\>\<#53CD\>\<#9988\>\<#548C\>\<#65B0\>\<#6210\>\<#5458\>\<#4ECB\>\<#7ECD\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|(30min)
-      固定话题：宣传> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      \<#56FA\>\<#5B9A\>\<#8BDD\>\<#9898\>\<#FF1A\>\<#5BA3\>\<#4F20\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|自由讨论>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#81EA\>\<#7531\>\<#8BA8\>\<#8BBA\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3><vspace|0.5fn>
     </associate>

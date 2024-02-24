@@ -1,26 +1,27 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|generic|chinese|doc>>
 
 <\body>
-  <doc-data|<doc-title|快速输入以1为分子的分式>>
+  <doc-data|<doc-title|\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>>>
 
-  在数学模式中，我们希望通过按键序列<code*|1/>获得一个以1为分子的分式，并把光标移动到分母中，以方便后续输入。
+  \<#5728\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#4E2D\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#5E0C\>\<#671B\>\<#901A\>\<#8FC7\>\<#6309\>\<#952E\>\<#5E8F\>\<#5217\><code*|1/>\<#83B7\>\<#5F97\>\<#4E00\>\<#4E2A\>\<#4EE5\>1\<#4E3A\>\<#5206\>\<#5B50\>\<#7684\>\<#5206\>\<#5F0F\>\<#FF0C\>\<#5E76\>\<#628A\>\<#5149\>\<#6807\>\<#79FB\>\<#52A8\>\<#5230\>\<#5206\>\<#6BCD\>\<#4E2D\>\<#FF0C\>\<#4EE5\>\<#65B9\>\<#4FBF\>\<#540E\>\<#7EED\>\<#8F93\>\<#5165\>\<#3002\>
 
   <\equation*>
     <frac|1|1+<frac|1|1+<frac|1|1+<frac|1|1+<frac|1|1+<frac|1|1+<frac|1|1+<frac|1|1+<frac|1|>>>>>>>>>
   </equation*>
 
-  可以通过如下方式实现这样的功能：
+  \<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\>\<#5982\>\<#4E0B\>\<#65B9\>\<#5F0F\>\<#5B9E\>\<#73B0\>\<#8FD9\>\<#6837\>\<#7684\>\<#529F\>\<#80FD\>\<#FF1A\>
 
   <\enumerate>
-    <item>点击<menu|Tools|Developer tool>，激活<menu|Developer>菜单
+    <item>\<#70B9\>\<#51FB\><menu|Tools|Developer
+    tool>\<#FF0C\>\<#6FC0\>\<#6D3B\><menu|Developer>\<#83DC\>\<#5355\>
 
-    <item>点击<menu|Developer|Open my-init-texmacs.scm>
+    <item>\<#70B9\>\<#51FB\><menu|Developer|Open my-init-texmacs.scm>
 
-    <item>在该文件的末尾添加如下代码
+    <item>\<#5728\>\<#8BE5\>\<#6587\>\<#4EF6\>\<#7684\>\<#672B\>\<#5C3E\>\<#6DFB\>\<#52A0\>\<#5982\>\<#4E0B\>\<#4EE3\>\<#7801\>
 
-    <item>重启<TeXmacs>
+    <item>\<#91CD\>\<#542F\><TeXmacs>
   </enumerate>
 
   <\scm-code>
@@ -31,11 +32,11 @@
     \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (go-to-previous-word))))
   </scm-code>
 
-  然后，你就可以愉快地在数学模式中，用<key|1><key|/>快速输入分子为1的分式了。
+  \<#7136\>\<#540E\>\<#FF0C\>\<#4F60\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#6109\>\<#5FEB\>\<#5730\>\<#5728\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#4E2D\>\<#FF0C\>\<#7528\><key|1><key|/>\<#5FEB\>\<#901F\>\<#8F93\>\<#5165\>\<#5206\>\<#5B50\>\<#4E3A\>1\<#7684\>\<#5206\>\<#5F0F\>\<#4E86\>\<#3002\>
 
   \;
 
-  原文在2019年9月13号，在<slink|http://tmml.wiki>的WordPress博客上发布。2022年4月30日，在<hlink|墨客星球|https://gitee.com/XmacsLabs/planet>作为第一篇文章发布。
+  \<#539F\>\<#6587\>\<#5728\>2019\<#5E74\>9\<#6708\>13\<#53F7\>\<#FF0C\>\<#5728\><slink|http://tmml.wiki>\<#7684\>WordPress\<#535A\>\<#5BA2\>\<#4E0A\>\<#53D1\>\<#5E03\>\<#3002\>2022\<#5E74\>4\<#6708\>30\<#65E5\>\<#FF0C\>\<#5728\><hlink|\<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>|https://gitee.com/XmacsLabs/planet>\<#4F5C\>\<#4E3A\>\<#7B2C\>\<#4E00\>\<#7BC7\>\<#6587\>\<#7AE0\>\<#53D1\>\<#5E03\>\<#3002\>
 </body>
 
 <\initial>
@@ -55,11 +56,11 @@
 <\auxiliary>
   <\collection>
     <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|工具>|<with|font-family|<quote|ss>|开发工具>>|<pageref|auto-1>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#5DE5\>\<#5177\>>|<with|font-family|<quote|ss>|\<#5F00\>\<#53D1\>\<#5DE5\>\<#5177\>>>|<pageref|auto-1>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|开发者>>|<pageref|auto-2>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#5F00\>\<#53D1\>\<#8005\>>>|<pageref|auto-2>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|开发者>|<with|font-family|<quote|ss>|打开my-init-texmacs.scm文件>>|<pageref|auto-3>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#5F00\>\<#53D1\>\<#8005\>>|<with|font-family|<quote|ss>|\<#6253\>\<#5F00\>my-init-texmacs.scm\<#6587\>\<#4EF6\>>>|<pageref|auto-3>>
     </associate>
   </collection>
 </auxiliary>

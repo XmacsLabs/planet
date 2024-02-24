@@ -3,24 +3,24 @@
 <style|<tuple|generic|chinese|doc>>
 
 <\body>
-  <doc-data|<doc-title|日历模板>>
+  <doc-data|<doc-title|\<#65E5\>\<#5386\>\<#6A21\>\<#677F\>>>
 
-  <section*|版权>
+  <section*|\<#7248\>\<#6743\>>
 
   <\warning*>
-    本模板由沈浪熊猫儿制作，保留所有版权。墨干编辑器用户可免费使用该模板，但不能用于盈利。
+    \<#672C\>\<#6A21\>\<#677F\>\<#7531\>\<#6C88\>\<#6D6A\>\<#718A\>\<#732B\>\<#513F\>\<#5236\>\<#4F5C\>\<#FF0C\>\<#4FDD\>\<#7559\>\<#6240\>\<#6709\>\<#7248\>\<#6743\>\<#3002\>\<#58A8\>\<#5E72\>\<#7F16\>\<#8F91\>\<#5668\>\<#7528\>\<#6237\>\<#53EF\>\<#514D\>\<#8D39\>\<#4F7F\>\<#7528\>\<#8BE5\>\<#6A21\>\<#677F\>\<#FF0C\>\<#4F46\>\<#4E0D\>\<#80FD\>\<#7528\>\<#4E8E\>\<#76C8\>\<#5229\>\<#3002\>
   </warning*>
 
-  <section*|说明>
+  <section*|\<#8BF4\>\<#660E\>>
 
   <\description>
-    <item*|标签<compound|markup|>>使用<markup|label>可以在日历中标记具体的事件，并勾选菜单项<menu|Document|Informative
-    flags|Detailed>，就可以得到如下<label|第N次研讨会>的效果。<markup|label>可以通过菜单项<menu|Insert|Link|Label>得到。
+    <item*|\<#6807\>\<#7B7E\><compound|markup|>>\<#4F7F\>\<#7528\><markup|label>\<#53EF\>\<#4EE5\>\<#5728\>\<#65E5\>\<#5386\>\<#4E2D\>\<#6807\>\<#8BB0\>\<#5177\>\<#4F53\>\<#7684\>\<#4E8B\>\<#4EF6\>\<#FF0C\>\<#5E76\>\<#52FE\>\<#9009\>\<#83DC\>\<#5355\>\<#9879\><menu|Document|Informative
+    flags|Detailed>\<#FF0C\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#5F97\>\<#5230\>\<#5982\>\<#4E0B\><label|\<#7B2C\>N\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>\<#7684\>\<#6548\>\<#679C\>\<#3002\><markup|label>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\>\<#83DC\>\<#5355\>\<#9879\><menu|Insert|Link|Label>\<#5F97\>\<#5230\>\<#3002\>
 
-    <item*|气泡>选中二月二十八日的数字28，然后通过<menu|Insert|Note|Balloon>，输入该气泡的内容。当鼠标悬浮到28这个数字上时，气泡中内容就可以显示。使用气泡时，由于不明显，我们可以通过更改单元格背景色的方式突出2023/02/28这一天。
+    <item*|\<#6C14\>\<#6CE1\>>\<#9009\>\<#4E2D\>\<#4E8C\>\<#6708\>\<#4E8C\>\<#5341\>\<#516B\>\<#65E5\>\<#7684\>\<#6570\>\<#5B57\>28\<#FF0C\>\<#7136\>\<#540E\>\<#901A\>\<#8FC7\><menu|Insert|Note|Balloon>\<#FF0C\>\<#8F93\>\<#5165\>\<#8BE5\>\<#6C14\>\<#6CE1\>\<#7684\>\<#5185\>\<#5BB9\>\<#3002\>\<#5F53\>\<#9F20\>\<#6807\>\<#60AC\>\<#6D6E\>\<#5230\>28\<#8FD9\>\<#4E2A\>\<#6570\>\<#5B57\>\<#4E0A\>\<#65F6\>\<#FF0C\>\<#6C14\>\<#6CE1\>\<#4E2D\>\<#5185\>\<#5BB9\>\<#5C31\>\<#53EF\>\<#4EE5\>\<#663E\>\<#793A\>\<#3002\>\<#4F7F\>\<#7528\>\<#6C14\>\<#6CE1\>\<#65F6\>\<#FF0C\>\<#7531\>\<#4E8E\>\<#4E0D\>\<#660E\>\<#663E\>\<#FF0C\>\<#6211\>\<#4EEC\>\<#53EF\>\<#4EE5\>\<#901A\>\<#8FC7\>\<#66F4\>\<#6539\>\<#5355\>\<#5143\>\<#683C\>\<#80CC\>\<#666F\>\<#8272\>\<#7684\>\<#65B9\>\<#5F0F\>\<#7A81\>\<#51FA\>2023/02/28\<#8FD9\>\<#4E00\>\<#5929\>\<#3002\>
   </description>
 
-  <section*|模板内容>
+  <section*|\<#6A21\>\<#677F\>\<#5185\>\<#5BB9\>>
 
   <\wide-tabular>
     <tformat|<cwith|1|-1|1|-1|cell-halign|c>|<cwith|1|-1|1|-1|cell-valign|c>|<cwith|4|4|1|1|cell-background|pastel
@@ -28,7 +28,7 @@
     green>|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|7>|<cwith|1|1|8|8|cell-row-span|1>|<cwith|1|1|8|8|cell-col-span|7>|<cwith|4|4|8|8|cell-background|pastel
     green>|<cwith|6|6|8|8|cell-background|pastel
     green>|<cwith|7|7|3|3|cell-background|#ffa>|<cwith|9|9|1|1|cell-row-span|1>|<cwith|9|9|1|1|cell-col-span|7>|<cwith|9|9|8|8|cell-row-span|1>|<cwith|9|9|8|8|cell-col-span|7>|<cwith|10|10|1|7|cell-halign|c>|<cwith|10|10|1|7|cell-valign|c>|<cwith|10|10|7|7|cell-tborder|0ln>|<cwith|10|10|7|7|cell-lborder|0ln>|<cwith|10|10|6|6|cell-rborder|0ln>|<cwith|10|10|7|7|cell-rborder|1ln>|<cwith|10|10|8|14|cell-halign|c>|<cwith|10|10|8|14|cell-valign|c>|<cwith|10|10|14|14|cell-tborder|0ln>|<cwith|9|9|8|14|cell-bborder|0ln>|<cwith|10|10|14|14|cell-bborder|0ln>|<cwith|11|11|14|14|cell-tborder|0ln>|<cwith|10|10|14|14|cell-lborder|0ln>|<cwith|10|10|13|13|cell-rborder|0ln>|<cwith|10|10|14|14|cell-rborder|0ln>|<table|<row|<\cell>
-      2023年二月
+      2023\<#5E74\>\<#4E8C\>\<#6708\>
     </cell>|<\cell>
       \;
     </cell>|<\cell>
@@ -42,7 +42,7 @@
     </cell>|<\cell>
       \;
     </cell>|<\cell>
-      2023年三月
+      2023\<#5E74\>\<#4E09\>\<#6708\>
     </cell>|<\cell>
       \;
     </cell>|<\cell>
@@ -56,33 +56,33 @@
     </cell>|<\cell>
       \;
     </cell>>|<row|<\cell>
-      周日
+      \<#5468\>\<#65E5\>
     </cell>|<\cell>
-      周一
+      \<#5468\>\<#4E00\>
     </cell>|<\cell>
-      周二
+      \<#5468\>\<#4E8C\>
     </cell>|<\cell>
-      周三
+      \<#5468\>\<#4E09\>
     </cell>|<\cell>
-      周四
+      \<#5468\>\<#56DB\>
     </cell>|<\cell>
-      周五
+      \<#5468\>\<#4E94\>
     </cell>|<\cell>
-      周六
+      \<#5468\>\<#516D\>
     </cell>|<\cell>
-      周日
+      \<#5468\>\<#65E5\>
     </cell>|<\cell>
-      周一
+      \<#5468\>\<#4E00\>
     </cell>|<\cell>
-      周二
+      \<#5468\>\<#4E8C\>
     </cell>|<\cell>
-      周三
+      \<#5468\>\<#4E09\>
     </cell>|<\cell>
-      周四
+      \<#5468\>\<#56DB\>
     </cell>|<\cell>
-      周五
+      \<#5468\>\<#4E94\>
     </cell>|<\cell>
-      周六
+      \<#5468\>\<#516D\>
     </cell>>|<row|<\cell>
       \;
     </cell>|<\cell>
@@ -112,7 +112,7 @@
     </cell>|<\cell>
       4
     </cell>>|<row|<\cell>
-      5<label|第一次研讨会>
+      5<label|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
     </cell>|<\cell>
       6
     </cell>|<\cell>
@@ -126,7 +126,7 @@
     </cell>|<\cell>
       11
     </cell>|<\cell>
-      5<label|第三次研讨会>
+      5<label|\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
     </cell>|<\cell>
       6
     </cell>|<\cell>
@@ -168,7 +168,7 @@
     </cell>|<\cell>
       18
     </cell>>|<row|<\cell>
-      19<label|第二次研讨会>
+      19<label|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
     </cell>|<\cell>
       20
     </cell>|<\cell>
@@ -182,7 +182,7 @@
     </cell>|<\cell>
       25
     </cell>|<\cell>
-      19<label|第四次研讨会>
+      19<label|\<#7B2C\>\<#56DB\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>>
     </cell>|<\cell>
       20
     </cell>|<\cell>
@@ -200,7 +200,7 @@
     </cell>|<\cell>
       27
     </cell>|<\cell>
-      <mouse-over-balloon|28|二月的最后一天|left|Bottom>
+      <mouse-over-balloon|28|\<#4E8C\>\<#6708\>\<#7684\>\<#6700\>\<#540E\>\<#4E00\>\<#5929\>|left|Bottom>
     </cell>|<\cell>
       \;
     </cell>|<\cell>
@@ -252,7 +252,7 @@
     </cell>|<\cell>
       \;
     </cell>>|<row|<\cell>
-      2023年四月
+      2023\<#5E74\>\<#56DB\>\<#6708\>
     </cell>|<\cell>
       \;
     </cell>|<\cell>
@@ -266,7 +266,7 @@
     </cell>|<\cell>
       \;
     </cell>|<\cell>
-      2023年五月
+      2023\<#5E74\>\<#4E94\>\<#6708\>
     </cell>|<\cell>
       \;
     </cell>|<\cell>
@@ -280,33 +280,33 @@
     </cell>|<\cell>
       \;
     </cell>>|<row|<\cell>
-      周日
+      \<#5468\>\<#65E5\>
     </cell>|<\cell>
-      周一
+      \<#5468\>\<#4E00\>
     </cell>|<\cell>
-      周二
+      \<#5468\>\<#4E8C\>
     </cell>|<\cell>
-      周三
+      \<#5468\>\<#4E09\>
     </cell>|<\cell>
-      周四
+      \<#5468\>\<#56DB\>
     </cell>|<\cell>
-      周五
+      \<#5468\>\<#4E94\>
     </cell>|<\cell>
-      周六
+      \<#5468\>\<#516D\>
     </cell>|<\cell>
-      周日
+      \<#5468\>\<#65E5\>
     </cell>|<\cell>
-      周一
+      \<#5468\>\<#4E00\>
     </cell>|<\cell>
-      周二
+      \<#5468\>\<#4E8C\>
     </cell>|<\cell>
-      周三
+      \<#5468\>\<#4E09\>
     </cell>|<\cell>
-      周四
+      \<#5468\>\<#56DB\>
     </cell>|<\cell>
-      周五
+      \<#5468\>\<#4E94\>
     </cell>|<\cell>
-      周六
+      \<#5468\>\<#516D\>
     </cell>>|<row|<\cell>
       \;
     </cell>|<\cell>
@@ -487,39 +487,39 @@
 
 <\references>
   <\collection>
-    <associate|第一次研讨会|<tuple|气泡|?>>
-    <associate|第三次研讨会|<tuple|气泡|?>>
-    <associate|第二次研讨会|<tuple|气泡|?>>
-    <associate|第四次研讨会|<tuple|气泡|?>>
-    <associate|第N次研讨会|<tuple|标签<with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
+    <associate|\<#7B2C\>\<#4E00\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|\<#6C14\>\<#6CE1\>|?>>
+    <associate|\<#7B2C\>\<#4E09\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|\<#6C14\>\<#6CE1\>|?>>
+    <associate|\<#7B2C\>\<#4E8C\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|\<#6C14\>\<#6CE1\>|?>>
+    <associate|\<#7B2C\>\<#56DB\>\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|\<#6C14\>\<#6CE1\>|?>>
+    <associate|\<#7B2C\>N\<#6B21\>\<#7814\>\<#8BA8\>\<#4F1A\>|<tuple|\<#6807\>\<#7B7E\><with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
     <associate|auto-1|<tuple|?|?>>
     <associate|auto-2|<tuple|?|?>>
-    <associate|auto-3|<tuple|标签<with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
-    <associate|auto-4|<tuple|标签<with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
-    <associate|auto-5|<tuple|气泡|?>>
-    <associate|auto-6|<tuple|气泡|?>>
+    <associate|auto-3|<tuple|\<#6807\>\<#7B7E\><with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
+    <associate|auto-4|<tuple|\<#6807\>\<#7B7E\><with|mode|<quote|src>|color|<quote|blue>|font-family|<quote|ss>|>|?>>
+    <associate|auto-5|<tuple|\<#6C14\>\<#6CE1\>|?>>
+    <associate|auto-6|<tuple|\<#6C14\>\<#6CE1\>|?>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
     <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|文档>|<with|font-family|<quote|ss>|非正式标记>|<with|font-family|<quote|ss>|详细>>|<pageref|auto-3>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#6587\>\<#6863\>>|<with|font-family|<quote|ss>|\<#6307\>\<#793A\>\<#6807\>\<#7B7E\>>|<with|font-family|<quote|ss>|\<#8BE6\>\<#7EC6\>>>|<pageref|auto-3>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|链接>|<with|font-family|<quote|ss>|标签>>|<pageref|auto-4>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#94FE\>\<#63A5\>>|<with|font-family|<quote|ss>|\<#6807\>\<#7B7E\>>>|<pageref|auto-4>>
 
-      <tuple|<tuple|<with|font-family|<quote|ss>|插入>|<with|font-family|<quote|ss>|注记>|<with|font-family|<quote|ss>|气泡>>|<pageref|auto-5>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#6CE8\>\<#8BB0\>>|<with|font-family|<quote|ss>|\<#60AC\>\<#6D6E\>\<#63D0\>\<#793A\>>>|<pageref|auto-5>>
     </associate>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|版权>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#7248\>\<#6743\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|说明>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#8BF4\>\<#660E\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|模板内容>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#6A21\>\<#677F\>\<#5185\>\<#5BB9\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6><vspace|0.5fn>
     </associate>

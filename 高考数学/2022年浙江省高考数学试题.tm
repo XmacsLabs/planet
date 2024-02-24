@@ -356,7 +356,6 @@
   <\collection>
     <associate|auto-1|<tuple|8|2>>
     <associate|auto-2|<tuple|19|4>>
-    <associate|auto-3|<tuple|ii|5>>
   </collection>
 </references>
 
@@ -365,10 +364,7 @@
     <\associate|>
       <tuple|normal|\<#FF08\>\<#7B2C\>8\<#9898\>\<#56FE\>\<#FF09\>|<pageref|auto-1>>
 
-      <tuple|normal||<pageref|auto-2>>
-    </associate>
-    <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#5E2E\>\<#52A9\>>|<with|font-family|<quote|ss>|\<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>>>|<pageref|auto-3>>
+      <tuple|normal|\<#FF08\>\<#7B2C\>19\<#9898\>\<#56FE\>\<#FF09\>|<pageref|auto-2>>
     </associate>
   </collection>
 </auxiliary>

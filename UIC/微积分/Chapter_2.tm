@@ -1,4 +1,4 @@
-<TeXmacs|2.1.3>
+<TeXmacs|2.1.2>
 
 <style|<tuple|projector|reddish|framed-theorems|number-long-article|invisible-multiply>>
 
