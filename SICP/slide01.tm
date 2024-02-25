@@ -1,6 +1,6 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|beamer|no-page-numbers|chinese>>
+<style|<tuple|beamer|no-page-numbers|chinese|blackboard>>
 
 <\body>
   <\hide-preamble>
