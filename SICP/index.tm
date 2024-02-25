@@ -26,7 +26,9 @@
 
     <item>\<#7B2C\>3\<#8BFE\>\<#FF1A\>\<#7528\>\<#51FD\>\<#6570\>\<#505A\>\<#62BD\>\<#8C61\>
 
-    \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#4EA4\>\<#4E92\>\<#5F0F\>\<#8BB2\>\<#4E49\>03|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/course03.tm>
+    \<#8BB2\>\<#4E49\>\<#FF1A\><hlink|\<#4EA4\>\<#4E92\>\<#5F0F\>\<#8BB2\>\<#4E49\>03|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/course03.tm>
+
+    \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#5E7B\>\<#706F\>\<#7247\>03|slide03.tm>
 
     <item>\<#7B2C\>2\<#8BFE\>\<#FF1A\>\<#7F16\>\<#7A0B\>\<#7684\>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>\<#FF08\>\<#4E60\>\<#9898\>\<#8BFE\>\<#FF09\>
 
@@ -36,7 +38,7 @@
 
     \<#8BB2\>\<#4E49\>\<#FF1A\><hlink|\<#4EA4\>\<#4E92\>\<#5F0F\>\<#8BB2\>\<#4E49\>01|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/course01.tm>
 
-    \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#5E7B\>\<#706F\>\<#7247\>|slide01.tm>
+    \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#5E7B\>\<#706F\>\<#7247\>01|slide01.tm>
 
     \<#56DE\>\<#653E\>\<#FF1A\><hlink|B\<#7AD9\>\<#89C6\>\<#9891\>|https://www.bilibili.com/video/BV1cp421f7xP/>
 
