@@ -24,7 +24,7 @@
       <item>\<#76EE\>\<#6807\>\<#90AE\>\<#7BB1\>\<#FF1A\>shenda AT ustc.edu
     </itemize>
 
-    <item>\<#7B2C\>3\<#8BFE\>\<#FF1A\>\<#7528\>\<#51FD\>\<#6570\>\<#505A\>\<#62BD\>\<#8C61\>
+    <item>\<#7B2C\>4\<#8BFE\>\<#FF1A\>\<#7528\>\<#51FD\>\<#6570\>\<#505A\>\<#62BD\>\<#8C61\>
 
     \<#7EC3\>\<#4E60\>\<#FF1A\><hlink|\<#4E60\>\<#9898\>\<#8BFE\>\<#8BFE\>\<#4EF6\>04|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/exercise04.tm>
 
@@ -34,9 +34,16 @@
 
     \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#5E7B\>\<#706F\>\<#7247\>03|slide03.tm>
 
+    \<#4EE3\>\<#7801\>\<#FF1A\><hlink|\<#4EE3\>\<#7801\>\<#6E05\>\<#5355\>03|code03.tm>
+
+    \<#56DE\>\<#653E\>\<#FF1A\><hlink|B\<#7AD9\>\<#89C6\>\<#9891\>|https://www.bilibili.com/video/BV1UJ4m1a7PA/>
+
     <item>\<#7B2C\>2\<#8BFE\>\<#FF1A\>\<#7F16\>\<#7A0B\>\<#7684\>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>\<#FF08\>\<#4E60\>\<#9898\>\<#8BFE\>\<#FF09\>
 
     \<#7EC3\>\<#4E60\>\<#FF1A\><hlink|\<#4E60\>\<#9898\>\<#8BFE\>\<#8BFE\>\<#4EF6\>02|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/exercise02.tm>
+
+    \<#56DE\>\<#653E\>\<#FF1A\><hlink|\<#4E60\>\<#9898\>\<#8BFE\>2.1|https://www.bilibili.com/video/BV1kU421d7jz/>
+    <hlink|\<#4E60\>\<#9898\>\<#8BFE\>2.2|https://www.bilibili.com/video/BV1gx4y1C7wn/>
 
     <item>\<#7B2C\>1\<#8BFE\>\<#FF1A\>\<#7F16\>\<#7A0B\>\<#7684\>\<#57FA\>\<#672C\>\<#539F\>\<#7406\>
 
