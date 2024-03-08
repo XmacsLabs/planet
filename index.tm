@@ -17,6 +17,12 @@
     <item><hlink|\<#96F6\>\<#57FA\>\<#7840\>SICP|SICP/index.tm>
   </itemize>
 
+  <section*|\<#6559\>\<#7A0B\>>
+
+  <\itemize>
+    <item><hlink|\<#4ECE\>\<#96F6\>\<#5F00\>\<#59CB\>\<#5B66\>\<#58A8\>\<#5E72\>\<#7406\>\<#5DE5\>\<#5957\>\<#4EF6\>|MoganSTEMTutorial/index.tm>
+  </itemize>
+
   <section*|\<#516C\>\<#5171\>\<#6587\>\<#6863\>>
 
   <\itemize>
