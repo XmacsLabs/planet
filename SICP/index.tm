@@ -28,7 +28,7 @@
 
     \<#8BB2\>\<#4E49\>\<#FF1A\><hlink|\<#4EA4\>\<#4E92\>\<#5F0F\>\<#8BB2\>\<#4E49\>05|https://gitee.com/XmacsLabs/interactive-sicp/raw/main/course05.tm>
 
-    \<#8BFE\>\<#4EF6\>\<#FF1A\>\<#5E7B\>\<#706F\>\<#7247\>05
+    \<#8BFE\>\<#4EF6\>\<#FF1A\><hlink|\<#5E7B\>\<#706F\>\<#7247\>05|slide05.tm>
 
     \<#4EE3\>\<#7801\>\<#FF1A\><hlink|\<#4EE3\>\<#7801\>\<#6E05\>\<#5355\>05|code05.tm>
 
