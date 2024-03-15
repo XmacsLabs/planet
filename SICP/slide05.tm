@@ -102,8 +102,7 @@
       <tit|\<#7B97\>\<#6CD5\>\<#5BFC\>\<#8BBA\>\<#5BF9\><math|\<Theta\>>\<#8BB0\>\<#53F7\>\<#7684\>\<#5B9A\>\<#4E49\>>
 
       <\definition>
-        For a given function <math|g<around*|(|n|)>>, we denote <samp|the set
-        of funtions> by <math|\<Theta\><around*|(|g<around*|(|n|)>|)>>
+        \<#5BF9\>\<#4E8E\>\<#7ED9\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\><math|g<around*|(|n|)>>\<#FF0C\>\<#6211\>\<#4EEC\>\<#4F7F\>\<#7528\>\<#8BB0\>\<#6CD5\><math|\<Theta\><around*|(|g<around*|(|n|)>|)>>\<#8868\>\<#793A\>\<#4E00\>\<#7EC4\>\<#51FD\>\<#6570\>\<#7684\>\<#96C6\>\<#5408\>\<#FF1A\>
 
         <\equation*>
           \<Theta\><around*|(|g<around*|(|n|)>|)>=<around*|{|f<around*|(|n|)>:
@@ -112,8 +111,7 @@
       </definition>
 
       <\definition>
-        For a given function <math|g<around*|(|n|)>>, we denote the set of
-        funtions by <math|O<around*|(|g<around*|(|n|)>|)>>
+        \<#5BF9\>\<#4E8E\>\<#7ED9\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\><math|g<around*|(|n|)>>\<#FF0C\>\<#6211\>\<#4EEC\>\<#4F7F\>\<#7528\>\<#8BB0\>\<#6CD5\><math|O<around*|(|g<around*|(|n|)>|)>>\<#8868\>\<#793A\>\<#4E00\>\<#7EC4\>\<#51FD\>\<#6570\>\<#7684\>\<#96C6\>\<#5408\>\<#FF1A\>
 
         <\equation*>
           O<around*|(|g<around*|(|n|)>|)>=<around*|{|f<around*|(|n|)>:\<exists\>c,n<rsub|0>,\<forall\>n\<gtr\>n<rsub|0>,0\<leqslant\>f<around*|(|n|)>\<leqslant\>c*g<around*|(|n|)>|}>
@@ -121,8 +119,7 @@
       </definition>
 
       <\definition>
-        For a given function <math|g(n)>, we denote the set of fuctions by
-        <math|\<Omega\><around*|(|g<around*|(|n|)>|)>>
+        \<#5BF9\>\<#4E8E\>\<#7ED9\>\<#5B9A\>\<#7684\>\<#51FD\>\<#6570\><math|g(n)>\<#FF0C\>\<#6211\>\<#4EEC\>\<#4F7F\>\<#7528\>\<#8BB0\>\<#6CD5\><math|\<Omega\><around*|(|g<around*|(|n|)>|)>>\<#8868\>\<#793A\>\<#4E00\>\<#7EC4\>\<#51FD\>\<#6570\>\<#7684\>\<#96C6\>\<#5408\>\<#FF1A\>
 
         <\equation*>
           \<Omega\><around*|(|g<around*|(|n|)>|)>=<around*|{|f<around*|(|n|)>:\<exists\>c,n<rsub|0>,\<forall\>n\<geqslant\>n<rsub|0>,0\<leqslant\>c*g<around*|(|n|)>\<leqslant\>f<around*|(|n|)>|}>
@@ -263,13 +260,127 @@
     </slide>
 
     <\slide>
-      <tit|\<#6C42\>\<#5E42\>>
+      <tit|\<#6C42\>\<#5E42\>\<#2014\>\<#2014\>\<#7EBF\>\<#6027\>\<#9012\>\<#5F52\>\<#7684\>\<#8BA1\>\<#7B97\>\<#8FC7\>\<#7A0B\>>
 
       <\equation*>
         b<rsup|n>=<choice|<tformat|<table|<row|<cell|b\<cdot\>b<rsup|n-1>>|<cell|,n\<gtr\>1>>|<row|<cell|b<rsup|0>>|<cell|,n=0>>>>>
       </equation*>
 
+      <\session|scheme|default>
+        <\unfolded-io|Scheme] >
+          (define (expt-1 b n)
+
+          \ \ (if (= n 0)
+
+          \ \ \ \ \ \ 1
+
+          \ \ \ \ \ \ (* b (expt-1 b (- n 1)))))
+        <|unfolded-io>
+          expt-1
+        </unfolded-io>
+
+        <\unfolded-io|Scheme] >
+          (expt-1 1 0)
+        <|unfolded-io>
+          1
+        </unfolded-io>
+
+        <\unfolded-io|Scheme] >
+          (expt-1 2 3)
+        <|unfolded-io>
+          8
+        </unfolded-io>
+      </session>
+
+      <\big-table|<tabular|<tformat|<table|<row|<cell|\<#65F6\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>>|<cell|<math|\<Theta\><around*|(|n|)>>>>|<row|<cell|\<#7A7A\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>>|<cell|<math|\<Theta\><around*|(|n|)>>>>>>>>
+        \<#590D\>\<#6742\>\<#5EA6\>
+      </big-table>
+    </slide>
+
+    <\slide>
+      <tit|\<#6C42\>\<#5E42\>\<#2014\>\<#2014\>\<#7EBF\>\<#6027\>\<#8FED\>\<#4EE3\>\<#7684\>\<#8BA1\>\<#7B97\>\<#8FC7\>\<#7A0B\>>
+
       \;
+
+      <\equation*>
+        b<rsup|n>=<choice|<tformat|<table|<row|<cell|b\<cdot\>b<rsup|n-1>>|<cell|,n\<gtr\>1>>|<row|<cell|b<rsup|0>>|<cell|,n=0>>>>>
+      </equation*>
+
+      <\session|scheme|default>
+        <\unfolded-io|Scheme] >
+          (define (expt-2 b n)
+
+          \ \ (define (expt-iter b counter product)
+
+          \ \ \ \ (if (= counter 0)
+
+          \ \ \ \ \ \ \ \ product
+
+          \ \ \ \ \ \ \ \ (expt-iter b
+
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (- counter 1)
+
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (* b product))))
+
+          \ \ 
+
+          \ \ (expt-iter b n 1))
+        <|unfolded-io>
+          expt-2
+        </unfolded-io>
+
+        <\unfolded-io|Scheme] >
+          (expt-2 3 3)
+        <|unfolded-io>
+          27
+        </unfolded-io>
+      </session>
+
+      <\big-table|<tabular|<tformat|<table|<row|<cell|\<#65F6\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>>|<cell|<math|\<Theta\><around*|(|n|)>>>>|<row|<cell|\<#7A7A\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>>|<cell|<math|\<Theta\><around*|(|1|)>>>>>>>>
+        \<#590D\>\<#6742\>\<#5EA6\>
+      </big-table>
+    </slide>
+
+    <\slide>
+      <tit|\<#6C42\>\<#5E42\>\<#2014\>\<#2014\>\<#4F18\>\<#5316\>\<#65B9\>\<#6848\>>
+
+      \;
+
+      <\equation*>
+        b<rsup|n>=<choice|<tformat|<table|<row|<cell|<around*|(|b<rsup|n/2>|)><rsup|2>>|<cell|,n\<#662F\>\<#5076\>\<#6570\>>>|<row|<cell|b\<cdot\>b<rsup|n-1>>|<cell|,n\<#662F\>\<#5947\>\<#6570\>>>>>>
+      </equation*>
+
+      <\session|scheme|default>
+        <\unfolded-io|Scheme] >
+          (define (fast-expt b n)
+
+          \ \ (define (even? n)
+
+          \ \ \ \ (= (remainder n 2) 0))
+
+          \ \ (define (square x) (* x x))
+
+          \ \ 
+
+          \ \ (cond ((= n 0) 1)
+
+          \ \ \ \ \ \ \ \ ((even? n) (square (fast-expt b (/ n 2))))
+
+          \ \ \ \ \ \ \ \ (else (* b (fast-expt b (- n 1))))))
+        <|unfolded-io>
+          fast-expt
+        </unfolded-io>
+
+        <\unfolded-io|Scheme] >
+          (fast-expt 3 3)
+        <|unfolded-io>
+          27
+        </unfolded-io>
+      </session>
+
+      <\big-table|<tabular|<tformat|<table|<row|<cell|\<#65F6\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>>|<cell|<math|\<Theta\><around*|(|log<around*|(|n|)>|)>>>>|<row|<cell|\<#7A7A\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>>|<cell|<math|\<Theta\><around*|(|1|)>>>>>>>>
+        \<#590D\>\<#6742\>\<#5EA6\>
+      </big-table>
     </slide>
 
     <\slide>
@@ -296,6 +407,38 @@
         n|)>>\<#7684\>\<#8BC1\>\<#660E\>\<#3002\>
       </exercise>
     </slide>
+
+    <\slide>
+      <tit|\<#603B\>\<#7ED3\>>
+
+      <\itemize>
+        <item>\<#672F\>\<#8BED\>\<#56DE\>\<#987E\>\<#FF1A\>\<#6B63\>\<#5219\>\<#662F\>\<#4E2A\>\<#4EC0\>\<#4E48\>\<#9B3C\>
+
+        <item>\<#65F6\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>\<#548C\>\<#7A7A\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>\<#7684\>\<#8BB0\>\<#53F7\>
+
+        <item>\<#56DE\>\<#987E\>\<#5728\>\<#7B2C\>\<#4E09\>\<#8BFE\>\<#63D0\>\<#5230\>\<#7684\><scm|range>\<#51FD\>\<#6570\>
+
+        <item>\<#6C42\><math|b<rsup|n>>\<#7684\>\<#4E0D\>\<#540C\>\<#5B9E\>\<#73B0\>\<#7684\>\<#4E0D\>\<#540C\>\<#65F6\>\<#7A7A\>\<#590D\>\<#6742\>\<#5EA6\>
+
+        <item>\<#6709\>\<#4E00\>\<#4E9B\>\<#7B97\>\<#6CD5\>\<#7684\>\<#65F6\>\<#95F4\>\<#590D\>\<#6742\>\<#5EA6\>\<#5E76\>\<#4E0D\>\<#662F\>\<#663E\>\<#800C\>\<#6613\>\<#89C1\>\<#7684\>\<#FF0C\>\<#9700\>\<#8981\>\<#6570\>\<#5B66\>\<#53BB\>\<#8BC1\>\<#660E\>
+      </itemize>
+
+      \;
+
+      \<#6590\>\<#6CE2\>\<#90A3\>\<#5951\>\<#6570\>\<#5217\>\<#7B2C\>n\<#9879\>\<#7684\>\<#8BA1\>\<#7B97\>\<#662F\>\<#4E00\>\<#4E2A\>\<#6811\>\<#5F62\>\<#9012\>\<#5F52\>\<#FF0C\>\<#5E76\>\<#4E0D\>\<#80FD\>\<#5F88\>\<#65B9\>\<#4FBF\>\<#5730\>\<#8F6C\>\<#6362\>\<#4E3A\>\<#7EBF\>\<#6027\>\<#8FED\>\<#4EE3\>\<#7684\>\<#8BA1\>\<#7B97\>\<#8FC7\>\<#7A0B\>\<#FF1A\>
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|<with|mode|text|Fib><around*|(|n|)>>|<cell|=>|<cell|<around*|(|\<varphi\><rsup|n>-\<psi\><rsup|n>|)><around*|/|<sqrt|5>|\<nobracket\>>>>|<row|<cell|>|<cell|\<approx\>>|<cell|\<varphi\><rsup|n><around*|/|<sqrt|5>|\<nobracket\>>>>>>
+      </eqnarray*>
+
+      <\exercise>
+        \<#56DE\>\<#987E\>\<#8BA1\>\<#7B97\>\<#6590\>\<#6CE2\>\<#90A3\>\<#5951\>\<#6570\>\<#5217\>\<#7B2C\>n\<#9879\>\<#7684\>\<#4E0D\>\<#540C\>\<#65B9\>\<#6CD5\>\<#7684\>\<#65F6\>\<#7A7A\>\<#590D\>\<#6742\>\<#5EA6\>\<#3002\>
+      </exercise>
+
+      <\render-exercise|\<#601D\>\<#8003\>\<#9898\>>
+        \<#5728\>\<#6709\>\<#9650\>\<#7684\>\<#65F6\>\<#95F4\>\<#5185\>\<#FF0C\>\<#6BD4\>\<#5982\>1\<#5206\>\<#949F\>\<#FF0C\>\<#5F97\>\<#5230\>\<#80FD\>\<#591F\>\<#8BA1\>\<#7B97\>\<#51FA\>\<#6765\>\<#7684\>\<#6590\>\<#6CE2\>\<#90A3\>\<#5951\>\<#6570\>\<#5217\>\<#6700\>\<#5927\>\<#4E00\>\<#9879\>\<#3002\>
+      </render-exercise>
+    </slide>
   </slideshow>
 </body>
 
@@ -312,3 +455,11 @@
     <associate|preamble|false>
   </collection>
 </initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|?>>
+    <associate|auto-2|<tuple|2|?>>
+    <associate|auto-3|<tuple|3|?>>
+  </collection>
+</references>
