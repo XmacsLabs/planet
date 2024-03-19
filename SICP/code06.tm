@@ -25,64 +25,89 @@
     </folded-io>
 
     <\folded-io|Scheme] >
-      (plot `(graphics (point -5 -5) (point 5 5))) ; quasiquote `
+      (plot `(graphics (point "-5" "-5") (point "5" "5"))) ; quasiquote `
     <|folded-io>
       <text|<graphics|<point|-5|-5>|<point|5|5>>>
     </folded-io>
 
     <\folded-io|Scheme] >
-      (plot `(graphics (point ,(+ 1 2) ,(+ 1 3)) (point 0 0)))
+      (plot `(graphics (point ,(number-\<gtr\>string (+ 1 2))
+      ,(number-\<gtr\>string (+ 1 3))) (point 0 0)))
     <|folded-io>
       <text|<with|gr-grid|<tuple|empty>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|empty>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|<graphics|<point|3|4>|<point|0|0>>>>
     </folded-io>
 
     <\folded-io|Scheme] >
-      (plot `(graphics (point 0 0) (point 1 1) (line (point 0 0) (point 1
-      1)))))
+      (plot `(graphics (point "0" "0") (point "1" "1") (line (point "0" "0")
+      (point "1" "1")))))
     <|folded-io>
       <text|<graphics|<point|0|0>|<point|1|1>|<line|<point|0|0>|<point|1|1>>>>
     </folded-io>
 
-    <\unfolded-io|Scheme] >
+    <\folded-io|Scheme] >
       (plot `(cline (point 0 0) (point 3 0) (point 0 4)))
-    <|unfolded-io>
+    <|folded-io>
       <text|<cline|<point|0|0>|<point|3|0>|<point|0|4>>>
-    </unfolded-io>
+    </folded-io>
 
-    <\unfolded-io|Scheme] >
+    <\folded-io|Scheme] >
       (kbd-map ("d i a n var" (insert (utf8-\<gtr\>cork "\<#70B9\>"))))
-    <|unfolded-io>
+    <|folded-io>
       ("d i a n tab")
-    </unfolded-io>
+    </folded-io>
 
-    <\unfolded-io|Scheme] >
+    <\folded-io|Scheme] >
       (kbd-map ("h t var" (insert (utf8-\<gtr\>cork "\<#7ED8\>\<#56FE\>"))))
-    <|unfolded-io>
+    <|folded-io>
       ("h t tab")
-    </unfolded-io>
+    </folded-io>
 
-    <\unfolded-io|Scheme] >
+    <\folded-io|Scheme] >
       (kbd-map ("t u var" (insert (utf8-\<gtr\>cork "\<#56FE\>"))))
-    <|unfolded-io>
+    <|folded-io>
       ("t u tab")
-    </unfolded-io>
+    </folded-io>
 
-    <\unfolded-io|Scheme] >
+    <\folded-io|Scheme] >
       (kbd-map ("s j x var" (insert (utf8-\<gtr\>cork
       "\<#4E09\>\<#89D2\>\<#5F62\>"))))
-    <|unfolded-io>
+    <|folded-io>
       ("s j x tab")
-    </unfolded-io>
+    </folded-io>
 
-    <\unfolded-io|Scheme] >
+    <\folded-io|Scheme] >
       (kbd-map ("z s j x var" (insert (utf8-\<gtr\>cork
       "\<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\>"))))
-    <|unfolded-io>
+    <|folded-io>
       ("z s j x tab")
-    </unfolded-io>
+    </folded-io>
+
+    <\folded-io|Scheme] >
+      (define (scm2stm x)
+
+      \ \ (define (x-\<gtr\>string x)
+
+      \ \ \ \ (cond ((number? x) (number-\<gtr\>string x))
+
+      \ \ \ \ \ \ \ \ \ \ ((list? x) (scm2stm x))
+
+      \ \ \ \ \ \ \ \ \ \ (else x)))
+
+      \ \ (if (eq? () x)
+
+      \ \ \ \ \ \ ()
+
+      \ \ \ \ \ \ (cons (x-\<gtr\>string (car x))
+
+      \ \ \ \ \ \ \ \ \ \ \ \ (scm2stm (cdr x))))))
+    <|folded-io>
+      scm2stm
+    </folded-io>
 
     <\unfolded-io|Scheme] >
-      (define (\<#7ED8\>\<#56FE\> l) (stree-\<gtr\>tree l))
+      (define (\<#7ED8\>\<#56FE\> x)
+
+      \ \ (stree-\<gtr\>tree (scm2stm x)))
     <|unfolded-io>
       \<#7ED8\>\<#56FE\>
     </unfolded-io>
@@ -93,7 +118,7 @@
       \<#70B9\>
     </unfolded-io>
 
-    <\folded-io|Scheme] >
+    <\unfolded-io|Scheme] >
       (define (\<#56FE\> . objects)
 
       \ \ (cond ((nlist? objects) '(graphics "" ""))
@@ -101,14 +126,14 @@
       \ \ \ \ \ \ \ \ ((== objects '()) '(graphics "" ""))
 
       \ \ \ \ \ \ \ \ (else `(graphics "" ,@objects))))
-    <|folded-io>
+    <|unfolded-io>
       \<#56FE\>
-    </folded-io>
+    </unfolded-io>
 
     <\folded-io|Scheme] >
       (\<#7ED8\>\<#56FE\> (\<#56FE\> (\<#70B9\> 1 1) (\<#70B9\> 2 2)))
     <|folded-io>
-      <text|<with|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-frame|<tuple|scale|3cm|<tuple|0.5gw|0.5gh>>|magnify|3.0|<graphics||<point|1|1>|<point|2|2>>>>
+      <text|<graphics||<point|1|1>|<point|2|2>>>
     </folded-io>
 
     <\unfolded-io|Scheme] >
@@ -116,12 +141,14 @@
 
       \ \ `(cline ,x ,y ,z))
     <|unfolded-io>
-      \<#4E09\>\<#89D2\>\<#5F62\>
+      triangle
     </unfolded-io>
 
-    <\input|Scheme] >
+    <\unfolded-io|Scheme] >
       (define (\<#4E09\>\<#89D2\>\<#5F62\> x y z) (triangle x y z))
-    </input>
+    <|unfolded-io>
+      \<#4E09\>\<#89D2\>\<#5F62\>
+    </unfolded-io>
 
     <\unfolded-io|Scheme] >
       (\<#7ED8\>\<#56FE\> (\<#4E09\>\<#89D2\>\<#5F62\> (\<#70B9\> 0 0 )
@@ -149,92 +176,39 @@
     </unfolded-io>
 
     <\unfolded-io|Scheme] >
-      (define (\<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\> A \<#8FB9\>\<#957F\>)
+      (define (\<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\> A a)
 
       \ \ (\<#4E09\>\<#89D2\>\<#5F62\>
 
       \ \ \ \ \ \ \ A
 
-      \ \ \ \ \ \ \ (\<#70B9\> (+ \<#8FB9\>\<#957F\> (second A)))
+      \ \ \ \ \ \ \ (\<#70B9\> (+ a (second A))
 
       \ \ \ \ \ \ \ \ \ \ \ (third A))
 
-      \ \ \ \ \ \ \ (\<#70B9\> (+ (* 0.5 \<#8FB9\>\<#957F\>)
+      \ \ \ \ \ \ \ (\<#70B9\> (+ (* 0.5 a) (second A))
 
-      \ \ \ \ \ \ \ \ \ \ \ \ \ \ (second A))
-
-      \ \ \ \ \ \ \ \ \ \ \ (+ (third A) (* (sqrt 0.75)
-      \<#8FB9\>\<#957F\>))))))
+      \ \ \ \ \ \ \ \ \ \ \ (+ (third A) (* (sqrt 0.75) a))))))
     <|unfolded-io>
       \<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\>
+    </unfolded-io>
+
+    <\input|Scheme] >
+      \;
+    </input>
+
+    <\unfolded-io|Scheme] >
+      (scm2stm (\<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\> (\<#70B9\> 0 0) 3))
+    <|unfolded-io>
+      (cline (point "0" "0") (point "3" "0") (point "1.5"
+      "2.598076211353316"))
     </unfolded-io>
 
     <\unfolded-io|Scheme] >
       (\<#7ED8\>\<#56FE\> (\<#6B63\>\<#4E09\>\<#89D2\>\<#5F62\> (\<#70B9\> 0
       0) 3))
     <|unfolded-io>
-      <errput|(symbol "ç\\x82;¹"): not enough arguments: ((lambda (x y) ...)
-      3)>
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
-      (define (point x y) `(point ,x ,y))
-    <|unfolded-io>
-      point
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
-      (point 1 2) =\<gtr\> (point "1" "2")
-    <|unfolded-io>
-      (point 1 2)
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
-      (number? 1)
-    <|unfolded-io>
-      #t
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
-      (number-\<gtr\>string 1)
-    <|unfolded-io>
-      (number-\<gtr\>string 1)
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
-      \;
-    <|unfolded-io>
-      x-\<gtr\>string
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
-      (define (draw x)
-
-      \ \ (define (x-\<gtr\>string x)
-
-      \ \ \ \ \ \ (if (number? x)
-
-      \ \ \ \ \ \ \ \ (number-\<gtr\>string x)
-
-      \ \ \ \ \ \ \ \ x))
-
-      \ \ (define (draw-inner x)
-
-      \ \ \ \ (if (eq? () x) ()
-
-      \ \ \ \ \ \ (cons (x-\<gtr\>string (car x))
-
-      \ \ \ \ \ \ \ \ \ \ \ \ (draw-inner (cdr x)))))
-
-      \ \ (stree-\<gtr\>tree (draw-inner x)))
-    <|unfolded-io>
-      draw
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
-      (draw `(point 1 1))
-    <|unfolded-io>
-      <text|<point|1|1>>
+      <text|<cline|<point|0|0>|<point|3|0>|<point|1.5|2.598076211353316>>>
     </unfolded-io>
 
     <\input|Scheme] >
