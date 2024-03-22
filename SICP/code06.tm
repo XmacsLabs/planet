@@ -215,6 +215,64 @@
       \;
     </input>
   </session>
+
+  <section*|\<#5BFB\>\<#627E\>\<#8D28\>\<#6570\>>
+
+  <\session|scheme|default>
+    <\unfolded-io|Scheme] >
+      (define (square x) (* x x))
+    <|unfolded-io>
+      square
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (smallest-divisor n)
+
+      \ \ (find-divisor n 2))
+    <|unfolded-io>
+      smallest-divisor
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (find-divisor n test-divisor)
+
+      \ \ (cond ((\<gtr\> (square test-divisor) n) n)
+
+      \ \ \ \ \ \ \ \ ((divides? test-divisor n) test-divisor)
+
+      \ \ \ \ \ \ \ \ (else (find-divisor n (+ test-divisor 1)))))
+    <|unfolded-io>
+      find-divisor
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (divides? a b)
+
+      \ \ (= (remainder b a) 0))
+    <|unfolded-io>
+      divides?
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (prime? n)
+
+      \ \ (= n (smallest-divisor n)))
+    <|unfolded-io>
+      prime?
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (prime? 7)
+    <|unfolded-io>
+      #t
+    </unfolded-io>
+
+    <\input|Scheme] >
+      \;
+    </input>
+  </session>
+
+  \<#58A8\>\<#8005\>\<#767E\>\<#79D1\>\<#FF1A\><slink|https://gitee.com/XmacsLabs/tmmlwiki/raw/main/\<#6570\>\<#5B66\>/\<#8D39\>\<#9A6C\>\<#5C0F\>\<#5B9A\>\<#7406\>.tm>
 </body>
 
 <\initial>
@@ -228,6 +286,7 @@
 <\references>
   <\collection>
     <associate|auto-1|<tuple|?|?>>
+    <associate|auto-2|<tuple|?|?>>
   </collection>
 </references>
 
