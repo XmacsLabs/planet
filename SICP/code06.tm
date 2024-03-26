@@ -267,6 +267,161 @@
       #t
     </unfolded-io>
 
+    <\unfolded-io|Scheme] >
+      (smallest-divisor 7)
+    <|unfolded-io>
+      7
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (find-divisor 7 2)
+    <|unfolded-io>
+      7
+    </unfolded-io>
+
+    <\input|Scheme] >
+      \;
+    </input>
+
+    <\unfolded-io|Scheme] >
+      (define (square x) (* x x))
+    <|unfolded-io>
+      square
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (expmod base exp m)
+
+      \ \ (cond ((= exp 0) 1)
+
+      \ \ \ \ \ \ \ \ ((even? exp)
+
+      \ \ \ \ \ \ \ \ \ (remainder (square (expmod base (/ exp 2) m))
+
+      \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m))
+
+      \ \ \ \ \ \ \ \ (else
+
+      \ \ \ \ \ \ \ \ \ (remainder (* base (expmod base (- exp 1) m))
+
+      \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m))))
+    <|unfolded-io>
+      expmod
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (fermat-test n)
+
+      \ \ (define (try-it a)
+
+      \ \ \ \ (= (expmod a n n) a))
+
+      \ \ (try-it (+ 1 (random (- n 1)))))
+    <|unfolded-io>
+      fermat-test
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define start 0)
+    <|unfolded-io>
+      0
+    </unfolded-io>
+
+    <\input|Scheme] >
+      (debug-message "std" "\\nHello\\n")
+    </input>
+
+    <\unfolded-io|Scheme] >
+      (define (show-time msg ts)
+
+      \ \ (debug-message "std"
+
+      \ \ \ \ (string-append msg (number-\<gtr\>string (- (texmacs-time) ts))
+      "\\n")))
+    <|unfolded-io>
+      show-time
+
+      <timing|29 msec>
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (fast-prime? n times ts)
+
+      \ \ (cond ((= times 0)
+
+      \ \ \ \ \ \ \ \ \ (begin
+
+      \ \ \ \ \ \ \ \ \ \ \ (show-time "true time: " ts)
+
+      \ \ \ \ \ \ \ \ \ \ \ #t))
+
+      \ \ \ \ \ \ \ \ ((fermat-test n) (fast-prime? n (- times 1) ts))
+
+      \ \ \ \ \ \ \ \ (else (begin
+
+      \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (show-time "false time: " ts)
+
+      \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ #f))))
+    <|unfolded-io>
+      fast-prime?
+
+      <timing|28 msec>
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define (wrap-prime? n times)
+
+      \ \ (fast-prime? n times (texmacs-time)))
+    <|unfolded-io>
+      wrap-prime?
+
+      <timing|28 msec>
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (wrap-prime? 99999787 100000)
+    <|unfolded-io>
+      #t
+
+      <timing|1.456 sec>
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (current-time)
+    <|unfolded-io>
+      1711437953
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define start (current-time))
+    <|unfolded-io>
+      1711438362
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (define end (current-time))
+    <|unfolded-io>
+      1711438370
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (- end start)
+    <|unfolded-io>
+      8
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (texmacs-time)
+    <|unfolded-io>
+      10853179
+    </unfolded-io>
+
+    <\unfolded-io|Scheme] >
+      (texmacs-time)
+    <|unfolded-io>
+      10859400
+    </unfolded-io>
+
     <\input|Scheme] >
       \;
     </input>
@@ -296,6 +451,10 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#7ED8\>\<#56FE\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|\<#5BFB\>\<#627E\>\<#8D28\>\<#6570\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
