@@ -11,6 +11,8 @@
     <item><hlink|\<#7B2C\>00\<#8BB2\>\<#FF1A\>\<#521D\>\<#8BC6\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>|00_math_mode.tm>
 
     <item><hlink|\<#7B2C\>01\<#8BB2\>\<#FF1A\>\<#521D\>\<#8BC6\>\<#5E7B\>\<#706F\>\<#7247\>\<#6837\>\<#5F0F\>|00_beamer_style.tm>
+
+    <item><hlink|\<#7B2C\>02\<#8BB2\>\<#FF1A\>\<#6570\>\<#5B66\>\<#516C\>\<#5F0F\>\<#4E0E\><LaTeX>|02_math_latex.tm>
   </itemize>
 </body>
 
