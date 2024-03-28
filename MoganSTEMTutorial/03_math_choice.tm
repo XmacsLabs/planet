@@ -6,7 +6,7 @@
   <screens|<\shown>
     <tit|\<#7B2C\>03\<#8BB2\>\<#FF1A\>\<#8F93\>\<#5165\>\<#5206\>\<#6BB5\>\<#51FD\>\<#6570\>>
 
-    <tabular|<tformat|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|2|2|2|2|cell-halign|r>|<cwith|4|4|2|2|cell-halign|r>|<cwith|2|2|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|1|1|2|2|cell-halign|r>|<cwith|3|3|2|2|cell-halign|r>|<cwith|2|2|4|4|cell-row-span|2>|<cwith|2|2|4|4|cell-col-span|1>|<cwith|2|2|4|4|cell-valign|c>|<table|<row|<cell|>|<cell|>|<cell|\<#9996\>\<#5148\>\<#8FDB\>\<#5165\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>>|<cell|>>|<row|<cell|>|<cell|\<#5DE5\>\<#5177\>\<#680F\>\<#FF1A\>>|<cell|\<#6A21\>\<#5F0F\>\<#5DE5\>\<#5177\>\<#680F\>\<#7684\>\<#8868\>\<#683C\>\<#6309\>\<#94AE\>>|<cell|\<#FF08\>\<#5FEB\>\<#6377\>\<#952E\>\<#FF09\>>>|<row|<cell|>|<cell|\<#83DC\>\<#5355\>\<#9879\>\<#FF1A\>>|<cell|<menu|Insert|Math|Choice>
+    <tabular|<tformat|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|2|2|2|2|cell-halign|r>|<cwith|4|4|2|2|cell-halign|r>|<cwith|2|2|3|3|cell-halign|l>|<cwith|4|4|3|3|cell-halign|l>|<cwith|1|1|2|2|cell-halign|r>|<cwith|3|3|2|2|cell-halign|r>|<cwith|2|2|4|4|cell-row-span|2>|<cwith|2|2|4|4|cell-col-span|1>|<cwith|2|2|4|4|cell-valign|c>|<table|<row|<cell|>|<cell|>|<cell|\<#9996\>\<#5148\>\<#8FDB\>\<#5165\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>>|<cell|>>|<row|<cell|>|<cell|\<#5DE5\>\<#5177\>\<#680F\>\<#FF1A\>>|<cell|\<#6A21\>\<#5F0F\>\<#5DE5\>\<#5177\>\<#680F\>\<#7684\>\<#8868\>\<#683C\>\<#6309\>\<#94AE\>>|<cell|\<#FF08\>\<#5FEB\>\<#6377\>\<#952E\>\<#FF09\>>>|<row|<cell|>|<cell|\<#83DC\>\<#5355\>\<#9879\>\<#FF1A\>>|<cell|<menu|Insert|Table|Choice>
     >|<cell|>>|<row|<cell|>|<cell|<LaTeX>\<#6DF7\>\<#5408\>\<#547D\>\<#4EE4\>\<#FF1A\>>|<cell|<markup|\\choice>>|<cell|>>>>>
 
     <\equation*>
@@ -32,9 +32,9 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|?|http://git.tmml.wiki/XmacsLabs/planet/raw/main/MoganSTEMTutorial/02_math_latex.tm>>
-    <associate|auto-2|<tuple|?|?|http://git.tmml.wiki/XmacsLabs/planet/raw/main/MoganSTEMTutorial/02_math_latex.tm>>
-    <associate|auto-3|<tuple|1|?|http://git.tmml.wiki/XmacsLabs/planet/raw/main/MoganSTEMTutorial/02_math_latex.tm>>
+    <associate|auto-1|<tuple|?|?>>
+    <associate|auto-2|<tuple|?|?>>
+    <associate|auto-3|<tuple|1|?>>
   </collection>
 </references>
 
@@ -46,7 +46,7 @@
       </surround>|<pageref|auto-3>>
     </associate>
     <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#6570\>\<#5B66\>>|<with|font-family|<quote|ss>|\<#9009\>\<#62E9\>>>|<pageref|auto-1>>
+      <tuple|<tuple|<with|font-family|<quote|ss>|\<#63D2\>\<#5165\>>|<with|font-family|<quote|ss>|\<#8868\>\<#683C\>>|<with|font-family|<quote|ss>|\<#9009\>\<#62E9\>>>|<pageref|auto-1>>
 
       <tuple|<tuple|<with|font-family|<quote|ss>|\<#5E2E\>\<#52A9\>>|<with|font-family|<quote|ss>|\<#58A8\>\<#5BA2\>\<#661F\>\<#7403\>>>|<pageref|auto-2>>
     </associate>
