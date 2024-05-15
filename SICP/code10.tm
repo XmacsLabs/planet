@@ -1,56 +1,62 @@
 <TeXmacs|2.1.2>
 
-<style|<tuple|generic|no-page-numbers|british>>
+<style|<tuple|generic|no-page-numbers|british|s7>>
 
 <\body>
   <section*|Representing Sequences>
 
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+  <\session|s7|default>
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define one-through-four (list 1 2 3 4))
     <|unfolded-io>
       (1 2 3 4)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (car one-through-four)
     <|unfolded-io>
       1
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (cdr one-through-four)
     <|unfolded-io>
       (2 3 4)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (car (cdr one-through-four))
     <|unfolded-io>
       2
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (cons 10 one-through-four)
     <|unfolded-io>
       (10 1 2 3 4)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (cons 5 one-through-four)
     <|unfolded-io>
       (5 1 2 3 4)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  \;
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (list-ref items n)
 
       \ \ (if (= n 0)
@@ -62,25 +68,25 @@
       list-ref
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define squares (list 1 4 9 16 25))
     <|unfolded-io>
       (1 4 9 16 25)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (list-ref squares 3)
     <|unfolded-io>
       16
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (length items)
 
       \ \ (if (null? items)
@@ -92,43 +98,41 @@
       length
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define odds (list 1 3 5 7))
     <|unfolded-io>
       (1 3 5 7)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (length odds)
     <|unfolded-io>
       4
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (append squares odds)
     <|unfolded-io>
       (1 4 9 16 25 1 3 5 7)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (append odds squares)
     <|unfolded-io>
       (1 3 5 7 1 4 9 16 25)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (scale-list items factor)
 
       \ \ (if (null? items)
@@ -142,25 +146,25 @@
       scale-list
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (scale-list (list 1 2 3 4 5) 10)
     <|unfolded-io>
       (10 20 30 40 50)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (map abs (list -10 2.5 -11.6 17))
     <|unfolded-io>
       (10 2.5 11.6 17)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (map (lambda (x) (* x x))
 
       \ \ \ \ \ (list 1 2 3 4))
@@ -168,15 +172,19 @@
       (1 4 9 16)
     </unfolded-io>
 
-    <\input|Scheme] >
+    <\input>
+      \<gtr\>\ 
+    <|input>
       \;
     </input>
   </session>
 
   <section*|Hierarchical Structures>
 
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+  <\session|s7|default>
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (count-leaves x)
 
       \ \ (cond ((null? x) 0) \ 
@@ -190,55 +198,57 @@
       count-leaves
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define x (cons (list 1 2) (list 3 4)))
     <|unfolded-io>
       ((1 2) 3 4)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (length x)
     <|unfolded-io>
       3
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (count-leaves x)
     <|unfolded-io>
       4
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (list x x)
     <|unfolded-io>
       (((1 2) 3 4) ((1 2) 3 4))
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (length (list x x))
     <|unfolded-io>
       2
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (count-leaves (list x x))
     <|unfolded-io>
       8
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (scale-tree tree factor)
 
       \ \ (cond ((null? tree) ())
@@ -253,7 +263,9 @@
       scale-tree
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (scale-tree (list 1 (list 2 (list 3 4) 5) (list 6 7))
 
       \ \ \ \ \ \ \ \ \ \ \ \ 10)
@@ -261,7 +273,9 @@
       (10 (20 (30 40) 50) (60 70))
     </unfolded-io>
 
-    <\input|Scheme] >
+    <\input>
+      \<gtr\>\ 
+    <|input>
       \;
     </input>
   </session>
@@ -270,26 +284,26 @@
 
   <subsection*|Sequence Operations>
 
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+  <\session|s7|default>
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (square x) (* x x))
     <|unfolded-io>
       square
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (map square (list 1 2 3 4 5))
     <|unfolded-io>
       (1 4 9 16 25)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (filter predicate sequence)
 
       \ \ (cond ((null? sequence) ())
@@ -305,21 +319,17 @@
       filter
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (filter odd? (list 1 2 3 4 5))
     <|unfolded-io>
       (1 3 5)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  \;
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (accumulate op initial sequence)
 
       \ \ (if (null? sequence)
@@ -333,31 +343,33 @@
       accumulate
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (accumulate + 0 (list 1 2 3 4 5))
     <|unfolded-io>
       15
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (accumulate * 1 (list 1 2 3 4 5))
     <|unfolded-io>
       120
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (accumulate cons () (list 1 2 3 4 5))
     <|unfolded-io>
       (1 2 3 4 5)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (enumerate-interval low high)
 
       \ \ (if (\<gtr\> low high)
@@ -369,19 +381,17 @@
       enumerate-interval
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (enumerate-interval 2 7)
     <|unfolded-io>
       (2 3 4 5 6 7)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (enumerate-tree tree)
 
       \ \ (cond ((null? tree) ())
@@ -396,25 +406,17 @@
       enumerate-tree
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (enumerate-tree (list 1 (list 2 (list 3 4)) 5))
     <|unfolded-io>
       (1 2 3 4 5)
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
-      (define (square x) (* x x))
+    <\unfolded-io>
+      \<gtr\>\ 
     <|unfolded-io>
-      square
-    </unfolded-io>
-
-    <\unfolded-io|Scheme] >
       (define (fib n)
 
       \ \ (cond ((= n 0) 0)
@@ -428,7 +430,9 @@
       fib
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (list-fib-squares n)
 
       \ \ (accumulate cons
@@ -445,13 +449,17 @@
       list-fib-squares
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (list-fib-squares 10)
     <|unfolded-io>
       (0 1 1 4 9 25 64 169 441 1156 3025)
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (product-of-squares-of-odd-elements sequence)
 
       \ \ (accumulate *
@@ -465,27 +473,35 @@
       product-of-squares-of-odd-elements
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (product-of-squares-of-odd-elements (list 1 2 3 4 5))
     <|unfolded-io>
       225
     </unfolded-io>
 
-    <\input|Scheme] >
+    <\input>
+      \<gtr\>\ 
+    <|input>
       \;
     </input>
   </session>
 
   <subsection*|Nested Mappings>
 
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+  <\session|s7|default>
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (square x) (* x x))
     <|unfolded-io>
       square
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (smallest-divisor n)
 
       \ \ (find-divisor n 2))
@@ -493,7 +509,9 @@
       smallest-divisor
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (find-divisor n test-divisor)
 
       \ \ (cond ((\<gtr\> (square test-divisor) n) n)
@@ -505,7 +523,9 @@
       find-divisor
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (divides? a b)
 
       \ \ (= (remainder b a) 0))
@@ -513,7 +533,9 @@
       divides?
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (prime? n)
 
       \ \ (= n (smallest-divisor n)))
@@ -521,15 +543,9 @@
       prime?
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  \;
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (flatmap proc seq)
 
       \ \ (accumulate append () (map proc seq)))
@@ -537,7 +553,9 @@
       flatmap
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (prime-sum? pair)
 
       \ \ (prime? (+ (car pair) (cadr pair))))
@@ -545,7 +563,9 @@
       prime-sum?
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (make-pair-sum pair)
 
       \ \ (list (car pair) (cadr pair) (+ (car pair) (cadr pair))))
@@ -553,7 +573,9 @@
       make-pair-sum
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (prime-sum-pairs n)
 
       \ \ (map make-pair-sum
@@ -574,21 +596,17 @@
       prime-sum-pairs
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (prime-sum-pairs 4)
     <|unfolded-io>
       ((2 1 3) (3 2 5) (4 1 5) (4 3 7))
     </unfolded-io>
 
-    <\input|Scheme] >
-      \;
-    </input>
-  </session>
-
-  \;
-
-  <\session|scheme|default>
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (remove item sequence)
 
       \ \ (filter (lambda (x) (not (= x item)))
@@ -598,7 +616,9 @@
       remove
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (define (permutations s)
 
       \ \ (if (null? s) \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ; empty set?
@@ -618,13 +638,17 @@
       permutations
     </unfolded-io>
 
-    <\unfolded-io|Scheme] >
+    <\unfolded-io>
+      \<gtr\>\ 
+    <|unfolded-io>
       (permutations (list 1 2 3))
     <|unfolded-io>
       ((1 2 3) (1 3 2) (2 1 3) (2 3 1) (3 1 2) (3 2 1))
     </unfolded-io>
 
-    <\input|Scheme] >
+    <\input>
+      \<gtr\>\ 
+    <|input>
       \;
     </input>
   </session>
