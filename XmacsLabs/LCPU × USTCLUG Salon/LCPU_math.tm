@@ -385,74 +385,76 @@
   <\collection>
     <\associate|bib>
       Zhang22
+
+      Zhang22
     </associate>
     <\associate|toc>
-      <with|par-left|<quote|4tab>|Why do we need
+      <with|par-left|<quote|3tab>|Why do we need
       T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X<rsub|<space|-0.4spc><move|<resize|M<space|-0.2spc>A<space|-0.4spc>CS||||0.5fn>|0fn|-0.1fn>>
       other than L<rsup|<space|-0.8spc><move|A|0fn|-0.1fn>><space|-0.2spc>T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X?
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-1><vspace|0.15fn>>
+      <no-break><pageref|auto-1>>
 
-      <with|par-left|<quote|4tab>|<with|color|<quote|#503050>|font-family|<quote|rm>|<with|mode|<quote|math>|T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X<rsub|<space|-0.4spc><move|<resize|M<space|-0.2spc>A<space|-0.4spc>CS||||0.5fn>|0fn|-0.1fn>>\<neq\>T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X+<with|font-family|<quote|rm>|font-shape|<quote|small-caps>|<with|mode|<quote|text>|Emacs>>>>
+      <with|par-left|<quote|3tab>|<with|color|<quote|#503050>|font-family|<quote|rm>|<with|mode|<quote|math>|T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X<rsub|<space|-0.4spc><move|<resize|M<space|-0.2spc>A<space|-0.4spc>CS||||0.5fn>|0fn|-0.1fn>>\<neq\>T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X+<with|font-family|<quote|rm>|font-shape|<quote|small-caps>|<with|mode|<quote|text>|Emacs>>>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-2><vspace|0.15fn>>
+      <no-break><pageref|auto-2>>
 
-      <with|par-left|<quote|4tab>|Can T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X<rsub|<space|-0.4spc><move|<resize|M<space|-0.2spc>A<space|-0.4spc>CS||||0.5fn>|0fn|-0.1fn>>
+      <with|par-left|<quote|3tab>|Can T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X<rsub|<space|-0.4spc><move|<resize|M<space|-0.2spc>A<space|-0.4spc>CS||||0.5fn>|0fn|-0.1fn>>
       replace L<rsup|<space|-0.8spc><move|A|0fn|-0.1fn>><space|-0.2spc>T<rsub|<space|-0.4spc><move|<resize|<with|math-level|<quote|0>|E>||||0.5fn>|0fn|-0.1fn>><space|-0.4spc>X
       in everyday study and work? <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-3><vspace|0.15fn>>
+      <no-break><pageref|auto-3>>
 
-      <with|par-left|<quote|4tab>|Three ways to input math
+      <with|par-left|<quote|3tab>|Three ways to input math
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-4><vspace|0.15fn>>
+      <no-break><pageref|auto-4>>
 
-      <with|par-left|<quote|4tab>|Three types of formulae
+      <with|par-left|<quote|3tab>|Three types of formulae
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-5><vspace|0.15fn>>
+      <no-break><pageref|auto-5>>
 
-      <with|par-left|<quote|4tab>|Variants
+      <with|par-left|<quote|3tab>|Variants
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-6><vspace|0.15fn>>
+      <no-break><pageref|auto-6>>
 
-      <with|par-left|<quote|4tab>|Juxtaposition
+      <with|par-left|<quote|3tab>|Juxtaposition
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-7><vspace|0.15fn>>
+      <no-break><pageref|auto-7>>
 
-      <with|par-left|<quote|4tab>|Special fonts
+      <with|par-left|<quote|3tab>|Special fonts
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-8><vspace|0.15fn>>
+      <no-break><pageref|auto-8>>
 
-      <with|par-left|<quote|4tab>|2D math markup
+      <with|par-left|<quote|3tab>|2D math markup
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-9><vspace|0.15fn>>
+      <no-break><pageref|auto-9>>
 
-      <with|par-left|<quote|4tab>|Brackets
+      <with|par-left|<quote|3tab>|Brackets
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-10><vspace|0.15fn>>
+      <no-break><pageref|auto-10>>
 
-      <with|par-left|<quote|4tab>|Large symbols
+      <with|par-left|<quote|3tab>|Large symbols
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-11><vspace|0.15fn>>
+      <no-break><pageref|auto-11>>
 
-      <with|par-left|<quote|4tab>|Matrices
+      <with|par-left|<quote|3tab>|Matrices
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-12><vspace|0.15fn>>
+      <no-break><pageref|auto-12>>
 
-      <with|par-left|<quote|4tab>|Commutative diagrams
+      <with|par-left|<quote|3tab>|Commutative diagrams
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-13><vspace|0.15fn>>
+      <no-break><pageref|auto-13>>
 
-      <with|par-left|<quote|4tab>|When a symbol is hard to find
+      <with|par-left|<quote|3tab>|When a symbol is hard to find
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-14><vspace|0.15fn>>
+      <no-break><pageref|auto-14>>
 
-      <with|par-left|<quote|4tab>|Numbering
+      <with|par-left|<quote|3tab>|Numbering
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-15><vspace|0.15fn>>
+      <no-break><pageref|auto-15>>
 
-      <with|par-left|<quote|4tab>|Labels and reference
+      <with|par-left|<quote|3tab>|Labels and reference
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-16><vspace|0.15fn>>
+      <no-break><pageref|auto-16>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Bibliography>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>

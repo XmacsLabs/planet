@@ -4,11 +4,11 @@
 
 <\body>
   <\hide-preamble>
-    <assign|lcpu|北京大学Linux俱乐部>
+    <assign|lcpu|\<#5317\>\<#4EAC\>\<#5927\>\<#5B66\>Linux\<#4FF1\>\<#4E50\>\<#90E8\>>
 
-    <assign|ustclug|中国科学技术大学Linux用户协会>
+    <assign|ustclug|\<#4E2D\>\<#56FD\>\<#79D1\>\<#5B66\>\<#6280\>\<#672F\>\<#5927\>\<#5B66\>Linux\<#7528\>\<#6237\>\<#534F\>\<#4F1A\>>
 
-    <assign|ustcug|<macro|dep|中国科学技术大学<arg|dep>用户协会>>
+    <assign|ustcug|<macro|dep|\<#4E2D\>\<#56FD\>\<#79D1\>\<#5B66\>\<#6280\>\<#672F\>\<#5927\>\<#5B66\><arg|dep>\<#7528\>\<#6237\>\<#534F\>\<#4F1A\>>>
 
     <assign|scm-code|<\macro|body>
       <with|body-color|pastel green|<\pseudo-code>
@@ -20,7 +20,7 @@
 
     <assign|red-star|<with|color|red|\<heartsuit\>>>
 
-    <assign|fake-star|<with|color|red|♡>>
+    <assign|fake-star|<with|color|red|\<#2661\>>>
   </hide-preamble>
 
   <\slideshow>
@@ -69,7 +69,7 @@
 
       \;
 
-      <key|‘ ‘ ‘ var>
+      <key|\<#2018\> \<#2018\> \<#2018\> var>
 
       <\session|scheme|default>
         <\unfolded-io|Scheme] >
@@ -167,7 +167,7 @@
 
       <ustcug|<LaTeX>>
 
-      <ustcug|墨干>
+      <ustcug|\<#58A8\>\<#5E72\>>
     </slide>
 
     <\slide>
@@ -210,6 +210,7 @@
   <\collection>
     <associate|font|frak=TeX Gyre Pagella,cal=TeX Gyre
     Termes,math=roman,Fira>
+    <associate|font-base-size|12>
     <associate|font-family|rm>
     <associate|info-flag|minimal>
     <associate|item-vsep|<macro|0fn>>
