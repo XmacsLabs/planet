@@ -22,7 +22,7 @@
     tab tab>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\dagger>>|<cell|>|<cell|>|<cell|<todo|\\rhd>>|<cell|>|<cell|>|<cell|<todo|\\veeodot>>|<cell|>>|<row|<cell|\<ddagger\>>|<cell|<math|><key|+
     tab tab tab>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\ddagger>>|<cell|>|<cell|>|<cell|<todo|rightthreetimes>>|<cell|>|<cell|>|<cell|<todo|\\veeonvee>>|<cell|>>|<row|<cell|\<div\>>|<cell|<key|/
     tab tab>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\div>>|<cell|>|<cell|>|<cell|<todo|\\ringplus>>|<cell|>|<cell|>|<cell|<todo|\\Wedge>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|\<wedge\>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\divideontimes>>|<cell|>|<cell|>|<cell|<todo|\\rsolbar>>|<cell|>|<cell|>|<cell|<markup|\\wedge>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|\<rtimes\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\dotminus>>|<cell|>|<cell|>|<cell|<markup|\\rtimes>>|<cell|>|<cell|>|<cell|<todo|\\wedgebar>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|\<setminus\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\dotplus>>|<cell|>|<cell|>|<cell|<markup|\\setminus>>|<cell|>|<cell|>|<cell|<todo|\\wedgedot>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\dottimes>>|<cell|>|<cell|>|<cell|<todo|\\shuffle>>|<cell|>|<cell|>|<cell|<todo|\\wedgedoublebar>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\doublebarvee>>|<cell|>|<cell|>|<cell|<todo|\\simplus>>|<cell|>|<cell|>|<cell|<todo|\\wedgemidvert>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|\<smallsetminus\>>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\doublebarwedge>>|<cell|>|<cell|>|<cell|<markup|\\smallsetminus>>|<cell|>|<cell|>|<cell|<todo|\\wedgeodot>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\doubleplus>>|<cell|>|<cell|>|<cell|<todo|\\smashtimes>>|<cell|>|<cell|>|<cell|<todo|\\wedgeonwedge>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|\<sqcap\>>|<cell|>|<cell|>|<cell|\<wr\>>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\dsol>>|<cell|>|<cell|>|<cell|<markup|\\sqcap>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>|<row|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<todo|\\eqqplus>>|<cell|>|<cell|>|<cell|<todo|\\Sqcap>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
-      Stix二元操作符（注意：以下快捷键仅适用于数学模式）
+      Stix\<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
     </big-table*>
 
     <space|0.2spc>
@@ -48,7 +48,7 @@
   <\collection>
     <\associate|table>
       <\tuple|normal>
-        Stix二元操作符（注意：以下快捷键仅适用于数学模式）
+        Stix\<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
       </tuple|<pageref|auto-1>>
     </associate>
   </collection>

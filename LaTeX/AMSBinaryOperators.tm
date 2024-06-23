@@ -28,7 +28,7 @@
     ->>|<cell|>>|<row|<cell|>|<cell|<markup|\\centerdot>>|<cell|>|<cell|>|<cell|<markup|\\dotplus>>|<cell|>|<cell|>|<cell|<markup|\\veebar>>|<cell|>>|<row|<cell|\<circledast\>>|<cell|<key|@
     * tab>>|<cell|>|<cell|\<doublebarwedge\>>|<cell|<math|><todo|<key|=
     &>>>|<cell|>|<cell|>|<cell|>|<cell|>>|<row|<cell|>|<cell|<markup|\\circledast>>|<cell|>|<cell|>|<cell|<markup|\\doublebarwedge>>|<cell|>|<cell|>|<cell|>|<cell|>>>>>>
-      AMS二元操作符（注意：以下快捷键仅适用于数学模式）
+      AMS\<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
     </big-table*>
 
     <space|0.2spc>
@@ -46,7 +46,7 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-1|<tuple|?|2>>
   </collection>
 </references>
 
@@ -54,7 +54,7 @@
   <\collection>
     <\associate|table>
       <\tuple|normal>
-        AMS二元操作符（注意：以下快捷键仅适用于数学模式）
+        AMS\<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
       </tuple|<pageref|auto-1>>
     </associate>
   </collection>

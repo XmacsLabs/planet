@@ -30,20 +30,21 @@
     .><math|>>|<cell|>|<cell|<math|\<sqcup\>>>|<cell|<key|% var
     var>>|<cell|>|<cell|<math|\<wedge\>>>|<cell|<key|&>>|<cell|>>|<row|<cell|>|<cell|<markup|\\cdot>>|<cell|>|<cell|>|<cell|<markup|\\odot>>|<cell|>|<cell|>|<cell|<markup|\\sqcup>>|<cell|>|<cell|>|<cell|<markup|\\wedge>>|<cell|>>|<row|<cell|<math|\<circ\>>>|<cell|<key|@>>|<cell|>|<cell|<math|\<ominus\>>>|<cell|<key|@
     ->>|<cell|>|<cell|<math|\<star\>>>|<cell|<key|*><key|Shift+Tab>>|<cell|>|<cell|<math|\<wr\>>>|<cell|>|<cell|>>|<row|<cell|<markup|>>|<cell|<markup|\\circ>>|<cell|>|<cell|>|<cell|<markup|\\ominus>>|<cell|>|<cell|>|<cell|<markup|\\star>>|<cell|>|<cell|>|<cell|<markup|\\wr>>|<cell|>>>>>>
-      二元操作符（注意：以下快捷键仅适用于数学模式）
+      \<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
     </big-table*>
   </shown>>
 </body>
 
 <\initial>
   <\collection>
+    <associate|font-base-size|10>
     <associate|page-medium|paper>
   </collection>
 </initial>
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-1|<tuple|?|2|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/BinaryOperators.tm>>
   </collection>
 </references>
 
@@ -51,7 +52,7 @@
   <\collection>
     <\associate|table>
       <\tuple|normal>
-        二元操作符（注意：以下快捷键仅适用于数学模式）
+        \<#4E8C\>\<#5143\>\<#64CD\>\<#4F5C\>\<#7B26\>\<#FF08\>\<#6CE8\>\<#610F\>\<#FF1A\>\<#4EE5\>\<#4E0B\>\<#5FEB\>\<#6377\>\<#952E\>\<#4EC5\>\<#9002\>\<#7528\>\<#4E8E\>\<#6570\>\<#5B66\>\<#6A21\>\<#5F0F\>\<#FF09\>
       </tuple|<pageref|auto-1>>
     </associate>
   </collection>
