@@ -1,0 +1,534 @@
+<TMU|<tuple|1.0.1|2.1.2>>
+
+<style|<tuple|beamer|no-page-numbers|chinese|python|s7|maxima>>
+
+<\body>
+  <\hide-preamble>
+    <assign|dfn|<macro|x|<strong|<arg|x>>>>
+  </hide-preamble>
+
+  <\slideshow>
+    <\slide>
+      \;
+
+      \;
+
+      \;
+
+      <doc-data|<doc-title|零基础SICP 12：集合、列表和二叉树>|<doc-author|<author-data|<author-name|>>>|<doc-author|<author-data|<author-name|沈浪熊猫儿（Dē老师）>>>|<doc-author|<author-data|<author-name|MathAgape（ē老师）>|<\author-affiliation>
+        \;
+
+        \;
+
+        \;
+
+        \;
+
+        \;
+
+        \;
+
+        \;
+      </author-affiliation>>>|<doc-subtitle|>>
+    </slide>
+
+    <\slide>
+      <tit|零基础SICP：第12课>
+
+      <\wide-tabular>
+        <tformat|<cwith|2|-1|1|-1|cell-height|40px>|<cwith|2|-1|1|-1|cell-vmode|exact>|<table|<row|<\cell>
+          <\large>
+            <strong|数据抽象导引>
+          </large>
+        </cell>|<\cell>
+          <\large>
+            <strong|Introduction to Data Abstraction>
+          </large>
+        </cell>>|<row|<\cell>
+          <large|<strong|层次性数据和闭包性质>>
+        </cell>|<\cell>
+          <large|<strong|Hierarchical Data and the Closure Property>>
+        </cell>>|<row|<\cell>
+          <large|<strong|符号数据>>
+        </cell>|<\cell>
+          <large|<strong|Symbolic Data>>
+        </cell>>|<row|<\cell>
+          实例：符号求导
+        </cell>|<\cell>
+          Example: Symbolic Differentiation
+        </cell>>|<row|<\cell>
+          实例：集合的表示
+        </cell>|<\cell>
+          Example: Representing Sets
+        </cell>>>>
+      </wide-tabular>
+
+      \;
+
+      回顾：通过定义一组<strong|逻辑自洽>的选择函数和构造函数，定义数据。
+
+      \;
+
+      今天，我们定义集合。
+
+      \;
+    </slide>
+
+    <\slide>
+      <tit|定义集合（课本版）>
+
+      <\description>
+        <item*|构造函数>
+
+        <\description>
+          <item*|adjoin-set>接受集合和元素作为参数，返回一个插入了元素的新集合。
+
+          <item*|intersection-set>接受两个集合<math|set1>和<math|set2>，返回两个集合的交集<math|set1\<cap\>set2>。
+
+          <item*|union-set>接受两个集合<math|set1>和<math|set2>，返回两个集合的并集<math|set1\<cup\>set2>。
+        </description>
+
+        <item*|选择函数>
+
+        <\description>
+          <item*|element-of-set?>判断元素x是否在集合中。
+        </description>
+      </description>
+
+      \;
+
+      <\question>
+        上述构造函数中是否有冗余或者缺失？
+      </question>
+
+      <\question>
+        目前只有一个选择函数，只能判断一个元素是否在集合中，那么这样的选择函数是否还能定义集合这种数据？
+      </question>
+    </slide>
+
+    <\slide>
+      <tit|定义集合（der老师版）>
+
+      <\description>
+        <item*|构造函数>
+
+        <\description>
+          <with|color|dark green|<item*|empty-set>无参数，直接返回空集。>
+
+          <item*|adjoin-set>接受集合和元素作为参数，返回一个插入了元素的新集合。
+
+          <\marked>
+            <item*|intersection-set>接受两个集合<math|set1>和<math|set2>，返回两个集合的交集<math|set1\<cap\>set2>。
+
+            <item*|union-set>接受两个集合<math|set1>和<math|set2>，返回两个集合的并集<math|set1\<cup\>set2>。
+          </marked>
+        </description>
+
+        <item*|选择函数>
+
+        <\description>
+          <item*|element-of-set?>判断元素x是否在集合中。
+        </description>
+      </description>
+
+      \;
+
+      <\question>
+        在定义集合时，是否可以不定义集合的交集和并集？
+      </question>
+    </slide>
+
+    <\slide>
+      <tit|借助列表定义集合>
+
+      借助列表，实现<scm|empty-set>、<scm|adjoin-set>和<scm|element-of-set?>
+
+      <\with|par-columns|2>
+        <\session|s7|default>
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define (empty-set) ‘())
+          <|folded-io>
+            empty-set
+          </folded-io>
+
+          <\input>
+            \<gtr\>\ 
+          <|input>
+            (define (adjoin-set x set)
+
+            \ \ (if (element-of-set? x set)
+
+            \ \ \ \ \ \ set
+
+            \ \ \ \ \ \ (cons x set)))
+          </input>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define (element-of-set? x set)
+
+            \ \ (cond ((null? set) #f)
+
+            \ \ \ \ \ \ \ \ ((equal? x (car set)) #t)
+
+            \ \ \ \ \ \ \ \ (else (element-of-set? x (cdr set)))))
+          <|folded-io>
+            element-of-set?
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            \;
+          <|folded-io>
+            adjoin-set
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (empty-set)
+          <|folded-io>
+            ()
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (adjoin-set 1 (empty-set))
+          <|folded-io>
+            (1)
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (adjoin-set 2 (adjoin-set 1 (empty-set)))
+          <|folded-io>
+            (2 1)
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define 两个元素的集合 (adjoin-set 2 (adjoin-set 1 (empty-set))))
+          <|folded-io>
+            (2 1)
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (element-of-set? 3 两个元素的集合)
+          <|folded-io>
+            #f
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (element-of-set? 2 两个元素的集合)
+          <|folded-io>
+            #t
+          </folded-io>
+
+          <\input>
+            \<gtr\>\ 
+          <|input>
+            \;
+          </input>
+        </session>
+      </with>
+    </slide>
+
+    <\slide>
+      <tit|借助树定义集合—先定义二叉树>
+
+      先借助列表定义二叉树，熟悉二叉树的性质，再定义集合
+
+      <\with|par-columns|2>
+        <\session|s7|default>
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define (make-tree entry left right)
+
+            \ \ (list entry left right))
+          <|folded-io>
+            make-tree
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define (entry tree) (car tree))
+          <|folded-io>
+            entry
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define (left-branch tree) (cadr tree))
+          <|folded-io>
+            left-branch
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define (right-branch tree) (caddr tree))
+          <|folded-io>
+            right-branch
+          </folded-io>
+        </session>
+
+        <tree|7|6|8> <tree|20|10|21>
+
+        <\session|s7|default>
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define l-t (make-tree 7
+
+            \ \ (make-tree 6 () ())
+
+            \ \ (make-tree 8 () ())))
+          <|folded-io>
+            (7 (6 () ()) (8 () ()))
+          </folded-io>
+
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (define r-t (make-tree 20
+
+            \ \ (make-tree 10 () ())
+
+            \ \ (make-tree 21 () ())))
+          <|folded-io>
+            (20 (10 () ()) (21 () ()))
+          </folded-io>
+        </session>
+
+        <tree|9|<tree|7|6|8>|<tree|20|10|21>>
+
+        <\session|s7|default>
+          <\folded-io>
+            \<gtr\>\ 
+          <|folded-io>
+            (make-tree 9 l-t r-t)
+          <|folded-io>
+            (7 (6 () ()) (8 () ()))
+          </folded-io>
+        </session>
+      </with>
+    </slide>
+
+    <\slide>
+      <tit|借助树定义集合之adjoin-set>
+
+      <\session|s7|default>
+        <\unfolded-io>
+          \<gtr\>\ 
+        <|unfolded-io>
+          (define (adjoin-set x set)
+
+          \ \ (cond ((null? set) (make-tree x '() '()))
+
+          \ \ \ \ \ \ \ \ ((= x (entry set)) set)
+
+          \ \ \ \ \ \ \ \ ((\<less\> x (entry set))
+
+          \ \ \ \ \ \ \ \ \ (make-tree (entry set)\ 
+
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (adjoin-set x (left-branch set))
+
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (right-branch set)))
+
+          \ \ \ \ \ \ \ \ ((\<gtr\> x (entry set))
+
+          \ \ \ \ \ \ \ \ \ (make-tree (entry set)
+
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (left-branch set)
+
+          \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (adjoin-set x (right-branch set))))))
+        <|unfolded-io>
+          adjoin-set
+        </unfolded-io>
+
+        <\input>
+          \<gtr\>\ 
+        <|input>
+          \;
+        </input>
+      </session>
+    </slide>
+
+    <\slide>
+      <tit|借助树定义集合之element-of-set?>
+
+      <\session|s7|default>
+        <\unfolded-io>
+          \<gtr\>\ 
+        <|unfolded-io>
+          (define (element-of-set? x set)
+
+          \ \ (cond ((null? set) #f)
+
+          \ \ \ \ \ \ \ \ ((= x (entry set)) #t)
+
+          \ \ \ \ \ \ \ \ ((\<less\> x (entry set))
+
+          \ \ \ \ \ \ \ \ \ (element-of-set? x (left-branch set)))
+
+          \ \ \ \ \ \ \ \ ((\<gtr\> x (entry set))
+
+          \ \ \ \ \ \ \ \ \ (element-of-set? x (right-branch set)))))
+        <|unfolded-io>
+          element-of-set?
+        </unfolded-io>
+
+        <\input>
+          \<gtr\>\ 
+        <|input>
+          \;
+        </input>
+      </session>
+    </slide>
+
+    <\slide>
+      <tit|借助树定义集合之实战>
+
+      <\session|s7|default>
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          (empty-set)
+        <|folded-io>
+          ()
+        </folded-io>
+
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          (adjoin-set 1 (empty-set))
+        <|folded-io>
+          (1 () ())
+        </folded-io>
+
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          (adjoin-set 2 (adjoin-set 1 (empty-set)))
+        <|folded-io>
+          (1 () (2 () ()))
+        </folded-io>
+
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          (define 两个元素的集合 (adjoin-set 2 (adjoin-set 1 (empty-set))))
+        <|folded-io>
+          (1 () (2 () ()))
+        </folded-io>
+
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          (element-of-set? 3 两个元素的集合)
+        <|folded-io>
+          #f
+        </folded-io>
+
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          (element-of-set? 2 两个元素的集合)
+        <|folded-io>
+          #t
+        </folded-io>
+
+        <\input>
+          \<gtr\>\ 
+        <|input>
+          \;
+        </input>
+      </session>
+    </slide>
+
+    <\slide>
+      <tit|番外：如何显示二叉树>
+
+      墨干V1.2.7的S7 Scheme插件的隐藏功能：
+
+      <\session|s7|default>
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          ‘(document (tree "7"))
+        <|folded-io>
+          <tree|7>
+        </folded-io>
+
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          ‘(document (tree "7" "6" "8"))
+        <|folded-io>
+          <tree|7|6|8>
+        </folded-io>
+
+        <\folded-io>
+          \<gtr\>\ 
+        <|folded-io>
+          ‘(document (tree "9" (tree "7" "6" "8") (tree "20" "10" "21")))
+        <|folded-io>
+          <tree|9|<tree|7|6|8>|<tree|20|10|21>>
+        </folded-io>
+
+        <\input>
+          \<gtr\>\ 
+        <|input>
+          \;
+        </input>
+      </session>
+
+      <\exercise>
+        利用S7 Scheme插件的隐藏功能实现二叉树（本次课程中利用列表定义的）的可视化。
+      </exercise>
+    </slide>
+
+    <\slide>
+      <tit|总结>
+
+      <\itemize>
+        <item>回顾：如何定义数据
+
+        <item>集合：如何定义集合
+
+        <item>集合：借助列表定义集合
+
+        <item>二叉树：借助列表定义二叉树
+
+        <item>集合：借助二叉树定义集合
+
+        <item>二叉树：S7 Scheme中显示二叉树的隐藏功能
+      </itemize>
+    </slide>
+  </slideshow>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|info-flag|minimal>
+    <associate|marked-color|#faa>
+    <associate|page-medium|paper>
+    <associate|page-screen-margin|false>
+    <associate|par-columns|1>
+    <associate|preamble|false>
+  </collection>
+</initial>
