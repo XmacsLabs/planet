@@ -39,8 +39,6 @@
 
     <item><hlink|\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/\<#9AD8\>\<#8003\>\<#6570\>\<#5B66\>/index.tm>
 
-    <item><hlink|<LaTeX><space|0.4spc>\<#7B26\>\<#53F7\>\<#5927\>\<#5168\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/LaTeX/index.tmu>
-
     <item><hlink|\<#56FD\>\<#9645\>\<#6570\>\<#5B66\>\<#5965\>\<#6797\>\<#5339\>\<#514B\>\<#7ADE\>\<#8D5B\>|http://git.tmml.wiki/XmacsLabs/planet/raw/main/IMO/index.tm>
   </itemize>
 
