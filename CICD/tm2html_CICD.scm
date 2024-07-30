@@ -54,7 +54,7 @@
               files)))
 
 (define (tm2html_CICD)
-  (export-directory "../planet/" "../planet/CICD/html")
+  (export-directory "../" "../CICD/html")
    (let* ((current-path (current-path))
          (current-url (path->url current-path))
          (files-and-folders (directory-files current-path)))

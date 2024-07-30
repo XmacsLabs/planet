@@ -94,7 +94,7 @@ jobs:
 
       - name: Copy output files
         run: |
-          cp -r ./planet/CICD/html/* gh-pages/
+          cp -r ./CICD/html/* gh-pages/
 
       - name: Commit and push changes
         working-directory: gh-pages
