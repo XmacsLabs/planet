@@ -90,11 +90,16 @@ jobs:
           path: gh-pages # This checks out the gh-pages branch into a separate directory
 
       - name: List root directory for debugging
-        run: ls -al
+        run: |
+             ls -al
+             cd CICD
+             ls -al
+             cd html
+             ls -al
 
       - name: Copy output files
-        run: |
-          cp -r ./CICD/html/* gh-pages/
+        run:
+          cp -r CICD/html/* gh-pages/
 
       - name: Commit and push changes
         working-directory: gh-pages
