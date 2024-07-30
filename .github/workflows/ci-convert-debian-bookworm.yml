@@ -3,7 +3,10 @@ name: CI/CD for Converting tm format to html
 on:
   push:
     branches:
-      - main  
+      - main
+  pull_request:
+    branches:
+      - main
 
 env:
   XMAKE_ROOT: y
