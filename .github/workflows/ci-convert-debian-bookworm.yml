@@ -93,6 +93,9 @@ jobs:
         run: |
           cp -r ./planet/CICD/html/* gh-pages/
 
+      - name: List root directory for debugging
+        run: ls -al
+
       - name: Commit and push changes
         working-directory: gh-pages
         run: |
