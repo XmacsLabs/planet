@@ -54,7 +54,7 @@
               files)))
 
 (define (tm2html_CICD)
-  (export-directory "./" "./CICD/html")
+  (export-directory "./planet/" "./planet/CICD/html")
   (display "Conversion from tm/tmu to html end\n"))
 
 (tm2html_CICD)

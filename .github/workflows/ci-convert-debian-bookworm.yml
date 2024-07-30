@@ -86,12 +86,15 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: gh-pages
+          persist-credentials: false # This ensures the credentials are not persisted to the subsequent steps
+          path: gh-pages # This checks out the gh-pages branch into a separate directory
 
       - name: Copy output files
         run: |
-          cp -r ./CICD/html/* .
+          cp -r ./planet/CICD/html/* gh-pages/
 
       - name: Commit and push changes
+        working-directory: gh-pages
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
