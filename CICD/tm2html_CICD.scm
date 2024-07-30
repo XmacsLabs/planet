@@ -55,6 +55,11 @@
 
 (define (tm2html_CICD)
   (export-directory "../planet/" "../planet/CICD/html")
+   (let* ((current-path (current-path))
+         (current-url (path->url current-path))
+         (files-and-folders (directory-files current-path)))
+    (display "Current Path URL: ")
+    (display current-url))
   (display "Conversion from tm/tmu to html end\n"))
 
 (tm2html_CICD)

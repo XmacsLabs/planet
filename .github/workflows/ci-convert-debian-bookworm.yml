@@ -89,12 +89,12 @@ jobs:
           persist-credentials: false # This ensures the credentials are not persisted to the subsequent steps
           path: gh-pages # This checks out the gh-pages branch into a separate directory
 
+      - name: List root directory for debugging
+        run: ls -al
+
       - name: Copy output files
         run: |
           cp -r ./planet/CICD/html/* gh-pages/
-
-      - name: List root directory for debugging
-        run: ls -al
 
       - name: Commit and push changes
         working-directory: gh-pages
