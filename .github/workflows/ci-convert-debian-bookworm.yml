@@ -63,7 +63,9 @@ jobs:
           key: ${{ runner.os }}-build-qt${{ matrix.qt_ver }}-${{ hashFiles('**/packages.lua') }}
 
       - name: config
-        run: xmake config -vD --policies=build.ccache -o tmp/build -m releasedbg --yes
+        run: |
+             cd mogan
+             xmake config -vD --policies=build.ccache -o tmp/build -m releasedbg --yes
       - name: build
         run: xmake build --yes -vD research && xmake build --yes -vD --group=tests
       - name: convert document to html format
