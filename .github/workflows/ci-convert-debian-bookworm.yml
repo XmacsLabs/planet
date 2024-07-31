@@ -37,7 +37,7 @@ jobs:
       - name: download release from mogan research repository
         run: |
           wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.7/mogan-research-v1.2.7-debian12.deb -O /tmp/mogan-research-v1.2.7-debian12.deb
-          sudo apt install /tmp/mogan-research-v1.2.7-debian12.deb
+          apt install /tmp/mogan-research-v1.2.7-debian12.deb
 
       - name: List installed files
         run: dpkg -L mogan-research
