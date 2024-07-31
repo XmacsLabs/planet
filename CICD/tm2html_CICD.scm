@@ -42,7 +42,7 @@
     (make-directory (url->string output-dir-url))
     (display (string-append "Exporting " (url->string file) " to " (url->string html-file-url) "\n"))
     (load-buffer (url->string file))
-    (export-buffer-main (current-buffer) (url->string output-file-url) "html" ())))
+    (export-buffer-main (current-buffer) (url->string html-file-url) "html" ())))
 
 (define (make-directory dir)
   (system (string-append "mkdir -p " dir)))
@@ -54,11 +54,6 @@
               files)))
 
 (tm-define (test_tm2html_CICD)
-  (export-directory "../" "../CICD/html")
-   (let* ((current-path (current-path))
-         (current-url (path->url current-path))
-         (files-and-folders (directory-files current-path)))
-    (display "Current Path URL: ")
-    (display current-url))
+  (export-directory "/jingkaimori" "/CICD/html")
   (display "Conversion from tm/tmu to html end\n"))
   
