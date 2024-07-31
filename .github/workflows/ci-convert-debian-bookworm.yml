@@ -37,7 +37,7 @@ jobs:
       - name: download release from mogan research repository
         run: |
           wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.7/mogan-research-v1.2.7-debian12.deb -O /tmp/mogan-research-v1.2.7-debian12.deb
-          apt install /tmp/mogan-research-v1.2.7-debian12.deb
+          DEBIAN_FRONTEND=noninteractive apt install -y /tmp/mogan-research-v1.2.7-debian12.deb
 
       - name: List installed files
         run: dpkg -L mogan-research
@@ -49,7 +49,7 @@ jobs:
             ls -al
 
       - name: convert document to html format
-        run: 
+        run: |
           cd mogan
           tmp/build/packages/app.mogan/bin/MoganResearch -headless -b TeXmacs/tests/tm2html_CICD.scm -x "(test_tm2html_CICD)" -q
     
