@@ -25,7 +25,7 @@ jobs:
               fonts-noto-cjk libcurl4-openssl-dev libfreetype-dev libfontconfig-dev \
               ${{matrix.qt_pkg}} libgit2-dev zlib1g-dev libssl-dev libjpeg62-turbo-dev cmake \
               libmimalloc-dev
-          sudo apt-get update && sudo apt-get install -y wget
+          apt-get update && apt-get install -y wget
           
       - uses: actions/checkout@v3
         with:
