@@ -1,0 +1,57 @@
+name: CI/CD for Converting tm format to html
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  XMAKE_ROOT: y
+  QT_QPA_PLATFORM: offscreen
+  INSTALL_DIR: tmp/build/packages/app.mogan/
+
+jobs:
+  build:
+    container: debian:bookworm
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Install dependencies
+        run: apt-get update && apt-get install -y wget
+          
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: git add safe directory
+        run: git config --global --add safe.directory '*'
+
+      - name: download release from mogan research repository
+        run: |
+          wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.8-rc1/mogan-research-v1.2.8-rc1-debian12.deb -O /tmp/mogan-research.deb
+          DEBIAN_FRONTEND=noninteractive apt install -y /tmp/mogan-research.deb
+
+      - name: List installed files
+        run: dpkg -L mogan-research
+      
+      - name: List root directory for debugging
+        run: |
+          pwd
+          ls -al
+          cd /usr/bin
+          ls -al
+
+      - name: convert document to html format
+        run: |
+          /usr/bin/MoganResearch -headless -b CICD/tm2html_CICD.scm -x "(tm2html_CICD)" -q
+    
+      # Deploy to local repo
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: build
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
