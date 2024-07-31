@@ -30,14 +30,14 @@
          (html-file-url (url-glue output-file-url ".html"))
          (output-dir-url (url-head html-file-url)))
     
-    ; ; Debugging information; expect information are just some example
-    ; (display (string-append "Base directory: " (url->string base-dir) "\n")) ; Expect: file:///F:/mogan/planet/CICD/try
-    ; (display (string-append "File: " (url->string file) "\n")) ; Expect: file:///F:/mogan/planet/CICD/try/2/24_10_tmhtml_test.tmu
-    ; (display (string-append "Relative path: " (url->string relative-path) "\n")) ; Expect: /2/24_10_tmhtml_test.tmu
-    ; (display (string-append "Output file URL (before unglue): " (url->string output-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test.tmu
-    ; (display (string-append "Output file URL (after unglue): " (url->string (url-unglue output-file-url 3)) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test
-    ; (display (string-append "HTML file URL: " (url->string html-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test.html
-    ; (display (string-append "Output directory URL: " (url->string output-dir-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2
+    ; Debugging information; expect information are just some example
+    (display (string-append "Base directory: " (url->string base-dir) "\n")) ; Expect: file:///F:/mogan/planet/CICD/try
+    (display (string-append "File: " (url->string file) "\n")) ; Expect: file:///F:/mogan/planet/CICD/try/2/24_10_tmhtml_test.tmu
+    (display (string-append "Relative path: " (url->string relative-path) "\n")) ; Expect: /2/24_10_tmhtml_test.tmu
+    (display (string-append "Output file URL (before unglue): " (url->string output-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test.tmu
+    (display (string-append "Output file URL (after unglue): " (url->string (url-unglue output-file-url 3)) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test
+    (display (string-append "HTML file URL: " (url->string html-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test.html
+    (display (string-append "Output directory URL: " (url->string output-dir-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2
 
     (make-directory (url->string output-dir-url))
     (display (string-append "Exporting " (url->string file) " to " (url->string html-file-url) "\n"))
@@ -54,6 +54,8 @@
               files)))
 
 (tm-define (tm2html_CICD)
-  (export-directory " /__w/planet/planet/jingkaimori" " /__w/planet/planet/CICD/html")
+  (url-exists? "/__w/planet/planet/jingkaimori")
+  (url-exists? "/__w/planet/planet/CICD")
+  (export-directory "/__w/planet/planet/jingkaimori" "/__w/planet/planet/CICD/html")
   (display "Conversion from tm/tmu to html end\n"))
   
