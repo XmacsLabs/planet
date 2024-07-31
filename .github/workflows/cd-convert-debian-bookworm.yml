@@ -25,9 +25,6 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: git add safe directory
-        run: git config --global --add safe.directory '*'
-
       - name: download release from mogan research repository
         run: |
           wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.8-rc1/mogan-research-v1.2.8-rc1-debian12.deb -O /tmp/mogan-research.deb
