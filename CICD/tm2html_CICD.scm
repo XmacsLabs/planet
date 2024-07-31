@@ -54,6 +54,6 @@
               files)))
 
 (tm-define (tm2html_CICD)
-  (export-directory "/jingkaimori" "/CICD/html")
+  (export-directory "jingkaimori" "CICD/html")
   (display "Conversion from tm/tmu to html end\n"))
   
