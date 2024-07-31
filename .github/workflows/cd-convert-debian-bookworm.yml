@@ -35,5 +35,5 @@ jobs:
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: CICD/html
+          FOLDER: CICD/html/planet
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
