@@ -44,6 +44,7 @@ jobs:
       
       - name: List root directory for debugging
         run: |
+            pwd
             ls -al
             cd /usr/bin
             ls -al
