@@ -50,5 +50,5 @@ jobs:
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: CICD/html
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
