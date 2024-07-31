@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seminar X202303</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc1" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <p style="margin-bottom: 10%">
+      
+    </p>
+    <table class="title-block">
+      <tr>
+        <td><table style="margin-top: 0.5em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><strong>Seminar X202303</strong></font></td>
+          </tr>
+        </table><div style="margin-top: 1em; margin-bottom: 1em" class="compact-block">
+          <table class="title-block">
+            <tr>
+              <td><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                      <p>
+                        <class style="font-variant: small-caps">by BadVortex</class>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p></td>
+            </tr>
+          </table>
+        </div></td>
+      </tr>
+    </table>
+    <p style="margin-bottom: 10%">
+      
+    </p>
+    <p>
+      
+    </p>
+    <h2 id="auto-1">1<span style="margin-left: 1em"></span>Welcome<span style="margin-left: 1em"></span></h2>
+    <h2 id="auto-2">2<span style="margin-left: 1em"></span>Topic: How to create a pull request in
+    Gitee?<span style="margin-left: 1em"></span></h2>
+    <p>
+      https://gitee.com/XmacsLabs/planet/issues/I6JNE2
+    </p>
+    <h3 id="auto-3">2.1<span style="margin-left: 1em"></span>Some simple preparations<span style="margin-left: 1em"></span></h3>
+    <ol>
+      <li>
+        <p>
+          You already have a Gitee account.
+        </p>
+      </li>
+      <li>
+        <p>
+          Open <strong>the terminal</strong> and run the following command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">git &ndash;version</tt>
+          </p>
+        </div>
+      </li>
+    </ol>
+    <h3 id="auto-4">2.2<span style="margin-left: 1em"></span>Generate and add SSH public key<span style="margin-left: 1em"></span></h3>
+    <ol>
+      <li>
+        <p>
+          We need to generate SSH key by run the following command:
+        </p>
+        <div style="margin-top: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">ssh-keygen -t ed25519 -C &quot;xxxxx@xxxxx.com&quot; 
+            </tt>
+          </p>
+        </div>
+        <div style="margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"># Generating public/private ed25519 key
+            pair&hellip;</tt>
+          </p>
+        </div>
+        <p>
+          * The xxxxx@xxxxx.com here is just the name of the generated SSH
+          key, and does not restrict or require it to be specifically named as
+          a certain mailbox.
+        </p>
+        <p>
+          * Just press Enter three times, and the ssh key will be generated,
+          and <strong>no password required</strong>.
+        </p>
+      </li>
+      <li>
+        <p>
+          We can print SSH public key using the <tt class="verbatim">cat</tt> command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">cat ~/.ssh/id_ed25519.pub</tt>
+          </p>
+        </div>
+      </li>
+      <li>
+        <p>
+          Copy the SSH public key to your clipboard.
+        </p>
+      </li>
+      <li>
+        <p>
+          In the upper-right corner of any page of Gitee, click your profile
+          photo, then click <strong>Settings</strong>. In the side bar, click
+          <strong>SSH public key</strong>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Paste your public key into the Key field. Click <strong>Add SSH
+          key</strong>.
+        </p>
+      </li>
+    </ol>
+    <h3 id="auto-5">2.3<span style="margin-left: 1em"></span>Git clone<span style="margin-left: 1em"></span></h3>
+    <ol>
+      <li>
+        <p>
+          Go to the <strong>Code</strong> page of
+          &quot;XmacsLabs/planet&quot;, click the
+          <strong>Clone/Download</strong> button, switch to SSH, and copy it.
+        </p>
+      </li>
+      <li>
+        <p>
+          Return to your home directory in The Terminal using the <tt class="verbatim">cd</tt>
+          command.
+        </p>
+      </li>
+      <li>
+        <p>
+          We need to clone the warehouse by run the following command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <pre class="verbatim" xml:space="preserve">
+git clone git@gitee.com:XmacsLabs/planet.git</pre>
+        </div>
+        <p>
+          (If prompted, enter YES.)
+        </p>
+      </li>
+    </ol>
+    <h3 id="auto-6">2.4<span style="margin-left: 1em"></span>Git add<span style="margin-left: 1em"></span></h3>
+    <ul>
+      <li>
+        <p>
+          Open the planet folder by file manager, and paste the files to be
+          added here.
+        </p>
+      </li>
+      <li>
+        <p>
+          Enter the directory in The Terminal using the <tt class="verbatim">cd</tt>
+          command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <pre class="verbatim" xml:space="preserve">
+cd planet</pre>
+        </div>
+      </li>
+      <li>
+        <p>
+          We can see which changes have been staged using the <tt class="verbatim">git
+          status</tt> command.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the <tt class="verbatim">git add</tt> command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <pre class="verbatim" xml:space="preserve">
+git add XmacsLabs/X202303.tm</pre>
+        </div>
+      </li>
+    </ul>
+    <h3 id="auto-7">2.5<span style="margin-left: 1em"></span>Git config<span style="margin-left: 1em"></span></h3>
+    <ol>
+      <li>
+        <p>
+          Add your own username using the <tt class="verbatim">git config</tt> command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <pre class="verbatim" xml:space="preserve">
+git config --global user.name &quot;&#x58A8;&#x5BA2;&#x5B9E;&#x9A8C;&#x5BA4;&#x673A;&#x5668;&#x4EBA;&quot;</pre>
+        </div>
+      </li>
+      <li>
+        <p>
+          Add your own E-mail using the <tt class="verbatim">git config</tt> command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <pre class="verbatim" xml:space="preserve">
+git config --global user.email &quot;bot@xmacs.net&quot;</pre>
+        </div>
+      </li>
+      <li>
+        <p>
+          You can view which changes have been done using the <tt class="verbatim">cat</tt>
+          command:
+        </p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+          <pre class="verbatim" xml:space="preserve">
+cat ~/.gitconfig</pre>
+        </div>
+      </li>
+    </ol>
+    <h3 id="auto-8">2.6<span style="margin-left: 1em"></span>Git commit<span style="margin-left: 1em"></span></h3>
+    <p>
+      You can make a commit using the <tt class="verbatim">git commit -m</tt> command:
+    </p>
+    <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 70.29196032px; text-indent: 0em" class="compact-block">
+      <pre class="verbatim" xml:space="preserve">
+git commit -m &quot;2023&#x5E74;&#x7B2C;&#x4E09;&#x6B21;&#x7814;&#x8BA8;&#x4F1A;&quot;</pre>
+    </div>
+    <h3 id="auto-9">2.7<span style="margin-left: 1em"></span>Git push<span style="margin-left: 1em"></span></h3>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <strong>Note. </strong>I already have the developer permission of the
+      repository &quot;XmacsLabs/planet&quot;. That's why I can push the code
+      to the main branch and generate a pull request on Gitee. If you do not
+      have the developer permission of the repository, you have to learn how
+      to fork a Gitee/Github project and then create the pull request via the
+      Gitee/Github web.
+    </p>
+    <p>
+      You can make a push using the <tt class="verbatim">git push origin main</tt>
+      command. The pull request will be generated automatically.
+    </p>
+    <h2 id="auto-10">3<span style="margin-left: 1em"></span>Topic: to purchase a Loongson laptop<span
+    style="margin-left: 1em"></span></h2>
+  </body>
+</html>
