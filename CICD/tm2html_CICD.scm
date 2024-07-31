@@ -54,6 +54,6 @@
               files)))
 
 (tm-define (tm2html_CICD)
-  (export-directory "/home/runner/work/planet/planet/jingkaimori" "/home/runner/work/planet/planet/CICD/html")
+  (export-directory " /__w/planet/planet/jingkaimori" " /__w/planet/planet/CICD/html")
   (display "Conversion from tm/tmu to html end\n"))
   
