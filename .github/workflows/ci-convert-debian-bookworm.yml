@@ -80,7 +80,7 @@ jobs:
       - name: convert document to html format
         run: 
           cd mogan
-          xmake r tm2html_CICD
+          tmp/build/packages/app.mogan/bin/MoganResearch -headless -b TeXmacs/tests/tm2html_CICD.scm -x (test_tm2html_CICD) -q
     
       - name: Checkout gh-pages branch
         uses: actions/checkout@v3

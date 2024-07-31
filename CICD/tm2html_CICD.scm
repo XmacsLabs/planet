@@ -53,7 +53,7 @@
                 (export-file-to-html file dir output-dir))
               files)))
 
-(define (tm2html_CICD)
+(tm-define (test_tm2html_CICD)
   (export-directory "../" "../CICD/html")
    (let* ((current-path (current-path))
          (current-url (path->url current-path))
@@ -61,5 +61,4 @@
     (display "Current Path URL: ")
     (display current-url))
   (display "Conversion from tm/tmu to html end\n"))
-
-(tm2html_CICD)
+  
