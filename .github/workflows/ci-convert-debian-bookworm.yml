@@ -50,7 +50,7 @@ jobs:
 
       - name: convert document to html format
         run: |
-          /usr/bin/MoganResearch -headless -b TeXmacs/tests/tm2html_CICD.scm -x "(test_tm2html_CICD)" -q
+          /usr/bin/MoganResearch -headless -b /CICD/tm2html_CICD.scm -x "(tm2html_CICD)" -q
     
       - name: Checkout gh-pages branch
         uses: actions/checkout@v3
