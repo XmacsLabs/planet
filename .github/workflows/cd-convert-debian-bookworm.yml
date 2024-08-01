@@ -1,10 +1,7 @@
-name: CI/CD for Converting tm format to html
+name: CD for Converting tm format to html
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
 
@@ -22,12 +19,12 @@ jobs:
 
       - name: download release from mogan research repository
         run: |
-          wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.8-rc1/mogan-research-v1.2.8-rc1-debian12.deb -O /tmp/mogan-research.deb
+          wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.8-rc2/mogan-research-v1.2.8-rc2-debian12.deb -O /tmp/mogan-research.deb
           DEBIAN_FRONTEND=noninteractive apt install -y /tmp/mogan-research.deb
 
       - name: convert document to html format
         run: |
-          /usr/bin/MoganResearch -headless -b CICD/tm2html_CICD.scm -x "(tm2html_CICD)" -q
+          /usr/bin/MoganResearch -headless -b CD/tm2html_CD.scm -x "(tm2html_CD)" -q
     
       # Deploy to local repo
       - name: Deploy
@@ -35,5 +32,5 @@ jobs:
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: CICD/html/planet
+          FOLDER: CD/html/planet
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
