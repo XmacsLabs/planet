@@ -54,6 +54,8 @@
               files)))
 
 (tm-define (tm2html_CICD)
-  (export-directory "/__w/planet/planet" "/__w/planet/planet/CICD/html")
-  (display "Conversion from tm/tmu to html end\n"))
-  
+  ; (export-directory "/__w/planet/planet" "/__w/planet/planet/CICD/html")
+  (let* ((current-dir (url->string (url-pwd)))
+         (output-dir (string-append current-dir "/CICD/html")))
+    (export-directory current-dir output-dir-url)
+    (display "Conversion from tm/tmu to html end\n")))
