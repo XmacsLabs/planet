@@ -1,8 +1,8 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
-;; MODULE      : tm2html_CICD.scm
-;; DESCRIPTION : Convert tm format to html for CICD
+;; MODULE      : tm2html_CD.scm
+;; DESCRIPTION : Convert tm format to html for CD
 ;; COPYRIGHT   : (C) 2024  ATQlove
 ;;
 ;; This software falls under the GNU general public license version 3 or later.
@@ -31,13 +31,13 @@
          (output-dir-url (url-head html-file-url)))
     
     ; ; Debugging information; expect information are just some example
-    ; (display (string-append "Base directory: " (url->string base-dir) "\n")) ; Expect: file:///F:/mogan/planet/CICD/try
-    ; (display (string-append "File: " (url->string file) "\n")) ; Expect: file:///F:/mogan/planet/CICD/try/2/24_10_tmhtml_test.tmu
+    ; (display (string-append "Base directory: " (url->string base-dir) "\n")) ; Expect: file:///F:/mogan/planet/CD/try
+    ; (display (string-append "File: " (url->string file) "\n")) ; Expect: file:///F:/mogan/planet/CD/try/2/24_10_tmhtml_test.tmu
     ; (display (string-append "Relative path: " (url->string relative-path) "\n")) ; Expect: /2/24_10_tmhtml_test.tmu
-    ; (display (string-append "Output file URL (before unglue): " (url->string output-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test.tmu
-    ; (display (string-append "Output file URL (after unglue): " (url->string (url-unglue output-file-url 3)) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test
-    ; (display (string-append "HTML file URL: " (url->string html-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2/24_10_tmhtml_test.html
-    ; (display (string-append "Output directory URL: " (url->string output-dir-url) "\n")) ; Expect: file:///F:/mogan/planet/CICD/html/2
+    ; (display (string-append "Output file URL (before unglue): " (url->string output-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CD/html/2/24_10_tmhtml_test.tmu
+    ; (display (string-append "Output file URL (after unglue): " (url->string (url-unglue output-file-url 3)) "\n")) ; Expect: file:///F:/mogan/planet/CD/html/2/24_10_tmhtml_test
+    ; (display (string-append "HTML file URL: " (url->string html-file-url) "\n")) ; Expect: file:///F:/mogan/planet/CD/html/2/24_10_tmhtml_test.html
+    ; (display (string-append "Output directory URL: " (url->string output-dir-url) "\n")) ; Expect: file:///F:/mogan/planet/CD/html/2
 
     (make-directory (url->string output-dir-url))
     (display (string-append "Exporting " (url->string file) " to " (url->string html-file-url) "\n"))
@@ -53,9 +53,9 @@
                 (export-file-to-html dir file output-dir))
               files)))
 
-(tm-define (tm2html_CICD)
-  ; (export-directory "/__w/planet/planet" "/__w/planet/planet/CICD/html")
+(tm-define (tm2html_CD)
+  ; (export-directory "/__w/planet/planet" "/__w/planet/planet/CD/html")
   (let* ((current-dir (url->string (url-pwd)))
-         (output-dir (string-append current-dir "/CICD/html")))
-    (export-directory current-dir output-dir-url)
+         (output-dir (string-append current-dir "/CD/html")))
+    (export-directory current-dir output-dir)
     (display "Conversion from tm/tmu to html end\n")))
