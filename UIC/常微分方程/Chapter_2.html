@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ordinary Differential Equations</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: block" class="toggle">
+      <p>
+        
+      </p>
+      <table style="margin-bottom: 2em" class="title-block">
+        <tr>
+          <td><table style="margin-top: 0.5em; margin-bottom: 0.5em" class="title-block">
+            <tr>
+              <td><font style="font-size: 168.2%"><font color="#006060"><strong>Ordinary Differential
+              Equations</strong></font></font></td>
+            </tr>
+          </table><div style="margin-top: 1em; margin-bottom: 1em" class="compact-block">
+            <table class="title-block">
+              <tr>
+                <td><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                  <div style="display: inline">
+                    <span style="margin-left: 0pt"></span>
+                  </div>
+                  <table style="display: inline-table; vertical-align: middle">
+                    <tbody><tr>
+                      <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                        <p>
+                          <class style="font-variant: small-caps">by Yuliang Wang</class>
+                        </p>
+                      </center></td>
+                    </tr></tbody>
+                  </table>
+                </p></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+      </table>
+      <h1 id="auto-1">Chapter 2: First Order Differential Equations<span style="margin-left: 1em"></span></h1>
+      <p>
+        General form 
+      </p>
+      <center>
+        <img src="Chapter_2-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">1</class>.
+        </strong></font></font><class style="font-style: normal"><font color="#602060"><font color="#602060"><strong>(falling
+        object in air, general solution, integral curves, initial value
+        problem) </strong></font></font></class>
+      </p>
+      <p>
+        The motion of the object is governed by the Newton's law. Let <font
+        color="#503050"><img src="Chapter_2-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> be the velocity of the object at
+        time <font color="#503050"><img src="Chapter_2-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.09260606060606069em; margin-top: -0.03238787878787874em; vertical-align: 0em; height: 1.0426181818181819em" /></font>.
+      </p>
+      <center>
+        <img src="Chapter_2-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.3311515151515152em; height: 1.7228606060606062em" />
+      </center>
+      <p>
+        where <font color="#503050"><img src="Chapter_2-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.04993939393939395em; vertical-align: 0em; height: 0.8316121212121212em" /></font> is the mass of the
+        object, <font color="#503050"><img src="Chapter_2-6.png" style="margin-left: -0.03723636363636364em; margin-bottom: -0.041309090909090906em; margin-right: -0.12921212121212122em; margin-top: -0.06235151515151516em; vertical-align: -0.3310545454545455em; height: 1.1915636363636364em" /></font> is the gravitational
+        constant, and <font color="#503050"><img src="Chapter_2-7.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.07398787878787882em; margin-top: -0.025115151515151535em; vertical-align: -0.3311515151515152em; height: 1.1791515151515153em" /></font> is the
+        coefficient of air resistant force.
+      </p>
+      <p style="margin-bottom: 1em">
+        This is a first order linear ODE.
+      </p>
+      <h2 id="auto-2">1<span style="margin-left: 1em"></span>Method of integrating factors<span style="margin-left: 1em"></span></h2>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">2</class>.
+        </strong></font></font>Find the general solutions of
+      </p>
+      <center>
+        <img src="Chapter_2-8.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.019442424242424233em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.14191515151515152em; height: 1.4870303030303031em" />
+      </center>
+      <p>
+        idea: combine <font color="#503050"><img src="Chapter_2-9.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.019442424242424233em; margin-right: -0.05115151515151517em; margin-top: -0.032727272727272716em; vertical-align: -0.14191515151515152em; height: 1.4870303030303031em" /></font> into the
+        derivative of another function. 
+      </p>
+      <p>
+        Consider the product rule of differentiation:
+      </p>
+      <center>
+        <img src="Chapter_2-10.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        Let <font color="#503050"><img src="Chapter_2-11.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.026327272727272755em; vertical-align: -0.42579393939393945em; height: 1.7849212121212124em" /></font>, then
+      </p>
+      <center>
+        <img src="Chapter_2-12.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.026327272727272755em; vertical-align: -0.42579393939393945em; height: 1.7849212121212124em" />
+      </center>
+      <p>
+        Now, we multiply the original equation by <font color="#503050"><img src="Chapter_2-13.png"
+        style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.024824242424242415em; margin-top: -0.026327272727272755em; vertical-align: 0em; height: 1.3877333333333335em" /></font>:
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_2-14.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.11209696969697092em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+        </center>
+      </p>
+      <p>
+        Divide by <font color="#503050"><img src="Chapter_2-13.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.024824242424242415em; margin-top: -0.026327272727272755em; vertical-align: 0em; height: 1.3877333333333335em" /></font>:
+      </p>
+      <center>
+        <img src="Chapter_2-15.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: 0.03054545454545443em; vertical-align: -0.42579393939393945em; height: 1.7849212121212124em" />
+      </center>
+      <p>
+        <strong>Method of integrating factors:</strong>
+      </p>
+      <p>
+        Consider the 1st order linear ODE (standard form):
+      </p>
+      <center>
+        <img src="Chapter_2-16.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        Multiply left side by <font color="#503050"><img src="Chapter_2-17.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242637em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>:
+      </p>
+      <center>
+        <img src="Chapter_2-18.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        We want
+      </p>
+      <center>
+        <img src="Chapter_2-19.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.024824242424241305em; margin-top: -0.032727272727272716em; vertical-align: -0.3311515151515152em; height: 1.7228606060606062em" />
+      </center>
+      <p>
+        i.e.
+      </p>
+      <center>
+        <img src="Chapter_2-20.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.03723636363636351em; vertical-align: -0.42579393939393945em; height: 2.1871515151515153em" />
+      </center>
+      <p>
+        Check (by the chain rule and fundamental theorem of calculus)
+      </p>
+      <center>
+        <img src="Chapter_2-21.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.03723636363636351em; vertical-align: -0.42579393939393945em; height: 2.1871515151515153em" />
+      </center>
+      <p>
+        Derivation directly:
+      </p>
+      <center>
+        <img src="Chapter_2-22.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.024824242424237752em; margin-top: -0.032727272727272716em; vertical-align: -1.5377939393939395em; height: 3.9015272727272734em" />
+      </center>
+      <center>
+        <img src="Chapter_2-23.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.024824242424244858em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <p>
+        So the original ODE becomes
+      </p>
+      <center>
+        <img src="Chapter_2-24.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.11209696969696381em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <center>
+        <img src="Chapter_2-25.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424244858em; margin-top: -0.04358787878787895em; vertical-align: -1.617987878787879em; height: 4.158060606060607em" />
+      </center>
+      <p>
+        where
+      </p>
+      <center>
+        <img src="Chapter_2-26.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.03723636363636351em; vertical-align: -0.42579393939393945em; height: 2.1871515151515153em" />
+      </center>
+      <p>
+        is called the <strong>integrating factor</strong>.
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">3</class>.
+        </strong></font></font>Find the <strong>general solution</strong> of
+      </p>
+      <center>
+        <img src="Chapter_2-27.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636351em; margin-right: -0.09260606060606058em; margin-top: -0.03626666666666667em; vertical-align: -1.112em; height: 3.432145454545455em" />
+      </center>
+      <p>
+        <strong>Answer:</strong> Rewrite it in the standard form
+      </p>
+      <center>
+        <img src="Chapter_2-28.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.01944242424242426em; margin-right: -0.02482424242424308em; margin-top: -0.06264242424242417em; vertical-align: -1.2632727272727273em; height: 3.478739393939394em" />
+      </center>
+      <p>
+        Here <font color="#503050"><img src="Chapter_2-29.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024775757575757562em; margin-right: -0.02482424242424308em; margin-top: -0.04921212121212126em; vertical-align: -0.8683636363636364em; height: 2.6139151515151515em" /></font>. Then find the
+        integrating factor <font color="#503050"><img src="Chapter_2-17.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242637em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>:
+      </p>
+      <center>
+        <img src="Chapter_2-30.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.03723636363636351em; vertical-align: -0.42579393939393945em; height: 2.1871515151515153em" />
+      </center>
+      <p>
+        So the solution is
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_2-31.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424237752em; margin-top: -0.04358787878787895em; vertical-align: -1.617987878787879em; height: 4.158060606060607em" />
+        </center>
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">4</class>.
+        </strong></font></font>Solve the <strong>initial value
+        problem</strong>
+      </p>
+      <center>
+        <img src="Chapter_2-32.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.024824242424230647em; margin-top: -0.049212121212121485em; vertical-align: -1.392630303030303em; height: 3.612218181818182em" />
+      </center>
+      <p>
+        <strong>Answer:</strong> First rewrite the equation into the standard
+        form:
+      </p>
+      <center>
+        <img src="Chapter_2-33.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636351em; margin-right: -0.024824242424241305em; margin-top: -0.06264242424242417em; vertical-align: -1.112em; height: 3.345260606060606em" />
+      </center>
+      <p>
+        Find the integrating factor:
+      </p>
+      <center>
+        <img src="Chapter_2-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.024824242424244858em; margin-top: -0.039224242424242384em; vertical-align: -0.3311515151515152em; height: 2.5182545454545453em" />
+      </center>
+      <p>
+        The general solution is
+      </p>
+      <center>
+        <img src="Chapter_2-35.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424241305em; margin-top: -0.04358787878787895em; vertical-align: -1.617987878787879em; height: 4.158060606060607em" />
+      </center>
+      <p>
+        Plugging the initial condition:
+      </p>
+      <center>
+        <img src="Chapter_2-36.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636351em; margin-right: -0.024824242424241305em; margin-top: -0.06264242424242417em; vertical-align: -1.112em; height: 3.345260606060606em" />
+      </center>
+      <p>
+        The solution of the initial value problem is
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_2-37.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.037236363636363734em; margin-right: -0.024824242424241305em; margin-top: -0.06264242424242417em; vertical-align: -1.1213575757575758em; height: 3.354618181818182em" />
+        </center>
+      </p>
+      <p>
+        
+      </p>
+      <h2 id="auto-3">2<span style="margin-left: 1em"></span>Separable equations<span style="margin-left: 1em"></span></h2>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">5</class>.
+        </strong></font></font>Solve
+      </p>
+      <center>
+        <img src="Chapter_2-38.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909096em; margin-right: -0.02482424242424308em; margin-top: -0.04921212121212104em; vertical-align: -1.4524121212121213em; height: 3.9728000000000003em" />
+      </center>
+      <p>
+        This equation is nonlinear. We can separate the variables <font color="#503050"><img
+        src="Chapter_2-39.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: 0em; height: 0.8067878787878788em" /></font> and <font color="#503050"><img src="Chapter_2-40.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: -0.3310545454545455em; height: 1.1543272727272729em" /></font> as
+        follows
+      </p>
+      <center>
+        <img src="Chapter_2-41.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.15820606060606224em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <center>
+        <img src="Chapter_2-42.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06206060606060593em; margin-right: -0.11209696969696914em; margin-top: -0.04921212121212104em; vertical-align: -1.112em; height: 3.653139393939394em" />
+      </center>
+      <p style="margin-bottom: 1em">
+        This is an example of <strong>implicit solutions</strong>.
+      </p>
+      <div style="margin-top: 0em; margin-bottom: 0em">
+        <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+          <p>
+            <i>An ODE in the form of</i>
+          </p>
+          <p>
+            <i><center>
+              <img src="Chapter_2-43.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -1.5377939393939395em; height: 3.879127272727273em" />
+            </center></i>
+          </p>
+          <p>
+            <i>is called <strong>separable.</strong></i>
+          </p>
+        </div></font></font>
+      </div>
+      <p>
+        We can solve it as follows
+      </p>
+      <center>
+        <img src="Chapter_2-44.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.15820606060606046em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">7</class>.
+        </strong></font></font>Solve the initial value problem
+      </p>
+      <center>
+        <img src="Chapter_2-45.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.024824242424244858em; margin-top: -0.04921212121212104em; vertical-align: -1.5377939393939395em; height: 4.0379151515151515em" />
+      </center>
+      <p>
+        <strong>Solution:</strong> 
+      </p>
+      <center>
+        <img src="Chapter_2-46.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.15820606060605868em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <center>
+        <img src="Chapter_2-47.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424241305em; margin-top: -0.04921212121212126em; vertical-align: -0.3310545454545455em; height: 1.8345696969696972em" />
+      </center>
+      <p>
+        Plugging the initial condition
+      </p>
+      <center>
+        <img src="Chapter_2-48.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+      </center>
+      <p>
+        The solution to the initial value problem is
+      </p>
+      <center>
+        <img src="Chapter_2-49.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424241305em; margin-top: -0.04921212121212126em; vertical-align: -0.3310545454545455em; height: 1.8345696969696972em" />
+      </center>
+      <p style="margin-top: 1em; margin-bottom: 1em">
+        <font color="#602060"><font color="#602060"><strong>Question <class style="font-style: normal">1</class>.
+        </strong></font></font>What is the domain and range of the solution?
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">8</class>.
+        </strong></font></font>Recall the differential equation for continuous
+        compound interests:
+      </p>
+      <center>
+        <img src="Chapter_2-50.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: 0em; height: 1.3753212121212122em" />
+      </center>
+      <p>
+        Note this equation is both linear and separable. As a separable
+        equation, we have
+      </p>
+      <center>
+        <img src="Chapter_2-51.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.11209696969697092em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <center>
+        <img src="Chapter_2-52.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.026327272727272755em; vertical-align: -0.42579393939393945em; height: 1.7849212121212124em" />
+      </center>
+      <p>
+        If the initial condition is <font color="#503050"><img src="Chapter_2-53.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em"
+        /></font>,then we find <font color="#503050"><img src="Chapter_2-54.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242193em; margin-top: -0.06235151515151516em; vertical-align: -0.25221818181818184em; height: 1.1210666666666667em" /></font>.
+      </p>
+      <div style="margin-top: 0.5em; margin-bottom: 1em; margin-left: 59.748166272000006px">
+        <p>
+          <font style="font-size: 84.1%"><font color="#602060"><font color="#602060"><strong>Exercise <class
+          style="font-style: normal">1</class>. </strong></font></font>Solve the equation by the
+          method of integrating factor.</font>
+        </p>
+      </div>
+      <h2 id="auto-4">3<span style="margin-left: 1em"></span>Exact Equations<span style="margin-left: 1em"></span></h2>
+      <h3 id="auto-5">3.1<span style="margin-left: 1em"></span>Motivation and definition<span style="margin-left: 1em"></span></h3>
+      <p>
+        Suppose <font color="#503050"><img src="Chapter_2-55.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.11209696969696914em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> is an solution of some
+        ODE. Taking <font color="#503050"><img src="Chapter_2-56.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.15820606060606046em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> on both sides of
+        the solution.
+      </p>
+      <center>
+        <img src="Chapter_2-57.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909096em; margin-right: -0.024824242424244858em; margin-top: -0.03626666666666667em; vertical-align: -1.4430545454545456em; height: 3.7672727272727276em" />
+      </center>
+      <p>
+        where
+      </p>
+      <center>
+        <img src="Chapter_2-58.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.4839757575757576em; height: 1.8285575757575758em" />
+      </center>
+      <p>
+        
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">9</class>.
+        </strong></font></font>Solve <font color="#503050"><img src="Chapter_2-59.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424241305em; margin-top: -0.04921212121212126em; vertical-align: -0.3310545454545455em; height: 1.8345696969696972em" /></font>.
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Answer. </strong></font></font>Guess
+        the solution. Let <font color="#503050"><img src="Chapter_2-60.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0412121212121212em; margin-right: -0.15820606060606046em; margin-top: -0.04921212121212126em; vertical-align: -0.3311515151515152em; height: 1.8345696969696972em" /></font>. Then
+      </p>
+      <center>
+        <img src="Chapter_2-61.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424244858em; margin-top: -0.04921212121212126em; vertical-align: -0.4839757575757576em; height: 1.9874909090909092em" />
+      </center>
+      <p>
+        So
+      </p>
+      <center>
+        <img src="Chapter_2-62.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424241305em; margin-top: -0.03626666666666667em; vertical-align: -1.112em; height: 3.444557575757576em" />
+      </center>
+      <p>
+        So the solution is
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_2-63.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+        </center>
+      </p>
+      <div style="margin-top: 0em; margin-bottom: 0em">
+        <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+          <p>
+            <i>An ODE of the form</i>
+          </p>
+          <p>
+            <i><center>
+              <img src="Chapter_2-64.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+            </center></i>
+          </p>
+          <p>
+            <i>is called <strong>exact</strong> if there exists <font color="#503050"><img
+            src="Chapter_2-65.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> such that</i>
+          </p>
+          <p>
+            <i><center>
+              <img src="Chapter_2-66.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424241305em; margin-top: -0.033648484848484816em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" />
+            </center></i>
+          </p>
+          <p>
+            <i>The solution of the equation is</i>
+          </p>
+          <p>
+            <i><center>
+              <img src="Chapter_2-67.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+            </center></i>
+          </p>
+          <p>
+            <i>where <font color="#503050"><img src="Chapter_2-68.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.1120969696969697em; margin-top: -0.06235151515151516em; vertical-align: 0em; height: 0.8564363636363637em" /></font> is an arbitrary
+            constant.</i>
+          </p>
+        </div></font></font>
+      </div>
+      <h3 id="auto-6">3.2<span style="margin-left: 1em"></span>Theorem and method<span style="margin-left: 1em"></span></h3>
+      <div style="margin-top: 0em; margin-bottom: 0em">
+        <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+          <p>
+            <i>Suppose an ODE can be written in the form</i>
+          </p>
+          <i><table width="100%">
+            <tr>
+              <td width="100%" align="center"><img src="Chapter_2-64.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" /></td>
+              <td align="right">(1)</td>
+            </tr>
+          </table></i>
+          <p>
+            <i>where the functions <font color="#503050"><img src="Chapter_2-69.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.062254545454544896em; margin-top: -0.033939393939393936em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" /></font> and
+            <font color="#503050"><img src="Chapter_2-70.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.06225454545454534em; margin-top: -0.033939393939393936em; vertical-align: -0.25221818181818184em; height: 1.493430303030303em" /></font> are all continuous in the
+            rectangular region <font color="#503050"><img src="Chapter_2-71.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>. Then
+            Eq. (1) is an exact differential equation <strong>if and only
+            if</strong></i>
+          </p>
+          <p>
+            <i><center>
+              <img src="Chapter_2-72.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.4839757575757576em; height: 1.8285575757575758em" />
+            </center></i>
+          </p>
+        </div></font></font>
+      </div>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Proof. </strong></font></font><font
+        color="#503050"><img src="Chapter_2-73.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: 0em; height: 1.3878303030303032em" /></font>. Suppose Eq. (1) is exact. Then
+        there exists a <font color="#503050"><img src="Chapter_2-65.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> such that
+      </p>
+      <center>
+        <img src="Chapter_2-66.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424241305em; margin-top: -0.033648484848484816em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" />
+      </center>
+      <p>
+        Then
+      </p>
+      <center>
+        <img src="Chapter_2-74.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424244858em; margin-top: -0.033648484848484816em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" />
+      </center>
+      <p>
+        Since <font color="#503050"><img src="Chapter_2-75.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.062254545454544896em; margin-top: -0.033939393939393936em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" /></font> are continuous, we have
+        <font color="#503050"><img src="Chapter_2-76.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.062254545454545784em; margin-top: -0.02123636363636372em; vertical-align: -0.4839757575757576em; height: 1.7292606060606062em" /></font> and <font color="#503050"><img src="Chapter_2-77.png"
+        style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.062254545454545784em; margin-top: -0.02123636363636372em; vertical-align: -0.4839757575757576em; height: 1.7292606060606062em" /></font> are continuous. So 
+      </p>
+      <center>
+        <img src="Chapter_2-78.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424242193em; margin-top: -0.02123636363636372em; vertical-align: -0.4839757575757576em; height: 1.7292606060606062em" />
+      </center>
+      <p>
+        i.e.
+      </p>
+      <center>
+        <img src="Chapter_2-79.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424242193em; margin-top: -0.033939393939393936em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" />
+      </center>
+      <p>
+        <font color="#503050"><img src="Chapter_2-80.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: 0em; height: 1.3878303030303032em" /></font> Suppose <font color="#503050"><img src="Chapter_2-81.png"
+        style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.062254545454544896em; margin-top: -0.033939393939393936em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" /></font>. We want to find a function <font color="#503050"><img src="Chapter_2-65.png"
+        style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> such that <font color="#503050"><img src="Chapter_2-82.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0412121212121212em; margin-right: -0.09886060606060632em; margin-top: -0.033648484848484816em; vertical-align: -0.3311515151515152em; height: 1.5887515151515152em" /></font> and
+        <font color="#503050"><img src="Chapter_2-83.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.10957575757575722em; margin-top: -0.033648484848484816em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" /></font>. Let
+      </p>
+      <center>
+        <img src="Chapter_2-84.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.024824242424241305em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <p>
+        Then <font color="#503050"><img src="Chapter_2-82.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0412121212121212em; margin-right: -0.09886060606060632em; margin-top: -0.033648484848484816em; vertical-align: -0.3311515151515152em; height: 1.5887515151515152em" /></font>, and
+      </p>
+      <center>
+        <img src="Chapter_2-85.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.024824242424241305em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <p>
+        We want <font color="#503050"><img src="Chapter_2-83.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.10957575757575722em; margin-top: -0.033648484848484816em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" /></font>, that is
+      </p>
+      <center>
+        <img src="Chapter_2-86.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.024824242424241305em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <p>
+        We need the RHS to be independent of <font color="#503050"><img src="Chapter_2-39.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: 0em; height: 0.8067878787878788em"
+        /></font>. That is
+      </p>
+      <center>
+        <img src="Chapter_2-87.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424244858em; margin-top: -0.04358787878787895em; vertical-align: -1.617987878787879em; height: 4.158060606060607em" />
+      </center>
+      <p>
+        Let's check:
+      </p>
+      <center>
+        <img src="Chapter_2-88.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424244858em; margin-top: -0.04358787878787895em; vertical-align: -1.6654545454545455em; height: 4.158060606060606em" />
+      </center>
+      <p style="margin-bottom: 1em">
+        <span style="margin-left: 1em"></span><img src="Chapter_2-89.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.04193939393939394em; vertical-align: 0em; height: 1.2163878787878788em" />
+      </p>
+      <p>
+        
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">11</class>.
+        </strong></font></font>Solve the ODE
+      </p>
+      <center>
+        <img src="Chapter_2-90.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.04921212121212126em; vertical-align: -0.42579393939393945em; height: 1.9090424242424244em" />
+      </center>
+      <p>
+        <strong>Answer:</strong> 
+      </p>
+      <center>
+        <img src="Chapter_2-91.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.14860606060606063em; margin-right: -0.024824242424241305em; margin-top: 0.06113939393939383em; vertical-align: -1.7496242424242425em; height: 4.046206060606061em" />
+      </center>
+      <p>
+        So <font color="#503050"><img src="Chapter_2-81.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.062254545454544896em; margin-top: -0.033939393939393936em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" /></font>, and the equation is exact.
+      </p>
+      <p>
+        Next, let
+      </p>
+      <center>
+        <img src="Chapter_2-92.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03806060606060613em; margin-right: -0.024824242424244858em; margin-top: -0.037236363636363734em; vertical-align: -1.5140363636363636em; height: 3.860169696969697em" />
+      </center>
+      <p>
+        Then
+      </p>
+      <center>
+        <img src="Chapter_2-93.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424244858em; margin-top: -0.04921212121212126em; vertical-align: -0.4839757575757576em; height: 1.9874909090909092em" />
+      </center>
+      <center>
+        <img src="Chapter_2-94.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        So the solution is
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_2-95.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.04921212121212126em; vertical-align: -0.42579393939393945em; height: 1.9090424242424244em" />
+        </center>
+      </p>
+      <div style="margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 59.748166272000006px">
+        <p>
+          <font style="font-size: 84.1%"><font color="#602060"><font color="#602060"><strong>Exercise.
+          </strong></font></font>Solve the above equation, but using <font
+          color="#503050"><img src="Chapter_2-96.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03146666666666664em; margin-right: -0.024824242424241305em; margin-top: -0.03723636363636351em; vertical-align: -0.5678060606060606em; height: 1.9611151515151515em" /></font> first.</font>
+        </p>
+      </div>
+      <p style="margin-top: 1em; margin-bottom: 1em">
+        <font color="#602060"><font color="#602060"><strong>Question.
+        </strong></font></font>What is the relationship between separable and
+        exact equations?
+      </p>
+      <h3 id="auto-7">3.3<span style="margin-left: 1em"></span>Integrating factors<span style="margin-left: 1em"></span></h3>
+      <p>
+        Sometimes we can multiply a function to a non-exact equation to make
+        it exact. Take a function <font color="#503050"><img src="Chapter_2-97.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>, 
+      </p>
+      <center>
+        <img src="Chapter_2-98.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02104242424242475em; margin-right: -0.024824242424237752em; margin-top: -0.025745454545454294em; vertical-align: -4.365430303030303em; height: 9.534400000000002em" />
+      </center>
+      <p>
+        where <font color="#503050"><img src="Chapter_2-99.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424237752em; margin-top: -0.026812121212121287em; vertical-align: -0.42579393939393945em; height: 2.0516848484848484em" /></font>. Then let
+      </p>
+      <center>
+        <img src="Chapter_2-100.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424244858em; margin-top: -0.026812121212121287em; vertical-align: -0.4839757575757576em; height: 2.130133333333333em" />
+      </center>
+      <p>
+        We want <font color="#503050"><img src="Chapter_2-101.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.062254545454544896em; margin-top: -0.026812121212121287em; vertical-align: -0.4839757575757576em; height: 2.130133333333333em" /></font>, i.e.
+      </p>
+      <center>
+        <img src="Chapter_2-102.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424241305em; margin-top: -0.033939393939393936em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" />
+      </center>
+      <p>
+        Let's choose <font color="#503050"><img src="Chapter_2-103.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.024824242424242415em; margin-top: -0.025115151515151535em; vertical-align: -0.3311515151515152em; height: 1.1791515151515153em" /></font> such that <font
+        color="#503050"><img src="Chapter_2-104.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: -0.4839757575757576em; height: 1.7044363636363637em" /></font>. Then the above equation reduces to
+      </p>
+      <center>
+        <img src="Chapter_2-105.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.012412121212121097em; margin-right: -0.024824242424244858em; margin-top: -0.033939393939393714em; vertical-align: -1.112em; height: 3.3576727272727274em" />
+      </center>
+      <p>
+        If the function <font color="#503050"><img src="Chapter_2-106.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.1095757575757581em; margin-top: -0.025890909090909187em; vertical-align: -0.4839757575757576em; height: 1.8285575757575758em" /></font> is a function
+        of <font color="#503050"><img src="Chapter_2-107.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: 0em; height: 0.8067878787878788em" /></font> only, then we can solve
+        <font color="#503050"><img src="Chapter_2-103.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.024824242424242415em; margin-top: -0.025115151515151535em; vertical-align: -0.3311515151515152em; height: 1.1791515151515153em" /></font> as a separable equation. Here
+        <font color="#503050"><img src="Chapter_2-103.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.024824242424242415em; margin-top: -0.025115151515151535em; vertical-align: -0.3311515151515152em; height: 1.1791515151515153em" /></font> is called an integrating
+        factor.
+      </p>
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="width: 100%; border-right: 1px solid; border-bottom: 1px solid; border-top: 1px solid; border-left: 1px solid"><p style="margin-top: 1em">
+            <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">12</class>.
+            </strong></font></font>Solve the ODE
+          </p><center>
+            <img src="Chapter_2-108.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.04921212121212126em; vertical-align: -0.42579393939393945em; height: 1.9090424242424244em" />
+          </center><p>
+            <strong>Answer:</strong> It's first order, nonlinear, and not
+            separable. Check if it's exact:
+          </p><center>
+            <img src="Chapter_2-109.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.024824242424241305em; margin-top: -0.033939393939393936em; vertical-align: -0.4839757575757576em; height: 1.7416727272727273em" />
+          </center><p>
+            Not exact!. Next, try integrating factors.
+          </p><center>
+            <img src="Chapter_2-110.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909096em; margin-right: -0.024824242424244858em; margin-top: -0.033939393939393714em; vertical-align: -1.4524121212121213em; height: 3.7269818181818186em" />
+          </center><p>
+            is a function of <font color="#503050"><img src="Chapter_2-39.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: 0em; height: 0.8067878787878788em" /></font> only! Let
+          </p><center>
+            <img src="Chapter_2-111.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424241305em; margin-top: -0.06264242424242417em; vertical-align: -1.112em; height: 3.332848484848485em" />
+          </center><p>
+            Then multiply <font color="#503050"><img src="Chapter_2-112.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.024824242424242415em; margin-top: -0.025115151515151535em; vertical-align: -0.3311515151515152em; height: 1.1791515151515153em" /></font> to the
+            original equation:
+          </p><center>
+            <img src="Chapter_2-113.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.04921212121212126em; vertical-align: -0.42579393939393945em; height: 1.9090424242424244em" />
+          </center><center>
+            <img src="Chapter_2-114.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.04921212121212126em; vertical-align: -0.42579393939393945em; height: 1.9090424242424244em" />
+          </center><p style="margin-bottom: 1em">
+            Double check the new equation is exact! Then solve it as usual
+            (exercise).
+          </p></td>
+        </tr></tbody>
+      </table>
+      <p>
+        Similarly, if <font color="#503050"><img src="Chapter_2-115.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.09886060606060632em; margin-top: -0.025890909090909187em; vertical-align: -0.4839757575757576em; height: 1.8285575757575758em" /></font> is a function of
+        <font color="#503050"><img src="Chapter_2-116.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: -0.3310545454545455em; height: 1.1543272727272729em" /></font> only, then we can use the
+        integrating factor <font color="#503050"><img src="Chapter_2-117.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242637em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> solving
+      </p>
+      <center>
+        <img src="Chapter_2-118.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.012412121212121097em; margin-right: -0.02482424242424308em; margin-top: -0.033939393939393714em; vertical-align: -1.112em; height: 3.3576727272727274em" />
+      </center>
+      <h2 id="auto-8">4<span style="margin-left: 1em"></span>Direction fields<span style="margin-left: 1em"></span></h2>
+      <p>
+        Consider the first order ODE:
+      </p>
+      <center>
+        <img src="Chapter_2-119.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        Draw small arrows as a vector <font color="#503050"><img src="Chapter_2-120.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>
+        at many points <font color="#503050"><img src="Chapter_2-121.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242637em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>
+      </p>
+      <p>
+        Online plotter:
+      </p>
+      <p>
+        <a href="https://aeb019.hosted.uark.edu/dfield.html"><tt>https://aeb019.hosted.uark.edu/dfield.html</tt></a>
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example.
+        </strong></font></font>Consider
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_2-122.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909096em; margin-right: -0.02482424242424308em; margin-top: -0.06244848484848475em; vertical-align: -1.4524121212121213em; height: 3.3297939393939395em" />
+        </center>
+      </p>
+      <p>
+        
+      </p>
+      <h2 id="auto-9">5<span style="margin-left: 1em"></span>The Existence and Uniqueness Theorem<span
+      style="margin-left: 1em"></span></h2>
+      <h3 id="auto-10">5.1<span style="margin-left: 1em"></span>Linear equations<span style="margin-left: 1em"></span></h3>
+      <div style="margin-top: 0em; margin-bottom: 0em">
+        <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+          <p>
+            <i>Consider the initial value problem</i>
+          </p>
+          <p>
+            <i><center>
+              <img src="Chapter_2-123.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+            </center></i>
+          </p>
+          <p>
+            <i>If <font color="#503050"><img src="Chapter_2-124.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.016387878787878785em; margin-right: -0.05115151515151517em; margin-top: -0.07476363636363637em; vertical-align: -0.3311515151515152em; height: 1.1791515151515153em" /></font> are continuous on an
+            interval <font color="#503050"><img src="Chapter_2-125.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> containing <font
+            color="#503050"><img src="Chapter_2-126.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242415em; margin-top: -0.03238787878787874em; vertical-align: -0.25221818181818184em; height: 1.3072484848484849em" /></font>, then the IVP has a unique
+            solution on <font color="#503050"><img src="Chapter_2-127.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.09798787878787879em; margin-top: -0.033939393939393936em; vertical-align: 0em; height: 1.2412121212121212em" /></font>.</i>
+          </p>
+        </div></font></font>
+      </div>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example.
+        </strong></font></font>Consider
+      </p>
+      <center>
+        <img src="Chapter_2-128.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.04921212121212126em; vertical-align: -0.42579393939393945em; height: 1.9090424242424244em" />
+      </center>
+      <p>
+        Solve it by integrating factors, 
+      </p>
+      <center>
+        <img src="Chapter_2-129.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424241305em; margin-top: -0.04358787878787895em; vertical-align: -1.617987878787879em; height: 4.158060606060607em" />
+      </center>
+      <center>
+        <img src="Chapter_2-130.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424241305em; margin-top: -0.04358787878787895em; vertical-align: -1.617987878787879em; height: 4.158060606060607em" />
+      </center>
+      <p>
+        Plugging <font color="#503050"><img src="Chapter_2-131.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>, we obtain <font
+        color="#503050"><img src="Chapter_2-132.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em" /></font>. The solution is
+      </p>
+      <center>
+        <img src="Chapter_2-37.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.037236363636363734em; margin-right: -0.024824242424241305em; margin-top: -0.06264242424242417em; vertical-align: -1.1213575757575758em; height: 3.354618181818182em" />
+      </center>
+      <p>
+        Now, <font color="#503050"><img src="Chapter_2-133.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.09260606060606058em; margin-top: -0.04921212121212126em; vertical-align: -0.7287757575757576em; height: 2.486787878787879em" /></font>. So <font color="#503050"><img
+        src="Chapter_2-124.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.016387878787878785em; margin-right: -0.05115151515151517em; margin-top: -0.07476363636363637em; vertical-align: -0.3311515151515152em; height: 1.1791515151515153em" /></font> are continuous in <font color="#503050"><img src="Chapter_2-134.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em"
+        /></font>. But <font color="#503050"><img src="Chapter_2-135.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> only, so we
+        know from the theorem the IVP has a unique solution in <font color="#503050"><img
+        src="Chapter_2-136.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>, which is
+      </p>
+      <center>
+        <img src="Chapter_2-137.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.037236363636363734em; margin-right: -0.024824242424241305em; margin-top: -0.06264242424242417em; vertical-align: -1.1213575757575758em; height: 3.354618181818182em" />
+      </center>
+      <p>
+        If the initial condition is changed to <font color="#503050"><img src="Chapter_2-138.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em"
+        /></font>, then the solution is
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_2-139.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.037236363636363734em; margin-right: -0.024824242424241305em; margin-top: -0.06264242424242417em; vertical-align: -1.1213575757575758em; height: 3.354618181818182em" />
+        </center>
+      </p>
+      <h3 id="auto-11">5.2<span style="margin-left: 1em"></span>Nonlinear equations<span style="margin-left: 1em"></span></h3>
+      <div style="margin-top: 0em; margin-bottom: 0em">
+        <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+          <p>
+            <i>Consider the initial value problem</i>
+          </p>
+          <p>
+            <i><center>
+              <img src="Chapter_2-140.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+            </center></i>
+          </p>
+          <p>
+            <i>If <font color="#503050"><img src="Chapter_2-141.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.3361939393939394em; margin-top: -0.04867878787878799em; vertical-align: 0em; height: 1.3032727272727274em" /></font> and <font color="#503050"><img
+            src="Chapter_2-142.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.33619393939393927em; margin-top: -0.04867878787878799em; vertical-align: -0.4839757575757576em; height: 1.8037333333333334em" /></font> are continuous on a rectangular domain <font
+            color="#503050"><img src="Chapter_2-71.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> containing the point <font
+            color="#503050"><img src="Chapter_2-143.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>. Then the IVP has a unique
+            solution in some interval <font color="#503050"><img src="Chapter_2-127.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.09798787878787879em; margin-top: -0.033939393939393936em; vertical-align: 0em; height: 1.2412121212121212em" /></font>
+            containing <font color="#503050"><img src="Chapter_2-126.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242415em; margin-top: -0.03238787878787874em; vertical-align: -0.25221818181818184em; height: 1.3072484848484849em" /></font>.</i>
+          </p>
+        </div></font></font>
+      </div>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example.
+        </strong></font></font>Consider the IVP.
+      </p>
+      <center>
+        <img src="Chapter_2-45.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.024824242424244858em; margin-top: -0.04921212121212104em; vertical-align: -1.5377939393939395em; height: 4.0379151515151515em" />
+      </center>
+      <p>
+        It is separable. Let's solve it first, 
+      </p>
+      <center>
+        <img src="Chapter_2-144.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.11209696969697092em; margin-top: -0.04921212121212126em; vertical-align: -0.42579393939393945em; height: 1.9090424242424244em" />
+      </center>
+      <center>
+        <img src="Chapter_2-145.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+      </center>
+      <p>
+        The solution is
+      </p>
+      <center>
+        <img src="Chapter_2-146.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424241305em; margin-top: -0.04921212121212126em; vertical-align: -0.3310545454545455em; height: 1.8345696969696972em" />
+      </center>
+      <center>
+        <img src="Chapter_2-147.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424244858em; margin-top: 0.04155151515151534em; vertical-align: -1.112em; height: 4.922472727272727em" />
+      </center>
+      <p style="margin-bottom: 1em">
+        Here <font color="#503050"><img src="Chapter_2-141.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.3361939393939394em; margin-top: -0.04867878787878799em; vertical-align: 0em; height: 1.3032727272727274em" /></font> and <font color="#503050"><img
+        src="Chapter_2-148.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.33619393939393927em; margin-top: -0.04867878787878799em; vertical-align: -0.4839757575757576em; height: 1.8037333333333334em" /></font> are continuous everywhere except <font color="#503050"><img
+        src="Chapter_2-149.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: -0.3310545454545455em; height: 1.5515151515151517em" /></font>.
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example.
+        </strong></font></font>Consider
+      </p>
+      <center>
+        <img src="Chapter_2-150.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.024339393939393883em; vertical-align: -0.42579393939393945em; height: 2.0417454545454548em" />
+      </center>
+      <p>
+        First, let's solve it as a separable equation.
+      </p>
+      <center>
+        <img src="Chapter_2-151.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.11209696969697092em; margin-top: -0.06264242424242417em; vertical-align: -1.112em; height: 3.332848484848485em" />
+      </center>
+      <p>
+        Plugging <font color="#503050"><img src="Chapter_2-152.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> yields <font color="#503050"><img
+        src="Chapter_2-153.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.2412121212121214em" /></font>. So
+      </p>
+      <center>
+        <img src="Chapter_2-154.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.02482424242424308em; margin-top: -0.024339393939393883em; vertical-align: -1.6180363636363637em; height: 4.276218181818182em" />
+      </center>
+      <p>
+        are two solutions. In addition
+      </p>
+      <center>
+        <img src="Chapter_2-155.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: -0.3310545454545455em; height: 1.5515151515151517em" />
+      </center>
+      <p>
+        is also a solution. In fact, we have infinitely many solutions defined
+        as
+      </p>
+      <center>
+        <img src="Chapter_2-156.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.09638787878787891em; margin-right: 0em; margin-top: 0.02065454545454548em; vertical-align: -2.6843151515151518em; height: 5.79849696969697em" />
+      </center>
+      <p>
+        for any <font color="#503050"><img src="Chapter_2-157.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242637em; margin-top: -0.06264242424242439em; vertical-align: -0.25221818181818184em; height: 1.481018181818182em" /></font>.
+        (<strong>Exercise:</strong> check <font color="#503050"><img src="Chapter_2-40.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: -0.3310545454545455em; height: 1.1543272727272729em"
+        /></font> is continuous and differentiable at <font color="#503050"><img src="Chapter_2-158.png"
+        style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242193em; margin-top: -0.03238787878787874em; vertical-align: -0.25221818181818184em; height: 1.3072484848484849em" /></font>.)
+      </p>
+      <p style="margin-bottom: 1em">
+        <img src="Chapter_2-159.png" style="margin-left: 0em; margin-bottom: 0em; margin-right: 0em; margin-top: 0em; vertical-align: -20.23078787878788em; height: 40.46157575757576em" />
+      </p>
+      <p>
+        In fact, 
+      </p>
+      <center>
+        <img src="Chapter_2-160.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06206060606060593em; margin-right: -0.024824242424244858em; margin-top: -0.06264242424242417em; vertical-align: -1.112em; height: 3.3700848484848485em" />
+      </center>
+      <p>
+        So <font color="#503050"><img src="Chapter_2-148.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.33619393939393927em; margin-top: -0.04867878787878799em; vertical-align: -0.4839757575757576em; height: 1.8037333333333334em" /></font> is discontinuous near <font
+        color="#503050"><img src="Chapter_2-161.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>. So there exists no rectangle <font
+        color="#503050"><img src="Chapter_2-162.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.12911515151515163em; margin-top: -0.033939393939393936em; vertical-align: 0em; height: 1.2412121212121212em" /></font> containing <font color="#503050"><img src="Chapter_2-161.png"
+        style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> such that <font color="#503050"><img src="Chapter_2-163.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.33619393939393927em; margin-top: -0.04867878787878799em; vertical-align: -0.4839757575757576em; height: 1.8037333333333334em" /></font> are
+        both continuous in <font color="#503050"><img src="Chapter_2-162.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.12911515151515163em; margin-top: -0.033939393939393936em; vertical-align: 0em; height: 1.2412121212121212em" /></font>. So we
+        can't gaurantee the existence and uniqueness of solution for the IVP.
+      </p>
+      <p style="margin-top: 1em; margin-bottom: 1em">
+        <font color="#602060"><font color="#602060"><strong>Note <class style="font-style: normal">13</class>.
+        </strong></font></font>One may not be able to find all solutions to
+        nonlinear equations using one method. 
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example.
+        </strong></font></font>Consider
+      </p>
+      <center>
+        <img src="Chapter_2-164.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636351em; margin-right: -0.024824242424241305em; margin-top: -0.03626666666666667em; vertical-align: -1.112em; height: 3.432145454545455em" />
+      </center>
+      <p>
+        We can first solve it as a separable eqn.
+      </p>
+      <center>
+        <img src="Chapter_2-165.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909052em; margin-right: -0.024824242424244858em; margin-top: -0.06264242424242417em; vertical-align: -2.4665696969696973em; height: 4.70390303030303em" />
+      </center>
+      <p style="margin-bottom: 1em">
+        Now <font color="#503050"><img src="Chapter_2-166.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909085em; margin-right: -0.15820606060606046em; margin-top: -0.04921212121212126em; vertical-align: -0.4839757575757576em; height: 1.9874909090909092em" /></font> are continuous everywhere.
+        However, the solution is not defined for every <font color="#503050"><img src="Chapter_2-3.png"
+        style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.09260606060606069em; margin-top: -0.03238787878787874em; vertical-align: 0em; height: 1.0426181818181819em" /></font>. For example, if <font color="#503050"><img src="Chapter_2-167.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.02482424242424308em; margin-top: -0.06264242424242439em; vertical-align: -0.3310545454545455em; height: 1.5515151515151517em"
+        /></font>,then the solution is defined only in <font color="#503050"><img src="Chapter_2-168.png"
+        style="margin-left: 0em; margin-bottom: -0.018569696969696903em; margin-right: 0em; margin-top: -0.04358787878787873em; vertical-align: -1.1070545454545455em; height: 3.1278545454545457em" /></font>.
+      </p>
+      <h2 id="auto-12">6<span style="margin-left: 1em"></span>Applications<span style="margin-left: 1em"></span></h2>
+      <h3 id="auto-13">6.1<span style="margin-left: 1em"></span>Falling object in the air<span style="margin-left: 1em"></span></h3>
+      <center>
+        <img src="Chapter_2-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.3311515151515152em; height: 1.7228606060606062em" />
+      </center>
+      <p>
+        where <font color="#503050"><img src="Chapter_2-169.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.14579393939393948em; margin-top: -0.025115151515151535em; vertical-align: 0em; height: 0.8067878787878788em" /></font> is the velocity, <font
+        color="#503050"><img src="Chapter_2-170.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.07398787878787871em; margin-top: -0.06235151515151516em; vertical-align: -0.3311515151515152em; height: 1.2163878787878788em" /></font> are constants. 
+      </p>
+      <ul>
+        <li>
+          <p>
+            Analyze the solutions using direction field.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve it by integrating factors.
+          </p>
+          <center>
+            <img src="Chapter_2-171.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.129212121212122em; margin-top: -0.04867878787878799em; vertical-align: -1.112em; height: 2.9356606060606065em" />
+          </center>
+          <p>
+            integrating factor
+          </p>
+          <center>
+            <img src="Chapter_2-172.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.02482424242424308em; margin-top: -0.031660606060605945em; vertical-align: -0.3311515151515152em; height: 2.319660606060606em" />
+          </center>
+          <center>
+            <img src="Chapter_2-173.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424237752em; margin-top: -0.04358787878787895em; vertical-align: -1.6180363636363637em; height: 4.158109090909091em" />
+          </center>
+          <p>
+            If the initial condition is <font color="#503050"><img src="Chapter_2-174.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em"
+            /></font>. Then <font color="#503050"><img src="Chapter_2-175.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.07398787878787871em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>. So the
+            solution of the IVP is
+          </p>
+          <center>
+            <img src="Chapter_2-176.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424244858em; margin-top: -0.04358787878787895em; vertical-align: -1.6180363636363637em; height: 4.158060606060606em" />
+          </center>
+          <p>
+            So
+          </p>
+          <center>
+            <img src="Chapter_2-177.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636367em; margin-right: -0.02482424242424308em; margin-top: -0.06244848484848475em; vertical-align: -1.4431515151515153em; height: 3.3452606060606063em" />
+          </center>
+          <p>
+            All other solutions converge to the <strong>equilibrium
+            solution</strong> <font color="#503050"><img src="Chapter_2-178.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.07398787878787871em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> as <font
+            color="#503050"><img src="Chapter_2-179.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.024824242424242193em; margin-top: -0.03238787878787874em; vertical-align: 0em; height: 1.055030303030303em" /></font>. This equilibrium solution is a
+            <strong>stable</strong> one.
+          </p>
+        </li>
+      </ul>
+      <h3 id="auto-14">6.2<span style="margin-left: 1em"></span>Compound interest with
+      deposits/withdrawals<span style="margin-left: 1em"></span></h3>
+      <p>
+        Assume the annual interest rate is <font color="#503050"><img src="Chapter_2-180.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.16295757575757575em; margin-top: -0.04993939393939395em; vertical-align: 0em; height: 0.8316121212121212em"
+        /></font>. The continuous rate of deposit/withdrawal is <font color="#503050"><img
+        src="Chapter_2-181.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.1232969696969698em; margin-top: -0.03626666666666667em; vertical-align: 0em; height: 1.290860606060606em" /></font>. Then the ODE model for the total balance <font
+        color="#503050"><img src="Chapter_2-182.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242637em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> is
+      </p>
+      <center>
+        <img src="Chapter_2-183.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.019442424242424233em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.14191515151515152em; height: 1.4870303030303031em" />
+      </center>
+      <p>
+        integrating factor
+      </p>
+      <center>
+        <img src="Chapter_2-184.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06603636363636362em; margin-right: -0.024824242424242193em; margin-top: 0.03054545454545443em; vertical-align: -0.3311515151515152em; height: 1.7352727272727275em" />
+      </center>
+      <center>
+        <img src="Chapter_2-185.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424237752em; margin-top: -0.04358787878787895em; vertical-align: -1.6180363636363637em; height: 4.158109090909091em" />
+      </center>
+      <p>
+        If the initial condition is <font color="#503050"><img src="Chapter_2-53.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>,
+        then <font color="#503050"><img src="Chapter_2-186.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.1629575757575754em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>. So the solution of the
+        IVP is
+      </p>
+      <center>
+        <img src="Chapter_2-187.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424241305em; margin-top: -0.04358787878787895em; vertical-align: -1.6180363636363637em; height: 4.158060606060606em" />
+      </center>
+      <p>
+        The equilibrium solution is <font color="#503050"><img src="Chapter_2-188.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.05915151515151518em; vertical-align: -0.7287757575757576em; height: 2.536436363636364em" /></font>,
+        and it is an <strong>unstable</strong> one since all other solutions
+        diverge from it as <font color="#503050"><img src="Chapter_2-179.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.024824242424242193em; margin-top: -0.03238787878787874em; vertical-align: 0em; height: 1.055030303030303em" /></font>.
+      </p>
+      <h3 id="auto-15">6.3<span style="margin-left: 1em"></span>Population dynamics<span style="margin-left: 1em"></span></h3>
+      <h4 id="auto-16">6.3.1<span style="margin-left: 1em"></span>Exponential growth<span style="margin-left: 1em"></span></h4>
+      <center>
+        <img src="Chapter_2-189.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0412121212121212em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: -0.3311515151515152em; height: 1.6980363636363638em" />
+      </center>
+      <p>
+        The solution is
+      </p>
+      <center>
+        <img src="Chapter_2-190.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424242193em; margin-top: -0.026327272727272755em; vertical-align: -0.3310545454545455em; height: 1.710448484848485em" />
+      </center>
+      <p>
+        where <font color="#503050"><img src="Chapter_2-191.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>. 
+      </p>
+      <ul>
+        <li>
+          <p>
+            If <font color="#503050"><img src="Chapter_2-192.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0079030303030303em; margin-right: -0.024824242424242637em; margin-top: -0.06264242424242439em; vertical-align: -0.06656969696969697em; height: 1.2536242424242425em" /></font>, we have exponential
+            growth
+          </p>
+        </li>
+        <li>
+          <p>
+            If <font color="#503050"><img src="Chapter_2-193.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0079030303030303em; margin-right: -0.024824242424242637em; margin-top: -0.06264242424242439em; vertical-align: -0.06656969696969697em; height: 1.2536242424242425em" /></font>, we have exponential
+            decay, such as radioactive decay.
+          </p>
+        </li>
+      </ul>
+      <h4 id="auto-17">6.3.2<span style="margin-left: 1em"></span>Logistic growth<span style="margin-left: 1em"></span></h4>
+      <center>
+        <img src="Chapter_2-194.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        Note that the right-hand-side depends on <font color="#503050"><img src="Chapter_2-116.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.15820606060606068em; margin-top: -0.025115151515151535em; vertical-align: -0.3310545454545455em; height: 1.1543272727272729em"
+        /></font> only. In general, ODE of the form
+      </p>
+      <center>
+        <img src="Chapter_2-195.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        is called <strong>autonomous</strong>. There are two equilibrium
+        solutions
+      </p>
+      <center>
+        <img src="Chapter_2-196.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636351em; margin-right: -0.02482424242424308em; margin-top: -0.054739393939393866em; vertical-align: -1.112em; height: 2.97289696969697em" />
+      </center>
+      <p>
+        From the direction field we can tell the equilibrium solution <font
+        color="#503050"><img src="Chapter_2-197.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: -0.3310545454545455em; height: 1.5515151515151517em" /></font> is unstable, while the solution
+        <font color="#503050"><img src="Chapter_2-198.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.04567272727272731em; vertical-align: -0.7287757575757576em; height: 2.213721212121212em" /></font> is stable.
+      </p>
+      <p>
+        <img src="Chapter_2-199.png" width="40%" class="image" />
+      </p>
+      <p>
+        Now let's solve the equation:
+      </p>
+      <center>
+        <img src="Chapter_2-200.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.024824242424237752em; margin-top: -0.037236363636363734em; vertical-align: -1.5377939393939395em; height: 3.8669090909090915em" />
+      </center>
+      <center>
+        <img src="Chapter_2-201.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.15820606060606224em; margin-top: -0.025890909090909187em; vertical-align: -1.5377939393939395em; height: 3.879127272727273em" />
+      </center>
+      <center>
+        <img src="Chapter_2-202.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.1629575757575772em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+      </center>
+      <p>
+        So
+      </p>
+      <center>
+        <img src="Chapter_2-203.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: -0.024824242424244858em; margin-top: -0.04358787878787895em; vertical-align: -1.617987878787879em; height: 4.158060606060607em" />
+      </center>
+      <center>
+        <img src="Chapter_2-204.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.11209696969697092em; margin-top: -0.025890909090909187em; vertical-align: -1.5377939393939395em; height: 3.879127272727273em" />
+      </center>
+      <center>
+        <img src="Chapter_2-205.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424307em; margin-right: -0.024824242424237752em; margin-top: -0.025890909090909187em; vertical-align: -1.5377939393939395em; height: 3.879127272727273em" />
+      </center>
+      <center>
+        <img src="Chapter_2-206.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242193em; margin-right: -0.024824242424241305em; margin-top: -0.026327272727272977em; vertical-align: -2.2348121212121215em; height: 4.61459393939394em" />
+      </center>
+      <p>
+        Suppose the initial condition is <font color="#503050"><img src="Chapter_2-207.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em"
+        /></font>, then 
+      </p>
+      <center>
+        <img src="Chapter_2-208.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04130909090909096em; margin-right: -0.024824242424244858em; margin-top: -0.09221818181818175em; vertical-align: -2.4222060606060607em; height: 5.015515151515151em" />
+      </center>
+      <p>
+        where <font color="#503050"><img src="Chapter_2-209.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.04567272727272731em; vertical-align: -0.7287757575757576em; height: 2.213721212121212em" /></font>. Note that <font color="#503050"><img
+        src="Chapter_2-210.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.15820606060605868em; margin-top: -0.04358787878787895em; vertical-align: -0.7287757575757576em; height: 2.244848484848485em" /></font>
+      </p>
+      <ol>
+        <li>
+          <p>
+            If <font color="#503050"><img src="Chapter_2-211.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.1828848484848491em; margin-top: -0.033939393939393936em; vertical-align: -0.3310545454545455em; height: 1.5887515151515152em" /></font>, then <font color="#503050"><img
+            src="Chapter_2-212.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> is an increasing function, and <font color="#503050"><img
+            src="Chapter_2-213.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.1828848484848482em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>, but <font color="#503050"><img src="Chapter_2-214.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.1828848484848491em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>
+            for all <font color="#503050"><img src="Chapter_2-215.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0079030303030303em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: -0.06656969696969697em; height: 1.2536242424242425em" /></font>. Moreover, <font
+            color="#503050"><img src="Chapter_2-216.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" /></font>, and
+          </p>
+          <center>
+            <img src="Chapter_2-217.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636351em; margin-right: -0.024824242424244858em; margin-top: -0.03626666666666667em; vertical-align: -1.112em; height: 3.432145454545455em" />
+          </center>
+          <p>
+            where
+          </p>
+          <center>
+            <img src="Chapter_2-218.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02686060606060603em; margin-right: 0em; margin-top: -0.04358787878787895em; vertical-align: -1.6180363636363637em; height: 4.158060606060606em" />
+          </center>
+          <ol>
+            <li>
+              <p>
+                If <font color="#503050"><img src="Chapter_2-219.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.031806060606060615em; vertical-align: -0.7287757575757576em; height: 2.4992em" /></font>, then <font color="#503050"><img
+                src="Chapter_2-220.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: -0.3310545454545455em; height: 1.6980363636363638em" /></font>, so the graph is concave up.
+              </p>
+            </li>
+            <li>
+              <p>
+                If <font color="#503050"><img src="Chapter_2-221.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.1828848484848491em; margin-top: -0.031806060606060615em; vertical-align: -0.7287757575757576em; height: 2.4992em" /></font>, then <font color="#503050"><img
+                src="Chapter_2-222.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: -0.3310545454545455em; height: 1.6980363636363638em" /></font>, so the graph is concave down.
+              </p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <p>
+            If <font color="#503050"><img src="Chapter_2-223.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.041309090909090906em; margin-right: -0.1828848484848482em; margin-top: -0.033939393939393936em; vertical-align: -0.3310545454545455em; height: 1.5887515151515152em" /></font>, then <font color="#503050"><img
+            src="Chapter_2-212.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> is an decreasing function, and <font color="#503050"><img
+            src="Chapter_2-213.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.1828848484848482em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>, but <font color="#503050"><img src="Chapter_2-224.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.1828848484848491em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>
+            for all <font color="#503050"><img src="Chapter_2-215.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0079030303030303em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: -0.06656969696969697em; height: 1.2536242424242425em" /></font>. Moreover, <font
+            color="#503050"><img src="Chapter_2-216.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" /></font>, and <font color="#503050"><img src="Chapter_2-225.png"
+            style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" /></font> for all <font color="#503050"><img src="Chapter_2-226.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.09260606060606069em; margin-top: -0.03238787878787874em; vertical-align: 0em; height: 1.0426181818181819em" /></font>.
+          </p>
+        </li>
+      </ol>
+      <h2 id="auto-18">7<span style="margin-left: 1em"></span>Euler's method<span style="margin-left: 1em"></span></h2>
+      <p>
+        Consider a general 1st order ODE
+      </p>
+      <center>
+        <img src="Chapter_2-227.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.02482424242424308em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        Take <font color="#503050"><img src="Chapter_2-228.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>, then
+      </p>
+      <center>
+        <img src="Chapter_2-229.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <center>
+        <img src="Chapter_2-230.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424244858em; margin-top: -0.025890909090909187em; vertical-align: -1.364218181818182em; height: 3.734157575757576em" />
+      </center>
+      <p>
+        if <font color="#503050"><img src="Chapter_2-231.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font> is small. So
+      </p>
+      <center>
+        <img src="Chapter_2-232.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424237752em; margin-top: -0.032727272727272716em; vertical-align: -0.42579393939393945em; height: 1.772509090909091em" />
+      </center>
+      <p>
+        Let
+      </p>
+      <center>
+        <img src="Chapter_2-233.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+      </center>
+      <p>
+        So <font color="#503050"><img src="Chapter_2-234.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424242193em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" /></font>. Repeat this process, we
+        obtain an algorithm: For a sequence of <font color="#503050"><img src="Chapter_2-235.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.016387878787878785em; margin-right: -0.024824242424241305em; margin-top: -0.03238787878787874em; vertical-align: -0.3311515151515152em; height: 1.3529212121212122em"
+        /></font>
+      </p>
+      <center>
+        <img src="Chapter_2-236.png" style="margin-left: -0.09221818181818182em; margin-bottom: -0.09221818181818187em; margin-right: -0.09221818181818264em; margin-top: -0.09221818181818175em; vertical-align: -0.6861575757575757em; height: 2.3134545454545457em" />
+      </center>
+      <p>
+        This sequence of <font color="#503050"><img src="Chapter_2-237.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0412121212121212em; margin-right: -0.024824242424241305em; margin-top: -0.025115151515151535em; vertical-align: -0.3311515151515152em; height: 1.1543272727272729em" /></font> is an
+        approximation of the true values <font color="#503050"><img src="Chapter_2-238.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em"
+        /></font>
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+    </div>
+  </body>
+</html>

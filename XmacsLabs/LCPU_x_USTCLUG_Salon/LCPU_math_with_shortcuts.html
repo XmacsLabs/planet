@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No title</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: none" class="toggle">
+      <p>
+        
+      </p>
+    </div>
+    <div style="display: block" class="toggle">
+      <p>
+        <strong><table style="display: inline-table; vertical-align: middle">
+          <tbody><tr>
+            <td style="background-color: #00ffff55">Math</td>
+          </tr></tbody>
+        </table> mode</strong>
+      </p>
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em; padding-left: 1em; padding-right: 1em; padding-bottom: 1em; padding-top: 1em; height: 40%"><class style="font-weight: normal"><b>Typing Math with GNU
+          TeXmacs</b></class></td>
+        </tr><tr>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em; padding-left: 1em; padding-right: 1em"><font color="#eb811b"><hr></font></td>
+        </tr><tr>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em; padding-left: 1em; padding-right: 1em; padding-bottom: 0.5em; padding-top: 1em"><font style="font-size: 70.7%"><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+            <class style="font-variant: small-caps">Yiqi Xu</class>
+          </p><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+            <class style="font-variant: small-caps">LCPU <font color="#503050"><img src="LCPU_math_with_shortcuts-1.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.06060606060606061em; margin-right: -0.020686868686868642em; margin-top: 0.12929292929292946em; vertical-align: -0.08129292929292929em; height: 0.9271919191919191em" /></font> USTCLUG
+            Salon</class>
+          </p><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+            27 Nov. 2022
+          </p><p>
+            
+          </p></font></td>
+        </tr><tr>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em; padding-left: 1em; padding-right: 1em; padding-bottom: 0.5em; padding-top: 1em; padding-bottom: 1.em; padding-top: 1.em"><font style="font-size: 59.5%"></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>GNU TeXmacs v. LaTeX</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <p>
+        
+      </p>
+      <div style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <b><font color="black"><p>
+          <div style="display: inline">
+            <a id="auto-1"></a>
+          </div>
+          <h5>Why do we need TeXmacs other than LaTeX?<span style="margin-left: 1em"></span></h5>
+        </p></font></b>
+      </div>
+      <p style="margin-bottom: 0.5em">
+        <div style="display: none" class="toggle">
+          <div style="margin-left: 71.6977995264px">
+            <p>
+              <span class="no-breaks"><img src="LCPU_math_with_shortcuts-2.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.10278787878787879em; margin-right: -0.020686868686868753em; margin-top: 0.08210101010101012em; vertical-align: -0.12347474747474747em; height: 0.8663434343434343em" />LaTeX</span> is far from
+              satisfactory for scientific writing.
+            </p>
+            <div style="display: none" class="toggle">
+              <div style="margin-top: 0.5em; margin-left: 143.39559905280004px; margin-right: 143.3955990528px">
+                <div style="text-indent: 0em">
+                  <p>
+                    You know Leslie Lamport,  ACM Turing Award laureate, if
+                    you are using LaTeX. He is actually surprised LaTeX is
+                    still being used and no-one has invented something better
+                    :) <font color="#5195d9">#HLF22</font>
+                  </p>
+                </div>
+              </div>
+              <div style="margin-bottom: 0.5em; margin-left: 143.39559905280004px; margin-right: 143.3955990528px">
+                <div style="text-indent: 0em">
+                  <p>
+                    <a href="https://twitter.com/drhouriehkh/status/1572194337781325824?s=61&amp;t=Sd8hLzqu4lLQeZwkGjWxGg">RT @DrHouriehKh</a>
+                  </p>
+                </div>
+              </div>
+              <p>
+                LaTeX is a tool, and it empowers you as well as limit you, in
+                many ways. 
+              </p>
+              <p>
+                TeXmacs is designed for those who are not satisfied by the
+                usual LaTeX workflow and dreamt of something different. With
+                TeXmacs you will have time to develop more interesting skills
+                in college.
+              </p>
+              <div style="margin-top: 0.5em; margin-left: 143.39559905280004px; margin-right: 143.3955990528px">
+                <div style="text-indent: 0em">
+                  <p>
+                    The best latex code is no latex code :) and TeXmacs allows
+                    you to write your best latex no-code.
+                  </p>
+                </div>
+              </div>
+              <div style="margin-bottom: 0.5em; margin-left: 143.39559905280004px; margin-right: 143.3955990528px">
+                <div style="text-indent: 0em">
+                  <p>
+                    <a href="https://twitter.com/gnu_texmacs/status/1593978848965804032?s=61&amp;t=Sd8hLzqu4lLQeZwkGjWxGg">RT @gnu_texmacs</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-left: 71.6977995264px">
+            <p>
+              <span class="no-breaks"><img src="LCPU_math_with_shortcuts-2.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.10278787878787879em; margin-right: -0.020686868686868753em; margin-top: 0.08210101010101012em; vertical-align: -0.12347474747474747em; height: 0.8663434343434343em" />TeXmacs</span> makes scientific
+              writing intuitive (truly <abbr>WYSIWYG</abbr>) and structured
+              (so <abbr>WYSIWYM</abbr>) in comparison to LaTeX.
+            </p>
+            <div style="display: none" class="toggle">
+              <p>
+                TeXmacs is driven by the very philosophy of making technical
+                document editing both innovative and more humane, beautiful
+                and conceptually correct.
+              </p>
+              <p>
+                No waste of screen estate, uncluttered UIs, structured editing
+                and pixel-perfect typesetting. TeXmacs allows you to focus on
+                your work without distractions.
+              </p>
+            </div>
+          </div>
+          <div style="margin-left: 71.6977995264px">
+            <p>
+              <span class="no-breaks"><img src="LCPU_math_with_shortcuts-2.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.10278787878787879em; margin-right: -0.020686868686868753em; margin-top: 0.08210101010101012em; vertical-align: -0.12347474747474747em; height: 0.8663434343434343em" />All</span> you need is in one
+              place.
+            </p>
+            <div style="display: none" class="toggle">
+              <p>
+                TeXmacs has slide tools, graphics tools, an internal
+                bibliographic database, interactive sessions in a variety of
+                engines, various plugins and allows to export <class style="font-variant: small-caps">PDF</class>,
+                LaTeX, or <class style="font-variant: small-caps">HTML</class>, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </p>
+      <div style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <b><font color="black"><p>
+          <div style="display: inline">
+            <a id="auto-2"></a>
+          </div>
+          <h5><font color="#503050"><img src="LCPU_math_with_shortcuts-3.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.041373737373737396em; margin-right: -0.02068686868686953em; margin-top: 0.0037171717171717855em; vertical-align: -0.45826262626262626em; height: 1.7408484848484849em" /></font><span style="margin-left: 1em"></span></h5>
+        </p></font></b>
+      </div>
+      <p style="margin-bottom: 0.5em">
+        <div style="display: none" class="toggle">
+          <p>
+            The name was chosen early on to pay due respect to the two main
+            sources of inspiration: the TeX system and the <class style="font-variant: small-caps">Emacs</class>
+            editor, but does not share any code with these programs.
+          </p>
+          <p>
+            TeXmacs has a radically different design. It aims neither to be
+            another LaTeX frontend nor to be limited by LaTeX in how the
+            output is produced.
+          </p>
+        </div>
+      </p>
+      <div style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <b><font color="black"><p>
+          <div style="display: inline">
+            <a id="auto-3"></a>
+          </div>
+          <h5>Can TeXmacs replace LaTeX in everyday study and work?<span
+          style="margin-left: 1em"></span></h5>
+        </p></font></b>
+      </div>
+      <p style="margin-bottom: 0.5em">
+        <div style="display: none" class="toggle">
+          <div style="margin-top: 0.5em; margin-left: 143.3955990528px; margin-right: 143.3955990528px">
+            <div style="text-indent: 0em">
+              <p>
+                I use TeXmacs everyday for lectures, presentations, papers,
+                exercise sheets and export most of my documents to LaTeX.
+                There is no need of LaTeX in my workflow, just to send the
+                final version to the editors. <class style="font-variant: small-caps">Joris</class> and
+                other people I know, including most of my current students and
+                collaborators use it also for slides and other stuff.
+              </p>
+            </div>
+          </div>
+          <div style="margin-bottom: 0.5em; margin-left: 143.3955990528px; margin-right: 143.3955990528px">
+            <div style="text-indent: 0em">
+              <p>
+                &mdash; Massimiliano Gubinelli <a href="http://forum.texmacs.cn/t/is-texmacs-better-than-lyx-for-users-who-need-to-export-to-latex/1151/4">@The GNU TeXmacs
+                Forum</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </p>
+    </div>
+    <div style="display: none" class="toggle">
+      <p>
+        <div style="display: inline">
+          <a id="auto-4"></a>
+        </div>
+        <h5>Three ways to input math<span style="margin-left: 1em"></span></h5>
+      </p>
+      <ul>
+        <li>
+          <p>
+            toolbar / menubar
+          </p>
+        </li>
+        <li>
+          <p>
+            <font color="blue"><class style="font-family: sans-serif">macros / LaTeX names</class></font>
+            (<font color="blue">&lt;</font>\<font color="#008000"><i></i></font><font color="blue">&gt;</font>)
+            or  <font color="blue"><class style="font-family: sans-serif">internal TeXmacs
+            names</class></font> (<font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;"
+            class="ornament">Ctrl+Q</span></tt></font></font>)
+          </p>
+        </li>
+        <li>
+          <p>
+            <font color="magenta">keyboard shortcuts</font>
+          </p>
+        </li>
+      </ul>
+      <p>
+        <div style="display: inline">
+          <a id="auto-5"></a>
+        </div>
+        <h5>Three types of formulae<span style="margin-left: 1em"></span></h5>
+      </p>
+      <ul>
+        <li>
+          <p>
+            Inline formulae <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">$</span></tt></font></font>
+          </p>
+          <p>
+            Let <font color="#503050"><img src="LCPU_math_with_shortcuts-4.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868698em; margin-right: -0.04193939393939328em; margin-top: -0.02153535353535352em; vertical-align: -0.2824242424242424em; height: 1.171959595959596em" /></font> be variables. Let<font
+            color="#503050"><img src="LCPU_math_with_shortcuts-5.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868688em; margin-right: -0.041939393939394165em; margin-top: -0.02913131313131312em; vertical-align: 0em; height: 1.337010101010101em" /></font> a real vector space.
+          </p>
+        </li>
+        <li>
+          <p>
+            Displayed formulae <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;"
+            class="ornament">Alt+$</span></tt></font></font>
+          </p>
+          <center>
+            <img src="LCPU_math_with_shortcuts-6.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.02004040404040408em; margin-right: -0.02068686868686953em; margin-top: -0.049696969696969795em; vertical-align: -0.3523232323232323em; height: 1.8334949494949497em" />
+          </center>
+        </li>
+        <li>
+          <p>
+            Several equations 
+          </p>
+          <p>
+            <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+&amp;</span></tt></font></font>
+          </p>
+          <center>
+            <img src="LCPU_math_with_shortcuts-7.png" style="margin-left: -0.020686868686868688em; margin-bottom: 7.272727272726875e-4em; margin-right: -0.02068686868686953em; margin-top: -0.017979797979797763em; vertical-align: -1.589010101010101em; height: 4.042545454545454em" />
+          </center>
+        </li>
+      </ul>
+      <p>
+        <div style="display: inline">
+          <a id="auto-6"></a>
+        </div>
+        <h5>Variants<span style="margin-left: 1em"></span></h5>
+        <div style="display: inline">
+          <font color="magenta"><font color="#503050"><img src="LCPU_math_with_shortcuts-8.png" style="margin-left: -0.08468686868686869em; margin-bottom: -0.0846868686868687em; margin-right: -0.0846868686868687em; margin-top: -0.0846868686868687em; vertical-align: -0.5291717171717172em; height: 2.201858585858586em" /></font></font>  <font
+          color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+Tab</span></tt></font></font>
+        </div>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-9.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.06157575757575756em; margin-right: -0.02068686868686953em; margin-top: 0.184040404040404em; vertical-align: -0.37187878787878786em; height: 1.5515151515151515em" />
+      </center>
+      <p>
+        <div style="display: inline">
+          <a id="auto-7"></a>
+        </div>
+        <h5>Juxtaposition<span style="margin-left: 1em"></span></h5>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-10.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.09406060606060608em; margin-right: -0.14311111111111074em; margin-top: -0.032242424242424184em; vertical-align: -0.12347474747474747em; height: 1.4277171717171717em" />
+      </center>
+      <p>
+        <div style="display: inline">
+          <a id="auto-8"></a>
+        </div>
+        <h5>Special fonts<span style="margin-left: 1em"></span></h5>
+        <div style="display: inline">
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F5</span></tt></font></font>
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F6</span></tt></font></font>
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F7</span></tt></font></font>
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F8</span></tt></font></font>
+          and <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F6</span></tt></font><font
+          style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F7</span></tt></font></font>  <font
+          color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F6</span></tt></font><font
+          style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">F5</span></tt></font></font>
+        </div>
+      </p>
+      <p>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+F6</span></tt></font></font>(=type
+        the same capital twice)  <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;"
+        class="ornament">Shift+F7</span></tt></font></font>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-11.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.02133333333333333em; margin-right: -0.020686868686873083em; margin-top: -0.028888888888888964em; vertical-align: -0.12347474747474747em; height: 1.3653333333333333em" />
+      </center>
+      <p>
+        <div style="display: inline">
+          <a id="auto-9"></a>
+        </div>
+        <h5>2D math markup<span style="margin-left: 1em"></span></h5>
+      </p>
+      <p>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+F</span></tt></font></font>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+S</span></tt></font></font>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+S</span></tt></font><font
+        style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Tab</span></tt></font></font>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-12.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.06993939393939397em; margin-right: -0.020686868686873083em; margin-top: 0.042060606060606354em; vertical-align: -1.2633939393939395em; height: 4.010383838383838em" />
+      </center>
+      <center>
+        <img src="LCPU_math_with_shortcuts-13.png" style="margin-left: -0.0258989898989899em; margin-bottom: 0.009373737373737256em; margin-right: -0.020686868686865978em; margin-top: 0.04597979797979779em; vertical-align: -2.945979797979798em; height: 5.304484848484849em" />
+      </center>
+      <p>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+~</span></tt></font></font>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+^</span></tt></font></font>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-14.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.025494949494949487em; margin-right: -0.02068686868686953em; margin-top: -0.04040404040404022em; vertical-align: -0.20206060606060608em; height: 2.0118383838383838em" />
+      </center>
+      <p>
+        <div style="display: inline">
+          <a id="auto-10"></a>
+        </div>
+        <h5>Brackets<span style="margin-left: 1em"></span></h5>
+        <div style="display: inline">
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Meta+Alt+<font
+          color="#503050"><img src="LCPU_math_with_shortcuts-15.png" style="margin-left: -0.020606060606060607em; margin-bottom: -0.07672727272727276em; margin-right: -0.020686868686868753em; margin-top: 0.25668686868686863em; vertical-align: -0.39814141414141413em; height: 1.4206060606060606em" /></font></span></tt></font></font>  <font
+          color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Meta+Alt+<font color="#503050"><img
+          src="LCPU_math_with_shortcuts-16.png" style="margin-left: -0.020606060606060607em; margin-bottom: 0.25668686868686874em; margin-right: -0.020686868686868753em; margin-top: -0.07680808080808088em; vertical-align: -0.3981010101010102em; height: 1.4206060606060606em" /></font></span></tt></font></font>  <font color="magenta"><font
+          style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Meta+Alt+Delete</span></tt></font></font>
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Meta+*</span></tt></font></font>
+        </div>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-17.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.02004040404040386em; margin-right: -0.020686868686868642em; margin-top: -0.06298989898989893em; vertical-align: -1.3436767676767678em; height: 3.6989898989898986em" />
+      </center>
+      <p>
+        <div style="display: inline">
+          <a id="auto-11"></a>
+        </div>
+        <h5>Large symbols<span style="margin-left: 1em"></span></h5>
+        <div style="display: inline">
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+F5</span></tt></font></font>
+        </div>
+      </p>
+      <p>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+F5</span></tt></font><font
+        style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+S</span></tt></font></font>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-18.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868642em; margin-right: -0.020686868686867754em; margin-top: -0.035272727272727344em; vertical-align: -1.9597575757575758em; height: 4.668565656565657em" />
+      </center>
+      <p>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+F5</span></tt></font><font
+        style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+I</span></tt></font></font> 
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+F5</span></tt></font><font
+        style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+I</span></tt></font><font style="font-size: 84.1%"><tt><span
+        style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">!</span></tt></font></font> 
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-19.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.009616161616161634em; margin-right: -0.1996767676767668em; margin-top: -0.028767676767676775em; vertical-align: -1.3954747474747475em; height: 3.6761616161616164em" />
+      </center>
+      <p>
+        
+      </p>
+      <p>
+        <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+F5</span></tt></font><font
+        style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+P</span></tt></font></font>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-20.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868642em; margin-right: -0.020686868686867754em; margin-top: -0.035272727272727344em; vertical-align: -1.9597575757575758em; height: 4.668565656565657em" />
+      </center>
+      <p>
+        <div style="display: inline">
+          <a id="auto-12"></a>
+        </div>
+        <h5>Matrices<span style="margin-left: 1em"></span></h5>
+        <div style="display: inline">
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Meta+Ctrl+T</span></tt></font><font
+          style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+N</span></tt></font><font
+          style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">M</span></tt></font></font>  <font
+          color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Meta+Ctrl+T</span></tt></font><font
+          style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Shift+N</span></tt></font><font
+          style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">D</span></tt></font></font>
+        </div>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-21.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.11296969696969672em; margin-right: -0.020686868686865978em; margin-top: 0em; vertical-align: -3.5983030303030303em; height: 7.648484848484848em" />
+      </center>
+      <p>
+        <div style="display: inline">
+          <a id="auto-13"></a>
+        </div>
+        <h5>Commutative diagrams<span style="margin-left: 1em"></span></h5>
+      </p>
+      <center>
+        <img src="LCPU_math_with_shortcuts-22.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0em; margin-right: -0.02068686868686953em; margin-top: 0.16076767676767645em; vertical-align: -5.561090909090909em; height: 11.999232323232324em" />
+      </center>
+      <p>
+        
+      </p>
+      <p>
+        <div style="display: inline">
+          <a id="auto-14"></a>
+        </div>
+        <h5>When a symbol is hard to find<span style="margin-left: 1em"></span></h5>
+      </p>
+      <ul>
+        <li>
+          <p>
+            System tools (e.g. <font color="blue"><class style="font-family: sans-serif">Character
+            viewer</class></font> in <class style="font-variant: small-caps">macOS</class>)
+          </p>
+          <center>
+            <img src="LCPU_math_with_shortcuts-23.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.009616161616161578em; margin-right: -0.020686868686865978em; margin-top: -0.026787878787878805em; vertical-align: -0.40412121212121216em; height: 1.8101010101010102em" />
+          </center>
+        </li>
+        <li>
+          <p>
+            Internal TeXmacs names <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;"
+            class="ornament">Alt+Q</span></tt></font></font>
+          </p>
+          <center>
+            <img src="LCPU_math_with_shortcuts-24.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0.02266666666666667em; margin-right: -0.020686868686868642em; margin-top: -0.009050505050505198em; vertical-align: -0.17781818181818182em; height: 1.3446464646464649em" />
+          </center>
+        </li>
+        <li>
+          <p>
+            <class style="font-variant: small-caps">Unicode</class> numbers <font color="magenta"><font style="font-size: 84.1%"><tt><span
+            style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+Q</span></tt></font></font>
+          </p>
+          <center>
+            <img src="LCPU_math_with_shortcuts-25.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.009616161616161578em; margin-right: -0.02068686868686953em; margin-top: -0.026787878787878805em; vertical-align: -0.40412121212121216em; height: 1.8101010101010102em" />
+          </center>
+        </li>
+      </ul>
+      <p>
+        <div style="display: inline">
+          <a id="auto-15"></a>
+        </div>
+        <h5>Numbering<span style="margin-left: 1em"></span></h5>
+        <div style="display: inline">
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Alt+#</span></tt></font></font>
+        </div>
+      </p>
+      <table width="100%">
+        <tr>
+          <td width="100%" align="center"><img src="LCPU_math_with_shortcuts-26.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868642em; margin-right: -0.02068686868686953em; margin-top: -0.035272727272727344em; vertical-align: -1.9597575757575758em; height: 4.668565656565657em" id="eq:L" /></td>
+          <td align="right">(1)</td>
+        </tr>
+      </table>
+      <p>
+        <div style="display: inline">
+          <a id="auto-16"></a>
+        </div>
+        <h5>Labels and reference<span style="margin-left: 1em"></span></h5>
+        <div style="display: inline">
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament"><font color="red">?</font></span></tt></font></font>
+          <font color="magenta"><font style="font-size: 84.1%"><tt><span style="border-width:2px;;background-color:#e0e0e0;;;" class="ornament">Ctrl+?</span></tt></font></font>
+          <font color="blue"><class style="font-family: sans-serif">smart-ref</class></font> and <font
+          color="blue"><class style="font-family: sans-serif">preview-ref</class></font>
+        </div>
+      </p>
+      <p style="margin-top: 1em">
+        <font color="black"><font color="black"><strong>Conjecture <class style="font-style: normal">1</class>.
+        </strong></font></font><i><class style="font-style: normal"><font color="black"><font color="black"><strong>(Zhang,
+        [<a href="#bib-Zhang22">1</a>, Theorem 1]) </strong></font></font></class><a id="conj:Zhang"></a>If
+        <font color="#503050"><img src="LCPU_math_with_shortcuts-27.png" style="margin-left: -0.07761616161616162em; margin-bottom: 0.026666666666666672em; margin-right: -0.22662626262626273em; margin-top: -0.04117171717171719em; vertical-align: -0.336969696969697em; height: 1.2412121212121212em" /></font> is a real primitive character
+        to the modulus <font color="#503050"><img src="LCPU_math_with_shortcuts-28.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868688em; margin-right: -0.07373737373737366em; margin-top: -0.021898989898989862em; vertical-align: 0em; height: 1.2205252525252526em" /></font>, then</i>
+      </p>
+      <p>
+        <i><center>
+          <img src="LCPU_math_with_shortcuts-29.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.009616161616161578em; margin-right: -0.02068686868686953em; margin-top: -0.049696969696969795em; vertical-align: -0.40412121212121216em; height: 1.7996767676767678em" />
+        </center></i>
+      </p>
+      <p style="margin-bottom: 1em">
+        <i>where <font color="#503050"><img src="LCPU_math_with_shortcuts-30.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868698em; margin-right: -0.020686868686869087em; margin-top: -0.0668282828282829em; vertical-align: -0.2824242424242424em; height: 1.4305454545454546em" /></font> is an absolute,
+        effectively computable constant and <font color="#503050"><img src="LCPU_math_with_shortcuts-31.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.009616161616161578em; margin-right: -0.020686868686868642em; margin-top: -0.028767676767676775em; vertical-align: -0.40412121212121216em; height: 1.654949494949495em"
+        /></font> is defined in (<a href="#eq:L">1</a>)</i>
+      </p>
+      <p>
+        As a direct consequence of Conjecture <a href="#conj:Zhang">1</a> we have 
+      </p>
+      <p style="margin-top: 1em">
+        <font color="black"><font color="black"><strong>Corollary <class style="font-style: normal">2</class>.
+        </strong></font></font><i><class style="font-style: normal"><font color="black"><font color="black"><strong>([<a
+        href="#bib-Zhang22">1</a>, Theorem 2]) </strong></font></font></class>If <font
+        color="#503050"><img src="LCPU_math_with_shortcuts-27.png" style="margin-left: -0.07761616161616162em; margin-bottom: 0.026666666666666672em; margin-right: -0.22662626262626273em; margin-top: -0.04117171717171719em; vertical-align: -0.336969696969697em; height: 1.2412121212121212em" /></font> is a real primitive character to the
+        modulus <font color="#503050"><img src="LCPU_math_with_shortcuts-28.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868688em; margin-right: -0.07373737373737366em; margin-top: -0.021898989898989862em; vertical-align: 0em; height: 1.2205252525252526em" /></font>, then</i>
+      </p>
+      <p>
+        <i><center>
+          <img src="LCPU_math_with_shortcuts-32.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.009616161616161578em; margin-right: -0.02068686868686953em; margin-top: -0.028767676767676775em; vertical-align: -0.40412121212121216em; height: 1.654949494949495em" />
+        </center></i>
+      </p>
+      <p>
+        <i>for</i>
+      </p>
+      <p>
+        <i><center>
+          <img src="LCPU_math_with_shortcuts-33.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.009616161616161578em; margin-right: -0.02068686868686953em; margin-top: -0.049696969696969795em; vertical-align: -0.40412121212121216em; height: 1.7996767676767678em" />
+        </center></i>
+      </p>
+      <p style="margin-bottom: 1em">
+        <i>where <font color="#503050"><img src="LCPU_math_with_shortcuts-34.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868698em; margin-right: -0.020686868686869087em; margin-top: -0.0668282828282829em; vertical-align: -0.2824242424242424em; height: 1.4305454545454546em" /></font> is an absolute,
+        effectively computable constant.</i>
+      </p>
+      <h2 id="auto-17">Bibliography<span style="margin-left: 1em"></span></h2>
+      <div style="text-indent: 0em" class="compact-block">
+        <font style="font-size: 84.0%"><dl>
+          <p>
+            <dt>
+              <strong>[1]  </strong>
+            </dt>
+            <dd>
+              <p>
+                <a id="bib-Zhang22"></a>Yitang Zhang. Discrete mean estimates and the
+                landau-siegel zero.  2022.
+              </p>
+            </dd>
+          </p>
+        </dl></font>
+      </div>
+      <center>
+        
+      </center>
+      <p>
+        
+      </p>
+      <center>
+        
+      </center>
+      <center>
+        
+      </center>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+    </div>
+    <div style="display: none" class="toggle">
+      <p>
+        
+      </p>
+    </div>
+  </body>
+</html>

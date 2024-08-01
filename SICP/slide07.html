@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>&#x96F6;&#x57FA;&#x7840;SICP 07</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: none" class="toggle">
+      <p>
+        
+      </p>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <table style="margin-bottom: 2em" class="title-block">
+      <tr>
+        <td><table style="margin-top: 0.5em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><font color="#006060"><strong>&#x96F6;&#x57FA;&#x7840;SICP
+            07</strong></font></font></td>
+          </tr>
+        </table><table style="margin-top: 0.25em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 129.7%"><font color="#006060"><strong>&#x7528;&#x9AD8;&#x9636;&#x51FD;&#x6570;&#x505A;&#x62BD;&#x8C61;</strong></font></font></td>
+          </tr>
+        </table><div style="margin-top: 1em; margin-bottom: 1em" class="compact-block">
+          <table class="title-block">
+            <tr>
+              <td><font style="font-size: 91.7%"><p>
+                <span style="margin-left: 0em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps"></class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">&#x6C88;&#x6D6A;&#x718A;&#x732B;&#x513F;</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">MathAgape</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span>
+              </p></font></td>
+            </tr>
+          </table>
+        </div></td>
+      </tr>
+    </table>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x96F6;&#x57FA;&#x7840;SICP&#xFF1A;&#x7B2C;7&#x8BFE;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <table style="width: 100%">
+      <tbody><tr>
+        <td style="width: 50%; padding-left: 0em"><p>
+          <font style="font-size: 141.4%"><strong><p>
+            &#x7528;&#x9AD8;&#x9636;&#x51FD;&#x6570;&#x505A;&#x62BD;&#x8C61;
+          </p></strong></font>
+        </p></td>
+        <td style="width: 50%; padding-right: 0em"><font style="font-size: 141.4%"><p>
+          <strong>Formulating Abstractions with Higher-Order
+          Procedures</strong>
+        </p></font></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5728;&#x53C2;&#x6570;&#x4E2D;&#x4F20;&#x9012;&#x51FD;&#x6570;&#x503C;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Procedures as Arguments
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x7528;<tt class="verbatim">lambda</tt>&#x6784;&#x9020;&#x533F;&#x540D;&#x51FD;&#x6570;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Constructing Procedures Using <tt class="verbatim">lambda</tt>
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x51FD;&#x6570;&#x4F5C;&#x4E3A;&#x4E00;&#x822C;&#x6027;&#x7684;&#x65B9;&#x6CD5;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Procedures as General Methods
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5728;&#x51FD;&#x6570;&#x4E2D;&#x8FD4;&#x56DE;&#x51FD;&#x6570;&#x503C;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Procedures as Returned Values
+        </p></td>
+      </tr></tbody>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      <strong>&#x7F16;&#x7A0B;&#x7684;&#x57FA;&#x672C;&#x539F;&#x7406;&#x662F;&#x5BF9;&#x6570;&#x636E;&#x548C;&#x8BA1;&#x7B97;&#x7684;&#x7EC4;&#x5408;&#x548C;&#x62BD;&#x8C61;</strong>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x5728;&#x53C2;&#x6570;&#x4E2D;&#x4F20;&#x9012;&#x51FD;&#x6570;&#x503C;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      <multicol cols="2"><center>
+        <img src="slide07-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242637em; margin-right: -0.024824242424241305em; margin-top: -0.05915151515151518em; vertical-align: -2.004509090909091em; height: 5.024872727272728em" />
+      </center></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><center>
+        <img src="slide07-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242637em; margin-right: -0.024824242424244858em; margin-top: -0.0570666666666666em; vertical-align: -2.004509090909091em; height: 4.975224242424243em" />
+      </center></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><center>
+        <img src="slide07-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242637em; margin-right: -0.024824242424241305em; margin-top: -0.04567272727272753em; vertical-align: -2.004509090909091em; height: 4.702157575757576em" />
+      </center></multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (sum f a next b)
+  (if (&gt; a b)
+      0
+      (+ (f a)
+         (sum f (next a) next b))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (inc n) (+ n 1))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (same x) x)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(sum <font color="red">same</font> 1 <font color="red">inc</font> 100)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                5050
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <p>
+      
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x7528;<tt class="verbatim">lambda</tt>&#x6784;&#x9020;&#x533F;&#x540D;&#x51FD;&#x6570;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <center>
+      <img src="slide07-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242637em; margin-right: -0.024824242424241305em; margin-top: -0.0570666666666666em; vertical-align: -2.004509090909091em; height: 4.975224242424243em" />
+    </center>
+    <p>
+      
+    </p>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(sum (lambda (x) (* x x)) 1 <font color="red">inc</font> 10)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <p>
+      
+    </p>
+    <center>
+      <img src="slide07-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.019442424242424233em; margin-right: -0.02482424242424308em; margin-top: -0.04921212121212126em; vertical-align: -0.14191515151515152em; height: 1.6235636363636365em" />
+    </center>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(sum (lambda (x) (* x x)) 1 (lambda (x) (+ x 2)) 10)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(sum (lambda (x) (* x x)) 2 (lambda (x) (+ x 2)) 10)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                220
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x7528;<tt class="verbatim">let</tt>&#x521B;&#x5EFA;&#x5C40;&#x90E8;&#x53D8;&#x91CF;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (fib-once pair)
+  (let ((a (first pair))
+        (b (second pair)))
+   (list b (+ a b))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                fib-once
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fib-once (fib-once (list 1 1)))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                (2 3)
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <p>
+      
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x6848;&#x4F8B;&#x5206;&#x6790;&#xFF1A;&#x533A;&#x95F4;&#x6298;&#x534A;&#x6CD5;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      <img src="slide07-6.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0em; margin-right: -0.024824242424230647em; margin-top: 0em; vertical-align: -20.23078787878788em; height: 40.46157575757576em" />
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x5B9E;&#x73B0;&#xFF1A;&#x4E8C;&#x5206;&#x67E5;&#x627E;&#x6CD5;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (average x y) (/ (+ x y) 2))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                average
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (search f neg-point pos-point)
+  (let ((midpoint (average neg-point pos-point)))
+    (if (close-enough? neg-point pos-point)
+        midpoint
+        (let ((test-value (f midpoint)))
+          (cond ((positive? test-value)
+                 (search f neg-point midpoint))
+                ((negative? test-value)
+                 (search f midpoint pos-point))
+                (else midpoint))))))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  search
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x5B9E;&#x73B0;&#xFF1A;&#x533A;&#x95F4;&#x6298;&#x534A;&#x6CD5;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (close-enough? x y)
+  (&lt; (abs (- x y)) 0.001))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (half-interval-method f a b)
+  (let ((a-value (f a))
+        (b-value (f b)))
+    (cond ((and (negative? a-value) (positive? b-value))
+           (search f a b))
+          ((and (negative? b-value) (positive? a-value))
+           (search f b a))
+          (else
+           (error &quot;Values are not of opposite sign&quot; a b)))))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(half-interval-method sin 2.0 4.0)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  3.14111328125
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x6848;&#x4F8B;&#x5206;&#x6790;&#xFF1A;&#x5BFB;&#x627E;&#x4E0D;&#x52A8;&#x70B9;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <center>
+      <img src="slide07-7.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424241305em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+    </center>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define tolerance 0.00001)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (fixed-point f first-guess)
+  (define (close-enough? v1 v2)
+    (&lt; (abs (- v1 v2)) tolerance))
+  (define (try guess)
+    (let ((next (f guess)))
+      (if (close-enough? guess next)
+          next
+          (try next))))
+  (try first-guess))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fixed-point cos 1.0)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fixed-point (lambda (y) (+ (sin y) (cos y))) 1.0)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x603B;&#x7ED3;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x4EE3;&#x7801;&#x5373;&#x6570;&#x636E;&#xFF0C;&#x6570;&#x636E;&#x5373;&#x4EE3;&#x7801;&#x3002;
+    </p>
+    <p>
+      &#x51FD;&#x6570;&#x503C;&#x53EF;&#x4EE5;&#x50CF;&#x6570;&#x636E;&#x4E00;&#x6837;&#xFF0C;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x4F20;&#x5165;&#x51FD;&#x6570;&#xFF0C;&#x4F5C;&#x4E3A;&#x8FD4;&#x56DE;&#x503C;&#x4ECE;&#x51FD;&#x6570;&#x4E2D;&#x4F20;&#x51FA;&#x3002;
+    </p>
+    <p>
+      <tt class="verbatim">define</tt>&#xFF0C;<tt class="verbatim">lambda</tt>&#xFF0C;<tt class="verbatim">let</tt>
+    </p>
+    <div style="margin-top: 1em; margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim">(define (<font color="red">&#x27E8;&#x51FD;&#x6570;&#x540D;&#x27E9;
+        </font><font color="brown">&#x27E8;&#x5F62;&#x5F0F;&#x53C2;&#x6570;&#x5217;&#x8868;&#x27E9;</font>)
+        <font color="#008080">&#x27E8;&#x4E3B;&#x4F53;&#x27E9;</font>)</tt>
+      </p>
+    </div>
+    <div style="margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim">(lambda (<font color="brown">&#x27E8;&#x5F62;&#x5F0F;&#x53C2;&#x6570;&#x5217;&#x8868;&#x27E9;</font>)
+        <font color="#008080">&#x27E8;&#x4E3B;&#x4F53;&#x27E9;</font>)</tt>
+      </p>
+    </div>
+    <div style="margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim"></tt>
+      </p>
+    </div>
+    <div style="margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim">(let ((<font color="red">&lt;&#x53D8;&#x91CF;1&gt;</font> <font
+        color="#008080">&lt;&#x8868;&#x8FBE;&#x5F0F;1&gt;</font>)</tt>
+      </p>
+    </div>
+    <div style="margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim">      (<font color="red">&lt;&#x53D8;&#x91CF;2&gt;</font> <font
+        color="#008080">&lt;&#x8868;&#x8FBE;&#x5F0F;2&gt;</font>)</tt>
+      </p>
+    </div>
+    <div style="margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim">      &hellip;</tt>
+      </p>
+    </div>
+    <div style="margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim">      (<font color="red">&lt;&#x53D8;&#x91CF;n&gt;</font> <font
+        color="#008080">&lt;&#x8868;&#x8FBE;&#x5F0F;n&gt;</font>))</tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 1em; margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+      <p>
+        <tt class="verbatim">   <font color="#008080">&#x27E8;&#x4E3B;&#x4F53;&#x27E9;</font>)</tt>
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No title</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <h2 id="auto-1">Orders of Growth<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (expt-1 b n)
+  (if (= n 0)
+      1
+      (* b (expt-1 b (- n 1)))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            expt-1
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(expt-1 1 0)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            1
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(expt-1 2 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            8
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (expt-2 b n)
+  (define (expt-iter b counter product)
+    (if (= counter 0)
+        product
+        (expt-iter b
+                  (- counter 1)
+                  (* b product))))
+  
+  (expt-iter b n 1))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            expt-2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(expt-2 3 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            27
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <h2 id="auto-2">Exponentiation<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (fast-expt b n)
+  (define (even? n)
+    (= (remainder n 2) 0))
+  (define (square x) (* x x))
+  
+  (cond ((= n 0) 1)
+        ((even? n) (square (fast-expt b (/ n 2))))
+        (else (* b (fast-expt b (- n 1))))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            fast-expt
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(fast-expt 3 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            27
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <h2 id="auto-3">Greatest Common Divisors<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (gcd a b)
+  (if (= b 0)
+      a
+      (gcd b (remainder a b))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            gcd
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(gcd 10 20)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            10
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+  </body>
+</html>

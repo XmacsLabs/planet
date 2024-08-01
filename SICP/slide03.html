@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No title</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: none" class="toggle">
+      <p>
+        
+      </p>
+    </div>
+    <div style="display: block" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x96F6;&#x57FA;&#x7840;SICP&#xFF1A;&#x7B2C;3&#x8BFE;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="width: 50%; padding-left: 0em"><p>
+            <font style="font-size: 141.4%"><strong><p>
+              &#x7F16;&#x7A0B;&#x7684;&#x57FA;&#x672C;&#x539F;&#x7406;
+            </p></strong></font>
+          </p></td>
+          <td style="width: 50%; padding-right: 0em"><p>
+            <font style="font-size: 141.4%"><strong><p>
+              Elements of Programming
+            </p></strong></font>
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x8868;&#x8FBE;&#x5F0F;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            Expressions
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x547D;&#x540D;&#x4E0E;&#x73AF;&#x5883;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            Naming and the Evironment
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x7EC4;&#x5408;&#x5F0F;&#x7684;&#x6C42;&#x503C;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            Evaluating Combinations
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x590D;&#x5408;&#x51FD;&#x6570;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            Compound Procedures
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x51FD;&#x6570;&#x5E94;&#x7528;&#x7684;&#x4EE3;&#x6362;&#x6A21;&#x578B;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            The Subsitution Model for Procedure Application
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x8C13;&#x8BCD;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            Conditional Expressions and Predicates
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x7EBF;&#x6027;&#x9012;&#x5F52;&#x548C;&#x8FED;&#x4EE3;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            Linear Recursion and Iteration
+          </p></td>
+        </tr><tr>
+          <td style="width: 50%; padding-left: 0em; height: 40"><p>
+            &#x6811;&#x5F62;&#x9012;&#x5F52;
+          </p></td>
+          <td style="width: 50%; padding-right: 0em; height: 40"><p>
+            Tree Recursion
+          </p></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x6761;&#x4EF6;&#x8868;&#x8FBE;&#x5F0F;&#x548C;&#x8C13;&#x8BCD;&mdash;&#x77ED;&#x8DEF;&#x8FD0;&#x7B97;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <p>
+            &#x5E94;&#x7528;&#x5E8F;&#x6C42;&#x503C;&#xFF08;Scheme&#x4F7F;&#x7528;&#x7684;&#x662F;&#x5E94;&#x7528;&#x5E8F;&#x6C42;&#x503C;&#xFF09;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x6B63;&#x5219;&#x5E8F;&#x6C42;&#x503C;
+          </p>
+        </li>
+      </ul>
+      <p>
+        <div style="display: inline">
+          <a id="auto-1"></a>
+        </div>
+        <h6>&#x6848;&#x4F8B;&#x5206;&#x6790;&#xFF1A;&#x5B9E;&#x73B0;&#x6C42;&#x7EDD;&#x5BF9;&#x503C;&#x7684;&#x591A;&#x79CD;&#x65B9;&#x5F0F;<span
+        style="margin-left: 1em"></span></h6>
+      </p>
+      <p>
+        <multicol cols="2"><center>
+          <img src="slide03-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.0037818181818183305em; margin-right: -0.02482424242424308em; margin-top: -0.037236363636363734em; vertical-align: -2.6872242424242425em; height: 6.212169696969697em" />
+        </center><font style="font-size: 84.1%"><div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (abs1 x)
+  (cond ((&gt; x 0) x)
+        ((= x 0) 0)
+        (else (- x))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  abs1
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (abs2 x)
+  (if (&gt; x 0)
+      x
+      (- x)))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  abs2
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (abs3 x)
+  (or (and (&gt; x) x) (- x)))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  abs3
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(abs1 1)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  1
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(abs1 -1)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  1
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div><div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div></font></multicol>
+      </p>
+      <div style="margin-left: 59.748166272000006px">
+        <p style="margin-top: 1em; margin-bottom: 1em">
+          <img src="slide03-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.02501818181818183em; vertical-align: 0em; height: 0.8067878787878788em" /><font color="#602060"><font color="#602060"><strong>&#x95EE;&#x9898;
+          <class style="font-style: normal">1</class>.
+          </strong></font></font>&#x4E3A;&#x4EC0;&#x4E48;<tt class="verbatim">if</tt>&#x548C;<tt
+          class="verbatim">cond</tt>&#x662F;&#x5FC5;&#x987B;&#x7684;&#xFF1F;
+        </p>
+        <div style="display: none" class="toggle">
+          <div style="margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 59.748166272000006px">
+            <p>
+              <font style="font-size: 84.1%"><font color="#602060"><font color="#602060"><strong>&#x7EC3;&#x4E60;
+              <class style="font-style: normal">1</class>.
+              </strong></font></font>&#x4F7F;&#x7528;<tt class="verbatim">if</tt>&#x5B9E;&#x73B0;<tt
+              class="verbatim">and</tt>&#x548C;<tt class="verbatim">or</tt>&#x3002;</font>
+            </p>
+          </div>
+          <p>
+            &#x53C2;&#x8003;&#x6587;&#x6863;&#xFF1A;<a href="https://www.scheme.com/tspl2d/grammar.html"><tt>https://www.scheme.com/tspl2d/grammar.html</tt></a>
+          </p>
+        </div>
+      </div>
+      <p>
+        
+      </p>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x5FAA;&#x73AF;&#xFF1A;&#x6C42;&#x548C;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <p>
+        <div style="display: inline">
+          <a id="auto-2"></a>
+        </div>
+        <h5>&#x6848;&#x4F8B;&#x5206;&#x6790;&#xFF1A;&#x6C42;&#x548C;<span
+        style="margin-left: 1em"></span></h5>
+      </p>
+      <p>
+        <multicol cols="2"><center>
+          <img src="slide03-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242637em; margin-right: -0.024824242424241305em; margin-top: -0.04567272727272753em; vertical-align: -2.004509090909091em; height: 4.702157575757576em" />
+        </center><p>
+          
+        </p><div style="margin-top: 1em; margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+          <p>
+            result := 0
+          </p>
+        </div><div style="margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+          <p>
+            <b>for</b> i &larr; 1 <b>to</b> n <b>do</b>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 119.495px" class="compact-block">
+          <p>
+            result := result + i
+          </p>
+        </div><div style="margin-bottom: 1em; margin-left: 59.748166272000006px; text-indent: 0em" class="compact-block">
+          <p>
+            <b>end</b> <b>for</b>
+          </p>
+        </div></multicol>
+      </p>
+      <p>
+        <hr>
+      </p>
+      <p>
+        <multicol cols="2"><font style="font-size: 84.1%"><div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define result 0)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(for (x (list 1 2 3 4))
+  (set! result (+ result x)))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+result</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div></font><font style="font-size: 84.1%"><div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+def sum_n(n):
+    result= 0
+    for i in range(n):
+        result= result + (i + 1)
+    return result</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+sum_n(3)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+list(range(3))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div><div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div></font></multicol>
+      </p>
+      <div style="margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 59.748166272000006px">
+        <p>
+          <font style="font-size: 84.1%"><font color="#602060"><font color="#602060"><strong>&#x7EC3;&#x4E60;
+          <class style="font-style: normal">2</class>.
+          </strong></font></font>&#x4F7F;&#x7528;Scheme&#x5B9E;&#x73B0;range&#x3002;</font>
+        </p>
+      </div>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x7EBF;&#x6027;&#x9012;&#x5F52;&#xFF1A;&#x6C42;&#x548C;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <font style="font-size: 84.1%"><div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (sum start end)
+  (cond ((&gt; start end) 0)
+        ((= start end) end)
+        (else (+ start (sum (+ start 1) end)))))
+</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div><div style="text-indent: 0em" class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                sum
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div><div style="text-indent: 0em" class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(sum 2 3)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div><div style="text-indent: 0em" class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                5
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div><div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div></font>
+      <p>
+        <multicol cols="2"><div style="margin-left: 16px">
+          <div style="margin-right: 64px">
+            <center>
+              <img src="slide03-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.3635878787878788em; margin-right: -0.024824242424244858em; margin-top: -0.05706666666666749em; vertical-align: -16.9545696969697em; height: 34.359321212121216em" />
+            </center>
+          </div>
+        </div></multicol>
+      </p>
+      <p>
+        
+      </p>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x6811;&#x5F62;&#x9012;&#x5F52;&#xFF1A;&#x6590;&#x6CE2;&#x90A3;&#x5951;&#x6570;&#x5217;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <div style="margin-left: 59.748166272000006px">
+        <p>
+          <img src="slide03-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.02501818181818183em; vertical-align: 0em; height: 0.8067878787878788em" />
+          <center>
+            <img src="slide03-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.003927272727272779em; margin-right: -0.024824242424244858em; margin-top: -0.037236363636363734em; vertical-align: -2.6873212121212124em; height: 6.212169696969697em" />
+          </center>
+        </p>
+        <div style="display: none" class="toggle">
+          <pre class="verbatim" xml:space="preserve">
+<center><img src="slide03-6.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848261em; margin-right: -0.024824242424241305em; margin-top: -0.04867878787878799em; vertical-align: -21.569939393939396em; height: 22.898036363636365em" /></center></pre>
+        </div>
+      </div>
+      <font style="font-size: 84.1%"><div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (fib n)
+  (cond ((= n 0) 0)
+        ((= n 1) 1)
+        (else (+ (fib (- n 1)) (fib (- n 2))))))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div><div style="text-indent: 0em" class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fib 2)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div><div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div></font>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x6811;&#x5F62;&#x9012;&#x5F52;&rarr;&#x8FED;&#x4EE3;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <center>
+        <img src="slide03-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.003927272727272779em; margin-right: -0.024824242424244858em; margin-top: -0.037236363636363734em; vertical-align: -2.6873212121212124em; height: 6.212169696969697em" />
+      </center>
+      <center>
+        <img src="slide03-7.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.29406060606060613em; margin-right: -0.024824242424230647em; margin-top: 0.26865454545454526em; vertical-align: -5.752921212121213em; height: 11.699830303030303em" />
+      </center>
+      <p>
+        <multicol cols="2"><div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+          <p style="margin-bottom: 0.5em">
+            <strong>&#x7B97;&#x6CD5; <class style="font-style: normal">1</class></strong>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <font color="#503050"><img src="slide03-8.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: -0.25221818181818184em; height: 1.481018181818182em" /></font>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <font color="#503050"><img src="slide03-9.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242193em; margin-top: -0.03626666666666667em; vertical-align: -0.25221818181818184em; height: 1.5679030303030304em" /></font>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <font color="#503050"><img src="slide03-10.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.02482424242424308em; margin-top: -0.04930909090909097em; vertical-align: 0em; height: 1.3280969696969698em" /></font>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <font color="#503050"><img src="slide03-11.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.11709090909090908em; margin-right: -0.02482424242424308em; margin-top: -0.03626666666666667em; vertical-align: -0.39413333333333334em; height: 1.543078787878788em" /></font>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <font color="#503050"><img src="slide03-12.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.11709090909090908em; margin-right: -0.02482424242424308em; margin-top: -0.03626666666666667em; vertical-align: -0.39413333333333334em; height: 1.543078787878788em" /></font>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <font color="#503050"><img src="slide03-13.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.024824242424242193em; margin-top: -0.04930909090909097em; vertical-align: 0em; height: 1.3280969696969698em" /></font>
+          </p>
+        </div><div style="margin-bottom: 1em; text-indent: 0em" class="compact-block">
+          <div style="margin-left: 59.748166272000006px">
+            <p>
+              <font color="#503050"><img src="slide03-14.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.03626666666666667em; vertical-align: -0.25221818181818184em; height: 1.543078787878788em" /></font>
+            </p>
+          </div>
+        </div><div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+          <p style="margin-bottom: 0.5em">
+            <strong>&#x7B97;&#x6CD5; <class style="font-style: normal">2</class></strong>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            a &larr; 0
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            b <font color="#503050"><img src="slide03-15.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.024824242424242415em; vertical-align: 0em; height: 0.8064969696969697em" /></font> 1
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <b>for</b> i &larr; 1 <b>to</b> n <b>do</b>
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 119.495px" class="compact-block">
+          <p>
+            old_b &larr; b
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 119.495px" class="compact-block">
+          <p>
+            b &larr; a + b
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 119.495px" class="compact-block">
+          <p>
+            a &larr; old_b
+          </p>
+        </div><div style="text-indent: 0em; margin-left: 59.748166272000006px" class="compact-block">
+          <p>
+            <b>end</b> <b>for</b>
+          </p>
+        </div><div style="margin-bottom: 1em; text-indent: 0em" class="compact-block">
+          <div style="margin-left: 59.748166272000006px">
+            <p>
+              <b>Result:</b> b
+            </p>
+          </div>
+        </div></multicol>
+      </p>
+      <p>
+        
+      </p>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x5206;&#x6CBB;&#x6CD5;&#xFF1A;&#x627E;&#x96F6;&#x95EE;&#x9898;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <p>
+            &#x65E0;&#x9650;&#x591A;&#x4E00;&#x5143;&#x7EB8;&#x5E01;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x65E0;&#x9650;&#x591A;&#x4E94;&#x5143;&#x7EB8;&#x5E01;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x65E0;&#x9650;&#x591A;&#x5341;&#x5143;&#x7EB8;&#x5E01;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x65E0;&#x9650;&#x591A;&#x4E94;&#x5341;&#x5143;&#x7EB8;&#x5E01;
+          </p>
+        </li>
+      </ul>
+      <p style="margin-top: 1em; margin-bottom: 0.25em">
+        <strong><font style="font-size: 118.9%"><p style="margin-top: 1em; margin-bottom: 1em">
+          <font color="#602060"><font color="#602060"><strong>&#x95EE;&#x9898; <class style="font-style: normal">2</class>.
+          </strong></font></font>&yen;6&#x6709;&#x51E0;&#x79CD;&#x627E;&#x96F6;&#x65B9;&#x5F0F;&#xFF1F;
+        </p></font></strong><font color="#336666"><strong><font style="font-size: 118.9%"><font color="#503050"><img
+        src="slide03-16.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.028799999999999992em; margin-right: -0.024824242424242415em; margin-top: -0.02123636363636372em; vertical-align: -0.3311515151515152em; height: 1.5639272727272728em" /></font></font></strong></font>
+      </p>
+      <div style="display: none" class="toggle">
+        <div style="display: none" class="toggle">
+          <p>
+            &yen;6=6&times;&yen;1, &yen;6=1&times;&yen;5+1
+          </p>
+        </div>
+      </div>
+      <p style="margin-top: 1em; margin-bottom: 0.25em">
+        <strong><font style="font-size: 118.9%"><p style="margin-top: 1em; margin-bottom: 1em">
+          <font color="#602060"><font color="#602060"><strong>&#x95EE;&#x9898; <class style="font-style: normal">3</class>.
+          </strong></font></font>&yen;16&#x6709;&#x51E0;&#x79CD;&#x627E;&#x96F6;&#x65B9;&#x5F0F;&#xFF1F;
+        </p></font></strong><font color="#336666"><strong><font style="font-size: 118.9%"><font color="#503050"><img
+        src="slide03-16.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.028799999999999992em; margin-right: -0.024824242424242415em; margin-top: -0.02123636363636372em; vertical-align: -0.3311515151515152em; height: 1.5639272727272728em" /></font></font></strong></font>
+      </p>
+      <div style="display: none" class="toggle">
+        <div style="display: none" class="toggle">
+          <p>
+            
+          </p>
+        </div>
+      </div>
+      <p style="margin-top: 1em; margin-bottom: 0.25em">
+        <strong><font style="font-size: 118.9%"><p style="margin-top: 1em; margin-bottom: 1em">
+          <font color="#602060"><font color="#602060"><strong>&#x95EE;&#x9898; <class style="font-style: normal">4</class>.
+          </strong></font></font>&#x5BF9;&#x4E8E;&yen;n&#xFF0C;&#x4E00;&#x5171;&#x6709;&#x591A;&#x5C11;&#x79CD;&#x627E;&#x96F6;&#x65B9;&#x5F0F;&#xFF1F;
+        </p></font></strong><font color="#336666"><strong><font style="font-size: 118.9%"><font color="#503050"><img
+        src="slide03-16.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.028799999999999992em; margin-right: -0.024824242424242415em; margin-top: -0.02123636363636372em; vertical-align: -0.3311515151515152em; height: 1.5639272727272728em" /></font></font></strong></font>
+      </p>
+      <div style="display: none" class="toggle">
+        <div style="display: none" class="toggle">
+          <center>
+            <img src="slide03-17.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424216436em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+          </center>
+          <center>
+            <img src="slide03-18.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.021042424242424196em; margin-right: -0.024824242424244858em; margin-top: -0.025890909090909187em; vertical-align: -0.42579393939393945em; height: 1.750109090909091em" />
+          </center>
+        </div>
+      </div>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+                &#x603B;&#x7ED3;
+              </div></font></td>
+            </tr><tr>
+              <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <p>
+            &#x56DE;&#x987E;&#x5E94;&#x7528;&#x5E8F;&#x6C42;&#x503C;&#x548C;&#x6B63;&#x5219;&#x5E8F;&#x6C42;&#x503C;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x6DF1;&#x5165;&#x7406;&#x89E3;<tt class="verbatim">if</tt>&#x548C;<tt
+            class="verbatim">cond</tt>
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x7F16;&#x7A0B;&#x4E2D;&#x6700;&#x57FA;&#x7840;&#x7684;&#x6982;&#x5FF5;&#x4E4B;&#x4E00;&#xFF1A;&#x5FAA;&#x73AF;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x4F7F;&#x7528;&#x9012;&#x5F52;&#x5B9E;&#x73B0;&#x5FAA;&#x73AF;&#xFF0C;&#x57FA;&#x4E8E;&#x5FAA;&#x73AF;&#x7406;&#x89E3;&#x9012;&#x5F52;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x5B9E;&#x6218;&#xFF1A;&#x7EBF;&#x6027;&#x9012;&#x5F52;&#x548C;&#x6811;&#x5F62;&#x9012;&#x5F52;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x6280;&#x5DE7;&#xFF1A;&#x5C06;&#x9012;&#x5F52;&#x5B9E;&#x73B0;&#x6539;&#x4E3A;&#x8FED;&#x4EE3;&#x5B9E;&#x73B0;
+          </p>
+        </li>
+        <li>
+          <p>
+            &#x62BD;&#x8C61;&#xFF1A;&#x5229;&#x7528;&#x9012;&#x5F52;&#x89E3;&#x51B3;&#x73B0;&#x5B9E;&#x4E2D;&#x7684;&#x627E;&#x96F6;&#x95EE;&#x9898;
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

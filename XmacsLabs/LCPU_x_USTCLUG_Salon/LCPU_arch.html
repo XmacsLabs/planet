@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No title</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: block" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Architecture and
+                Implementation</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-left: 0em; padding-right: 0em"><table style="width: 100%">
+            <tbody><tr>
+              <td style="width: 33.33%; padding-left: 0em; text-align: center; background-color: #ff00ff20"><p>
+                What you see
+              </p></td>
+              <td style="width: 33.33%; text-align: center; background-color: #ff00ff20"><p>
+                What you type or click
+              </p></td>
+              <td style="width: 33.33%; padding-right: 0em; text-align: center"><p>
+                
+              </p></td>
+            </tr><tr>
+              <td style="width: 33.33%; padding-left: 0em; text-align: center; vertical-align: middle; background-color: #ff000020"><p>
+                Renderer
+              </p></td>
+              <td style="width: 33.33%; text-align: center; vertical-align: middle; background-color: #00ffff55"><p>
+                Editor
+              </p></td>
+              <td style="width: 33.33%; padding-right: 0em; text-align: center; vertical-align: middle; background-color: #ff000020"><p>
+                Widget
+              </p></td>
+            </tr><tr>
+              <td style="width: 33.33%; padding-left: 0em; text-align: center; vertical-align: middle; background-color: #ff000020"><p>
+                Typesetter
+              </p></td>
+              <td style="width: 33.33%"><p>
+                
+              </p></td>
+              <td style="width: 33.33%; padding-right: 0em"><p>
+                
+              </p></td>
+            </tr><tr>
+              <td style="width: 33.33%; padding-left: 0em; text-align: center; background-color: #ffff0055"><p>
+                TeXmacs Style Sheet
+              </p></td>
+              <td style="width: 33.33%; text-align: center; background-color: #00ff0020"><p>
+                Scheme API
+              </p></td>
+              <td style="width: 33.33%; padding-right: 0em"><p>
+                
+              </p></td>
+            </tr><tr>
+              <td style="width: 33.33%; padding-left: 0em; text-align: center; background-color: #00ff0020"><p>
+                Data Model as a tree in TeXmacs scheme data
+              </p></td>
+              <td style="width: 33.33%"><p>
+                
+              </p></td>
+              <td style="width: 33.33%; padding-right: 0em; background-color: #00ff0020"><p>
+                Scheme API
+              </p></td>
+            </tr><tr>
+              <td style="width: 33.33%; padding-left: 0em; text-align: center; background-color: #00ff0055"><p>
+                Standard S7 Scheme
+              </p></td>
+              <td style="width: 33.33%; text-align: center; background-color: #ff000055"><p>
+                Qt Framework in C++
+              </p></td>
+              <td style="width: 33.33%; padding-right: 0em"><p>
+                
+              </p></td>
+            </tr></tbody>
+          </table><p>
+            
+          </p></td>
+        </tr><tr>
+          <td style="text-align: center; padding-left: 0em; padding-right: 0em; height: 0.5em"></td>
+        </tr><tr>
+          <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-left: 1.5em; padding-right: 1.5em"><div class="caption">
+            <font style="font-size: 84.1%"><p>
+              <b>Table. </b><a id="auto-1"></a>Architecture of GNU TeXmacs
+            </p></font>
+          </div></td>
+        </tr></tbody>
+      </table>
+      <ul>
+        <li>
+          <p>
+            Content Model: How does TeXmacs document stored and rendered?
+          </p>
+        </li>
+        <li>
+          <p>
+            Code Structure: How is TeXmacs code organized?
+          </p>
+        </li>
+        <li>
+          <p>
+            Example: What happens when we type in the editor?
+          </p>
+        </li>
+        <li>
+          <p>
+            Ongoing Work: Can TeXmacs run in browser?
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><class style="font-weight: normal"><p>
+                <strong>Content Model: Documet as a tree</strong>
+              </p></class></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <center>
+        <img src="LCPU_arch-1.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868642em; margin-right: -0.02068686868686953em; margin-top: -0.05632323232323211em; vertical-align: -1.1391111111111112em; height: 3.408em" />
+      </center>
+      <p>
+        A TeXmacs document can be serialized in <class style="font-variant: small-caps">TM</class>
+        formart: 
+      </p>
+      <div style="margin-top: 1em; margin-bottom: 1em; text-indent: 0em" class="compact-block">
+        <font color="#707070"><table style="width: 100%">
+          <tbody><tr>
+            <td style="padding-top: 0.5em; padding-bottom: 0.5em; background-color: #0000ff20; border-left: 0.5px solid; border-right: 0.5px solid; border-top: 0.5px solid; border-bottom: 0.5px solid"><font color="black"><pre class="verbatim" xml:space="preserve">
+&lt;\equation*&gt;
+  x+y+&lt;frac|1|2&gt;+&lt;sqrt|y+z&gt;
+&lt;/equation*&gt;</pre></font></td>
+          </tr></tbody>
+        </table></font>
+      </div>
+      <p>
+        or TeXmacs <class style="font-variant: small-caps">Scheme</class> format:
+      </p>
+      <div style="margin-top: 1em; margin-bottom: 1em; text-indent: 0em" class="compact-block">
+        <font color="#707070"><table style="width: 100%">
+          <tbody><tr>
+            <td style="padding-top: 0.5em; padding-bottom: 0.5em; background-color: #0000ff20; border-left: 0.5px solid; border-right: 0.5px solid; border-top: 0.5px solid; border-bottom: 0.5px solid"><font color="black"><pre class="verbatim" xml:space="preserve">
+(equation*
+ (document
+  (concat &quot;x+y+&quot; (frac &quot;1&quot; &quot;2&quot;) &quot;+&quot; (sqrt &quot;y+z&quot;)))) </pre></font></td>
+          </tr></tbody>
+        </table></font>
+      </div>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Content Model: Documet as a
+                tree</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <p>
+        TeXmacs can load the document and store it as a tree in the memory:
+      </p>
+      <center>
+        <img src="LCPU_arch-2.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.0051717171717164945em; margin-right: -0.020686868686873083em; margin-top: -0.025858585858585803em; vertical-align: -22.464848484848485em; height: 23.814666666666668em" />
+      </center>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Content Model: From tree to
+                boxes</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <p>
+        The Typesetter converts the TeXmacs tree into graphical Boxes, which
+        contains rendering and other auxiliary information. e.g. physical
+        bounding boxes, computing the positions of cursors and selections,
+        etc.
+      </p>
+      <center>
+        <img src="LCPU_arch-3.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686867754em; margin-right: -0.020686868686865978em; margin-top: -0.030181818181818088em; vertical-align: -15.676525252525254em; height: 16.938424242424244em" />
+      </center>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Content Model: Rendering
+                boxes</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <p>
+        The last step is using render to draw the boxes:
+      </p>
+      <ul>
+        <li>
+          <p>
+            Qt implements the rendering on screen canvas
+          </p>
+        </li>
+        <li>
+          <p>
+            Hummus PDF implements the export to PDF
+          </p>
+        </li>
+        <li>
+          <p>
+            etc
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><class style="font-weight: normal"><p>
+                <strong>Code Structure: Overview of Scheme modules</strong>
+              </p></class></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <div style="margin-top: 1em; margin-bottom: 1em">
+        <table style="width: 100%">
+          <tbody><tr>
+            <td style="text-align: center; padding-left: 0em; padding-right: 0em"><img src="LCPU_arch-4.png" style="margin-left: -0.020686868686868688em; margin-bottom: 0em; margin-right: -0.020686868686873083em; margin-top: 0em; vertical-align: -12.18480808080808em; height: 22.9010101010101em" /></td>
+          </tr><tr>
+            <td style="text-align: center; padding-left: 0em; padding-right: 0em; height: 0.5em"></td>
+          </tr><tr>
+            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-left: 1.5em; padding-right: 1.5em"><div class="caption">
+              <font style="font-size: 84.1%"><p>
+                <b>Figure 1. </b><a id="auto-2"></a>Schematic organization of the
+                <class style="font-variant: small-caps">Scheme</class> API.
+              </p></font>
+            </div></td>
+          </tr></tbody>
+        </table>
+      </div>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Code Structure: Scheme routines from
+                glue</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <p>
+            C++ (Typesetter, UI Frameworks)
+          </p>
+        </li>
+        <li>
+          <p>
+            Exported to Scheme via glue
+          </p>
+          <ul>
+            <li>
+              <p>
+                Operations on Data Model
+              </p>
+            </li>
+            <li>
+              <p>
+                User Interface: Keyboard/Mouse events, Scheme bindings of Qt.
+                e.g. 
+              </p>
+              <font style="font-size: 84.1%"><div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+                <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                  <table style="width: 100%">
+                    <tbody><tr>
+                      <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+                      <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(open-window)</pre></td>
+                    </tr></tbody>
+                  </table>
+                </div>
+              </div></font>
+            </li>
+            <li>
+              <p>
+                many others, you can find the full list in following files:
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    src/Scheme/Glue/build-glue-basic.scm
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    src/Scheme/Glue/build-glue-editor.scm
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    src/Scheme/Glue/build-glue-server.scm
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Code Structure: Scheme utils and
+                modules</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <p>
+            <mark>Extensions to Scheme and utilities</mark> provide frequently
+            used functionalities. Corresponding files can be found in
+            following folders:
+          </p>
+          <ul>
+            <li>
+              <p>
+                TeXmacs/progs/kernel
+              </p>
+            </li>
+            <li>
+              <p>
+                TeXmacs/progs/utils
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <mark>Internal modules and plugins</mark> are very similar, they
+            usually correspond to a particular type of content, e.g.
+          </p>
+          <ul>
+            <li>
+              <p>
+                TeXmacs/progs/source
+              </p>
+            </li>
+            <li>
+              <p>
+                TeXmacs/progs/math
+              </p>
+            </li>
+            <li>
+              <p>
+                TeXmacs/progs/table
+              </p>
+            </li>
+          </ul>
+          <p>
+            or correspond to a particular type of functionality, e.g.
+          </p>
+          <ul>
+            <li>
+              <p>
+                TeXmacs/progs/fonts
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Example: Type in the
+                editor</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <center>
+        <img src="LCPU_arch-5.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868642em; margin-right: -0.020686868686865978em; margin-top: -0.05632323232323211em; vertical-align: -1.1391111111111112em; height: 3.408em" />
+      </center>
+      <ul>
+        <li>
+          <p>
+            Qt UI Frameworks: Keyboard Press Event
+          </p>
+        </li>
+        <li>
+          <p>
+            <table style="display: inline-table; vertical-align: middle">
+              <tbody><tr>
+                <td style="background-color: #00ff0055">Scheme: <tt class="verbatim">key-press</tt></td>
+              </tr></tbody>
+            </table>
+            <div style="display: inline">
+              (C++: Cursor Path, Buffering Shortcuts)
+            </div>
+          </p>
+          <ul>
+            <li>
+              <p>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="background-color: #00ff0055">TeXmacs tree changes</td>
+                  </tr></tbody>
+                </table>
+                <div style="display: inline">
+                  <font color="#503050"><img src="LCPU_arch-6.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868688em; margin-right: -0.020686868686868642em; margin-top: -0.020686868686868642em; vertical-align: 0em; height: 0.7982626262626262em" /></font> 
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="background-color: #ff000055">Typeset Boxes changes</td>
+                  </tr></tbody>
+                </table>
+                <div style="display: inline">
+                  <font color="#503050"><img src="LCPU_arch-6.png" style="margin-left: -0.020686868686868688em; margin-bottom: -0.020686868686868688em; margin-right: -0.020686868686868642em; margin-top: -0.020686868686868642em; vertical-align: 0em; height: 0.7982626262626262em" /></font> 
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="background-color: #ff000055">Qt Renderer re-render</td>
+                  </tr></tbody>
+                </table>
+              </p>
+            </li>
+            <li>
+              <p>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="background-color: #00ff0055">UI Changes</td>
+                  </tr></tbody>
+                </table>
+                <div style="display: inline">
+                  (Menu/Tool Bars/Status Bars/Context Menu)
+                </div>
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Future: the WASM port</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <p>
+        <strong>What is Webassembly?</strong> (https://webassembly.org)
+      </p>
+      <div style="margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 143.3955990528px; margin-right: 143.3955990528px">
+        <p>
+          WebAssembly (abbreviated <i>Wasm</i>) is a binary instruction format
+          for a stack-based virtual machine. Wasm is designed as a portable
+          compilation target for programming languages, enabling deployment on
+          the web for client and server applications.
+        </p>
+      </div>
+      <p>
+        Webassembly is now shipped with all four major browser engines, it has
+        almost native performance.
+      </p>
+      <p>
+        Emscripten is a toolchain for comipling C++ code to Wasm.
+      </p>
+    </div>
+    <div style="display: none" class="toggle">
+      <div style="margin-left: -132.8353303266px; margin-right: -132.8353303266px">
+        <div class="compact-block">
+          <font color="#d8d8ff"><font style="font-size: 100%"><table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: center; padding-top: 0.75em; padding-bottom: 0.75em; background-color: #23373b; text-align: left; border-bottom: 0px solid; padding-left: 0.75em"><font color="white"><p>
+                <class style="font-weight: normal"><strong>Future: the WASM port</strong></class>
+              </p></font></td>
+            </tr></tbody>
+          </table></font></font>
+        </div>
+      </div>
+      <p>
+        Mogan has been successfully compiled to Wasm. <a href="https://yufeng-shen.github.io">try it now</a>
+      </p>
+      <p>
+        Future improvements:
+      </p>
+      <ul>
+        <li>
+          <p>
+            make executable file and data file smaller to reduce loading time
+          </p>
+        </li>
+        <li>
+          <p>
+            fix browser specific issues (some version of browser/ os has
+            rendering issue)
+          </p>
+        </li>
+        <li>
+          <p>
+            add workarounds for functionalities that not directly supported by
+            Wasm (e.g. upload files, hyperlinks, clipboard etc.)
+          </p>
+        </li>
+        <li>
+          <p>
+            more
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

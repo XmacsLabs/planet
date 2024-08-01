@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No title</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <h3 id="auto-1">1.3.1<span style="margin-left: 1em"></span></h3>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (cube x) (* x x x))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            cube
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (sum-integers a b)
+  (if (&gt; a b)
+      0
+      (+ a (sum-integers (+ a 1) b))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            sum-integers
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (sum-cubes a b)
+  (if (&gt; a b)
+      0
+      (+ (cube a) (sum-cubes (+ a 1) b))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            sum-cubes
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (pi-sum a b)
+  (if (&gt; a b)
+      0
+      (+ (/ 1.0 (* a (+ a 2))) (pi-sum (+ a 4) b))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            pi-sum
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(sum-integers 1 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            6
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(sum-cubes 1 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            36
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(pi-sum 1 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            0.3333333333333333
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (sum term a next b)
+  (if (&gt; a b)
+      0
+      (+ (term a)
+         (sum term (next a) next b))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            sum
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (inc n) (+ n 1))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            inc
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (sum-cubes-2 a b)
+  (sum cube a inc b))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            sum-cubes-2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(sum-cubes-2 1 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            36
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (identity x) x)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            identity
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (sum-integers-2 a b)
+  (sum identity a inc b))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            sum-integers-2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(sum-integers-2 1 10)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            55
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (pi-sum-2 a b)
+  (define (pi-term x)
+    (/ 1.0 (* x (+ x 2))))
+  (define (pi-next x)
+    (+ x 4))
+  (sum pi-term a pi-next b))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            pi-sum-2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(* 8 (pi-sum-2 1 1000))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            3.139592655589783
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <h3 id="auto-2">1.3.2<span style="margin-left: 1em"></span></h3>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (square x) (* x x))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            square
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+((lambda (x y z) (+ x y (square z))) 1 2 3)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            12
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <h3 id="auto-3">1.3.3<span style="margin-left: 1em"></span></h3>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (average x y) (/ (+ x y) 2))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            average
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (search f neg-point pos-point)
+  (let ((midpoint (average neg-point pos-point)))
+    (if (close-enough? neg-point pos-point)
+        midpoint
+        (let ((test-value (f midpoint)))
+          (cond ((positive? test-value)
+                 (search f neg-point midpoint))
+                ((negative? test-value)
+                 (search f midpoint pos-point))
+                (else midpoint))))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            search
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (close-enough? x y)
+  (&lt; (abs (- x y)) 0.001))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            close-enough?
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (half-interval-method f a b)
+  (let ((a-value (f a))
+        (b-value (f b)))
+    (cond ((and (negative? a-value) (positive? b-value))
+           (search f a b))
+          ((and (negative? b-value) (positive? a-value))
+           (search f b a))
+          (else
+           (error &quot;Values are not of opposite sign&quot; a b)))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            half-interval-method
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(half-interval-method sin 2.0 4.0)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            3.14111328125
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(half-interval-method (lambda (x) (- (* x x x) (* 2 x) 3))
+                      1.0
+                      2.0)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            1.89306640625
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define tolerance 0.00001)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            0.00001
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(define (fixed-point f first-guess)
+  (define (close-enough? v1 v2)
+    (&lt; (abs (- v1 v2)) tolerance))
+  (define (try guess)
+    (let ((next (f guess)))
+      (if (close-enough? guess next)
+          next
+          (try next))))
+  (try first-guess))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            fixed-point
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(fixed-point cos 1.0)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            0.7390822985224024
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+(fixed-point (lambda (y) (+ (sin y) (cos y)))
+             1.0)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            1.2587315962971173
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="#000080"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+  </body>
+</html>

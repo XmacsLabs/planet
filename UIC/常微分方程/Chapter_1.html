@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ordinary Differential Equations</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: block" class="toggle">
+      <table style="margin-bottom: 2em" class="title-block">
+        <tr>
+          <td><table style="margin-top: 0.5em; margin-bottom: 0.5em" class="title-block">
+            <tr>
+              <td><font style="font-size: 168.2%"><font color="#006060"><strong>Ordinary Differential
+              Equations</strong></font></font></td>
+            </tr>
+          </table><div style="margin-top: 1em; margin-bottom: 1em" class="compact-block">
+            <table class="title-block">
+              <tr>
+                <td><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                  <div style="display: inline">
+                    <span style="margin-left: 0pt"></span>
+                  </div>
+                  <table style="display: inline-table; vertical-align: middle">
+                    <tbody><tr>
+                      <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                        <p>
+                          <class style="font-variant: small-caps">by Yuliang Wang</class>
+                        </p>
+                      </center></td>
+                    </tr></tbody>
+                  </table>
+                </p></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+      </table>
+      <h3 id="auto-1">1<span style="margin-left: 1em"></span>Motivation<span style="margin-left: 1em"></span></h3>
+      <p>
+        Suppose we deposite <font color="#503050"><img src="Chapter_1-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.049648484848484886em; margin-right: -0.024824242424242415em; margin-top: -0.027830303030302983em; vertical-align: -0.2966787878787879em; height: 1.2648242424242424em" /></font> in a bank
+        account, and the annual interest rate is <font color="#503050"><img src="Chapter_1-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.18463030303030303em; margin-top: -0.05265454545454551em; vertical-align: 0em; height: 0.9681454545454546em"
+        /></font>. After <font color="#503050"><img src="Chapter_1-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.12087272727272724em; margin-top: -0.034812121212121294em; vertical-align: 0em; height: 1.216387878787879em" /></font> years,
+      </p>
+      <ol>
+        <li>
+          <p>
+            If the interest is compounded annualy, then the balance is
+          </p>
+          <center>
+            <img src="Chapter_1-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.02482424242424308em; margin-top: -0.03049696969696969em; vertical-align: -0.5007515151515152em; height: 2.0945939393939392em" />
+          </center>
+        </li>
+        <li>
+          <p>
+            If the interest is compounded monthly, then the balance is
+          </p>
+          <center>
+            <img src="Chapter_1-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.012412121212121097em; margin-right: -0.034909090909089em; margin-top: -0.05498181818181802em; vertical-align: -1.3078303030303031em; height: 3.7143757575757577em" />
+          </center>
+        </li>
+        <li>
+          <p>
+            In general, if the interest is compounded <font color="#503050"><img src="Chapter_1-6.png"
+            style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.05265454545454551em; vertical-align: 0em; height: 0.9681454545454546em" /></font> times a year, then the balance is
+          </p>
+          <center>
+            <img src="Chapter_1-7.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424244858em; margin-top: -0.0440242424242423em; vertical-align: -1.3078303030303031em; height: 3.6802909090909095em" />
+          </center>
+        </li>
+        <li>
+          <p>
+            Taking the limit as <font color="#503050"><img src="Chapter_1-8.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.05265454545454551em; vertical-align: 0em; height: 0.9805575757575758em" /></font>, then
+            for any fixed <font color="#503050"><img src="Chapter_1-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.12087272727272724em; margin-top: -0.034812121212121294em; vertical-align: 0em; height: 1.216387878787879em" /></font>, we have
+          </p>
+          <center>
+            <img src="Chapter_1-9.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.037236363636363734em; margin-right: -0.024824242424237752em; margin-top: -0.03699393939393936em; vertical-align: -1.400339393939394em; height: 4.071369696969697em" />
+          </center>
+        </li>
+      </ol>
+      <p>
+        But we can obtain the same result by using a differential equation:
+      </p>
+      <table width="100%">
+        <tr>
+          <td width="100%" align="center"><img src="Chapter_1-10.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.02482424242424308em; margin-top: -0.04024242424242419em; vertical-align: -0.5007515151515152em; height: 2.0821818181818186em" /></td>
+          <td align="right">(1)</td>
+        </tr>
+      </table>
+      <p>
+        We can solve it later and obtain the same result.
+      </p>
+      <p style="margin-top: 1em; margin-bottom: 1em">
+        <font color="#602060"><font color="#602060"><strong>Definition <class style="font-style: normal">1</class>.
+        </strong></font></font><i>A <strong>ordinary differential
+        equation</strong> (ODE) about a function <font color="#503050"><img src="Chapter_1-11.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424242637em; margin-top: -0.024339393939393883em; vertical-align: -0.5007515151515152em; height: 2.048em"
+        /></font> is an equation involving <font color="#503050"><img src="Chapter_1-11.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424242637em; margin-top: -0.024339393939393883em; vertical-align: -0.5007515151515152em; height: 2.048em"
+        /></font> and its derivatives.</i>
+      </p>
+      <h3 id="auto-2">2<span style="margin-left: 1em"></span>Classification of ODE<span style="margin-left: 1em"></span></h3>
+      <p>
+        Any ODE can be written in the abstract form
+      </p>
+      <table width="100%">
+        <tr>
+          <td width="100%" align="center"><img src="Chapter_1-12.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424241305em; margin-top: -0.02821818181818192em; vertical-align: -0.5007515151515152em; height: 2.396703030303031em" /></td>
+          <td align="right">(2)</td>
+        </tr>
+      </table>
+      <p>
+        For example, Eq. (1) can be written as
+      </p>
+      <center>
+        <img src="Chapter_1-13.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424241305em; margin-top: -0.04024242424242419em; vertical-align: -0.5007515151515152em; height: 2.0821818181818186em" />
+      </center>
+      <p>
+        In Eq. (2), <font color="#503050"><img src="Chapter_1-14.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242637em; margin-top: -0.05265454545454551em; vertical-align: 0em; height: 0.9681454545454546em" /></font> is the
+        <strong>order</strong> of the equation, i.e. the order is the highest
+        order derivative of <font color="#503050"><img src="Chapter_1-15.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.045187878787879em; margin-top: -0.027830303030302983em; vertical-align: 0em; height: 0.9681454545454545em" /></font> in the
+        equation. 
+      </p>
+      <p>
+        So Eq. (1) is an ODE of order 1. 
+      </p>
+      <p>
+        If <font color="#503050"><img src="Chapter_1-16.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.23738181818181814em; margin-top: -0.02429090909090914em; vertical-align: 0em; height: 1.4398060606060608em" /></font> is linear in terms of <font
+        color="#503050"><img src="Chapter_1-17.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.007709090909090888em; margin-right: -0.02482424242424308em; margin-top: -0.02821818181818192em; vertical-align: -0.3894787878787879em; height: 2.2725818181818185em" /></font>, then the equation is called
+        <strong>linear</strong>. Otherwise it's called
+        <strong>nonlinear</strong>. The general form of a linear ODE is
+      </p>
+      <center>
+        <img src="Chapter_1-18.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424244858em; margin-top: -0.02821818181818192em; vertical-align: -0.5007515151515152em; height: 2.396703030303031em" />
+      </center>
+      <p>
+        So Eq. (1) is linear. Examples of nonlinear equations:
+      </p>
+      <center>
+        <img src="Chapter_1-19.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.007709090909090888em; margin-right: -0.04518787878787833em; margin-top: -0.04800000000000004em; vertical-align: -0.3894787878787879em; height: 2.1070060606060608em" />
+      </center>
+      <h3 id="auto-3">3<span style="margin-left: 1em"></span>Solutions of an ODE<span style="margin-left: 1em"></span></h3>
+      <p>
+        A solution of an ODE
+      </p>
+      <center>
+        <img src="Chapter_1-20.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424241305em; margin-top: -0.02821818181818192em; vertical-align: -0.5007515151515152em; height: 2.396703030303031em" />
+      </center>
+      <p>
+        is a function <font color="#503050"><img src="Chapter_1-21.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424242193em; margin-top: -0.024339393939393883em; vertical-align: -0.5007515151515152em; height: 2.048em" /></font> satisfying the
+        equation, i.e.
+      </p>
+      <center>
+        <img src="Chapter_1-22.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424244858em; margin-top: -0.02821818181818192em; vertical-align: -0.5007515151515152em; height: 2.396703030303031em" />
+      </center>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">2</class>.
+        </strong></font></font>Can you give solutions of
+      </p>
+      <center>
+        <img src="Chapter_1-23.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.04518787878787922em; margin-top: -0.04024242424242419em; vertical-align: 0em; height: 1.6105212121212122em" />
+      </center>
+      <p style="margin-bottom: 1em">
+        possible solution: <font color="#503050"><img src="Chapter_1-24.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.03490909090909078em; margin-top: -0.04800000000000004em; vertical-align: 0em; height: 1.7594666666666667em" /></font>, in fact,
+        <font color="#503050"><img src="Chapter_1-25.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.03490909090909078em; margin-top: -0.04800000000000004em; vertical-align: 0em; height: 1.7594666666666667em" /></font> is a solution for any constant
+        <font color="#503050"><img src="Chapter_1-26.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.14016969696969683em; margin-top: -0.06506666666666672em; vertical-align: 0em; height: 1.0053818181818184em" /></font>.
+      </p>
+      <p style="margin-top: 1em">
+        <font color="#602060"><font color="#602060"><strong>Example <class style="font-style: normal">3</class>.
+        </strong></font></font>Can you give solutions of
+      </p>
+      <center>
+        <img src="Chapter_1-27.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0192969696969697em; margin-right: -0.02482424242424308em; margin-top: -0.04024242424242419em; vertical-align: -0.1668848484848485em; height: 1.7470545454545456em" />
+      </center>
+      <p>
+        A possible solution is <font color="#503050"><img src="Chapter_1-28.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848485em; margin-right: -0.12087272727272769em; margin-top: -0.03243636363636382em; vertical-align: 0em; height: 1.4398060606060608em" /></font>,
+        another solution is <font color="#503050"><img src="Chapter_1-29.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020557575757575774em; margin-right: -0.024824242424241305em; margin-top: -0.024339393939393883em; vertical-align: -0.5007515151515152em; height: 2.048em" /></font> In fact,
+        any function
+      </p>
+      <p style="margin-bottom: 1em">
+        <center>
+          <img src="Chapter_1-30.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0192969696969697em; margin-right: -0.12087272727272946em; margin-top: -0.030690909090909102em; vertical-align: -0.1668848484848485em; height: 1.6632242424242425em" />
+        </center>
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+    </div>
+  </body>
+</html>

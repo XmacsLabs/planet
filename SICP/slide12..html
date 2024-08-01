@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>&#x96F6;&#x57FA;&#x7840;SICP
+    12&#xFF1A;&#x96C6;&#x5408;&#x3001;&#x5217;&#x8868;&#x548C;&#x4E8C;&#x53C9;&#x6811;</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: none" class="toggle">
+      <p>
+        
+      </p>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <table style="margin-bottom: 2em" class="title-block">
+      <tr>
+        <td><table style="margin-top: 0.5em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><font color="#006060"><strong>&#x96F6;&#x57FA;&#x7840;SICP
+            12&#xFF1A;&#x96C6;&#x5408;&#x3001;&#x5217;&#x8868;&#x548C;&#x4E8C;&#x53C9;&#x6811;</strong></font></font></td>
+          </tr>
+        </table><table style="margin-top: 0.25em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 129.7%"><font color="#006060"><strong></strong></font></font></td>
+          </tr>
+        </table><div style="margin-top: 1em; margin-bottom: 1em" class="compact-block">
+          <table class="title-block">
+            <tr>
+              <td><font style="font-size: 91.7%"><p>
+                <span style="margin-left: 0em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps"></class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">&#x6C88;&#x6D6A;&#x718A;&#x732B;&#x513F;&#xFF08;D&#x0113;&#x8001;&#x5E08;&#xFF09;</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">MathAgape&#xFF08;&#x0113;&#x8001;&#x5E08;&#xFF09;</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                
+                              </p>
+                              <p>
+                                
+                              </p>
+                              <p>
+                                
+                              </p>
+                              <p>
+                                
+                              </p>
+                              <p>
+                                
+                              </p>
+                              <p>
+                                
+                              </p>
+                              <p>
+                                
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span>
+              </p></font></td>
+            </tr>
+          </table>
+        </div></td>
+      </tr>
+    </table>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x96F6;&#x57FA;&#x7840;SICP&#xFF1A;&#x7B2C;12&#x8BFE;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <table style="width: 100%">
+      <tbody><tr>
+        <td style="width: 50%; padding-left: 0em"><font style="font-size: 118.9%"><p>
+          <strong>&#x6570;&#x636E;&#x62BD;&#x8C61;&#x5BFC;&#x5F15;</strong>
+        </p></font></td>
+        <td style="width: 50%; padding-right: 0em"><font style="font-size: 118.9%"><p>
+          <strong>Introduction to Data Abstraction</strong>
+        </p></font></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          <font style="font-size: 118.9%"><strong>&#x5C42;&#x6B21;&#x6027;&#x6570;&#x636E;&#x548C;&#x95ED;&#x5305;&#x6027;&#x8D28;</strong></font>
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          <font style="font-size: 118.9%"><strong>Hierarchical Data and the Closure
+          Property</strong></font>
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          <font style="font-size: 118.9%"><strong>&#x7B26;&#x53F7;&#x6570;&#x636E;</strong></font>
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          <font style="font-size: 118.9%"><strong>Symbolic Data</strong></font>
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5B9E;&#x4F8B;&#xFF1A;&#x7B26;&#x53F7;&#x6C42;&#x5BFC;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Example: Symbolic Differentiation
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5B9E;&#x4F8B;&#xFF1A;&#x96C6;&#x5408;&#x7684;&#x8868;&#x793A;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Example: Representing Sets
+        </p></td>
+      </tr></tbody>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      &#x56DE;&#x987E;&#xFF1A;&#x901A;&#x8FC7;&#x5B9A;&#x4E49;&#x4E00;&#x7EC4;<strong>&#x903B;&#x8F91;&#x81EA;&#x6D3D;</strong>&#x7684;&#x9009;&#x62E9;&#x51FD;&#x6570;&#x548C;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x5B9A;&#x4E49;&#x6570;&#x636E;&#x3002;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#x4ECA;&#x5929;&#xFF0C;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&#x3002;
+    </p>
+    <p>
+      
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x5B9A;&#x4E49;&#x96C6;&#x5408;&#xFF08;&#x8BFE;&#x672C;&#x7248;&#xFF09;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <dl>
+      <p>
+        <dt>
+          &#x6784;&#x9020;&#x51FD;&#x6570;
+        </dt>
+        <dd>
+          <p>
+            <span style="margin-left: 1pt"></span>
+          </p>
+          <dl>
+            <p>
+              <dt>
+                adjoin-set
+              </dt>
+              <dd>
+                <p>
+                  &#x63A5;&#x53D7;&#x96C6;&#x5408;&#x548C;&#x5143;&#x7D20;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#xFF0C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x63D2;&#x5165;&#x4E86;&#x5143;&#x7D20;&#x7684;&#x65B0;&#x96C6;&#x5408;&#x3002;
+                </p>
+              </dd>
+            </p>
+            <p>
+              <dt>
+                intersection-set
+              </dt>
+              <dd>
+                <p>
+                  &#x63A5;&#x53D7;&#x4E24;&#x4E2A;&#x96C6;&#x5408;<font color="#503050"><img
+                  src="slide12.-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em" /></font>&#x548C;<font color="#503050"><img src="slide12.-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em"
+                  /></font>&#xFF0C;&#x8FD4;&#x56DE;&#x4E24;&#x4E2A;&#x96C6;&#x5408;&#x7684;&#x4EA4;&#x96C6;<font
+                  color="#503050"><img src="slide12.-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.2412121212121214em" /></font>&#x3002;
+                </p>
+              </dd>
+            </p>
+            <p>
+              <dt>
+                union-set
+              </dt>
+              <dd>
+                <p>
+                  &#x63A5;&#x53D7;&#x4E24;&#x4E2A;&#x96C6;&#x5408;<font color="#503050"><img
+                  src="slide12.-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em" /></font>&#x548C;<font color="#503050"><img src="slide12.-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em"
+                  /></font>&#xFF0C;&#x8FD4;&#x56DE;&#x4E24;&#x4E2A;&#x96C6;&#x5408;&#x7684;&#x5E76;&#x96C6;<font
+                  color="#503050"><img src="slide12.-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.2412121212121214em" /></font>&#x3002;
+                </p>
+              </dd>
+            </p>
+          </dl>
+        </dd>
+      </p>
+      <p>
+        <dt>
+          &#x9009;&#x62E9;&#x51FD;&#x6570;
+        </dt>
+        <dd>
+          <p>
+            <span style="margin-left: 1pt"></span>
+          </p>
+          <dl>
+            <p>
+              <dt>
+                element-of-set?
+              </dt>
+              <dd>
+                <p>
+                  &#x5224;&#x65AD;&#x5143;&#x7D20;x&#x662F;&#x5426;&#x5728;&#x96C6;&#x5408;&#x4E2D;&#x3002;
+                </p>
+              </dd>
+            </p>
+          </dl>
+        </dd>
+      </p>
+    </dl>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="#602060"><font color="#602060"><strong>&#x95EE;&#x9898; <class style="font-style: normal">1</class>.
+      </strong></font></font>&#x4E0A;&#x8FF0;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x662F;&#x5426;&#x6709;&#x5197;&#x4F59;&#x6216;&#x8005;&#x7F3A;&#x5931;&#xFF1F;
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="#602060"><font color="#602060"><strong>&#x95EE;&#x9898; <class style="font-style: normal">2</class>.
+      </strong></font></font>&#x76EE;&#x524D;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x9009;&#x62E9;&#x51FD;&#x6570;&#xFF0C;&#x53EA;&#x80FD;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5728;&#x96C6;&#x5408;&#x4E2D;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x6837;&#x7684;&#x9009;&#x62E9;&#x51FD;&#x6570;&#x662F;&#x5426;&#x8FD8;&#x80FD;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&#x8FD9;&#x79CD;&#x6570;&#x636E;&#xFF1F;
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x5B9A;&#x4E49;&#x96C6;&#x5408;&#xFF08;der&#x8001;&#x5E08;&#x7248;&#xFF09;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <dl>
+      <p>
+        <dt>
+          &#x6784;&#x9020;&#x51FD;&#x6570;
+        </dt>
+        <dd>
+          <p>
+            <span style="margin-left: 1pt"></span>
+          </p>
+          <dl>
+            <p>
+              <font color="#008000"><dt>
+                empty-set
+              </dt><dd>
+                &#x65E0;&#x53C2;&#x6570;&#xFF0C;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;&#x7A7A;&#x96C6;&#x3002;
+              </dd></font>
+            </p>
+            <p>
+              <dt>
+                adjoin-set
+              </dt>
+              <dd>
+                <p>
+                  &#x63A5;&#x53D7;&#x96C6;&#x5408;&#x548C;&#x5143;&#x7D20;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#xFF0C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x63D2;&#x5165;&#x4E86;&#x5143;&#x7D20;&#x7684;&#x65B0;&#x96C6;&#x5408;&#x3002;
+                </p>
+                <p>
+                  <mark><p>
+                    <dt>
+                      intersection-set
+                    </dt>
+                    &#x63A5;&#x53D7;&#x4E24;&#x4E2A;&#x96C6;&#x5408;
+                    <font color="#503050"><img src="slide12.-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em" /></font>
+                    &#x548C;
+                    <font color="#503050"><img src="slide12.-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em" /></font>
+                    &#xFF0C;&#x8FD4;&#x56DE;&#x4E24;&#x4E2A;&#x96C6;&#x5408;&#x7684;&#x4EA4;&#x96C6;
+                    <font color="#503050"><img src="slide12.-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.2412121212121214em" /></font>
+                    &#x3002;
+                  </p><p>
+                    <dt>
+                      union-set
+                    </dt>
+                    &#x63A5;&#x53D7;&#x4E24;&#x4E2A;&#x96C6;&#x5408;
+                    <font color="#503050"><img src="slide12.-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em" /></font>
+                    &#x548C;
+                    <font color="#503050"><img src="slide12.-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.216387878787879em" /></font>
+                    &#xFF0C;&#x8FD4;&#x56DE;&#x4E24;&#x4E2A;&#x96C6;&#x5408;&#x7684;&#x5E76;&#x96C6;
+                    <font color="#503050"><img src="slide12.-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242193em; margin-top: -0.06264242424242439em; vertical-align: 0em; height: 1.2412121212121214em" /></font>
+                    &#x3002;
+                  </p></mark>
+                </p>
+              </dd>
+            </p>
+          </dl>
+        </dd>
+      </p>
+      <p>
+        <dt>
+          &#x9009;&#x62E9;&#x51FD;&#x6570;
+        </dt>
+        <dd>
+          <p>
+            <span style="margin-left: 1pt"></span>
+          </p>
+          <dl>
+            <p>
+              <dt>
+                element-of-set?
+              </dt>
+              <dd>
+                <p>
+                  &#x5224;&#x65AD;&#x5143;&#x7D20;x&#x662F;&#x5426;&#x5728;&#x96C6;&#x5408;&#x4E2D;&#x3002;
+                </p>
+              </dd>
+            </p>
+          </dl>
+        </dd>
+      </p>
+    </dl>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="#602060"><font color="#602060"><strong>&#x95EE;&#x9898; <class style="font-style: normal">3</class>.
+      </strong></font></font>&#x5728;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&#x65F6;&#xFF0C;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x4E0D;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&#x7684;&#x4EA4;&#x96C6;&#x548C;&#x5E76;&#x96C6;&#xFF1F;
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x501F;&#x52A9;&#x5217;&#x8868;&#x5B9A;&#x4E49;&#x96C6;&#x5408;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x501F;&#x52A9;&#x5217;&#x8868;&#xFF0C;&#x5B9E;&#x73B0;<tt class="verbatim">empty-set</tt>&#x3001;<tt
+      class="verbatim">adjoin-set</tt>&#x548C;<tt class="verbatim">element-of-set?</tt>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (empty-set) &lsquo;())</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (adjoin-set x set)
+  (if (element-of-set? x set)
+      set
+      (cons x set)))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (element-of-set? x set)
+  (cond ((null? set) #f)
+        ((equal? x (car set)) #t)
+        (else (element-of-set? x (cdr set)))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(empty-set)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(adjoin-set 1 (empty-set))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(adjoin-set 2 (adjoin-set 1 (empty-set)))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define &#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x96C6;&#x5408; (adjoin-set 2 (adjoin-set 1 (empty-set))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(element-of-set? 3 &#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x96C6;&#x5408;)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(element-of-set? 2 &#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x96C6;&#x5408;)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x501F;&#x52A9;&#x6811;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&mdash;&#x5148;&#x5B9A;&#x4E49;&#x4E8C;&#x53C9;&#x6811;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x5148;&#x501F;&#x52A9;&#x5217;&#x8868;&#x5B9A;&#x4E49;&#x4E8C;&#x53C9;&#x6811;&#xFF0C;&#x719F;&#x6089;&#x4E8C;&#x53C9;&#x6811;&#x7684;&#x6027;&#x8D28;&#xFF0C;&#x518D;&#x5B9A;&#x4E49;&#x96C6;&#x5408;
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (make-tree entry left right)
+  (list entry left right))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (entry tree) (car tree))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (left-branch tree) (cadr tree))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (right-branch tree) (caddr tree))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><img src="slide12.-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.07447272727272747em; margin-right: -0.024824242424242637em; margin-top: -0.021624242424242324em; vertical-align: -4.313987878787879em; height: 5.530375757575758em" /> <img src="slide12.-6.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.049648484848485275em; margin-right: -0.024824242424242193em; margin-top: -0.07127272727272715em; vertical-align: -4.313987878787879em; height: 5.555200000000001em" /></multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define l-t (make-tree 7
+  (make-tree 6 () ())
+  (make-tree 8 () ())))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define r-t (make-tree 20
+  (make-tree 10 () ())
+  (make-tree 21 () ())))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><img src="slide12.-7.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.07447272727272747em; margin-right: -0.024824242424241305em; margin-top: -0.07127272727272715em; vertical-align: -8.627975757575758em; height: 9.894012121212121em" /></multicol>
+    </p>
+    <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(make-tree 9 l-t r-t)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x501F;&#x52A9;&#x6811;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&#x4E4B;adjoin-set
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (adjoin-set x set)
+  (cond ((null? set) (make-tree x '() '()))
+        ((= x (entry set)) set)
+        ((&lt; x (entry set))
+         (make-tree (entry set) 
+                    (adjoin-set x (left-branch set))
+                    (right-branch set)))
+        ((&gt; x (entry set))
+         (make-tree (entry set)
+                    (left-branch set)
+                    (adjoin-set x (right-branch set))))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                adjoin-set
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x501F;&#x52A9;&#x6811;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&#x4E4B;element-of-set?
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (element-of-set? x set)
+  (cond ((null? set) #f)
+        ((= x (entry set)) #t)
+        ((&lt; x (entry set))
+         (element-of-set? x (left-branch set)))
+        ((&gt; x (entry set))
+         (element-of-set? x (right-branch set)))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                element-of-set?
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x501F;&#x52A9;&#x6811;&#x5B9A;&#x4E49;&#x96C6;&#x5408;&#x4E4B;&#x5B9E;&#x6218;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(empty-set)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(adjoin-set 1 (empty-set))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(adjoin-set 2 (adjoin-set 1 (empty-set)))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define &#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x96C6;&#x5408; (adjoin-set 2 (adjoin-set 1 (empty-set))))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(element-of-set? 3 &#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x96C6;&#x5408;)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(element-of-set? 2 &#x4E24;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x96C6;&#x5408;)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x756A;&#x5916;&#xFF1A;&#x5982;&#x4F55;&#x663E;&#x793A;&#x4E8C;&#x53C9;&#x6811;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x58A8;&#x5E72;V1.2.7&#x7684;S7
+      Scheme&#x63D2;&#x4EF6;&#x7684;&#x9690;&#x85CF;&#x529F;&#x80FD;&#xFF1A;
+    </p>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+&lsquo;(document (tree &quot;7&quot;))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+&lsquo;(document (tree &quot;7&quot; &quot;6&quot; &quot;8&quot;))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+&lsquo;(document (tree &quot;9&quot; (tree &quot;7&quot; &quot;6&quot; &quot;8&quot;) (tree &quot;20&quot; &quot;10&quot; &quot;21&quot;)))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 59.748166272000006px">
+      <p>
+        <font style="font-size: 84.1%"><font color="#602060"><font color="#602060"><strong>&#x7EC3;&#x4E60; <class
+        style="font-style: normal">1</class>. </strong></font></font>&#x5229;&#x7528;S7
+        Scheme&#x63D2;&#x4EF6;&#x7684;&#x9690;&#x85CF;&#x529F;&#x80FD;&#x5B9E;&#x73B0;&#x4E8C;&#x53C9;&#x6811;&#xFF08;&#x672C;&#x6B21;&#x8BFE;&#x7A0B;&#x4E2D;&#x5229;&#x7528;&#x5217;&#x8868;&#x5B9A;&#x4E49;&#x7684;&#xFF09;&#x7684;&#x53EF;&#x89C6;&#x5316;&#x3002;</font>
+      </p>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x603B;&#x7ED3;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <ul>
+      <li>
+        <p>
+          &#x56DE;&#x987E;&#xFF1A;&#x5982;&#x4F55;&#x5B9A;&#x4E49;&#x6570;&#x636E;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x96C6;&#x5408;&#xFF1A;&#x5982;&#x4F55;&#x5B9A;&#x4E49;&#x96C6;&#x5408;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x96C6;&#x5408;&#xFF1A;&#x501F;&#x52A9;&#x5217;&#x8868;&#x5B9A;&#x4E49;&#x96C6;&#x5408;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x4E8C;&#x53C9;&#x6811;&#xFF1A;&#x501F;&#x52A9;&#x5217;&#x8868;&#x5B9A;&#x4E49;&#x4E8C;&#x53C9;&#x6811;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x96C6;&#x5408;&#xFF1A;&#x501F;&#x52A9;&#x4E8C;&#x53C9;&#x6811;&#x5B9A;&#x4E49;&#x96C6;&#x5408;
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x4E8C;&#x53C9;&#x6811;&#xFF1A;S7
+          Scheme&#x4E2D;&#x663E;&#x793A;&#x4E8C;&#x53C9;&#x6811;&#x7684;&#x9690;&#x85CF;&#x529F;&#x80FD;
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>

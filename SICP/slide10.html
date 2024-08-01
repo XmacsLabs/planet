@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>&#x96F6;&#x57FA;&#x7840;SICP 10</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: none" class="toggle">
+      <p>
+        
+      </p>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <table style="margin-bottom: 2em" class="title-block">
+      <tr>
+        <td><table style="margin-top: 0.5em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><font color="#006060"><strong>&#x96F6;&#x57FA;&#x7840;SICP
+            10</strong></font></font></td>
+          </tr>
+        </table><table style="margin-top: 0.25em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 129.7%"><font color="#006060"><strong>&#x51FD;&#x6570;&#x5F0F;&#x7F16;&#x7A0B;&#x4E09;&#x677F;&#x65A7;</strong></font></font></td>
+          </tr>
+        </table><div style="margin-top: 1em; margin-bottom: 1em" class="compact-block">
+          <table class="title-block">
+            <tr>
+              <td><font style="font-size: 91.7%"><p>
+                <span style="margin-left: 0em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps"></class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">&#x6C88;&#x6D6A;&#x718A;&#x732B;&#x513F;</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">MathAgape</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span>
+              </p></font></td>
+            </tr>
+          </table>
+        </div></td>
+      </tr>
+    </table>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x96F6;&#x57FA;&#x7840;SICP&#xFF1A;&#x7B2C;10&#x8BFE;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <table style="width: 100%">
+      <tbody><tr>
+        <td style="width: 50%; padding-left: 0em"><font style="font-size: 118.9%"><p>
+          <strong>&#x6570;&#x636E;&#x62BD;&#x8C61;&#x5BFC;&#x5F15;</strong>
+        </p></font></td>
+        <td style="width: 50%; padding-right: 0em"><font style="font-size: 118.9%"><p>
+          <strong>Introduction to Data Abstractio</strong>n
+        </p></font></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5B9E;&#x4F8B;&#xFF1A;&#x6709;&#x7406;&#x6570;&#x7684;&#x7B97;&#x672F;&#x8FD0;&#x7B97;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Example: Arithmetic Operations for Rational Numbers
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x62BD;&#x8C61;&#x5C42;&#x7EA7;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Abstraction Barriers
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x6570;&#x636E;&#x610F;&#x5473;&#x7740;&#x4EC0;&#x4E48;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          What Is Meant by Data?
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          <font style="font-size: 118.9%"><strong>&#x5C42;&#x6B21;&#x6027;&#x6570;&#x636E;&#x548C;<font
+          color="#800000">[&#x95ED;&#x5305;&#x6027;&#x8D28;]</font></strong></font>
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          <font style="font-size: 118.9%"><strong>Hierarchical Data and the Closure
+          Property</strong></font>
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5E8F;&#x5217;&#x7684;&#x8868;&#x793A;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Representing Sequences
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5C42;&#x6B21;&#x6027;&#x7ED3;&#x6784;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Hierarchical Structures
+        </p></td>
+      </tr><tr>
+        <td style="width: 50%; padding-left: 0em; height: 40"><p>
+          &#x5E8F;&#x5217;&#x4F5C;&#x4E3A;&#x4E00;&#x79CD;&#x7EA6;&#x5B9A;&#x7684;&#x63A5;&#x53E3;
+        </p></td>
+        <td style="width: 50%; padding-right: 0em; height: 40"><p>
+          Sequences as Conventional Interfaces
+        </p></td>
+      </tr></tbody>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      <strong>&#x5229;&#x7528;&#x51FD;&#x6570;&#x5F0F;&#x7F16;&#x7A0B;&#x4E09;&#x677F;&#x65A7;&#xFF08;&#x6620;&#x5C04;/&#x8FC7;&#x6EE4;/&#x6298;&#x53E0;&#xFF09;&#x548C;&#x884D;&#x751F;&#x7B97;&#x5B50;&#x63CF;&#x8FF0;&#x6570;&#x636E;&#x5904;&#x7406;&#x903B;&#x8F91;&#x3002;</strong>
+    </p>
+    <p>
+      
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x5B9A;&#x4E49;&#x6570;&#x636E;&#xFF1A;list
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x901A;&#x8FC7;&#x5B9A;&#x4E49;&#x4E00;&#x7EC4;<strong>&#x903B;&#x8F91;&#x81EA;&#x6D3D;</strong>&#x7684;&#x9009;&#x62E9;&#x51FD;&#x6570;&#x548C;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x5B9A;&#x4E49;&#x6570;&#x636E;&#x3002;
+    </p>
+    <p>
+      <multicol cols="2">&#x6784;&#x9020;&#x5668;</multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(list 1 2 3 4)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  (1 2 3 4)
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(cons 5 (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+()</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2">&#x9009;&#x62E9;&#x5668;</multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(car (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(cdr (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(cadr (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(list-ref (list 1 2 3 4) 3)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2">&#x6027;&#x8D28;</multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(list? (list 1))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(list? 1)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(eq? () ())</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(eq? () (list 1))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(null? ())</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(length (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x4E09;&#x677F;&#x65A7;&#x4E4B;&#x6620;&#x5C04;&#xFF1A;map
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      <tt class="verbatim">map</tt>&#x662F;S7
+      Scheme&#x7684;&#x5185;&#x7F6E;&#x51FD;&#x6570;
+    </p>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (square x) (* x x))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(map square (list 1 2 3 4 5))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(map (lambda (x) (* x x)) (list 1 2 3 4 5))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(map (lambda (x) (+ x 1)) (list 1 2 3 4 5))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(map (lambda (x) (append x &quot;@liii.pro&quot;)) (list &quot;da&quot; &quot;nian&quot;))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(map odd? (list 1 2 3 4 5))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x4E09;&#x677F;&#x65A7;&#x4E4B;&#x8FC7;&#x6EE4;&#xFF1A;filter
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      <a href="https://srfi.schemers.org/srfi-1/srfi-1.html">SRFI-1: List Library</a>&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;<tt
+      class="verbatim">filter</tt>&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;
+    </p>
+    <p>
+      <multicol cols="2">&#x5B9E;&#x73B0;</multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (filter pred? seq)
+  (cond
+   ((null? seq) ())
+   ((pred? (car seq))
+    (cons (car seq)
+          (filter pred? (cdr seq))))
+   (else (filter pred? (cdr seq)))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  filter
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2">&#x5E94;&#x7528;</multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(filter odd? (list 1 2 3 4 5))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(filter even? (list 1 2 3 4 5))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(filter (lambda (x) (&gt; x 3)) '(1 3 5))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(filter (lambda (x) (= x 3)) &lsquo;(1 3 5))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(filter (lambda (x) (&gt; x 20))
+ (map (lambda (x) (* x x))
+  (list 1 2 3 4 5 6)))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x4E09;&#x677F;&#x65A7;&#x4E4B;&#x6298;&#x53E0;&#xFF1A;fold&#x548C;fold-right
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      <a href="https://srfi.schemers.org/srfi-1/srfi-1.html">SRFI-1: List Library</a>&#x4E2D;&#x5B9A;&#x4E49;&#x4E86;<tt
+      class="verbatim">fold</tt>&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x5B9E;&#x73B0;
+    </p>
+    <p>
+      <multicol cols="2">&#x5B9E;&#x73B0;</multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (fold op initial seq)
+ (if (null? seq)
+  initial
+  (fold op
+        (op (car seq) initial)
+        (cdr seq))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (fold-right op initial seq)
+ (if (null? seq)
+  initial
+  (op (car seq)
+      (fold-right op
+                  initial
+                  (cdr seq)))))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2">&#x5E94;&#x7528;</multicol>
+    </p>
+    <p style="margin-top: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fold + 0 (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  10
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fold-right + 0 (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  10
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fold cons () (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  (4 3 2 1)
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(fold-right cons () (list 1 2 3 4))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  (1 2 3 4)
+                </p>
+              </div>
+            </div></tt>
+          </p>
+        </div>
+      </div></font></multicol>
+    </p>
+    <p style="margin-bottom: 0.5em">
+      <multicol cols="2"><font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x7406;&#x89E3;&#x5DE6;&#x6298;&#x53E0;fold
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x901A;&#x8FC7;&#x53EF;&#x89C6;&#x5316;&#x7406;&#x89E3;<tt class="verbatim">(fold
+      cons () (list 1 2 3))</tt>
+    </p>
+    <p style="margin-top: 1em">
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 0</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(fold cons </tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">  ()</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"> <span class="no-breaks"><img src="slide10-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484812em; margin-right: -0.02482424242424308em; margin-top: -0.04193939393939394em; vertical-align: -12.941963636363637em; height: 14.22041212121212em" />)</span></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 1</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(fold cons </tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">  <img src="slide10-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242193em; margin-right: -0.024824242424242193em; margin-top: -0.04193939393939394em; vertical-align: -4.313987878787879em; height: 5.530375757575758em" /></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"> <span class="no-breaks"><img src="slide10-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484812em; margin-right: -0.02482424242424308em; margin-top: -0.04193939393939394em; vertical-align: -8.627975757575758em; height: 9.906424242424242em" />)</span></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 2</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(fold cons  <img src="slide10-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02482424242424308em; margin-right: -0.02482424242424308em; margin-top: -0.04193939393939394em; vertical-align: -8.627975757575758em; height: 9.844363636363637em" /></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">  <span class="no-breaks"><img src="slide10-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484901em; margin-right: -0.024824242424242193em; margin-top: -0.04193939393939394em; vertical-align: -4.313987878787879em; height: 5.592436363636365em" />)</span></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 3</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p style="margin-bottom: 1em">
+      <multicol cols="4"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(fold cons <img src="slide10-6.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02482424242424308em; margin-right: -0.02482424242424308em; margin-top: -0.04193939393939394em; vertical-align: -12.941963636363637em; height: 14.158351515151516em" /> ())</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x7406;&#x89E3;&#x53F3;&#x6298;&#x53E0;fold-right&#x6B65;&#x9AA4;0-1
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x901A;&#x8FC7;&#x53EF;&#x89C6;&#x5316;&#x7406;&#x89E3;<tt class="verbatim">(fold-right
+      cons () (list 1 2 3))</tt>
+    </p>
+    <p style="margin-top: 1em">
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 0</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(fold-right cons () <span class="no-breaks"><img src="slide10-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484812em; margin-right: -0.02482424242424308em; margin-top: -0.04193939393939394em; vertical-align: -12.941963636363637em; height: 14.22041212121212em"
+            />)</span></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 1</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(cons 1</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"> (fold-right cons () <span class="no-breaks"><img src="slide10-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484812em; margin-right: -0.02482424242424308em; margin-top: -0.04193939393939394em; vertical-align: -8.627975757575758em; height: 9.906424242424242em"
+            />)))</span></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p style="margin-bottom: 1em">
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x7406;&#x89E3;&#x53F3;&#x6298;&#x53E0;fold-right&#x6B65;&#x9AA4;2-3
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <p>
+      &#x901A;&#x8FC7;&#x53EF;&#x89C6;&#x5316;&#x7406;&#x89E3;<tt class="verbatim">(fold-right
+      cons () (list 1 2 3))</tt>
+    </p>
+    <p style="margin-top: 1em">
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 2</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(cons 1</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"> (cons 2</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">  (fold-right cons () <span class="no-breaks"><img src="slide10-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484901em; margin-right: -0.024824242424242193em; margin-top: -0.04193939393939394em; vertical-align: -4.313987878787879em; height: 5.592436363636365em"
+            />)))</span></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">; Step 3</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim">(cons 1 (cons 2 (cons 3 ()))))</tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p>
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"><img src="slide10-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484812em; margin-right: -0.02482424242424308em; margin-top: -0.04193939393939394em; vertical-align: -12.941963636363637em; height: 14.22041212121212em" /></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <p style="margin-bottom: 1em">
+      <multicol cols="2"><div style="margin-left: 59.748166272000006px">
+        <div style="text-indent: 0em" class="compact-block">
+          <p>
+            <tt class="verbatim"></tt>
+          </p>
+        </div>
+      </div></multicol>
+    </p>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x884D;&#x751F;&#x7B97;&#x5B50;&#xFF1A;flatmap
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (flatmap f seq)
+  (fold-right append () (map f seq)))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                flatmap
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(flatmap (lambda (x) (list x x)) (list 1 2 3 4))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                (1 1 2 2 3 3 4 4)
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(map (lambda (x) (list x x)) (list 1 2 3 4))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                ((1 1) (2 2) (3 3) (4 4))
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <center>
+      <img src="slide10-7.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.09221818181818198em; margin-right: -0.09221818181817554em; margin-top: -0.09221818181818175em; vertical-align: -1.7079272727272727em; height: 4.357042424242424em" />
+    </center>
+    <center>
+      <img src="slide10-8.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.09221818181818175em; margin-right: -0.09221818181818264em; margin-top: -0.039175757575757864em; vertical-align: -0.6860606060606061em; height: 2.8280242424242426em" />
+    </center>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x884D;&#x751F;&#x7B97;&#x5B50;&#xFF1A;flatmap&#x7684;&#x5E94;&#x7528;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (remove item sequence)
+  (filter (lambda (x) (not (= x item)))
+          sequence))</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(define (permutations s)
+  (if (null? s)                   ; empty set?
+      (list ())                   ; sequence containing empty set
+      (flatmap (lambda (x)
+                 (map (lambda (p) (cons x p))
+                      (permutations (remove x s))))
+               s)))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+(permutations (list 1 2 3))</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                ((1 2 3) (1 3 2) (2 1 3) (2 3 1) (3 1 2) (3 2 1))
+              </p>
+            </div>
+          </div></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#dfdfff;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <div style="margin-left: -33.208777666056px; margin-right: -33.208777666056px" class="compact-block">
+      <font color="#d8d8ff"><font style="font-size: 141.4%"><table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-top: 0.5em; padding-bottom: 0.5em; background-color: #000080; text-align: center; border-bottom: 0px solid"><font color="white"><div class="center-tab">
+            &#x603B;&#x7ED3;
+          </div></font></td>
+        </tr><tr>
+          <td style="text-align: center; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><p>
+            
+          </p></td>
+        </tr></tbody>
+      </table></font></font>
+    </div>
+    <ul>
+      <li>
+        <p>
+          &#x5B9A;&#x4E49;&#x6570;&#x636E;: list
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x4E09;&#x677F;&#x65A7;&#x4E4B;&#x6620;&#x5C04;map
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x4E09;&#x677F;&#x65A7;&#x4E4B;&#x8FC7;&#x6EE4;filter
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x4E09;&#x677F;&#x65A7;&#x4E4B;&#x6298;&#x53E0;fold/fold-right
+        </p>
+      </li>
+      <li>
+        <p>
+          &#x884D;&#x751F;&#x7B97;&#x5B50;&#xFF1A;&#x53C2;&#x8003;<a href="https://srfi.schemers.org/srfi-1/srfi-1.html">SRFI-1:
+          List Library</a>
+        </p>
+        <ul>
+          <li>
+            <p>
+              flatmap
+            </p>
+          </li>
+          <li>
+            <p>
+              find
+            </p>
+          </li>
+          <li>
+            <p>
+              any (&exist;)
+            </p>
+          </li>
+          <li>
+            <p>
+              every (&forall;)
+            </p>
+          </li>
+          <li>
+            <p>
+              count
+            </p>
+          </li>
+          <li>
+            <p>
+              reduce/reduce-right
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

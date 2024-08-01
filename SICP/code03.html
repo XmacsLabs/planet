@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No title</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <h2 id="auto-1">Slide 2<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(+ 1 1)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(begin
+  (+ 1 1)
+  (+ 1 3))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            4
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(and (begin
+       (debug-message &quot;std&quot; &quot;branch 1\n&quot;)
+       #t)
+     (begin
+       (debug-message &quot;std&quot; &quot;branch 2\n&quot;)
+       #t))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            #t
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(or (begin
+       (debug-message &quot;std&quot; &quot;branch 1\n&quot;)
+       #t)
+     (begin
+       (debug-message &quot;std&quot; &quot;branch 2\n&quot;)
+       #f))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            #t
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <h2 id="auto-2">Slide 3<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define result 0)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            0
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(for (x (list 1 2 3 4))
+  (set! result (+ result x)))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+result</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            10
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (range n)
+  (if (&lt;= n 0)
+      (list )
+      (append (range (- n 1)) (list n))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            range
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(range 5)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            (1 2 3 4 5)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (sigma1 n)
+  (define result1 0)
+  (for (i (range n))
+    (set! result1 (+ result1 i)))
+  result1)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            sigma1
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(sigma1 100)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            5050
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (sigma2 n)
+  (if (= n 0)
+      0
+      (+ n (sigma2 (- n 1))))); tail recursive</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            sigma2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(sigma2 100)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            5050
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <h2 id="auto-3">Slide 4<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (sum start end)
+  (cond ((&gt; start end) 0)
+        ((= start end) end)
+        (else (+ start
+                 (sum (+ start 1) end)))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            sum
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(sum 2 100)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            5049
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <h2 id="auto-4">Slide 5<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (fib n)
+  (cond ((= n 0) 0)
+        ((= n 1) 1)
+        (else (+ (fib (- n 1))
+                 (fib (- n 2))))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            fib
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(fib 2)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            1
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(fib 4)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            3
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(stree-&gt;tree
+ '(tree &quot;fib 2&quot;
+        (tree &quot;fib 1&quot; (tree 1))
+        (tree &quot;fib 0&quot; (tree 0))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            <img src="code03-1.png" style="margin-left: 0em; margin-bottom: -0.031030303030303408em; margin-right: -0.009212121212121005em; margin-top: -0.04793939393939395em; vertical-align: -5.411636363636363em; height: 6.202909090909091em" />
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] ;</tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+scheme tree &lsquo;'</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      <img src="code03-2.png" style="margin-left: 0em; margin-bottom: -0.06206060606060593em; margin-right: 0.006303030303030255em; margin-top: -0.04793939393939395em; vertical-align: -2.7058181818181817em; height: 3.5281212121212118em" />
+    </p>
+    <h2 id="auto-5">Slide 6<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (fib2 n)
+  (define a 0)
+  (define b 1)
+  (define old_b 0)
+  (for (i (range n))
+    (set! old_b b)
+    (set! b (+ a b))
+    (set! a old_b))
+  a)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            fib2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(fib2 2)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            1
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (fib3 n)
+  (define (fib_ab n a b)
+    (if (&lt;= n 0)
+        a
+        (fib_ab (- n 1) b (+ a b))))
+  (fib_ab n 0 1))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            fib3
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(fib3 -1)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 28.116893959188px">
+          <div align="justify">
+            0
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+  </body>
+</html>

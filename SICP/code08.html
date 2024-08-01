@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No title</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (make-rat n d) (cons n d))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            make-rat
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (numer x) (car x))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            numer
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (denom x) (cdr x))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            denom
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x5F0F; n d) (make-rat n d))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x5F0F;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x5B50; x) (numer x))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x5B50;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x6BCD; x) (denom x))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x6BCD;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f z var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x5B50;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f z tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f s var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x5F0F;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f s tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f m var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x6BCD;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f m tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (add-rat x y)
+  (make-rat (+ (* (numer x) (denom y))
+               (* (numer y) (denom x)))
+            (* (denom x) (denom y))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            add-rat
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (sub-rat x y)
+  (make-rat (- (* (numer x) (denom y))
+               (* (numer y) (denom x)))
+            (* (denom x) (denom y))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            sub-rat
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (mul-rat x y)
+  (make-rat (* (numer x) (numer y))
+            (* (denom x) (denom y))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            mul-rat
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (div-rat x y)
+  (make-rat (* (numer x) (denom y))
+            (* (denom x) (numer y))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            div-rat
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (equal-rat? x y)
+  (= (* (numer x) (denom y))
+     (* (numer y) (denom x))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            equal-rat?
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f s + var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x5F0F;&#x52A0;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f s + tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f s - var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x5F0F;&#x51CF;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f s - tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f s * var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x5F0F;&#x4E58;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f s * tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f s / var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x5F0F;&#x9664;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f s / tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(kbd-map (&quot;f s x var&quot; (insert (utf8-&gt;cork &quot;&#x5206;&#x5F0F;&#x663E;&quot;))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (&quot;f s x tab&quot;)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x5F0F;&#x52A0; x y) (add-rat x y))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x5F0F;&#x52A0;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x5F0F;&#x51CF; x y) (sub-rat x y))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x5F0F;&#x51CF;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x5F0F;&#x4E58; x y) (mul-rat x y))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x5F0F;&#x4E58;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x5F0F;&#x9664; x y) (div-rat x y))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x5F0F;&#x9664;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define x (cons 1 2))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (1 . 2)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(car x)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            1
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(cdr x)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            2
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define x (cons 1 2))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (1 . 2)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define y (cons 3 4))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (3 . 4)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define z (cons x y))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            ((1 . 2) 3 . 4)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(car (car z))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            1
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <p>
+      
+    </p>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (print-rat x)
+  (newline)
+  (display (numer x))
+  (display &quot;/&quot;)
+  (display (denom x)))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (&#x5206;&#x5F0F;&#x663E; x)
+  (stree-&gt;tree &lsquo;(frac ,(&#x5206;&#x5B50; x) ,(&#x5206;&#x6BCD; x))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            &#x5206;&#x5F0F;&#x663E;
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define &#x4E8C;&#x5206;&#x4E4B;&#x4E00; (&#x5206;&#x5F0F; 1 2))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (1 . 2)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define &#x4E09;&#x5206;&#x4E4B;&#x4E00; (&#x5206;&#x5F0F; 1 3))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            (1 . 3)
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(&#x5206;&#x5F0F;&#x663E; &#x4E09;&#x5206;&#x4E4B;&#x4E00;)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            <table class="fraction">
+              <tr>
+                <td style="border-bottom: solid 1px">1</td>
+              </tr>
+              <tr>
+                <td>3</td>
+              </tr>
+            </table>
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(&#x5206;&#x5F0F;&#x663E; &#x4E8C;&#x5206;&#x4E4B;&#x4E00;)</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            <table class="fraction">
+              <tr>
+                <td style="border-bottom: solid 1px">1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+              </tr>
+            </table>
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(&#x5206;&#x5F0F;&#x663E; (&#x5206;&#x5F0F;&#x52A0; &#x4E8C;&#x5206;&#x4E4B;&#x4E00; &#x4E09;&#x5206;&#x4E4B;&#x4E00;))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(&#x5206;&#x5F0F;&#x663E; (&#x5206;&#x5F0F;&#x51CF; &#x4E8C;&#x5206;&#x4E4B;&#x4E00; &#x4E09;&#x5206;&#x4E4B;&#x4E00;))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            <table class="fraction">
+              <tr>
+                <td style="border-bottom: solid 1px">1</td>
+              </tr>
+              <tr>
+                <td>6</td>
+              </tr>
+            </table>
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(&#x5206;&#x5F0F;&#x663E; (&#x5206;&#x5F0F;&#x4E58; &#x4E8C;&#x5206;&#x4E4B;&#x4E00; &#x4E09;&#x5206;&#x4E4B;&#x4E00;))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            <table class="fraction">
+              <tr>
+                <td style="border-bottom: solid 1px">1</td>
+              </tr>
+              <tr>
+                <td>6</td>
+              </tr>
+            </table>
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(&#x5206;&#x5F0F;&#x663E; (&#x5206;&#x5F0F;&#x9664; &#x4E8C;&#x5206;&#x4E4B;&#x4E00; &#x4E09;&#x5206;&#x4E4B;&#x4E00;))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <tt class="verbatim"><div style="margin-left: 35.145870328812px">
+          <div align="justify">
+            <table class="fraction">
+              <tr>
+                <td style="border-bottom: solid 1px">3</td>
+              </tr>
+              <tr>
+                <td>2</td>
+              </tr>
+            </table>
+          </div>
+        </div></tt>
+      </p>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><pre class="verbatim" xml:space="preserve">
+Scheme] </pre></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(define (make-rat n d)
+  (let ((g (gcd n d)))
+    (cons (/ n g) (/ d g))))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-top: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+(print-rat (add-rat one-third one-third))</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="padding-left: 0em; padding-right: 0em"><font color="#008000"><tt class="verbatim">Scheme] </tt></font></td>
+          <td style="width: 100%; padding-left: 0em; padding-right: 0em"><font color="black"><pre class="verbatim" xml:space="preserve">
+</pre></font></td>
+        </tr></tbody>
+      </table>
+    </div>
+  </body>
+</html>

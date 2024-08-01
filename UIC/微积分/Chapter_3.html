@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chapter 3: Differentiation Rules</title>
+    <meta content="MoganSTEMSuite 1.2.8-rc2" name="generator" />
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div style="display: none" class="toggle">
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+    </div>
+    <table style="margin-bottom: 2em" class="title-block">
+      <tr>
+        <td><table style="margin-top: 0.5em; margin-bottom: 0.5em" class="title-block">
+          <tr>
+            <td><font style="font-size: 168.2%"><font color="#006060"><strong>Chapter 3: Differentiation
+            Rules</strong></font></font></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <h2>Table of contents<span style="margin-left: 1em"></span></h2>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>1<span style="margin-left: 1em"></span>Derivatives of Polynomials and Exponential
+        Functions</b> <span style="margin-left: 5mm"></span> <a href="#auto-1">1</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        1.1<span style="margin-left: 1em"></span>Power functions <span style="margin-left: 5mm"></span> <a href="#auto-2">1</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        1.2<span style="margin-left: 1em"></span>Linear combination <span style="margin-left: 5mm"></span> <a
+        href="#auto-3">2</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        1.3<span style="margin-left: 1em"></span>Exponential functions <span style="margin-left: 5mm"></span> <a
+        href="#auto-4">2</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>2<span style="margin-left: 1em"></span>The Product and Quotient Rules</b> <span
+        style="margin-left: 5mm"></span> <a href="#auto-5">3</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        2.1<span style="margin-left: 1em"></span>The product rule <span style="margin-left: 5mm"></span> <a href="#auto-6">3</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        2.2<span style="margin-left: 1em"></span>The quotient rule <span style="margin-left: 5mm"></span> <a href="#auto-7">4</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>3<span style="margin-left: 1em"></span>Derivatives of Trigonometric Functions</b>
+        <span style="margin-left: 5mm"></span> <a href="#auto-8">4</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        Derivative of <font color="black"><img src="Chapter_3-1.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242637em; margin-top: -0.04193939393939383em; vertical-align: 0em; height: 1.0674424242424243em" /></font> <span style="margin-left: 5mm"></span>
+        <a href="#auto-9">4</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>4<span style="margin-left: 1em"></span>The Chain Rule</b> <span style="margin-left: 5mm"></span> <a
+        href="#auto-10">5</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>5<span style="margin-left: 1em"></span>Implicit differentiation</b> <span style="margin-left: 5mm"></span>
+        <a href="#auto-11">6</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>6<span style="margin-left: 1em"></span>Derivatives of Logarithmic Functions</b> <span
+        style="margin-left: 5mm"></span> <a href="#auto-12">8</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        6.1<span style="margin-left: 1em"></span>Logarithmic differentiation <span style="margin-left: 5mm"></span>
+        <a href="#auto-13">8</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>7<span style="margin-left: 1em"></span>Rates of Change in the Economics and Social
+        Sciences</b> <span style="margin-left: 5mm"></span> <a href="#auto-14">9</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>8<span style="margin-left: 1em"></span>skip</b> <span style="margin-left: 5mm"></span> <a href="#auto-15">9</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>9<span style="margin-left: 1em"></span>skip</b> <span style="margin-left: 5mm"></span> <a href="#auto-16">9</a>
+      </p>
+    </div>
+    <div style="margin-top: 1em; margin-bottom: 0.5em; text-indent: 0em" class="compact-block">
+      <p style="margin-top: 1em; margin-bottom: 0.5em">
+        <b>10<span style="margin-left: 1em"></span>Linear Approximations and Differentials</b>
+        <span style="margin-left: 5mm"></span> <a href="#auto-17">9</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        10.1<span style="margin-left: 1em"></span>Linear approximations <span style="margin-left: 5mm"></span> <a
+        href="#auto-18">9</a>
+      </p>
+    </div>
+    <div style="text-indent: 0em" class="compact-block">
+      <p>
+        10.2<span style="margin-left: 1em"></span>Differentials <span style="margin-left: 5mm"></span> <a href="#auto-19">10</a>
+      </p>
+    </div>
+    <h2 id="auto-1">1<span style="margin-left: 1em"></span>Derivatives of Polynomials and Exponential
+    Functions<span style="margin-left: 1em"></span></h2>
+    <h3 id="auto-2">1.1<span style="margin-left: 1em"></span>Power functions<span style="margin-left: 1em"></span></h3>
+    <ul>
+      <li>
+        <p>
+          If <font color="black"><img src="Chapter_3-2.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>, where <font color="black"><img
+          src="Chapter_3-3.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font> is a constant. Then
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-4.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.024824242424241305em; margin-top: -0.031030303030302964em; vertical-align: -0.9746909090909092em; height: 2.897939393939394em" /></font>
+        </p>
+      </li>
+      <li>
+        <p>
+          If <font color="black"><img src="Chapter_3-5.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>, then
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-6.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.024824242424244858em; margin-top: -0.031030303030302964em; vertical-align: -0.9746909090909092em; height: 2.897939393939394em" /></font>
+        </p>
+      </li>
+      <li>
+        <p>
+          If <font color="black"><img src="Chapter_3-7.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.04276363636363656em; vertical-align: -0.3723636363636364em; height: 1.6141090909090912em" /></font>, then
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-8.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.024824242424244858em; margin-top: -0.04276363636363634em; vertical-align: -0.9746909090909092em; height: 3.0130424242424247em" /></font>
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-9.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.024824242424241305em; margin-top: -0.04276363636363634em; vertical-align: -0.9746909090909092em; height: 3.011345454545455em" /></font>
+        </p>
+      </li>
+      <li>
+        <p>
+          In general, if <font color="black"><img src="Chapter_3-10.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>, then
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-11.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.02482424242424308em; margin-top: -0.04276363636363634em; vertical-align: -0.3413333333333334em; height: 1.5176727272727275em" /></font>
+        </p>
+        <p>
+          Hint: use the binomial expansion
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-12.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424244858em; margin-top: -0.03175757575757565em; vertical-align: -1.623030303030303em; height: 3.8266666666666667em" /></font>
+        </p>
+        <p>
+          where
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-13.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.042278787878787805em; margin-right: -0.024824242424241305em; margin-top: -0.04470303030303047em; vertical-align: -1.3442909090909092em; height: 3.326448484848485em" /></font>
+        </p>
+      </li>
+      <li>
+        <p>
+          The above results can be generalized to <font color="black"><img src="Chapter_3-14.png"
+          style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.038981818181818895em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>. 
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-15.png" style="margin-left: -0.2978909090909091em; margin-bottom: -0.2730666666666667em; margin-right: -0.024824242424241305em; margin-top: -0.2730666666666668em; vertical-align: -0.42695757575757576em; height: 2.0148363636363635em" /></font>
+        </p>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      From this result we can find the derivative of any polynomial.
+    </p>
+    <h3 id="auto-3">1.2<span style="margin-left: 1em"></span>Linear combination<span style="margin-left: 1em"></span></h3>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-16.png" style="margin-left: -0.2978909090909091em; margin-bottom: -0.2730666666666667em; margin-right: -0.024824242424244858em; margin-top: -0.2730666666666667em; vertical-align: -0.38283636363636364em; height: 1.9265454545454546em" /></font>
+    </p>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">1.1</class>.
+      </strong></font></font>If <font color="black"><img src="Chapter_3-17.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424241305em; margin-top: -0.05464242424242416em; vertical-align: -0.3723636363636364em; height: 1.6265212121212123em" /></font>then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 1em">
+      <font color="black"><img src="Chapter_3-18.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.05464242424242416em; vertical-align: -0.3413333333333334em; height: 1.5300848484848486em" /></font>
+    </p>
+    <h3 id="auto-4">1.3<span style="margin-left: 1em"></span>Exponential functions<span style="margin-left: 1em"></span></h3>
+    <p>
+      Let <font color="black"><img src="Chapter_3-19.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>. Then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-20.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.049648484848485275em; margin-right: -0.024824242424241305em; margin-top: -0.031030303030303408em; vertical-align: -4.685090909090909em; height: 10.0656em" /></font>
+    </p>
+    <p>
+      In fact, 
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-21.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.02482424242424308em; margin-top: -0.03035151515151524em; vertical-align: -0.9746909090909092em; height: 3.0485818181818187em" /></font>
+    </p>
+    <p>
+      if it exists, and
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-22.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.02482424242424308em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font>
+    </p>
+    <p>
+      In fact, 
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-23.png" style="margin-left: -0.2978909090909091em; margin-bottom: -0.2730666666666667em; margin-right: -0.02482424242424308em; margin-top: -0.2730666666666667em; vertical-align: -0.38283636363636364em; height: 1.9265454545454546em" /></font>
+    </p>
+    <p>
+      In particular,
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-24.png" style="margin-left: -0.2978909090909091em; margin-bottom: -0.2730666666666667em; margin-right: -0.02482424242424308em; margin-top: -0.2730666666666667em; vertical-align: -0.38283636363636364em; height: 1.9265454545454546em" /></font>
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Question <class style="font-style: normal">1</class>.
+      </strong></font></font>Prove the limit exists. Hint: tranform the limit
+      to the form containing the term <font color="black"><img src="Chapter_3-25.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.022351515151515233em; margin-right: -0.024824242424241305em; margin-top: -0.03975757575757566em; vertical-align: -1.4149333333333334em; height: 3.6367515151515155em" /></font>.
+    </p>
+    <p>
+      <a href="https://planetmath.org/convergenceofthesequence11nn">Click Here</a> to see a proof that the limit of the sequence
+      <font color="black"><img src="Chapter_3-26.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.022351515151515233em; margin-right: -0.02482424242424308em; margin-top: -0.03975757575757566em; vertical-align: -1.4149333333333334em; height: 3.6367515151515155em" /></font>exists as <font color="black"><img src="Chapter_3-27.png"
+      style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242193em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>.
+    </p>
+    <p>
+      
+    </p>
+    <div style="margin-top: 0em; margin-bottom: 0em">
+      <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+        <p>
+          <span style="background-color:#903000" class="ornament"><font color="white"><font color="white"><font color="white"></font></font></font></span>
+          <i>The <strong>relative rate of change</strong> of a function <font
+          color="black"><img src="Chapter_3-28.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font> is</i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-29.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060548em; margin-right: -0.024824242424242193em; margin-top: -0.03175757575757587em; vertical-align: -1.2277818181818183em; height: 3.1233939393939396em" /></font></i>
+        </p>
+        <p>
+          <i>and the <strong>percentage rate of change</strong> is</i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-30.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060548em; margin-right: -0.024824242424242193em; margin-top: -0.03175757575757587em; vertical-align: -1.2277818181818183em; height: 3.1233939393939396em" /></font></i>
+        </p>
+      </div></font></font>
+    </div>
+    <p>
+      
+    </p>
+    <h2 id="auto-5">2<span style="margin-left: 1em"></span>The Product and Quotient Rules<span style="margin-left: 1em"></span></h2>
+    <h3 id="auto-6">2.1<span style="margin-left: 1em"></span>The product rule<span style="margin-left: 1em"></span></h3>
+    <p>
+      
+    </p>
+    <p>
+      Motivation: How to find the derivative function of <font color="black"><img
+      src="Chapter_3-31.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.04276363636363656em; vertical-align: -0.3723636363636364em; height: 1.6141090909090912em" /></font>?
+    </p>
+    <p>
+      
+    </p>
+    <div style="margin-top: 0em; margin-bottom: 0em">
+      <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+        <p>
+          <span style="background-color:#903000" class="ornament"><font color="white"><font color="white"><font color="white"></font></font></font></span>
+          <i><class style="font-style: normal"><font color="black"></font></class>If <font color="black"><img
+          src="Chapter_3-32.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.12518787878787874em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font> and <font color="black"><img src="Chapter_3-33.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 1.0053818181818182em" /></font>
+          are both differentiable at <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>,
+          then <font color="black"><img src="Chapter_3-35.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font> is differentiable at
+          <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>. Moreover,</i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-36.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424244858em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font></i>
+        </p>
+      </div></font></font>
+    </div>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Proof. </strong></font></font>From the
+      definition,
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-37.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.0062060606060612145em; margin-right: -0.024824242424244858em; margin-top: -0.03103030303030252em; vertical-align: -8.961987878787879em; height: 18.575951515151516em" /></font>
+    </p>
+    <p style="margin-bottom: 1em">
+      <span style="margin-left: 1em"></span><img src="Chapter_3-38.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.04344242424242417em; vertical-align: 0em; height: 0.9060848484848485em" />
+    </p>
+    <p>
+      Intuitive explanation
+    </p>
+    <table style="width: 100%">
+      <tbody><tr>
+        <td style="width: 50%; border-right: 1px solid; border-bottom: 1px solid; border-top: 1px solid; border-left: 1px solid; vertical-align: middle"><p>
+          <img src="Chapter_3-39.png" width="33%" class="image" />
+        </p></td>
+        <td style="width: 50%; border-right: 1px solid; border-bottom: 1px solid; border-top: 1px solid; vertical-align: middle"><p>
+          Let <font color="black"><img src="Chapter_3-40.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>. For small change <font
+          color="black"><img src="Chapter_3-41.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242637em; margin-top: -0.07447272727272725em; vertical-align: 0em; height: 1.1295030303030305em" /></font>, let <font color="black"><img src="Chapter_3-42.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02070303030303028em; margin-right: -0.024824242424242193em; margin-top: -0.07447272727272725em; vertical-align: -0.2896em; height: 1.402569696969697em"
+          /></font> be the change in <font color="black"><img src="Chapter_3-43.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02070303030303028em; margin-right: -0.024824242424242637em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 0.9929696969696971em" /></font>,
+          respectively. Let <font color="black"><img src="Chapter_3-44.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font> be the
+          change in <font color="black"><img src="Chapter_3-45.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>.
+        </p><p>
+          <font color="black"><img src="Chapter_3-46.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.21551515151515144em; margin-right: -0.024824242424241305em; margin-top: -0.031030303030302964em; vertical-align: -2.3487030303030303em; height: 5.127709090909091em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-47.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.21551515151515144em; margin-right: -0.024824242424241305em; margin-top: -0.03103030303030252em; vertical-align: -4.670981818181819em; height: 9.772218181818182em" /></font>
+        </p></td>
+      </tr></tbody>
+    </table>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">2.2</class>.
+      </strong></font></font>
+    </p>
+    <ol style="margin-bottom: 1em">
+      <li>
+        <p>
+          If <font color="black"><img src="Chapter_3-48.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>, find <font color="black"><img
+          src="Chapter_3-49.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>. 
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-50.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424244858em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font>
+        </p>
+      </li>
+      <li>
+        <p>
+          Find the <font color="black"><img src="Chapter_3-51.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>th derivative, <font
+          color="black"><img src="Chapter_3-52.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.7355151515151517em" /></font>.
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-53.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.00620606060606077em; margin-right: -0.024824242424241305em; margin-top: -0.03175757575757565em; vertical-align: -1.3727030303030303em; height: 3.398109090909091em" /></font>
+        </p>
+        <p>
+          Repeat this process one more time, we get 
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-54.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.02482424242424308em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font>
+        </p>
+        <p>
+          In general
+        </p>
+        <p>
+          <font color="black"><img src="Chapter_3-55.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.024824242424242415em; vertical-align: -0.3413333333333334em; height: 1.6577939393939396em" /></font>
+        </p>
+        <p style="margin-top: 1em; margin-bottom: 1em">
+          <font color="black"><font color="black"><strong>Exercise <class style="font-style: normal">2.1</class>.
+          </strong></font></font>Prove the general result using mathematical
+          induction.
+        </p>
+      </li>
+    </ol>
+    <h3 id="auto-7">2.2<span style="margin-left: 1em"></span>The quotient rule<span style="margin-left: 1em"></span></h3>
+    <div style="margin-top: 0em; margin-bottom: 0em">
+      <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+        <p>
+          <span style="background-color:#903000" class="ornament"><font color="white"><font color="white"><font color="white"></font></font></font></span>
+          <i><class style="font-style: normal"><font color="black"></font></class>If <font color="black"><img
+          src="Chapter_3-32.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.12518787878787874em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font> and <font color="black"><img src="Chapter_3-33.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 1.0053818181818182em" /></font>
+          are both differentiable at <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>
+          and <font color="black"><img src="Chapter_3-56.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>, then <font color="black"><img
+          src="Chapter_3-35.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font> is differentiable at <font color="black"><img src="Chapter_3-34.png"
+          style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>. Moreover,</i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-57.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.004945454545454586em; margin-right: -0.024824242424241305em; margin-top: -0.04470303030303047em; vertical-align: -1.2970666666666668em; height: 3.326448484848485em" /></font></i>
+        </p>
+      </div></font></font>
+    </div>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Exercise <class style="font-style: normal">2.2</class>.
+      </strong></font></font>Prove the quotient rule using the definition of
+      derivative.
+    </p>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">2.4</class>.
+      </strong></font></font>Let <font color="black"><img src="Chapter_3-58.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.020703030303030334em; margin-right: -0.02482424242424308em; margin-top: -0.04140606060606067em; vertical-align: -0.7160242424242425em; height: 2.386860606060606em" /></font>. Then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 1em">
+      <font color="black"><img src="Chapter_3-59.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060326em; margin-right: -0.024824242424241305em; margin-top: -0.04276363636363634em; vertical-align: -6.972654545454546em; height: 14.609018181818183em" /></font>
+    </p>
+    <p>
+      
+    </p>
+    <h2 id="auto-8">3<span style="margin-left: 1em"></span>Derivatives of Trigonometric Functions<span
+    style="margin-left: 1em"></span></h2>
+    <h3 id="auto-9">Derivative of <font color="black"><img src="Chapter_3-60.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242637em; margin-top: -0.04193939393939383em; vertical-align: 0em; height: 1.0674424242424243em" /></font><span style="margin-left: 1em"></span></h3>
+    <p>
+      By the definition
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-61.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606059438em; margin-right: -0.024824242424244858em; margin-top: -0.03103030303030252em; vertical-align: -8.954424242424244em; height: 18.560872727272727em" /></font>
+    </p>
+    <table style="width: 100%">
+      <tbody><tr>
+        <td style="width: 50%; border-right: 1px solid; border-bottom: 1px solid; border-top: 1px solid; border-left: 1px solid; vertical-align: middle"><p>
+          <img src="Chapter_3-62.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0em; margin-right: -0.024824242424241305em; margin-top: 0em; vertical-align: -6.595587878787879em; height: 13.18918787878788em" />
+        </p></td>
+        <td style="width: 50%; border-right: 1px solid; border-bottom: 1px solid; border-top: 1px solid; vertical-align: middle"><p>
+          First, assume <font color="black"><img src="Chapter_3-63.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242526em; margin-right: -0.024824242424242193em; margin-top: -0.02899393939393935em; vertical-align: -0.9649939393939394em; height: 2.55689696969697em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-64.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.033939393939393936em; vertical-align: -0.3413333333333334em; height: 1.8171151515151518em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-65.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.051054545454545464em; vertical-align: -0.8818424242424243em; height: 2.6544484848484853em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-66.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.031030303030302964em; vertical-align: -0.3413333333333334em; height: 1.402569696969697em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-67.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424241305em; margin-top: -0.020024242424242278em; vertical-align: -0.8818424242424243em; height: 2.716509090909091em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-68.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.02482424242424308em; margin-top: -0.020024242424242278em; vertical-align: -0.8818424242424243em; height: 2.7040969696969697em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-69.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.024824242424241305em; margin-top: -0.020024242424242278em; vertical-align: -0.9746909090909092em; height: 2.809357575757576em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-70.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.024824242424241305em; margin-top: -0.020024242424242278em; vertical-align: -0.9746909090909092em; height: 2.809357575757576em" /></font>
+        </p><p>
+          By the squeeze theorem, we have
+        </p><p>
+          <font color="black"><img src="Chapter_3-71.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848494em; margin-right: -0.024824242424241305em; margin-top: -0.020024242424242278em; vertical-align: -0.9746909090909092em; height: 2.809357575757576em" /></font>
+        </p><p>
+          <font color="black"></font>
+        </p></td>
+      </tr></tbody>
+    </table>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-73.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848439em; margin-right: -0.024824242424237752em; margin-top: -0.03103030303030252em; vertical-align: -8.558836363636365em; height: 17.813139393939394em" /></font>
+    </p>
+    <p>
+      For your record
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-74.png" style="margin-left: -0.2978909090909091em; margin-bottom: -0.2730666666666668em; margin-right: -0.024824242424241305em; margin-top: -0.2730666666666668em; vertical-align: -1.0402909090909092em; height: 3.2414545454545456em" /></font>
+    </p>
+    <div style="margin-top: 0em; margin-bottom: 0em">
+      <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+        <p>
+          <span style="background-color:#903000" class="ornament"><font color="white"><font color="white"><font color="white"></font></font></font></span>
+          <i><class style="font-style: normal"><font color="black"></font></class></i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-75.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font></i>
+        </p>
+      </div></font></font>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      Using the quotient rule, we can find the derivatives of other
+      trigonometric functions.
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-76.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.004945454545454586em; margin-right: -0.024824242424244858em; margin-top: -0.04470303030303047em; vertical-align: -1.2970666666666668em; height: 3.326448484848485em" /></font>
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Exercise <class style="font-style: normal">3.1</class>.
+      </strong></font></font>Find the derivative of <font color="black"><img src="Chapter_3-77.png"
+      style="margin-left: -0.024824242424242426em; margin-bottom: -0.02070303030303028em; margin-right: -0.024824242424241305em; margin-top: -0.027442424242424268em; vertical-align: -0.2896em; height: 1.2536242424242425em" /></font>.
+    </p>
+    <h2 id="auto-10">4<span style="margin-left: 1em"></span>The Chain Rule<span style="margin-left: 1em"></span></h2>
+    <p>
+      Motivation: If <font color="black"><img src="Chapter_3-78.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.024824242424241305em; margin-top: 0.03471515151515159em; vertical-align: -0.46419393939393944em; height: 1.8494060606060607em" /></font>, then <font
+      color="black"><img src="Chapter_3-79.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>
+    </p>
+    <p>
+      
+    </p>
+    <div style="margin-top: 0em; margin-bottom: 0em">
+      <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+        <p>
+          <span style="background-color:#903000" class="ornament"><font color="white"><font color="white"><font color="white"></font></font></font></span>
+          <i><class style="font-style: normal"><font color="black"></font></class>Suppose <font color="black"><img
+          src="Chapter_3-33.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 1.0053818181818182em" /></font> is differentiable at <font color="black"><img src="Chapter_3-34.png"
+          style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font> and <font color="black"><img src="Chapter_3-32.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.12518787878787874em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font> is
+          differentiable at <font color="black"><img src="Chapter_3-80.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>. Then
+          <font color="black"><img src="Chapter_3-81.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242193em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font> is differentiable at <font
+          color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>, and</i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-82.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.02482424242424308em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font></i>
+        </p>
+        <p>
+          <i>Another way to say this. Suppose <font color="black"><img src="Chapter_3-83.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 1.0053818181818182em"
+          /></font> is a function of <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>,
+          which is differentiable at <font color="black"><img src="Chapter_3-84.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242526em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>,
+          and <font color="black"><img src="Chapter_3-85.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.030012121212121268em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font> is a function of <font
+          color="black"><img src="Chapter_3-83.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 1.0053818181818182em" /></font>, which is differentiable at <font
+          color="black"><img src="Chapter_3-86.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>, then <font color="black"><img src="Chapter_3-85.png"
+          style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.030012121212121268em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font> is a function of <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em"
+          /></font>, which is differentiable at <font color="black"><img src="Chapter_3-84.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242526em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em"
+          /></font>, and</i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-87.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.044848484848484915em; margin-right: -0.024824242424242193em; margin-top: -0.020024242424242278em; vertical-align: -1.1472969696969697em; height: 2.9771636363636365em" /></font></i>
+        </p>
+      </div></font></font>
+    </div>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Proof. </strong></font></font>By the
+      definition,
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-88.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060326em; margin-right: -0.024824242424237752em; margin-top: -0.031030303030303408em; vertical-align: -5.783418181818182em; height: 12.218812121212121em" /></font>
+    </p>
+    <p style="margin-bottom: 1em">
+      <span style="margin-left: 1em"></span><img src="Chapter_3-38.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.04344242424242417em; vertical-align: 0em; height: 0.9060848484848485em" />
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">4.2</class>.
+      </strong></font></font>Find <font color="black"><img src="Chapter_3-89.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font> if
+      <font color="black"><img src="Chapter_3-78.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.024824242424241305em; margin-top: 0.03471515151515159em; vertical-align: -0.46419393939393944em; height: 1.8494060606060607em" /></font>.
+    </p>
+    <p>
+      <strong>Answer:</strong> <font color="black"><img src="Chapter_3-90.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242193em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font>, where
+      <font color="black"><img src="Chapter_3-91.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.02482424242424308em; margin-top: -0.04276363636363656em; vertical-align: -0.4807757575757576em; height: 1.6455757575757577em" /></font>.
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-92.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.05052121212121219em; margin-right: -0.024824242424244858em; margin-top: -0.051054545454545464em; vertical-align: -1.6366545454545456em; height: 3.3339151515151517em" /></font>
+    </p>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">4.3</class>.
+      </strong></font></font>Differentiate <font color="black"><img src="Chapter_3-93.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.05464242424242416em; vertical-align: -0.3723636363636364em; height: 1.6265212121212123em"
+      /></font>.
+    </p>
+    <p>
+      <strong>Answer:</strong> 
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-94.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424244858em; margin-top: -0.05464242424242416em; vertical-align: -0.3413333333333334em; height: 1.5300848484848486em" /></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <strong>Generalization</strong>: For example, 
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-95.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font>
+    </p>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">4.4</class>.
+      </strong></font></font>Find <font color="black"><img src="Chapter_3-96.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font> if
+      <font color="black"><img src="Chapter_3-97.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: 0.019830303030303087em; vertical-align: -0.3723636363636364em; height: 1.790109090909091em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 1em">
+      <font color="black"><img src="Chapter_3-98.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.06293333333333329em; margin-right: -0.024824242424244858em; margin-top: -0.057600000000000096em; vertical-align: -1.3635878787878788em; height: 2.762957575757576em" /></font>
+    </p>
+    <h2 id="auto-11">5<span style="margin-left: 1em"></span>Implicit differentiation<span style="margin-left: 1em"></span></h2>
+    <p>
+      Motivation: How to find <font color="black"><img src="Chapter_3-99.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font> if <font
+      color="black"><img src="Chapter_3-100.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242193em; margin-top: -0.03311515151515132em; vertical-align: -0.2896em; height: 1.4899878787878786em" /></font>?
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">5.1</class>.
+      </strong></font></font>Find <font color="black"><img src="Chapter_3-101.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04276363636363656em; margin-right: -0.02482424242424308em; margin-top: -0.03723636363636329em; vertical-align: -1.6080484848484848em; height: 3.847757575757576em" /></font> if
+      <font color="black"><img src="Chapter_3-102.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242193em; margin-top: -0.04276363636363656em; vertical-align: -0.2896em; height: 1.539636363636364em" /></font>.
+    </p>
+    <p>
+      <img src="Chapter_3-103.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0em; margin-right: -0.024824242424237752em; margin-top: 0em; vertical-align: -15.832775757575758em; height: 31.665551515151517em" />
+    </p>
+    <p>
+      <strong>Answer:</strong> Taking <font color="black"><img src="Chapter_3-104.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.024824242424242415em; margin-top: -0.020703030303030223em; vertical-align: -0.9649939393939394em; height: 2.9540848484848485em" /></font>
+      on both sides of the equation (suppose <font color="black"><img src="Chapter_3-83.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 1.0053818181818182em"
+      /></font> is a function of <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>):
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-105.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.02482424242424308em; margin-top: -0.020024242424242278em; vertical-align: -0.8818424242424243em; height: 2.7040969696969697em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-106.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.02482424242424308em; margin-top: -0.020024242424242278em; vertical-align: -0.8818424242424243em; height: 2.7040969696969697em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-107.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.044848484848484915em; margin-right: -0.024824242424244858em; margin-top: -0.020024242424242278em; vertical-align: -1.1472969696969697em; height: 2.9771636363636365em" /></font>
+    </p>
+    <p>
+      For this example, we can solve <font color="black"><img src="Chapter_3-83.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: -0.2896em; height: 1.0053818181818182em" /></font>
+      for <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font> and double check the answer.
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-108.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.02753939393939392em; margin-right: -0.024824242424241305em; margin-top: 0.02322424242424237em; vertical-align: -0.3750787878787879em; height: 1.7234424242424244em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-109.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.06293333333333329em; margin-right: -0.024824242424241305em; margin-top: -0.020024242424242278em; vertical-align: -1.3635878787878788em; height: 3.085672727272727em" /></font>
+    </p>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">5.2</class>.
+      </strong></font></font>Lemniscate curve:
+    </p>
+    <table style="width: 100%">
+      <tbody><tr>
+        <td style="width: 100%; padding-left: 0em; padding-right: 0em; text-align: center"><p>
+          <img src="Chapter_3-111.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424241305em; margin-top: 0em; vertical-align: 0em; height: 26.4128em" />
+        </p><p>
+          
+        </p></td>
+      </tr></tbody>
+    </table>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-112.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.024824242424244858em; margin-top: -0.020024242424242278em; vertical-align: -0.8818424242424243em; height: 2.7040969696969697em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-113.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424244858em; margin-top: -0.04276363636363634em; vertical-align: -0.3413333333333334em; height: 1.5176727272727275em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 1em">
+      <font color="black"><img src="Chapter_3-114.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060548em; margin-right: -0.02482424242424308em; margin-top: -0.04276363636363634em; vertical-align: -1.2336969696969697em; height: 3.2286060606060607em" /></font>
+    </p>
+    <h2 id="auto-12">6<span style="margin-left: 1em"></span>Derivatives of Logarithmic Functions<span
+    style="margin-left: 1em"></span></h2>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-115.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060326em; margin-right: -0.024824242424241305em; margin-top: 0.03883636363636356em; vertical-align: -7.525769696969697em; height: 15.63369696969697em" /></font>
+    </p>
+    <div style="margin-top: 0em; margin-bottom: 0em">
+      <font color="white"><font color="black"><div style="background-color:#fff0e8;display:block;" class="ornament">
+        <p>
+          <span style="background-color:#903000" class="ornament"><font color="white"><font color="white"><font color="white"></font></font></font></span>
+          <i><class style="font-style: normal"><font color="black"></font></class></i>
+        </p>
+        <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+          <i><font color="black"><img src="Chapter_3-116.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060548em; margin-right: -0.024824242424241305em; margin-top: -0.051054545454545464em; vertical-align: -1.2277818181818183em; height: 2.981769696969697em" /></font></i>
+        </p>
+      </div></font></font>
+    </div>
+    <p>
+      
+    </p>
+    <h3 id="auto-13">6.1<span style="margin-left: 1em"></span>Logarithmic differentiation<span style="margin-left: 1em"></span></h3>
+    <p>
+      Using the properties
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-117.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.031030303030302964em; vertical-align: -0.3413333333333334em; height: 1.402569696969697em" /></font>
+    </p>
+    <p>
+      and implicit differentiation, one can simplify the differentiation of
+      some functions.
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">6.2</class>.
+      </strong></font></font>Find <font color="black"><img src="Chapter_3-118.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.024824242424242415em; margin-top: -0.020703030303030223em; vertical-align: -0.9649939393939394em; height: 2.9540848484848485em" /></font> if
+      <font color="black"><img src="Chapter_3-119.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.05212121212121201em; margin-right: -0.024824242424241305em; margin-top: -0.04276363636363634em; vertical-align: -1.4861575757575758em; height: 3.547878787878788em" /></font>.
+    </p>
+    <p>
+      <strong>Answer:</strong> First, take <font color="black"><img src="Chapter_3-120.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242426em; margin-right: -0.024824242424242415em; margin-top: -0.041648484848484824em; vertical-align: 0em; height: 1.0922666666666667em"
+      /></font> on both sides.
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-121.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242637em; margin-right: -0.024824242424244858em; margin-top: -0.04276363636363634em; vertical-align: -2.9438545454545455em; height: 6.570084848484849em" /></font>
+    </p>
+    <p>
+      Then take <font color="black"><img src="Chapter_3-104.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.024824242424242415em; margin-top: -0.020703030303030223em; vertical-align: -0.9649939393939394em; height: 2.9540848484848485em" /></font> on both sides,
+    </p>
+    <p>
+      
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-122.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.06157575757575717em; margin-right: -0.024824242424244858em; margin-top: -0.06346666666666678em; vertical-align: -6.811490909090909em; height: 14.239660606060607em" /></font>
+    </p>
+    <p style="margin-top: 1em">
+      <font color="black"><font color="black"><strong>Remark <class style="font-style: normal">6.3</class>.
+      </strong></font></font>Let <font color="black"><img src="Chapter_3-123.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242193em; margin-top: -0.041648484848484824em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font>, then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 1em">
+      <font color="black"><img src="Chapter_3-124.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.044848484848484915em; margin-right: -0.02482424242424308em; margin-top: -0.020024242424242278em; vertical-align: -1.1472969696969697em; height: 2.9771636363636365em" /></font>
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">6.4</class>.
+      </strong></font></font><font color="black"><img src="Chapter_3-125.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424241305em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>.
+    </p>
+    <p>
+      <strong>Answer:</strong> 
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-126.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060326em; margin-right: -0.024824242424244858em; margin-top: 0.03883636363636356em; vertical-align: -4.808969696969697em; height: 10.20009696969697em" /></font>
+    </p>
+    <h2 id="auto-14">7<span style="margin-left: 1em"></span>Rates of Change in the Economics and Social
+    Sciences<span style="margin-left: 1em"></span></h2>
+    <p>
+      Read the slides.
+    </p>
+    <p>
+      
+    </p>
+    <h2 id="auto-15">8<span style="margin-left: 1em"></span><p>
+      skip
+    </p><span style="margin-left: 1em"></span></h2>
+    <h2 id="auto-16">9<span style="margin-left: 1em"></span>skip<span style="margin-left: 1em"></span></h2>
+    <h2 id="auto-17">10<span style="margin-left: 1em"></span>Linear Approximations and Differentials<span
+    style="margin-left: 1em"></span></h2>
+    <h3 id="auto-18">10.1<span style="margin-left: 1em"></span>Linear approximations<span style="margin-left: 1em"></span></h3>
+    <p>
+      
+    </p>
+    <p>
+      Suppose <font color="black"><img src="Chapter_3-32.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.12518787878787874em; margin-top: -0.03311515151515154em; vertical-align: -0.2896em; height: 1.3901575757575757em" /></font> is differentiable at
+      <font color="black"><img src="Chapter_3-84.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242526em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>, then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-127.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.016339393939393987em; margin-right: -0.024824242424244858em; margin-top: -0.031030303030302964em; vertical-align: -0.9955878787878788em; height: 2.885527272727273em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-128.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424244858em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-129.png" style="margin-left: -0.2978909090909091em; margin-bottom: -0.2730666666666667em; margin-right: -0.024824242424241305em; margin-top: -0.2730666666666667em; vertical-align: -0.38283636363636364em; height: 1.9265454545454546em" /></font>
+    </p>
+    <p>
+      is called the <strong>linear approximation</strong> of <font color="black"><img
+      src="Chapter_3-28.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>. And the linear function
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-130.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font>
+    </p>
+    <p>
+      is called the <strong>linearization</strong> of <font color="black"><img src="Chapter_3-28.png"
+      style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242637em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>.
+    </p>
+    <p>
+      
+    </p>
+    <table style="width: 100%">
+      <tbody><tr>
+        <td style="width: 50%; border-right: 1px solid; border-bottom: 1px solid; border-top: 1px solid; text-align: left; vertical-align: top; padding-right: 0.5em; padding-bottom: 0.5em; padding-top: 0.5em; padding-left: 0.5em; border-left: 1px solid"><p>
+          <img src="Chapter_3-131.png" width="40%" class="image" />
+        </p></td>
+        <td style="width: 50%; border-right: 1px solid; border-bottom: 1px solid; border-top: 1px solid; text-align: left; vertical-align: top; padding-right: 0.5em; padding-bottom: 0.5em; padding-top: 0.5em; padding-left: 0.5em"><p style="margin-top: 1em; margin-bottom: 1em">
+          <font color="black"><font color="black"><strong>Example <class style="font-style: normal">10.1</class>.
+          </strong></font></font>Estimate the value of <font color="black"><img src="Chapter_3-132.png"
+          style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.024824242424242637em; margin-top: 0.047127272727272684em; vertical-align: -0.3802666666666667em; height: 1.5391030303030304em" /></font> and <font color="black"><img src="Chapter_3-133.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.024824242424242193em; margin-top: 0.047127272727272684em; vertical-align: -0.3802666666666667em; height: 1.5391030303030304em" /></font> using a
+          linear approximation.
+        </p><p>
+          <strong>Answer:</strong> Let <font color="black"><img src="Chapter_3-134.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.02482424242424308em; margin-top: 0.015660606060606153em; vertical-align: -0.4807757575757576em; height: 1.570569696969697em"
+          /></font>. Then <font color="black"><img src="Chapter_3-135.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.05212121212121201em; margin-right: -0.02482424242424308em; margin-top: -0.05793939393939396em; vertical-align: -1.4861575757575758em; height: 3.3486545454545458em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-136.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424241305em; margin-top: -0.06443636363636362em; vertical-align: -0.8818424242424243em; height: 2.666860606060606em" /></font>
+        </p><p>
+          <font color="black"><img src="Chapter_3-137.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424241305em; margin-top: -0.06443636363636362em; vertical-align: -0.8818424242424243em; height: 2.666860606060606em" /></font>
+        </p><p>
+          
+        </p></td>
+      </tr></tbody>
+    </table>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">10.2</class>.
+      </strong></font></font>Approximate the value of <font color="black"><img src="Chapter_3-138.png"
+      style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.02482424242424308em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>.
+    </p>
+    <p>
+      <strong>Answer:</strong> Let <font color="black"><img src="Chapter_3-139.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>,
+      then <font color="black"><img src="Chapter_3-140.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font>, 
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-141.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.03175757575757587em; vertical-align: -0.3413333333333334em; height: 1.4183757575757578em" /></font>
+    </p>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><tt><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  Python 3.9.6
+                  [/Library/Developer/CommandLineTools/usr/bin/python3] 
+                </p>
+                <p>
+                  Python plugin for TeXmacs.
+                </p>
+                <p>
+                  Please see the documentation in Help -&gt; Plugins -&gt;
+                  Python
+                </p>
+              </div>
+            </div></tt></tt>
+          </p>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#fff0e8;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+4.1**0.5</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><tt><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                2.0248456731316584
+              </p>
+            </div>
+          </div></tt></tt>
+        </p>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#fff0e8;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+3.99**0.5</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><tt><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                1.997498435543818
+              </p>
+            </div>
+          </div></tt></tt>
+        </p>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#fff0e8;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+math.sin(0.2)</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><tt><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                0.19866933079506122
+              </p>
+            </div>
+          </div></tt></tt>
+        </p>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#fff0e8;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <p>
+      
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">10.3</class>.
+      </strong></font></font>Find an approximate value of <font color="black"><img
+      src="Chapter_3-142.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.024824242424242637em; margin-top: 0.03170909090909091em; vertical-align: -0.3802666666666667em; height: 1.5986424242424242em" /></font>.
+    </p>
+    <p>
+      <strong>Answer:</strong> Let <font color="black"><img src="Chapter_3-143.png" style="margin-left: -0.024824242424242426em; margin-bottom: 0.052121212121212124em; margin-right: -0.02482424242424308em; margin-top: 0.03170909090909091em; vertical-align: -0.4807757575757576em; height: 1.5986424242424242em" /></font>.
+      Then <font color="black"><img src="Chapter_3-144.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.06206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.04276363636363634em; vertical-align: -0.9649939393939394em; height: 3.271466666666667em" /></font>. 
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-145.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.024824242424244858em; margin-top: -0.07587878787878788em; vertical-align: -0.8818424242424243em; height: 2.6916848484848486em" /></font>
+    </p>
+    <div style="margin-top: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <div style="border-width:1px;;background-color:#fff0e8;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+            <table style="width: 100%">
+              <tbody><tr>
+                <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+                <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+29**(1/3)</pre></td>
+              </tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div></font>
+    </div>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <p>
+          <tt class="verbatim"><tt><div align="justify">
+            <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+              <p>
+                3.072316825685847
+              </p>
+            </div>
+          </div></tt></tt>
+        </p>
+      </div>
+    </div></font>
+    <font style="font-size: 84.1%"><div style="text-indent: 0em">
+      <div class="compact-block">
+        <div style="border-width:1px;;background-color:#fff0e8;border-left-color:#dfdfdf;border-top-color:grey;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+          <table style="width: 100%">
+            <tbody><tr>
+              <td style="text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><font color="#401000"><pre class="verbatim" xml:space="preserve">
+&gt;&gt;&gt; </pre></font></td>
+              <td style="width: 100%; text-align: left; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em"><pre class="verbatim" xml:space="preserve">
+83/27</pre></td>
+            </tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div></font>
+    <div style="margin-bottom: 0.5em">
+      <font style="font-size: 84.1%"><div style="text-indent: 0em">
+        <div class="compact-block">
+          <p>
+            <tt class="verbatim"><tt><div align="justify">
+              <div style="border-width:0px;padding-top:0.5em;padding-bottom:0.5em;background-color:#fff0;border-radius:0px;padding-left:0.5em;padding-right:0.5em;display:block;" class="ornament">
+                <p>
+                  3.074074074074074
+                </p>
+              </div>
+            </div></tt></tt>
+          </p>
+        </div>
+      </div></font>
+    </div>
+    <h3 id="auto-19">10.2<span style="margin-left: 1em"></span>Differentials<span style="margin-left: 1em"></span></h3>
+    <p>
+      Suppose <font color="black"><img src="Chapter_3-146.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.024824242424242415em; margin-right: -0.024824242424242193em; margin-top: -0.024824242424242415em; vertical-align: -0.3723636363636364em; height: 1.5391030303030304em" /></font> is differentiable at
+      <font color="black"><img src="Chapter_3-34.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636364em; margin-right: -0.024824242424242415em; margin-top: -0.03229090909090915em; vertical-align: 0em; height: 0.7199030303030304em" /></font>, then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-147.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.03723636363636362em; margin-right: -0.024824242424241305em; margin-top: -0.020024242424242278em; vertical-align: -0.8818424242424243em; height: 2.7040969696969697em" /></font>
+    </p>
+    <p>
+      where we call <font color="black"><img src="Chapter_3-148.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.033115151515151486em; margin-right: -0.024824242424242637em; margin-top: -0.020703030303030223em; vertical-align: -0.2896em; height: 1.3777454545454546em" /></font>
+      <strong>differentials</strong>.
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <font color="black"><font color="black"><strong>Example <class style="font-style: normal">10.4</class>.
+      </strong></font></font>The radius of a sphere was measured and found to
+      be <font color="black"><img src="Chapter_3-149.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.024824242424242637em; margin-top: -0.07001212121212108em; vertical-align: 0em; height: 1.0922666666666667em" /></font> with a possible error in
+      measurement of at most <font color="black"><img src="Chapter_3-150.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.07447272727272727em; margin-right: -0.024824242424242193em; margin-top: -0.07001212121212108em; vertical-align: 0em; height: 1.1046787878787878em" /></font>. Estimate
+      the maximum error in using this value of the radius to compute the
+      volume of the sphere?
+    </p>
+    <p>
+      <strong>Answer:</strong> Let <font color="black"><img src="Chapter_3-151.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.02070303030303028em; margin-right: -0.2917333333333336em; margin-top: -0.024824242424242415em; vertical-align: -0.2896em; height: 1.3529212121212122em" /></font>
+      denote the radius and volume. Then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-152.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.04964848484848483em; margin-right: -0.024824242424242193em; margin-top: -0.06346666666666656em; vertical-align: -0.8818424242424243em; height: 2.6916848484848486em" /></font>
+    </p>
+    <p>
+      Then <font color="black"><img src="Chapter_3-153.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.062060606060606066em; margin-right: -0.02482424242424308em; margin-top: -0.04276363636363656em; vertical-align: 0em; height: 1.2789818181818184em" /></font>
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-154.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.02482424242424308em; margin-top: -0.04276363636363634em; vertical-align: -0.3413333333333334em; height: 1.5176727272727275em" /></font>
+    </p>
+    <p>
+      Then
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-155.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.006206060606060604em; margin-right: -0.024824242424241305em; margin-top: -0.04276363636363634em; vertical-align: -0.3413333333333334em; height: 1.5176727272727275em" /></font>
+    </p>
+    <p>
+      The relative change of the volume is
+    </p>
+    <p style="margin-top: 0.35000000000000003em; margin-bottom: 0.35000000000000003em">
+      <font color="black"><img src="Chapter_3-156.png" style="margin-left: -0.024824242424242426em; margin-bottom: -0.08688484848484834em; margin-right: -0.024824242424241305em; margin-top: -0.037236363636363734em; vertical-align: -1.2970666666666668em; height: 3.4009212121212125em" /></font>
+    </p>
+  </body>
+</html>
