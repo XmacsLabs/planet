@@ -53,8 +53,7 @@
                 (export-file-to-html dir file output-dir))
               files)))
 
-(tm-define (tm2html_CD)
-  ; (export-directory "/__w/planet/planet" "/__w/planet/planet/CD/html")
+(define (tm2html_CD)
   (let* ((current-dir (url->string (url-pwd)))
          (output-dir (string-append current-dir "/CD/html")))
     (export-directory current-dir output-dir)
