@@ -11,9 +11,6 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(import (srfi srfi-13))
-(import (srfi srfi-1))
-
 (define (list-files dir)
   (let* ((filtered-files (url->list
                           (url-expand
@@ -21,21 +18,12 @@
                             (url-append (url-descendants dir)
                                         (url-or (url-wildcard "*.tm")
                                                 (url-wildcard "*.tmu")))
-                            "fr"))))
-          (filtered-files-no-conflict (filter (lambda (file)
-                                               (let ((file-string (url->string file)))
-                                                 (and (not (string-contains? file-string "MoganSTEMTutorial"))
-                                                      (not (string-contains? file-string "LaTeX"))
-                                                      (not (string-contains? file-string "UIC"))
-                                                      (not (string-contains? file-string "X202402预备会议"))
-                                                      (not (string-contains? file-string "SICP"))
-                                                      (not (string-contains? file-string "LCPU_x_USTCLUG_Salon")))))
-                                             filtered-files)))
+                            "fr")))))
     ; (display "Filtered files:\n")
     ; (for-each (lambda (file) (display (string-append (url->string file) "\n"))) filtered-files)
-    filtered-files-no-conflict))
+    filtered-files))
 
-(define (export-file-to-html file base-dir output-dir)
+(define (export-file-to-html base-dir file output-dir)
   (let* ((relative-path (url-delta base-dir file))
          (output-file-url (url-append output-dir relative-path))
          (output-file-url (url-unglue output-file-url 3)) ; Remove ".tm" or ".tmu" extension
@@ -62,15 +50,10 @@
 (define (export-directory dir output-dir)
   (let* ((files (list-files dir)))
     (for-each (lambda (file)
-                (export-file-to-html file dir output-dir))
+                (export-file-to-html dir file output-dir))
               files)))
 
 (tm-define (tm2html_CICD)
-  ; (url-exists? "/__w/planet/planet/jingkaimori")
-  ; (url-exists? "/__w/planet/planet/CICD")
-  ; (define filtered-files (list-files "F:/mogan/planet"))
-  ; (display filtered-files)
   (export-directory "/__w/planet/planet" "/__w/planet/planet/CICD/html")
-  ; (export-directory "F:/mogan/planet" "F:/mogan/planet/CICD/html")
   (display "Conversion from tm/tmu to html end\n"))
   

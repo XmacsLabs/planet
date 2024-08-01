@@ -22,7 +22,7 @@ jobs:
 
       - name: download release from mogan research repository
         run: |
-          wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.8-rc1/mogan-research-v1.2.8-rc1-debian12.deb -O /tmp/mogan-research.deb
+          wget https://github.com/XmacsLabs/mogan/releases/download/v1.2.8-rc2/mogan-research-v1.2.8-rc2-debian12.deb -O /tmp/mogan-research.deb
           DEBIAN_FRONTEND=noninteractive apt install -y /tmp/mogan-research.deb
 
       - name: convert document to html format
