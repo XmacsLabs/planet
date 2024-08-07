@@ -3,5 +3,5 @@
 <style|generic>
 
 <\body>
-  1.2.7
+  1.2.8
 </body>
