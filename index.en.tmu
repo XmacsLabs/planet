@@ -1,0 +1,15 @@
+<TMU|<tuple|1.0.3|1.2.9>>
+
+<style|<tuple|tmdoc|british>>
+
+<\body>
+  <tmdoc-title|Planet of XmacsLabs>
+
+  Planet is a place for Mogan users. For now, it is mainly in Chinese, see <slink|index.zh.tmu>.
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-medium|papyrus>
+  </collection>
+</initial>
