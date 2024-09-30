@@ -19,7 +19,10 @@
     Scheme/Mogan Editor/Mogan LaTeX Export
   </itemize>
 
-  <section|\<#6295\>\<#7968\>\<#FF08\>2024/09/08\<#FF09\>>
+  <section|\<#6295\>\<#7968\>\<#FF08\>2024/09/29\<#FF5E\>2024/10/29\<#FF09\>>
+
+  <unfolded-comment|+1eFSNXy7yuqrVni|+1eFSNXy7yuqrVnj|comment|Darcy
+  Shen|1727679428||\<#674E\>\<#5CA9\>\<#677E\>\<#8D21\>\<#732E\>\<#4E86\>\<#58A8\>\<#5E72\>\<#548C\>\<#91D1\>\<#9C7C\>Scheme\<#8FD9\>\<#4E24\>\<#4E2A\>\<#9879\>\<#76EE\>\<#FF0C\>\<#5E76\>\<#548C\>\<#8BBA\>\<#6587\>\<#5408\>\<#4F5C\>\<#8005\>\<#4F7F\>\<#7528\>\<#58A8\>\<#5E72\>\<#64B0\>\<#5199\>\<#8BBA\>\<#6587\>\<#FF0C\>\<#800C\>\<#4E14\>\<#975E\>\<#5E38\>\<#79EF\>\<#6781\>\<#7684\>\<#63A8\>\<#5E7F\>\<#58A8\>\<#5E72\>\<#FF0C\>\<#6211\>\<#540C\>\<#610F\>\<#674E\>\<#5CA9\>\<#677E\>\<#52A0\>\<#5165\>\<#58A8\>\<#5BA2\>\<#5B9E\>\<#9A8C\>\<#5BA4\>\<#FF01\>>
 
   \;
 </body>
@@ -44,7 +47,7 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#6295\>\<#7968\>\<#FF08\>2023/08/06~2023/09/06\<#FF09\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#6295\>\<#7968\>\<#FF08\>2024/09/08\<#FF09\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2><vspace|0.5fn>
     </associate>
