@@ -1,0 +1,15 @@
+<TMU|<tuple|1.0.4|1.2.9.3-rc2>>
+
+<style|<tuple|generic|reduced-margins|chinese>>
+
+<\body>
+  <doc-data|<doc-title|模板中心>>
+
+  comming soon
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-screen-margin|true>
+  </collection>
+</initial>

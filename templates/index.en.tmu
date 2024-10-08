@@ -1,0 +1,15 @@
+<TMU|<tuple|1.0.4|1.2.9.3-rc2>>
+
+<style|<tuple|generic|british|reduced-margins>>
+
+<\body>
+  <doc-data|<doc-title|Template Center>>
+
+  comming soon
+</body>
+
+<\initial>
+  <\collection>
+    <associate|page-screen-margin|true>
+  </collection>
+</initial>
