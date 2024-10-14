@@ -1,11 +1,33 @@
-<TMU|<tuple|1.0.4|1.2.9.3-rc2>>
+<TMU|<tuple|1.0.5|1.2.9.5>>
 
 <style|<tuple|generic|reduced-margins|chinese>>
 
 <\body>
   <doc-data|<doc-title|模板中心>>
 
-  comming soon
+  <\wide-tabular>
+    <tformat|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|1|1|5|5|cell-rborder|0ln>|<table|<row|<\cell>
+      名称
+    </cell>|<\cell>
+      类别
+    </cell>|<\cell>
+      作者
+    </cell>|<\cell>
+      版本
+    </cell>|<\cell>
+      版权
+    </cell>>|<row|<\cell>
+      <hlink|中国科学技术大学简历模板|USTC_Resume.tmu>
+    </cell>|<\cell>
+      简历模板
+    </cell>|<\cell>
+      LiiiLabs
+    </cell>|<\cell>
+      20241014
+    </cell>|<\cell>
+      公共领域
+    </cell>>>>
+  </wide-tabular>
 </body>
 
 <\initial>
