@@ -1,0 +1,111 @@
+<TMU|<tuple|1.0.5|1.2.9.5>>
+
+<style|<tuple|beamer|chinese|doc|python|maxima>>
+
+<\body>
+  <\hide-preamble>
+    \;
+  </hide-preamble>
+
+  <screens|<\shown>
+    <tit|第12讲：为<LaTeX>导入设置快捷键<compound|markup|>>
+
+    <tabular|<tformat|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|1|1|2|2|cell-halign|r>|<table|<row|<cell|>|<cell|>|<cell|<menu|Edit|Paste from|LaTeX>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<menu|工具|开发工具>>|<cell|>>|<row|<cell|>|<cell|>|<cell|<menu|开发者|Open my-init-texmacs.scm>>|<cell|>>>>>
+
+    本页幻灯片：点击<strong|<menu|Help|Planet>>，点击<strong|从零开始学墨干理工套件>即可找到。
+
+    <paragraph|使用菜单>
+
+    <\equation*>
+      f<around|(|x|)>=<choice|<tformat|<table|<row|<cell|x>|<cell|<text|if >x\<gtr\>0>>|<row|<cell|-x>|<cell|<text|if >x\<leq\>0>>>>>
+    </equation*>
+
+    <paragraph|临时设置>
+
+    <\scm-code>
+      (clipboard-paste-import "latex" "primary")
+    </scm-code>
+
+    <\session|scheme|default>
+      <\unfolded-io|Scheme] >
+        (kbd-map\ 
+
+        \ \ ("std l" (clipboard-paste-import "latex" "primary"))
+
+        \ \ )
+      <|unfolded-io>
+        ("C-l")
+      </unfolded-io>
+
+      <\input|Scheme] >
+        \;
+      </input>
+    </session>
+
+    <paragraph|配置快捷键>
+
+    <\scm-code>
+      (delayed
+
+      \ \ (lazy-keyboard-force)
+
+      \;
+
+      \ \ (kbd-map
+
+      \ \ \ \ ("std l" (clipboard-paste-import "latex" "primary")))
+
+      )
+    </scm-code>
+
+    \;
+
+    \;
+
+    \;
+  </shown>>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|info-flag|minimal>
+    <associate|page-height|auto>
+    <associate|page-medium|beamer>
+    <associate|page-type|16:9>
+    <associate|page-width|auto>
+    <associate|preamble|false>
+  </collection>
+</initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|?|?>>
+    <associate|auto-2|<tuple|?|?>>
+    <associate|auto-3|<tuple|?|?>>
+    <associate|auto-4|<tuple|?|?>>
+    <associate|auto-5|<tuple|1|?>>
+    <associate|auto-6|<tuple|2|?>>
+    <associate|auto-7|<tuple|3|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|idx>
+      <tuple|<tuple|<with|font-family|<quote|ss>|编辑>|<with|font-family|<quote|ss>|粘贴自>|<with|font-family|<quote|ss>|LaTeX>>|<pageref|auto-1>>
+
+      <tuple|<tuple|<with|font-family|<quote|ss>|工具>|<with|font-family|<quote|ss>|开发工具>>|<pageref|auto-2>>
+
+      <tuple|<tuple|<with|font-family|<quote|ss>|开发者>|<with|font-family|<quote|ss>|打开my-init-texmacs.scm文件>>|<pageref|auto-3>>
+
+      <tuple|<tuple|<with|font-family|<quote|ss>|帮助>|<with|font-family|<quote|ss>|星球>>|<pageref|auto-4>>
+    </associate>
+    <\associate|toc>
+      <with|par-left|<quote|3tab>|使用菜单 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-5>>
+
+      <with|par-left|<quote|3tab>|临时设置 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-6>>
+
+      <with|par-left|<quote|3tab>|配置快捷键 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>> <no-break><pageref|auto-7>>
+    </associate>
+  </collection>
+</auxiliary>
