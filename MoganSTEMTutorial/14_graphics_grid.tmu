@@ -1,0 +1,30 @@
+<TMU|<tuple|1.0.5|1.2.9.5>>
+
+<style|<tuple|generic|chinese|doc>>
+
+<\body>
+  <doc-data|<doc-title|零基础墨干14：绘图模式的网格和吸附>>
+
+  A4纸的宽度是21cm
+
+  绘图模式大格子默认2cm，小格子默认2mm
+
+  大格子宽度= Unit * Unit Length
+
+  <with|gr-mode|point|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.46gh>>|gr-geometry|<tuple|geometry|1par|0.6par>|gr-grid|<tuple|cartesian|<point|0|0>|2>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|5|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|2>|gr-grid-old|<tuple|cartesian|<point|0|0>|2>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|2>|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|5|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|5|#e0e0ff>>|gr-snap|<tuple|grid point>|<graphics||<point|-5.4|3>|<point|-3.57852|4.66608>|<point|-2.81651|4.81424>|<point|-1.25017|4.83541>|<point|-5.54505|4.36248>|<point|-3.00749|3.76186>|<point|-4.08859|2.68076>|<point|-5.04956|2.21531>|<point|-6.6712|2.4105>|<point|-5.90541|2.63572>|<point|-6.25078|1.70479>|<point|-4.9895|3.20629>|<point|-4.67418|3.07116>|<point|-3.9084|2.90599>|<point|-0.00444834|0.00806985>|<point|-3.03752|2.4105>|<point|-0.830269|1.35944>|<point|-0.364797|1.52461>|<point|0.896464|1.47956>|<point|-0.379812|1.25433>|<point|0|4>|<point|0.2|4>|<point|0.6|3.4>|<point|0.4|3.4>|<point|0.8|4>|<point|1|4>|<point|1|3.8>|<point|0.8|3.8>|<point|0.8|3.6>|<point|1|3.6>|<point|1|3.4>|<point|0.8|3.4>|<point|0.8|3.2>|<point|0.6|3.2>|<point|0.4|3.2>|<point|1.6|1.6>|<point|1.2|1.6>>>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|info-flag|minimal>
+    <associate|page-even|0mm>
+    <associate|page-height|auto>
+    <associate|page-medium|beamer>
+    <associate|page-odd|0mm>
+    <associate|page-right|0mm>
+    <associate|page-screen-margin|false>
+    <associate|page-type|a4>
+    <associate|page-width|auto>
+    <associate|preamble|false>
+  </collection>
+</initial>
