@@ -1,12 +1,16 @@
-<TMU|<tuple|1.0.5|1.2.9.5>>
+<TMU|<tuple|1.0.5|1.2.9.7-rc2>>
 
 <style|<tuple|generic|reduced-margins|chinese>>
 
 <\body>
+  <\hide-preamble>
+    <assign|liiilabs|<hlink|LiiiLabs|https://gitee.com/LiiiLabs>>
+  </hide-preamble>
+
   <doc-data|<doc-title|模板中心>>
 
   <\wide-tabular>
-    <tformat|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|1|1|5|5|cell-rborder|0ln>|<table|<row|<\cell>
+    <tformat|<cwith|1|1|1|-1|cell-tborder|0ln>|<cwith|1|1|1|-1|cell-bborder|1ln>|<cwith|2|2|1|-1|cell-tborder|1ln>|<cwith|1|1|1|1|cell-lborder|0ln>|<cwith|1|1|6|6|cell-rborder|0ln>|<table|<row|<\cell>
       名称
     </cell>|<\cell>
       类别
@@ -15,15 +19,31 @@
     </cell>|<\cell>
       版本
     </cell>|<\cell>
+      墨干版本
+    </cell>|<\cell>
       版权
     </cell>>|<row|<\cell>
       <hlink|中国科学技术大学简历模板|USTC_Resume.tmu>
     </cell>|<\cell>
       简历模板
     </cell>|<\cell>
-      LiiiLabs
+      <value|liiilabs>
     </cell>|<\cell>
       20241014
+    </cell>|<\cell>
+      \<geqslant\>v1.2.9.5
+    </cell>|<\cell>
+      公共领域
+    </cell>>|<row|<\cell>
+      <hlink|Gnuplot绘制平面直角坐标系曲线|gnuplot_cartesion.zh.tmu>
+    </cell>|<\cell>
+      绘图模板
+    </cell>|<\cell>
+      <value|liiilabs>
+    </cell>|<\cell>
+      20241123
+    </cell>|<\cell>
+      \<geqslant\>v1.2.9.7
     </cell>|<\cell>
       公共领域
     </cell>>>>
